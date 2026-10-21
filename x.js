@@ -1,0 +1,69 @@
+/* x.js: X (Twitter) for iOS, light timeline, for posts with platform "x". Exposes window.XV.
+   A post renders as a self-thread: the first post plus p.thread[] connected below it, each with its media and a
+   review-only character count (X weighted count, URLs = 23, red over 280). */
+(function () {
+  const C = window.CORE, esc = C.esc;
+  const ic = (d, w) => `<svg width="${w || 19}" height="${w || 19}" viewBox="0 0 24 24" fill="#536471" aria-hidden="true"><path d="${d}"/></svg>`;
+  const I = {
+    logo: '<svg width="26" height="26" viewBox="0 0 24 24" fill="#0f1419" aria-label="X"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>',
+    more: ic("M3 12c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2zm9 2c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm7 0c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2z", 17),
+    reply: ic("M1.751 10c0-4.42 3.584-8 8.005-8h4.366c4.49 0 8.129 3.64 8.129 8.13 0 2.96-1.607 5.68-4.196 7.11l-8.054 4.46v-3.69h-.067c-4.49.1-8.183-3.51-8.183-8.01zm8.005-6c-3.317 0-6.005 2.69-6.005 6 0 3.37 2.77 6.08 6.138 6.01l.351-.01h1.761v2.3l5.087-2.81c1.951-1.08 3.163-3.13 3.163-5.36 0-3.39-2.744-6.13-6.129-6.13H9.756z"),
+    repost: ic("M4.5 3.88l4.432 4.14-1.364 1.46L5.5 7.55V16c0 1.1.896 2 2 2H13v2H7.5c-2.209 0-4-1.79-4-4V7.55L1.432 9.48.068 8.02 4.5 3.88zM16.5 6H11V4h5.5c2.209 0 4 1.79 4 4v8.45l2.068-1.93 1.364 1.46-4.432 4.14-4.432-4.14 1.364-1.46 2.068 1.93V8c0-1.1-.896-2-2-2z"),
+    like: ic("M16.697 5.5c-1.222-.06-2.679.51-3.89 2.16l-.805 1.09-.806-1.09C9.984 6.01 8.526 5.44 7.304 5.5c-1.243.07-2.349.78-2.91 1.91-.552 1.12-.633 2.78.479 4.82 1.074 1.97 3.257 4.27 7.129 6.61 3.87-2.34 6.052-4.64 7.126-6.61 1.111-2.04 1.03-3.7.477-4.82-.561-1.13-1.666-1.84-2.908-1.91zm4.187 7.69c-1.351 2.48-4.001 5.12-8.379 7.67l-.503.3-.504-.3c-4.379-2.55-7.029-5.19-8.382-7.67-1.36-2.5-1.41-4.86-.514-6.67.887-1.79 2.647-2.91 4.601-3.01 1.651-.09 3.368.56 4.798 2.01 1.429-1.45 3.146-2.1 4.796-2.01 1.954.1 3.714 1.22 4.601 3.01.896 1.81.846 4.17-.514 6.67z"),
+    views: ic("M8.75 21V3h2v18h-2zM18 21V8.5h2V21h-2zM4 21l.004-10h2L6 21H4zm9.248 0v-7h2v7h-2z"),
+    mark: ic("M4 4.5C4 3.12 5.119 2 6.5 2h11C18.881 2 20 3.12 20 4.5v18.44l-8-5.71-8 5.71V4.5zM6.5 4c-.276 0-.5.22-.5.5v14.56l6-4.29 6 4.29V4.5c0-.28-.224-.5-.5-.5h-11z", 18),
+    share: ic("M12 2.59l5.7 5.7-1.41 1.42L13 6.41V16h-2V6.41l-3.3 3.3-1.41-1.42L12 2.59zM21 15l-.02 3.51c0 1.38-1.12 2.49-2.5 2.49H5.5C4.11 21 3 19.88 3 18.5V15h2v3.5c0 .28.22.5.5.5h12.98c.28 0 .5-.22.5-.5L19 15h2z", 18),
+    home: ic("M21.591 7.146L12.52 1.157c-.316-.21-.724-.21-1.04 0l-9.071 5.99c-.26.173-.409.456-.409.757v13.183c0 .502.418.913.929.913H9.14c.51 0 .929-.41.929-.913v-7.075h3.909v7.075c0 .502.417.913.928.913h6.165c.511 0 .929-.41.929-.913V7.904c0-.301-.158-.584-.408-.758z", 26).replace('fill="#536471"', 'fill="#0f1419"'),
+    search: ic("M10.25 3.75c-3.59 0-6.5 2.91-6.5 6.5s2.91 6.5 6.5 6.5c1.795 0 3.419-.726 4.596-1.904 1.178-1.177 1.904-2.801 1.904-4.596 0-3.59-2.91-6.5-6.5-6.5zm-8.5 6.5c0-4.694 3.806-8.5 8.5-8.5s8.5 3.806 8.5 8.5c0 1.986-.682 3.815-1.824 5.262l4.781 4.781-1.414 1.414-4.781-4.781c-1.447 1.142-3.276 1.824-5.262 1.824-4.694 0-8.5-3.806-8.5-8.5z", 26),
+    people: ic("M7.501 19.917L7.471 21H.472l.029-1.027c.184-6.618 3.736-8.977 7-8.977.963 0 1.95.212 2.87.672-.444.478-.851 1.03-1.212 1.656-.507-.204-1.054-.329-1.658-.329-2.767 0-4.57 2.223-4.938 6.004H7.56c-.023.302-.05.599-.059.917zm15.998.056L23.528 21H9.472l.029-1.027c.184-6.618 3.736-8.977 7-8.977s6.816 2.358 7 8.977zM21.437 19c-.367-3.781-2.17-6.004-4.938-6.004s-4.57 2.223-4.938 6.004h9.875zm-4.938-9c-.799 0-1.527-.279-2.116-.73-.836-.64-1.384-1.638-1.384-2.77 0-1.93 1.567-3.5 3.5-3.5s3.5 1.57 3.5 3.5c0 1.132-.548 2.13-1.384 2.77-.589.451-1.317.73-2.116.73zm-1.5-3.5c0 .827.673 1.5 1.5 1.5s1.5-.673 1.5-1.5-.673-1.5-1.5-1.5-1.5.673-1.5 1.5zM7.5 3C9.433 3 11 4.57 11 6.5S9.433 10 7.5 10 4 8.43 4 6.5 5.567 3 7.5 3zm0 2C6.673 5 6 5.673 6 6.5S6.673 8 7.5 8 9 7.327 9 6.5 8.327 5 7.5 5z", 26),
+    bell: ic("M19.993 9.042C19.48 5.017 16.054 2 11.996 2s-7.49 3.021-7.999 7.051L2.866 18H7.1c.463 2.282 2.481 4 4.9 4s4.437-1.718 4.9-4h4.236l-1.143-8.958zM12 20c-1.306 0-2.417-.835-2.829-2h5.658c-.412 1.165-1.523 2-2.829 2zm-6.866-4l.847-6.698C6.364 6.272 8.941 4 11.996 4s5.627 2.268 6.013 5.295L18.864 16H5.134z", 26),
+    mail: ic("M1.998 5.5c0-1.381 1.119-2.5 2.5-2.5h15c1.381 0 2.5 1.119 2.5 2.5v13c0 1.381-1.119 2.5-2.5 2.5h-15c-1.381 0-2.5-1.119-2.5-2.5v-13zm2.5-.5c-.276 0-.5.224-.5.5v2.764l8 3.638 8-3.636V5.5c0-.276-.224-.5-.5-.5h-15zm15.5 5.463l-8 3.636-8-3.638V18.5c0 .276.224.5.5.5h15c.276 0 .5-.224.5-.5v-8.037z", 26),
+    plus: '<svg width="24" height="24" viewBox="0 0 24 24" fill="#fff"><path d="M23 3c-6.62-.1-10.38 2.421-13.05 6.03C7.29 12.61 6 17.331 6 22h2c0-1.007.07-2.012.19-3H12c4.1 0 7.48-3.082 7.94-7.054C22.79 10.147 23.17 6.359 23 3zm-7 8h-1.5v2H16c.63-.016 1.2-.08 1.72-.188C16.95 15.24 14.68 17 12 17H8.55c.57-2.512 1.57-4.851 3-6.78 2.16-2.912 5.29-4.911 9.45-5.187C20.95 8.079 19.9 11 16 11zM4 9V6H1V4h3V1h2v3h3v2H6v3H4z"/></svg>'
+  };
+
+  /* X weighted length (twitter-text v3): URLs count 23; U+0000-10FF, 2000-200D, 2010-201F, 2032-2037 weigh 1, the rest 2. */
+  const LIGHT = [[0x0000, 0x10FF], [0x2000, 0x200D], [0x2010, 0x201F], [0x2032, 0x2037]];
+  const wch = (s) => [...s].reduce((n, c) => { const cp = c.codePointAt(0); return n + (LIGHT.some(([a, b]) => cp >= a && cp <= b) ? 1 : 2); }, 0);
+  function weight(text) {
+    let n = 0, last = 0; const re = /https?:\/\/\S+/g; let m;
+    while ((m = re.exec(text))) { n += wch(text.slice(last, m.index)) + 23; last = m.index + m[0].length; }
+    return n + wch(text.slice(last));
+  }
+
+  /* X shows links without the scheme, and long ones cut with an ellipsis */
+  function body(text) {
+    let html = C.rich(text, "x-link");
+    html = html.replace(/(<a class="x-link"[^>]*>)([^<]+)(<\/a>)/g, (_, a, t, z) => { let d = t.replace(/^https?:\/\/(www\.)?/, "").replace(/\/$/, ""); if (d.length > 26) d = d.slice(0, 25) + "…"; return a + esc(d).replace(/&amp;/g, "&") + z; });
+    return html.replace(/(^|\s)([#@][A-Za-z0-9_]+)/g, '$1<span class="x-tag">$2</span>').replace(/\n/g, "<br>");
+  }
+  function mediaFor(p, idx) {
+    const m = p.media || {}, files = m.files || [], g = "x-" + p.key;
+    const im = (f, i) => `<img loading="lazy" src="${esc(f)}" alt="${esc(p.id)} image ${i + 1}" data-lb="${esc(f)}" data-lb-group="${g}" data-lb-caption="${esc(p.id)} · image ${i + 1} of ${files.length}">`;
+    if (m.type === "pending") return idx === 0 ? `<div class="wipbox">Media in production</div>` : "";
+    if (m.type === "images" && m.placement === "thread") return files[idx] ? `<div class="x-media">${im(files[idx], idx)}</div>` : "";
+    if (idx !== 0 || !files.length) return "";
+    if (files.length === 1) return `<div class="x-media">${im(files[0], 0)}</div>`;
+    return `<div class="x-media x-grid n${Math.min(files.length, 4)}">${files.slice(0, 4).map(im).join("")}</div>`;
+  }
+  function one(p, pr, text, i, n) {
+    const w = weight(text), over = w > 280;
+    return `<article class="x-post${i < n - 1 ? " has-next" : ""}">
+      <div class="x-l"><span class="x-av">${pr.avatar_ok ? `<img src="${esc(pr.avatar)}" alt="">` : `<b>${esc(pr.name[0])}</b>`}</span></div>
+      <div class="x-r">
+        <div class="x-h"><span class="x-name">${esc(pr.name)}</span><span class="x-handle">${esc(pr.x_handle || "")} · 1m</span><span class="x-more">${I.more}</span></div>
+        <div class="x-text">${body(text)}</div>
+        ${mediaFor(p, i)}
+        <div class="x-acts"><span>${I.reply}</span><span>${I.repost}</span><span>${I.like}</span><span>${I.views}</span><span class="x-end">${I.mark}${I.share}</span></div>
+        <div class="x-cc${over ? " over" : ""}" title="Review aid, not part of X: weighted X character count (URLs count 23)">${n > 1 ? `${i + 1}/${n} · ` : ""}${w} / 280${over ? " · over the limit" : ""}</div>
+      </div>
+    </article>`;
+  }
+  function screen(p, pr) {
+    const posts = [p.text, ...(p.thread || [])];
+    const top = `<div class="x-top"><span class="x-av sm">${pr.avatar_ok ? `<img src="${esc(pr.avatar)}" alt="">` : ""}</span><span class="x-logo">${I.logo}</span><span class="x-sp"></span></div>
+      <div class="x-tabs"><span class="on">For you</span><span>Following</span></div>`;
+    const tabs = `<div class="x-nav"><span>${I.home}</span><span>${I.search}</span><span>${I.people}</span><span>${I.bell}</span><span>${I.mail}</span></div>`;
+    return `${C.statusBar()}${top}<div class="scroll x-feed">${posts.map((t, i) => one(p, pr, t, i, posts.length)).join("")}<div class="x-endpad"></div></div><span class="x-fab">${I.plus}</span>${tabs}${C.home()}`;
+  }
+  window.XV = { screen, weight };
+})();
