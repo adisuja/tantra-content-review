@@ -21,6 +21,11 @@ window.STUDIO = {
    "id": "1",
    "title": "Batch 1",
    "dates": "Mon 26 Oct to Fri 30 Oct 2026"
+  },
+  {
+   "id": "2",
+   "title": "Batch 2",
+   "dates": "Mon 26 Oct to Fri 6 Nov 2026"
   }
  ],
  "profiles": [
@@ -34,7 +39,19 @@ window.STUDIO = {
    "tz_label": "ET",
    "time": "08:30",
    "avatar_ok": true,
-   "avatar": "media/avatars/adi.jpg?v=20261022041049"
+   "avatar": "media/avatars/adi.jpg?v=20261022051143"
+  },
+  {
+   "id": "tantra",
+   "name": "Tantra",
+   "kind": "company",
+   "headline": "AI RevOps · The 3-Day AI RevOps Workshop",
+   "network": "linkedin",
+   "tz": "America/New_York",
+   "tz_label": "ET",
+   "time": "10:30",
+   "avatar_ok": true,
+   "avatar": "media/avatars/tantra.jpg?v=20261022051143"
   }
  ],
  "posts": [
@@ -64,10 +81,10 @@ window.STUDIO = {
     "title": "Adithya Murali walking alone down an empty street, black and white",
     "tall": false,
     "files": [
-     "media/batch-1/A1/image.jpg?v=20261022041049"
+     "media/batch-1/A1/image.jpg?v=20261022051143"
     ],
     "download": {
-     "href": "media/batch-1/A1/tantra-b1-A1-2026-10-26-adi.png?v=20261022041049",
+     "href": "media/batch-1/A1/tantra-b1-A1-2026-10-26-adi.png?v=20261022051143",
      "name": "tantra-b1-A1-2026-10-26-adi.png",
      "ext": "png",
      "bytes": 934557,
@@ -114,19 +131,19 @@ window.STUDIO = {
     "src": "batch-1/A2",
     "title": "The 8 decisions every page, email and invite depends on",
     "files": [
-     "media/batch-1/A2/p01.jpg?v=20261022041049",
-     "media/batch-1/A2/p02.jpg?v=20261022041049",
-     "media/batch-1/A2/p03.jpg?v=20261022041049",
-     "media/batch-1/A2/p04.jpg?v=20261022041049",
-     "media/batch-1/A2/p05.jpg?v=20261022041049",
-     "media/batch-1/A2/p06.jpg?v=20261022041049",
-     "media/batch-1/A2/p07.jpg?v=20261022041049",
-     "media/batch-1/A2/p08.jpg?v=20261022041049",
-     "media/batch-1/A2/p09.jpg?v=20261022041049",
-     "media/batch-1/A2/p10.jpg?v=20261022041049"
+     "media/batch-1/A2/p01.jpg?v=20261022051143",
+     "media/batch-1/A2/p02.jpg?v=20261022051143",
+     "media/batch-1/A2/p03.jpg?v=20261022051143",
+     "media/batch-1/A2/p04.jpg?v=20261022051143",
+     "media/batch-1/A2/p05.jpg?v=20261022051143",
+     "media/batch-1/A2/p06.jpg?v=20261022051143",
+     "media/batch-1/A2/p07.jpg?v=20261022051143",
+     "media/batch-1/A2/p08.jpg?v=20261022051143",
+     "media/batch-1/A2/p09.jpg?v=20261022051143",
+     "media/batch-1/A2/p10.jpg?v=20261022051143"
     ],
     "download": {
-     "href": "media/batch-1/A2/tantra-b1-A2-2026-10-27-adi.pdf?v=20261022041049",
+     "href": "media/batch-1/A2/tantra-b1-A2-2026-10-27-adi.pdf?v=20261022051143",
      "name": "tantra-b1-A2-2026-10-27-adi.pdf",
      "ext": "pdf",
      "bytes": 1839450,
@@ -172,19 +189,19 @@ window.STUDIO = {
     "src": "batch-1/A3",
     "title": "LinkedIn capped us at 100 invites a week",
     "files": [
-     "media/batch-1/A3/p01.jpg?v=20261022041049",
-     "media/batch-1/A3/p02.jpg?v=20261022041049",
-     "media/batch-1/A3/p03.jpg?v=20261022041049",
-     "media/batch-1/A3/p04.jpg?v=20261022041049",
-     "media/batch-1/A3/p05.jpg?v=20261022041049",
-     "media/batch-1/A3/p06.jpg?v=20261022041049",
-     "media/batch-1/A3/p07.jpg?v=20261022041049",
-     "media/batch-1/A3/p08.jpg?v=20261022041049",
-     "media/batch-1/A3/p09.jpg?v=20261022041049",
-     "media/batch-1/A3/p10.jpg?v=20261022041049"
+     "media/batch-1/A3/p01.jpg?v=20261022051143",
+     "media/batch-1/A3/p02.jpg?v=20261022051143",
+     "media/batch-1/A3/p03.jpg?v=20261022051143",
+     "media/batch-1/A3/p04.jpg?v=20261022051143",
+     "media/batch-1/A3/p05.jpg?v=20261022051143",
+     "media/batch-1/A3/p06.jpg?v=20261022051143",
+     "media/batch-1/A3/p07.jpg?v=20261022051143",
+     "media/batch-1/A3/p08.jpg?v=20261022051143",
+     "media/batch-1/A3/p09.jpg?v=20261022051143",
+     "media/batch-1/A3/p10.jpg?v=20261022051143"
     ],
     "download": {
-     "href": "media/batch-1/A3/tantra-b1-A3-2026-10-28-adi.pdf?v=20261022041049",
+     "href": "media/batch-1/A3/tantra-b1-A3-2026-10-28-adi.pdf?v=20261022051143",
      "name": "tantra-b1-A3-2026-10-28-adi.pdf",
      "ext": "pdf",
      "bytes": 10241254,
@@ -220,7 +237,7 @@ window.STUDIO = {
    "pillar": "Live events",
    "cta": "fallback",
    "idea": "One live session: 98,000 calendar invites, 1,990 registered, 321 live, 25 sales calls; four strategy lessons.",
-   "format": "Carousel · 6 pages",
+   "format": "Carousel · 8 pages",
    "sample": {
     "id": "AV41",
     "creator": "Alex Vacca",
@@ -233,19 +250,21 @@ window.STUDIO = {
     "src": "batch-1/A4",
     "title": "One live session, 98,000 calendar invites",
     "files": [
-     "media/batch-1/A4/p01.jpg?v=20261022041049",
-     "media/batch-1/A4/p02.jpg?v=20261022041049",
-     "media/batch-1/A4/p03.jpg?v=20261022041049",
-     "media/batch-1/A4/p04.jpg?v=20261022041049",
-     "media/batch-1/A4/p05.jpg?v=20261022041049",
-     "media/batch-1/A4/p06.jpg?v=20261022041049"
+     "media/batch-1/A4/p01.jpg?v=20261022051143",
+     "media/batch-1/A4/p02.jpg?v=20261022051143",
+     "media/batch-1/A4/p03.jpg?v=20261022051143",
+     "media/batch-1/A4/p04.jpg?v=20261022051143",
+     "media/batch-1/A4/p05.jpg?v=20261022051143",
+     "media/batch-1/A4/p06.jpg?v=20261022051143",
+     "media/batch-1/A4/p07.jpg?v=20261022051143",
+     "media/batch-1/A4/p08.jpg?v=20261022051143"
     ],
     "download": {
-     "href": "media/batch-1/A4/tantra-b1-A4-2026-10-29-adi.pdf?v=20261022041049",
+     "href": "media/batch-1/A4/tantra-b1-A4-2026-10-29-adi.pdf?v=20261022051143",
      "name": "tantra-b1-A4-2026-10-29-adi.pdf",
      "ext": "pdf",
-     "bytes": 3807480,
-     "pages": 6,
+     "bytes": 4774619,
+     "pages": 8,
      "w": 1080,
      "h": 1350
     }
@@ -294,10 +313,10 @@ window.STUDIO = {
     "title": "Quote: 'Wow, I wouldn't have written them myself.'",
     "tall": false,
     "files": [
-     "media/batch-1/A5/image.jpg?v=20261022041049"
+     "media/batch-1/A5/image.jpg?v=20261022051143"
     ],
     "download": {
-     "href": "media/batch-1/A5/tantra-b1-A5-2026-10-30-adi.png?v=20261022041049",
+     "href": "media/batch-1/A5/tantra-b1-A5-2026-10-30-adi.png?v=20261022051143",
      "name": "tantra-b1-A5-2026-10-30-adi.png",
      "ext": "png",
      "bytes": 411865,
@@ -319,6 +338,586 @@ window.STUDIO = {
    ],
    "first_comment": "Turn your funnel into a written system an AI agent can run, in three live sessions. The next cohort starts Wed 4 Nov at 11:00 AM ET. Save your seat:\nhttps://adisuja.github.io/tantra-workshop-live/site/masterclass/?utm_source=linkedin&utm_medium=social&utm_campaign=content-b1&utm_content=proof-quote-b1A5",
    "key": "b1-A5"
+  },
+  {
+   "id": "T1",
+   "batch": "2",
+   "profile": "tantra",
+   "platform": "linkedin",
+   "status": "ready",
+   "time": "10:30",
+   "cta": "fallback",
+   "date": "2026-10-27",
+   "cta_date": "2026-10-28",
+   "short": "The leak between marketing and sales",
+   "pillar": "RevOps foundations",
+   "idea": "Revenue leaks in the unowned middle of a seven-step path; RevOps is one path, one owner, one set of numbers.",
+   "format": "Carousel · 10 pages",
+   "sample": {
+    "id": "HD26",
+    "creator": "Harry Dry",
+    "what": "rigid two-row before/after grid, clean cards, generous margins, low decoration, the headline set inside a fake OS UI element",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7469656344954896385"
+   },
+   "copy_basis": "Thought Leadership: the meeting everyone knows, the seven steps, the evidence, six old/new rows, three actions",
+   "media": {
+    "type": "carousel",
+    "src": "batch-2/T1",
+    "title": "Old way vs new way: the leak between marketing and sales",
+    "files": [
+     "media/batch-2/T1/p01.jpg?v=20261022051143",
+     "media/batch-2/T1/p02.jpg?v=20261022051143",
+     "media/batch-2/T1/p03.jpg?v=20261022051143",
+     "media/batch-2/T1/p04.jpg?v=20261022051143",
+     "media/batch-2/T1/p05.jpg?v=20261022051143",
+     "media/batch-2/T1/p06.jpg?v=20261022051143",
+     "media/batch-2/T1/p07.jpg?v=20261022051143",
+     "media/batch-2/T1/p08.jpg?v=20261022051143",
+     "media/batch-2/T1/p09.jpg?v=20261022051143",
+     "media/batch-2/T1/p10.jpg?v=20261022051143"
+    ],
+    "download": {
+     "href": "media/batch-2/T1/tantra-b2-T1-2026-10-27-tantra.pdf?v=20261022051143",
+     "name": "tantra-b2-T1-2026-10-27-tantra.pdf",
+     "ext": "pdf",
+     "bytes": 4429940,
+     "pages": 10,
+     "w": 1080,
+     "h": 1350
+    }
+   },
+   "text": "Marketing counts leads. Sales counts deals. Nobody owns the path between them, and that's where the money leaks.\n\nYou've sat in this meeting. Marketing sent 400 leads. Sales says they were junk. Neither side is lying.\n\nThe path from a stranger to a paid invoice has seven steps: Stranger, Attention, Lead, Nurtured, Qualified, Buyer, Paid. Marketing counts step 3. Sales counts step 6. Steps 4 and 5 belong to nobody.\n\nThat middle is measurable, and the numbers aren't kind. When Harvard Business Review audited 2,241 US companies in 2011, 23% never responded to a web lead at all. In a separate study of 1.25 million leads, firms that tried to reach a lead within an hour were nearly 7 times as likely to qualify it as firms that waited an hour longer. (One of the authors ran a lead-response company, so read it as a strong signal, not gospel.)\n\nRevOps is the decision to stop running revenue as two jobs. One path, one owner, one set of numbers.\n\nHere's the difference, row by row:\nWho owns the path: nobody → one owner\nThe numbers: leads in one tool, deals in another → seven steps, one set of numbers\nFollow-up: whenever someone remembers → timed on every channel\nWho does the work: you, an SDR or an agency → an AI agent, through every tool's API\nYour tools: bought one by one, never joined → connected once\nWhen it breaks: found at the end of the quarter → the weakest step flagged every week\n\nThree things to do this week:\n1. Write the seven steps on one line and put last month's count under each.\n2. Agree one written definition of \"qualified\" that both teams sign.\n3. Put a clock on the handoff: every new lead touched within one business hour.\n\nYou didn't fail the old way. The old way was built to leak.\n\nWhich step in your path has no number under it?",
+   "first_comment": "Map your own seven steps and put a number under each, with us. It's Day 1 of the 3-Day AI RevOps Workshop. Next cohort Wed 28 Oct, 11:00 AM ET. Registration closes tonight at 23:59 ET. Save your seat:\nhttps://adisuja.github.io/tantra-workshop-live/site/masterclass/?utm_source=linkedin&utm_medium=social&utm_campaign=content-b2&utm_content=revops-foundations-carousel-b2T1",
+   "sources": [
+    "content/corpus/facts.md: WS-01, WS-02, WS-17, RS-08"
+   ],
+   "numbers_for_signoff": [
+    "400 leads: illustrative story from the playbook (WS-17)",
+    "2,241 companies, 23%, 1.25 million leads, nearly 7x (RS-08, 2011)",
+    "seven steps (WS-17)"
+   ],
+   "flags": [
+    "The 400-leads meeting is the playbook's illustrative story, told as 'you've sat in this meeting', not as a client fact."
+   ],
+   "key": "b2-T1"
+  },
+  {
+   "id": "T10",
+   "batch": "2",
+   "profile": "tantra",
+   "platform": "linkedin",
+   "status": "ready",
+   "time": "10:30",
+   "cta": "fallback",
+   "date": "2026-10-26",
+   "cta_date": "2026-10-28",
+   "short": "Six stages, four layers",
+   "pillar": "RevOps foundations",
+   "idea": "Apps alone do nothing: every stage of a revenue engine needs apps, APIs, automations and workflows.",
+   "format": "Image · infographic",
+   "sample": {
+    "id": "HD44",
+    "creator": "Harry Dry",
+    "what": "radial hub-and-spoke: a central object with 6 satellite cards, connector lines with dot terminals, bilateral symmetry, each card's border colour mapped to its lobe",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7462038083186655233"
+   },
+   "copy_basis": "Thought Leadership: the problem in numbers, the six stages, the four layers, a 30-minute audit",
+   "media": {
+    "type": "image",
+    "src": "batch-2/T10",
+    "title": "Six stages, four layers: the map of a revenue engine",
+    "tall": false,
+    "files": [
+     "media/batch-2/T10/image.jpg?v=20261022051143"
+    ],
+    "download": {
+     "href": "media/batch-2/T10/tantra-b2-T10-2026-10-26-tantra.png?v=20261022051143",
+     "name": "tantra-b2-T10-2026-10-26-tantra.png",
+     "ext": "png",
+     "bytes": 384713,
+     "pages": 1,
+     "w": 1080,
+     "h": 1350
+    }
+   },
+   "text": "Buying the apps isn't building the engine. Every stage of a revenue engine needs four layers: apps, APIs, automations and workflows.\n\nThe martech landscape listed about 150 products in 2011. The 2026 edition lists 15,505. And Gartner's surveys found marketers used 33% of their stack's capabilities in 2023, and 49% in 2025.\n\nMore tools was never the fix. The joins are.\n\nA revenue engine has six stages:\n1. Traffic: every channel feeds it, every link tagged by source.\n2. Capture: the registration page, the video page or the checkout.\n3. Nurture: reminders timed to the session, follow-ups set by behaviour.\n4. Conversion: the live moment where the offer is made.\n5. Close: one pipeline, booked calls or checkout.\n6. Growth: a weekly send for a year, replies back into the pipeline.\n\nEvery stage needs the same four layers:\nApps: the tools.\nAPIs: the joins, like a form webhook into your CRM or a payment webhook that marks the deal won.\nAutomations: things that fire without you, like reminders timed to the session.\nWorkflows: what your buyer actually sees, like the show-up sequence.\n\nApps alone do nothing. Even in large enterprises, MuleSoft's 2026 survey of 1,050 IT leaders found only 27% of applications are connected.\n\nTry this: draw a 6 by 4 grid and fill each cell with a tool or the word \"empty\". The empty cells are your unbuilt engine. Fix the first empty join on the stage that loses the most people.\n\nHow many empty cells did you count?",
+   "first_comment": "Build all six stages and all four layers with us. It's Day 1 of the 3-Day AI RevOps Workshop. Next cohort Wed 28 Oct, 11:00 AM ET. Save your seat:\nhttps://adisuja.github.io/tantra-workshop-live/site/masterclass/?utm_source=linkedin&utm_medium=social&utm_campaign=content-b2&utm_content=revops-foundations-infographic-b2T10",
+   "sources": [
+    "content/corpus/facts.md: WS-03, WS-18, RS-13, RS-14, RS-15"
+   ],
+   "numbers_for_signoff": [
+    "about 150 (2011), 15,505 (2026) (RS-14)",
+    "33% (2023) and 49% (2025), Gartner (RS-13)",
+    "1,050 IT leaders, 27% connected (RS-15)",
+    "six stages, four layers (WS-18)"
+   ],
+   "flags": [],
+   "key": "b2-T10"
+  },
+  {
+   "id": "T2",
+   "batch": "2",
+   "profile": "tantra",
+   "platform": "linkedin",
+   "status": "ready",
+   "time": "10:30",
+   "cta": "fallback",
+   "date": "2026-10-29",
+   "cta_date": "2026-11-04",
+   "short": "Pick the funnel by belief",
+   "pillar": "Funnel strategy",
+   "idea": "Pick webinar, challenge or reverse squeeze by what the buyer already believes, then check who closes and the weekly load.",
+   "format": "Carousel · 8 pages",
+   "sample": {
+    "id": "HD19",
+    "creator": "Harry Dry",
+    "what": "cinematic cover, then framework diagrams: a three-poster row on a hand-drawn spectrum bar",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7472535726350540800"
+   },
+   "copy_basis": "Thought Leadership: the habit, the principle (Schwartz), the three posters, two checks, a planning rule from data",
+   "media": {
+    "type": "carousel",
+    "src": "batch-2/T2",
+    "title": "Webinar, challenge or reverse squeeze: pick by belief",
+    "files": [
+     "media/batch-2/T2/p01.jpg?v=20261022051143",
+     "media/batch-2/T2/p02.jpg?v=20261022051143",
+     "media/batch-2/T2/p03.jpg?v=20261022051143",
+     "media/batch-2/T2/p04.jpg?v=20261022051143",
+     "media/batch-2/T2/p05.jpg?v=20261022051143",
+     "media/batch-2/T2/p06.jpg?v=20261022051143",
+     "media/batch-2/T2/p07.jpg?v=20261022051143",
+     "media/batch-2/T2/p08.jpg?v=20261022051143"
+    ],
+    "download": {
+     "href": "media/batch-2/T2/tantra-b2-T2-2026-10-29-tantra.pdf?v=20261022051143",
+     "name": "tantra-b2-T2-2026-10-29-tantra.pdf",
+     "ext": "pdf",
+     "bytes": 6189087,
+     "pages": 8,
+     "w": 1080,
+     "h": 1350
+    }
+   },
+   "text": "Most teams pick a funnel because they saw it work for someone else. Pick it by what your buyer already believes about you.\n\nIn 1966 Eugene Schwartz argued in Breakthrough Advertising that a message has to start where the reader's awareness is. The same idea picks your funnel.\n\nAsk one recent buyer: \"Before you found us, what did you believe about solving this?\" Then sort the answer.\n\nThey've never heard of you → reverse squeeze. The lesson plays first, with no form in front of it. The form appears only after they've watched enough. You need 2 or 3 case studies for this one to work.\n\nThey must try it to believe it → challenge. A short live cohort, three days at the same hour, where they build alongside you. The offer lands on day 3, on people who have already done the work.\n\nThey know you and need one idea reframed → webinar. One dated live session: teach the method, make the offer once, near the end. It's the best first funnel, because one session shows which message lands.\n\nTwo checks before you commit:\n1. Who closes? If a person closes on a call, every step leads to the call. If a page closes, the page has to answer every objection.\n2. Does it fit a bad week? Our playbook estimates 8 to 12 hours a week for a webinar, 10 to 15 during a challenge cohort, 4 to 8 for a reverse squeeze.\n\nAnd plan for about half the room. Livestorm's 2025 data across 33,786 sessions put average show-up at 47.7%, with 49.6% of registrations arriving in the final week. Other datasets come in lower, so measure your own. Either way, don't judge your registration page on day 3.\n\nWhich belief is your buyer at today?",
+   "first_comment": "Pick your funnel with us, then build it the same week. It's Day 1 of the 3-Day AI RevOps Workshop. Next cohort Wed 4 Nov, 11:00 AM ET. Save your seat:\nhttps://adisuja.github.io/tantra-workshop-live/site/masterclass/?utm_source=linkedin&utm_medium=social&utm_campaign=content-b2&utm_content=funnel-strategy-carousel-b2T2",
+   "sources": [
+    "content/corpus/facts.md: WS-04, WS-22, WS-23, WS-16, RS-11, RS-12"
+   ],
+   "numbers_for_signoff": [
+    "1966 (RS-12)",
+    "2 or 3 case studies; three days; 8 to 12 / 10 to 15 / 4 to 8 hours, playbook estimates (WS-04)",
+    "33,786 sessions, 47.7%, 49.6% (RS-11)"
+   ],
+   "flags": [
+    "Weekly hours are the playbook's estimates and say so."
+   ],
+   "key": "b2-T2"
+  },
+  {
+   "id": "T3",
+   "batch": "2",
+   "profile": "tantra",
+   "platform": "linkedin",
+   "status": "ready",
+   "time": "10:30",
+   "cta": "fallback",
+   "date": "2026-11-02",
+   "cta_date": "2026-11-04",
+   "short": "13 messages, 6 to get them in the room",
+   "pillar": "Nurture and show-up",
+   "idea": "The live-session message library: 6 messages to get them in the room, 7 to follow up, each with one link and a hard timing rule.",
+   "format": "Carousel · 9 pages",
+   "sample": {
+    "id": "HD48",
+    "creator": "Harry Dry",
+    "what": "dark carousel: two-tier stepper grids with a numbered-bar stepper, ending on a comparison table",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7460264792356732928"
+   },
+   "copy_basis": "Thought Leadership: the problem in numbers, the stepper, two branches, three rules, one action",
+   "media": {
+    "type": "carousel",
+    "src": "batch-2/T3",
+    "title": "13 messages: 6 get them in the room, 7 follow up",
+    "files": [
+     "media/batch-2/T3/p01.jpg?v=20261022051143",
+     "media/batch-2/T3/p02.jpg?v=20261022051143",
+     "media/batch-2/T3/p03.jpg?v=20261022051143",
+     "media/batch-2/T3/p04.jpg?v=20261022051143",
+     "media/batch-2/T3/p05.jpg?v=20261022051143",
+     "media/batch-2/T3/p06.jpg?v=20261022051143",
+     "media/batch-2/T3/p07.jpg?v=20261022051143",
+     "media/batch-2/T3/p08.jpg?v=20261022051143",
+     "media/batch-2/T3/p09.jpg?v=20261022051143"
+    ],
+    "download": {
+     "href": "media/batch-2/T3/tantra-b2-T3-2026-11-02-tantra.pdf?v=20261022051143",
+     "name": "tantra-b2-T3-2026-11-02-tantra.pdf",
+     "ext": "pdf",
+     "bytes": 1719797,
+     "pages": 9,
+     "w": 1080,
+     "h": 1350
+    }
+   },
+   "text": "In one big 2025 dataset, about half of webinar registrants never showed up. The fix isn't a better invite. It's 13 timed messages.\n\nLivestorm's 2025 data across 33,786 sessions put average show-up at 47.7%. And 15.3% of people registered on the day itself.\n\nSo here's the message library we build on Day 2 of the workshop. 13 messages, though no one gets all 13.\n\n6 get them in the room:\n1. Confirm, the moment they register\n2. 7 days before: a small exercise that primes the session\n3. The day before at 08:00 their time: what to bring (email and WhatsApp)\n4. 1 hour before: starting soon, join on time\n5. 15 minutes before: one line, one link\n6. At the start: \"we're live\"\n\n4 for people who came: the offer and a short call to check fit, then a recap, a proof line, and a last call with a real deadline.\n\n3 for people who didn't: the replay and its expiry, the one idea they missed, and a last note on the day the replay closes.\n\nThree rules make it work:\n1. One link per message. Nothing else to click.\n2. A message that would arrive late is dropped, never sent late. Someone who registers an hour before gets 4 messages, not 6.\n3. Layer them. In clinic research, a Cochrane review found text reminders lifted attendance from 67.8% to 78.6%, and a 2016 BMJ Open meta-analysis found several notifications beat one. Different setting, same humans.\n\nCount how many of the 6 your next session actually sends.",
+   "first_comment": "Write all 13 messages and their timing with us, for your own session. It's Day 2 of the 3-Day AI RevOps Workshop. Next cohort Wed 4 Nov, 11:00 AM ET. Save your seat:\nhttps://adisuja.github.io/tantra-workshop-live/site/masterclass/?utm_source=linkedin&utm_medium=social&utm_campaign=content-b2&utm_content=nurture-and-show-up-carousel-b2T3",
+   "sources": [
+    "content/corpus/facts.md: WS-08, WS-19, RS-11, RS-17, RS-18, RS-19"
+   ],
+   "numbers_for_signoff": [
+    "13 / 6 / 4 / 3 messages, 7 days, 08:00, 1 hour, 15 minutes (WS-08, WS-19)",
+    "33,786 sessions, 47.7%, 15.3% (RS-11, RS-17)",
+    "67.8% to 78.6% (RS-18), 2016 (RS-19)"
+   ],
+   "flags": [
+    "Retitled after research: one registrant gets at most 10 messages; 6 aim at show-up. Clinic studies labelled as a different setting."
+   ],
+   "key": "b2-T3"
+  },
+  {
+   "id": "T4",
+   "batch": "2",
+   "profile": "tantra",
+   "platform": "linkedin",
+   "status": "ready",
+   "time": "10:30",
+   "cta": "fallback",
+   "date": "2026-11-04",
+   "cta_date": "2026-11-11",
+   "short": "Stop, fix or scale",
+   "pillar": "Measure and improve",
+   "idea": "Three numbers per channel, once a week: bounces first, then click-through, then scale; opens never.",
+   "format": "Carousel · 8 pages",
+   "sample": {
+    "id": "HD39",
+    "creator": "Harry Dry",
+    "what": "identical template stamped per slide, colour = judgement: red, orange and green full-bleed panels, instantly legible",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7463822549735460864"
+   },
+   "copy_basis": "Thought Leadership: the habit, the three calls, the evidence, two rules, definitions",
+   "media": {
+    "type": "carousel",
+    "src": "batch-2/T4",
+    "title": "Stop, fix or scale: the weekly channel check",
+    "files": [
+     "media/batch-2/T4/p01.jpg?v=20261022051143",
+     "media/batch-2/T4/p02.jpg?v=20261022051143",
+     "media/batch-2/T4/p03.jpg?v=20261022051143",
+     "media/batch-2/T4/p04.jpg?v=20261022051143",
+     "media/batch-2/T4/p05.jpg?v=20261022051143",
+     "media/batch-2/T4/p06.jpg?v=20261022051143",
+     "media/batch-2/T4/p07.jpg?v=20261022051143",
+     "media/batch-2/T4/p08.jpg?v=20261022051143"
+    ],
+    "download": {
+     "href": "media/batch-2/T4/tantra-b2-T4-2026-11-04-tantra.pdf?v=20261022051143",
+     "name": "tantra-b2-T4-2026-11-04-tantra.pdf",
+     "ext": "pdf",
+     "bytes": 1205777,
+     "pages": 8,
+     "w": 1080,
+     "h": 1350
+    }
+   },
+   "text": "Three numbers per channel, once a week, decide what you stop, fix or scale. Read bounces first: a bouncing inbox burns your domain.\n\nMost teams read replies first. Read bounces first.\n\nHere's the weekly channel check from Day 3 of the workshop. Three numbers per channel, every week, before anyone rewrites a word:\n\nRed: bounces over 5%. Pause that campaign today. It's a list or inbox problem, not a copy problem. Check the list source, then that the domain has one SPF record, a DKIM key and DMARC.\n\nAmber: bounces of 2% or less, click-through under 1%. Now it's the message. Rewrite the offer line, change one thing, and split next week's list in half.\n\nIn between, 2% to 5% bounces: clean the list before you judge the copy.\n\nGreen: click-through of 3% or more, conversion of 1.5% or more, bounces of 2% or less. Scale it, inside your daily sending caps.\n\nWhy these lines? Mailchimp's guidance says a typical campaign bounces 1% to 2%, to review the list above 2% and to review it urgently above 5%. SendGrid recommends hard bounces under 5% of attempted sends.\n\nTwo more rules:\n1. Never judge cold email on opens. Since Apple's Mail Privacy Protection launched in 2021, senders can't reliably tell when an email was opened.\n2. A blank is not a zero. A channel that doesn't report a number stays empty.\n\nDefine your terms once: click-through is tagged visits divided by sends; conversion is registrations divided by sends. The 1% and 3% lines are our decision rules, not an industry benchmark.\n\nWhich channel would you pause today?",
+   "first_comment": "Set up the weekly channel check on your own numbers, with us. It's Day 3 of the 3-Day AI RevOps Workshop. Next cohort Wed 11 Nov, 11:00 AM ET. Save your seat:\nhttps://adisuja.github.io/tantra-workshop-live/site/masterclass/?utm_source=linkedin&utm_medium=social&utm_campaign=content-b2&utm_content=measure-and-improve-carousel-b2T4",
+   "sources": [
+    "content/corpus/facts.md: WS-10, WS-15, RS-20, RS-21, FX-05"
+   ],
+   "numbers_for_signoff": [
+    "5%, 1%, 3%, 1.5%, 2% (WS-10, workshop decision lines)",
+    "1% to 2%, 2%, 5% (Mailchimp), under 5% (SendGrid) (RS-20)",
+    "2021 (RS-21)"
+   ],
+   "flags": [
+    "The 1% and 3% lines are presented as the workshop's own decision rules, not benchmarks."
+   ],
+   "key": "b2-T4"
+  },
+  {
+   "id": "T5",
+   "batch": "2",
+   "profile": "tantra",
+   "platform": "linkedin",
+   "status": "ready",
+   "time": "10:30",
+   "cta": "fallback",
+   "date": "2026-11-05",
+   "cta_date": "2026-11-11",
+   "short": "Find the leak",
+   "pillar": "Measure and improve",
+   "idea": "Write every stage as a fraction, divide by your last run, fix the lowest ratio, change one thing, split, keep or revert.",
+   "format": "Carousel · 8 pages",
+   "sample": {
+    "id": "HD45",
+    "creator": "Harry Dry",
+    "what": "hero object, then text emphasis, then annotated exhibits with radiating marker callouts; register-switching type",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7461056705544675328"
+   },
+   "copy_basis": "Thought Leadership: the claim, five moves, a fictional example, the principle (Goldratt), two warnings",
+   "media": {
+    "type": "carousel",
+    "src": "batch-2/T5",
+    "title": "Find the one step that leaks your funnel",
+    "files": [
+     "media/batch-2/T5/p01.jpg?v=20261022051143",
+     "media/batch-2/T5/p02.jpg?v=20261022051143",
+     "media/batch-2/T5/p03.jpg?v=20261022051143",
+     "media/batch-2/T5/p04.jpg?v=20261022051143",
+     "media/batch-2/T5/p05.jpg?v=20261022051143",
+     "media/batch-2/T5/p06.jpg?v=20261022051143",
+     "media/batch-2/T5/p07.jpg?v=20261022051143",
+     "media/batch-2/T5/p08.jpg?v=20261022051143"
+    ],
+    "download": {
+     "href": "media/batch-2/T5/tantra-b2-T5-2026-11-05-tantra.pdf?v=20261022051143",
+     "name": "tantra-b2-T5-2026-11-05-tantra.pdf",
+     "ext": "pdf",
+     "bytes": 4172544,
+     "pages": 8,
+     "w": 1080,
+     "h": 1350
+    }
+   },
+   "text": "You don't fix a funnel. You fix one step of it. Here's how to find which one, using nothing but division.\n\nEvery stage is one count divided by the one before it: registrations over visits, attendees over registrations, calls booked over attendees.\n\nOn Day 3 of the workshop we find the leak in five moves:\n1. Write each stage as a fraction with its real counts. A count you don't have reads \"unknown, will measure\".\n2. Divide each rate by a reference. Your own last run is the honest one.\n3. Circle the lowest ratio. That's the step. Torn between two? Take the earlier one, because it feeds the rest.\n4. Change one thing inside that step. Low registrations: the headline. Low show-up: one reminder. Few calls booked: the offer slide and its call to action.\n5. Split the next run in half, write down the deciding number before you start, then keep or revert. Small runs can only test a bold change, so make it bold and read it when the run ends.\n\nA fictional example: 800 visits, 56 registrations, 24 attendees, 3 calls booked. Against the last run, registration fell to 0.78 of its rate while show-up and booking rose. So the headline is the one thing to test.\n\nIt's the Theory of Constraints in miniature. In The Goal (1984), Eliyahu Goldratt and Jeff Cox argued that a system's output is limited by its constraint, so improving anything else changes little.\n\nTwo warnings from people who run experiments for a living:\n- Don't stop early. In Evan Miller's simulation, stopping an A/B test the moment it looked significant pushed false positives from 5% to 26.1%.\n- Expect most changes to lose. Microsoft's experimentation team reported only about a third of ideas improved the metric they targeted.\n\nSo when next week's worst step is a different one, that's the loop working.\n\nWhich stage of your funnel have you never written as a fraction?",
+   "first_comment": "Find your own worst step on your own numbers, with us. It's Day 3 of the 3-Day AI RevOps Workshop. Next cohort Wed 11 Nov, 11:00 AM ET. Save your seat:\nhttps://adisuja.github.io/tantra-workshop-live/site/masterclass/?utm_source=linkedin&utm_medium=social&utm_campaign=content-b2&utm_content=measure-and-improve-carousel-b2T5",
+   "sources": [
+    "content/corpus/facts.md: WS-11, WS-12, WS-20, FX-04, RS-23, RS-24, RS-25"
+   ],
+   "numbers_for_signoff": [
+    "fictional example 800 / 56 / 24 / 3, ratio 0.78 (FX-04)",
+    "1984 (RS-23)",
+    "5% to 26.1% (RS-24)",
+    "about a third (RS-25)"
+   ],
+   "flags": [
+    "The example compares with the reader's own last run, never with the workshop's teaching-model reference rates."
+   ],
+   "key": "b2-T5"
+  },
+  {
+   "id": "T6",
+   "batch": "2",
+   "profile": "tantra",
+   "platform": "linkedin",
+   "status": "ready",
+   "time": "10:30",
+   "cta": "fallback",
+   "date": "2026-11-06",
+   "cta_date": "2026-11-11",
+   "short": "AI agent guardrails",
+   "pillar": "AI orchestration",
+   "idea": "A rule in a prompt is a request; six guardrails that live in files and code let an AI agent run the funnel.",
+   "format": "Carousel · 9 pages",
+   "sample": {
+    "id": "AB34",
+    "creator": "Austin Belcak",
+    "what": "dark tutorial carousel: every page pairs copy with a real screenshot, annotated, with one blue highlight",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7477346638710190080"
+   },
+   "copy_basis": "AB34 tutorial structure: the problem, then one guardrail per page with its real file",
+   "media": {
+    "type": "carousel",
+    "src": "batch-2/T6",
+    "title": "Six guardrails for an AI agent that runs your funnel",
+    "files": [
+     "media/batch-2/T6/p01.jpg?v=20261022051143",
+     "media/batch-2/T6/p02.jpg?v=20261022051143",
+     "media/batch-2/T6/p03.jpg?v=20261022051143",
+     "media/batch-2/T6/p04.jpg?v=20261022051143",
+     "media/batch-2/T6/p05.jpg?v=20261022051143",
+     "media/batch-2/T6/p06.jpg?v=20261022051143",
+     "media/batch-2/T6/p07.jpg?v=20261022051143",
+     "media/batch-2/T6/p08.jpg?v=20261022051143",
+     "media/batch-2/T6/p09.jpg?v=20261022051143"
+    ],
+    "download": {
+     "href": "media/batch-2/T6/tantra-b2-T6-2026-11-06-tantra.pdf?v=20261022051143",
+     "name": "tantra-b2-T6-2026-11-06-tantra.pdf",
+     "ext": "pdf",
+     "bytes": 2101753,
+     "pages": 9,
+     "w": 1080,
+     "h": 1350
+    }
+   },
+   "text": "In July 2025 a founder reported that an AI agent deleted his production database during a code freeze. He'd told it not to change anything.\n\nThe rule lived in a prompt. And a rule in a prompt is a request.\n\nAnthropic's own docs say it plainly: CLAUDE.md is \"context, not enforced configuration\".\n\nSo when an AI agent takes over the funnel on Day 3 of the workshop, it gets six guardrails that live in files and code, not in good intentions:\n\n1. A short brief as the standing order. Ours is 84 lines; Anthropic suggests staying under 200.\n2. One door for every API call: a single script that refuses anything that sends, launches, buys or deletes without the owner's own words.\n3. Approval as a dated line in the owner's own words, naming the tool. A yes to email never opens the CRM.\n4. Keys in .env. One audited script reads them; the agent is denied access.\n5. Every fact written once, in one spec, so two prices get caught before they ship.\n6. Two test contacts, one who shows up and one who doesn't, before any real person is touched.\n\nOne honest caveat: this is a tripwire with a paper trail, not a lock. The log of every call and every refusal is what you read.\n\nOWASP names three causes of the risk: too much functionality, permission and autonomy. Each guardrail takes one of those away.\n\nWhich of the six does your setup have today?",
+   "first_comment": "Build the agent and all six guardrails with us, on your own funnel. It's Day 3 of the 3-Day AI RevOps Workshop. Next cohort Wed 11 Nov, 11:00 AM ET. Save your seat:\nhttps://adisuja.github.io/tantra-workshop-live/site/masterclass/?utm_source=linkedin&utm_medium=social&utm_campaign=content-b2&utm_content=ai-orchestration-carousel-b2T6",
+   "sources": [
+    "content/corpus/facts.md: RS-01, RS-02, RS-03, RS-04, WS-13, WS-14"
+   ],
+   "numbers_for_signoff": [
+    "July 2025 incident, as reported by The Register (RS-04)",
+    "84-line brief; under 200 lines (RS-02)",
+    "six guardrails (WS-13, WS-14)"
+   ],
+   "flags": [
+    "The incident is one party's account as reported by The Register; the post says 'reported' and names no vendor."
+   ],
+   "key": "b2-T6"
+  },
+  {
+   "id": "T7",
+   "batch": "2",
+   "profile": "tantra",
+   "platform": "linkedin",
+   "status": "ready",
+   "time": "10:30",
+   "cta": "fallback",
+   "date": "2026-10-28",
+   "cta_date": "2026-11-04",
+   "short": "The offer sentence",
+   "pillar": "Offer and buyer",
+   "idea": "Six slots, six decisions: the one sentence every page, email and invite is written from.",
+   "format": "Image · infographic",
+   "sample": {
+    "id": "AB07",
+    "creator": "Austin Belcak",
+    "what": "editorial diagram: one colour-coded sentence with a pill legend, every colour meaning one part",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7476319873044766720"
+   },
+   "copy_basis": "Thought Leadership: the problem, the sentence, the six slots, a fictional example, the stranger test",
+   "media": {
+    "type": "image",
+    "src": "batch-2/T7",
+    "title": "The offer sentence, slot by slot",
+    "tall": false,
+    "files": [
+     "media/batch-2/T7/image.jpg?v=20261022051143"
+    ],
+    "download": {
+     "href": "media/batch-2/T7/tantra-b2-T7-2026-10-28-tantra.png?v=20261022051143",
+     "name": "tantra-b2-T7-2026-10-28-tantra.png",
+     "ext": "png",
+     "bytes": 390264,
+     "pages": 1,
+     "w": 1080,
+     "h": 1350
+    }
+   },
+   "text": "If you can't say your offer in one sentence, your landing page will take five paragraphs.\n\nHere's the sentence every page, email and invite gets written from on Day 1 of the workshop:\n\nI help {who} go from {before} to {after} using {mechanism}, in {time}, or {guarantee}.\n\nSix slots. Each one is a decision, not a sentence part:\n\nWho: size, industry and role together. It becomes your list filters.\nBefore: where they're stuck, in their words. It becomes the first line of your cold email.\nAfter: a number with a unit and a period. It becomes the number your dashboard counts.\nMechanism: your method's name. Any tool goes here, never in the outcome.\nTime: how long until they see the after. A shorter honest time beats a longer impressive one.\nGuarantee: only what you can honour for every buyer.\n\nA fictional example: \"I help finance teams of 10 to 40 staff at UK logistics companies go from 12 working days to close the month to 5, using the Five-Step Close, in 45 days, or we keep working at no charge until you get there.\"\n\nWhy one sentence? Nielsen Norman Group (2011), drawing on Microsoft Research data from over 2 billion page visits, found the average visit lasts a little less than a minute. Your offer gets seconds, not paragraphs.\n\nThe test: would a stranger ask a follow-up question? If yes, one slot is vague. Find it.\n\nWrite yours below and check it against the six slots.",
+   "first_comment": "Write your offer sentence with us, then build every page, email and invite from it. It's Day 1 of the 3-Day AI RevOps Workshop. Next cohort Wed 4 Nov, 11:00 AM ET. Save your seat:\nhttps://adisuja.github.io/tantra-workshop-live/site/masterclass/?utm_source=linkedin&utm_medium=social&utm_campaign=content-b2&utm_content=offer-and-buyer-infographic-b2T7",
+   "sources": [
+    "content/corpus/facts.md: WS-05, FX-01, RS-05"
+   ],
+   "numbers_for_signoff": [
+    "six slots (WS-05)",
+    "fictional example numbers (FX-01)",
+    "over 2 billion page visits; under a minute (RS-05)"
+   ],
+   "flags": [
+    "Example is fictional and labelled so."
+   ],
+   "key": "b2-T7"
+  },
+  {
+   "id": "T8",
+   "batch": "2",
+   "profile": "tantra",
+   "platform": "linkedin",
+   "status": "ready",
+   "time": "10:30",
+   "cta": "fallback",
+   "date": "2026-10-30",
+   "cta_date": "2026-11-04",
+   "short": "Size the list backwards",
+   "pillar": "Lists and data",
+   "idea": "Four divisions from a revenue target size the list; only your own rates, because published rates disagree 19x.",
+   "format": "Image · infographic",
+   "sample": {
+    "id": "AV43",
+    "creator": "Alex Vacca",
+    "what": "a central stacked funnel with an annotation column on each side per tier, labels set onto the tiers",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7459540863543595008"
+   },
+   "copy_basis": "Thought Leadership: the habit, the four lines, a fictional example, the evidence rule",
+   "media": {
+    "type": "image",
+    "src": "batch-2/T8",
+    "title": "Size your list backwards from revenue",
+    "tall": false,
+    "files": [
+     "media/batch-2/T8/image.jpg?v=20261022051143"
+    ],
+    "download": {
+     "href": "media/batch-2/T8/tantra-b2-T8-2026-10-30-tantra.png?v=20261022051143",
+     "name": "tantra-b2-T8-2026-10-30-tantra.png",
+     "ext": "png",
+     "bytes": 327529,
+     "pages": 1,
+     "w": 1080,
+     "h": 1350
+    }
+   },
+   "text": "Most teams buy a list and hope it's big enough. Start from revenue and divide backwards: four lines tell you how many to invite.\n\nbuyers = revenue target / price\npeople at the offer = buyers / purchase rate\nregistrants = people at the offer / show rate\ninvites = registrants / registration rate\n\nA fictional example. A payroll consultancy wants 30,000 a month from this funnel at a price of 3,000. That's 10 buyers. If 20% of people who hear the offer buy, 50 need to hear it. If 40% of registrants show up, it needs 125 registrants. If 10% of people invited register, it needs 1,250 invites.\n\nNow the rule most teams skip: every rate comes from your own records.\n\nPublished cold email reply rates don't agree. One 2026 study of 7.5 million emails averaged 0.45%. A 2026 benchmark put it at 3.43%. A 2019 study of 12 million outreach emails found 8.5%. That's roughly 19 times apart, and none of them is your rate.\n\nNo rate yet? Write \"unknown, will measure\" and stop at the buyers number. That's not a failure. It's the first thing to measure.\n\nAnd watch the weakest rate. In the example, a show rate of 20% instead of 40% doubles the list to 2,500 invites.\n\nWhat's the first rate in your funnel you've never actually measured?",
+   "first_comment": "Size your own list from your own numbers with us, before you buy a single contact. It's Day 1 of the 3-Day AI RevOps Workshop. Next cohort Wed 4 Nov, 11:00 AM ET. Save your seat:\nhttps://adisuja.github.io/tantra-workshop-live/site/masterclass/?utm_source=linkedin&utm_medium=social&utm_campaign=content-b2&utm_content=lists-and-data-infographic-b2T8",
+   "sources": [
+    "content/corpus/facts.md: WS-07, FX-02, RS-06"
+   ],
+   "numbers_for_signoff": [
+    "fictional example numbers (FX-02)",
+    "0.45% (7.5 million emails), 3.43%, 8.5% (12 million emails, 2019), about 19x (RS-06)"
+   ],
+   "flags": [
+    "Example is fictional and labelled so. Third-party reply rates shown only to prove they disagree, never as the reader's rate."
+   ],
+   "key": "b2-T8"
+  },
+  {
+   "id": "T9",
+   "batch": "2",
+   "profile": "tantra",
+   "platform": "linkedin",
+   "status": "ready",
+   "time": "10:30",
+   "cta": "fallback",
+   "date": "2026-11-03",
+   "cta_date": "2026-11-04",
+   "short": "Score every application",
+   "pillar": "Qualification",
+   "idea": "A 3 to 5 question application, scored to about 100, routes itself: over 70 books, 40 to 70 gets a reply, under 40 nurtures.",
+   "format": "Image · flowchart",
+   "sample": {
+    "id": "AV26",
+    "creator": "Alex Vacca",
+    "what": "vertical flowchart: a single-column pipeline of step cards that branches into three tier cards and converges on a CRM sync node, with a dashed loop-back",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7467876018767196160"
+   },
+   "copy_basis": "Thought Leadership: the rule, how to build the score, a fictional scoring sheet, why (time and speed), how to tune and test",
+   "media": {
+    "type": "image",
+    "src": "batch-2/T9",
+    "title": "Score every application before anyone gets on a call",
+    "tall": false,
+    "files": [
+     "media/batch-2/T9/image.jpg?v=20261022051143"
+    ],
+    "download": {
+     "href": "media/batch-2/T9/tantra-b2-T9-2026-11-03-tantra.png?v=20261022051143",
+     "name": "tantra-b2-T9-2026-11-03-tantra.png",
+     "ext": "png",
+     "bytes": 1168748,
+     "pages": 1,
+     "w": 1080,
+     "h": 1350
+    }
+   },
+   "text": "Over 70 books a call. 40 to 70 gets a reply within a day. Under 40 goes to nurture. Your calendar should only hold the top band.\n\nOn a reverse squeeze funnel, nobody books a call until they've watched the video and answered a short application.\n\nHere's how we build the score in the workshop:\n- 3 to 5 questions, one per fit rule your video states out loud.\n- Points per answer, so an ideal buyer totals about 100.\n- Never score on country, age or any protected trait.\n\nThen the score routes itself:\nOver 70: straight to the booking page.\n40 to 70: \"Thanks. We'll reply within a day.\"\nUnder 40: \"Watch your inbox.\" They join the long nurture.\n\nA fictional scoring sheet for a cloud cost tool:\nRole: VP of Engineering 30, director 20, other 0.\nTeam: 50 to 500 engineers 25, 10 to 49 engineers 12, fewer 0.\nMonthly cloud spend: over $20,000 25, $5,000 to $20,000 12, less 0.\nTiming: this quarter 20, next quarter 10, later 0.\n\nWhy bother? Salesforce's 2024 State of Sales surveyed 5,500 sales professionals and found reps spend 30% of their week actually selling. A score protects that time. HubSpot and Marketo both build scores the same way: fit (who they are) kept apart from intent (what they did).\n\nSpeed still matters too. In HBR's 2011 study of 1.25 million leads, firms that tried to reach a lead within an hour were nearly 7 times as likely to qualify it. That's why the top band goes straight to the calendar.\n\nTreat 70 and 40 as starting lines. Once a few dozen applications are in, check which band your buyers actually came from, and move the line.\n\nBefore launch, send three test applications through: an ideal fit, a maybe and a poor fit. Each should land in its own band.\n\nWhat's the fit rule your sales calls keep discovering too late?",
+   "first_comment": "Build and test your own application score with us. It's Day 2 of the 3-Day AI RevOps Workshop. Next cohort Wed 4 Nov, 11:00 AM ET. Registration closes tonight at 23:59 ET. Save your seat:\nhttps://adisuja.github.io/tantra-workshop-live/site/masterclass/?utm_source=linkedin&utm_medium=social&utm_campaign=content-b2&utm_content=qualification-image-b2T9",
+   "sources": [
+    "content/corpus/facts.md: WS-09, WS-21, FX-03, RS-08, RS-26, RS-27"
+   ],
+   "numbers_for_signoff": [
+    "70 / 40, 3 to 5 questions, about 100 (WS-09, WS-21)",
+    "fictional scoring sheet (FX-03)",
+    "30% (2024) (RS-26)",
+    "1.25 million, nearly 7x, 2011 (RS-08)"
+   ],
+   "flags": [
+    "70 and 40 are the workshop's starting cut points, presented as starting lines."
+   ],
+   "key": "b2-T9"
   }
  ]
 };
