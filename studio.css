@@ -130,3 +130,7 @@ details.bnav a .cnt{font-size:11px;color:#0b6e4f;background:#E1F8EC;border-radiu
 details.bnav.act summary{background:#e4e1fa}
 details.info .vcopy{margin:4px 0 0;padding-left:18px}details.info .vcopy li{margin:2px 0}
 .wipbox b{display:block;color:#3a3a3a}.wipbox span{display:block;margin-top:2px;font-size:12px}.wipbox ol{margin:10px 0 0;padding-left:18px;text-align:left;font-size:12px;line-height:1.4}.wipbox li{margin:3px 0}
+
+.dl .dlb.half{grid-column:auto}
+.li-imgpost video{display:block;width:100%;height:100%;object-fit:cover}
+.li-gif{position:absolute;left:8px;bottom:8px;background:rgba(0,0,0,.6);color:#fff;font:700 10px/1 system-ui;padding:4px 6px;border-radius:4px;letter-spacing:.04em}

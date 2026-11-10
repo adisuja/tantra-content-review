@@ -87,6 +87,9 @@
     if (m.type === "image" && m.files && m.files.length) {
       return `<div class="li-imgpost${m.tall ? " tall" : ""}"><img loading="lazy" src="${esc(m.files[0])}" alt="${esc(p.id)}" data-lb="${esc(m.files[0])}" data-lb-caption="${esc(p.id)} · ${esc(p.idea || "")}"></div>`;
     }
+    if (m.type === "video" && m.video) {
+      return `<div class="li-imgpost li-vid${m.tall ? " tall" : ""}"><video src="${esc(m.video)}" poster="${esc(m.files[0])}" autoplay loop muted playsinline preload="metadata" aria-label="${esc(p.id)} animation"></video><span class="li-gif">GIF</span></div>`;
+    }
     if (m.type === "carousel" && m.files && m.files.length) {
       const g = "car-" + p.key, n = m.files.length;
       const slides = m.files.map((f, i) => `<div class="li-slide"><img loading="lazy" src="${esc(f)}" alt="${esc(p.id)} page ${i + 1}" data-lb="${esc(f)}" data-lb-group="${g}" data-lb-caption="${esc(m.title || p.id)} · page ${i + 1} of ${n}"></div>`).join("");
@@ -159,6 +162,10 @@
     if (many.length) {
       const btns = many.map((x, i) => `<a class="btn dlb" href="${esc(x.href)}" download="${esc(x.name)}" title="${x.w} × ${x.h} px · full quality · ${mb(x.bytes)}">Download PNG ${i + 1} of ${many.length}</a>`).join("");
       return `<section class="dl"><div class="dlrow dlmany">${btns}</div><div class="dlrow"><span class="dlm">${many[0].w} × ${many[0].h} px each · full quality</span></div><div class="dlrow">${copyBtn}${p.platform === "x" ? noX : p.first_comment ? `<button class="btn ghost" data-copyt="first_comment">Copy first comment</button>` : ""}</div></section>`;
+    }
+    if ((p.media || {}).sets && p.media.sets.length) {
+      const s = p.media.sets, fc2 = p.first_comment ? `<button class="btn ghost" data-copyt="first_comment">Copy first comment</button>` : `<button class="btn ghost" disabled title="This post has no first comment">No first comment</button>`;
+      return `<section class="dl"><div class="dlrow">${s.map((x) => `<a class="btn dlb half" href="${esc(x.href)}" download="${esc(x.name)}" title="${mb(x.bytes)}">${esc(x.label)} · ${mb(x.bytes)}</a>`).join("")}<span class="dlm">Animated 4:5 · post the GIF as an image, or the MP4 as a video</span></div><div class="dlrow">${copyBtn}${fc2}</div></section>`;
     }
     const file = d ? `<a class="btn dlb" href="${esc(d.href)}" download="${esc(d.name)}">${d.ext === "pdf" ? `Download PDF · ${d.pages} slides` : "Download PNG"}</a>
         <span class="dlm">${d.w} × ${d.h} px · full quality · ${mb(d.bytes)}</span>` : "";
