@@ -137,7 +137,8 @@ details.info .vcopy{margin:4px 0 0;padding-left:18px}details.info .vcopy li{marg
 
 /* giveaway resource preview and the messages that deliver it */
 .dl.res .resh{display:flex;flex-direction:column;gap:1px}.dl.res .resh b{font-size:13px}.dl.res .resh span{font-size:11px;color:#6b6b6b}
-.dl.res .resf{width:100%;height:480px;border:1px solid #e6e3dd;border-radius:8px;background:#f4f3fb;display:block}
+.dl.res .resw{height:480px;overflow:hidden;border:1px solid #e6e3dd;border-radius:8px;background:#f4f3fb}
+.dl.res .resf{width:100%;height:480px;border:0;display:block;transform-origin:0 0}
 .dl.res .dlm{text-align:left}
 .dl.res .plink{display:flex;flex-direction:column;gap:4px;font-size:11px;color:#6b6b6b}
 .dl.res .plink input{border:1px solid #d6d3cc;border-radius:8px;padding:7px 9px;font:inherit;font-size:12px;color:#141414;width:100%}

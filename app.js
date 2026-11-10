@@ -65,7 +65,8 @@
   /* unsent drafts survive reloads */
   const DK = `${SLUG}-review-drafts`, drafts = JSON.parse(localStorage.getItem(DK) || "{}");
   const saveDraft = (post, v) => { if (v) drafts[post] = v; else delete drafts[post]; localStorage.setItem(DK, JSON.stringify(drafts)); };
-  document.addEventListener("input", (e) => { if (e.target.matches("[data-fb]")) saveDraft(e.target.closest(".pcard").dataset.id, e.target.value); if (e.target.matches("[data-name]")) localStorage.setItem(NAMEKEY, e.target.value.trim()); });
+  document.addEventListener("input", (e) => { if (e.target.matches("[data-fb]")) saveDraft(e.target.closest(".pcard").dataset.id, e.target.value); if (e.target.matches("[data-name]")) localStorage.setItem(NAMEKEY, e.target.value.trim());
+    if (e.target.matches("[data-plink]")) { const c = e.target.closest(".pcard"), p = S.posts.find((x) => x.key === c.dataset.id); localStorage.setItem(PLKEY(p), e.target.value.trim()); c.querySelector('[data-msg="email"]').textContent = dmText(p, "email"); } });
   const mark = (e) => (saved(e) ? `<em class="sv ok" title="Confirmed in the shared Google Sheet">✓ Saved</em>` : `<em class="sv wait" title="Stored in this browser, being sent to the shared sheet">Saving…</em>`);
 
   const dec = (s) => JSON.parse(decodeURIComponent(escape(atob(s.replace(/-/g, "+").replace(/_/g, "/")))));
@@ -183,7 +184,7 @@
     const files = (r.files || []).map((f) => `<a class="btn ghost" href="${esc(f.href)}" target="_blank" rel="noopener">Download ${esc(f.label)}</a>`).join("");
     const box = (k, title, note) => `<div class="msg"><div class="msgh"><b>${title}</b><button class="btn ghost" data-copym="${k}">Copy</button></div><pre data-msg="${k}">${esc(dmText(p, k))}</pre>${note ? `<div class="dlm">${note}</div>` : ""}</div>`;
     return `<section class="dl res"><div class="resh"><b>Resource we send</b><span>${esc(r.name || "")}${r.pages ? ` · ${r.pages} page${r.pages === 1 ? "" : "s"}` : ""}</span></div>
-      <iframe class="resf" src="${esc(r.url)}" title="${esc(r.name || "Resource")}" loading="lazy"></iframe>
+      <div class="resw"><iframe class="resf" src="${esc(r.url)}" title="${esc(r.name || "Resource")}" loading="lazy"></iframe></div>
       <div class="dlm">Scroll inside the preview. This is the live page your commenters open.</div>
       <div class="dlrow"><a class="btn dlb" href="${esc(r.url)}" target="_blank" rel="noopener">Open the resource</a><button class="btn ghost" data-copym="url">Copy link</button>${files}</div></section>
     ${d ? `<section class="dl res"><div class="resh"><b>Messages that deliver it</b><span>Sent from Adi's profile to everyone who comments ${esc(r.keyword || "")}</span></div>
@@ -192,6 +193,11 @@
       ${box("connect", "2. Connection request", `For people not connected yet · ${d.connect.length} of 300 characters`)}
       ${box("email", "3. Email", "For commenters whose email we have.")}</section>` : ""}`;
   }
+  const RESW = 520, RESH = 480;
+  const fitRes = new ResizeObserver((es) => es.forEach((e) => { const w = e.contentRect.width, f = e.target.firstElementChild; if (!w || !f) return;
+    const k = Math.min(1, w / RESW); f.style.width = (k < 1 ? RESW : w) + "px"; f.style.height = RESH / k + "px"; f.style.transform = k < 1 ? `scale(${k})` : "none"; }));
+  const watchRes = () => document.querySelectorAll(".resw:not([data-fit])").forEach((el) => { el.dataset.fit = "1"; fitRes.observe(el); });
+  new MutationObserver(watchRes).observe(document.body, { childList: true, subtree: true }); watchRes();
   function copyLegacy(s) {
     const ta = Object.assign(document.createElement("textarea"), { value: s }); ta.style.cssText = "position:fixed;top:0;opacity:0";
     document.body.appendChild(ta); ta.select(); const ok = document.execCommand("copy"); ta.remove();
