@@ -96,7 +96,7 @@
     if (m.type === "poll") {
       return `<div class="li-poll"><div class="li-poll-q">${esc(m.question)}</div><div class="li-poll-s">The author can see how you vote. <span style="color:#0a66c2;font-weight:600">Learn more</span></div>${(m.options || []).map((o) => `<button class="li-poll-o">${esc(o)}</button>`).join("")}<div class="li-poll-f">0 votes · 1w left</div></div>`;
     }
-    if (m.type === "pending") return `<div class="wipbox">Media in production</div>`;
+    if (m.type === "pending") return `<div class="wipbox"><b>Media in production</b>${p.format ? `<span>${esc(p.format)}</span>` : ""}${(p.visual_copy || []).length ? `<ol>${p.visual_copy.map((v) => `<li>${esc(v)}</li>`).join("")}</ol>` : ""}</div>`;
     return "";
   }
   function postText(p) {
@@ -126,7 +126,7 @@
     const w = when(p), isX = p.platform === "x";
     const nThread = 1 + (p.thread || []).length, mt = p.media && p.media.type;
     const fmt = isX ? `<span class="badge xb">X</span><span class="badge fmt">${esc(nThread > 1 ? `Thread · ${nThread} posts` : "Single post")}${mt === "image" || mt === "images" ? ` · ${(p.media.files || []).length} image${(p.media.files || []).length === 1 ? "" : "s"}` : ""}</span>`
-      : `<span class="badge fmt">${esc(mt === "carousel" ? "Carousel" : mt === "poll" ? "Poll" : mt === "image" ? "Image" : "Text")}</span>`;
+      : `<span class="badge fmt">${esc(mt === "carousel" ? "Carousel" : mt === "poll" ? "Poll" : mt === "image" ? "Image" : /^carousel/i.test(p.format || "") ? "Carousel" : /^image/i.test(p.format || "") ? "Image" : "Text")}</span>`;
     const cta = p.cta ? `<span class="badge cta">${esc(((S.batches || []).find((b) => String(b.id) === String(p.batch)) || {}).cta_label || S.cta_label || "CTA")}</span>` : "";
     const wip = p.status !== "ready" ? `<span class="badge wip">In production</span>` : "";
     const smp = p.sample || {};
