@@ -42,6 +42,22 @@ window.STUDIO = {
     "campaign": "enterprise-webinar",
     "content": "id"
    }
+  },
+  {
+   "id": "4",
+   "title": "Batch 4 · Team giveaways",
+   "dates": "Tue 24 Nov to Thu 3 Dec 2026",
+   "cta_label": "Workshop CTA",
+   "cta": {
+    "kind": "event",
+    "title": "How 400+ Brands Use AI Funnels to Generate $100K to $300K Monthly",
+    "url": "https://webinar.sellwithtantra.com/"
+   },
+   "utm": {
+    "medium": "social",
+    "campaign": "enterprise-webinar",
+    "content": "id"
+   }
   }
  ],
  "profiles": [
@@ -54,8 +70,9 @@ window.STUDIO = {
    "tz": "America/New_York",
    "tz_label": "ET",
    "time": "08:30",
+   "linkedin": "https://www.linkedin.com/in/adisuja/",
    "avatar_ok": true,
-   "avatar": "media/avatars/adi.jpg?v=20261110100933"
+   "avatar": "media/avatars/adi.jpg?v=20261110230337"
   },
   {
    "id": "tantra",
@@ -67,7 +84,75 @@ window.STUDIO = {
    "tz_label": "ET",
    "time": "10:30",
    "avatar_ok": true,
-   "avatar": "media/avatars/tantra.jpg?v=20261110100933"
+   "avatar": "media/avatars/tantra.jpg?v=20261110230337"
+  },
+  {
+   "id": "nelbin",
+   "name": "Nelbin Joseph",
+   "kind": "person",
+   "headline": "Operations, Tantra",
+   "network": "linkedin",
+   "tz": "America/New_York",
+   "tz_label": "ET",
+   "time": "08:30",
+   "linkedin": "https://www.linkedin.com/in/nelbin-xav/",
+   "_todo": "headline is the 2026-09-27 roster role, not the LinkedIn headline; photo or consented AI avatar still needed",
+   "taxonomy_creator": "NJ",
+   "avatar_ok": false
+  },
+  {
+   "id": "bharath",
+   "name": "Bharath Krishna Pai",
+   "kind": "person",
+   "headline": "CTO, Tantra",
+   "network": "linkedin",
+   "tz": "America/New_York",
+   "tz_label": "ET",
+   "time": "08:30",
+   "linkedin": "https://www.linkedin.com/in/bkp31415/",
+   "_todo": "headline is the 2026-09-27 roster role, not the LinkedIn headline; photo or consented AI avatar still needed",
+   "taxonomy_creator": "BK",
+   "avatar_ok": false
+  },
+  {
+   "id": "bhaskar",
+   "name": "Bhaskar D.",
+   "kind": "person",
+   "headline": "CMO, Tantra",
+   "network": "linkedin",
+   "tz": "America/New_York",
+   "tz_label": "ET",
+   "time": "08:30",
+   "linkedin": "https://www.linkedin.com/in/bhaskar-dev/",
+   "_todo": "headline is the 2026-09-27 roster role, not the LinkedIn headline; photo or consented AI avatar still needed",
+   "taxonomy_creator": "BD",
+   "avatar_ok": false
+  },
+  {
+   "id": "aquila",
+   "name": "Aquila Eldho",
+   "kind": "person",
+   "headline": "Automation and Delivery, Tantra",
+   "network": "linkedin",
+   "tz": "America/New_York",
+   "tz_label": "ET",
+   "time": "08:30",
+   "linkedin": "https://www.linkedin.com/in/aquilaeldho/",
+   "_todo": "headline is the 2026-09-27 roster role, not the LinkedIn headline; photo or consented AI avatar still needed",
+   "avatar_ok": false
+  },
+  {
+   "id": "ben",
+   "name": "Ben Basil Tomy",
+   "kind": "person",
+   "headline": "Developer, Tantra",
+   "network": "linkedin",
+   "tz": "America/New_York",
+   "tz_label": "ET",
+   "time": "08:30",
+   "linkedin": "https://www.linkedin.com/in/ben-basil-tomy-5533b9218/",
+   "_todo": "headline is the 2026-09-27 roster role, not the LinkedIn headline; photo or consented AI avatar still needed",
+   "avatar_ok": false
   }
  ],
  "posts": [
@@ -87,8 +172,7 @@ window.STUDIO = {
    "sample": {
     "id": "AB35",
     "creator": "Austin Belcak",
-    "what": "full-bleed black and white editorial founder photo with no text on it; the story lives in the caption",
-    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7476984250848804864"
+    "what": "full-bleed black and white editorial founder photo with no text on it; the story lives in the caption"
    },
    "copy_basis": "Experiential Story template, AB35's personal story with lesson",
    "media": {
@@ -97,10 +181,10 @@ window.STUDIO = {
     "title": "Adithya Murali walking alone down an empty street, black and white",
     "tall": false,
     "files": [
-     "media/batch-1/A1/image.jpg?v=20261110100933"
+     "media/batch-1/A1/image.jpg?v=20261110230337"
     ],
     "download": {
-     "href": "media/batch-1/A1/tantra-b1-A1-2026-10-26-adi.png?v=20261110100933",
+     "href": "media/batch-1/A1/tantra-b1-A1-2026-10-26-adi.png?v=20261110230337",
      "name": "tantra-b1-A1-2026-10-26-adi.png",
      "ext": "png",
      "bytes": 934557,
@@ -138,8 +222,7 @@ window.STUDIO = {
    "sample": {
     "id": "AB30",
     "creator": "Austin Belcak",
-    "what": "numbered-list carousel: flat-vector illustration cover, accent-underlined number in the title, numeral prefixes, grey parenthetical subs, text-only interiors on warm cream paper",
-    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7478071414449782784"
+    "what": "numbered-list carousel: flat-vector illustration cover, accent-underlined number in the title, numeral prefixes, grey parenthetical subs, text-only interiors on warm cream paper"
    },
    "copy_basis": "AB30's event promotion narrative: numbered list caption ending on the event",
    "media": {
@@ -147,19 +230,19 @@ window.STUDIO = {
     "src": "batch-1/A2",
     "title": "The 8 decisions every page, email and invite depends on",
     "files": [
-     "media/batch-1/A2/p01.jpg?v=20261110100933",
-     "media/batch-1/A2/p02.jpg?v=20261110100933",
-     "media/batch-1/A2/p03.jpg?v=20261110100933",
-     "media/batch-1/A2/p04.jpg?v=20261110100933",
-     "media/batch-1/A2/p05.jpg?v=20261110100933",
-     "media/batch-1/A2/p06.jpg?v=20261110100933",
-     "media/batch-1/A2/p07.jpg?v=20261110100933",
-     "media/batch-1/A2/p08.jpg?v=20261110100933",
-     "media/batch-1/A2/p09.jpg?v=20261110100933",
-     "media/batch-1/A2/p10.jpg?v=20261110100933"
+     "media/batch-1/A2/p01.jpg?v=20261110230337",
+     "media/batch-1/A2/p02.jpg?v=20261110230337",
+     "media/batch-1/A2/p03.jpg?v=20261110230337",
+     "media/batch-1/A2/p04.jpg?v=20261110230337",
+     "media/batch-1/A2/p05.jpg?v=20261110230337",
+     "media/batch-1/A2/p06.jpg?v=20261110230337",
+     "media/batch-1/A2/p07.jpg?v=20261110230337",
+     "media/batch-1/A2/p08.jpg?v=20261110230337",
+     "media/batch-1/A2/p09.jpg?v=20261110230337",
+     "media/batch-1/A2/p10.jpg?v=20261110230337"
     ],
     "download": {
-     "href": "media/batch-1/A2/tantra-b1-A2-2026-10-27-adi.pdf?v=20261110100933",
+     "href": "media/batch-1/A2/tantra-b1-A2-2026-10-27-adi.pdf?v=20261110230337",
      "name": "tantra-b1-A2-2026-10-27-adi.pdf",
      "ext": "pdf",
      "bytes": 1839450,
@@ -196,8 +279,7 @@ window.STUDIO = {
    "sample": {
     "id": "HD12",
     "creator": "Harry Dry",
-    "what": "photo cover, then paper-texture text slides with generous whitespace, left-aligned text, marker highlights and a progressive reveal with arrow cues, ending on a ransom-note typographic payoff",
-    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7475421239004672000"
+    "what": "photo cover, then paper-texture text slides with generous whitespace, left-aligned text, marker highlights and a progressive reveal with arrow cues, ending on a ransom-note typographic payoff"
    },
    "copy_basis": "HD12's one-line aphorism caption; the story is carried by the pages",
    "media": {
@@ -205,19 +287,19 @@ window.STUDIO = {
     "src": "batch-1/A3",
     "title": "LinkedIn capped us at 100 invites a week",
     "files": [
-     "media/batch-1/A3/p01.jpg?v=20261110100933",
-     "media/batch-1/A3/p02.jpg?v=20261110100933",
-     "media/batch-1/A3/p03.jpg?v=20261110100933",
-     "media/batch-1/A3/p04.jpg?v=20261110100933",
-     "media/batch-1/A3/p05.jpg?v=20261110100933",
-     "media/batch-1/A3/p06.jpg?v=20261110100933",
-     "media/batch-1/A3/p07.jpg?v=20261110100933",
-     "media/batch-1/A3/p08.jpg?v=20261110100933",
-     "media/batch-1/A3/p09.jpg?v=20261110100933",
-     "media/batch-1/A3/p10.jpg?v=20261110100933"
+     "media/batch-1/A3/p01.jpg?v=20261110230337",
+     "media/batch-1/A3/p02.jpg?v=20261110230337",
+     "media/batch-1/A3/p03.jpg?v=20261110230337",
+     "media/batch-1/A3/p04.jpg?v=20261110230337",
+     "media/batch-1/A3/p05.jpg?v=20261110230337",
+     "media/batch-1/A3/p06.jpg?v=20261110230337",
+     "media/batch-1/A3/p07.jpg?v=20261110230337",
+     "media/batch-1/A3/p08.jpg?v=20261110230337",
+     "media/batch-1/A3/p09.jpg?v=20261110230337",
+     "media/batch-1/A3/p10.jpg?v=20261110230337"
     ],
     "download": {
-     "href": "media/batch-1/A3/tantra-b1-A3-2026-10-28-adi.pdf?v=20261110100933",
+     "href": "media/batch-1/A3/tantra-b1-A3-2026-10-28-adi.pdf?v=20261110230337",
      "name": "tantra-b1-A3-2026-10-28-adi.pdf",
      "ext": "pdf",
      "bytes": 10241254,
@@ -257,8 +339,7 @@ window.STUDIO = {
    "sample": {
     "id": "AV41",
     "creator": "Alex Vacca",
-    "what": "dark portrait carousel with the same anchors on every page: avatar chip top-left, position dots top-right, headline mid with bold-accent numbers, an evidence pill, an arrow bottom-right, soft 3D clay renders on most pages",
-    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7460265778966204417"
+    "what": "dark portrait carousel with the same anchors on every page: avatar chip top-left, position dots top-right, headline mid with bold-accent numbers, an evidence pill, an arrow bottom-right, soft 3D clay renders on most pages"
    },
    "copy_basis": "AV41's structure: the claim, the context, then numbered lessons (1/ 2/ 3/ 4/)",
    "media": {
@@ -266,17 +347,17 @@ window.STUDIO = {
     "src": "batch-1/A4",
     "title": "One live session, 98,000 calendar invites",
     "files": [
-     "media/batch-1/A4/p01.jpg?v=20261110100933",
-     "media/batch-1/A4/p02.jpg?v=20261110100933",
-     "media/batch-1/A4/p03.jpg?v=20261110100933",
-     "media/batch-1/A4/p04.jpg?v=20261110100933",
-     "media/batch-1/A4/p05.jpg?v=20261110100933",
-     "media/batch-1/A4/p06.jpg?v=20261110100933",
-     "media/batch-1/A4/p07.jpg?v=20261110100933",
-     "media/batch-1/A4/p08.jpg?v=20261110100933"
+     "media/batch-1/A4/p01.jpg?v=20261110230337",
+     "media/batch-1/A4/p02.jpg?v=20261110230337",
+     "media/batch-1/A4/p03.jpg?v=20261110230337",
+     "media/batch-1/A4/p04.jpg?v=20261110230337",
+     "media/batch-1/A4/p05.jpg?v=20261110230337",
+     "media/batch-1/A4/p06.jpg?v=20261110230337",
+     "media/batch-1/A4/p07.jpg?v=20261110230337",
+     "media/batch-1/A4/p08.jpg?v=20261110230337"
     ],
     "download": {
-     "href": "media/batch-1/A4/tantra-b1-A4-2026-10-29-adi.pdf?v=20261110100933",
+     "href": "media/batch-1/A4/tantra-b1-A4-2026-10-29-adi.pdf?v=20261110230337",
      "name": "tantra-b1-A4-2026-10-29-adi.pdf",
      "ext": "pdf",
      "bytes": 4774619,
@@ -319,8 +400,7 @@ window.STUDIO = {
    "sample": {
     "id": "AB21",
     "creator": "Austin Belcak",
-    "what": "quote card with no border: avatar and name row, the quote floating in the left two thirds, big whitespace, a faint speckle on a light paper ground",
-    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7471910820696891392"
+    "what": "quote card with no border: avatar and name row, the quote floating in the left two thirds, big whitespace, a faint speckle on a light paper ground"
    },
    "copy_basis": "Experiential Story (Adi's own) around a Viral Quote card",
    "media": {
@@ -329,10 +409,10 @@ window.STUDIO = {
     "title": "Quote: 'Wow, I wouldn't have written them myself.'",
     "tall": false,
     "files": [
-     "media/batch-1/A5/image.jpg?v=20261110100933"
+     "media/batch-1/A5/image.jpg?v=20261110230337"
     ],
     "download": {
-     "href": "media/batch-1/A5/tantra-b1-A5-2026-10-30-adi.png?v=20261110100933",
+     "href": "media/batch-1/A5/tantra-b1-A5-2026-10-30-adi.png?v=20261110230337",
      "name": "tantra-b1-A5-2026-10-30-adi.png",
      "ext": "png",
      "bytes": 411865,
@@ -372,8 +452,7 @@ window.STUDIO = {
    "sample": {
     "id": "HD26",
     "creator": "Harry Dry",
-    "what": "rigid two-row before/after grid, clean cards, generous margins, low decoration, the headline set inside a fake OS UI element",
-    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7469656344954896385"
+    "what": "rigid two-row before/after grid, clean cards, generous margins, low decoration, the headline set inside a fake OS UI element"
    },
    "copy_basis": "Thought Leadership: the meeting everyone knows, the seven steps, the evidence, six old/new rows, three actions",
    "media": {
@@ -381,19 +460,19 @@ window.STUDIO = {
     "src": "batch-2/T1",
     "title": "Old way vs new way: the leak between marketing and sales",
     "files": [
-     "media/batch-2/T1/p01.jpg?v=20261110100933",
-     "media/batch-2/T1/p02.jpg?v=20261110100933",
-     "media/batch-2/T1/p03.jpg?v=20261110100933",
-     "media/batch-2/T1/p04.jpg?v=20261110100933",
-     "media/batch-2/T1/p05.jpg?v=20261110100933",
-     "media/batch-2/T1/p06.jpg?v=20261110100933",
-     "media/batch-2/T1/p07.jpg?v=20261110100933",
-     "media/batch-2/T1/p08.jpg?v=20261110100933",
-     "media/batch-2/T1/p09.jpg?v=20261110100933",
-     "media/batch-2/T1/p10.jpg?v=20261110100933"
+     "media/batch-2/T1/p01.jpg?v=20261110230337",
+     "media/batch-2/T1/p02.jpg?v=20261110230337",
+     "media/batch-2/T1/p03.jpg?v=20261110230337",
+     "media/batch-2/T1/p04.jpg?v=20261110230337",
+     "media/batch-2/T1/p05.jpg?v=20261110230337",
+     "media/batch-2/T1/p06.jpg?v=20261110230337",
+     "media/batch-2/T1/p07.jpg?v=20261110230337",
+     "media/batch-2/T1/p08.jpg?v=20261110230337",
+     "media/batch-2/T1/p09.jpg?v=20261110230337",
+     "media/batch-2/T1/p10.jpg?v=20261110230337"
     ],
     "download": {
-     "href": "media/batch-2/T1/tantra-b2-T1-2026-10-27-tantra.pdf?v=20261110100933",
+     "href": "media/batch-2/T1/tantra-b2-T1-2026-10-27-tantra.pdf?v=20261110230337",
      "name": "tantra-b2-T1-2026-10-27-tantra.pdf",
      "ext": "pdf",
      "bytes": 4429940,
@@ -434,8 +513,7 @@ window.STUDIO = {
    "sample": {
     "id": "HD44",
     "creator": "Harry Dry",
-    "what": "radial hub-and-spoke: a central object with 6 satellite cards, connector lines with dot terminals, bilateral symmetry, each card's border colour mapped to its lobe",
-    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7462038083186655233"
+    "what": "radial hub-and-spoke: a central object with 6 satellite cards, connector lines with dot terminals, bilateral symmetry, each card's border colour mapped to its lobe"
    },
    "copy_basis": "Thought Leadership: the problem in numbers, the six stages, the four layers, a 30-minute audit",
    "media": {
@@ -444,10 +522,10 @@ window.STUDIO = {
     "title": "Six stages, four layers: the map of a revenue engine",
     "tall": false,
     "files": [
-     "media/batch-2/T10/image.jpg?v=20261110100933"
+     "media/batch-2/T10/image.jpg?v=20261110230337"
     ],
     "download": {
-     "href": "media/batch-2/T10/tantra-b2-T10-2026-10-26-tantra.png?v=20261110100933",
+     "href": "media/batch-2/T10/tantra-b2-T10-2026-10-26-tantra.png?v=20261110230337",
      "name": "tantra-b2-T10-2026-10-26-tantra.png",
      "ext": "png",
      "bytes": 384713,
@@ -487,8 +565,7 @@ window.STUDIO = {
    "sample": {
     "id": "HD19",
     "creator": "Harry Dry",
-    "what": "cinematic cover, then framework diagrams: a three-poster row on a hand-drawn spectrum bar",
-    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7472535726350540800"
+    "what": "cinematic cover, then framework diagrams: a three-poster row on a hand-drawn spectrum bar"
    },
    "copy_basis": "Thought Leadership: the habit, the principle (Schwartz), the three posters, two checks, a planning rule from data",
    "media": {
@@ -496,17 +573,17 @@ window.STUDIO = {
     "src": "batch-2/T2",
     "title": "Webinar, challenge or reverse squeeze: pick by belief",
     "files": [
-     "media/batch-2/T2/p01.jpg?v=20261110100933",
-     "media/batch-2/T2/p02.jpg?v=20261110100933",
-     "media/batch-2/T2/p03.jpg?v=20261110100933",
-     "media/batch-2/T2/p04.jpg?v=20261110100933",
-     "media/batch-2/T2/p05.jpg?v=20261110100933",
-     "media/batch-2/T2/p06.jpg?v=20261110100933",
-     "media/batch-2/T2/p07.jpg?v=20261110100933",
-     "media/batch-2/T2/p08.jpg?v=20261110100933"
+     "media/batch-2/T2/p01.jpg?v=20261110230337",
+     "media/batch-2/T2/p02.jpg?v=20261110230337",
+     "media/batch-2/T2/p03.jpg?v=20261110230337",
+     "media/batch-2/T2/p04.jpg?v=20261110230337",
+     "media/batch-2/T2/p05.jpg?v=20261110230337",
+     "media/batch-2/T2/p06.jpg?v=20261110230337",
+     "media/batch-2/T2/p07.jpg?v=20261110230337",
+     "media/batch-2/T2/p08.jpg?v=20261110230337"
     ],
     "download": {
-     "href": "media/batch-2/T2/tantra-b2-T2-2026-10-29-tantra.pdf?v=20261110100933",
+     "href": "media/batch-2/T2/tantra-b2-T2-2026-10-29-tantra.pdf?v=20261110230337",
      "name": "tantra-b2-T2-2026-10-29-tantra.pdf",
      "ext": "pdf",
      "bytes": 6189087,
@@ -547,8 +624,7 @@ window.STUDIO = {
    "sample": {
     "id": "HD48",
     "creator": "Harry Dry",
-    "what": "dark carousel: two-tier stepper grids with a numbered-bar stepper, ending on a comparison table",
-    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7460264792356732928"
+    "what": "dark carousel: two-tier stepper grids with a numbered-bar stepper, ending on a comparison table"
    },
    "copy_basis": "Thought Leadership: the problem in numbers, the stepper, two branches, three rules, one action",
    "media": {
@@ -556,18 +632,18 @@ window.STUDIO = {
     "src": "batch-2/T3",
     "title": "13 messages: 6 get them in the room, 7 follow up",
     "files": [
-     "media/batch-2/T3/p01.jpg?v=20261110100933",
-     "media/batch-2/T3/p02.jpg?v=20261110100933",
-     "media/batch-2/T3/p03.jpg?v=20261110100933",
-     "media/batch-2/T3/p04.jpg?v=20261110100933",
-     "media/batch-2/T3/p05.jpg?v=20261110100933",
-     "media/batch-2/T3/p06.jpg?v=20261110100933",
-     "media/batch-2/T3/p07.jpg?v=20261110100933",
-     "media/batch-2/T3/p08.jpg?v=20261110100933",
-     "media/batch-2/T3/p09.jpg?v=20261110100933"
+     "media/batch-2/T3/p01.jpg?v=20261110230337",
+     "media/batch-2/T3/p02.jpg?v=20261110230337",
+     "media/batch-2/T3/p03.jpg?v=20261110230337",
+     "media/batch-2/T3/p04.jpg?v=20261110230337",
+     "media/batch-2/T3/p05.jpg?v=20261110230337",
+     "media/batch-2/T3/p06.jpg?v=20261110230337",
+     "media/batch-2/T3/p07.jpg?v=20261110230337",
+     "media/batch-2/T3/p08.jpg?v=20261110230337",
+     "media/batch-2/T3/p09.jpg?v=20261110230337"
     ],
     "download": {
-     "href": "media/batch-2/T3/tantra-b2-T3-2026-11-02-tantra.pdf?v=20261110100933",
+     "href": "media/batch-2/T3/tantra-b2-T3-2026-11-02-tantra.pdf?v=20261110230337",
      "name": "tantra-b2-T3-2026-11-02-tantra.pdf",
      "ext": "pdf",
      "bytes": 1719797,
@@ -608,8 +684,7 @@ window.STUDIO = {
    "sample": {
     "id": "HD39",
     "creator": "Harry Dry",
-    "what": "identical template stamped per slide, colour = judgement: red, orange and green full-bleed panels, instantly legible",
-    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7463822549735460864"
+    "what": "identical template stamped per slide, colour = judgement: red, orange and green full-bleed panels, instantly legible"
    },
    "copy_basis": "Thought Leadership: the habit, the three calls, the evidence, two rules, definitions",
    "media": {
@@ -617,17 +692,17 @@ window.STUDIO = {
     "src": "batch-2/T4",
     "title": "Stop, fix or scale: the weekly channel check",
     "files": [
-     "media/batch-2/T4/p01.jpg?v=20261110100933",
-     "media/batch-2/T4/p02.jpg?v=20261110100933",
-     "media/batch-2/T4/p03.jpg?v=20261110100933",
-     "media/batch-2/T4/p04.jpg?v=20261110100933",
-     "media/batch-2/T4/p05.jpg?v=20261110100933",
-     "media/batch-2/T4/p06.jpg?v=20261110100933",
-     "media/batch-2/T4/p07.jpg?v=20261110100933",
-     "media/batch-2/T4/p08.jpg?v=20261110100933"
+     "media/batch-2/T4/p01.jpg?v=20261110230337",
+     "media/batch-2/T4/p02.jpg?v=20261110230337",
+     "media/batch-2/T4/p03.jpg?v=20261110230337",
+     "media/batch-2/T4/p04.jpg?v=20261110230337",
+     "media/batch-2/T4/p05.jpg?v=20261110230337",
+     "media/batch-2/T4/p06.jpg?v=20261110230337",
+     "media/batch-2/T4/p07.jpg?v=20261110230337",
+     "media/batch-2/T4/p08.jpg?v=20261110230337"
     ],
     "download": {
-     "href": "media/batch-2/T4/tantra-b2-T4-2026-11-04-tantra.pdf?v=20261110100933",
+     "href": "media/batch-2/T4/tantra-b2-T4-2026-11-04-tantra.pdf?v=20261110230337",
      "name": "tantra-b2-T4-2026-11-04-tantra.pdf",
      "ext": "pdf",
      "bytes": 1205777,
@@ -668,8 +743,7 @@ window.STUDIO = {
    "sample": {
     "id": "HD45",
     "creator": "Harry Dry",
-    "what": "hero object, then text emphasis, then annotated exhibits with radiating marker callouts; register-switching type",
-    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7461056705544675328"
+    "what": "hero object, then text emphasis, then annotated exhibits with radiating marker callouts; register-switching type"
    },
    "copy_basis": "Thought Leadership: the claim, five moves, a fictional example, the principle (Goldratt), two warnings",
    "media": {
@@ -677,17 +751,17 @@ window.STUDIO = {
     "src": "batch-2/T5",
     "title": "Find the one step that leaks your funnel",
     "files": [
-     "media/batch-2/T5/p01.jpg?v=20261110100933",
-     "media/batch-2/T5/p02.jpg?v=20261110100933",
-     "media/batch-2/T5/p03.jpg?v=20261110100933",
-     "media/batch-2/T5/p04.jpg?v=20261110100933",
-     "media/batch-2/T5/p05.jpg?v=20261110100933",
-     "media/batch-2/T5/p06.jpg?v=20261110100933",
-     "media/batch-2/T5/p07.jpg?v=20261110100933",
-     "media/batch-2/T5/p08.jpg?v=20261110100933"
+     "media/batch-2/T5/p01.jpg?v=20261110230337",
+     "media/batch-2/T5/p02.jpg?v=20261110230337",
+     "media/batch-2/T5/p03.jpg?v=20261110230337",
+     "media/batch-2/T5/p04.jpg?v=20261110230337",
+     "media/batch-2/T5/p05.jpg?v=20261110230337",
+     "media/batch-2/T5/p06.jpg?v=20261110230337",
+     "media/batch-2/T5/p07.jpg?v=20261110230337",
+     "media/batch-2/T5/p08.jpg?v=20261110230337"
     ],
     "download": {
-     "href": "media/batch-2/T5/tantra-b2-T5-2026-11-05-tantra.pdf?v=20261110100933",
+     "href": "media/batch-2/T5/tantra-b2-T5-2026-11-05-tantra.pdf?v=20261110230337",
      "name": "tantra-b2-T5-2026-11-05-tantra.pdf",
      "ext": "pdf",
      "bytes": 4172544,
@@ -729,8 +803,7 @@ window.STUDIO = {
    "sample": {
     "id": "AB34",
     "creator": "Austin Belcak",
-    "what": "dark tutorial carousel: every page pairs copy with a real screenshot, annotated, with one blue highlight",
-    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7477346638710190080"
+    "what": "dark tutorial carousel: every page pairs copy with a real screenshot, annotated, with one blue highlight"
    },
    "copy_basis": "AB34 tutorial structure: the problem, then one guardrail per page with its real file",
    "media": {
@@ -738,18 +811,18 @@ window.STUDIO = {
     "src": "batch-2/T6",
     "title": "Six guardrails for an AI agent that runs your funnel",
     "files": [
-     "media/batch-2/T6/p01.jpg?v=20261110100933",
-     "media/batch-2/T6/p02.jpg?v=20261110100933",
-     "media/batch-2/T6/p03.jpg?v=20261110100933",
-     "media/batch-2/T6/p04.jpg?v=20261110100933",
-     "media/batch-2/T6/p05.jpg?v=20261110100933",
-     "media/batch-2/T6/p06.jpg?v=20261110100933",
-     "media/batch-2/T6/p07.jpg?v=20261110100933",
-     "media/batch-2/T6/p08.jpg?v=20261110100933",
-     "media/batch-2/T6/p09.jpg?v=20261110100933"
+     "media/batch-2/T6/p01.jpg?v=20261110230337",
+     "media/batch-2/T6/p02.jpg?v=20261110230337",
+     "media/batch-2/T6/p03.jpg?v=20261110230337",
+     "media/batch-2/T6/p04.jpg?v=20261110230337",
+     "media/batch-2/T6/p05.jpg?v=20261110230337",
+     "media/batch-2/T6/p06.jpg?v=20261110230337",
+     "media/batch-2/T6/p07.jpg?v=20261110230337",
+     "media/batch-2/T6/p08.jpg?v=20261110230337",
+     "media/batch-2/T6/p09.jpg?v=20261110230337"
     ],
     "download": {
-     "href": "media/batch-2/T6/tantra-b2-T6-2026-11-06-tantra.pdf?v=20261110100933",
+     "href": "media/batch-2/T6/tantra-b2-T6-2026-11-06-tantra.pdf?v=20261110230337",
      "name": "tantra-b2-T6-2026-11-06-tantra.pdf",
      "ext": "pdf",
      "bytes": 2101753,
@@ -790,8 +863,7 @@ window.STUDIO = {
    "sample": {
     "id": "AB07",
     "creator": "Austin Belcak",
-    "what": "editorial diagram: one colour-coded sentence with a pill legend, every colour meaning one part",
-    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7476319873044766720"
+    "what": "editorial diagram: one colour-coded sentence with a pill legend, every colour meaning one part"
    },
    "copy_basis": "Thought Leadership: the problem, the sentence, the six slots, a fictional example, the stranger test",
    "media": {
@@ -800,10 +872,10 @@ window.STUDIO = {
     "title": "The offer sentence, slot by slot",
     "tall": false,
     "files": [
-     "media/batch-2/T7/image.jpg?v=20261110100933"
+     "media/batch-2/T7/image.jpg?v=20261110230337"
     ],
     "download": {
-     "href": "media/batch-2/T7/tantra-b2-T7-2026-10-28-tantra.png?v=20261110100933",
+     "href": "media/batch-2/T7/tantra-b2-T7-2026-10-28-tantra.png?v=20261110230337",
      "name": "tantra-b2-T7-2026-10-28-tantra.png",
      "ext": "png",
      "bytes": 390264,
@@ -844,8 +916,7 @@ window.STUDIO = {
    "sample": {
     "id": "AV43",
     "creator": "Alex Vacca",
-    "what": "a central stacked funnel with an annotation column on each side per tier, labels set onto the tiers",
-    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7459540863543595008"
+    "what": "a central stacked funnel with an annotation column on each side per tier, labels set onto the tiers"
    },
    "copy_basis": "Thought Leadership: the habit, the four lines, a fictional example, the evidence rule",
    "media": {
@@ -854,10 +925,10 @@ window.STUDIO = {
     "title": "Size your list backwards from revenue",
     "tall": false,
     "files": [
-     "media/batch-2/T8/image.jpg?v=20261110100933"
+     "media/batch-2/T8/image.jpg?v=20261110230337"
     ],
     "download": {
-     "href": "media/batch-2/T8/tantra-b2-T8-2026-10-30-tantra.png?v=20261110100933",
+     "href": "media/batch-2/T8/tantra-b2-T8-2026-10-30-tantra.png?v=20261110230337",
      "name": "tantra-b2-T8-2026-10-30-tantra.png",
      "ext": "png",
      "bytes": 327529,
@@ -897,8 +968,7 @@ window.STUDIO = {
    "sample": {
     "id": "AV26",
     "creator": "Alex Vacca",
-    "what": "vertical flowchart: a single-column pipeline of step cards that branches into three tier cards and converges on a CRM sync node, with a dashed loop-back",
-    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7467876018767196160"
+    "what": "vertical flowchart: a single-column pipeline of step cards that branches into three tier cards and converges on a CRM sync node, with a dashed loop-back"
    },
    "copy_basis": "Thought Leadership: the rule, how to build the score, a fictional scoring sheet, why (time and speed), how to tune and test",
    "media": {
@@ -907,10 +977,10 @@ window.STUDIO = {
     "title": "Score every application before anyone gets on a call",
     "tall": false,
     "files": [
-     "media/batch-2/T9/image.jpg?v=20261110100933"
+     "media/batch-2/T9/image.jpg?v=20261110230337"
     ],
     "download": {
-     "href": "media/batch-2/T9/tantra-b2-T9-2026-11-03-tantra.png?v=20261110100933",
+     "href": "media/batch-2/T9/tantra-b2-T9-2026-11-03-tantra.png?v=20261110230337",
      "name": "tantra-b2-T9-2026-11-03-tantra.png",
      "ext": "png",
      "bytes": 1168748,
@@ -951,8 +1021,7 @@ window.STUDIO = {
    "sample": {
     "id": "HD24",
     "creator": "Harry Dry",
-    "what": "Founder photo holding a '6 YEARS OF LINKEDIN IN 9 SLIDES' sign, followed by kraft-paper slides listing numbered growth lessons 1 through 9.",
-    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7470373889160921089"
+    "what": "Founder photo holding a '6 YEARS OF LINKEDIN IN 9 SLIDES' sign, followed by kraft-paper slides listing numbered growth lessons 1 through 9."
    },
    "copy_basis": "HD24 template: one-line 'Lessons from' caption; cover is a held sign, then nine numbered lessons, one per page",
    "media": {
@@ -960,19 +1029,19 @@ window.STUDIO = {
     "src": "batch-3/AC1",
     "title": "11 webinars in 9 slides",
     "files": [
-     "media/batch-3/AC1/p01.jpg?v=20261110100933",
-     "media/batch-3/AC1/p02.jpg?v=20261110100933",
-     "media/batch-3/AC1/p03.jpg?v=20261110100933",
-     "media/batch-3/AC1/p04.jpg?v=20261110100933",
-     "media/batch-3/AC1/p05.jpg?v=20261110100933",
-     "media/batch-3/AC1/p06.jpg?v=20261110100933",
-     "media/batch-3/AC1/p07.jpg?v=20261110100933",
-     "media/batch-3/AC1/p08.jpg?v=20261110100933",
-     "media/batch-3/AC1/p09.jpg?v=20261110100933",
-     "media/batch-3/AC1/p10.jpg?v=20261110100933"
+     "media/batch-3/AC1/p01.jpg?v=20261110230337",
+     "media/batch-3/AC1/p02.jpg?v=20261110230337",
+     "media/batch-3/AC1/p03.jpg?v=20261110230337",
+     "media/batch-3/AC1/p04.jpg?v=20261110230337",
+     "media/batch-3/AC1/p05.jpg?v=20261110230337",
+     "media/batch-3/AC1/p06.jpg?v=20261110230337",
+     "media/batch-3/AC1/p07.jpg?v=20261110230337",
+     "media/batch-3/AC1/p08.jpg?v=20261110230337",
+     "media/batch-3/AC1/p09.jpg?v=20261110230337",
+     "media/batch-3/AC1/p10.jpg?v=20261110230337"
     ],
     "download": {
-     "href": "media/batch-3/AC1/tantra-b3-AC1-2026-11-17-adi.pdf?v=20261110100933",
+     "href": "media/batch-3/AC1/tantra-b3-AC1-2026-11-17-adi.pdf?v=20261110230337",
      "name": "tantra-b3-AC1-2026-11-17-adi.pdf",
      "ext": "pdf",
      "bytes": 17345036,
@@ -1028,8 +1097,7 @@ window.STUDIO = {
    "sample": {
     "id": "HD13",
     "creator": "Harry Dry",
-    "what": "Sketchbook-style carousel 'Ultimate LinkedIn Growth Guide in 2026' with sticky-note Old vs 2026 LinkedIn tips, a growth percentage breakdown, and a tool-recommendation table.",
-    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7475061926721548288"
+    "what": "Sketchbook-style carousel 'Ultimate LinkedIn Growth Guide in 2026' with sticky-note Old vs 2026 LinkedIn tips, a growth percentage breakdown, and a tool-recommendation table."
    },
    "copy_basis": "HD13 template: one-line 'Everything you need to' caption; cover is a guide title, pages are Old vs New sticky-note pairs",
    "media": {
@@ -1037,17 +1105,17 @@ window.STUDIO = {
     "src": "batch-3/AC3",
     "title": "The old way vs the new way of filling a pipeline",
     "files": [
-     "media/batch-3/AC3/p01.jpg?v=20261110100933",
-     "media/batch-3/AC3/p02.jpg?v=20261110100933",
-     "media/batch-3/AC3/p03.jpg?v=20261110100933",
-     "media/batch-3/AC3/p04.jpg?v=20261110100933",
-     "media/batch-3/AC3/p05.jpg?v=20261110100933",
-     "media/batch-3/AC3/p06.jpg?v=20261110100933",
-     "media/batch-3/AC3/p07.jpg?v=20261110100933",
-     "media/batch-3/AC3/p08.jpg?v=20261110100933"
+     "media/batch-3/AC3/p01.jpg?v=20261110230337",
+     "media/batch-3/AC3/p02.jpg?v=20261110230337",
+     "media/batch-3/AC3/p03.jpg?v=20261110230337",
+     "media/batch-3/AC3/p04.jpg?v=20261110230337",
+     "media/batch-3/AC3/p05.jpg?v=20261110230337",
+     "media/batch-3/AC3/p06.jpg?v=20261110230337",
+     "media/batch-3/AC3/p07.jpg?v=20261110230337",
+     "media/batch-3/AC3/p08.jpg?v=20261110230337"
     ],
     "download": {
-     "href": "media/batch-3/AC3/tantra-b3-AC3-2026-11-20-adi.pdf?v=20261110100933",
+     "href": "media/batch-3/AC3/tantra-b3-AC3-2026-11-20-adi.pdf?v=20261110230337",
      "name": "tantra-b3-AC3-2026-11-20-adi.pdf",
      "ext": "pdf",
      "bytes": 3040277,
@@ -1094,8 +1162,7 @@ window.STUDIO = {
    "sample": {
     "id": "HD08",
     "creator": "Harry Dry",
-    "what": "Carousel titled '7 psychological tips for CULT-LIKE CONTENT' using tarot-card imagery to explain cognitive biases like 'The Curiosity Gap' and 'Social Currency' with examples and why-it-works notes.",
-    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7477271770765524992"
+    "what": "Carousel titled '7 psychological tips for CULT-LIKE CONTENT' using tarot-card imagery to explain cognitive biases like 'The Curiosity Gap' and 'Social Currency' with examples and why-it-works notes."
    },
    "copy_basis": "HD08 template: two-line caption ('comes down to A, not B', then 'Here are N'); cover plus one page per item with pill labels (Example, Why this works, The test)",
    "media": {
@@ -1103,17 +1170,17 @@ window.STUDIO = {
     "src": "batch-3/AC4",
     "title": "3 jobs your sales call can't do",
     "files": [
-     "media/batch-3/AC4/p01.jpg?v=20261110100933",
-     "media/batch-3/AC4/p02.jpg?v=20261110100933",
-     "media/batch-3/AC4/p03.jpg?v=20261110100933",
-     "media/batch-3/AC4/p04.jpg?v=20261110100933",
-     "media/batch-3/AC4/p05.jpg?v=20261110100933",
-     "media/batch-3/AC4/p06.jpg?v=20261110100933",
-     "media/batch-3/AC4/p07.jpg?v=20261110100933",
-     "media/batch-3/AC4/p08.jpg?v=20261110100933"
+     "media/batch-3/AC4/p01.jpg?v=20261110230337",
+     "media/batch-3/AC4/p02.jpg?v=20261110230337",
+     "media/batch-3/AC4/p03.jpg?v=20261110230337",
+     "media/batch-3/AC4/p04.jpg?v=20261110230337",
+     "media/batch-3/AC4/p05.jpg?v=20261110230337",
+     "media/batch-3/AC4/p06.jpg?v=20261110230337",
+     "media/batch-3/AC4/p07.jpg?v=20261110230337",
+     "media/batch-3/AC4/p08.jpg?v=20261110230337"
     ],
     "download": {
-     "href": "media/batch-3/AC4/tantra-b3-AC4-2026-11-24-adi.pdf?v=20261110100933",
+     "href": "media/batch-3/AC4/tantra-b3-AC4-2026-11-24-adi.pdf?v=20261110230337",
      "name": "tantra-b3-AC4-2026-11-24-adi.pdf",
      "ext": "pdf",
      "bytes": 5097226,
@@ -1164,8 +1231,7 @@ window.STUDIO = {
    "sample": {
     "id": "BK02",
     "creator": "Bharath Krishna Pai",
-    "what": "720x900 (4:5) GIF on a cream canvas: a 'Claude for LinkedIn + Oiti, your AI clone for content' lockup top-left, a tilted peach note card with an orange outline '30 days planned in 1 prompt' top-right with a hand-drawn arrow, and a Google-Calendar-style week view (Mon 9 to Sat 14 Nov 2026, 08h to 16h). Over 6s the empty week fills with 40 colour-coded content blocks (Carousel, Text post, Poll, Story, Video, Infographic, Hooks x10, Replies, Memory, Lead DMs, Newsjack, Analytics) one per frame while a '0 planned' pill counts up to '40 planned', holds, then rewinds back to empty in half a second. Full-width orange CTA bar at the bottom: 'Comment \"SYSTEM\" and I'll send it over'.",
-    "url": "https://www.linkedin.com/posts/bkp31415_i-finally-did-it-claude-is-now-connected-activity-7523976570722488320-GOVE"
+    "what": "720x900 (4:5) GIF on a cream canvas: a 'Claude for LinkedIn + Oiti, your AI clone for content' lockup top-left, a tilted peach note card with an orange outline '30 days planned in 1 prompt' top-right with a hand-drawn arrow, and a Google-Calendar-style week view (Mon 9 to Sat 14 Nov 2026, 08h to 16h). Over 6s the empty week fills with 40 colour-coded content blocks (Carousel, Text post, Poll, Story, Video, Infographic, Hooks x10, Replies, Memory, Lead DMs, Newsjack, Analytics) one per frame while a '0 planned' pill counts up to '40 planned', holds, then rewinds back to empty in half a second. Full-width orange CTA bar at the bottom: 'Comment \"SYSTEM\" and I'll send it over'."
    },
    "copy_basis": "BK02 template: caps hook with colon, pointer line, 'What's inside', eight arrow lines (first five led by a number, biggest first), ease line, conditional offer, CTA bookend",
    "media": {
@@ -1173,20 +1239,20 @@ window.STUDIO = {
     "src": "batch-3/AG1",
     "title": "The calendar invite blueprint",
     "files": [
-     "media/batch-3/AG1/poster.jpg?v=20261110100933"
+     "media/batch-3/AG1/poster.jpg?v=20261110230337"
     ],
-    "video": "media/batch-3/AG1/tantra-b3-AG1-2026-11-19-adi.mp4?v=20261110100933",
+    "video": "media/batch-3/AG1/tantra-b3-AG1-2026-11-19-adi.mp4?v=20261110230337",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-3/AG1/tantra-b3-AG1-2026-11-19-adi.mp4?v=20261110100933",
+      "href": "media/batch-3/AG1/tantra-b3-AG1-2026-11-19-adi.mp4?v=20261110230337",
       "name": "tantra-b3-AG1-2026-11-19-adi.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 678022
      },
      {
-      "href": "media/batch-3/AG1/tantra-b3-AG1-2026-11-19-adi.gif?v=20261110100933",
+      "href": "media/batch-3/AG1/tantra-b3-AG1-2026-11-19-adi.gif?v=20261110230337",
       "name": "tantra-b3-AG1-2026-11-19-adi.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -1253,8 +1319,7 @@ window.STUDIO = {
    "sample": {
     "id": "BK13",
     "creator": "Bharath Krishna Pai",
-    "what": "720x1080 (2:3) GIF, 71 frames, 4.7s. Top: serif 'Claude Opus' wordmark with Claude starburst beside a giant numeral 5 built from illustrated monarch butterflies and leaves. Middle: an equation row '✳ + [LinkedIn logo with red 99+ badge] = 600k impressions in 90 days' with a blue hand-drawn underline. Below: a blush panel with three blue line-icon columns (Content on autopilot, Right audience every post, More leads, less effort) and a full-width rust CTA button 'Comment 'SYSTEM' for access'. The equation and benefits rebuild piece by piece like an equation being written.",
-    "url": "https://www.linkedin.com/posts/bkp31415_claude-opus-55-just-made-itself-an-official-activity-7516004035385028608-mCCm"
+    "what": "720x1080 (2:3) GIF, 71 frames, 4.7s. Top: serif 'Claude Opus' wordmark with Claude starburst beside a giant numeral 5 built from illustrated monarch butterflies and leaves. Middle: an equation row '✳ + [LinkedIn logo with red 99+ badge] = 600k impressions in 90 days' with a blue hand-drawn underline. Below: a blush panel with three blue line-icon columns (Content on autopilot, Right audience every post, More leads, less effort) and a full-width rust CTA button 'Comment 'SYSTEM' for access'. The equation and benefits rebuild piece by piece like an equation being written."
    },
    "copy_basis": "BK13 template: news claim hook, count and promise, context line, numbered 1/ to 7/ list, ritual line, one quoted question, staccato fragments, CTA",
    "media": {
@@ -1262,20 +1327,20 @@ window.STUDIO = {
     "src": "batch-3/AG2",
     "title": "Your funnel is one line of maths",
     "files": [
-     "media/batch-3/AG2/poster.jpg?v=20261110100933"
+     "media/batch-3/AG2/poster.jpg?v=20261110230337"
     ],
-    "video": "media/batch-3/AG2/tantra-b3-AG2-2026-11-16-adi.mp4?v=20261110100933",
+    "video": "media/batch-3/AG2/tantra-b3-AG2-2026-11-16-adi.mp4?v=20261110230337",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-3/AG2/tantra-b3-AG2-2026-11-16-adi.mp4?v=20261110100933",
+      "href": "media/batch-3/AG2/tantra-b3-AG2-2026-11-16-adi.mp4?v=20261110230337",
       "name": "tantra-b3-AG2-2026-11-16-adi.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 412017
      },
      {
-      "href": "media/batch-3/AG2/tantra-b3-AG2-2026-11-16-adi.gif?v=20261110100933",
+      "href": "media/batch-3/AG2/tantra-b3-AG2-2026-11-16-adi.gif?v=20261110230337",
       "name": "tantra-b3-AG2-2026-11-16-adi.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -1341,8 +1406,7 @@ window.STUDIO = {
    "sample": {
     "id": "ID03",
     "creator": "Ipsita Dhar",
-    "what": "720x900 (4:5) GIF of a macOS-style window titled 'Oiti · 30+ LinkedIn skills' with traffic-light buttons, a breadcrumb 'Oiti › Skills' plus an orange mono tag 'for LinkedIn' and a big orange '30+ skills' counter. A 5-column grid of 19 peach folders (Voice Clone, Hook Writer, Story Interview, Newsjacking, Carousel Builder, Infographic Studio, Content Calendar, Comment Replies, Repurpose, Analytics Digest, Knowledge Base, Memory, Competitor Watch, Profile Optimizer, Ideation, Post Scheduler, Writing Styles, Trend Radar, DM Assist) plus a dashed '+ 11 more' slot. An orange gradient CTA bar sits at the bottom: 'Comment \"SYSTEM\" and I'll send it over'. Motion: folders pop in while the counter climbs, then the Voice Clone folder is opened into a panel listing its files while SKILL.md types itself out, and a 0.4s reverse ease rewinds everything to the first row.",
-    "url": "https://www.linkedin.com/posts/ipsitadhar14_guyss-i-finally-finished-the-largest-claude-activity-7521443453281406976-qSuN"
+    "what": "720x900 (4:5) GIF of a macOS-style window titled 'Oiti · 30+ LinkedIn skills' with traffic-light buttons, a breadcrumb 'Oiti › Skills' plus an orange mono tag 'for LinkedIn' and a big orange '30+ skills' counter. A 5-column grid of 19 peach folders (Voice Clone, Hook Writer, Story Interview, Newsjacking, Carousel Builder, Infographic Studio, Content Calendar, Comment Replies, Repurpose, Analytics Digest, Knowledge Base, Memory, Competitor Watch, Profile Optimizer, Ideation, Post Scheduler, Writing Styles, Trend Radar, DM Assist) plus a dashed '+ 11 more' slot. An orange gradient CTA bar sits at the bottom: 'Comment \"SYSTEM\" and I'll send it over'. Motion: folders pop in while the counter climbs, then the Voice Clone folder is opened into a panel listing its files while SKILL.md types itself out, and a 0.4s reverse ease rewinds everything to the first row."
    },
    "copy_basis": "ID03 template: two hook lines, positioning line, humble limit, reframe, seven numbered titled sections, 'Everything connects' chain, counted summary, CTA",
    "media": {
@@ -1350,20 +1414,20 @@ window.STUDIO = {
     "src": "batch-3/AG3",
     "title": "250+ real funnel elements, 7 prompts",
     "files": [
-     "media/batch-3/AG3/poster.jpg?v=20261110100933"
+     "media/batch-3/AG3/poster.jpg?v=20261110230337"
     ],
-    "video": "media/batch-3/AG3/tantra-b3-AG3-2026-11-18-adi.mp4?v=20261110100933",
+    "video": "media/batch-3/AG3/tantra-b3-AG3-2026-11-18-adi.mp4?v=20261110230337",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-3/AG3/tantra-b3-AG3-2026-11-18-adi.mp4?v=20261110100933",
+      "href": "media/batch-3/AG3/tantra-b3-AG3-2026-11-18-adi.mp4?v=20261110230337",
       "name": "tantra-b3-AG3-2026-11-18-adi.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 634601
      },
      {
-      "href": "media/batch-3/AG3/tantra-b3-AG3-2026-11-18-adi.gif?v=20261110100933",
+      "href": "media/batch-3/AG3/tantra-b3-AG3-2026-11-18-adi.gif?v=20261110230337",
       "name": "tantra-b3-AG3-2026-11-18-adi.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -1429,8 +1493,7 @@ window.STUDIO = {
    "sample": {
     "id": "ID04",
     "creator": "Ipsita Dhar",
-    "what": "720x900 (4:5) GIF: a glossy iPhone mockup (Dynamic Island showing an orange burst, lock icon, 'Friday', huge '9:41') on a peach-coral gradient, with iOS notification cards stacking on the lock screen: 'Claude for LinkedIn / Post published · 8:30 / Story post · official API', 'LinkedIn / Your post hit 84K views / Hook #7 · 3x your average', 'LinkedIn / New DM from a lead / Priya S., Founder · Lattice', 'LinkedIn / +212 followers this week / Founders in your ICP', 'Claude for LinkedIn / Memory updated / Learned from your edit'. A floating white card top-left counts 'Views on LinkedIn, last 6 months' from 0K to 600K 'on autopilot' with a 12-dot progress row; a pill bottom-right reads 'Claude + LinkedIn / connected via official API' with the burst and LinkedIn logos joined by a dotted line. Cream CTA strip: 'Comment \"SYSTEM\" and I'll send it over'.",
-    "url": "https://www.linkedin.com/posts/ipsitadhar14_breaking-claude-now-grows-your-linkedin-activity-7520718602677682176-W22g"
+    "what": "720x900 (4:5) GIF: a glossy iPhone mockup (Dynamic Island showing an orange burst, lock icon, 'Friday', huge '9:41') on a peach-coral gradient, with iOS notification cards stacking on the lock screen: 'Claude for LinkedIn / Post published · 8:30 / Story post · official API', 'LinkedIn / Your post hit 84K views / Hook #7 · 3x your average', 'LinkedIn / New DM from a lead / Priya S., Founder · Lattice', 'LinkedIn / +212 followers this week / Founders in your ICP', 'Claude for LinkedIn / Memory updated / Learned from your edit'. A floating white card top-left counts 'Views on LinkedIn, last 6 months' from 0K to 600K 'on autopilot' with a 12-dot progress row; a pill bottom-right reads 'Claude + LinkedIn / connected via official API' with the burst and LinkedIn logos joined by a dotted line. Cream CTA strip: 'Comment \"SYSTEM\" and I'll send it over'."
    },
    "copy_basis": "ID04 template: BREAKING caps hook, two-line setup, turn, tease, insight, equation pair, 'Here's what's inside' with eight arrow lines, proof line, RESULT line, three-beat close",
    "media": {
@@ -1438,20 +1501,20 @@ window.STUDIO = {
     "src": "batch-3/AG5",
     "title": "5 emails, 13 days, 1 subject line",
     "files": [
-     "media/batch-3/AG5/poster.jpg?v=20261110100933"
+     "media/batch-3/AG5/poster.jpg?v=20261110230337"
     ],
-    "video": "media/batch-3/AG5/tantra-b3-AG5-2026-11-23-adi.mp4?v=20261110100933",
+    "video": "media/batch-3/AG5/tantra-b3-AG5-2026-11-23-adi.mp4?v=20261110230337",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-3/AG5/tantra-b3-AG5-2026-11-23-adi.mp4?v=20261110100933",
+      "href": "media/batch-3/AG5/tantra-b3-AG5-2026-11-23-adi.mp4?v=20261110230337",
       "name": "tantra-b3-AG5-2026-11-23-adi.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 821707
      },
      {
-      "href": "media/batch-3/AG5/tantra-b3-AG5-2026-11-23-adi.gif?v=20261110100933",
+      "href": "media/batch-3/AG5/tantra-b3-AG5-2026-11-23-adi.gif?v=20261110230337",
       "name": "tantra-b3-AG5-2026-11-23-adi.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -1517,8 +1580,7 @@ window.STUDIO = {
    "sample": {
     "id": "BK08",
     "creator": "Bharath Krishna Pai",
-    "what": "800x1000 (4:5) GIF on a lavender dot-grid canvas: kicker 'Judge every lead like you would', headline 'Claude + intent data = Only DMs that land' with 'land' in a highlight box, subline 'Ask 8 tiny questions about each lead and what they just did'. A 'Reading every engager' strip of 12 face avatars gets skip / ✓DM tags; a 'Reviewing' card (Lead 09/132, Founder · Series A SaaS, name redacted with a black bar) runs 8 coloured question rows (role, company, new job, hiring, funding, pain post, competitor, warm path) that resolve to Yes / No (5 Yes, 3 No), then a 9th 'fit' row ('0 to 100 score, 70+ gets a DM') fills a bar to 64, just under the threshold marker, and marks 'skipped'. Two boxes compare 'The DIY version' and 'The done-for-you version'. Purple CTA bar: 'Comment \"INTENT\" for free access 👇'.",
-    "url": "https://www.linkedin.com/posts/bkp31415_i-dont-know-if-i-should-be-sharing-this-activity-7520711265791463424-vjy-"
+    "what": "800x1000 (4:5) GIF on a lavender dot-grid canvas: kicker 'Judge every lead like you would', headline 'Claude + intent data = Only DMs that land' with 'land' in a highlight box, subline 'Ask 8 tiny questions about each lead and what they just did'. A 'Reading every engager' strip of 12 face avatars gets skip / ✓DM tags; a 'Reviewing' card (Lead 09/132, Founder · Series A SaaS, name redacted with a black bar) runs 8 coloured question rows (role, company, new job, hiring, funding, pain post, competitor, warm path) that resolve to Yes / No (5 Yes, 3 No), then a 9th 'fit' row ('0 to 100 score, 70+ gets a DM') fills a bar to 64, just under the threshold marker, and marks 'skipped'. Two boxes compare 'The DIY version' and 'The done-for-you version'. Purple CTA bar: 'Comment \"INTENT\" for free access 👇'."
    },
    "copy_basis": "BK08 template: confessional hook, three-clause claim, setup line, four quoted prompts each with a tick result, 'It also' with four arrow lines, a plain-language question, 'Less, More' close",
    "media": {
@@ -1526,20 +1588,20 @@ window.STUDIO = {
     "src": "batch-3/AG6",
     "title": "Your persona from 20 customers",
     "files": [
-     "media/batch-3/AG6/poster.jpg?v=20261110100933"
+     "media/batch-3/AG6/poster.jpg?v=20261110230337"
     ],
-    "video": "media/batch-3/AG6/tantra-b3-AG6-2026-11-25-adi.mp4?v=20261110100933",
+    "video": "media/batch-3/AG6/tantra-b3-AG6-2026-11-25-adi.mp4?v=20261110230337",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-3/AG6/tantra-b3-AG6-2026-11-25-adi.mp4?v=20261110100933",
+      "href": "media/batch-3/AG6/tantra-b3-AG6-2026-11-25-adi.mp4?v=20261110230337",
       "name": "tantra-b3-AG6-2026-11-25-adi.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 864397
      },
      {
-      "href": "media/batch-3/AG6/tantra-b3-AG6-2026-11-25-adi.gif?v=20261110100933",
+      "href": "media/batch-3/AG6/tantra-b3-AG6-2026-11-25-adi.gif?v=20261110230337",
       "name": "tantra-b3-AG6-2026-11-25-adi.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -1603,8 +1665,7 @@ window.STUDIO = {
    "sample": {
     "id": "HD21",
     "creator": "Harry Dry",
-    "what": "Each slide is split into a 'BEFORE AI' top half and 'AFTER AI' bottom half comparing LinkedIn statements, a clear two-column comparison carousel.",
-    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7471461892859932673"
+    "what": "Each slide is split into a 'BEFORE AI' top half and 'AFTER AI' bottom half comparing LinkedIn statements, a clear two-column comparison carousel."
    },
    "copy_basis": "HD21 template: one short either/or question as the caption; every page split BEFORE AI on top, AFTER AI below",
    "media": {
@@ -1612,17 +1673,17 @@ window.STUDIO = {
     "src": "batch-3/TC3",
     "title": "Your funnel before AI and after AI",
     "files": [
-     "media/batch-3/TC3/p01.jpg?v=20261110100933",
-     "media/batch-3/TC3/p02.jpg?v=20261110100933",
-     "media/batch-3/TC3/p03.jpg?v=20261110100933",
-     "media/batch-3/TC3/p04.jpg?v=20261110100933",
-     "media/batch-3/TC3/p05.jpg?v=20261110100933",
-     "media/batch-3/TC3/p06.jpg?v=20261110100933",
-     "media/batch-3/TC3/p07.jpg?v=20261110100933",
-     "media/batch-3/TC3/p08.jpg?v=20261110100933"
+     "media/batch-3/TC3/p01.jpg?v=20261110230337",
+     "media/batch-3/TC3/p02.jpg?v=20261110230337",
+     "media/batch-3/TC3/p03.jpg?v=20261110230337",
+     "media/batch-3/TC3/p04.jpg?v=20261110230337",
+     "media/batch-3/TC3/p05.jpg?v=20261110230337",
+     "media/batch-3/TC3/p06.jpg?v=20261110230337",
+     "media/batch-3/TC3/p07.jpg?v=20261110230337",
+     "media/batch-3/TC3/p08.jpg?v=20261110230337"
     ],
     "download": {
-     "href": "media/batch-3/TC3/tantra-b3-TC3-2026-11-18-tantra.pdf?v=20261110100933",
+     "href": "media/batch-3/TC3/tantra-b3-TC3-2026-11-18-tantra.pdf?v=20261110230337",
      "name": "tantra-b3-TC3-2026-11-18-tantra.pdf",
      "ext": "pdf",
      "bytes": 1063394,
@@ -1674,8 +1735,7 @@ window.STUDIO = {
    "sample": {
     "id": "ID15",
     "creator": "Ipsita Dhar",
-    "what": "1024x1536 (2:3) static poster styled as a dark IDE: header '.linkedin-system/' in large orange monospace with an orange asterisk burst, subline '17 SKILLS, 8 AGENTS, ONE LINKEDIN SYSTEM', and a dark terminal badge 'AI-POWERED LINKEDIN SYSTEM _'. Main panel: a cream file-explorer card with a dark icon rail (folder, doc, chart, calendar, people, dots) and 8 rows connected by a vertical timeline: orange folder icon, folder name ('voice-builder/', 'research-agent/', 'hook-agent/', 'writer-agent/', 'editor-agent/', 'infographics-agent/', 'creator-tracker/', 'scheduler-analytics/') with exactly 5 file children each (two columns, 3 left and 2 right), and at right a coloured number tile 01 to 08 plus a pastel outcome note ('builds your 3,000-word AI clone'). Bottom: orange CTA bar 'Comment 'SYSTEM' and I'll send it.'",
-    "url": "https://www.linkedin.com/posts/ipsitadhar14_i-built-a-complete-claude-team-for-linkedin-activity-7506947893812150275-oq8P"
+    "what": "1024x1536 (2:3) static poster styled as a dark IDE: header '.linkedin-system/' in large orange monospace with an orange asterisk burst, subline '17 SKILLS, 8 AGENTS, ONE LINKEDIN SYSTEM', and a dark terminal badge 'AI-POWERED LINKEDIN SYSTEM _'. Main panel: a cream file-explorer card with a dark icon rail (folder, doc, chart, calendar, people, dots) and 8 rows connected by a vertical timeline: orange folder icon, folder name ('voice-builder/', 'research-agent/', 'hook-agent/', 'writer-agent/', 'editor-agent/', 'infographics-agent/', 'creator-tracker/', 'scheduler-analytics/') with exactly 5 file children each (two columns, 3 left and 2 right), and at right a coloured number tile 01 to 08 plus a pastel outcome note ('builds your 3,000-word AI clone'). Bottom: orange CTA bar 'Comment 'SYSTEM' and I'll send it.'"
    },
    "copy_basis": "ID15 template: build hook and free line, context paragraph, humility beat, numbered list of named parts, 'Everything connects' chain, three-line role split, summary line, CTA",
    "media": {
@@ -1684,10 +1744,10 @@ window.STUDIO = {
     "title": "The 8-part prompt skeleton",
     "tall": false,
     "files": [
-     "media/batch-3/TG1/image.jpg?v=20261110100933"
+     "media/batch-3/TG1/image.jpg?v=20261110230337"
     ],
     "download": {
-     "href": "media/batch-3/TG1/tantra-b3-TG1-2026-11-16-tantra.png?v=20261110100933",
+     "href": "media/batch-3/TG1/tantra-b3-TG1-2026-11-16-tantra.png?v=20261110230337",
      "name": "tantra-b3-TG1-2026-11-16-tantra.png",
      "ext": "png",
      "bytes": 343366,
@@ -1753,8 +1813,7 @@ window.STUDIO = {
    "sample": {
     "id": "ID10",
     "creator": "Ipsita Dhar",
-    "what": "720x790 GIF (63 frames, 4.2s) on a warm off-white dotted-grid canvas. Top: a terracotta-framed 'Before Skill' card holding two real-looking LinkedIn post rows with weak stats (224 and 14 impressions, 'View analytics'). Middle: a terracotta app tile with a white Claude burst, joined by a thin grey connector line. Bottom: a lilac-framed 'After Skill' card showing a Search-Console-style 'Content performance' dashboard (390,022 impressions, +26.6% vs prior 90 days, green 'Cumulative' pill, rising line chart). Full-width terracotta CTA bar 'Comment ‘SYSTEM’ for access'. Motion: after a 0.6s hold every card's contents and the burst fade out together, then rebuild in sequence (two Before post rows, the burst tile, then the After dashboard nav, headline numbers and finally the whole chart fading in), with a sheen sweep and scale bump on the CTA bar.",
-    "url": "https://www.linkedin.com/posts/ipsitadhar14_i-connected-claude-opus-55-to-linkedin-activity-7515282807745728512-TYfh"
+    "what": "720x790 GIF (63 frames, 4.2s) on a warm off-white dotted-grid canvas. Top: a terracotta-framed 'Before Skill' card holding two real-looking LinkedIn post rows with weak stats (224 and 14 impressions, 'View analytics'). Middle: a terracotta app tile with a white Claude burst, joined by a thin grey connector line. Bottom: a lilac-framed 'After Skill' card showing a Search-Console-style 'Content performance' dashboard (390,022 impressions, +26.6% vs prior 90 days, green 'Cumulative' pill, rising line chart). Full-width terracotta CTA bar 'Comment ‘SYSTEM’ for access'. Motion: after a 0.6s hold every card's contents and the burst fade out together, then rebuild in sequence (two Before post rows, the burst tile, then the After dashboard nav, headline numbers and finally the whole chart fading in), with a sheen sweep and scale bump on the CTA bar."
    },
    "copy_basis": "ID10 template: two-line hook, CTA pointer, curiosity bridge, numbered n/ list with a name line and one short spec each, a two-paragraph proof beat, CTA",
    "media": {
@@ -1762,20 +1821,20 @@ window.STUDIO = {
     "src": "batch-3/TG2",
     "title": "The registration page in 9 blocks",
     "files": [
-     "media/batch-3/TG2/poster.jpg?v=20261110100933"
+     "media/batch-3/TG2/poster.jpg?v=20261110230337"
     ],
-    "video": "media/batch-3/TG2/tantra-b3-TG2-2026-11-17-tantra.mp4?v=20261110100933",
+    "video": "media/batch-3/TG2/tantra-b3-TG2-2026-11-17-tantra.mp4?v=20261110230337",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-3/TG2/tantra-b3-TG2-2026-11-17-tantra.mp4?v=20261110100933",
+      "href": "media/batch-3/TG2/tantra-b3-TG2-2026-11-17-tantra.mp4?v=20261110230337",
       "name": "tantra-b3-TG2-2026-11-17-tantra.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 747908
      },
      {
-      "href": "media/batch-3/TG2/tantra-b3-TG2-2026-11-17-tantra.gif?v=20261110100933",
+      "href": "media/batch-3/TG2/tantra-b3-TG2-2026-11-17-tantra.gif?v=20261110230337",
       "name": "tantra-b3-TG2-2026-11-17-tantra.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -1841,8 +1900,7 @@ window.STUDIO = {
    "sample": {
     "id": "BK17",
     "creator": "Bharath Krishna Pai",
-    "what": "720x1080 (2:3) GIF, 127 frames, 8.5s. Cream canvas: eyebrow 'THE CLAUDE LINKEDIN SYSTEM · 17 SKILLS · ONE SESSION', an app-icon tile with orange starburst beside the headline 'CLAUDE OPUS 5' (navy) / 'FOR LINKEDIN' (orange), italic caps tagline '8 AGENTS. 17 SKILLS. ONE CONNECTED SYSTEM.', then 11 trading-card style skill cards in a 3/4/4 grid (number badge, orange category tab such as VOICE or RESEARCH, coloured lightning-bolt icon, 'SKILL NAME', serif title such as 'The Voice Cloner', 2 to 3 line description, 'RUNS ON ONE SESSION' pill). Bottom row: pills ONE SYSTEM, 17 SKILLS, 8 AGENTS and an orange CTA pill 'COMMENT 'SYSTEM' >'. The cycle opens on the full grid, the 11 cards and 3 stat pills dissolve out, then the cards are dealt back in one by one in reading order and the pills return last.",
-    "url": "https://www.linkedin.com/posts/bkp31415_i-havent-written-a-linkedin-post-by-hand-activity-7513829707214155777-wtDg"
+    "what": "720x1080 (2:3) GIF, 127 frames, 8.5s. Cream canvas: eyebrow 'THE CLAUDE LINKEDIN SYSTEM · 17 SKILLS · ONE SESSION', an app-icon tile with orange starburst beside the headline 'CLAUDE OPUS 5' (navy) / 'FOR LINKEDIN' (orange), italic caps tagline '8 AGENTS. 17 SKILLS. ONE CONNECTED SYSTEM.', then 11 trading-card style skill cards in a 3/4/4 grid (number badge, orange category tab such as VOICE or RESEARCH, coloured lightning-bolt icon, 'SKILL NAME', serif title such as 'The Voice Cloner', 2 to 3 line description, 'RUNS ON ONE SESSION' pill). Bottom row: pills ONE SYSTEM, 17 SKILLS, 8 AGENTS and an orange CTA pill 'COMMENT 'SYSTEM' >'. The cycle opens on the full grid, the 11 cards and 3 stat pills dissolve out, then the cards are dealt back in one by one in reading order and the pills return last."
    },
    "copy_basis": "BK17 template: absence hook and free line, thesis line, effort line, 'Here's what's inside' with eight count-led arrow lines and no blank lines, recap line, CTA",
    "media": {
@@ -1850,20 +1908,20 @@ window.STUDIO = {
     "src": "batch-3/TG3",
     "title": "Every outreach limit on one card",
     "files": [
-     "media/batch-3/TG3/poster.jpg?v=20261110100933"
+     "media/batch-3/TG3/poster.jpg?v=20261110230337"
     ],
-    "video": "media/batch-3/TG3/tantra-b3-TG3-2026-11-19-tantra.mp4?v=20261110100933",
+    "video": "media/batch-3/TG3/tantra-b3-TG3-2026-11-19-tantra.mp4?v=20261110230337",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-3/TG3/tantra-b3-TG3-2026-11-19-tantra.mp4?v=20261110100933",
+      "href": "media/batch-3/TG3/tantra-b3-TG3-2026-11-19-tantra.mp4?v=20261110230337",
       "name": "tantra-b3-TG3-2026-11-19-tantra.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 585593
      },
      {
-      "href": "media/batch-3/TG3/tantra-b3-TG3-2026-11-19-tantra.gif?v=20261110100933",
+      "href": "media/batch-3/TG3/tantra-b3-TG3-2026-11-19-tantra.gif?v=20261110230337",
       "name": "tantra-b3-TG3-2026-11-19-tantra.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -1928,8 +1986,7 @@ window.STUDIO = {
    "sample": {
     "id": "ID02",
     "creator": "Ipsita Dhar",
-    "what": "720x900 (4:5) GIF of a fake 'Claude / Acquisition engine' app: header with orange burst tile and a 'Running' dot, hero block with a giant navy numeral (41) beside 'qualified meetings / last week' and stats '742 conversations, 14 proposals, 12 min/day', then a 6-column board (ICP, Signals, Research, Outreach, Replies, Meetings, each with a status ring icon and a running total) of 29 prospect cards in the end state (five per column in the first five columns plus four in Meetings, ACQ-312 to ACQ-340, a first name + initial, a company like Northwind, Zephyr, Lattice, and an initial chip). The Meetings column holds orange-bordered cards stamped '✓ Fri 12:30'. CTA strip: 'Comment SALES to test it yourself.' Motion: from the finished state the board crossfades back to zero, then four times the top lane of prospects shifts one column right, each arrival in Meetings counting the hero number up by about 10 until it reads 41, and an underline draws before the hold.",
-    "url": "https://www.linkedin.com/posts/ipsitadhar14_we-gave-claude-a-linkedin-connection-it-activity-7521805781600501760-fI-k"
+    "what": "720x900 (4:5) GIF of a fake 'Claude / Acquisition engine' app: header with orange burst tile and a 'Running' dot, hero block with a giant navy numeral (41) beside 'qualified meetings / last week' and stats '742 conversations, 14 proposals, 12 min/day', then a 6-column board (ICP, Signals, Research, Outreach, Replies, Meetings, each with a status ring icon and a running total) of 29 prospect cards in the end state (five per column in the first five columns plus four in Meetings, ACQ-312 to ACQ-340, a first name + initial, a company like Northwind, Zephyr, Lattice, and an initial chip). The Meetings column holds orange-bordered cards stamped '✓ Fri 12:30'. CTA strip: 'Comment SALES to test it yourself.' Motion: from the finished state the board crossfades back to zero, then four times the top lane of prospects shifts one column right, each arrival in Meetings counting the hero number up by about 10 until it reads 41, and an underline draws before the hold."
    },
    "copy_basis": "ID02 template: two-line hook, widener line, pain paragraph, instruction line, 'It can help' with six verb-first arrow lines, 'The goal?', answer, triple close, CTA",
    "media": {
@@ -1937,20 +1994,20 @@ window.STUDIO = {
     "src": "batch-3/TG4",
     "title": "A clock on every pipeline stage",
     "files": [
-     "media/batch-3/TG4/poster.jpg?v=20261110100933"
+     "media/batch-3/TG4/poster.jpg?v=20261110230337"
     ],
-    "video": "media/batch-3/TG4/tantra-b3-TG4-2026-11-20-tantra.mp4?v=20261110100933",
+    "video": "media/batch-3/TG4/tantra-b3-TG4-2026-11-20-tantra.mp4?v=20261110230337",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-3/TG4/tantra-b3-TG4-2026-11-20-tantra.mp4?v=20261110100933",
+      "href": "media/batch-3/TG4/tantra-b3-TG4-2026-11-20-tantra.mp4?v=20261110230337",
       "name": "tantra-b3-TG4-2026-11-20-tantra.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 1165218
      },
      {
-      "href": "media/batch-3/TG4/tantra-b3-TG4-2026-11-20-tantra.gif?v=20261110100933",
+      "href": "media/batch-3/TG4/tantra-b3-TG4-2026-11-20-tantra.gif?v=20261110230337",
       "name": "tantra-b3-TG4-2026-11-20-tantra.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -2023,8 +2080,7 @@ window.STUDIO = {
    "sample": {
     "id": "ID07",
     "creator": "Ipsita Dhar",
-    "what": "720x900 (4:5) GIF of a light 'Claude / visitor-intelligence' dashboard with a 'Last 30 days' mono pill: a giant blue-to-teal gradient numeral (27) beside 'qualified demos / last 30 days / ✳ booked by Claude on yoursite.com', a three-stat row (VISITORS 4,812 anonymous by default; IDENTIFIED 1,368 28% of traffic in orange; ICP MATCHES 296 qualified by Claude), and an area chart over Week 1 to Week 4: a blue visitors line with pale blue fill and an orange 'identified by Claude' area beneath, with three tooltips tied by dotted drop lines to orange markers on the identified area ('Sarah R. · Northwind / VP Sales · ICP 81', 'Omar R. · Atlas / COO · ICP 87', 'Ava C. · Solace / VP Sales · ICP 97'). White CTA strip: 'Comment SEND to test it yourself.' with SEND in a blue-to-teal pill. Motion: the dashboard resets to zero and a playhead sweeps the chart, filling the orange area, counting up the stats, and turning anonymous visitor tooltips into named, scored leads.",
-    "url": "https://www.linkedin.com/posts/ipsitadhar14_your-next-sales-lead-is-already-on-your-website-activity-7516418908732555264-k5nm"
+    "what": "720x900 (4:5) GIF of a light 'Claude / visitor-intelligence' dashboard with a 'Last 30 days' mono pill: a giant blue-to-teal gradient numeral (27) beside 'qualified demos / last 30 days / ✳ booked by Claude on yoursite.com', a three-stat row (VISITORS 4,812 anonymous by default; IDENTIFIED 1,368 28% of traffic in orange; ICP MATCHES 296 qualified by Claude), and an area chart over Week 1 to Week 4: a blue visitors line with pale blue fill and an orange 'identified by Claude' area beneath, with three tooltips tied by dotted drop lines to orange markers on the identified area ('Sarah R. · Northwind / VP Sales · ICP 81', 'Omar R. · Atlas / COO · ICP 87', 'Ava C. · Solace / VP Sales · ICP 97'). White CTA strip: 'Comment SEND to test it yourself.' with SEND in a blue-to-teal pill. Motion: the dashboard resets to zero and a playhead sweeps the chart, filling the orange area, counting up the stats, and turning anonymous visitor tooltips into named, scored leads."
    },
    "copy_basis": "ID07 template: two caps hook lines, a problem broken mid-sentence, 'Meanwhile' contrast, gap line, fix line, 'Now you can' with four arrow lines, 'All on one', benefit pair, ease line, instruction and punchline, CTA",
    "media": {
@@ -2032,20 +2088,20 @@ window.STUDIO = {
     "src": "batch-3/TG6",
     "title": "Keep outreach off your main domain",
     "files": [
-     "media/batch-3/TG6/poster.jpg?v=20261110100933"
+     "media/batch-3/TG6/poster.jpg?v=20261110230337"
     ],
-    "video": "media/batch-3/TG6/tantra-b3-TG6-2026-11-23-tantra.mp4?v=20261110100933",
+    "video": "media/batch-3/TG6/tantra-b3-TG6-2026-11-23-tantra.mp4?v=20261110230337",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-3/TG6/tantra-b3-TG6-2026-11-23-tantra.mp4?v=20261110100933",
+      "href": "media/batch-3/TG6/tantra-b3-TG6-2026-11-23-tantra.mp4?v=20261110230337",
       "name": "tantra-b3-TG6-2026-11-23-tantra.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 261330
      },
      {
-      "href": "media/batch-3/TG6/tantra-b3-TG6-2026-11-23-tantra.gif?v=20261110100933",
+      "href": "media/batch-3/TG6/tantra-b3-TG6-2026-11-23-tantra.gif?v=20261110230337",
       "name": "tantra-b3-TG6-2026-11-23-tantra.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -2093,6 +2149,629 @@ window.STUDIO = {
     "email_body": "Hi {first_name},\n\nYou commented DOMAINS on the Tantra post about cold outreach putting your main domain at risk:\n[POST LINK]\n\nHere's the Clean Domain Sending Checklist, as promised:\nhttps://adisuja.github.io/tantra-revops/clean-domain-checklist/\n\nIt's one page of tick boxes: the look-alike domains, the four DNS records, the two-week warm-up and the sending rules. The link opens straight away, with no sign-up.\n\nDo the domain section today. The warm-up takes two weeks, so that clock should start first.\n\nAre you sending from your main domain right now? Hit reply and tell me.\n\nAdi\n\nP.S. You're getting this because you asked for it in the comments. If you'd rather not hear from me again, reply \"no\" and that's final."
    },
    "key": "b3-TG6"
+  },
+  {
+   "id": "EG3",
+   "batch": "4",
+   "profile": "ben",
+   "platform": "linkedin",
+   "status": "ready",
+   "time": "08:30",
+   "cta": "",
+   "date": "2026-11-24",
+   "short": "Book the call, see the proof",
+   "pillar": "Close",
+   "idea": "Put the booking calendar and the proof on one page: case studies, measured numbers and what happens on the call beside the calendar.",
+   "format": "Image · animated giveaway",
+   "sample": {
+    "id": "ID11",
+    "creator": "Ipsita Dhar",
+    "what": "Animated PDF lead-magnet flip-through: near-black viewer chrome, thumbnail rail, cream pages with one terracotta accent, page-to-page scroll, terracotta keyword band"
+   },
+   "copy_basis": "ID11 template: 'BREAKING: X is here. Get it free.' hook, what it is in one sentence, numbered sections with a payoff each, a backbone arrow chain, CTA",
+   "media": {
+    "type": "video",
+    "src": "batch-4/EG3",
+    "title": "The Book-a-Call Page (With Case Studies)",
+    "files": [
+     "media/batch-4/EG3/poster.jpg?v=20261110230337"
+    ],
+    "video": "media/batch-4/EG3/tantra-b4-EG3-2026-11-24-ben.mp4?v=20261110230337",
+    "tall": false,
+    "sets": [
+     {
+      "href": "media/batch-4/EG3/tantra-b4-EG3-2026-11-24-ben.mp4?v=20261110230337",
+      "name": "tantra-b4-EG3-2026-11-24-ben.mp4",
+      "ext": "mp4",
+      "label": "Download MP4",
+      "bytes": 599423
+     },
+     {
+      "href": "media/batch-4/EG3/tantra-b4-EG3-2026-11-24-ben.gif?v=20261110230337",
+      "name": "tantra-b4-EG3-2026-11-24-ben.gif",
+      "ext": "gif",
+      "label": "Download GIF",
+      "bytes": 717762
+     }
+    ]
+   },
+   "text": "BREAKING: The book-a-call page that shows your proof before the call is here.\n\nGet the template free.\n\nWe put the calendar, the case studies and what happens on the call on one page, so buyers book after they have seen the proof.\n\nSix sections, each answering a question a buyer would otherwise save for the call:\n\n1/ The promise of the call: what 30 minutes gets them, in one line.\n\n2/ The calendar: on the first screen, in their own time zone.\n\n3/ The booking questions: company, revenue band, ready to invest, main channel, the one bottleneck, who signs off. They qualify the call and double as your prep. A \"not yet\" on budget never blocks the booking.\n\n4/ Case studies by stage: businesses like theirs by size and industry, each with where they started, what was built and what changed.\n\n5/ The proof: numbers only from a client's own tracker, and testimonials word for word.\n\n6/ What happens on the call: 30 minutes, the one stage costing them most, and a straight answer if it isn't a fit.\n\nThe same order every time:\nPromise → Calendar → Questions → Case studies → Proof → What happens next\n\nGet it here, free. 👇",
+   "first_comment": "The Book-a-Call Page (With Case Studies): the calendar, the proof and what happens on the call, all on one page buyers trust.",
+   "sources": [
+    "content/corpus/facts.md: EW-42, EW-27",
+    "content/corpus/giveaway-assets.md"
+   ],
+   "numbers_for_signoff": [
+    "booking questions and the 'timing, or budget?' rule (EW-42)",
+    "revenue bands: under $10K, $10K to $25K, $25K to $100K, $100K to $500K, over $500K a month (EW-42)",
+    "case stages: under $25K, $25K to $100K, $100K to $500K, over $500K a month; 30-minute call (EW-42)"
+   ],
+   "flags": [
+    "The keyword is only on the asset's bottom tile, never in the post copy or the first comment. The resource is built and hosted: preview it under the post, with the three messages that deliver it.",
+    "The resource goes out by manual DM from Ben's own profile (assumed; confirm).",
+    "Renamed by the owner on 2026-11-10 from the due diligence page idea.",
+    "The asset shows the two real pages people receive (sample ID11: never show pages you will not deliver)."
+   ],
+   "visual_label": "On the asset (animated 4:5)",
+   "visual_copy": [
+    "book-a-call-page.pdf, 1 / 2 and 2 / 2: the real pages of the resource, shown in a PDF viewer",
+    "Comment CALL for the template"
+   ],
+   "resource": {
+    "name": "The Book-a-Call Page (With Case Studies)",
+    "keyword": "CALL",
+    "what": "A 2-page PDF: the six blocks in order, the six booking questions, a case study table by stage, the proof rules and the prompt that drafts your page.",
+    "url": "https://adisuja.github.io/tantra-revops/book-a-call-page/",
+    "pages": 2,
+    "files": [
+     {
+      "label": "PDF",
+      "href": "https://adisuja.github.io/tantra-revops/book-a-call-page/book-a-call-page.pdf"
+     }
+    ]
+   },
+   "dm": {
+    "message": "Hi {first_name}, thanks for commenting CALL.\n\nHere's the Book-a-Call Page (With Case Studies):\nhttps://adisuja.github.io/tantra-revops/book-a-call-page/\n\nIt's 2 pages: the six blocks in order, the six booking questions, a case study table by stage, the proof rules and the prompt that drafts your page.\n\nStart with the case study table. The page is only as strong as the proof you put in it.\n\nWhat does your booking page show today besides the calendar?",
+    "connect": "Hi {first_name}, you commented CALL on my post about the book-a-call page with case studies. LinkedIn only lets me message connections, so accept this and I'll send it straight over. Ben",
+    "email_subject": "Your Book-a-Call Page (With Case Studies)",
+    "email_body": "Hi {first_name},\n\nYou commented CALL on my post about the book-a-call page with case studies:\n[POST LINK]\n\nHere's the Book-a-Call Page (With Case Studies), as promised:\nhttps://adisuja.github.io/tantra-revops/book-a-call-page/\n\nIt's 2 pages: the six blocks in order, the six booking questions, a case study table by stage, the proof rules and the prompt that drafts your page. The link opens straight away, with no sign-up.\n\nStart with the case study table. The page is only as strong as the proof you put in it.\n\nWhat does your booking page show today besides the calendar? Hit reply and tell me.\n\nBen\n\nP.S. You're getting this because you asked for it in the comments. If you'd rather not hear from me again, reply \"no\" and that's final."
+   },
+   "key": "b4-EG3"
+  },
+  {
+   "id": "HG1",
+   "batch": "4",
+   "profile": "bhaskar",
+   "platform": "linkedin",
+   "status": "ready",
+   "time": "08:30",
+   "cta": "",
+   "date": "2026-11-24",
+   "short": "The countdown content calendar",
+   "pillar": "Content and traffic",
+   "idea": "Plan the posts before a live session as a dated countdown: 12 posts over 4 weeks, about 40% inviting.",
+   "format": "Image · animated giveaway",
+   "sample": {
+    "id": "BK02",
+    "creator": "Bharath Krishna Pai",
+    "what": "Animated calendar fill, 720x900 GIF: cream canvas, calendar filling around fixed grey events, tilted note with a hand-drawn arrow onto a count-up pill, full-width orange keyword bar"
+   },
+   "copy_basis": "BK02 template: caps announcement with a colon, CTA bookend and pointer, 'What's inside', eight arrow lines (first five led by a number, biggest first), ease line, conditional offer, CTA bookend",
+   "media": {
+    "type": "video",
+    "src": "batch-4/HG1",
+    "title": "The Event Countdown Content Calendar",
+    "files": [
+     "media/batch-4/HG1/poster.jpg?v=20261110230337"
+    ],
+    "video": "media/batch-4/HG1/tantra-b4-HG1-2026-11-24-bhaskar.mp4?v=20261110230337",
+    "tall": false,
+    "sets": [
+     {
+      "href": "media/batch-4/HG1/tantra-b4-HG1-2026-11-24-bhaskar.mp4?v=20261110230337",
+      "name": "tantra-b4-HG1-2026-11-24-bhaskar.mp4",
+      "ext": "mp4",
+      "label": "Download MP4",
+      "bytes": 348753
+     },
+     {
+      "href": "media/batch-4/HG1/tantra-b4-HG1-2026-11-24-bhaskar.gif?v=20261110230337",
+      "name": "tantra-b4-HG1-2026-11-24-bhaskar.gif",
+      "ext": "gif",
+      "label": "Download GIF",
+      "bytes": 571786
+     }
+    ]
+   },
+   "text": "I FINALLY MAPPED IT OUT. The CONTENT CALENDAR that counts down to every live session:\n\nGet the calendar here.\n👇🏾\n\nWhat's inside:\n\n→ 12 POSTS planned for the 4 weeks before your session\n\n→ 5 INVITES, about 40%, one every 3 days or so in the last two weeks\n\n→ 7 TEACHING POSTS, so every invite has something to stand on\n\n→ 1 POST A DAY at most, never two\n\n→ 1 RULE above the rest: date every post before you write it\n\n→ THE WORDING that stays true on the day each post goes out\n\n→ THE TEACHING ROTATION: the problem, the method, a worked example, the mistake to avoid\n\n→ THE FIRST COMMENT that carries the registration link, so the post itself has none\n\nSet your session date first. Then plan backwards from it.\n\nIf you would like the calendar, the rules and the planning prompt for FREE...\n\nGet the calendar here.\n👇🏾",
+   "first_comment": "The Event Countdown Content Calendar: what to post each week before your live session, and which posts invite, so the countdown stays true.",
+   "sources": [
+    "content/corpus/facts.md: EW-37",
+    "content/corpus/giveaway-assets.md"
+   ],
+   "numbers_for_signoff": [
+    "12 posts over 4 weeks, about 40% inviting (EW-37)",
+    "one post a day at most (RULES.md section 5)"
+   ],
+   "flags": [
+    "The keyword is only on the asset's bottom tile, never in the post copy or the first comment. The resource is built and hosted: preview it under the post, with the three messages that deliver it.",
+    "The resource goes out by manual DM from Bhaskar's own profile (assumed; confirm)."
+   ],
+   "visual_label": "On the asset (animated 4:5)",
+   "visual_copy": [
+    "THE EVENT COUNTDOWN CONTENT CALENDAR",
+    "12 posts. 4 weeks. Dated before they're written.",
+    "Set your session date first. Then plan backwards from it.",
+    "Invite: 13, 10, 6, 3 and 1 day left",
+    "LIVE SESSION: the date you set",
+    "Comment COUNTDOWN and I'll send it over"
+   ],
+   "resource": {
+    "name": "The Event Countdown Content Calendar",
+    "keyword": "COUNTDOWN",
+    "what": "A 2-page PDF: the 4-week calendar with 12 posts, the rules for dating and wording them, and the prompt that plans yours.",
+    "url": "https://adisuja.github.io/tantra-revops/event-countdown-calendar/",
+    "pages": 2,
+    "files": [
+     {
+      "label": "PDF",
+      "href": "https://adisuja.github.io/tantra-revops/event-countdown-calendar/event-countdown-calendar.pdf"
+     }
+    ]
+   },
+   "dm": {
+    "message": "Hi {first_name}, thanks for commenting COUNTDOWN.\n\nHere's the Event Countdown Content Calendar:\nhttps://adisuja.github.io/tantra-revops/event-countdown-calendar/\n\nIt's 2 pages: the 4-week calendar with 12 posts, the rules for dating and wording them, and the prompt that plans yours.\n\nPut your session date in first, then date all 12 posts before you write a word.\n\nWhen is your next session?",
+    "connect": "Hi {first_name}, you commented COUNTDOWN on my post about the content calendar that counts down to a live session. LinkedIn only lets me message connections, so accept this and I'll send it straight over. Bhaskar",
+    "email_subject": "Your Event Countdown Content Calendar",
+    "email_body": "Hi {first_name},\n\nYou commented COUNTDOWN on my post about the content calendar that counts down to a live session:\n[POST LINK]\n\nHere's the Event Countdown Content Calendar, as promised:\nhttps://adisuja.github.io/tantra-revops/event-countdown-calendar/\n\nIt's 2 pages: the 4-week calendar with 12 posts, the rules for dating and wording them, and the prompt that plans yours. The link opens straight away, with no sign-up.\n\nPut your session date in first, then date all 12 posts before you write a word.\n\nWhen is your next session? Hit reply and tell me.\n\nBhaskar\n\nP.S. You're getting this because you asked for it in the comments. If you'd rather not hear from me again, reply \"no\" and that's final."
+   },
+   "key": "b4-HG1"
+  },
+  {
+   "id": "HG2",
+   "batch": "4",
+   "profile": "bhaskar",
+   "platform": "linkedin",
+   "status": "ready",
+   "time": "08:30",
+   "cta": "",
+   "date": "2026-11-26",
+   "short": "Your offer, scored out of 40",
+   "pillar": "Offer",
+   "idea": "Score the four value-equation levers like a sceptic, fix the two lowest, then rewrite the offer.",
+   "format": "Image · animated giveaway",
+   "sample": {
+    "id": "BK13",
+    "creator": "Bharath Krishna Pai",
+    "what": "Animated equation promo card: blush cream, rust and LinkedIn blue, an equation rebuilt piece by piece, a three-column icon panel, a rust button with a periodic shine"
+   },
+   "copy_basis": "BK13 template: 'just became' claim, count and promise with 👇, context line, lead-in, numbered list, ritual line, quoted question, staccato fragments, CTA",
+   "media": {
+    "type": "video",
+    "src": "batch-4/HG2",
+    "title": "The Value Equation Scorecard",
+    "files": [
+     "media/batch-4/HG2/poster.jpg?v=20261110230337"
+    ],
+    "video": "media/batch-4/HG2/tantra-b4-HG2-2026-11-26-bhaskar.mp4?v=20261110230337",
+    "tall": false,
+    "sets": [
+     {
+      "href": "media/batch-4/HG2/tantra-b4-HG2-2026-11-26-bhaskar.mp4?v=20261110230337",
+      "name": "tantra-b4-HG2-2026-11-26-bhaskar.mp4",
+      "ext": "mp4",
+      "label": "Download MP4",
+      "bytes": 350230
+     },
+     {
+      "href": "media/batch-4/HG2/tantra-b4-HG2-2026-11-26-bhaskar.gif?v=20261110230337",
+      "name": "tantra-b4-HG2-2026-11-26-bhaskar.gif",
+      "ext": "gif",
+      "label": "Download GIF",
+      "bytes": 638333
+     }
+    ]
+   },
+   "text": "Your offer just became a score out of 40.\n\n4 levers decide it, and most founders only ever push one 👇\n\nThe value equation comes from Alex Hormozi's $100M Offers.\n\nHere's what it looks like for a B2B offer:\n\n1/ Dream outcome: what they get, said as a number with a unit and a period. \"More pipeline\" scores low. \"10 booked calls a month\" scores higher.\n\n2/ Likelihood: how sure a sceptic is that it works for them. Proof they can check in ten seconds moves this one.\n\n3/ Time delay: how long until the first result. A win inside week one beats a bigger win in month six.\n\n4/ Effort: how much they have to do themselves. Every step you do for them lowers it.\n\nScore each lever out of 10, the way your most sceptical buyer would. 10 is best for the buyer, so 40 is the top score.\n\nThen fix the two lowest and rewrite the offer in one sentence.\n\nThe question to ask before any offer goes live:\n\n\"Which two levers would a sceptic score lowest?\"\n\nBigger promises get doubted.\n\nLess time and less effort get believed.\n\nOne score.\n\nTwo fixes.\n\nHappy to share the complete scorecard for FREE. 👇",
+   "first_comment": "The Value Equation Scorecard: score your offer like a sceptic would, find the two weakest levers and fix those first.",
+   "sources": [
+    "content/corpus/facts.md: WS-06, EW-38",
+    "content/corpus/giveaway-assets.md"
+   ],
+   "numbers_for_signoff": [
+    "four levers scored out of 10, total 40 (WS-06)",
+    "\"10 booked calls a month\" is the curriculum's illustrative outcome wording, not a result (offer.md)"
+   ],
+   "flags": [
+    "The keyword is only on the asset's bottom tile, never in the post copy or the first comment. The resource is built and hosted: preview it under the post, with the three messages that deliver it.",
+    "The resource goes out by manual DM from Bhaskar's own profile (assumed; confirm).",
+    "The value equation is credited to Alex Hormozi in the post, on the asset and in the resource."
+   ],
+   "visual_label": "On the asset (animated 4:5)",
+   "visual_copy": [
+    "THE VALUE EQUATION SCORECARD",
+    "After Alex Hormozi, $100M Offers",
+    "40: THE TOP SCORE",
+    "(Dream outcome × Likelihood) ÷ (Time delay × Effort) = how much your offer is worth to a buyer",
+    "Score each lever · Fix the two lowest · Rewrite the offer",
+    "Comment SCORE for the scorecard"
+   ],
+   "resource": {
+    "name": "The Value Equation Scorecard",
+    "keyword": "SCORE",
+    "what": "A 2-page PDF: the four levers, a scorecard to fill in, the changes that move each lever and the prompt that scores and rewrites your offer.",
+    "url": "https://adisuja.github.io/tantra-revops/value-equation-scorecard/",
+    "pages": 2,
+    "files": [
+     {
+      "label": "PDF",
+      "href": "https://adisuja.github.io/tantra-revops/value-equation-scorecard/value-equation-scorecard.pdf"
+     }
+    ]
+   },
+   "dm": {
+    "message": "Hi {first_name}, thanks for commenting SCORE.\n\nHere's the Value Equation Scorecard:\nhttps://adisuja.github.io/tantra-revops/value-equation-scorecard/\n\nIt's 2 pages: the four levers, a scorecard to fill in, the changes that move each lever and the prompt that scores and rewrites your offer.\n\nScore your offer as a sceptic would, then work only on the two lowest levers.\n\nWhich lever came out lowest?",
+    "connect": "Hi {first_name}, you commented SCORE on my post about scoring your offer out of 40. LinkedIn only lets me message connections, so accept this and I'll send it straight over. Bhaskar",
+    "email_subject": "Your Value Equation Scorecard",
+    "email_body": "Hi {first_name},\n\nYou commented SCORE on my post about scoring your offer out of 40:\n[POST LINK]\n\nHere's the Value Equation Scorecard, as promised:\nhttps://adisuja.github.io/tantra-revops/value-equation-scorecard/\n\nIt's 2 pages: the four levers, a scorecard to fill in, the changes that move each lever and the prompt that scores and rewrites your offer. The link opens straight away, with no sign-up.\n\nScore your offer as a sceptic would, then work only on the two lowest levers.\n\nWhich lever came out lowest? Hit reply and tell me.\n\nBhaskar\n\nP.S. You're getting this because you asked for it in the comments. If you'd rather not hear from me again, reply \"no\" and that's final."
+   },
+   "key": "b4-HG2"
+  },
+  {
+   "id": "HG3",
+   "batch": "4",
+   "profile": "bhaskar",
+   "platform": "linkedin",
+   "status": "ready",
+   "time": "08:30",
+   "cta": "",
+   "date": "2026-12-01",
+   "short": "The entry offer pays for the traffic",
+   "pillar": "Offer",
+   "idea": "The offer ladder: five rungs, with the entry offer priced to cover the traffic that brought the buyer in.",
+   "format": "Image · animated giveaway",
+   "sample": {
+    "id": "NJ07",
+    "creator": "Nelbin Joseph",
+    "what": "Animated neon sign results board: neon tubes on dark brick, a power cut and a piece-by-piece relight, a hero box, two support boxes, a black footer keyword pill"
+   },
+   "copy_basis": "NJ07 template: claim, question and answer, 'most people underestimate' line, three dash-free shallow-use lines, turn, catch, condition, arrow list, distinction line, offer and CTA",
+   "media": {
+    "type": "video",
+    "src": "batch-4/HG3",
+    "title": "The Offer Ladder Worksheet",
+    "files": [
+     "media/batch-4/HG3/poster.jpg?v=20261110230337"
+    ],
+    "video": "media/batch-4/HG3/tantra-b4-HG3-2026-12-01-bhaskar.mp4?v=20261110230337",
+    "tall": false,
+    "sets": [
+     {
+      "href": "media/batch-4/HG3/tantra-b4-HG3-2026-12-01-bhaskar.mp4?v=20261110230337",
+      "name": "tantra-b4-HG3-2026-12-01-bhaskar.mp4",
+      "ext": "mp4",
+      "label": "Download MP4",
+      "bytes": 486341
+     },
+     {
+      "href": "media/batch-4/HG3/tantra-b4-HG3-2026-12-01-bhaskar.gif?v=20261110230337",
+      "name": "tantra-b4-HG3-2026-12-01-bhaskar.gif",
+      "ext": "gif",
+      "label": "Download GIF",
+      "bytes": 1341658
+     }
+    ]
+   },
+   "text": "Your first offer has one job: pay for the traffic that brought the buyer in.\n\nYour margin? It lives on the rung above.\n\nI think most founders are still pricing the first step like a discount.\n\nThey give the first step away to get a yes.\nThey pay for every new buyer out of the next sale.\nThen they wonder why growth costs more every month.\n\nMeanwhile, the offer ladder fixes the order.\n\nHere's the catch:\nAlmost nobody buys the expensive thing first.\n\nBuild the ladder, and your top of funnel pays for itself.\n\nThe five rungs:\n→ Attention: what gets you noticed, like free courses and a free tool\n→ Lead: the first yes, like a webinar seat or a free trial\n→ Entry offer: the first paid step, priced to cover the cost of the traffic\n→ Core offer: what most customers buy next\n→ Flagship: the biggest offer, for the few who want it built with them\n\nThat's the difference between selling one offer and running a ladder people climb.\n\nAnd we're sharing the worksheet.\nWant it? I'll share it.",
+   "first_comment": "The Offer Ladder Worksheet: map your five rungs and check your entry offer pays for the traffic that brings buyers in.",
+   "sources": [
+    "content/corpus/facts.md: EW-39",
+    "content/corpus/giveaway-assets.md"
+   ],
+   "numbers_for_signoff": [
+    "five rungs: Attention, Lead, Entry offer, Core offer, Flagship (EW-39)"
+   ],
+   "flags": [
+    "The keyword is only on the asset's bottom tile, never in the post copy or the first comment. The resource is built and hosted: preview it under the post, with the three messages that deliver it.",
+    "The resource goes out by manual DM from Bhaskar's own profile (assumed; confirm)."
+   ],
+   "visual_label": "On the asset (animated 4:5)",
+   "visual_copy": [
+    "BHASKAR D.",
+    "OFFER LADDER",
+    "ATTENTION · LEAD · ENTRY · CORE · FLAGSHIP",
+    "THE ENTRY OFFER PAYS FOR THE TRAFFIC",
+    "5 RUNGS TO FILL IN · 1 PRICE CHECK BEFORE YOU SELL",
+    "Your top of funnel pays for itself.",
+    "Comment LADDER to get the worksheet"
+   ],
+   "resource": {
+    "name": "The Offer Ladder Worksheet",
+    "keyword": "LADDER",
+    "what": "A 2-page PDF: the five rungs with an example, a worksheet for yours, the entry price check and the prompt that builds your ladder.",
+    "url": "https://adisuja.github.io/tantra-revops/offer-ladder-worksheet/",
+    "pages": 2,
+    "files": [
+     {
+      "label": "PDF",
+      "href": "https://adisuja.github.io/tantra-revops/offer-ladder-worksheet/offer-ladder-worksheet.pdf"
+     }
+    ]
+   },
+   "dm": {
+    "message": "Hi {first_name}, thanks for commenting LADDER.\n\nHere's the Offer Ladder Worksheet:\nhttps://adisuja.github.io/tantra-revops/offer-ladder-worksheet/\n\nIt's 2 pages: the five rungs with an example, a worksheet for yours, the entry price check and the prompt that builds your ladder.\n\nRun the entry price check on page 2 first. It decides whether more traffic makes you money.\n\nWhat is your entry offer today?",
+    "connect": "Hi {first_name}, you commented LADDER on my post about pricing your first offer to pay for the traffic. LinkedIn only lets me message connections, so accept this and I'll send it straight over. Bhaskar",
+    "email_subject": "Your Offer Ladder Worksheet",
+    "email_body": "Hi {first_name},\n\nYou commented LADDER on my post about pricing your first offer to pay for the traffic:\n[POST LINK]\n\nHere's the Offer Ladder Worksheet, as promised:\nhttps://adisuja.github.io/tantra-revops/offer-ladder-worksheet/\n\nIt's 2 pages: the five rungs with an example, a worksheet for yours, the entry price check and the prompt that builds your ladder. The link opens straight away, with no sign-up.\n\nRun the entry price check on page 2 first. It decides whether more traffic makes you money.\n\nWhat is your entry offer today? Hit reply and tell me.\n\nBhaskar\n\nP.S. You're getting this because you asked for it in the comments. If you'd rather not hear from me again, reply \"no\" and that's final."
+   },
+   "key": "b4-HG3"
+  },
+  {
+   "id": "HG6",
+   "batch": "4",
+   "profile": "bhaskar",
+   "platform": "linkedin",
+   "status": "ready",
+   "time": "08:30",
+   "cta": "",
+   "date": "2026-12-03",
+   "short": "Teach four times, invite once",
+   "pillar": "Content and traffic",
+   "idea": "About one post in five invites a reply; each reply gets a DM, a day 3 and a day 10 follow-up, then you stop.",
+   "format": "Image · animated giveaway",
+   "sample": {
+    "id": "BK03",
+    "creator": "Bharath Krishna Pai",
+    "what": "Animated mascot-to-app reveal: blush canvas, tiles orbiting a black centre and drawn in, then a chat app with a sidebar building, a maroon pill keyword CTA (our own node, never the sample's mascot)"
+   },
+   "copy_basis": "BK03 template: short roster post: one-line build claim, the 'part people like least' line, roster intro, arrow roster, a short payoff and belief, the 'keyword's in the card' pointer",
+   "media": {
+    "type": "video",
+    "src": "batch-4/HG6",
+    "title": "The 1-in-5 Post and DM Flow",
+    "files": [
+     "media/batch-4/HG6/poster.jpg?v=20261110230337"
+    ],
+    "video": "media/batch-4/HG6/tantra-b4-HG6-2026-12-03-bhaskar.mp4?v=20261110230337",
+    "tall": false,
+    "sets": [
+     {
+      "href": "media/batch-4/HG6/tantra-b4-HG6-2026-12-03-bhaskar.mp4?v=20261110230337",
+      "name": "tantra-b4-HG6-2026-12-03-bhaskar.mp4",
+      "ext": "mp4",
+      "label": "Download MP4",
+      "bytes": 421853
+     },
+     {
+      "href": "media/batch-4/HG6/tantra-b4-HG6-2026-12-03-bhaskar.gif?v=20261110230337",
+      "name": "tantra-b4-HG6-2026-12-03-bhaskar.gif",
+      "ext": "gif",
+      "label": "Download GIF",
+      "bytes": 794664
+     }
+    ]
+   },
+   "text": "We put together a simple rule for turning posts into conversations.\n\nIt does the part most people like least: asking.\n\nFour posts that teach, one that invites a reply, and a DM flow that stops on day 10:\n\n→ Posts 1 to 4: teach one thing your buyer can use today.\n\n→ Post 5: invite a reply, with a question people can answer in one line.\n\n→ The first DM: answer their reply, then ask one question. No pitch.\n\n→ Day 3: a short follow-up that adds one useful thing.\n\n→ Day 10: the last follow-up. Then you stop.\n\n→ The log: Conversation, Call booked, Call held, so you know which post started what.\n\nPlenty of B2B teams either never ask, or ask in every post. One in five keeps the feed worth following and still starts conversations.\n\nTeach four times. Ask once. Follow up twice, then stop.\n\nThe keyword's in the card 👇",
+   "first_comment": "The 1-in-5 Post and DM Flow: the post mix, the offer post that invites replies and a DM sequence that knows when to stop.",
+   "sources": [
+    "content/corpus/facts.md: EW-40",
+    "content/corpus/giveaway-assets.md"
+   ],
+   "numbers_for_signoff": [
+    "about one post in five invites; DM follow-ups at day 3 and day 10, then stop (EW-40)"
+   ],
+   "flags": [
+    "The keyword is only on the asset's bottom tile, never in the post copy or the first comment. The resource is built and hosted: preview it under the post, with the three messages that deliver it.",
+    "The resource goes out by manual DM from Bhaskar's own profile (assumed; confirm).",
+    "Bhaskar has 4 picked giveaways for 3 slots: this one moves to Nelbin's profile if the owner chooses that."
+   ],
+   "visual_label": "On the asset (animated 4:5)",
+   "visual_copy": [
+    "THE 1-IN-5 POST AND DM FLOW",
+    "Posts 1 to 4: Teach · Post 5: Invite",
+    "Day 0 answer · Day 3 follow-up · Day 10 last follow-up · Then stop",
+    "Chat thread labelled fictional example",
+    "Comment REPLY to get the flow"
+   ],
+   "resource": {
+    "name": "The 1-in-5 Post and DM Flow",
+    "keyword": "REPLY",
+    "what": "A 2-page PDF: the 4-to-1 post mix, the DM flow for day 0, day 3 and day 10, a log for every conversation and the prompt that writes them.",
+    "url": "https://adisuja.github.io/tantra-revops/post-and-dm-flow/",
+    "pages": 2,
+    "files": [
+     {
+      "label": "PDF",
+      "href": "https://adisuja.github.io/tantra-revops/post-and-dm-flow/post-and-dm-flow.pdf"
+     }
+    ]
+   },
+   "dm": {
+    "message": "Hi {first_name}, thanks for commenting REPLY.\n\nHere's the 1-in-5 Post and DM Flow:\nhttps://adisuja.github.io/tantra-revops/post-and-dm-flow/\n\nIt's 2 pages: the 4-to-1 post mix, the DM flow for day 0, day 3 and day 10, a log for every conversation and the prompt that writes them.\n\nWrite post 5, the one that invites a reply, before the other four.\n\nWhat would you ask your buyers to reply to?",
+    "connect": "Hi {first_name}, you commented REPLY on my post about turning posts into conversations. LinkedIn only lets me message connections, so accept this and I'll send it straight over. Bhaskar",
+    "email_subject": "Your 1-in-5 Post and DM Flow",
+    "email_body": "Hi {first_name},\n\nYou commented REPLY on my post about turning posts into conversations:\n[POST LINK]\n\nHere's the 1-in-5 Post and DM Flow, as promised:\nhttps://adisuja.github.io/tantra-revops/post-and-dm-flow/\n\nIt's 2 pages: the 4-to-1 post mix, the DM flow for day 0, day 3 and day 10, a log for every conversation and the prompt that writes them. The link opens straight away, with no sign-up.\n\nWrite post 5, the one that invites a reply, before the other four.\n\nWhat would you ask your buyers to reply to? Hit reply and tell me.\n\nBhaskar\n\nP.S. You're getting this because you asked for it in the comments. If you'd rather not hear from me again, reply \"no\" and that's final."
+   },
+   "key": "b4-HG6"
+  },
+  {
+   "id": "QG5",
+   "batch": "4",
+   "profile": "aquila",
+   "platform": "linkedin",
+   "status": "ready",
+   "time": "08:30",
+   "cta": "",
+   "date": "2026-11-24",
+   "short": "3 messages in 7 days, then stop",
+   "pillar": "Close",
+   "idea": "After a proposal: day 1 WhatsApp, day 3 proof email, day 7 one question, then Follow-Up by a person; every lost deal gets a reason.",
+   "format": "Image · animated giveaway",
+   "sample": {
+    "id": "ID01",
+    "creator": "Ipsita Dhar",
+    "what": "Animated kanban pipeline board: cream and terracotta app, giant hero numeral, cards handing off column to column in a cascade, a sample-board caption, a white keyword strip"
+   },
+   "copy_basis": "ID01 template: one-line outcome hook, CTA tease and pointer, two-beat contrast, inputs list, triple negation, numbered outputs, payoff, inventory with ► markers, close",
+   "media": {
+    "type": "video",
+    "src": "batch-4/QG5",
+    "title": "The 7-Day Proposal Follow-Up",
+    "files": [
+     "media/batch-4/QG5/poster.jpg?v=20261110230337"
+    ],
+    "video": "media/batch-4/QG5/tantra-b4-QG5-2026-11-24-aquila.mp4?v=20261110230337",
+    "tall": false,
+    "sets": [
+     {
+      "href": "media/batch-4/QG5/tantra-b4-QG5-2026-11-24-aquila.mp4?v=20261110230337",
+      "name": "tantra-b4-QG5-2026-11-24-aquila.mp4",
+      "ext": "mp4",
+      "label": "Download MP4",
+      "bytes": 330702
+     },
+     {
+      "href": "media/batch-4/QG5/tantra-b4-QG5-2026-11-24-aquila.gif?v=20261110230337",
+      "name": "tantra-b4-QG5-2026-11-24-aquila.gif",
+      "ext": "gif",
+      "label": "Download GIF",
+      "bytes": 733848
+     }
+    ]
+   },
+   "text": "Our proposal follow-up is 3 messages in 7 days, then it stops.\n\nGet the sequence here.\n\n👇🏾\n\nThe proposal goes out. Then the silence starts.\n\nHere's what goes out with it:\n\n1 proposal, within one business day of the call\n1 link to book the review call, inside the proposal\n1 list of what's not included\n\nThat's it. No \"just checking in\". No discount. No fake deadline.\n\nHere's what follows it:\n\n1. Day 1: a short WhatsApp, sent between 8am and 8pm their time.\n2. Day 3: an email with one piece of proof from a real client.\n3. Day 7: one question: \"should I keep your proposal open, or is now not the right time?\"\n4. Day 8: no booking and no decision moves the deal to Follow-Up.\n5. Follow-Up: a call or a voice note, twice a week for two weeks.\n6. After two weeks in Follow-Up with no decision, it goes to nurture.\n7. Every lost deal gets a reason: price, timing, competitor or not a fit. Timing goes to nurture, not the bin.\n\nEvery proposal ends with a decision or a reason.\n\nThe full follow-up:\n\n► The three messages, written and ready to copy.\n\n► The day 7 question, word for word.\n\n► The Follow-Up rules for whoever owns the deal.\n\n► The lost-reason log, and where each reason goes.\n\nGet it here, free. 👇",
+   "first_comment": "The 7-Day Proposal Follow-Up: three messages, the day-7 question and the lost-reason log, so no proposal sits unanswered.",
+   "sources": [
+    "content/corpus/facts.md: EW-41",
+    "content/corpus/giveaway-assets.md"
+   ],
+   "numbers_for_signoff": [
+    "proposal within one business day; day 1, 3 and 7 messages; Follow-Up from day 8, twice a week for two weeks; then nurture (EW-41)",
+    "WhatsApp 08:00 to 20:00 their time (EW-41)"
+   ],
+   "flags": [
+    "The keyword is only on the asset's bottom tile, never in the post copy or the first comment. The resource is built and hosted: preview it under the post, with the three messages that deliver it.",
+    "The resource goes out by manual DM from Aquila's own profile (assumed; confirm)."
+   ],
+   "visual_label": "On the asset (animated 4:5)",
+   "visual_copy": [
+    "Proposal follow-up / 6 connected stages",
+    "7 days. 3 messages. Then a person takes over.",
+    "THE 7-DAY PROPOSAL FOLLOW-UP · AQUILA ELDHO",
+    "3 messages · 1 question on day 7 · 4 lost reasons",
+    "Board: Proposal sent, Day 1, Day 3, Day 7, Follow-Up, Decided (fictional deals, generic labels)",
+    "Every lost deal gets a reason: Price, Timing → nurture, Competitor, Not a fit",
+    "Comment FOLLOWUP and I'll send it over"
+   ],
+   "resource": {
+    "name": "The 7-Day Proposal Follow-Up",
+    "keyword": "FOLLOWUP",
+    "what": "A 2-page PDF: the timeline, the three messages ready to copy, the Follow-Up rules and the lost-reason log.",
+    "url": "https://adisuja.github.io/tantra-revops/proposal-follow-up/",
+    "pages": 2,
+    "files": [
+     {
+      "label": "PDF",
+      "href": "https://adisuja.github.io/tantra-revops/proposal-follow-up/proposal-follow-up.pdf"
+     }
+    ]
+   },
+   "dm": {
+    "message": "Hi {first_name}, thanks for commenting FOLLOWUP.\n\nHere's the 7-Day Proposal Follow-Up:\nhttps://adisuja.github.io/tantra-revops/proposal-follow-up/\n\nIt's 2 pages: the timeline, the three messages ready to copy, the Follow-Up rules and the lost-reason log.\n\nCopy the day 7 message first. It asks for a decision without any pressure.\n\nHow long do your proposals usually sit before a decision?",
+    "connect": "Hi {first_name}, you commented FOLLOWUP on my post about following up a proposal in 7 days. LinkedIn only lets me message connections, so accept this and I'll send it straight over. Aquila",
+    "email_subject": "Your 7-Day Proposal Follow-Up",
+    "email_body": "Hi {first_name},\n\nYou commented FOLLOWUP on my post about following up a proposal in 7 days:\n[POST LINK]\n\nHere's the 7-Day Proposal Follow-Up, as promised:\nhttps://adisuja.github.io/tantra-revops/proposal-follow-up/\n\nIt's 2 pages: the timeline, the three messages ready to copy, the Follow-Up rules and the lost-reason log. The link opens straight away, with no sign-up.\n\nCopy the day 7 message first. It asks for a decision without any pressure.\n\nHow long do your proposals usually sit before a decision? Hit reply and tell me.\n\nAquila\n\nP.S. You're getting this because you asked for it in the comments. If you'd rather not hear from me again, reply \"no\" and that's final."
+   },
+   "key": "b4-QG5"
+  },
+  {
+   "id": "RG6",
+   "batch": "4",
+   "profile": "bharath",
+   "platform": "linkedin",
+   "status": "ready",
+   "time": "08:30",
+   "cta": "",
+   "date": "2026-11-24",
+   "short": "One invite per segment",
+   "pillar": "Reach every buyer",
+   "idea": "Sort the list into segments with AI, then send each segment its own invite with merge fields only.",
+   "format": "Image · animated giveaway",
+   "sample": {
+    "id": "AS01",
+    "creator": "Aitijya Sarkar",
+    "what": "Animated funnel counter, 720x900 GIF: peach funnel with falling particles, stage pills on dotted leaders, tickets dropping into a tray, a counter row, coral keyword bar"
+   },
+   "copy_basis": "AS01 template: caps opener, numbered promise with 👇, early CTA, bridge line, numbered list with two Output callouts, a credibility line, CTA bookend",
+   "media": {
+    "type": "video",
+    "src": "batch-4/RG6",
+    "title": "The Segment Map",
+    "files": [
+     "media/batch-4/RG6/poster.jpg?v=20261110230337"
+    ],
+    "video": "media/batch-4/RG6/tantra-b4-RG6-2026-11-24-bharath.mp4?v=20261110230337",
+    "tall": false,
+    "sets": [
+     {
+      "href": "media/batch-4/RG6/tantra-b4-RG6-2026-11-24-bharath.mp4?v=20261110230337",
+      "name": "tantra-b4-RG6-2026-11-24-bharath.mp4",
+      "ext": "mp4",
+      "label": "Download MP4",
+      "bytes": 639220
+     },
+     {
+      "href": "media/batch-4/RG6/tantra-b4-RG6-2026-11-24-bharath.gif?v=20261110230337",
+      "name": "tantra-b4-RG6-2026-11-24-bharath.gif",
+      "ext": "gif",
+      "label": "Download GIF",
+      "bytes": 1451672
+     }
+    ]
+   },
+   "text": "I FINALLY STOPPED SENDING ONE INVITE TO OUR WHOLE LIST.\n\nEvery segment now gets its own, and AI does the sorting 👇\n\nGet the map here.\n👇🏾👇🏾\n\nMost teams don't know their list can be sorted before a single invite goes out. Here are the five steps in the map:\n\n1/ One list first:\nYour CRM, your LinkedIn searches and past registrants, merged into one list before anything else.\n\n2/ AI reads every buyer\nIt goes through each company's site and the person's recent posts, so one buyer stops looking like the next.\n\n3/ Every buyer gets a segment\nEach record lands in the segment its invite is written for: by role, by kind of company, or by what just changed for them.\n\nOutput: a list sorted into segments, not one pile of names.\n\n4/ One invite per segment\nSame event, same link. The founder gets a different first line from the head of sales.\n\n5/ Merge fields only\nFirst name, company, role. AI does the reading and the sorting. It does not write a new message for every person.\n\nOutput: invites that speak to each segment's world, not \"personalised\" lines nobody believes.\n\nFive steps, always in that order: one list, research, segments, one invite per segment, merge fields only.\n\nGet the map here.\n👇🏾👇🏾",
+   "first_comment": "The Segment Map: sort every buyer into a segment with one prompt, then send each segment its own invite with merge fields only.",
+   "sources": [
+    "content/corpus/facts.md: EW-36",
+    "content/corpus/giveaway-assets.md"
+   ],
+   "numbers_for_signoff": [
+    "merge fields: first name, company, role (EW-36)",
+    "first 25 rows checked before trusting the sort (curriculum, approve the first 25 rows)"
+   ],
+   "flags": [
+    "The keyword is only on the asset's bottom tile, never in the post copy or the first comment. The resource is built and hosted: preview it under the post, with the three messages that deliver it.",
+    "The resource goes out by manual DM from Bharath's own profile (assumed; confirm)."
+   ],
+   "visual_label": "On the asset (animated 4:5)",
+   "visual_copy": [
+    "THE SEGMENT MAP",
+    "One list. Researched. Sorted. One invite per segment.",
+    "ONE LIST · RESEARCHED · SEGMENTED · ONE INVITE · MERGE FIELDS ONLY",
+    "Example segments A to F",
+    "1 invite for everyone → 6 invites, one per segment (example)",
+    "Comment SEGMENT and I'll send it over"
+   ],
+   "resource": {
+    "name": "The Segment Map",
+    "keyword": "SEGMENT",
+    "what": "A 2-page PDF: the five steps, a segment map to fill in, the prompt that sorts your list and the prompt that writes one invite per segment.",
+    "url": "https://adisuja.github.io/tantra-revops/segment-map/",
+    "pages": 2,
+    "files": [
+     {
+      "label": "PDF",
+      "href": "https://adisuja.github.io/tantra-revops/segment-map/segment-map.pdf"
+     }
+    ]
+   },
+   "dm": {
+    "message": "Hi {first_name}, thanks for commenting SEGMENT.\n\nHere's the Segment Map:\nhttps://adisuja.github.io/tantra-revops/segment-map/\n\nIt's 2 pages: the five steps, a segment map to fill in, the prompt that sorts your list and the prompt that writes one invite per segment.\n\nFill in the segment map on page 1 before you run any prompt. Five or six segments is plenty to start.\n\nHow many segments does your list break into?",
+    "connect": "Hi {first_name}, you commented SEGMENT on my post about sending each segment its own invite. LinkedIn only lets me message connections, so accept this and I'll send it straight over. Bharath",
+    "email_subject": "Your Segment Map",
+    "email_body": "Hi {first_name},\n\nYou commented SEGMENT on my post about sending each segment its own invite:\n[POST LINK]\n\nHere's the Segment Map, as promised:\nhttps://adisuja.github.io/tantra-revops/segment-map/\n\nIt's 2 pages: the five steps, a segment map to fill in, the prompt that sorts your list and the prompt that writes one invite per segment. The link opens straight away, with no sign-up.\n\nFill in the segment map on page 1 before you run any prompt. Five or six segments is plenty to start.\n\nHow many segments does your list break into? Hit reply and tell me.\n\nBharath\n\nP.S. You're getting this because you asked for it in the comments. If you'd rather not hear from me again, reply \"no\" and that's final."
+   },
+   "key": "b4-RG6"
   }
  ]
 };
