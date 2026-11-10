@@ -134,3 +134,15 @@ details.info .vcopy{margin:4px 0 0;padding-left:18px}details.info .vcopy li{marg
 .dl .dlb.half{grid-column:auto}
 .li-imgpost video{display:block;width:100%;height:100%;object-fit:cover}
 .li-gif{position:absolute;left:8px;bottom:8px;background:rgba(0,0,0,.6);color:#fff;font:700 10px/1 system-ui;padding:4px 6px;border-radius:4px;letter-spacing:.04em}
+
+/* giveaway resource preview and the messages that deliver it */
+.dl.res .resh{display:flex;flex-direction:column;gap:1px}.dl.res .resh b{font-size:13px}.dl.res .resh span{font-size:11px;color:#6b6b6b}
+.dl.res .resf{width:100%;height:480px;border:1px solid #e6e3dd;border-radius:8px;background:#f4f3fb;display:block}
+.dl.res .dlm{text-align:left}
+.dl.res .plink{display:flex;flex-direction:column;gap:4px;font-size:11px;color:#6b6b6b}
+.dl.res .plink input{border:1px solid #d6d3cc;border-radius:8px;padding:7px 9px;font:inherit;font-size:12px;color:#141414;width:100%}
+.dl.res .msg{border:1px solid #e6e3dd;border-radius:10px;overflow:hidden}
+.dl.res .msgh{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:7px 10px;background:#faf9f6;border-bottom:1px solid #e6e3dd}
+.dl.res .msgh .btn{padding:4px 12px;font-size:11.5px}
+.dl.res .msg pre{margin:0;padding:10px;font:inherit;font-size:12px;line-height:1.5;white-space:pre-wrap;word-break:break-word;max-height:230px;overflow:auto}
+.dl.res .msg .dlm{padding:0 10px 8px}

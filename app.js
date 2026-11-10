@@ -138,12 +138,12 @@
         <div class="crow">${fmt}${cta}${wip}</div><div class="cidea">${esc(p.idea || "")}</div></header>
       ${isX ? C.phone(window.XV.screen(p, prof(p.profile)), "x") : C.phone(screen(p), "linkedin")}
       <section class="rev" data-rev="${esc(p.key)}">${revHtml(p.key)}</section>
-      ${dlHtml(p)}
+      ${dlHtml(p)}${resHtml(p)}
       <details class="info"><summary>Sample, template, first comment and sources</summary><dl>
         <dt>Sample matched</dt><dd><b>${esc(smp.id || "")}</b> · ${esc(smp.creator || "")}${smp.url ? ` · <a href="${esc(smp.url)}" target="_blank" rel="noopener">view original post</a>` : ""}<br>${esc(smp.what || "")}${smp.thumb ? `<img class="sthumb" src="${esc(smp.thumb)}" data-lb="${esc(smp.thumb)}" data-lb-caption="Sample ${esc(smp.id || "")}">` : ""}</dd>
         <dt>Copy template</dt><dd>${esc(p.copy_basis || "")}</dd>
         ${(p.visual_copy || []).length ? `<dt>${esc(p.visual_label || "On the visual")}</dt><dd><ol class="vcopy">${p.visual_copy.map((x) => `<li>${esc(x)}</li>`).join("")}</ol></dd>` : ""}
-        ${p.resource ? `<dt>Resource we DM</dt><dd><b>${esc(p.resource.name || "")}</b>${p.resource.keyword ? ` · keyword ${esc(p.resource.keyword)}` : ""}<br>${esc(p.resource.what || "")}</dd>` : ""}
+        ${p.resource ? `<dt>Resource we send</dt><dd><b>${esc(p.resource.name || "")}</b>${p.resource.keyword ? ` · keyword ${esc(p.resource.keyword)}` : ""}<br>${esc(p.resource.what || "")}</dd>` : ""}
         ${p.repurposed_from ? `<dt>Repurposed from</dt><dd>${esc(p.repurposed_from)} (approved LinkedIn post) · ${esc(p.format || "")}</dd>` : ""}
         <dt>First comment</dt><dd>${isX ? "Not used on X: the CTA link is inside the post or the last thread post" : p.first_comment ? `<div class="fc">${esc(p.first_comment)}</div>` : "None (not a CTA post)"}</dd>
         <dt>Sources</dt><dd>${(p.sources || []).map(esc).join("<br>")}</dd>
@@ -171,6 +171,26 @@
         <span class="dlm">${d.w} × ${d.h} px · full quality · ${mb(d.bytes)}</span>` : "";
     const fc = p.first_comment ? `<button class="btn ghost" data-copyt="first_comment">Copy first comment</button>` : p.platform === "x" ? noX : `<button class="btn ghost" disabled title="This post has no first comment">No first comment</button>`;
     return `<section class="dl">${file ? `<div class="dlrow">${file}</div>` : ""}<div class="dlrow"><button class="btn ghost" data-copyt="text">Copy post copy${(p.thread || []).length ? " (whole thread)" : ""}</button>${fc}</div></section>`;
+  }
+  /* Giveaway posts: the resource itself (the live hosted page, scrollable) and the three messages that deliver it.
+     [POST LINK] in the email is replaced by the live post link once the reviewer pastes it in. */
+  const PLKEY = (p) => "studio-postlink-" + p.key;
+  const dmText = (p, k) => { const d = p.dm || {}, link = (localStorage.getItem(PLKEY(p)) || "").trim();
+    const t = k === "email" ? `Subject: ${d.email_subject}\n\n${d.email_body}` : d[k] || ""; return link ? t.split("[POST LINK]").join(link) : t; };
+  function resHtml(p) {
+    const r = p.resource || {}, d = p.dm;
+    if (!r.url) return "";
+    const files = (r.files || []).map((f) => `<a class="btn ghost" href="${esc(f.href)}" target="_blank" rel="noopener">Download ${esc(f.label)}</a>`).join("");
+    const box = (k, title, note) => `<div class="msg"><div class="msgh"><b>${title}</b><button class="btn ghost" data-copym="${k}">Copy</button></div><pre data-msg="${k}">${esc(dmText(p, k))}</pre>${note ? `<div class="dlm">${note}</div>` : ""}</div>`;
+    return `<section class="dl res"><div class="resh"><b>Resource we send</b><span>${esc(r.name || "")}${r.pages ? ` · ${r.pages} page${r.pages === 1 ? "" : "s"}` : ""}</span></div>
+      <iframe class="resf" src="${esc(r.url)}" title="${esc(r.name || "Resource")}" loading="lazy"></iframe>
+      <div class="dlm">Scroll inside the preview. This is the live page your commenters open.</div>
+      <div class="dlrow"><a class="btn dlb" href="${esc(r.url)}" target="_blank" rel="noopener">Open the resource</a><button class="btn ghost" data-copym="url">Copy link</button>${files}</div></section>
+    ${d ? `<section class="dl res"><div class="resh"><b>Messages that deliver it</b><span>Sent from Adi's profile to everyone who comments ${esc(r.keyword || "")}</span></div>
+      <label class="plink"><span>Live post link (goes into the email)</span><input data-plink placeholder="Paste the LinkedIn post link once it is live" value="${esc(localStorage.getItem(PLKEY(p)) || "")}"></label>
+      ${box("message", "1. LinkedIn message", "For people already connected.")}
+      ${box("connect", "2. Connection request", `For people not connected yet · ${d.connect.length} of 300 characters`)}
+      ${box("email", "3. Email", "For commenters whose email we have.")}</section>` : ""}`;
   }
   function copyLegacy(s) {
     const ta = Object.assign(document.createElement("textarea"), { value: s }); ta.style.cssText = "position:fixed;top:0;opacity:0";
@@ -267,6 +287,17 @@
       if (!text) { cardEl.querySelector("[data-fb]").focus(); return; }
       add({ post: cardEl.dataset.id, kind: "comment", name, text });
       cardEl.querySelector("[data-fb]").value = ""; saveDraft(cardEl.dataset.id, ""); refreshReviews(); C.toast("Feedback stored, confirming with the shared sheet…"); return;
+    }
+    const cm = e.target.closest("[data-copym]");
+    if (cm) {
+      const p = S.posts.find((x) => x.key === cm.closest(".pcard").dataset.id), k = cm.dataset.copym;
+      const val = k === "url" ? p.resource.url : dmText(p, k);
+      copyText(val).then(() => {
+        C.toast(k === "url" ? "Resource link copied" : k === "email" && val.includes("[POST LINK]") ? "Email copied. It still says [POST LINK]: paste the live post link above first" : "Copied");
+        cm.dataset.label = cm.dataset.label || cm.textContent; cm.textContent = "✓ Copied"; cm.classList.add("done");
+        clearTimeout(cm._t); cm._t = setTimeout(() => { cm.textContent = cm.dataset.label; cm.classList.remove("done"); }, 1800);
+      }, () => C.toast("Copy blocked by the browser. Select the text instead."));
+      return;
     }
     const ct = e.target.closest("[data-copyt]");
     if (ct) {
