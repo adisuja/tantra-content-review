@@ -26,6 +26,22 @@ window.STUDIO = {
    "id": "2",
    "title": "Batch 2",
    "dates": "Mon 26 Oct to Fri 6 Nov 2026"
+  },
+  {
+   "id": "3",
+   "title": "Batch 3",
+   "dates": "Mon 16 Nov to Wed 25 Nov 2026",
+   "cta_label": "Workshop CTA",
+   "cta": {
+    "kind": "event",
+    "title": "How 400+ Brands Use AI Funnels to Generate $100K to $300K Monthly",
+    "url": "https://webinar.sellwithtantra.com/"
+   },
+   "utm": {
+    "medium": "social",
+    "campaign": "enterprise-webinar",
+    "content": "id"
+   }
   }
  ],
  "profiles": [
@@ -39,7 +55,7 @@ window.STUDIO = {
    "tz_label": "ET",
    "time": "08:30",
    "avatar_ok": true,
-   "avatar": "media/avatars/adi.jpg?v=20261022051143"
+   "avatar": "media/avatars/adi.jpg?v=20261110070714"
   },
   {
    "id": "tantra",
@@ -51,7 +67,7 @@ window.STUDIO = {
    "tz_label": "ET",
    "time": "10:30",
    "avatar_ok": true,
-   "avatar": "media/avatars/tantra.jpg?v=20261022051143"
+   "avatar": "media/avatars/tantra.jpg?v=20261110070714"
   }
  ],
  "posts": [
@@ -81,10 +97,10 @@ window.STUDIO = {
     "title": "Adithya Murali walking alone down an empty street, black and white",
     "tall": false,
     "files": [
-     "media/batch-1/A1/image.jpg?v=20261022051143"
+     "media/batch-1/A1/image.jpg?v=20261110070714"
     ],
     "download": {
-     "href": "media/batch-1/A1/tantra-b1-A1-2026-10-26-adi.png?v=20261022051143",
+     "href": "media/batch-1/A1/tantra-b1-A1-2026-10-26-adi.png?v=20261110070714",
      "name": "tantra-b1-A1-2026-10-26-adi.png",
      "ext": "png",
      "bytes": 934557,
@@ -131,19 +147,19 @@ window.STUDIO = {
     "src": "batch-1/A2",
     "title": "The 8 decisions every page, email and invite depends on",
     "files": [
-     "media/batch-1/A2/p01.jpg?v=20261022051143",
-     "media/batch-1/A2/p02.jpg?v=20261022051143",
-     "media/batch-1/A2/p03.jpg?v=20261022051143",
-     "media/batch-1/A2/p04.jpg?v=20261022051143",
-     "media/batch-1/A2/p05.jpg?v=20261022051143",
-     "media/batch-1/A2/p06.jpg?v=20261022051143",
-     "media/batch-1/A2/p07.jpg?v=20261022051143",
-     "media/batch-1/A2/p08.jpg?v=20261022051143",
-     "media/batch-1/A2/p09.jpg?v=20261022051143",
-     "media/batch-1/A2/p10.jpg?v=20261022051143"
+     "media/batch-1/A2/p01.jpg?v=20261110070714",
+     "media/batch-1/A2/p02.jpg?v=20261110070714",
+     "media/batch-1/A2/p03.jpg?v=20261110070714",
+     "media/batch-1/A2/p04.jpg?v=20261110070714",
+     "media/batch-1/A2/p05.jpg?v=20261110070714",
+     "media/batch-1/A2/p06.jpg?v=20261110070714",
+     "media/batch-1/A2/p07.jpg?v=20261110070714",
+     "media/batch-1/A2/p08.jpg?v=20261110070714",
+     "media/batch-1/A2/p09.jpg?v=20261110070714",
+     "media/batch-1/A2/p10.jpg?v=20261110070714"
     ],
     "download": {
-     "href": "media/batch-1/A2/tantra-b1-A2-2026-10-27-adi.pdf?v=20261022051143",
+     "href": "media/batch-1/A2/tantra-b1-A2-2026-10-27-adi.pdf?v=20261110070714",
      "name": "tantra-b1-A2-2026-10-27-adi.pdf",
      "ext": "pdf",
      "bytes": 1839450,
@@ -189,19 +205,19 @@ window.STUDIO = {
     "src": "batch-1/A3",
     "title": "LinkedIn capped us at 100 invites a week",
     "files": [
-     "media/batch-1/A3/p01.jpg?v=20261022051143",
-     "media/batch-1/A3/p02.jpg?v=20261022051143",
-     "media/batch-1/A3/p03.jpg?v=20261022051143",
-     "media/batch-1/A3/p04.jpg?v=20261022051143",
-     "media/batch-1/A3/p05.jpg?v=20261022051143",
-     "media/batch-1/A3/p06.jpg?v=20261022051143",
-     "media/batch-1/A3/p07.jpg?v=20261022051143",
-     "media/batch-1/A3/p08.jpg?v=20261022051143",
-     "media/batch-1/A3/p09.jpg?v=20261022051143",
-     "media/batch-1/A3/p10.jpg?v=20261022051143"
+     "media/batch-1/A3/p01.jpg?v=20261110070714",
+     "media/batch-1/A3/p02.jpg?v=20261110070714",
+     "media/batch-1/A3/p03.jpg?v=20261110070714",
+     "media/batch-1/A3/p04.jpg?v=20261110070714",
+     "media/batch-1/A3/p05.jpg?v=20261110070714",
+     "media/batch-1/A3/p06.jpg?v=20261110070714",
+     "media/batch-1/A3/p07.jpg?v=20261110070714",
+     "media/batch-1/A3/p08.jpg?v=20261110070714",
+     "media/batch-1/A3/p09.jpg?v=20261110070714",
+     "media/batch-1/A3/p10.jpg?v=20261110070714"
     ],
     "download": {
-     "href": "media/batch-1/A3/tantra-b1-A3-2026-10-28-adi.pdf?v=20261022051143",
+     "href": "media/batch-1/A3/tantra-b1-A3-2026-10-28-adi.pdf?v=20261110070714",
      "name": "tantra-b1-A3-2026-10-28-adi.pdf",
      "ext": "pdf",
      "bytes": 10241254,
@@ -250,17 +266,17 @@ window.STUDIO = {
     "src": "batch-1/A4",
     "title": "One live session, 98,000 calendar invites",
     "files": [
-     "media/batch-1/A4/p01.jpg?v=20261022051143",
-     "media/batch-1/A4/p02.jpg?v=20261022051143",
-     "media/batch-1/A4/p03.jpg?v=20261022051143",
-     "media/batch-1/A4/p04.jpg?v=20261022051143",
-     "media/batch-1/A4/p05.jpg?v=20261022051143",
-     "media/batch-1/A4/p06.jpg?v=20261022051143",
-     "media/batch-1/A4/p07.jpg?v=20261022051143",
-     "media/batch-1/A4/p08.jpg?v=20261022051143"
+     "media/batch-1/A4/p01.jpg?v=20261110070714",
+     "media/batch-1/A4/p02.jpg?v=20261110070714",
+     "media/batch-1/A4/p03.jpg?v=20261110070714",
+     "media/batch-1/A4/p04.jpg?v=20261110070714",
+     "media/batch-1/A4/p05.jpg?v=20261110070714",
+     "media/batch-1/A4/p06.jpg?v=20261110070714",
+     "media/batch-1/A4/p07.jpg?v=20261110070714",
+     "media/batch-1/A4/p08.jpg?v=20261110070714"
     ],
     "download": {
-     "href": "media/batch-1/A4/tantra-b1-A4-2026-10-29-adi.pdf?v=20261022051143",
+     "href": "media/batch-1/A4/tantra-b1-A4-2026-10-29-adi.pdf?v=20261110070714",
      "name": "tantra-b1-A4-2026-10-29-adi.pdf",
      "ext": "pdf",
      "bytes": 4774619,
@@ -313,10 +329,10 @@ window.STUDIO = {
     "title": "Quote: 'Wow, I wouldn't have written them myself.'",
     "tall": false,
     "files": [
-     "media/batch-1/A5/image.jpg?v=20261022051143"
+     "media/batch-1/A5/image.jpg?v=20261110070714"
     ],
     "download": {
-     "href": "media/batch-1/A5/tantra-b1-A5-2026-10-30-adi.png?v=20261022051143",
+     "href": "media/batch-1/A5/tantra-b1-A5-2026-10-30-adi.png?v=20261110070714",
      "name": "tantra-b1-A5-2026-10-30-adi.png",
      "ext": "png",
      "bytes": 411865,
@@ -365,19 +381,19 @@ window.STUDIO = {
     "src": "batch-2/T1",
     "title": "Old way vs new way: the leak between marketing and sales",
     "files": [
-     "media/batch-2/T1/p01.jpg?v=20261022051143",
-     "media/batch-2/T1/p02.jpg?v=20261022051143",
-     "media/batch-2/T1/p03.jpg?v=20261022051143",
-     "media/batch-2/T1/p04.jpg?v=20261022051143",
-     "media/batch-2/T1/p05.jpg?v=20261022051143",
-     "media/batch-2/T1/p06.jpg?v=20261022051143",
-     "media/batch-2/T1/p07.jpg?v=20261022051143",
-     "media/batch-2/T1/p08.jpg?v=20261022051143",
-     "media/batch-2/T1/p09.jpg?v=20261022051143",
-     "media/batch-2/T1/p10.jpg?v=20261022051143"
+     "media/batch-2/T1/p01.jpg?v=20261110070714",
+     "media/batch-2/T1/p02.jpg?v=20261110070714",
+     "media/batch-2/T1/p03.jpg?v=20261110070714",
+     "media/batch-2/T1/p04.jpg?v=20261110070714",
+     "media/batch-2/T1/p05.jpg?v=20261110070714",
+     "media/batch-2/T1/p06.jpg?v=20261110070714",
+     "media/batch-2/T1/p07.jpg?v=20261110070714",
+     "media/batch-2/T1/p08.jpg?v=20261110070714",
+     "media/batch-2/T1/p09.jpg?v=20261110070714",
+     "media/batch-2/T1/p10.jpg?v=20261110070714"
     ],
     "download": {
-     "href": "media/batch-2/T1/tantra-b2-T1-2026-10-27-tantra.pdf?v=20261022051143",
+     "href": "media/batch-2/T1/tantra-b2-T1-2026-10-27-tantra.pdf?v=20261110070714",
      "name": "tantra-b2-T1-2026-10-27-tantra.pdf",
      "ext": "pdf",
      "bytes": 4429940,
@@ -428,10 +444,10 @@ window.STUDIO = {
     "title": "Six stages, four layers: the map of a revenue engine",
     "tall": false,
     "files": [
-     "media/batch-2/T10/image.jpg?v=20261022051143"
+     "media/batch-2/T10/image.jpg?v=20261110070714"
     ],
     "download": {
-     "href": "media/batch-2/T10/tantra-b2-T10-2026-10-26-tantra.png?v=20261022051143",
+     "href": "media/batch-2/T10/tantra-b2-T10-2026-10-26-tantra.png?v=20261110070714",
      "name": "tantra-b2-T10-2026-10-26-tantra.png",
      "ext": "png",
      "bytes": 384713,
@@ -480,17 +496,17 @@ window.STUDIO = {
     "src": "batch-2/T2",
     "title": "Webinar, challenge or reverse squeeze: pick by belief",
     "files": [
-     "media/batch-2/T2/p01.jpg?v=20261022051143",
-     "media/batch-2/T2/p02.jpg?v=20261022051143",
-     "media/batch-2/T2/p03.jpg?v=20261022051143",
-     "media/batch-2/T2/p04.jpg?v=20261022051143",
-     "media/batch-2/T2/p05.jpg?v=20261022051143",
-     "media/batch-2/T2/p06.jpg?v=20261022051143",
-     "media/batch-2/T2/p07.jpg?v=20261022051143",
-     "media/batch-2/T2/p08.jpg?v=20261022051143"
+     "media/batch-2/T2/p01.jpg?v=20261110070714",
+     "media/batch-2/T2/p02.jpg?v=20261110070714",
+     "media/batch-2/T2/p03.jpg?v=20261110070714",
+     "media/batch-2/T2/p04.jpg?v=20261110070714",
+     "media/batch-2/T2/p05.jpg?v=20261110070714",
+     "media/batch-2/T2/p06.jpg?v=20261110070714",
+     "media/batch-2/T2/p07.jpg?v=20261110070714",
+     "media/batch-2/T2/p08.jpg?v=20261110070714"
     ],
     "download": {
-     "href": "media/batch-2/T2/tantra-b2-T2-2026-10-29-tantra.pdf?v=20261022051143",
+     "href": "media/batch-2/T2/tantra-b2-T2-2026-10-29-tantra.pdf?v=20261110070714",
      "name": "tantra-b2-T2-2026-10-29-tantra.pdf",
      "ext": "pdf",
      "bytes": 6189087,
@@ -540,18 +556,18 @@ window.STUDIO = {
     "src": "batch-2/T3",
     "title": "13 messages: 6 get them in the room, 7 follow up",
     "files": [
-     "media/batch-2/T3/p01.jpg?v=20261022051143",
-     "media/batch-2/T3/p02.jpg?v=20261022051143",
-     "media/batch-2/T3/p03.jpg?v=20261022051143",
-     "media/batch-2/T3/p04.jpg?v=20261022051143",
-     "media/batch-2/T3/p05.jpg?v=20261022051143",
-     "media/batch-2/T3/p06.jpg?v=20261022051143",
-     "media/batch-2/T3/p07.jpg?v=20261022051143",
-     "media/batch-2/T3/p08.jpg?v=20261022051143",
-     "media/batch-2/T3/p09.jpg?v=20261022051143"
+     "media/batch-2/T3/p01.jpg?v=20261110070714",
+     "media/batch-2/T3/p02.jpg?v=20261110070714",
+     "media/batch-2/T3/p03.jpg?v=20261110070714",
+     "media/batch-2/T3/p04.jpg?v=20261110070714",
+     "media/batch-2/T3/p05.jpg?v=20261110070714",
+     "media/batch-2/T3/p06.jpg?v=20261110070714",
+     "media/batch-2/T3/p07.jpg?v=20261110070714",
+     "media/batch-2/T3/p08.jpg?v=20261110070714",
+     "media/batch-2/T3/p09.jpg?v=20261110070714"
     ],
     "download": {
-     "href": "media/batch-2/T3/tantra-b2-T3-2026-11-02-tantra.pdf?v=20261022051143",
+     "href": "media/batch-2/T3/tantra-b2-T3-2026-11-02-tantra.pdf?v=20261110070714",
      "name": "tantra-b2-T3-2026-11-02-tantra.pdf",
      "ext": "pdf",
      "bytes": 1719797,
@@ -601,17 +617,17 @@ window.STUDIO = {
     "src": "batch-2/T4",
     "title": "Stop, fix or scale: the weekly channel check",
     "files": [
-     "media/batch-2/T4/p01.jpg?v=20261022051143",
-     "media/batch-2/T4/p02.jpg?v=20261022051143",
-     "media/batch-2/T4/p03.jpg?v=20261022051143",
-     "media/batch-2/T4/p04.jpg?v=20261022051143",
-     "media/batch-2/T4/p05.jpg?v=20261022051143",
-     "media/batch-2/T4/p06.jpg?v=20261022051143",
-     "media/batch-2/T4/p07.jpg?v=20261022051143",
-     "media/batch-2/T4/p08.jpg?v=20261022051143"
+     "media/batch-2/T4/p01.jpg?v=20261110070714",
+     "media/batch-2/T4/p02.jpg?v=20261110070714",
+     "media/batch-2/T4/p03.jpg?v=20261110070714",
+     "media/batch-2/T4/p04.jpg?v=20261110070714",
+     "media/batch-2/T4/p05.jpg?v=20261110070714",
+     "media/batch-2/T4/p06.jpg?v=20261110070714",
+     "media/batch-2/T4/p07.jpg?v=20261110070714",
+     "media/batch-2/T4/p08.jpg?v=20261110070714"
     ],
     "download": {
-     "href": "media/batch-2/T4/tantra-b2-T4-2026-11-04-tantra.pdf?v=20261022051143",
+     "href": "media/batch-2/T4/tantra-b2-T4-2026-11-04-tantra.pdf?v=20261110070714",
      "name": "tantra-b2-T4-2026-11-04-tantra.pdf",
      "ext": "pdf",
      "bytes": 1205777,
@@ -661,17 +677,17 @@ window.STUDIO = {
     "src": "batch-2/T5",
     "title": "Find the one step that leaks your funnel",
     "files": [
-     "media/batch-2/T5/p01.jpg?v=20261022051143",
-     "media/batch-2/T5/p02.jpg?v=20261022051143",
-     "media/batch-2/T5/p03.jpg?v=20261022051143",
-     "media/batch-2/T5/p04.jpg?v=20261022051143",
-     "media/batch-2/T5/p05.jpg?v=20261022051143",
-     "media/batch-2/T5/p06.jpg?v=20261022051143",
-     "media/batch-2/T5/p07.jpg?v=20261022051143",
-     "media/batch-2/T5/p08.jpg?v=20261022051143"
+     "media/batch-2/T5/p01.jpg?v=20261110070714",
+     "media/batch-2/T5/p02.jpg?v=20261110070714",
+     "media/batch-2/T5/p03.jpg?v=20261110070714",
+     "media/batch-2/T5/p04.jpg?v=20261110070714",
+     "media/batch-2/T5/p05.jpg?v=20261110070714",
+     "media/batch-2/T5/p06.jpg?v=20261110070714",
+     "media/batch-2/T5/p07.jpg?v=20261110070714",
+     "media/batch-2/T5/p08.jpg?v=20261110070714"
     ],
     "download": {
-     "href": "media/batch-2/T5/tantra-b2-T5-2026-11-05-tantra.pdf?v=20261022051143",
+     "href": "media/batch-2/T5/tantra-b2-T5-2026-11-05-tantra.pdf?v=20261110070714",
      "name": "tantra-b2-T5-2026-11-05-tantra.pdf",
      "ext": "pdf",
      "bytes": 4172544,
@@ -722,18 +738,18 @@ window.STUDIO = {
     "src": "batch-2/T6",
     "title": "Six guardrails for an AI agent that runs your funnel",
     "files": [
-     "media/batch-2/T6/p01.jpg?v=20261022051143",
-     "media/batch-2/T6/p02.jpg?v=20261022051143",
-     "media/batch-2/T6/p03.jpg?v=20261022051143",
-     "media/batch-2/T6/p04.jpg?v=20261022051143",
-     "media/batch-2/T6/p05.jpg?v=20261022051143",
-     "media/batch-2/T6/p06.jpg?v=20261022051143",
-     "media/batch-2/T6/p07.jpg?v=20261022051143",
-     "media/batch-2/T6/p08.jpg?v=20261022051143",
-     "media/batch-2/T6/p09.jpg?v=20261022051143"
+     "media/batch-2/T6/p01.jpg?v=20261110070714",
+     "media/batch-2/T6/p02.jpg?v=20261110070714",
+     "media/batch-2/T6/p03.jpg?v=20261110070714",
+     "media/batch-2/T6/p04.jpg?v=20261110070714",
+     "media/batch-2/T6/p05.jpg?v=20261110070714",
+     "media/batch-2/T6/p06.jpg?v=20261110070714",
+     "media/batch-2/T6/p07.jpg?v=20261110070714",
+     "media/batch-2/T6/p08.jpg?v=20261110070714",
+     "media/batch-2/T6/p09.jpg?v=20261110070714"
     ],
     "download": {
-     "href": "media/batch-2/T6/tantra-b2-T6-2026-11-06-tantra.pdf?v=20261022051143",
+     "href": "media/batch-2/T6/tantra-b2-T6-2026-11-06-tantra.pdf?v=20261110070714",
      "name": "tantra-b2-T6-2026-11-06-tantra.pdf",
      "ext": "pdf",
      "bytes": 2101753,
@@ -784,10 +800,10 @@ window.STUDIO = {
     "title": "The offer sentence, slot by slot",
     "tall": false,
     "files": [
-     "media/batch-2/T7/image.jpg?v=20261022051143"
+     "media/batch-2/T7/image.jpg?v=20261110070714"
     ],
     "download": {
-     "href": "media/batch-2/T7/tantra-b2-T7-2026-10-28-tantra.png?v=20261022051143",
+     "href": "media/batch-2/T7/tantra-b2-T7-2026-10-28-tantra.png?v=20261110070714",
      "name": "tantra-b2-T7-2026-10-28-tantra.png",
      "ext": "png",
      "bytes": 390264,
@@ -838,10 +854,10 @@ window.STUDIO = {
     "title": "Size your list backwards from revenue",
     "tall": false,
     "files": [
-     "media/batch-2/T8/image.jpg?v=20261022051143"
+     "media/batch-2/T8/image.jpg?v=20261110070714"
     ],
     "download": {
-     "href": "media/batch-2/T8/tantra-b2-T8-2026-10-30-tantra.png?v=20261022051143",
+     "href": "media/batch-2/T8/tantra-b2-T8-2026-10-30-tantra.png?v=20261110070714",
      "name": "tantra-b2-T8-2026-10-30-tantra.png",
      "ext": "png",
      "bytes": 327529,
@@ -891,10 +907,10 @@ window.STUDIO = {
     "title": "Score every application before anyone gets on a call",
     "tall": false,
     "files": [
-     "media/batch-2/T9/image.jpg?v=20261022051143"
+     "media/batch-2/T9/image.jpg?v=20261110070714"
     ],
     "download": {
-     "href": "media/batch-2/T9/tantra-b2-T9-2026-11-03-tantra.png?v=20261022051143",
+     "href": "media/batch-2/T9/tantra-b2-T9-2026-11-03-tantra.png?v=20261110070714",
      "name": "tantra-b2-T9-2026-11-03-tantra.png",
      "ext": "png",
      "bytes": 1168748,
@@ -918,6 +934,714 @@ window.STUDIO = {
     "70 and 40 are the workshop's starting cut points, presented as starting lines."
    ],
    "key": "b2-T9"
+  },
+  {
+   "id": "AC1",
+   "batch": "3",
+   "profile": "adi",
+   "platform": "linkedin",
+   "status": "draft",
+   "time": "08:30",
+   "cta": "event",
+   "date": "2026-11-17",
+   "short": "11 webinars in 9 slides",
+   "pillar": "Live events",
+   "idea": "One client's webinars went from 7 people live to 321; nine lessons from the numbers.",
+   "format": "Carousel · 10 pages",
+   "sample": {
+    "id": "HD24",
+    "creator": "Harry Dry",
+    "what": "Founder photo holding a '6 YEARS OF LINKEDIN IN 9 SLIDES' sign, followed by kraft-paper slides listing numbered growth lessons 1 through 9.",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7470373889160921089"
+   },
+   "copy_basis": "HD24 template: one-line 'Lessons from' caption; cover is a held sign, then nine numbered lessons, one per page",
+   "media": {
+    "type": "pending"
+   },
+   "text": "Lessons from 11 webinars that took one client from 7 people in the room to 321:\n\nI walk through every one of these changes in my free live workshop. Link in the first comment.",
+   "first_comment": "I teach the full system in a free 60-minute live workshop: the list, the invite, the session and the follow-up. Register here:\nhttps://webinar.sellwithtantra.com/?utm_source=linkedin&utm_medium=social&utm_campaign=enterprise-webinar&utm_content=AC1",
+   "sources": [
+    "content/corpus/facts.md: CS-01, CS-08, CS-09, CS-10, CS-11, EW-16, EW-19, EW-23"
+   ],
+   "numbers_for_signoff": [
+    "11 webinars, May 2025 to Feb 2026 (CS-01)",
+    "first: 12,898 reached, 30 registered, 7 live (CS-08)",
+    "best: 99,859 reached, 1,990 registered, 321 live, 25 calls, 18 MQLs, 2 clients (CS-09)",
+    "0.23% to 2.0% (CS-10)",
+    "98,000 of 99,859 by calendar invite (CS-11)",
+    "21% of registrants live; 5.8 sales calls per 100 live, both derived (EW-19)"
+   ],
+   "flags": [
+    "Carousel pages are not designed yet: the slide copy is in Details for review.",
+    "The client is not named. Lessons 5 and 9 are rules we teach (method rows), worded as advice, not as what the client did."
+   ],
+   "visual_label": "Slide copy (10 pages)",
+   "visual_copy": [
+    "Cover (held sign): 11 WEBINARS IN 9 SLIDES",
+    "1. Run the first one small. Ours had 7 people live: 12,898 reached, 30 registered.",
+    "2. Reach comes first. The best session reached 99,859 people.",
+    "3. Put it in the calendar, not the inbox. 98,000 of those 99,859 got a calendar invite.",
+    "4. Registration rate moves. It went from 0.23% to 2.0%.",
+    "5. Send the invite 8 to 12 days out, with a title under 60 characters.",
+    "6. Plan for who shows up. Across the 11, 21% of registrants came live (derived).",
+    "7. Count calls, not attendees. Across the 11: 5.8 sales calls per 100 people live (derived).",
+    "8. Follow the room to revenue. The best session: 321 live, 25 calls, 18 MQLs, 2 clients.",
+    "9. Change one thing a week. Find the weakest number, change one thing, re-run and log."
+   ],
+   "key": "b3-AC1"
+  },
+  {
+   "id": "AC3",
+   "batch": "3",
+   "profile": "adi",
+   "platform": "linkedin",
+   "status": "draft",
+   "time": "08:30",
+   "cta": "event",
+   "date": "2026-11-20",
+   "short": "The old way vs the new way",
+   "pillar": "RevOps foundations",
+   "idea": "Five habits that keep a B2B pipeline thin, each with the replacement.",
+   "format": "Carousel · 8 pages",
+   "sample": {
+    "id": "HD13",
+    "creator": "Harry Dry",
+    "what": "Sketchbook-style carousel 'Ultimate LinkedIn Growth Guide in 2026' with sticky-note Old vs 2026 LinkedIn tips, a growth percentage breakdown, and a tool-recommendation table.",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7475061926721548288"
+   },
+   "copy_basis": "HD13 template: one-line 'Everything you need to' caption; cover is a guide title, pages are Old vs New sticky-note pairs",
+   "media": {
+    "type": "pending"
+   },
+   "text": "Everything you need to stop doing if you want a full B2B pipeline in 2026\n\nI build the new way live, step by step, in my free workshop. Link in the first comment.",
+   "first_comment": "Want to see the new way built live? I run a free 60-minute workshop on the full engine. Register here:\nhttps://webinar.sellwithtantra.com/?utm_source=linkedin&utm_medium=social&utm_campaign=enterprise-webinar&utm_content=AC3",
+   "sources": [
+    "content/corpus/facts.md: EW-34"
+   ],
+   "numbers_for_signoff": [
+    "five old way and new way pairs (EW-34)"
+   ],
+   "flags": [
+    "Carousel pages are not designed yet: the slide copy is in Details for review."
+   ],
+   "visual_label": "Slide copy (8 pages)",
+   "visual_copy": [
+    "Cover: The Old Way vs The New Way of Filling a Pipeline",
+    "The list. OLD: a bought list. NEW: one list of your whole market.",
+    "The outreach. OLD: a cold blast. NEW: a merge-field invite in the buyer's calendar.",
+    "The trust. OLD: one 30-minute call. NEW: a session that earns trust with a whole room.",
+    "The fix. OLD: guesswork. NEW: one number and one change a week.",
+    "The AI. OLD: a chatbot draft. NEW: an engine that sends, reminds, books and logs.",
+    "All five on one page: Old on the left, New on the right.",
+    "Close: Pick the one you still do the old way. Start there."
+   ],
+   "key": "b3-AC3"
+  },
+  {
+   "id": "AC4",
+   "batch": "3",
+   "profile": "adi",
+   "platform": "linkedin",
+   "status": "draft",
+   "time": "08:30",
+   "cta": "event",
+   "date": "2026-11-24",
+   "short": "3 jobs your sales call can't do",
+   "pillar": "Conversion",
+   "idea": "One 30-minute call is asked to earn trust, prove the method and close; two of those jobs belong in a session before the call.",
+   "format": "Carousel · 8 pages",
+   "sample": {
+    "id": "HD08",
+    "creator": "Harry Dry",
+    "what": "Carousel titled '7 psychological tips for CULT-LIKE CONTENT' using tarot-card imagery to explain cognitive biases like 'The Curiosity Gap' and 'Social Currency' with examples and why-it-works notes.",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7477271770765524992"
+   },
+   "copy_basis": "HD08 template: two-line caption ('comes down to A, not B', then 'Here are N'); cover plus one page per item with pill labels (Example, Why this works, The test)",
+   "media": {
+    "type": "pending"
+   },
+   "text": "Closing comes down to trust, not technique…\n\nHere are the 3 jobs you're asking one 30-minute call to do, and where each one belongs\n\nI teach the full session structure in my free live workshop. Link in the first comment.",
+   "first_comment": "I break down the session that earns trust with a whole room in a free 60-minute live workshop. Register here:\nhttps://webinar.sellwithtantra.com/?utm_source=linkedin&utm_medium=social&utm_campaign=enterprise-webinar&utm_content=AC4",
+   "sources": [
+    "content/corpus/facts.md: EW-19, EW-28, EW-33, EW-34"
+   ],
+   "numbers_for_signoff": [
+    "5.8 sales calls per 100 people live, derived (EW-19)",
+    "session order: Promise, Problem, Method and proof, Invitation, Q&A (EW-33)",
+    "the offer once, never before section 7 of ten (EW-28)"
+   ],
+   "flags": [
+    "Carousel pages are not designed yet: the slide copy is in Details for review.",
+    "The 5.8 figure is one client's 11 webinars and is labelled derived on the slide."
+   ],
+   "visual_label": "Slide copy (8 pages)",
+   "visual_copy": [
+    "Cover: 3 jobs your SALES CALL can't do",
+    "The problem: one 30-minute call has to earn trust, prove your method and close. That's three jobs for one slot.",
+    "Job 1: Earn trust. Where it belongs: a live session with a whole room. Why this works: the buyer hears the problem named before anyone sells.",
+    "Job 2: Prove it. Where it belongs: the Method and proof part of the session. The test: could they explain your method to a colleague after it?",
+    "Job 3: Close. Where it belongs: the call. Now it has one job.",
+    "The session order: Promise → Problem → Method and proof → Invitation → Q&A. The offer comes once, never before section 7 of ten.",
+    "What the room does: across one client's 11 webinars, 5.8 sales calls per 100 people live (derived).",
+    "Close: Give the call one job. Let the session do the other two."
+   ],
+   "key": "b3-AC4"
+  },
+  {
+   "id": "AG1",
+   "batch": "3",
+   "profile": "adi",
+   "platform": "linkedin",
+   "status": "draft",
+   "time": "08:30",
+   "cta": "",
+   "date": "2026-11-19",
+   "short": "The calendar invite blueprint",
+   "pillar": "Calendar invites",
+   "idea": "The calendar invite is the highest-reach touch in a webinar funnel; four rules and one prompt make it repeatable.",
+   "format": "Image · animated giveaway",
+   "sample": {
+    "id": "BK02",
+    "creator": "Bharath Krishna Pai",
+    "what": "720x900 (4:5) GIF on a cream canvas: a 'Claude for LinkedIn + Oiti, your AI clone for content' lockup top-left, a tilted peach note card with an orange outline '30 days planned in 1 prompt' top-right with a hand-drawn arrow, and a Google-Calendar-style week view (Mon 9 to Sat 14 Nov 2026, 08h to 16h). Over 6s the empty week fills with 40 colour-coded content blocks (Carousel, Text post, Poll, Story, Video, Infographic, Hooks x10, Replies, Memory, Lead DMs, Newsjack, Analytics) one per frame while a '0 planned' pill counts up to '40 planned', holds, then rewinds back to empty in half a second. Full-width orange CTA bar at the bottom: 'Comment \"SYSTEM\" and I'll send it over'.",
+    "url": "https://www.linkedin.com/posts/bkp31415_i-finally-did-it-claude-is-now-connected-activity-7523976570722488320-GOVE"
+   },
+   "copy_basis": "BK02 template: caps hook with colon, pointer line, 'What's inside', eight arrow lines (first five led by a number, biggest first), ease line, conditional offer, CTA bookend",
+   "media": {
+    "type": "pending"
+   },
+   "text": "I FINALLY WROTE IT DOWN. The CALENDAR INVITE that took a client's registration rate from 0.23% to 2.0%:\n\nGet the blueprint here. 👇\n\nTheir best webinar reached 99,859 people. 98,000 of them got a calendar invite, not an email.\n\nWhat's inside:\n\n→ 60 CHARACTERS is the ceiling for the invite title, and it stays under it\n→ 12 DAYS OUT is the earliest it goes, 8 days the latest\n→ 4 RULES every invite follows\n→ 3 PAGES and nothing to wade through\n→ 2 OPENING LINES that say who it's for and what they leave with\n→ THE DECLINE LINE that makes saying no easy\n→ THE MERGE FIELDS so each invite reads like it was written for one person\n→ THE AI PROMPT that writes the invite for your offer\n\nFill in your event once. The prompt writes the invite.\n\nIf you would like the template, the rules and the prompt for FREE...\n\nComment INVITE to get the blueprint. 👇",
+   "first_comment": "Comment INVITE and I'll DM you The Calendar Invite Blueprint: the template, the rules and the AI prompt, so your next event shows up in your buyer's calendar.",
+   "sources": [
+    "content/corpus/facts.md: CS-08, CS-09, CS-10, CS-11, EW-23"
+   ],
+   "numbers_for_signoff": [
+    "0.23% to 2.0% registration rate (CS-10)",
+    "99,859 reached, 98,000 by calendar invite (CS-09, CS-11)",
+    "invite rules: 8 to 12 days out, title under 60 characters, two opening lines, decline line (EW-23)"
+   ],
+   "flags": [
+    "Giveaway asset is not built yet: the copy is final for review, the 4:5 visual with the keyword inside it and the DM resource come next.",
+    "The resource goes out by manual DM from Adi's profile.",
+    "The client is not named in this post."
+   ],
+   "visual_label": "On the asset (animated 4:5)",
+   "visual_copy": [
+    "THE CALENDAR INVITE BLUEPRINT",
+    "Registration rate: 0.23% to 2.0%",
+    "The template. The 4 rules. The AI prompt.",
+    "Comment INVITE to get it"
+   ],
+   "resource": {
+    "name": "The Calendar Invite Blueprint",
+    "keyword": "INVITE",
+    "what": "A 3-page PDF: the invite template with merge fields, the four rules (sent 8 to 12 days out, title under 60 characters, two opening lines, an easy way to decline) and the AI prompt that writes it for your offer."
+   },
+   "key": "b3-AG1"
+  },
+  {
+   "id": "AG2",
+   "batch": "3",
+   "profile": "adi",
+   "platform": "linkedin",
+   "status": "draft",
+   "time": "08:30",
+   "cta": "",
+   "date": "2026-11-16",
+   "short": "Your funnel is one line of maths",
+   "pillar": "Measure and improve",
+   "idea": "Four numbers decide how many customers you get; the sheet shows which one is the weakest.",
+   "format": "Image · animated giveaway",
+   "sample": {
+    "id": "BK13",
+    "creator": "Bharath Krishna Pai",
+    "what": "720x1080 (2:3) GIF, 71 frames, 4.7s. Top: serif 'Claude Opus' wordmark with Claude starburst beside a giant numeral 5 built from illustrated monarch butterflies and leaves. Middle: an equation row '✳ + [LinkedIn logo with red 99+ badge] = 600k impressions in 90 days' with a blue hand-drawn underline. Below: a blush panel with three blue line-icon columns (Content on autopilot, Right audience every post, More leads, less effort) and a full-width rust CTA button 'Comment 'SYSTEM' for access'. The equation and benefits rebuild piece by piece like an equation being written.",
+    "url": "https://www.linkedin.com/posts/bkp31415_claude-opus-55-just-made-itself-an-official-activity-7516004035385028608-mCCm"
+   },
+   "copy_basis": "BK13 template: news claim hook, count and promise, context line, numbered 1/ to 7/ list, ritual line, one quoted question, staccato fragments, CTA",
+   "media": {
+    "type": "pending"
+   },
+   "text": "Your whole funnel just became one line of maths.\n\nThe 4 numbers in it decide how many customers you win this quarter 👇\n\nYou probably track leads and revenue. The leak sits in between.\n\nHere's what that line looks like for a B2B founder:\n\n1/ Sign-ups: how many people raised a hand\n2/ Show-up rate: the share who turned up\n3/ Booking rate: the share who booked a call\n4/ Close rate: the share who paid\n5/ Customers: sign-ups x show-up rate x booking rate x close rate\n6/ The weakest number: the one stage costing you the most customers\n7/ One change: the only thing you touch this week\n\nThe question to ask every Monday:\n\n\"Which of my four numbers is the weakest, and what one thing do I change this week?\"\n\nNot five fixes.\n\nNot a new funnel.\n\nOne number. One change. Re-run it and log it.\n\nComment MATH and I'll DM you the sheet.\n\n👇",
+   "first_comment": "Comment MATH and I'll DM you The 4-Number Revenue Equation Sheet. One page that shows which stage of your funnel is costing you customers.",
+   "sources": [
+    "content/corpus/facts.md: EW-16, EW-17, EW-18"
+   ],
+   "numbers_for_signoff": [
+    "4 numbers and the equation (EW-18)",
+    "weekly loop: weakest number, one change, re-run and log (EW-16)"
+   ],
+   "flags": [
+    "Giveaway asset is not built yet: the copy is final for review, the 4:5 visual with the keyword inside it and the DM resource come next.",
+    "The resource goes out by manual DM from Adi's profile.",
+    "No worked example with figures: we have no cleared numbers to put in the equation."
+   ],
+   "visual_label": "On the asset (animated 4:5)",
+   "visual_copy": [
+    "THE 4-NUMBER REVENUE EQUATION SHEET",
+    "Customers = sign-ups x show-up rate x booking rate x close rate",
+    "Find the stage that is costing you customers",
+    "Comment MATH to get it"
+   ],
+   "resource": {
+    "name": "The 4-Number Revenue Equation Sheet",
+    "keyword": "MATH",
+    "what": "A one-page fillable sheet: the equation, the six stage numbers, where to read each one and a box for your weakest stage."
+   },
+   "key": "b3-AG2"
+  },
+  {
+   "id": "AG3",
+   "batch": "3",
+   "profile": "adi",
+   "platform": "linkedin",
+   "status": "draft",
+   "time": "08:30",
+   "cta": "",
+   "date": "2026-11-18",
+   "short": "250+ real funnel elements, 7 prompts",
+   "pillar": "AI orchestration",
+   "idea": "A prompt library built on real funnel elements beats a blank chat; the starter pack is one prompt per funnel stage plus setup.",
+   "format": "Image · animated giveaway",
+   "sample": {
+    "id": "ID03",
+    "creator": "Ipsita Dhar",
+    "what": "720x900 (4:5) GIF of a macOS-style window titled 'Oiti · 30+ LinkedIn skills' with traffic-light buttons, a breadcrumb 'Oiti › Skills' plus an orange mono tag 'for LinkedIn' and a big orange '30+ skills' counter. A 5-column grid of 19 peach folders (Voice Clone, Hook Writer, Story Interview, Newsjacking, Carousel Builder, Infographic Studio, Content Calendar, Comment Replies, Repurpose, Analytics Digest, Knowledge Base, Memory, Competitor Watch, Profile Optimizer, Ideation, Post Scheduler, Writing Styles, Trend Radar, DM Assist) plus a dashed '+ 11 more' slot. An orange gradient CTA bar sits at the bottom: 'Comment \"SYSTEM\" and I'll send it over'. Motion: folders pop in while the counter climbs, then the Voice Clone folder is opened into a panel listing its files while SKILL.md types itself out, and a 0.4s reverse ease rewinds everything to the first row.",
+    "url": "https://www.linkedin.com/posts/ipsitadhar14_guyss-i-finally-finished-the-largest-claude-activity-7521443453281406976-qSuN"
+   },
+   "copy_basis": "ID03 template: two hook lines, positioning line, humble limit, reframe, seven numbered titled sections, 'Everything connects' chain, counted summary, CTA",
+   "media": {
+    "type": "pending"
+   },
+   "text": "I finally pulled 250+ real funnel elements into one prompt library.\n\nAnd I'm giving you the 7 prompts I'd start with, free ↓\n\nIt's for founders who are tired of opening a blank chat and hoping.\n\nIt obviously can't replace what you know about your own buyer.\n\nBut it does stop AI from guessing. Every prompt points at a real example and rebuilds it for your brand.\n\nHere's what the starter pack handles:\n\n1. The Setup Prompt\n\nLoads the rules once: one element at a time, mirror the reference example, facts only from your Funnel Brief. A missing fact comes back as [FILL], never a made-up number.\n\n2. Traffic\n\nWrites the outreach that earns the visit. Every line comes in two versions: A leads with the outcome, B answers the objection.\n\n3. Landing\n\nBuilds the page that turns a visit into a sign-up.\n\n4. Nurture\n\nWrites the reminders that turn a sign-up into a show-up.\n\n5. Conversion\n\nDrafts the session that turns a room into booked calls.\n\n6. Revenue\n\nWrites the follow-up that turns a call into a customer.\n\n7. Long-term nurture\n\nBrings back the people who weren't ready, so they rebook.\n\nEverything connects:\n\nTraffic → Landing → Nurture → Conversion → Revenue → Long-term nurture\n\n7 prompts. 6 stages. 0 blank pages.\n\nComment PROMPTS to get it here 👇",
+   "first_comment": "Comment PROMPTS and I'll DM you The 6-Stage AI Funnel Prompt Starter Pack: seven prompts that build each stage of your funnel from real examples.",
+   "sources": [
+    "content/corpus/facts.md: EW-12, EW-17, EW-32"
+   ],
+   "numbers_for_signoff": [
+    "250+ real funnel elements (EW-12)",
+    "six stages (EW-17)",
+    "setup prompt rules: one element at a time, mirror the reference, [FILL], A and B versions (EW-32)"
+   ],
+   "flags": [
+    "Giveaway asset is not built yet: the copy is final for review, the 4:5 visual with the keyword inside it and the DM resource come next.",
+    "The resource goes out by manual DM from Adi's profile."
+   ],
+   "visual_label": "On the asset (animated 4:5)",
+   "visual_copy": [
+    "THE 6-STAGE AI FUNNEL PROMPT STARTER PACK",
+    "7 prompts. 6 stages. Built on 250+ real funnel elements",
+    "Traffic → Landing → Nurture → Conversion → Revenue → Long-term nurture",
+    "Comment PROMPTS to get it"
+   ],
+   "resource": {
+    "name": "The 6-Stage AI Funnel Prompt Starter Pack",
+    "keyword": "PROMPTS",
+    "what": "Seven copy-and-paste prompts in one document: the setup prompt and one prompt for each of the six funnel stages, each with its reference example slot and [FILL] gaps."
+   },
+   "key": "b3-AG3"
+  },
+  {
+   "id": "AG5",
+   "batch": "3",
+   "profile": "adi",
+   "platform": "linkedin",
+   "status": "draft",
+   "time": "08:30",
+   "cta": "",
+   "date": "2026-11-23",
+   "short": "5 emails, 13 days, 1 subject line",
+   "pillar": "Multi-channel outreach",
+   "idea": "A cold email thread is one conversation: one subject line, five short emails, set days.",
+   "format": "Image · animated giveaway",
+   "sample": {
+    "id": "ID04",
+    "creator": "Ipsita Dhar",
+    "what": "720x900 (4:5) GIF: a glossy iPhone mockup (Dynamic Island showing an orange burst, lock icon, 'Friday', huge '9:41') on a peach-coral gradient, with iOS notification cards stacking on the lock screen: 'Claude for LinkedIn / Post published · 8:30 / Story post · official API', 'LinkedIn / Your post hit 84K views / Hook #7 · 3x your average', 'LinkedIn / New DM from a lead / Priya S., Founder · Lattice', 'LinkedIn / +212 followers this week / Founders in your ICP', 'Claude for LinkedIn / Memory updated / Learned from your edit'. A floating white card top-left counts 'Views on LinkedIn, last 6 months' from 0K to 600K 'on autopilot' with a 12-dot progress row; a pill bottom-right reads 'Claude + LinkedIn / connected via official API' with the burst and LinkedIn logos joined by a dotted line. Cream CTA strip: 'Comment \"SYSTEM\" and I'll send it over'.",
+    "url": "https://www.linkedin.com/posts/ipsitadhar14_breaking-claude-now-grows-your-linkedin-activity-7520718602677682176-W22g"
+   },
+   "copy_basis": "ID04 template: BREAKING caps hook, two-line setup, turn, tease, insight, equation pair, 'Here's what's inside' with eight arrow lines, proof line, RESULT line, three-beat close",
+   "media": {
+    "type": "pending"
+   },
+   "text": "BREAKING: AI NOW WRITES YOUR WHOLE COLD EMAIL THREAD FROM ONE PROMPT.\n\n5 emails. 13 days. 1 subject line.\n\nYou've been told every follow-up needs a fresh, clever subject line.\nSo each one lands as a new cold email from a stranger.\n\nThat's the wrong way round.\n\nHere's the thread I'd send instead 👇\n\nHere's what changes when the follow-ups stay in one thread:\n\nYour buyer sees one conversation that gets shorter each time. Not five strangers.\n\nFive subject lines = five cold emails.\nOne subject line = one conversation.\n\nHere's what's inside:\n\n→ 5 Emails On Days 0, 3, 6, 9 And 13\n→ 1 Subject Line, On Email 1 Only\n→ Under 80 Words For Emails 2 To 5\n→ 1 Link, Never Two\n→ An Outcome Version Of Every Email\n→ An Objection Version Of Every Email\n→ The Day Each Email Goes Out\n→ The Prompt That Fills All Five\n\nIt's the thread structure from our playbook, on two pages.\n\nRESULT: a 13-day thread your buyer reads as one conversation.\n\nWant it?\n\nComment THREAD.\n\n👇",
+   "first_comment": "Comment THREAD and I'll DM you The 13-Day Cold Email Thread: five short emails, the day each one goes out and the prompt that writes them.",
+   "sources": [
+    "content/corpus/facts.md: EW-24, EW-32"
+   ],
+   "numbers_for_signoff": [
+    "5 steps on days 0, 3, 6, 9 and 13; only step 1 has a subject; steps 2 to 5 under 80 words; one link (EW-24)",
+    "A (outcome) and B (objection) versions (EW-32)"
+   ],
+   "flags": [
+    "Giveaway asset is not built yet: the copy is final for review, the 4:5 visual with the keyword inside it and the DM resource come next.",
+    "The resource goes out by manual DM from Adi's profile.",
+    "The RESULT line states what the thread is, not a performance number: we have no cleared result for it."
+   ],
+   "visual_label": "On the asset (animated 4:5)",
+   "visual_copy": [
+    "THE 13-DAY COLD EMAIL THREAD",
+    "5 emails. 13 days. 1 subject line.",
+    "Day 0 · Day 3 · Day 6 · Day 9 · Day 13",
+    "Comment THREAD to get it"
+   ],
+   "resource": {
+    "name": "The 13-Day Cold Email Thread",
+    "keyword": "THREAD",
+    "what": "A 2-page PDF: five emails laid out on days 0, 3, 6, 9 and 13 with word limits, the one-link rule, an outcome version and an objection version, plus the prompt that fills them."
+   },
+   "key": "b3-AG5"
+  },
+  {
+   "id": "AG6",
+   "batch": "3",
+   "profile": "adi",
+   "platform": "linkedin",
+   "status": "draft",
+   "time": "08:30",
+   "cta": "",
+   "date": "2026-11-25",
+   "short": "Your persona from 20 customers",
+   "pillar": "Offer and buyer",
+   "idea": "A buyer persona is a guess until it is built from the 20 best customers; a trait stays only if more than half share it.",
+   "format": "Image · animated giveaway",
+   "sample": {
+    "id": "BK08",
+    "creator": "Bharath Krishna Pai",
+    "what": "800x1000 (4:5) GIF on a lavender dot-grid canvas: kicker 'Judge every lead like you would', headline 'Claude + intent data = Only DMs that land' with 'land' in a highlight box, subline 'Ask 8 tiny questions about each lead and what they just did'. A 'Reading every engager' strip of 12 face avatars gets skip / ✓DM tags; a 'Reviewing' card (Lead 09/132, Founder · Series A SaaS, name redacted with a black bar) runs 8 coloured question rows (role, company, new job, hiring, funding, pain post, competitor, warm path) that resolve to Yes / No (5 Yes, 3 No), then a 9th 'fit' row ('0 to 100 score, 70+ gets a DM') fills a bar to 64, just under the threshold marker, and marks 'skipped'. Two boxes compare 'The DIY version' and 'The done-for-you version'. Purple CTA bar: 'Comment \"INTENT\" for free access 👇'.",
+    "url": "https://www.linkedin.com/posts/bkp31415_i-dont-know-if-i-should-be-sharing-this-activity-7520711265791463424-vjy-"
+   },
+   "copy_basis": "BK08 template: confessional hook, three-clause claim, setup line, four quoted prompts each with a tick result, 'It also' with four arrow lines, a plain-language question, 'Less, More' close",
+   "media": {
+    "type": "pending"
+   },
+   "text": "I don't know if I should be sharing this...\n\nGive AI your 20 best customers and one prompt. It finds what they share, cuts what they don't, and writes your buyer persona.\n\nMost personas get written in a meeting, from memory.\n\n\"List the traits of each of these 20 customers.\"\n✅ Every customer, trait by trait\n\n\"Keep only the traits more than half of them share.\"\n✅ The guesses drop out\n\n\"Write at least 3 exclusions: who we should not sell to.\"\n✅ A list of who to stop chasing\n\n\"Turn what's left into one buyer persona.\"\n✅ A persona built on people who paid!\n\nIt also:\n\n→ Shows which traits are noise\n→ Tells your team who to skip\n→ Gives every invite and page one buyer to speak to\n→ Changes when your best 20 change\n\n\"Does this lead look like my best customers?\"\n\nLess guessing. More buyers like the ones who already paid!\n\nComment BUYER and I'll DM you the scorecard 👇",
+   "first_comment": "Comment BUYER and I'll DM you The 20-Customer Persona Scorecard, so your buyer profile comes from people who paid, not from a guess.",
+   "sources": [
+    "content/corpus/facts.md: EW-26"
+   ],
+   "numbers_for_signoff": [
+    "20 best customers; a trait stays if more than half share it; at least 3 exclusions (EW-26)"
+   ],
+   "flags": [
+    "Giveaway asset is not built yet: the copy is final for review, the 4:5 visual with the keyword inside it and the DM resource come next.",
+    "The resource goes out by manual DM from Adi's profile."
+   ],
+   "visual_label": "On the asset (animated 4:5)",
+   "visual_copy": [
+    "THE 20-CUSTOMER PERSONA SCORECARD",
+    "20 customers. Keep what more than half share. 3 exclusions.",
+    "A persona from people who paid",
+    "Comment BUYER to get it"
+   ],
+   "resource": {
+    "name": "The 20-Customer Persona Scorecard",
+    "keyword": "BUYER",
+    "what": "A fillable scorecard: list your 20 best customers, tick each trait, keep only traits more than half share, write 3 exclusions. Comes with the prompt that turns it into a persona."
+   },
+   "key": "b3-AG6"
+  },
+  {
+   "id": "TC3",
+   "batch": "3",
+   "profile": "tantra",
+   "platform": "linkedin",
+   "status": "draft",
+   "time": "10:30",
+   "cta": "event",
+   "date": "2026-11-18",
+   "short": "Before AI vs after AI",
+   "pillar": "AI orchestration",
+   "idea": "At each of the six funnel stages AI does the volume and people make the calls.",
+   "format": "Carousel · 8 pages",
+   "sample": {
+    "id": "HD21",
+    "creator": "Harry Dry",
+    "what": "Each slide is split into a 'BEFORE AI' top half and 'AFTER AI' bottom half comparing LinkedIn statements, a clear two-column comparison carousel.",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7471461892859932673"
+   },
+   "copy_basis": "HD21 template: one short either/or question as the caption; every page split BEFORE AI on top, AFTER AI below",
+   "media": {
+    "type": "pending"
+   },
+   "text": "Which funnel would you rather run: before AI or after?\n\nWe show where AI fits at every stage in our free live workshop. Link in the first comment.",
+   "first_comment": "Our free 60-minute live workshop shows what AI runs at each funnel stage and what stays with your team. Register here:\nhttps://webinar.sellwithtantra.com/?utm_source=linkedin&utm_medium=social&utm_campaign=enterprise-webinar&utm_content=TC3",
+   "sources": [
+    "content/corpus/facts.md: EW-17, EW-21, EW-25, EW-27, EW-30, EW-34"
+   ],
+   "numbers_for_signoff": [
+    "six stages and their numbers (EW-17)",
+    "\"Cut down your Ops time by 75%\", our own page line, word for word (EW-21)",
+    "nine blocks (EW-27)",
+    "12 stages with a clock; no-show SMS within 5 minutes (EW-30)"
+   ],
+   "flags": [
+    "Carousel pages are not designed yet: the slide copy is in Details for review.",
+    "The 75% line is our own page figure (own-marketing), shown once on the last page as a quote."
+   ],
+   "visual_label": "Slide copy (8 pages)",
+   "visual_copy": [
+    "Cover: Your funnel, BEFORE AI and AFTER AI. Six stages.",
+    "1 Traffic (visit rate). BEFORE AI: a cold blast to a bought list. AFTER AI: a merge-field invite in each buyer's calendar. You choose the market.",
+    "2 Landing (sign-up rate). BEFORE AI: a page started from a blank document. AFTER AI: nine blocks drafted from a real example. You approve every line.",
+    "3 Nurture (show-up rate). BEFORE AI: reminders when someone remembers. AFTER AI: every reminder goes out on schedule. You write the promise.",
+    "4 Conversion (booking rate). BEFORE AI: one 30-minute call does everything. AFTER AI: a session earns trust with a room, then the call closes. You run the room.",
+    "5 Revenue (close rate). BEFORE AI: follow-up from memory. AFTER AI: 12 stages with a clock on each, and a no-show SMS within 5 minutes. You take the call.",
+    "6 Long-term nurture (rebooking rate). BEFORE AI: guesswork. AFTER AI: one number and one change a week. You pick the change.",
+    "Close: AI does the volume. People make the calls. \"Cut down your Ops time by 75%\""
+   ],
+   "key": "b3-TC3"
+  },
+  {
+   "id": "TG1",
+   "batch": "3",
+   "profile": "tantra",
+   "platform": "linkedin",
+   "status": "draft",
+   "time": "10:30",
+   "cta": "",
+   "date": "2026-11-16",
+   "short": "The 8-part prompt skeleton",
+   "pillar": "AI orchestration",
+   "idea": "Every prompt in the library has the same eight parts; the blank structure works in any AI assistant.",
+   "format": "Image · static giveaway",
+   "sample": {
+    "id": "ID15",
+    "creator": "Ipsita Dhar",
+    "what": "1024x1536 (2:3) static poster styled as a dark IDE: header '.linkedin-system/' in large orange monospace with an orange asterisk burst, subline '17 SKILLS, 8 AGENTS, ONE LINKEDIN SYSTEM', and a dark terminal badge 'AI-POWERED LINKEDIN SYSTEM _'. Main panel: a cream file-explorer card with a dark icon rail (folder, doc, chart, calendar, people, dots) and 8 rows connected by a vertical timeline: orange folder icon, folder name ('voice-builder/', 'research-agent/', 'hook-agent/', 'writer-agent/', 'editor-agent/', 'infographics-agent/', 'creator-tracker/', 'scheduler-analytics/') with exactly 5 file children each (two columns, 3 left and 2 right), and at right a coloured number tile 01 to 08 plus a pastel outcome note ('builds your 3,000-word AI clone'). Bottom: orange CTA bar 'Comment 'SYSTEM' and I'll send it.'",
+    "url": "https://www.linkedin.com/posts/ipsitadhar14_i-built-a-complete-claude-team-for-linkedin-activity-7506947893812150275-oq8P"
+   },
+   "copy_basis": "ID15 template: build hook and free line, context paragraph, humility beat, numbered list of named parts, 'Everything connects' chain, three-line role split, summary line, CTA",
+   "media": {
+    "type": "pending"
+   },
+   "text": "We built every prompt in our funnel library on the same 8 parts.\n\nAnd we're giving away the blank skeleton for free ↓\n\nThe library holds 250+ real funnel elements. Each one comes with a prompt that rebuilds it for your brand, and every prompt is laid out the same way.\n\nThe skeleton won't know your buyer.\nThat part stays with you.\n\nHere's what each part handles:\n\n1. YOUR TASK\nThe one thing you want back. One element, not five.\n\n2. WHERE THIS SITS IN MY FUNNEL\nThe stage it belongs to, so the copy knows what came before it.\n\n3. THE FACTS TO USE\nYour real numbers and names. A missing fact becomes [FILL], not a guess.\n\n4. THE TEMPLATE\nThe shape of the answer, block by block.\n\n5. RULES\nThe limits: length, tone and what to leave out.\n\n6. REFERENCE EXAMPLE\nA real element to mirror, so the AI follows a real structure and not its own habits.\n\n7. WHAT TO RETURN\nThe exact output: an A version that leads with the outcome, a B version that answers the objection.\n\n8. CHECK BEFORE YOU ANSWER\nThe checks the AI runs on its own draft before you see it.\n\nEverything connects:\n\nTask → Funnel stage → Facts → Template → Rules → Example → Output → Check\n\nYou bring the facts.\nThe skeleton brings the structure.\nThe AI does the typing.\n\n8 parts. 1 page. Any AI assistant.\n\nComment SKELETON to get it here 👇",
+   "first_comment": "Comment SKELETON and we'll DM you The 8-Part Prompt Skeleton: a blank prompt structure that gets usable funnel copy from any AI assistant.",
+   "sources": [
+    "content/corpus/facts.md: EW-12, EW-32"
+   ],
+   "numbers_for_signoff": [
+    "250+ real funnel elements (EW-12)",
+    "eight parts, named in order (EW-32)"
+   ],
+   "flags": [
+    "Giveaway asset is not built yet: the copy is final for review, the 4:5 visual with the keyword inside it and the DM resource come next.",
+    "The resource goes out by manual DM from Adi's profile.",
+    "The one-line description under each part is our plain reading of that part's name: check it against the library before this goes out."
+   ],
+   "visual_label": "On the asset (static 4:5)",
+   "visual_copy": [
+    "THE 8-PART PROMPT SKELETON",
+    "YOUR TASK · WHERE THIS SITS IN MY FUNNEL · THE FACTS TO USE · THE TEMPLATE · RULES · REFERENCE EXAMPLE · WHAT TO RETURN · CHECK BEFORE YOU ANSWER",
+    "Comment SKELETON to get it"
+   ],
+   "resource": {
+    "name": "The 8-Part Prompt Skeleton",
+    "keyword": "SKELETON",
+    "what": "A one-page blank prompt with the eight parts in order, a one-line note on what goes in each and one worked example for a registration page headline."
+   },
+   "key": "b3-TG1"
+  },
+  {
+   "id": "TG2",
+   "batch": "3",
+   "profile": "tantra",
+   "platform": "linkedin",
+   "status": "draft",
+   "time": "10:30",
+   "cta": "",
+   "date": "2026-11-17",
+   "short": "The registration page in 9 blocks",
+   "pillar": "Landing and registration",
+   "idea": "A registration page is nine blocks in a fixed order, with the form on the first screen of a laptop.",
+   "format": "Image · animated giveaway",
+   "sample": {
+    "id": "ID10",
+    "creator": "Ipsita Dhar",
+    "what": "720x790 GIF (63 frames, 4.2s) on a warm off-white dotted-grid canvas. Top: a terracotta-framed 'Before Skill' card holding two real-looking LinkedIn post rows with weak stats (224 and 14 impressions, 'View analytics'). Middle: a terracotta app tile with a white Claude burst, joined by a thin grey connector line. Bottom: a lilac-framed 'After Skill' card showing a Search-Console-style 'Content performance' dashboard (390,022 impressions, +26.6% vs prior 90 days, green 'Cumulative' pill, rising line chart). Full-width terracotta CTA bar 'Comment ‘SYSTEM’ for access'. Motion: after a 0.6s hold every card's contents and the burst fade out together, then rebuild in sequence (two Before post rows, the burst tile, then the After dashboard nav, headline numbers and finally the whole chart fading in), with a sheen sweep and scale bump on the CTA bar.",
+    "url": "https://www.linkedin.com/posts/ipsitadhar14_i-connected-claude-opus-55-to-linkedin-activity-7515282807745728512-TYfh"
+   },
+   "copy_basis": "ID10 template: two-line hook, CTA pointer, curiosity bridge, numbered n/ list with a name line and one short spec each, a two-paragraph proof beat, CTA",
+   "media": {
+    "type": "pending"
+   },
+   "text": "We broke the registration page into 9 blocks.\n\n9 things your page has to do to earn the sign-up, in order\n\nGet the blueprint here. 👇\n\nOpen your page on a laptop. Is the form on the first screen?\n\n1/ Logo and trust strip\nWho you are and who already trusts you.\n\n2/ Headline and subhead\nThe outcome first, then who it's for.\n\n3/ A 60 to 90 second video\nMuted and captioned, so it works without sound.\n\n4/ Three proof points\nThree. Not ten.\n\n5/ The form\nFirst name, last name, work email. Above the fold on a 1366 x 768 laptop, and again lower down.\n\n6/ Your method, named\nIn 3 to 5 steps.\n\n7/ Testimonials\nIn your customers' own words.\n\n8/ An FAQ\nEvery answer handles one objection.\n\n9/ A sticky button\nThe sign-up stays one tap away.\n\nWe put two tests to every block:\n\nDoes it answer an objection or drive one action?\nDoes it bring the first result earlier?\n\nA block that fails both comes off the page.\n\nComment PAGE to get the blueprint.\n\n👇",
+   "first_comment": "Comment PAGE and we'll DM you The 9-Block Registration Page Blueprint: the order of every block and a prompt that drafts your page.",
+   "sources": [
+    "content/corpus/facts.md: EW-27; block names from context/sources/enterprise-webinar/digest-C-bonuses-and-revops-os.md (playbook task 3.01)"
+   ],
+   "numbers_for_signoff": [
+    "nine blocks; form above the fold on a 1366 x 768 laptop; the two tests (EW-27)",
+    "block detail: 60 to 90 second video, three proof points, three form fields, method in 3 to 5 steps (playbook task 3.01)"
+   ],
+   "flags": [
+    "Giveaway asset is not built yet: the copy is final for review, the 4:5 visual with the keyword inside it and the DM resource come next.",
+    "The resource goes out by manual DM from Adi's profile.",
+    "The nine block names come from the playbook task (3.01), not from a facts.md row: the row only says 'nine blocks'."
+   ],
+   "visual_label": "On the asset (animated 4:5)",
+   "visual_copy": [
+    "THE 9-BLOCK REGISTRATION PAGE BLUEPRINT",
+    "A wireframe of the nine blocks, numbered 1 to 9",
+    "The form: above the fold on a 1366 x 768 laptop",
+    "Comment PAGE to get it"
+   ],
+   "resource": {
+    "name": "The 9-Block Registration Page Blueprint",
+    "keyword": "PAGE",
+    "what": "A 2-page PDF: a wireframe of the nine blocks in order, the job of each block, the above-the-fold check on a 1366 x 768 laptop and the prompt that drafts the page."
+   },
+   "key": "b3-TG2"
+  },
+  {
+   "id": "TG3",
+   "batch": "3",
+   "profile": "tantra",
+   "platform": "linkedin",
+   "status": "draft",
+   "time": "10:30",
+   "cta": "",
+   "date": "2026-11-19",
+   "short": "Every outreach limit on one card",
+   "pillar": "Multi-channel outreach",
+   "idea": "Each channel has a character or daily limit; one card holds all of them.",
+   "format": "Image · animated giveaway",
+   "sample": {
+    "id": "BK17",
+    "creator": "Bharath Krishna Pai",
+    "what": "720x1080 (2:3) GIF, 127 frames, 8.5s. Cream canvas: eyebrow 'THE CLAUDE LINKEDIN SYSTEM · 17 SKILLS · ONE SESSION', an app-icon tile with orange starburst beside the headline 'CLAUDE OPUS 5' (navy) / 'FOR LINKEDIN' (orange), italic caps tagline '8 AGENTS. 17 SKILLS. ONE CONNECTED SYSTEM.', then 11 trading-card style skill cards in a 3/4/4 grid (number badge, orange category tab such as VOICE or RESEARCH, coloured lightning-bolt icon, 'SKILL NAME', serif title such as 'The Voice Cloner', 2 to 3 line description, 'RUNS ON ONE SESSION' pill). Bottom row: pills ONE SYSTEM, 17 SKILLS, 8 AGENTS and an orange CTA pill 'COMMENT 'SYSTEM' >'. The cycle opens on the full grid, the 11 cards and 3 stat pills dissolve out, then the cards are dealt back in one by one in reading order and the pills return last.",
+    "url": "https://www.linkedin.com/posts/bkp31415_i-havent-written-a-linkedin-post-by-hand-activity-7513829707214155777-wtDg"
+   },
+   "copy_basis": "BK17 template: absence hook and free line, thesis line, effort line, 'Here's what's inside' with eight count-led arrow lines and no blank lines, recap line, CTA",
+   "media": {
+    "type": "pending"
+   },
+   "text": "You should never count characters by hand again.\n\nHere's the one-page card that does it for every channel, and it's free 👇\n\nA message that gets cut off mid-sentence doesn't get a reply.\n\nSo we put every limit from our playbook on one page.\n\nHere's what's inside:\n→ Under 400 Characters: The WhatsApp Message\n→ Under 300 Characters: The LinkedIn Note\n→ Under 160 Characters: The SMS\n→ Under 8 Words: The Subject Line\n→ 15 To 20 Requests A Day Per LinkedIn Profile\n→ 14 Days, Then Withdraw The Request\n→ 1 Tool Per Profile\n→ 1 Page For All Of It\n\n4 channels. 7 limits. 1 card.\n\nComment LIMITS to get it here.\n\n👇",
+   "first_comment": "Comment LIMITS and we'll DM you The Outreach Limits Cheat Sheet: every character and daily limit on one page, so no message gets cut or flagged.",
+   "sources": [
+    "content/corpus/facts.md: EW-25"
+   ],
+   "numbers_for_signoff": [
+    "LinkedIn note under 300; 15 to 20 requests a day per profile; withdraw after 14 days; one tool per profile; SMS under 160; WhatsApp under 400; subject lines under 8 words (EW-25)"
+   ],
+   "flags": [
+    "Giveaway asset is not built yet: the copy is final for review, the 4:5 visual with the keyword inside it and the DM resource come next.",
+    "The resource goes out by manual DM from Adi's profile.",
+    "The hook carries no number (Adi approved it as written)."
+   ],
+   "visual_label": "On the asset (animated 4:5)",
+   "visual_copy": [
+    "THE OUTREACH LIMITS CHEAT SHEET",
+    "400 · 300 · 160 · 8",
+    "WhatsApp, LinkedIn, SMS, subject lines: every limit on one page",
+    "Comment LIMITS to get it"
+   ],
+   "resource": {
+    "name": "The Outreach Limits Cheat Sheet",
+    "keyword": "LIMITS",
+    "what": "A one-page card: character limits for LinkedIn notes, SMS, WhatsApp and subject lines, the daily request range per LinkedIn profile and when to withdraw a request."
+   },
+   "key": "b3-TG3"
+  },
+  {
+   "id": "TG4",
+   "batch": "3",
+   "profile": "tantra",
+   "platform": "linkedin",
+   "status": "draft",
+   "time": "10:30",
+   "cta": "",
+   "date": "2026-11-20",
+   "short": "A clock on every pipeline stage",
+   "pillar": "Revenue engine",
+   "idea": "Deals go quiet when a stage has no time limit; 12 stages, a clock on each.",
+   "format": "Image · animated giveaway",
+   "sample": {
+    "id": "ID02",
+    "creator": "Ipsita Dhar",
+    "what": "720x900 (4:5) GIF of a fake 'Claude / Acquisition engine' app: header with orange burst tile and a 'Running' dot, hero block with a giant navy numeral (41) beside 'qualified meetings / last week' and stats '742 conversations, 14 proposals, 12 min/day', then a 6-column board (ICP, Signals, Research, Outreach, Replies, Meetings, each with a status ring icon and a running total) of 29 prospect cards in the end state (five per column in the first five columns plus four in Meetings, ACQ-312 to ACQ-340, a first name + initial, a company like Northwind, Zephyr, Lattice, and an initial chip). The Meetings column holds orange-bordered cards stamped '✓ Fri 12:30'. CTA strip: 'Comment SALES to test it yourself.' Motion: from the finished state the board crossfades back to zero, then four times the top lane of prospects shifts one column right, each arrival in Meetings counting the hero number up by about 10 until it reads 41, and an underline draws before the hold.",
+    "url": "https://www.linkedin.com/posts/ipsitadhar14_we-gave-claude-a-linkedin-connection-it-activity-7521805781600501760-fI-k"
+   },
+   "copy_basis": "ID02 template: two-line hook, widener line, pain paragraph, instruction line, 'It can help' with six verb-first arrow lines, 'The goal?', answer, triple close, CTA",
+   "media": {
+    "type": "pending"
+   },
+   "text": "We gave every pipeline stage a clock.\n\nIt became a pipeline where no deal goes quiet. 🫨\n\nAnd it works for any team that sells on calls.\n\nA deal doesn't need a no to die. It only needs to wait: for a reply, a proposal, a rebooked call. Nobody decides to drop it. Nobody owns the wait.\n\nPut a time limit on each of the 12 stages, and write down what happens when it runs out.\n\nIt can help:\n→ Send the no-show SMS within 5 minutes\n→ Show which deals have sat in a stage too long\n→ Give every stage one owner\n→ Name the message that goes out when a clock runs out\n→ Stop follow-up from living in someone's memory\n→ Spot the stage where deals pile up\n\nThe goal?\n\nNo deal sits without a next step and a deadline.\n\nOne pipeline. One clock per stage. A smarter way to follow up.\n\nComment PIPELINE and we'll DM you the sheet for FREE 👇",
+   "first_comment": "Comment PIPELINE and we'll DM you The 12-Stage Pipeline Clock Sheet: every stage, its time limit and what happens next, so no deal goes quiet.",
+   "sources": [
+    "content/corpus/facts.md: EW-30"
+   ],
+   "numbers_for_signoff": [
+    "12 stages with a clock on each; no-show SMS within 5 minutes (EW-30)"
+   ],
+   "flags": [
+    "Giveaway asset is not built yet: the copy is final for review, the 4:5 visual with the keyword inside it and the DM resource come next.",
+    "The resource goes out by manual DM from Adi's profile.",
+    "The post does not list the 12 stage names: they are in the sheet."
+   ],
+   "visual_label": "On the asset (animated 4:5)",
+   "visual_copy": [
+    "THE 12-STAGE PIPELINE CLOCK SHEET",
+    "12 stages. A clock on each.",
+    "No-show SMS within 5 minutes",
+    "Comment PIPELINE to get it"
+   ],
+   "resource": {
+    "name": "The 12-Stage Pipeline Clock Sheet",
+    "keyword": "PIPELINE",
+    "what": "A spreadsheet template: the 12 stages, the time limit on each, the owner and the message that goes out when the clock runs out, including the no-show SMS within 5 minutes."
+   },
+   "key": "b3-TG4"
+  },
+  {
+   "id": "TG6",
+   "batch": "3",
+   "profile": "tantra",
+   "platform": "linkedin",
+   "status": "draft",
+   "time": "10:30",
+   "cta": "",
+   "date": "2026-11-23",
+   "short": "Keep outreach off your main domain",
+   "pillar": "Sending infrastructure",
+   "idea": "Cold outreach from the main domain puts every company email at risk; separate domains, a warm-up and sending rules prevent it.",
+   "format": "Image · animated giveaway",
+   "sample": {
+    "id": "ID07",
+    "creator": "Ipsita Dhar",
+    "what": "720x900 (4:5) GIF of a light 'Claude / visitor-intelligence' dashboard with a 'Last 30 days' mono pill: a giant blue-to-teal gradient numeral (27) beside 'qualified demos / last 30 days / ✳ booked by Claude on yoursite.com', a three-stat row (VISITORS 4,812 anonymous by default; IDENTIFIED 1,368 28% of traffic in orange; ICP MATCHES 296 qualified by Claude), and an area chart over Week 1 to Week 4: a blue visitors line with pale blue fill and an orange 'identified by Claude' area beneath, with three tooltips tied by dotted drop lines to orange markers on the identified area ('Sarah R. · Northwind / VP Sales · ICP 81', 'Omar R. · Atlas / COO · ICP 87', 'Ava C. · Solace / VP Sales · ICP 97'). White CTA strip: 'Comment SEND to test it yourself.' with SEND in a blue-to-teal pill. Motion: the dashboard resets to zero and a playhead sweeps the chart, filling the orange area, counting up the stats, and turning anonymous visitor tooltips into named, scored leads.",
+    "url": "https://www.linkedin.com/posts/ipsitadhar14_your-next-sales-lead-is-already-on-your-website-activity-7516418908732555264-k5nm"
+   },
+   "copy_basis": "ID07 template: two caps hook lines, a problem broken mid-sentence, 'Meanwhile' contrast, gap line, fix line, 'Now you can' with four arrow lines, 'All on one', benefit pair, ease line, instruction and punchline, CTA",
+   "media": {
+    "type": "pending"
+   },
+   "text": "YOUR NEXT INVOICE IS ALREADY HEADED FOR SPAM...\n\nAND YOUR COLD OUTREACH IS SENDING IT THERE 👀\n\nCold outreach from your main domain puts\nevery email your company sends at risk.\n\nMeanwhile, your invoices, contracts and customer replies all leave from that same domain.\n\nThat's a pretty risky setup.\n\nSo we wrote down the one we teach instead.\n\nNow you can:\n→ Send outreach from separate look-alike domains, never the main one\n→ Warm each one up for two weeks first\n→ Send between 8am and 8pm their time\n→ Give every email a one-click yes and a one-click no\n\nAll on one page.\n\nYour outreach keeps going.\nYour main domain stays out of it.\n\nAnd a No is final, so nobody hears from you again after saying it.\n\nTick the boxes. Then send.\n\nComment DOMAINS and we'll DM you the checklist for FREE. 👇",
+   "first_comment": "Comment DOMAINS and we'll DM you The Clean Domain Sending Checklist: the setup steps that keep outreach off your main domain and out of spam.",
+   "sources": [
+    "content/corpus/facts.md: EW-31"
+   ],
+   "numbers_for_signoff": [
+    "separate look-alike domains; two-week warm-up; 8am to 8pm their time; one-click yes and no; a No is final (EW-31)"
+   ],
+   "flags": [
+    "Giveaway asset is not built yet: the copy is final for review, the 4:5 visual with the keyword inside it and the DM resource come next.",
+    "The resource goes out by manual DM from Adi's profile.",
+    "The hook is a warning, not a measured fact: it says where outreach from the main domain can send an invoice."
+   ],
+   "visual_label": "On the asset (animated 4:5)",
+   "visual_copy": [
+    "THE CLEAN DOMAIN SENDING CHECKLIST",
+    "Look-alike domains · two-week warm-up · 8am to 8pm their time · one-click yes and no",
+    "Keep outreach off your main domain",
+    "Comment DOMAINS to get it"
+   ],
+   "resource": {
+    "name": "The Clean Domain Sending Checklist",
+    "keyword": "DOMAINS",
+    "what": "A one-page checklist: look-alike sending domains, the two-week warm-up, sending hours (8am to 8pm their time) and the one-click yes and no that keeps a No final."
+   },
+   "key": "b3-TG6"
   }
  ]
 };

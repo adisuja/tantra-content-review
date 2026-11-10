@@ -5,6 +5,7 @@
 (function () {
   const C = window.CORE, esc = C.esc, S = window.STUDIO;
   const LI_I = () => window.LI.I;
+  const HASH = location.hash; /* read before anything rewrites it: a #r=... hash carries a shared review */
   const SLUG = (S.slug || "content").replace(/[^a-z0-9-]/gi, "");
   const ROLES = (S.reviewers && S.reviewers.length ? S.reviewers : [{ role: "owner", label: "Owner" }, { role: "team", label: "Team" }]);
   document.title = S.title || "Content review";
@@ -67,6 +68,8 @@
   document.addEventListener("input", (e) => { if (e.target.matches("[data-fb]")) saveDraft(e.target.closest(".pcard").dataset.id, e.target.value); if (e.target.matches("[data-name]")) localStorage.setItem(NAMEKEY, e.target.value.trim()); });
   const mark = (e) => (saved(e) ? `<em class="sv ok" title="Confirmed in the shared Google Sheet">✓ Saved</em>` : `<em class="sv wait" title="Stored in this browser, being sent to the shared sheet">Saving…</em>`);
 
+  const dec = (s) => JSON.parse(decodeURIComponent(escape(atob(s.replace(/-/g, "+").replace(/_/g, "/")))));
+
   /* ---------- helpers ---------- */
   const prof = (id) => S.profiles.find((p) => p.id === id) || { id, name: id, headline: "", kind: "person" };
   const DOW = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"], MON = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
@@ -91,7 +94,7 @@
         <div class="li-doc-view"><div class="li-slides" data-pages="${n}">${slides}</div><span class="li-pg">1 / ${n}</span><span class="li-exp" title="View full screen">${LI_I().expand}</span><button class="li-arr prev" data-dir="-1" title="Previous slide">‹</button><button class="li-arr next" data-dir="1" title="Next slide">›</button></div></div>`;
     }
     if (m.type === "poll") {
-      return `<div class="li-poll"><div class="li-poll-q">${esc(m.question)}</div><div class="li-poll-s">The author can see how you vote.</div>${(m.options || []).map((o) => `<button class="li-poll-o">${esc(o)}</button>`).join("")}<div class="li-poll-f">0 votes · 1w left</div></div>`;
+      return `<div class="li-poll"><div class="li-poll-q">${esc(m.question)}</div><div class="li-poll-s">The author can see how you vote. <span style="color:#0a66c2;font-weight:600">Learn more</span></div>${(m.options || []).map((o) => `<button class="li-poll-o">${esc(o)}</button>`).join("")}<div class="li-poll-f">0 votes · 1w left</div></div>`;
     }
     if (m.type === "pending") return `<div class="wipbox">Media in production</div>`;
     return "";
@@ -122,9 +125,9 @@
   function card(p) {
     const w = when(p), isX = p.platform === "x";
     const nThread = 1 + (p.thread || []).length, mt = p.media && p.media.type;
-    const fmt = isX ? `<span class="badge xb">X</span><span class="badge fmt">${esc(nThread > 1 ? `Thread · ${nThread} posts` : "Single post")}</span>`
+    const fmt = isX ? `<span class="badge xb">X</span><span class="badge fmt">${esc(nThread > 1 ? `Thread · ${nThread} posts` : "Single post")}${mt === "image" || mt === "images" ? ` · ${(p.media.files || []).length} image${(p.media.files || []).length === 1 ? "" : "s"}` : ""}</span>`
       : `<span class="badge fmt">${esc(mt === "carousel" ? "Carousel" : mt === "poll" ? "Poll" : mt === "image" ? "Image" : "Text")}</span>`;
-    const cta = p.cta ? `<span class="badge cta">${esc(S.cta_label || "CTA")}</span>` : "";
+    const cta = p.cta ? `<span class="badge cta">${esc(((S.batches || []).find((b) => String(b.id) === String(p.batch)) || {}).cta_label || S.cta_label || "CTA")}</span>` : "";
     const wip = p.status !== "ready" ? `<span class="badge wip">In production</span>` : "";
     const smp = p.sample || {};
     return `<article class="pcard card" id="${esc(p.key)}" data-id="${esc(p.key)}">
@@ -134,9 +137,12 @@
       <section class="rev" data-rev="${esc(p.key)}">${revHtml(p.key)}</section>
       ${dlHtml(p)}
       <details class="info"><summary>Sample, template, first comment and sources</summary><dl>
-        <dt>Sample matched</dt><dd><b>${esc(smp.id || "")}</b> · ${esc(smp.creator || "")}${smp.url ? ` · <a href="${esc(smp.url)}" target="_blank" rel="noopener">view original post</a>` : ""}<br>${esc(smp.what || "")}</dd>
+        <dt>Sample matched</dt><dd><b>${esc(smp.id || "")}</b> · ${esc(smp.creator || "")}${smp.url ? ` · <a href="${esc(smp.url)}" target="_blank" rel="noopener">view original post</a>` : ""}<br>${esc(smp.what || "")}${smp.thumb ? `<img class="sthumb" src="${esc(smp.thumb)}" data-lb="${esc(smp.thumb)}" data-lb-caption="Sample ${esc(smp.id || "")}">` : ""}</dd>
         <dt>Copy template</dt><dd>${esc(p.copy_basis || "")}</dd>
-        <dt>First comment</dt><dd>${isX ? "Not used on X" : p.first_comment ? `<div class="fc">${esc(p.first_comment)}</div>` : "None"}</dd>
+        ${(p.visual_copy || []).length ? `<dt>${esc(p.visual_label || "On the visual")}</dt><dd><ol class="vcopy">${p.visual_copy.map((x) => `<li>${esc(x)}</li>`).join("")}</ol></dd>` : ""}
+        ${p.resource ? `<dt>Resource we DM</dt><dd><b>${esc(p.resource.name || "")}</b>${p.resource.keyword ? ` · keyword ${esc(p.resource.keyword)}` : ""}<br>${esc(p.resource.what || "")}</dd>` : ""}
+        ${p.repurposed_from ? `<dt>Repurposed from</dt><dd>${esc(p.repurposed_from)} (approved LinkedIn post) · ${esc(p.format || "")}</dd>` : ""}
+        <dt>First comment</dt><dd>${isX ? "Not used on X: the CTA link is inside the post or the last thread post" : p.first_comment ? `<div class="fc">${esc(p.first_comment)}</div>` : "None (not a CTA post)"}</dd>
         <dt>Sources</dt><dd>${(p.sources || []).map(esc).join("<br>")}</dd>
         ${(p.flags || []).length ? `<dt>Needs confirmation</dt><dd style="color:#a15c00">${p.flags.map(esc).join("<br>")}</dd>` : ""}
         ${(p.numbers_for_signoff || []).length ? `<dt>${esc(S.signoff_label || "Numbers for sign-off")}</dt><dd>${p.numbers_for_signoff.map(esc).join(" · ")}</dd>` : ""}
@@ -147,10 +153,16 @@
      on-screen JPG previews), plus one-click copy of the post copy and the first comment. */
   const mb = (n) => (n >= 1048576 ? (n / 1048576).toFixed(1) + " MB" : Math.max(1, Math.round(n / 1024)) + " KB");
   function dlHtml(p) {
-    const d = (p.media || {}).download;
+    const d = (p.media || {}).download, many = (p.media || {}).downloads || [];
+    const copyBtn = `<button class="btn ghost" data-copyt="text">Copy post copy${(p.thread || []).length ? " (whole thread)" : ""}</button>`;
+    const noX = `<button class="btn ghost" disabled title="X has no first comment">No first comment on X</button>`;
+    if (many.length) {
+      const btns = many.map((x, i) => `<a class="btn dlb" href="${esc(x.href)}" download="${esc(x.name)}" title="${x.w} × ${x.h} px · full quality · ${mb(x.bytes)}">Download PNG ${i + 1} of ${many.length}</a>`).join("");
+      return `<section class="dl"><div class="dlrow dlmany">${btns}</div><div class="dlrow"><span class="dlm">${many[0].w} × ${many[0].h} px each · full quality</span></div><div class="dlrow">${copyBtn}${p.platform === "x" ? noX : p.first_comment ? `<button class="btn ghost" data-copyt="first_comment">Copy first comment</button>` : ""}</div></section>`;
+    }
     const file = d ? `<a class="btn dlb" href="${esc(d.href)}" download="${esc(d.name)}">${d.ext === "pdf" ? `Download PDF · ${d.pages} slides` : "Download PNG"}</a>
         <span class="dlm">${d.w} × ${d.h} px · full quality · ${mb(d.bytes)}</span>` : "";
-    const fc = p.first_comment ? `<button class="btn ghost" data-copyt="first_comment">Copy first comment</button>` : `<button class="btn ghost" disabled title="This post has no first comment">No first comment</button>`;
+    const fc = p.first_comment ? `<button class="btn ghost" data-copyt="first_comment">Copy first comment</button>` : p.platform === "x" ? noX : `<button class="btn ghost" disabled title="This post has no first comment">No first comment</button>`;
     return `<section class="dl">${file ? `<div class="dlrow">${file}</div>` : ""}<div class="dlrow"><button class="btn ghost" data-copyt="text">Copy post copy${(p.thread || []).length ? " (whole thread)" : ""}</button>${fc}</div></section>`;
   }
   function copyLegacy(s) {
@@ -191,12 +203,12 @@
     main.innerHTML = batches().filter((bt) => String(bt.id) === active).map((bt) => {
       const bid = String(bt.id), profs = profsOf(bid);
       return `<section class="batch" id="batch-${esc(bid)}">
-      <div class="bhead"><h1>${esc(bt.title || "Batch " + bid)}</h1><p>${esc(bt.dates || "")} · ${S.posts.filter((p) => bOf(p) === bid).length} posts across ${profs.length} profile${profs.length === 1 ? "" : "s"}</p></div>
+      <div class="bhead"><h1>${esc(bt.title || "Batch " + bid)}</h1><p>${esc(bt.dates || "")} · ${S.posts.filter((p) => bOf(p) === bid).length} posts across ${profs.length} profile${profs.length === 1 ? "" : "s"}${bt.platform === "x" ? " · X (Twitter)" : ""}</p></div>
       ${profs.map((pr, i, all) => {
         const posts = postsOf(bid, pr.id);
         return `<section class="profile" id="b${esc(bid)}-profile-${esc(pr.id)}">
         <div class="phead">${pr.avatar_ok ? `<img class="${pr.kind === "company" ? "sq" : ""}" src="${esc(pr.avatar)}" alt="">` : ""}<div><h2>${esc(pr.name)}</h2><p>${esc(pr.headline || "")} · ${posts.length} posts · ${esc(`${pr.time || ""} ${tzLabel(pr)}`.trim())}</p></div><span class="order">${i + 1} of ${all.length}</span></div>
-        <div class="pgrid">${posts.map(card).join("")}</div>
+        <div class="pgrid">${posts.length ? posts.map(card).join("") : `<div class="pnote">Posts for this profile are in production.</div>`}</div>
       </section>`; }).join("") || `<div class="pnote">No posts in this batch yet.</div>`}
     </section>`; }).join("");
     applyFilter(); nav();
@@ -264,7 +276,20 @@
     const f = e.target.closest("[data-filter]");
     if (f) { f.parentElement.querySelectorAll("button").forEach((b) => b.classList.toggle("on", b === f)); filter = f.dataset.filter; applyFilter(); return; }
     const poll = e.target.closest(".li-poll-o"); if (poll) { poll.parentElement.querySelectorAll(".li-poll-o").forEach((b) => b.classList.toggle("voted", b === poll)); return; }
+    if (e.target.id === "loadShared") { const n = merge(window.__shared.ev || []); saveEv(); (window.__shared.ev || []).forEach(push); hideBanner(); refreshReviews(); C.toast(n + " shared items loaded"); return; }
+    if (e.target.id === "ignoreShared") { hideBanner(); return; }
   });
+  /* a link ending in #r=<base64> carries another reviewer's approvals and feedback: offer to load them */
+  function hideBanner() { const b = document.getElementById("banner"); b.hidden = true; history.replaceState(null, "", location.pathname + location.search); }
+  function sharedBanner() {
+    const m = HASH.match(/#r=([\w-]+)/); if (!m) return;
+    try {
+      const sh = dec(m[1]); window.__shared = sh; const ev = sh.ev || [];
+      const a = ev.filter((x) => x.kind === "approve").length, f = ev.filter((x) => x.kind === "comment").length;
+      const b = document.getElementById("banner"); b.hidden = false;
+      b.innerHTML = `<span>This link carries a shared review from ${esc(fmtT(sh.at))}: <b>${a}</b> approvals and <b>${f}</b> feedback notes.</span><button class="btn" id="loadShared">Load into my view</button><button class="btn ghost" id="ignoreShared">Ignore</button>`;
+    } catch { /* bad hash */ }
+  }
   /* three phones per row by default */
   let fit3 = true;
   function fit() {
@@ -278,5 +303,5 @@
     if (e.target.closest('.seg button[data-set="scale"]')) { fit3 = false; document.getElementById("fit3").classList.remove("on"); }
     if (e.target.id === "fit3") { fit3 = true; e.target.classList.add("on"); document.querySelectorAll('.seg button[data-set="scale"]').forEach((b) => b.classList.remove("on")); fit(); }
   });
-  document.addEventListener("DOMContentLoaded", () => { render(); fit(); syncBadge(); pull(); });
+  document.addEventListener("DOMContentLoaded", () => { sharedBanner(); render(); fit(); syncBadge(); pull(); });
 })();
