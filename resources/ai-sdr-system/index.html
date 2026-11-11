@@ -1,0 +1,38 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>The AI SDR System</title><meta name="robots" content="noindex"><meta name="description" content="The AI SDR System"><link rel="stylesheet" href="../assets/res.css"></head><body class="fixed"><div class="bar scr"><b>The AI SDR System</b><div class="bts"><a class="bt" href="ai-sdr-system.pdf" download>Download PDF</a></div></div><section class="pg"><header class="ph"><div class="by"><img src="../assets/tantra-mark-ink.png" alt=""><img class="w" src="../assets/tantra-word-ink.png" alt="Tantra"></div></header><div class="bd" data-fit="page 1"><h1>The AI SDR System</h1>
+<p class="lead">An AI SDR set up in Claude. It finds the people who fit, checks each company, sorts them into segments, drafts the first message and lines up the follow-ups. Your people approve the messages and take the calls.</p>
+<h2>Who does what</h2><div class="tw"><table><thead><tr><th>Step</th><th>AI does</th><th>A person does</th></tr></thead><tbody><tr><td><b>1 Find</b></td><td>Merges every source into one list: your CRM, LinkedIn searches, past registrants</td><td>Sets the fit rules and the exclusions</td></tr><tr><td><b>2 Check</b></td><td>Reads each company's site and recent posts, cuts the wrong fits</td><td>Checks the first 25 rows before trusting the rest</td></tr><tr><td><b>3 Sort</b></td><td>Puts each person in the segment their message is written for</td><td>Approves the segments</td></tr><tr><td><b>4 Write</b></td><td>Drafts one message per segment, merge fields only, A and B versions</td><td>Approves every message before it goes out</td></tr><tr><td><b>5 Follow up</b></td><td>Queues the follow-ups on each channel's timing</td><td>Answers every real reply the same day, in their own words</td></tr><tr><td><b>6 Call</b></td><td>Nothing. This part is yours</td><td>Takes the calls</td></tr></tbody></table></div><h2>Set it up in Claude</h2><div class="rule"><span class="num">1</span><div><h3>One project, one brief</h3><p>Make one Claude project. Put your offer, your buyer, your fit rules, your exclusions and your proof in one brief file. Every prompt reads it first.</p></div></div><div class="rule"><span class="num">2</span><div><h3>One list</h3><p>Merge your sources before anything else and remove duplicates by email.</p></div></div><div class="rule"><span class="num">3</span><div><h3>Separate sending domains</h3><p>Send from look-alike domains, never your main one, after a two-week warm-up, 8am to 8pm their time.</p></div></div><div class="rule"><span class="num">4</span><div><h3>Nothing goes out without a yes</h3><p>The AI drafts and queues. Sending, buying or deleting waits for your own words.</p></div></div><h2>The timing it follows</h2><div class="tw"><table><thead><tr><th>Channel</th><th>The rule</th></tr></thead><tbody><tr><td><b>Cold email</b></td><td>5 steps on days 0, 3, 6, 9 and 13; only step 1 has a subject; steps 2 to 5 under 80 words; one link</td></tr><tr><td><b>LinkedIn</b></td><td>Connection note under 300 characters; 15 to 20 requests a day per profile; withdraw after 14 days; one tool per profile</td></tr><tr><td><b>Calendar invite</b></td><td>Sent 8 to 12 days out; title under 60 characters; one line that makes declining easy</td></tr></tbody></table></div></div><footer class="pf"><span>© 2026 Tantra</span><a href="https://usetantra.com" target="_blank" rel="noopener">usetantra.com</a></footer></section><section class="pg"><header class="ph"><div class="by"><img src="../assets/tantra-mark-ink.png" alt=""><img class="w" src="../assets/tantra-word-ink.png" alt="Tantra"></div><span class="k">The AI SDR System</span></header><div class="bd" data-fit="page 2"><h2>Prompt 1: sort the list</h2><div class="pr"><div class="prh"><b>Sort my list into segments</b><button class="cp scr" type="button">Copy prompt</button></div><pre>YOUR TASK
+Sort every buyer in the list below into one of my segments, so each segment can get its own invite.
+
+THE FACTS TO USE
+My segments: [FILL: segment name, who is in it (role and kind of company), and what just changed for them, one line each]
+My fit rules: [FILL: who must be in the list, who must never be]
+
+RULES
+- Read each company&#x27;s website and the person&#x27;s recent posts before you sort them.
+- One segment per person. If nobody fits, write NONE and the reason. Never guess.
+
+WHAT TO RETURN
+A table: first name, company, role, segment, one-line reason.
+
+CHECK BEFORE YOU ANSWER
+Every row has exactly one segment or NONE. No row has a made-up fact.
+
+THE LIST
+[PASTE: first_name, company, website, role, linkedin_url]</pre></div><h2>Prompt 2: the first message</h2><div class="pr"><div class="prh"><b>Write the first message per segment</b><button class="cp scr" type="button">Copy prompt</button></div><pre>YOUR TASK
+Write the first message to each segment of my list, for [FILL: my event line or offer].
+
+THE FACTS TO USE
+My segments and the problem each one has: [FILL]
+What they get: [FILL]
+
+RULES
+- Merge fields only: {first_name}, {company}, {role}. No line written for one person.
+- Two versions per segment: A leads with the outcome, B with the objection in the buyer&#x27;s own words.
+- One link. Under 80 words. End with an easy way to say no.
+- A missing fact becomes [FILL]. Never invent a number or a client.
+
+WHAT TO RETURN
+For each segment: version A and version B, with a subject line.
+
+CHECK BEFORE YOU ANSWER
+Each message reads well even if {company} is empty.</pre></div><h2>Before it sends</h2><ul class="ck"><li><input type="checkbox" aria-label="done"><span>The first 25 sorted rows look right.</span></li><li><input type="checkbox" aria-label="done"><span>Every message was approved by a person.</span></li><li><input type="checkbox" aria-label="done"><span>A reply stops the sequence for that person.</span></li><li><input type="checkbox" aria-label="done"><span>Anyone who says no comes off the list for good.</span></li></ul></div><footer class="pf"><span>© 2026 Tantra</span><a href="https://usetantra.com" target="_blank" rel="noopener">usetantra.com</a></footer></section><script src="../assets/res.js"></script></body></html>

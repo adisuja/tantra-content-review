@@ -1,0 +1,13 @@
+#,Stage,The clock,Owner,When the clock runs out
+1,Form Filled,Reviewed within 12 hours,,Qualified leads get a call. The rest get the booking link.
+2,Call Scheduled,"Confirmation at once. Reminders at 48 hours, 24 hours and 1 hour",,The reminders go out on their own. Build these first.
+3,No Show (exit),SMS within 5 minutes. Email within 15 minutes,,"Two calls the same day, then a 7-day sequence with new times."
+4,Qualified,,,
+5,Unqualified (exit),,,A reason code and a date to look again.
+6,Call Held,Recap email the same day,,The recap names the next step and its date.
+7,Follow-Up,Weekly for high intent. Every two weeks for medium,,"A reply, a booking or a stage change stops the sequence."
+8,Proposal Sent,Follow-ups at 48 hours and 7 days,,A call when the proposal is opened.
+9,Proposal Accepted,"Invoice reminders 3 days before, on the due date, and 3 and 7 days late",,"The payment webhook moves the deal, never a person."
+10,Payment Completed,Welcome email at once,,Kickoff gets booked.
+11,Onboarding,Kickoff within 3 to 7 working days,,
+12,Delivery,,,

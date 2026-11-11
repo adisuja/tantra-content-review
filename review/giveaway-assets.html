@@ -1,0 +1,202 @@
+<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>giveaway-assets</title><style>@font-face{font-family:'Clash Display';src:url('fonts/clash-600.woff2') format('woff2');font-weight:600}
+@font-face{font-family:Inter;src:url('fonts/inter-var.woff2') format('woff2');font-weight:100 900}
+body{margin:0;background:#f7f8fb;color:#0b0d12;font:16px/1.6 Inter,system-ui}
+main{max-width:760px;margin:0 auto;padding:28px 20px 80px}
+h1,h2,h3{font-family:'Clash Display',Inter;letter-spacing:-.01em;line-height:1.15}
+h1{font-size:32px}h2{font-size:24px;margin-top:40px;color:#4b2fd6}h3{font-size:19px;margin-top:28px;padding-top:18px;border-top:1px solid #e2e8f0}
+code{font-size:.88em;background:#f1efff;padding:1px 5px;border-radius:4px;overflow-wrap:anywhere}
+a{color:#4b2fd6;overflow-wrap:anywhere}li{margin:4px 0}strong{font-weight:650}
+table{border-collapse:collapse;display:block;overflow-x:auto;font-size:14px}td,th{border:1px solid #e2e8f0;padding:6px 8px;vertical-align:top}</style><main><h1>Giveaway asset library (reuse these: RULES.md section 0b)</h1>
+<p>Pick the asset here before inventing a new one. Any asset can be offered again and again, on any profile, from a new angle, hook and format. Names stay plain: a busy buyer should know what it is from the name alone.</p>
+<p>Every asset is built only from real material in this repo (the playbook, the knowledge files, the webinar project digests, this content kit). Nothing in an asset is a result; method rules only, with facts.md rows. Hosted at <code>https://adisuja.github.io/tantra-revops/&lt;slug&gt;/</code> (Tantra logo in the header, "© 2026 Tantra" and usetantra.com in the footer, nothing else).</p>
+<h2>The six hero systems (lead with these)</h2>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Asset (plain name)</th>
+<th>What it is, in one line a non-specialist gets</th>
+<th>What is inside</th>
+<th>Built from</th>
+<th>Slug</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A1</td>
+<td><strong>The AI SDR System</strong></td>
+<td>An AI SDR in Claude that finds your buyers, checks each one fits, writes the first message and lines up the follow-ups. People take the calls</td>
+<td>Setup steps for a Claude project, the fit rules, the fit-check and segment prompts, the message templates with merge fields only, the follow-up timing, the channel limits, and what stays with a person</td>
+<td>context/sources/revops-os-knowledge/lists.md, channels/*.md; digest-D points 8 to 18; batch 3 TG3 limits, AG6 persona; batch 4 RG6</td>
+<td>ai-sdr-system</td>
+<td>built in batch 4 (b4_hero.py)</td>
+</tr>
+<tr>
+<td>A2</td>
+<td><strong>The Omni-Channel Outreach System</strong></td>
+<td>Email, LinkedIn, calendar invites and WhatsApp run as one conversation per buyer, not four tools sending four messages</td>
+<td>The channel map, one sequence across channels with timings, the rules for each channel, sending safety, and the templates</td>
+<td>context 05 section 3 (3.1 to 3.4, 3.10); facts EW-23 to EW-25, EW-31; batch 3 AG1, AG5, TG3, TG6</td>
+<td>omni-channel-outreach-system</td>
+<td>built in batch 4 (b4_hero.py)</td>
+</tr>
+<tr>
+<td>A3</td>
+<td><strong>The AI Webinar Funnel System</strong></td>
+<td>The whole webinar funnel we run every week, from the page to the booked call, set up with AI</td>
+<td>The six stages, the registration page, the reminders, the session order, the follow-up and the booking, each with its prompt</td>
+<td>context 13, 15; facts EW-14 to EW-18, EW-27 to EW-30, EW-33; batch 3 TG2, AG2, TG4</td>
+<td>ai-webinar-funnel-system</td>
+<td>built in batch 4 (b4_hero.py)</td>
+</tr>
+<tr>
+<td>A4</td>
+<td><strong>The Content OS</strong></td>
+<td>The system that plans, drafts and designs our team's LinkedIn posts for a person to approve</td>
+<td>The context bucket, the idea gate, matching each post to a proven sample, the copy rules, the design build, the review studio and scheduling</td>
+<td>knowledge/content/*.md, kits/content/README.md, RULES.md (this repo is it)</td>
+<td>content-os</td>
+<td>built in batch 4 (b4_hero.py)</td>
+</tr>
+<tr>
+<td>A5</td>
+<td><strong>The Claude Funnel Prompt Pack</strong></td>
+<td>Copy-and-paste Claude prompts that write each page, email and invite of a funnel from your own facts</td>
+<td>The setup prompt, the 8-part prompt structure and one prompt per funnel stage, with [FILL] gaps</td>
+<td>facts EW-12, EW-32; batch 3 AG3 and TG1 (already built)</td>
+<td>claude-funnel-prompt-pack (batch 4, from batch 3's starter pack)</td>
+<td>built</td>
+</tr>
+<tr>
+<td>A6</td>
+<td><strong>The Sales Call System</strong></td>
+<td>Everything after someone books a call: the booking page with case studies, the 5-minute confirmation, the call, the proposal and the follow-up</td>
+<td>The Book-a-Call Page (with case studies), the booking questions, the confirmation script, the call outline, the proposal template and the 7-day follow-up</td>
+<td>digest-F points 1 to 27, 33; facts EW-30; batch 4 EG3, QG5</td>
+<td>sales-call-system</td>
+<td>built in batch 4 (b4_hero.py)</td>
+</tr>
+</tbody>
+</table>
+<h2>Single-piece assets (offer alone, or as part of a hero system)</h2>
+<table>
+<thead>
+<tr>
+<th>Asset</th>
+<th>Part of</th>
+<th>Built in</th>
+<th>Slug</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>The Calendar Invite Blueprint</td>
+<td>A2</td>
+<td>batch 3 AG1</td>
+<td>calendar-invite-blueprint</td>
+</tr>
+<tr>
+<td>The 4-Number Revenue Equation Sheet</td>
+<td>A3</td>
+<td>batch 3 AG2</td>
+<td>revenue-equation-sheet</td>
+</tr>
+<tr>
+<td>The 6-Stage AI Funnel Prompt Starter Pack</td>
+<td>A5</td>
+<td>batch 3 AG3</td>
+<td>funnel-prompt-starter-pack</td>
+</tr>
+<tr>
+<td>The 13-Day Cold Email Thread</td>
+<td>A2</td>
+<td>batch 3 AG5</td>
+<td>cold-email-thread</td>
+</tr>
+<tr>
+<td>The 20-Customer Persona Scorecard</td>
+<td>A1</td>
+<td>batch 3 AG6</td>
+<td>persona-scorecard</td>
+</tr>
+<tr>
+<td>The 8-Part Prompt Skeleton</td>
+<td>A5</td>
+<td>batch 3 TG1</td>
+<td>prompt-skeleton</td>
+</tr>
+<tr>
+<td>The 9-Block Registration Page Blueprint</td>
+<td>A3</td>
+<td>batch 3 TG2</td>
+<td>registration-page-blueprint</td>
+</tr>
+<tr>
+<td>The Outreach Limits Cheat Sheet</td>
+<td>A1, A2</td>
+<td>batch 3 TG3</td>
+<td>outreach-limits</td>
+</tr>
+<tr>
+<td>The 12-Stage Pipeline Clock Sheet</td>
+<td>A6</td>
+<td>batch 3 TG4</td>
+<td>pipeline-clock-sheet</td>
+</tr>
+<tr>
+<td>The Clean Domain Sending Checklist</td>
+<td>A2</td>
+<td>batch 3 TG6</td>
+<td>clean-domain-checklist</td>
+</tr>
+<tr>
+<td>The Segment Map</td>
+<td>A1</td>
+<td>batch 4 RG6</td>
+<td>segment-map</td>
+</tr>
+<tr>
+<td>The Event Countdown Content Calendar</td>
+<td>A4</td>
+<td>batch 4 HG1</td>
+<td>event-countdown-calendar</td>
+</tr>
+<tr>
+<td>The Value Equation Scorecard</td>
+<td>A3</td>
+<td>batch 4 HG2</td>
+<td>value-equation-scorecard</td>
+</tr>
+<tr>
+<td>The Offer Ladder Worksheet</td>
+<td>A3</td>
+<td>batch 4 HG3</td>
+<td>offer-ladder-worksheet</td>
+</tr>
+<tr>
+<td>The 1-in-5 Post and DM Flow</td>
+<td>A4</td>
+<td>batch 4 HG6</td>
+<td>post-and-dm-flow</td>
+</tr>
+<tr>
+<td>The 7-Day Proposal Follow-Up</td>
+<td>A6</td>
+<td>batch 4 QG5</td>
+<td>proposal-follow-up</td>
+</tr>
+<tr>
+<td>The Book-a-Call Page (With Case Studies)</td>
+<td>A6</td>
+<td>batch 4 EG3</td>
+<td>book-a-call-page</td>
+</tr>
+</tbody>
+</table>
+<h2>Rules for using the library</h2>
+<ul>
+<li>One post offers one asset. The post's angle, hook and format are new for that profile; the asset need not be.</li>
+<li>A hero system's page links its single pieces, so one comment can lead into the whole system.</li>
+<li>Never offer the webinar bonuses themselves (The $1MN+ B2B RevOps Playbook, The $1MN+ AI Funnel Prompt Library, The AI RevOps Revenue Calculator) or the Tantra RevOps OS upsell as a giveaway (BLK-11, BLK-12).</li>
+</ul></main>

@@ -1,0 +1,37 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>The Segment Map</title><meta name="robots" content="noindex"><meta name="description" content="The Segment Map"><link rel="stylesheet" href="../assets/res.css"></head><body class="fixed"><div class="bar scr"><b>The Segment Map</b><div class="bts"><a class="bt" href="segment-map.pdf" download>Download PDF</a></div></div><section class="pg"><header class="ph"><div class="by"><img src="../assets/tantra-mark-ink.png" alt=""><img class="w" src="../assets/tantra-word-ink.png" alt="Tantra"></div></header><div class="bd" data-fit="page 1"><h1>The Segment Map</h1>
+<p class="lead">One invite for a whole list reads like it was written for nobody. Sort the list into segments first, then write one invite per segment. AI does the reading and the sorting. It does not write a new message for every person.</p>
+<h2>The five steps, in this order</h2><div class="rule"><span class="num">1</span><div><h3>One list first</h3><p>Merge every source into one list before anything else: your CRM, your LinkedIn searches and past registrants. Remove duplicates by email.</p></div></div><div class="rule"><span class="num">2</span><div><h3>Read every buyer</h3><p>AI goes through each company's website and the person's recent posts, so one buyer stops looking like the next.</p></div></div><div class="rule"><span class="num">3</span><div><h3>Sort each buyer into a segment</h3><p>Each person gets the segment their invite is written for: by role, by kind of company, or by what just changed for them.</p></div></div><div class="rule"><span class="num">4</span><div><h3>One invite per segment</h3><p>Same event, same link. Only the first line and the example change by segment.</p></div></div><div class="rule"><span class="num">5</span><div><h3>Merge fields only</h3><p>First name, company, role. AI reads and sorts; it never writes a new message for every person.</p></div></div><h2>Your segment map</h2><div class="tw"><table><thead><tr><th>Segment</th><th>Who is in it (role, kind of company)</th><th>What just changed for them</th><th>First line of their invite</th></tr></thead><tbody><tr><td><b>A</b></td><td><input class="fi" type="text" aria-label="fill in"></td><td><input class="fi" type="text" aria-label="fill in"></td><td><input class="fi" type="text" aria-label="fill in"></td></tr><tr><td><b>B</b></td><td><input class="fi" type="text" aria-label="fill in"></td><td><input class="fi" type="text" aria-label="fill in"></td><td><input class="fi" type="text" aria-label="fill in"></td></tr><tr><td><b>C</b></td><td><input class="fi" type="text" aria-label="fill in"></td><td><input class="fi" type="text" aria-label="fill in"></td><td><input class="fi" type="text" aria-label="fill in"></td></tr><tr><td><b>D</b></td><td><input class="fi" type="text" aria-label="fill in"></td><td><input class="fi" type="text" aria-label="fill in"></td><td><input class="fi" type="text" aria-label="fill in"></td></tr><tr><td><b>E</b></td><td><input class="fi" type="text" aria-label="fill in"></td><td><input class="fi" type="text" aria-label="fill in"></td><td><input class="fi" type="text" aria-label="fill in"></td></tr><tr><td><b>F</b></td><td><input class="fi" type="text" aria-label="fill in"></td><td><input class="fi" type="text" aria-label="fill in"></td><td><input class="fi" type="text" aria-label="fill in"></td></tr></tbody></table></div>
+<p class="sm" style="margin-top:6px"><b>Fictional example.</b> Segment A: founders of advisory firms who just hired their first salesperson. First line: "You just hired your first salesperson. Here's how to fill their calendar."</p><h2>Before you send</h2><ul class="ck"><li><input type="checkbox" aria-label="done"><span>I checked the first 25 sorted rows. A pattern of misses means I fix the rule, not the rows.</span></li><li><input type="checkbox" aria-label="done"><span>Every merge field is spelled exactly as my sending tool expects.</span></li><li><input type="checkbox" aria-label="done"><span>Each person sits in one segment only, and gets one invite.</span></li><li><input type="checkbox" aria-label="done"><span>Anyone who says no comes off the list for good.</span></li></ul></div><footer class="pf"><span>© 2026 Tantra</span><a href="https://usetantra.com" target="_blank" rel="noopener">usetantra.com</a></footer></section><section class="pg"><header class="ph"><div class="by"><img src="../assets/tantra-mark-ink.png" alt=""><img class="w" src="../assets/tantra-word-ink.png" alt="Tantra"></div><span class="k">The Segment Map</span></header><div class="bd" data-fit="page 2"><h2>Prompt 1: sort the list</h2><div class="pr"><div class="prh"><b>Sort my list into segments</b><button class="cp scr" type="button">Copy prompt</button></div><pre>YOUR TASK
+Sort every buyer in the list below into one of my segments, so each segment can get its own invite.
+
+THE FACTS TO USE
+My segments: [FILL: segment name, who is in it (role and kind of company), and what just changed for them, one line each]
+My fit rules: [FILL: who must be in the list, who must never be]
+
+RULES
+- Read each company&#x27;s website and the person&#x27;s recent posts before you sort them.
+- One segment per person. If nobody fits, write NONE and the reason. Never guess.
+
+WHAT TO RETURN
+A table: first name, company, role, segment, one-line reason.
+
+CHECK BEFORE YOU ANSWER
+Every row has exactly one segment or NONE. No row has a made-up fact.
+
+THE LIST
+[PASTE: first_name, company, website, role, linkedin_url]</pre></div><h2>Prompt 2: one invite per segment</h2><div class="pr"><div class="prh"><b>Write one invite per segment</b><button class="cp scr" type="button">Copy prompt</button></div><pre>YOUR TASK
+Write one invite for each of my segments, for [FILL: my event line or offer].
+
+THE FACTS TO USE
+My segments and what each one cares about: [FILL]
+What they leave with: [FILL]
+
+RULES
+- Use merge fields only: {first_name}, {company}, {role}. Write sentences that still read well if {company} is empty.
+- One invite per segment, not one per person. The segment changes the first line and the example, nothing else.
+
+WHAT TO RETURN
+For each segment: the title or subject line, the first two lines, then the rest.
+
+CHECK BEFORE YOU ANSWER
+Each invite names its segment&#x27;s own problem in line one. Each one has the same link and the same date.</pre></div><h2>What AI does, and what stays with you</h2><div class="tw"><table><thead><tr><th>AI does</th><th>You do</th></tr></thead><tbody><tr><td>Reads every company's site and recent posts</td><td>Decide the segments and the fit rules</td></tr><tr><td>Sorts each person into one segment</td><td>Check the first 25 rows before trusting the rest</td></tr><tr><td>Drafts one invite per segment</td><td>Approve every invite before it goes out</td></tr></tbody></table></div></div><footer class="pf"><span>© 2026 Tantra</span><a href="https://usetantra.com" target="_blank" rel="noopener">usetantra.com</a></footer></section><script src="../assets/res.js"></script></body></html>

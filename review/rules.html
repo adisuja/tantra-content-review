@@ -1,0 +1,207 @@
+<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>rules</title><style>@font-face{font-family:'Clash Display';src:url('fonts/clash-600.woff2') format('woff2');font-weight:600}
+@font-face{font-family:Inter;src:url('fonts/inter-var.woff2') format('woff2');font-weight:100 900}
+body{margin:0;background:#f7f8fb;color:#0b0d12;font:16px/1.6 Inter,system-ui}
+main{max-width:760px;margin:0 auto;padding:28px 20px 80px}
+h1,h2,h3{font-family:'Clash Display',Inter;letter-spacing:-.01em;line-height:1.15}
+h1{font-size:32px}h2{font-size:24px;margin-top:40px;color:#4b2fd6}h3{font-size:19px;margin-top:28px;padding-top:18px;border-top:1px solid #e2e8f0}
+code{font-size:.88em;background:#f1efff;padding:1px 5px;border-radius:4px;overflow-wrap:anywhere}
+a{color:#4b2fd6;overflow-wrap:anywhere}li{margin:4px 0}strong{font-weight:650}
+table{border-collapse:collapse;display:block;overflow-x:auto;font-size:14px}td,th{border:1px solid #e2e8f0;padding:6px 8px;vertical-align:top}</style><main><h1>Tantra content engine: central rules</h1>
+<p>These hold for every batch, every team member, every post. Owner: Adithya Murali (Adi).</p>
+<h2>0. The batch workflow, start to finish (Adi, 2026-11-10: central rule)</h2>
+<p>When Adi asks for a batch, run this. He does not explain it again, and I do not ask how it works.</p>
+<ol>
+<li><strong>Pitch the ideas.</strong> One table, one row per idea, twice as many ideas as posts to build. Above it: the breakdown between carousels and animated resource giveaway posts, per profile (the split Adi set for that batch; with none given, the last batch's split: 3 giveaway posts and 2 carousels per profile). Each row carries:</li>
+<li>the idea: what the post teaches, in one or two lines;</li>
+<li>the content piece it becomes: carousel or animated resource giveaway post;</li>
+<li>the hook: written after reading the matched sample, on that sample's own hook pattern, as the post's first one or two lines;</li>
+<li>the asset to be created: the carousel's pages, or for a giveaway the named resource, what is in it, the asset that advertises it, the keyword and the first comment;</li>
+<li>the matched sample: taxonomy id, creator and link, one sample per idea that this profile has not used (section 0a: other profiles may have used it).</li>
+<li><strong>Adi picks.</strong> Stop there. Nothing is drafted or rendered until he names the ideas. Build exactly those.</li>
+<li><strong>Build the picks complete.</strong> Copy, finished media, and for every giveaway the built resource on its hosted link with the LinkedIn message, connection request and email. No outline, no "shall I build the media?".</li>
+<li><strong>Deliver in the Content Studio</strong> (section 7) with a verified, cache-busted review link.</li>
+<li><strong>Adi reviews and approves in the studio.</strong> Fix what he flags, redeploy, send the new link.</li>
+<li><strong>Publishing is later, in Buffer.</strong> Approved posts go out from Buffer. I never post or schedule in a live account.</li>
+</ol>
+<p>Two more owner directions (Adi, 2026-11-10), standing for every batch:</p>
+<ul>
+<li><strong>Commit and push to main.</strong> Every change goes straight to the <code>main</code> branch of adisuja/tantra-content, so the repo is always current. Never leave work on a side branch. Adi's words: "Shouldn't you be committing and pushing into the main folder so that I don't have to bother about it again and everything is constantly updated on the main repo itself?"</li>
+<li>
+<p><strong>Every profile reaches the count Adi set.</strong> When Adi sets a number per profile (for example "three animated resource giveaway posts" each), every profile is built to that number. If his picks leave a profile short, fill the gap from the pitched ideas, ranked by simplicity and fit, build them, and say which were filled and why. Never stop a batch to ask for more picks. Carousels or other formats he says will come later are still pitched as ideas in the same pass. Adi's words: "The goal was to create a minimum of three resource giveaway posts and even come up with carousel ideas for some of the others."</p>
+</li>
+<li>
+<p><strong>Review means a live link (Adi, 2026-11-11: central rule).</strong> Anything Adi is asked to review (ideas, picks, posts, resources, rules) is given as a live, clickable link on a free host that opens in a browser, never as a file name or a path in the repo. Adi works in Claude Code in the cloud and cannot open repo files. Review pages live at https://adisuja.github.io/tantra-content-review/review/ (built by <code>publish.py</code>, deployed with the studio); each link in a message is the full cache-busted URL. Adi's words: "Always remember that whenever you want me to review something, you need to give a live hosted link on a free server online that I can click open in a browser and then review. If you just mention file names, I won't be able to open it no matter what."</p>
+</li>
+</ul>
+<p>Two rules that hold through every step:</p>
+<ul>
+<li><strong>A sample's colours are part of the sample (Adi, 2026-11-10: central rule).</strong> "Replicate a sample" or "focus on a sample" means its colours too, in every format: carousel, single image, animated asset. The samples are picked because they perform, and their colours are part of why. Build each asset in its sample's background, text, accent and highlight colours, as close as possible. Our logo and avatar may be added on top. The sample's colours win over <code>content/brand/systems.json</code> and the brand palette, which are the fallback only for a post with no sample. Fonts and logo stay ours. Applies from batch 4 on; batch 3 stays as built.</li>
+<li><strong>Vary the last line of a giveaway post (Adi, 2026-11-10: central rule).</strong> The asset already shows what to comment, so the copy does not say it every time. A pointer such as "How to get it is on the image 👇" appears in at most one giveaway post in three per profile, never in two posts in a row. Every other giveaway post closes on its matched sample's own closing line, adapted to our offer. Lines from the samples to model on:</li>
+<li>"PS. Don't DM me asking for it. Everything is in the card 👇"</li>
+<li>"Happy to share the complete guide for FREE. 👇"</li>
+<li>"Get it here." then "👇🏾👇🏾" on its own line</li>
+<li>"We built the complete system for sales teams with 5+ SDRs and I'm sharing it all for free."
+  No two giveaway posts on one profile in a batch end on the same line. The keyword still never appears in the copy. Applies from batch 4 on.</li>
+</ul>
+<h2>0a. Uniqueness is per team member (Adi, 2026-11-10: CARDINAL RULE)</h2>
+<p>Adi's words: "Creating unique pieces is important, but that is only for ideas. Content ideas, angles, and formats may be replicated and reused across profiles. It's just that it shouldn't be safe [same] for one single team member. For one single team member, the same ideas, angles, and formats shouldn't be reused over and over again. That is the criteria, but for different team members, it is okay to reuse formats and animated samples, etc."</p>
+<ul>
+<li><strong>Within one profile: never repeat.</strong> A profile (a team member, Adi, or the company page) never reuses an idea, an angle, a hook, a format variation (the sample's template) or a taxonomy sample it has already used (the giveaway asset itself MAY repeat from a new angle: section 0b), in any batch, while options it has not used remain. That profile's own past posts count as used for it, including its own posts in the creator taxonomy (<code>content/queue/posts.json</code> <code>profiles[].taxonomy_creator</code>, for example Bharath Krishna Pai = BK).</li>
+<li><strong>Across profiles: reuse is allowed.</strong> Different profiles may share the same idea, angle, resource, format and animated sample. A team member may run an idea Adi or the company page already ran, and two team members may share one.</li>
+<li><strong>Inside one batch,</strong> the posts of one profile each use a different sample, idea and angle.</li>
+<li>Checked by <code>python3 kits/content/taxonomy.py unused --profile &lt;id&gt;</code> and <code>merge_batch.py</code> (per profile), and by the per-profile list in <code>content/corpus/registry.md</code>. Where any older line in this repo says "no sample reused across every batch" or "no duplicate angles" globally, this rule replaces it: those checks are per profile.</li>
+</ul>
+<h2>0b. Giveaway assets: simple names, reused from many angles (Adi, 2026-11-10: central rule)</h2>
+<p>Adi's words: "If you take a look at all of the samples and the assets that we offer in those samples, all of them are common. The assets may be the same, so we can absolutely offer the same assets over and over again. It just needs to be presented from different angles. You don't need to come up with new assets for each and every single post that we create. You can reuse the same assets that we've come up with in the past, but just present them from different angles, with different hooks and different formats, so that we can promote the same assets over and over again." And: "Just saying that it's a [Claude] system, or just saying that it's an AI [SDR] or an omni-channel outreach system, is far more valuable to users because it's easier for them to understand what it is. Just saying that it's a content OS that we can share is a far easier way for them to understand that ... rather than saying the million-dollar hook checklist." On batch 4's first pitch: "Most of the ideas ... are very nuanced and very in-depth, and not really understandable for most team members."</p>
+<ul>
+<li><strong>Plain names.</strong> A giveaway asset is named as a system a busy buyer recognises at a glance: an AI SDR, an omni-channel outreach system, a Content OS, a Claude prompt pack, a webinar funnel system, a sales call system. No niche or clever names, no method jargon in the name.</li>
+<li><strong>Simple ideas.</strong> Every idea must be understood by any team member on first read. The mechanics go inside the resource, not in the headline or the hook.</li>
+<li><strong>Reuse the assets.</strong> Pick the asset from <code>content/corpus/giveaway-assets.md</code> before inventing one. The same asset may be offered again and again, on any profile and on the same profile, as long as each post presents it from a different angle, with a different hook and a different format or sample. Add a new asset to the library only when no listed one fits, and keep it plain.</li>
+</ul>
+<h2>1. Batches (Adi, 2026-10-22: central rule)</h2>
+<ul>
+<li>"Create a batch for <team member>" means <strong>exactly 5 LinkedIn posts signed by that person: 3 document carousels (60%) and 2 single-image posts (40%)</strong>.</li>
+<li>Each post of one profile in a batch uses a different taxonomy sample and a different design system (<code>content/brand/systems.json</code>). Across profiles, samples may repeat (section 0a).</li>
+<li>Order of work, never skipped: context bucket → <strong>10 ideas with summaries (6 carousel, 4 image), each matched to a taxonomy row</strong> → Adi approves 5 (3 + 2) → draft → design → verify → Adi approves → deliver → X repurpose → Adi approves the X version.</li>
+<li>Nothing is drafted or rendered before Adi approves the ideas. The full workflow and what each idea row carries are in section 0; where this section and section 0 differ, section 0 wins.</li>
+<li><strong>Teach the system, never the features (Adi, 2026-10-22: central rule).</strong> Every post on every profile, including the Tantra company page, teaches the funnel and RevOps system and promotes the RevOps workshop series and the content inside it: strategy walkthroughs, tech setups, AI orchestration (agents, Claude Code, prompt packs, spec files), funnel math, nurture and conversion mechanics. Never a post about Tantra's software features unless Adi asks for one. Ideas come from the workshop curriculum, not from usetantra.com; a product fact may appear only as one supporting line inside a system lesson.</li>
+</ul>
+<h2>2. Claims</h2>
+<ul>
+<li>Every number, name, date and quote resolves to a row in <code>content/corpus/facts.md</code>. No row, no claim.</li>
+<li>Hero numbers on a cover are measured or customer-verified. Own-marketing numbers need Adi's OK per post.</li>
+<li>Client names: Growth Idea (Shweta) and FintechCircle (Susanne) are cleared. Motoz is never named. Any other client needs written clearance.</li>
+<li><strong>Name once, then teach (Adi, 2026-10-22).</strong> Across a whole post (caption, first comment, every slide or image together), the client's company name, the client contact's name and the brand name "Tantra" each appear <strong>at most once</strong>. Everywhere else say "the client", "a B2B training company", "our platform", and spend the words on the strategy: what each step teaches the reader, not a tour of the client's funnel. No client logos, no screenshots of their pages or sequences, nothing that reads as revealing their playbook.</li>
+<li>Keep qualifiers: "pipeline modelled" stays attached to modelled pipeline. Never claim a count of booked calls for Tantra itself.</li>
+<li>Never paint internal IDs or citations on an image.</li>
+</ul>
+<h2>3. Voice (calibrated on Adi's 5 real posts, <code>content/corpus/voice-samples.md</code>)</h2>
+<p>Signature moves. A post must hit at least 3 of 4 (Adi's posts average 3.8):
+1. <strong>Story with a time anchor</strong> in the first line ("Eight years ago", "Around the start of 2024", "I disappeared from LinkedIn for 2 years").
+2. <strong>Candour against himself</strong> (a comical split, "I'm timid", a month of doubt), never blame on others.
+3. <strong>Named specifics</strong>: real tools (Twilio, Unipile, make.com, Freshworks), real counts and durations (72 hours, 3 weeks, 3X).
+4. <strong>Lessons, then a short close</strong>: a numbered or ticked lesson list ending in a one-line imperative or a question to the reader.</p>
+<p>Also: Brian Dean style from <code>~/tantra-redesign/workshop-plan/COPY_RULES.md</code> (I and you, a specific pain in the first two lines, one idea per paragraph, title-case headlines). One aphorism per post, taken from a BL row, on personal profiles. Exemption (2026-10-22, with reason): the Tantra company page speaks as "we", and BL rows are Adi's own lines in his own voice, so company posts carry no BL aphorism rather than borrowing his. No em or en dashes anywhere, text or image. No emoji in copy (Adi's older posts used them; the brand voice now does not). Banned: leverage, unlock, end to end, patchwork, engineered system, operated by an agent, game-changer, revolutionary, skyrocket, effortless, guaranteed results, "webinar" as the name of our product, "free" or "paid" as funnel names, "nothing to buy", unsourced stats.</p>
+<h2>4. CTA and dates</h2>
+<ul>
+<li>CTA page until the usetantra.com address exists: https://adisuja.github.io/tantra-workshop-live/site/masterclass/ with UTM <code>utm_source=linkedin&amp;utm_medium=social&amp;utm_campaign=content-b&lt;N&gt;&amp;utm_content=&lt;pillar&gt;-&lt;format&gt;-b&lt;N&gt;&lt;ID&gt;</code> (<code>utm_source=x</code> on X).</li>
+<li>Cohort dates come from <code>~/tantra-redesign/app/src/lib/cohort.ts</code> (in the workshop project; the rule is copied into facts.md CO-04) (Wed to Fri, 11:00 AM ET, weekly) at publish time. A CTA naming a date on or before the publish date is a blocker.</li>
+</ul>
+<h2>5. LinkedIn posting rules (research 2026-10-22; sources in <code>content/corpus/research/2026-10-22-platform-rules.md</code>)</h2>
+<table>
+<thead>
+<tr>
+<th>Rule</th>
+<th>Why</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Carousel = PDF, 8 to 12 pages, 1080×1350 (4:5), every page the same size (<code>gates.py</code> checks the count)</td>
+<td>Official limits 100 MB / 300 pages; documents lead single images in Buffer (2M posts, 2025) and Socialinsider (1.3M posts)</td>
+</tr>
+<tr>
+<td>Hook inside the first 140 characters</td>
+<td>The mobile "see more" fold sits around 140 (desktop about 210)</td>
+</tr>
+<tr>
+<td>No "Comment KEYWORD to get it" line in the post copy or the first comment. The keyword is shown only as a tile at the bottom of the media asset (Adi, 2026-11-10)</td>
+<td>LinkedIn restricts the reach of posts whose text asks for a keyword comment</td>
+</tr>
+<tr>
+<td>Every giveaway post ships with the built resource on its free hosted link, a LinkedIn message, a connection request (under 300 characters) and an email, all shown under the phone preview in the studio (Adi, 2026-11-10)</td>
+<td>The resource and the messages that deliver it are part of the content piece, and need the same review</td>
+</tr>
+<tr>
+<td>A resource carries the Tantra logo in the header and "© 2026 Tantra" plus usetantra.com in the footer, nothing else: no "Free resource" label, no author name, no promo line (Adi, 2026-11-10)</td>
+<td>Labels and bylines make it read as a handout; it has to read as a premium document</td>
+</tr>
+<tr>
+<td>No URL in the post body; the link goes in the first comment</td>
+<td>Evidence is contested (Buffer 2025 vs Metricool), so take the low-cost hedge</td>
+</tr>
+<tr>
+<td>0 to 3 hashtags</td>
+<td>Large 2026 samples show no lift or a drop past 3</td>
+</tr>
+<tr>
+<td>Tue to Thu, 8 to 10 AM ET (UK afternoon, India evening); at most 1 post a day, 2 to 5 a week</td>
+<td>Sprout 2026 (2B engagements) favours midweek; LinkedIn's VP of product says 2 to 5 a week</td>
+</tr>
+<tr>
+<td>Reply to every comment in the first hour; no pods, no automated comments</td>
+<td>LinkedIn limits visibility of automated comments and is acting on pods (2025 to 2026)</td>
+</tr>
+<tr>
+<td>Fix typos only after posting; never add a link or rewrite after 30 minutes</td>
+<td>Edits after publishing are the weakest-evidence risk, so avoid them</td>
+</tr>
+<tr>
+<td>Tag 1 to 3 people, only those who will reply</td>
+<td>van der Blom: no penalty under 4, risk above 8</td>
+</tr>
+<tr>
+<td>Stay on 2 or 3 topics that match the author's headline</td>
+<td>LinkedIn's 2026 feed ranks on profile and interaction history</td>
+</tr>
+</tbody>
+</table>
+<h2>6. X rules (Adi's account is FREE, not Premium)</h2>
+<table>
+<thead>
+<tr>
+<th>Rule</th>
+<th>Why</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Every post ≤ 280 weighted characters: a URL counts 23, an emoji or CJK character counts 2</td>
+<td>twitter-text v3 config</td>
+</tr>
+<tr>
+<td>Never put a link in the main post; post it as a self-reply, or leave it out</td>
+<td>Buffer (18.8M posts, 2025): free-account link posts sit at a 0% median engagement rate</td>
+</tr>
+<tr>
+<td>Lead with single text-first posts; use a thread only for a carousel's argument (one post per beat, not per slide)</td>
+<td>No free-account data favours threads</td>
+</tr>
+<tr>
+<td>Images re-rendered at 1200×675 (16:9) or 1080×1080, under 5 MB, key text in the centre band, up to 4 per post, alt text on every image</td>
+<td>Help Center limits; the timeline crops</td>
+</tr>
+<tr>
+<td>0 hashtags (1 at most)</td>
+<td>X's own guidance is 2 at most; Musk asked users to stop using them</td>
+</tr>
+<tr>
+<td>Post Tue to Thu, 9 to 11 AM ET, 1 to 2 days after the LinkedIn post</td>
+<td>Buffer (8.7M posts) peaks Tue and Wed mornings</td>
+</tr>
+<tr>
+<td>Do not lean on replies to big accounts for growth</td>
+<td>Premium replies rank above free ones</td>
+</tr>
+<tr>
+<td>Same claims, voice and dates gates as LinkedIn; nothing new is asserted on X</td>
+<td>The X post is a translation, not a new argument</td>
+</tr>
+</tbody>
+</table>
+<p>Re-check both platforms' limits before every run; they change quietly.</p>
+<h2>7. The Content Studio shows every batch (Adi, 2026-11-10: central rule)</h2>
+<ul>
+<li><strong>Every batch is displayed in the Content Studio. No exceptions.</strong> A batch is not drafted, not ready for review and not done until every post in it is live in the studio and Adi has a verified, cache-busted review link. A file, a table or copy pasted in chat does not count.</li>
+<li><strong>One structure, taken from the reference studio</strong> (https://adisuja.github.io/bighammer-content-studio/). Every UX element in it is kept, every time:</li>
+<li>top bar with the shared-sheet badge, Copy my share link, the shared-review banner and the 1, 2 or 3 phones per row control;</li>
+<li>left navigation: platform, then batch, then profile or company page;</li>
+<li>batch header with post count, dates and platform, and the filters (All, Awaiting, Feedback open, Approved, Mine to do);</li>
+<li>one phone preview per post in the platform's own look (LinkedIn feed card, X post or thread): carousel swipe and dots, image lightbox, poll, "…more", first comment under the post;</li>
+<li>under each phone: date and time, format badge, Details (idea, pillar, sample with thumbnail, copy template, repurposed from, first comment, sources, numbers to sign off, flags), downloads (PDF, PNG, every PNG of a set), Copy post copy, Copy first comment, the two approval buttons and the feedback thread.</li>
+<li><strong>It holds for each batch, each person and company page, and each platform.</strong> LinkedIn and X each get their own platform entry; every profile in a batch gets its own section, even when its posts are still in production.</li>
+<li><strong>Every format is shown in its real form</strong>: carousel as swipeable pages, single image, animated asset, poll, text post, X thread. A post whose visual is not built yet still shows its full copy and first comment, with "Media in production" where the visual goes.</li>
+<li><strong>Media is built with the copy (Adi, 2026-11-10).</strong> A batch goes to review only when every post has its finished asset. No copy plus outline, no "shall I build the media?". Each asset replicates what its matched sample shows; where the sample shows its creator, the asset carries AI avatar images of the publisher (Kie.ai) in the same place. Personal posts carry no logo.</li>
+<li>Build path, never by hand: records in <code>outputs/content/batch-&lt;N&gt;/posts/</code>, then <code>kits/content/merge_batch.py</code>, <code>publish.py</code>, <code>deploy.mjs</code>. The template is <code>kits/content/studio/</code>; change it there, never in <code>content/studio/</code>.</li>
+<li>Before handing over: open the live link, click through every batch, profile, filter and button, and check each state.</li>
+</ul></main>
