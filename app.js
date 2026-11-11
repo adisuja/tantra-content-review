@@ -184,9 +184,9 @@
     const files = (r.files || []).map((f) => `<a class="btn ghost" href="${esc(f.href)}" target="_blank" rel="noopener">Download ${esc(f.label)}</a>`).join("");
     const box = (k, title, note) => `<div class="msg"><div class="msgh"><b>${title}</b><button class="btn ghost" data-copym="${k}">Copy</button></div><pre data-msg="${k}">${esc(dmText(p, k))}</pre>${note ? `<div class="dlm">${note}</div>` : ""}</div>`;
     return `<section class="dl res"><div class="resh"><b>Resource we send</b><span>${esc(r.name || "")}${r.pages ? ` · ${r.pages} page${r.pages === 1 ? "" : "s"}` : ""}</span></div>
-      <div class="resw"><iframe class="resf" src="${esc(r.url)}" title="${esc(r.name || "Resource")}" loading="lazy"></iframe></div>
-      <div class="dlm">Scroll inside the preview. This is the live page your commenters open.</div>
-      <div class="dlrow"><a class="btn dlb" href="${esc(r.url)}" target="_blank" rel="noopener">Open the resource</a><button class="btn ghost" data-copym="url">Copy link</button>${files}</div></section>
+      <div class="resw"><iframe class="resf" src="${esc(r.preview || r.url)}" title="${esc(r.name || "Resource")}" loading="lazy"></iframe></div>
+      <div class="dlm">Scroll inside the preview. This is the page your commenters open${r.preview ? `, at ${esc(r.url)}` : ""}.</div>
+      <div class="dlrow"><a class="btn dlb" href="${esc(r.preview || r.url)}" target="_blank" rel="noopener">Open the resource</a><button class="btn ghost" data-copym="url">Copy link</button>${files}</div></section>
     ${d ? `<section class="dl res"><div class="resh"><b>Messages that deliver it</b><span>Sent from Adi's profile to everyone who comments ${esc(r.keyword || "")}</span></div>
       <label class="plink"><span>Live post link (goes into the email)</span><input data-plink placeholder="Paste the LinkedIn post link once it is live" value="${esc(localStorage.getItem(PLKEY(p)) || "")}"></label>
       ${box("message", "1. LinkedIn message", "For people already connected.")}
@@ -240,7 +240,7 @@
       ${profs.map((pr, i, all) => {
         const posts = postsOf(bid, pr.id);
         return `<section class="profile" id="b${esc(bid)}-profile-${esc(pr.id)}">
-        <div class="phead">${pr.avatar_ok ? `<img class="${pr.kind === "company" ? "sq" : ""}" src="${esc(pr.avatar)}" alt="">` : ""}<div><h2>${esc(pr.name)}</h2><p>${esc(pr.headline || "")} · ${posts.length} posts · ${esc(`${pr.time || ""} ${tzLabel(pr)}`.trim())}</p></div><span class="order">${i + 1} of ${all.length}</span></div>
+        <div class="phead">${pr.avatar_ok ? `<img class="${pr.kind === "company" ? "sq" : ""}" src="${esc(pr.avatar)}" alt="">` : ""}<div class="pwho"><h2>${esc(pr.name)}</h2><p class="phl" title="${esc(pr.headline || "")}">${esc(pr.headline || "")}</p><p class="pmeta">${posts.length} posts · ${esc(`${pr.time || ""} ${tzLabel(pr)}`.trim())}</p></div><span class="order">${i + 1} of ${all.length}</span></div>
         <div class="pgrid">${posts.length ? posts.map(card).join("") : `<div class="pnote">Posts for this profile are in production.</div>`}</div>
       </section>`; }).join("") || `<div class="pnote">No posts in this batch yet.</div>`}
     </section>`; }).join("");

@@ -72,7 +72,7 @@ window.STUDIO = {
    "time": "08:30",
    "linkedin": "https://www.linkedin.com/in/adisuja/",
    "avatar_ok": true,
-   "avatar": "media/avatars/adi.jpg?v=20261111043728"
+   "avatar": "media/avatars/adi.jpg?v=20261111062224"
   },
   {
    "id": "tantra",
@@ -84,19 +84,19 @@ window.STUDIO = {
    "tz_label": "ET",
    "time": "10:30",
    "avatar_ok": true,
-   "avatar": "media/avatars/tantra.jpg?v=20261111043728"
+   "avatar": "media/avatars/tantra.jpg?v=20261111062224"
   },
   {
    "id": "nelbin",
    "name": "Nelbin Joseph",
    "kind": "person",
-   "headline": "Operations, Tantra",
+   "headline": "Head of Operations, Tantra | I give every stage of a B2B funnel an owner, a checklist and a weekly number",
    "network": "linkedin",
    "tz": "America/New_York",
    "tz_label": "ET",
    "time": "08:30",
    "linkedin": "https://www.linkedin.com/in/nelbin-xav/",
-   "_todo": "headline is the 2026-09-27 roster role, not the LinkedIn headline; photo or consented AI avatar still needed",
+   "_todo": "headline from the LinkedIn profile branding copy (context/sources/enterprise-webinar/digest-E section 7, D/29 copy.json); photo.jpg still to be added from the person's LinkedIn profile",
    "taxonomy_creator": "NJ",
    "avatar_ok": false
   },
@@ -104,13 +104,13 @@ window.STUDIO = {
    "id": "bharath",
    "name": "Bharath Krishna Pai",
    "kind": "person",
-   "headline": "CTO, Tantra",
+   "headline": "CTO, Tantra | I connect the stack behind B2B funnels so no lead gets lost between tools, and build the AI agents that run the follow-up",
    "network": "linkedin",
    "tz": "America/New_York",
    "tz_label": "ET",
    "time": "08:30",
    "linkedin": "https://www.linkedin.com/in/bkp31415/",
-   "_todo": "headline is the 2026-09-27 roster role, not the LinkedIn headline; photo or consented AI avatar still needed",
+   "_todo": "headline from the LinkedIn profile branding copy (context/sources/enterprise-webinar/digest-E section 7, D/29 copy.json); photo.jpg still to be added from the person's LinkedIn profile",
    "taxonomy_creator": "BK",
    "avatar_ok": false
   },
@@ -118,13 +118,13 @@ window.STUDIO = {
    "id": "bhaskar",
    "name": "Bhaskar D.",
    "kind": "person",
-   "headline": "CMO, Tantra",
+   "headline": "CMO, Tantra | Webinar funnels and outreach that book sales calls, not vanity leads",
    "network": "linkedin",
    "tz": "America/New_York",
    "tz_label": "ET",
    "time": "08:30",
    "linkedin": "https://www.linkedin.com/in/bhaskar-dev/",
-   "_todo": "headline is the 2026-09-27 roster role, not the LinkedIn headline; photo or consented AI avatar still needed",
+   "_todo": "headline from the LinkedIn profile branding copy (context/sources/enterprise-webinar/digest-E section 7, D/29 copy.json); photo.jpg still to be added from the person's LinkedIn profile",
    "taxonomy_creator": "BD",
    "avatar_ok": false
   },
@@ -132,26 +132,26 @@ window.STUDIO = {
    "id": "aquila",
    "name": "Aquila Eldho",
    "kind": "person",
-   "headline": "Automation and Delivery, Tantra",
+   "headline": "Automation Lead, Tantra | I automate the reminders, follow-ups and handoffs B2B teams still do by hand",
    "network": "linkedin",
    "tz": "America/New_York",
    "tz_label": "ET",
    "time": "08:30",
    "linkedin": "https://www.linkedin.com/in/aquilaeldho/",
-   "_todo": "headline is the 2026-09-27 roster role, not the LinkedIn headline; photo or consented AI avatar still needed",
+   "_todo": "headline from the LinkedIn profile branding copy (context/sources/enterprise-webinar/digest-E section 7, D/29 copy.json); photo.jpg still to be added from the person's LinkedIn profile",
    "avatar_ok": false
   },
   {
    "id": "ben",
    "name": "Ben Basil Tomy",
    "kind": "person",
-   "headline": "Developer, Tantra",
+   "headline": "Development Lead, Tantra | I build the pages, forms and tracking behind B2B webinar funnels, then test what stays",
    "network": "linkedin",
    "tz": "America/New_York",
    "tz_label": "ET",
    "time": "08:30",
    "linkedin": "https://www.linkedin.com/in/ben-basil-tomy-5533b9218/",
-   "_todo": "headline is the 2026-09-27 roster role, not the LinkedIn headline; photo or consented AI avatar still needed",
+   "_todo": "headline from the LinkedIn profile branding copy (context/sources/enterprise-webinar/digest-E section 7, D/29 copy.json); photo.jpg still to be added from the person's LinkedIn profile",
    "avatar_ok": false
   }
  ],
@@ -182,10 +182,10 @@ window.STUDIO = {
     "title": "Adithya Murali walking alone down an empty street, black and white",
     "tall": false,
     "files": [
-     "media/batch-1/A1/image.jpg?v=20261111043728"
+     "media/batch-1/A1/image.jpg?v=20261111062224"
     ],
     "download": {
-     "href": "media/batch-1/A1/tantra-b1-A1-2026-10-26-adi.png?v=20261111043728",
+     "href": "media/batch-1/A1/tantra-b1-A1-2026-10-26-adi.png?v=20261111062224",
      "name": "tantra-b1-A1-2026-10-26-adi.png",
      "ext": "png",
      "bytes": 934557,
@@ -232,19 +232,19 @@ window.STUDIO = {
     "src": "batch-1/A2",
     "title": "The 8 decisions every page, email and invite depends on",
     "files": [
-     "media/batch-1/A2/p01.jpg?v=20261111043728",
-     "media/batch-1/A2/p02.jpg?v=20261111043728",
-     "media/batch-1/A2/p03.jpg?v=20261111043728",
-     "media/batch-1/A2/p04.jpg?v=20261111043728",
-     "media/batch-1/A2/p05.jpg?v=20261111043728",
-     "media/batch-1/A2/p06.jpg?v=20261111043728",
-     "media/batch-1/A2/p07.jpg?v=20261111043728",
-     "media/batch-1/A2/p08.jpg?v=20261111043728",
-     "media/batch-1/A2/p09.jpg?v=20261111043728",
-     "media/batch-1/A2/p10.jpg?v=20261111043728"
+     "media/batch-1/A2/p01.jpg?v=20261111062224",
+     "media/batch-1/A2/p02.jpg?v=20261111062224",
+     "media/batch-1/A2/p03.jpg?v=20261111062224",
+     "media/batch-1/A2/p04.jpg?v=20261111062224",
+     "media/batch-1/A2/p05.jpg?v=20261111062224",
+     "media/batch-1/A2/p06.jpg?v=20261111062224",
+     "media/batch-1/A2/p07.jpg?v=20261111062224",
+     "media/batch-1/A2/p08.jpg?v=20261111062224",
+     "media/batch-1/A2/p09.jpg?v=20261111062224",
+     "media/batch-1/A2/p10.jpg?v=20261111062224"
     ],
     "download": {
-     "href": "media/batch-1/A2/tantra-b1-A2-2026-10-27-adi.pdf?v=20261111043728",
+     "href": "media/batch-1/A2/tantra-b1-A2-2026-10-27-adi.pdf?v=20261111062224",
      "name": "tantra-b1-A2-2026-10-27-adi.pdf",
      "ext": "pdf",
      "bytes": 1839450,
@@ -290,19 +290,19 @@ window.STUDIO = {
     "src": "batch-1/A3",
     "title": "LinkedIn capped us at 100 invites a week",
     "files": [
-     "media/batch-1/A3/p01.jpg?v=20261111043728",
-     "media/batch-1/A3/p02.jpg?v=20261111043728",
-     "media/batch-1/A3/p03.jpg?v=20261111043728",
-     "media/batch-1/A3/p04.jpg?v=20261111043728",
-     "media/batch-1/A3/p05.jpg?v=20261111043728",
-     "media/batch-1/A3/p06.jpg?v=20261111043728",
-     "media/batch-1/A3/p07.jpg?v=20261111043728",
-     "media/batch-1/A3/p08.jpg?v=20261111043728",
-     "media/batch-1/A3/p09.jpg?v=20261111043728",
-     "media/batch-1/A3/p10.jpg?v=20261111043728"
+     "media/batch-1/A3/p01.jpg?v=20261111062224",
+     "media/batch-1/A3/p02.jpg?v=20261111062224",
+     "media/batch-1/A3/p03.jpg?v=20261111062224",
+     "media/batch-1/A3/p04.jpg?v=20261111062224",
+     "media/batch-1/A3/p05.jpg?v=20261111062224",
+     "media/batch-1/A3/p06.jpg?v=20261111062224",
+     "media/batch-1/A3/p07.jpg?v=20261111062224",
+     "media/batch-1/A3/p08.jpg?v=20261111062224",
+     "media/batch-1/A3/p09.jpg?v=20261111062224",
+     "media/batch-1/A3/p10.jpg?v=20261111062224"
     ],
     "download": {
-     "href": "media/batch-1/A3/tantra-b1-A3-2026-10-28-adi.pdf?v=20261111043728",
+     "href": "media/batch-1/A3/tantra-b1-A3-2026-10-28-adi.pdf?v=20261111062224",
      "name": "tantra-b1-A3-2026-10-28-adi.pdf",
      "ext": "pdf",
      "bytes": 10241254,
@@ -351,17 +351,17 @@ window.STUDIO = {
     "src": "batch-1/A4",
     "title": "One live session, 98,000 calendar invites",
     "files": [
-     "media/batch-1/A4/p01.jpg?v=20261111043728",
-     "media/batch-1/A4/p02.jpg?v=20261111043728",
-     "media/batch-1/A4/p03.jpg?v=20261111043728",
-     "media/batch-1/A4/p04.jpg?v=20261111043728",
-     "media/batch-1/A4/p05.jpg?v=20261111043728",
-     "media/batch-1/A4/p06.jpg?v=20261111043728",
-     "media/batch-1/A4/p07.jpg?v=20261111043728",
-     "media/batch-1/A4/p08.jpg?v=20261111043728"
+     "media/batch-1/A4/p01.jpg?v=20261111062224",
+     "media/batch-1/A4/p02.jpg?v=20261111062224",
+     "media/batch-1/A4/p03.jpg?v=20261111062224",
+     "media/batch-1/A4/p04.jpg?v=20261111062224",
+     "media/batch-1/A4/p05.jpg?v=20261111062224",
+     "media/batch-1/A4/p06.jpg?v=20261111062224",
+     "media/batch-1/A4/p07.jpg?v=20261111062224",
+     "media/batch-1/A4/p08.jpg?v=20261111062224"
     ],
     "download": {
-     "href": "media/batch-1/A4/tantra-b1-A4-2026-10-29-adi.pdf?v=20261111043728",
+     "href": "media/batch-1/A4/tantra-b1-A4-2026-10-29-adi.pdf?v=20261111062224",
      "name": "tantra-b1-A4-2026-10-29-adi.pdf",
      "ext": "pdf",
      "bytes": 4774619,
@@ -414,10 +414,10 @@ window.STUDIO = {
     "title": "Quote: 'Wow, I wouldn't have written them myself.'",
     "tall": false,
     "files": [
-     "media/batch-1/A5/image.jpg?v=20261111043728"
+     "media/batch-1/A5/image.jpg?v=20261111062224"
     ],
     "download": {
-     "href": "media/batch-1/A5/tantra-b1-A5-2026-10-30-adi.png?v=20261111043728",
+     "href": "media/batch-1/A5/tantra-b1-A5-2026-10-30-adi.png?v=20261111062224",
      "name": "tantra-b1-A5-2026-10-30-adi.png",
      "ext": "png",
      "bytes": 411865,
@@ -466,19 +466,19 @@ window.STUDIO = {
     "src": "batch-2/T1",
     "title": "Old way vs new way: the leak between marketing and sales",
     "files": [
-     "media/batch-2/T1/p01.jpg?v=20261111043728",
-     "media/batch-2/T1/p02.jpg?v=20261111043728",
-     "media/batch-2/T1/p03.jpg?v=20261111043728",
-     "media/batch-2/T1/p04.jpg?v=20261111043728",
-     "media/batch-2/T1/p05.jpg?v=20261111043728",
-     "media/batch-2/T1/p06.jpg?v=20261111043728",
-     "media/batch-2/T1/p07.jpg?v=20261111043728",
-     "media/batch-2/T1/p08.jpg?v=20261111043728",
-     "media/batch-2/T1/p09.jpg?v=20261111043728",
-     "media/batch-2/T1/p10.jpg?v=20261111043728"
+     "media/batch-2/T1/p01.jpg?v=20261111062224",
+     "media/batch-2/T1/p02.jpg?v=20261111062224",
+     "media/batch-2/T1/p03.jpg?v=20261111062224",
+     "media/batch-2/T1/p04.jpg?v=20261111062224",
+     "media/batch-2/T1/p05.jpg?v=20261111062224",
+     "media/batch-2/T1/p06.jpg?v=20261111062224",
+     "media/batch-2/T1/p07.jpg?v=20261111062224",
+     "media/batch-2/T1/p08.jpg?v=20261111062224",
+     "media/batch-2/T1/p09.jpg?v=20261111062224",
+     "media/batch-2/T1/p10.jpg?v=20261111062224"
     ],
     "download": {
-     "href": "media/batch-2/T1/tantra-b2-T1-2026-10-27-tantra.pdf?v=20261111043728",
+     "href": "media/batch-2/T1/tantra-b2-T1-2026-10-27-tantra.pdf?v=20261111062224",
      "name": "tantra-b2-T1-2026-10-27-tantra.pdf",
      "ext": "pdf",
      "bytes": 4429940,
@@ -529,10 +529,10 @@ window.STUDIO = {
     "title": "Six stages, four layers: the map of a revenue engine",
     "tall": false,
     "files": [
-     "media/batch-2/T10/image.jpg?v=20261111043728"
+     "media/batch-2/T10/image.jpg?v=20261111062224"
     ],
     "download": {
-     "href": "media/batch-2/T10/tantra-b2-T10-2026-10-26-tantra.png?v=20261111043728",
+     "href": "media/batch-2/T10/tantra-b2-T10-2026-10-26-tantra.png?v=20261111062224",
      "name": "tantra-b2-T10-2026-10-26-tantra.png",
      "ext": "png",
      "bytes": 384713,
@@ -581,17 +581,17 @@ window.STUDIO = {
     "src": "batch-2/T2",
     "title": "Webinar, challenge or reverse squeeze: pick by belief",
     "files": [
-     "media/batch-2/T2/p01.jpg?v=20261111043728",
-     "media/batch-2/T2/p02.jpg?v=20261111043728",
-     "media/batch-2/T2/p03.jpg?v=20261111043728",
-     "media/batch-2/T2/p04.jpg?v=20261111043728",
-     "media/batch-2/T2/p05.jpg?v=20261111043728",
-     "media/batch-2/T2/p06.jpg?v=20261111043728",
-     "media/batch-2/T2/p07.jpg?v=20261111043728",
-     "media/batch-2/T2/p08.jpg?v=20261111043728"
+     "media/batch-2/T2/p01.jpg?v=20261111062224",
+     "media/batch-2/T2/p02.jpg?v=20261111062224",
+     "media/batch-2/T2/p03.jpg?v=20261111062224",
+     "media/batch-2/T2/p04.jpg?v=20261111062224",
+     "media/batch-2/T2/p05.jpg?v=20261111062224",
+     "media/batch-2/T2/p06.jpg?v=20261111062224",
+     "media/batch-2/T2/p07.jpg?v=20261111062224",
+     "media/batch-2/T2/p08.jpg?v=20261111062224"
     ],
     "download": {
-     "href": "media/batch-2/T2/tantra-b2-T2-2026-10-29-tantra.pdf?v=20261111043728",
+     "href": "media/batch-2/T2/tantra-b2-T2-2026-10-29-tantra.pdf?v=20261111062224",
      "name": "tantra-b2-T2-2026-10-29-tantra.pdf",
      "ext": "pdf",
      "bytes": 6189087,
@@ -641,18 +641,18 @@ window.STUDIO = {
     "src": "batch-2/T3",
     "title": "13 messages: 6 get them in the room, 7 follow up",
     "files": [
-     "media/batch-2/T3/p01.jpg?v=20261111043728",
-     "media/batch-2/T3/p02.jpg?v=20261111043728",
-     "media/batch-2/T3/p03.jpg?v=20261111043728",
-     "media/batch-2/T3/p04.jpg?v=20261111043728",
-     "media/batch-2/T3/p05.jpg?v=20261111043728",
-     "media/batch-2/T3/p06.jpg?v=20261111043728",
-     "media/batch-2/T3/p07.jpg?v=20261111043728",
-     "media/batch-2/T3/p08.jpg?v=20261111043728",
-     "media/batch-2/T3/p09.jpg?v=20261111043728"
+     "media/batch-2/T3/p01.jpg?v=20261111062224",
+     "media/batch-2/T3/p02.jpg?v=20261111062224",
+     "media/batch-2/T3/p03.jpg?v=20261111062224",
+     "media/batch-2/T3/p04.jpg?v=20261111062224",
+     "media/batch-2/T3/p05.jpg?v=20261111062224",
+     "media/batch-2/T3/p06.jpg?v=20261111062224",
+     "media/batch-2/T3/p07.jpg?v=20261111062224",
+     "media/batch-2/T3/p08.jpg?v=20261111062224",
+     "media/batch-2/T3/p09.jpg?v=20261111062224"
     ],
     "download": {
-     "href": "media/batch-2/T3/tantra-b2-T3-2026-11-02-tantra.pdf?v=20261111043728",
+     "href": "media/batch-2/T3/tantra-b2-T3-2026-11-02-tantra.pdf?v=20261111062224",
      "name": "tantra-b2-T3-2026-11-02-tantra.pdf",
      "ext": "pdf",
      "bytes": 1719797,
@@ -702,17 +702,17 @@ window.STUDIO = {
     "src": "batch-2/T4",
     "title": "Stop, fix or scale: the weekly channel check",
     "files": [
-     "media/batch-2/T4/p01.jpg?v=20261111043728",
-     "media/batch-2/T4/p02.jpg?v=20261111043728",
-     "media/batch-2/T4/p03.jpg?v=20261111043728",
-     "media/batch-2/T4/p04.jpg?v=20261111043728",
-     "media/batch-2/T4/p05.jpg?v=20261111043728",
-     "media/batch-2/T4/p06.jpg?v=20261111043728",
-     "media/batch-2/T4/p07.jpg?v=20261111043728",
-     "media/batch-2/T4/p08.jpg?v=20261111043728"
+     "media/batch-2/T4/p01.jpg?v=20261111062224",
+     "media/batch-2/T4/p02.jpg?v=20261111062224",
+     "media/batch-2/T4/p03.jpg?v=20261111062224",
+     "media/batch-2/T4/p04.jpg?v=20261111062224",
+     "media/batch-2/T4/p05.jpg?v=20261111062224",
+     "media/batch-2/T4/p06.jpg?v=20261111062224",
+     "media/batch-2/T4/p07.jpg?v=20261111062224",
+     "media/batch-2/T4/p08.jpg?v=20261111062224"
     ],
     "download": {
-     "href": "media/batch-2/T4/tantra-b2-T4-2026-11-04-tantra.pdf?v=20261111043728",
+     "href": "media/batch-2/T4/tantra-b2-T4-2026-11-04-tantra.pdf?v=20261111062224",
      "name": "tantra-b2-T4-2026-11-04-tantra.pdf",
      "ext": "pdf",
      "bytes": 1205777,
@@ -762,17 +762,17 @@ window.STUDIO = {
     "src": "batch-2/T5",
     "title": "Find the one step that leaks your funnel",
     "files": [
-     "media/batch-2/T5/p01.jpg?v=20261111043728",
-     "media/batch-2/T5/p02.jpg?v=20261111043728",
-     "media/batch-2/T5/p03.jpg?v=20261111043728",
-     "media/batch-2/T5/p04.jpg?v=20261111043728",
-     "media/batch-2/T5/p05.jpg?v=20261111043728",
-     "media/batch-2/T5/p06.jpg?v=20261111043728",
-     "media/batch-2/T5/p07.jpg?v=20261111043728",
-     "media/batch-2/T5/p08.jpg?v=20261111043728"
+     "media/batch-2/T5/p01.jpg?v=20261111062224",
+     "media/batch-2/T5/p02.jpg?v=20261111062224",
+     "media/batch-2/T5/p03.jpg?v=20261111062224",
+     "media/batch-2/T5/p04.jpg?v=20261111062224",
+     "media/batch-2/T5/p05.jpg?v=20261111062224",
+     "media/batch-2/T5/p06.jpg?v=20261111062224",
+     "media/batch-2/T5/p07.jpg?v=20261111062224",
+     "media/batch-2/T5/p08.jpg?v=20261111062224"
     ],
     "download": {
-     "href": "media/batch-2/T5/tantra-b2-T5-2026-11-05-tantra.pdf?v=20261111043728",
+     "href": "media/batch-2/T5/tantra-b2-T5-2026-11-05-tantra.pdf?v=20261111062224",
      "name": "tantra-b2-T5-2026-11-05-tantra.pdf",
      "ext": "pdf",
      "bytes": 4172544,
@@ -823,18 +823,18 @@ window.STUDIO = {
     "src": "batch-2/T6",
     "title": "Six guardrails for an AI agent that runs your funnel",
     "files": [
-     "media/batch-2/T6/p01.jpg?v=20261111043728",
-     "media/batch-2/T6/p02.jpg?v=20261111043728",
-     "media/batch-2/T6/p03.jpg?v=20261111043728",
-     "media/batch-2/T6/p04.jpg?v=20261111043728",
-     "media/batch-2/T6/p05.jpg?v=20261111043728",
-     "media/batch-2/T6/p06.jpg?v=20261111043728",
-     "media/batch-2/T6/p07.jpg?v=20261111043728",
-     "media/batch-2/T6/p08.jpg?v=20261111043728",
-     "media/batch-2/T6/p09.jpg?v=20261111043728"
+     "media/batch-2/T6/p01.jpg?v=20261111062224",
+     "media/batch-2/T6/p02.jpg?v=20261111062224",
+     "media/batch-2/T6/p03.jpg?v=20261111062224",
+     "media/batch-2/T6/p04.jpg?v=20261111062224",
+     "media/batch-2/T6/p05.jpg?v=20261111062224",
+     "media/batch-2/T6/p06.jpg?v=20261111062224",
+     "media/batch-2/T6/p07.jpg?v=20261111062224",
+     "media/batch-2/T6/p08.jpg?v=20261111062224",
+     "media/batch-2/T6/p09.jpg?v=20261111062224"
     ],
     "download": {
-     "href": "media/batch-2/T6/tantra-b2-T6-2026-11-06-tantra.pdf?v=20261111043728",
+     "href": "media/batch-2/T6/tantra-b2-T6-2026-11-06-tantra.pdf?v=20261111062224",
      "name": "tantra-b2-T6-2026-11-06-tantra.pdf",
      "ext": "pdf",
      "bytes": 2101753,
@@ -885,10 +885,10 @@ window.STUDIO = {
     "title": "The offer sentence, slot by slot",
     "tall": false,
     "files": [
-     "media/batch-2/T7/image.jpg?v=20261111043728"
+     "media/batch-2/T7/image.jpg?v=20261111062224"
     ],
     "download": {
-     "href": "media/batch-2/T7/tantra-b2-T7-2026-10-28-tantra.png?v=20261111043728",
+     "href": "media/batch-2/T7/tantra-b2-T7-2026-10-28-tantra.png?v=20261111062224",
      "name": "tantra-b2-T7-2026-10-28-tantra.png",
      "ext": "png",
      "bytes": 390264,
@@ -939,10 +939,10 @@ window.STUDIO = {
     "title": "Size your list backwards from revenue",
     "tall": false,
     "files": [
-     "media/batch-2/T8/image.jpg?v=20261111043728"
+     "media/batch-2/T8/image.jpg?v=20261111062224"
     ],
     "download": {
-     "href": "media/batch-2/T8/tantra-b2-T8-2026-10-30-tantra.png?v=20261111043728",
+     "href": "media/batch-2/T8/tantra-b2-T8-2026-10-30-tantra.png?v=20261111062224",
      "name": "tantra-b2-T8-2026-10-30-tantra.png",
      "ext": "png",
      "bytes": 327529,
@@ -992,10 +992,10 @@ window.STUDIO = {
     "title": "Score every application before anyone gets on a call",
     "tall": false,
     "files": [
-     "media/batch-2/T9/image.jpg?v=20261111043728"
+     "media/batch-2/T9/image.jpg?v=20261111062224"
     ],
     "download": {
-     "href": "media/batch-2/T9/tantra-b2-T9-2026-11-03-tantra.png?v=20261111043728",
+     "href": "media/batch-2/T9/tantra-b2-T9-2026-11-03-tantra.png?v=20261111062224",
      "name": "tantra-b2-T9-2026-11-03-tantra.png",
      "ext": "png",
      "bytes": 1168748,
@@ -1045,19 +1045,19 @@ window.STUDIO = {
     "src": "batch-3/AC1",
     "title": "11 webinars in 9 slides",
     "files": [
-     "media/batch-3/AC1/p01.jpg?v=20261111043728",
-     "media/batch-3/AC1/p02.jpg?v=20261111043728",
-     "media/batch-3/AC1/p03.jpg?v=20261111043728",
-     "media/batch-3/AC1/p04.jpg?v=20261111043728",
-     "media/batch-3/AC1/p05.jpg?v=20261111043728",
-     "media/batch-3/AC1/p06.jpg?v=20261111043728",
-     "media/batch-3/AC1/p07.jpg?v=20261111043728",
-     "media/batch-3/AC1/p08.jpg?v=20261111043728",
-     "media/batch-3/AC1/p09.jpg?v=20261111043728",
-     "media/batch-3/AC1/p10.jpg?v=20261111043728"
+     "media/batch-3/AC1/p01.jpg?v=20261111062224",
+     "media/batch-3/AC1/p02.jpg?v=20261111062224",
+     "media/batch-3/AC1/p03.jpg?v=20261111062224",
+     "media/batch-3/AC1/p04.jpg?v=20261111062224",
+     "media/batch-3/AC1/p05.jpg?v=20261111062224",
+     "media/batch-3/AC1/p06.jpg?v=20261111062224",
+     "media/batch-3/AC1/p07.jpg?v=20261111062224",
+     "media/batch-3/AC1/p08.jpg?v=20261111062224",
+     "media/batch-3/AC1/p09.jpg?v=20261111062224",
+     "media/batch-3/AC1/p10.jpg?v=20261111062224"
     ],
     "download": {
-     "href": "media/batch-3/AC1/tantra-b3-AC1-2026-11-17-adi.pdf?v=20261111043728",
+     "href": "media/batch-3/AC1/tantra-b3-AC1-2026-11-17-adi.pdf?v=20261111062224",
      "name": "tantra-b3-AC1-2026-11-17-adi.pdf",
      "ext": "pdf",
      "bytes": 17345036,
@@ -1122,17 +1122,17 @@ window.STUDIO = {
     "src": "batch-3/AC3",
     "title": "The old way vs the new way of filling a pipeline",
     "files": [
-     "media/batch-3/AC3/p01.jpg?v=20261111043728",
-     "media/batch-3/AC3/p02.jpg?v=20261111043728",
-     "media/batch-3/AC3/p03.jpg?v=20261111043728",
-     "media/batch-3/AC3/p04.jpg?v=20261111043728",
-     "media/batch-3/AC3/p05.jpg?v=20261111043728",
-     "media/batch-3/AC3/p06.jpg?v=20261111043728",
-     "media/batch-3/AC3/p07.jpg?v=20261111043728",
-     "media/batch-3/AC3/p08.jpg?v=20261111043728"
+     "media/batch-3/AC3/p01.jpg?v=20261111062224",
+     "media/batch-3/AC3/p02.jpg?v=20261111062224",
+     "media/batch-3/AC3/p03.jpg?v=20261111062224",
+     "media/batch-3/AC3/p04.jpg?v=20261111062224",
+     "media/batch-3/AC3/p05.jpg?v=20261111062224",
+     "media/batch-3/AC3/p06.jpg?v=20261111062224",
+     "media/batch-3/AC3/p07.jpg?v=20261111062224",
+     "media/batch-3/AC3/p08.jpg?v=20261111062224"
     ],
     "download": {
-     "href": "media/batch-3/AC3/tantra-b3-AC3-2026-11-20-adi.pdf?v=20261111043728",
+     "href": "media/batch-3/AC3/tantra-b3-AC3-2026-11-20-adi.pdf?v=20261111062224",
      "name": "tantra-b3-AC3-2026-11-20-adi.pdf",
      "ext": "pdf",
      "bytes": 3040277,
@@ -1188,17 +1188,17 @@ window.STUDIO = {
     "src": "batch-3/AC4",
     "title": "3 jobs your sales call can't do",
     "files": [
-     "media/batch-3/AC4/p01.jpg?v=20261111043728",
-     "media/batch-3/AC4/p02.jpg?v=20261111043728",
-     "media/batch-3/AC4/p03.jpg?v=20261111043728",
-     "media/batch-3/AC4/p04.jpg?v=20261111043728",
-     "media/batch-3/AC4/p05.jpg?v=20261111043728",
-     "media/batch-3/AC4/p06.jpg?v=20261111043728",
-     "media/batch-3/AC4/p07.jpg?v=20261111043728",
-     "media/batch-3/AC4/p08.jpg?v=20261111043728"
+     "media/batch-3/AC4/p01.jpg?v=20261111062224",
+     "media/batch-3/AC4/p02.jpg?v=20261111062224",
+     "media/batch-3/AC4/p03.jpg?v=20261111062224",
+     "media/batch-3/AC4/p04.jpg?v=20261111062224",
+     "media/batch-3/AC4/p05.jpg?v=20261111062224",
+     "media/batch-3/AC4/p06.jpg?v=20261111062224",
+     "media/batch-3/AC4/p07.jpg?v=20261111062224",
+     "media/batch-3/AC4/p08.jpg?v=20261111062224"
     ],
     "download": {
-     "href": "media/batch-3/AC4/tantra-b3-AC4-2026-11-24-adi.pdf?v=20261111043728",
+     "href": "media/batch-3/AC4/tantra-b3-AC4-2026-11-24-adi.pdf?v=20261111062224",
      "name": "tantra-b3-AC4-2026-11-24-adi.pdf",
      "ext": "pdf",
      "bytes": 5097226,
@@ -1258,20 +1258,20 @@ window.STUDIO = {
     "src": "batch-3/AG1",
     "title": "The calendar invite blueprint",
     "files": [
-     "media/batch-3/AG1/poster.jpg?v=20261111043728"
+     "media/batch-3/AG1/poster.jpg?v=20261111062224"
     ],
-    "video": "media/batch-3/AG1/tantra-b3-AG1-2026-11-19-adi.mp4?v=20261111043728",
+    "video": "media/batch-3/AG1/tantra-b3-AG1-2026-11-19-adi.mp4?v=20261111062224",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-3/AG1/tantra-b3-AG1-2026-11-19-adi.mp4?v=20261111043728",
+      "href": "media/batch-3/AG1/tantra-b3-AG1-2026-11-19-adi.mp4?v=20261111062224",
       "name": "tantra-b3-AG1-2026-11-19-adi.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 678022
      },
      {
-      "href": "media/batch-3/AG1/tantra-b3-AG1-2026-11-19-adi.gif?v=20261111043728",
+      "href": "media/batch-3/AG1/tantra-b3-AG1-2026-11-19-adi.gif?v=20261111062224",
       "name": "tantra-b3-AG1-2026-11-19-adi.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -1310,9 +1310,10 @@ window.STUDIO = {
     "files": [
      {
       "label": "PDF",
-      "href": "https://adisuja.github.io/tantra-revops/calendar-invite-blueprint/calendar-invite-blueprint.pdf"
+      "href": "resources/calendar-invite-blueprint/calendar-invite-blueprint.pdf"
      }
-    ]
+    ],
+    "preview": "resources/calendar-invite-blueprint/"
    },
    "dm": {
     "message": "Hi {first_name}, thanks for commenting INVITE.\n\nHere's the Calendar Invite Blueprint:\nhttps://adisuja.github.io/tantra-revops/calendar-invite-blueprint/\n\nIt's 3 pages: the invite template, the 4 rules and the AI prompt that writes the invite for your event.\n\nStart with page 2 and check your current invite against the 4 rules before you rewrite anything.\n\nWhat are you inviting people to?",
@@ -1347,20 +1348,20 @@ window.STUDIO = {
     "src": "batch-3/AG2",
     "title": "Your funnel is one line of maths",
     "files": [
-     "media/batch-3/AG2/poster.jpg?v=20261111043728"
+     "media/batch-3/AG2/poster.jpg?v=20261111062224"
     ],
-    "video": "media/batch-3/AG2/tantra-b3-AG2-2026-11-16-adi.mp4?v=20261111043728",
+    "video": "media/batch-3/AG2/tantra-b3-AG2-2026-11-16-adi.mp4?v=20261111062224",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-3/AG2/tantra-b3-AG2-2026-11-16-adi.mp4?v=20261111043728",
+      "href": "media/batch-3/AG2/tantra-b3-AG2-2026-11-16-adi.mp4?v=20261111062224",
       "name": "tantra-b3-AG2-2026-11-16-adi.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 412017
      },
      {
-      "href": "media/batch-3/AG2/tantra-b3-AG2-2026-11-16-adi.gif?v=20261111043728",
+      "href": "media/batch-3/AG2/tantra-b3-AG2-2026-11-16-adi.gif?v=20261111062224",
       "name": "tantra-b3-AG2-2026-11-16-adi.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -1398,9 +1399,10 @@ window.STUDIO = {
     "files": [
      {
       "label": "PDF",
-      "href": "https://adisuja.github.io/tantra-revops/revenue-equation-sheet/revenue-equation-sheet.pdf"
+      "href": "resources/revenue-equation-sheet/revenue-equation-sheet.pdf"
      }
-    ]
+    ],
+    "preview": "resources/revenue-equation-sheet/"
    },
    "dm": {
     "message": "Hi {first_name}, thanks for commenting MATH.\n\nHere's the 4-Number Revenue Equation Sheet:\nhttps://adisuja.github.io/tantra-revops/revenue-equation-sheet/\n\nIt's one page: the equation, the six stage numbers and where to read each one. Type your numbers in and it does the maths.\n\nFill in last month's four numbers first. The weakest one is the only thing to work on this week.\n\nWhich of the four came out weakest?",
@@ -1435,20 +1437,20 @@ window.STUDIO = {
     "src": "batch-3/AG3",
     "title": "250+ real funnel elements, 7 prompts",
     "files": [
-     "media/batch-3/AG3/poster.jpg?v=20261111043728"
+     "media/batch-3/AG3/poster.jpg?v=20261111062224"
     ],
-    "video": "media/batch-3/AG3/tantra-b3-AG3-2026-11-18-adi.mp4?v=20261111043728",
+    "video": "media/batch-3/AG3/tantra-b3-AG3-2026-11-18-adi.mp4?v=20261111062224",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-3/AG3/tantra-b3-AG3-2026-11-18-adi.mp4?v=20261111043728",
+      "href": "media/batch-3/AG3/tantra-b3-AG3-2026-11-18-adi.mp4?v=20261111062224",
       "name": "tantra-b3-AG3-2026-11-18-adi.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 634601
      },
      {
-      "href": "media/batch-3/AG3/tantra-b3-AG3-2026-11-18-adi.gif?v=20261111043728",
+      "href": "media/batch-3/AG3/tantra-b3-AG3-2026-11-18-adi.gif?v=20261111062224",
       "name": "tantra-b3-AG3-2026-11-18-adi.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -1486,9 +1488,10 @@ window.STUDIO = {
     "files": [
      {
       "label": "PDF",
-      "href": "https://adisuja.github.io/tantra-revops/funnel-prompt-starter-pack/funnel-prompt-starter-pack.pdf"
+      "href": "resources/funnel-prompt-starter-pack/funnel-prompt-starter-pack.pdf"
      }
-    ]
+    ],
+    "preview": "resources/funnel-prompt-starter-pack/"
    },
    "dm": {
     "message": "Hi {first_name}, thanks for commenting PROMPTS.\n\nHere's the 6-Stage AI Funnel Prompt Starter Pack:\nhttps://adisuja.github.io/tantra-revops/funnel-prompt-starter-pack/\n\nSeven prompts to copy and paste: the setup prompt, then one for each funnel stage, from Traffic to Long-term nurture.\n\nPaste the setup prompt first and fill in your Funnel Brief. Every other prompt reads from it.\n\nWhich stage are you building first?",
@@ -1523,20 +1526,20 @@ window.STUDIO = {
     "src": "batch-3/AG5",
     "title": "5 emails, 13 days, 1 subject line",
     "files": [
-     "media/batch-3/AG5/poster.jpg?v=20261111043728"
+     "media/batch-3/AG5/poster.jpg?v=20261111062224"
     ],
-    "video": "media/batch-3/AG5/tantra-b3-AG5-2026-11-23-adi.mp4?v=20261111043728",
+    "video": "media/batch-3/AG5/tantra-b3-AG5-2026-11-23-adi.mp4?v=20261111062224",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-3/AG5/tantra-b3-AG5-2026-11-23-adi.mp4?v=20261111043728",
+      "href": "media/batch-3/AG5/tantra-b3-AG5-2026-11-23-adi.mp4?v=20261111062224",
       "name": "tantra-b3-AG5-2026-11-23-adi.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 821707
      },
      {
-      "href": "media/batch-3/AG5/tantra-b3-AG5-2026-11-23-adi.gif?v=20261111043728",
+      "href": "media/batch-3/AG5/tantra-b3-AG5-2026-11-23-adi.gif?v=20261111062224",
       "name": "tantra-b3-AG5-2026-11-23-adi.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -1574,9 +1577,10 @@ window.STUDIO = {
     "files": [
      {
       "label": "PDF",
-      "href": "https://adisuja.github.io/tantra-revops/cold-email-thread/cold-email-thread.pdf"
+      "href": "resources/cold-email-thread/cold-email-thread.pdf"
      }
-    ]
+    ],
+    "preview": "resources/cold-email-thread/"
    },
    "dm": {
     "message": "Hi {first_name}, thanks for commenting THREAD.\n\nHere's the 13-Day Cold Email Thread:\nhttps://adisuja.github.io/tantra-revops/cold-email-thread/\n\nIt's 2 pages: five emails on days 0, 3, 6, 9 and 13, an outcome version and an objection version, and the prompt that fills all five.\n\nWrite email 1 before anything else. The other four are replies to it, so they only work once it does.\n\nWho is the thread going to?",
@@ -1611,20 +1615,20 @@ window.STUDIO = {
     "src": "batch-3/AG6",
     "title": "Your persona from 20 customers",
     "files": [
-     "media/batch-3/AG6/poster.jpg?v=20261111043728"
+     "media/batch-3/AG6/poster.jpg?v=20261111062224"
     ],
-    "video": "media/batch-3/AG6/tantra-b3-AG6-2026-11-25-adi.mp4?v=20261111043728",
+    "video": "media/batch-3/AG6/tantra-b3-AG6-2026-11-25-adi.mp4?v=20261111062224",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-3/AG6/tantra-b3-AG6-2026-11-25-adi.mp4?v=20261111043728",
+      "href": "media/batch-3/AG6/tantra-b3-AG6-2026-11-25-adi.mp4?v=20261111062224",
       "name": "tantra-b3-AG6-2026-11-25-adi.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 864397
      },
      {
-      "href": "media/batch-3/AG6/tantra-b3-AG6-2026-11-25-adi.gif?v=20261111043728",
+      "href": "media/batch-3/AG6/tantra-b3-AG6-2026-11-25-adi.gif?v=20261111062224",
       "name": "tantra-b3-AG6-2026-11-25-adi.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -1660,9 +1664,10 @@ window.STUDIO = {
     "files": [
      {
       "label": "PDF",
-      "href": "https://adisuja.github.io/tantra-revops/persona-scorecard/persona-scorecard.pdf"
+      "href": "resources/persona-scorecard/persona-scorecard.pdf"
      }
-    ]
+    ],
+    "preview": "resources/persona-scorecard/"
    },
    "dm": {
     "message": "Hi {first_name}, thanks for commenting BUYER.\n\nHere's the 20-Customer Persona Scorecard:\nhttps://adisuja.github.io/tantra-revops/persona-scorecard/\n\nList your 20 best customers, fill in the traits, keep only what more than half share and write 3 exclusions. The prompt on page 2 turns it into a persona.\n\nStart with the customer list, not the traits. Pick by revenue, retention and how easy they are to serve.\n\nWhat did your best customers turn out to share?",
@@ -1697,17 +1702,17 @@ window.STUDIO = {
     "src": "batch-3/TC3",
     "title": "Your funnel before AI and after AI",
     "files": [
-     "media/batch-3/TC3/p01.jpg?v=20261111043728",
-     "media/batch-3/TC3/p02.jpg?v=20261111043728",
-     "media/batch-3/TC3/p03.jpg?v=20261111043728",
-     "media/batch-3/TC3/p04.jpg?v=20261111043728",
-     "media/batch-3/TC3/p05.jpg?v=20261111043728",
-     "media/batch-3/TC3/p06.jpg?v=20261111043728",
-     "media/batch-3/TC3/p07.jpg?v=20261111043728",
-     "media/batch-3/TC3/p08.jpg?v=20261111043728"
+     "media/batch-3/TC3/p01.jpg?v=20261111062224",
+     "media/batch-3/TC3/p02.jpg?v=20261111062224",
+     "media/batch-3/TC3/p03.jpg?v=20261111062224",
+     "media/batch-3/TC3/p04.jpg?v=20261111062224",
+     "media/batch-3/TC3/p05.jpg?v=20261111062224",
+     "media/batch-3/TC3/p06.jpg?v=20261111062224",
+     "media/batch-3/TC3/p07.jpg?v=20261111062224",
+     "media/batch-3/TC3/p08.jpg?v=20261111062224"
     ],
     "download": {
-     "href": "media/batch-3/TC3/tantra-b3-TC3-2026-11-18-tantra.pdf?v=20261111043728",
+     "href": "media/batch-3/TC3/tantra-b3-TC3-2026-11-18-tantra.pdf?v=20261111062224",
      "name": "tantra-b3-TC3-2026-11-18-tantra.pdf",
      "ext": "pdf",
      "bytes": 1063394,
@@ -1769,10 +1774,10 @@ window.STUDIO = {
     "title": "The 8-part prompt skeleton",
     "tall": false,
     "files": [
-     "media/batch-3/TG1/image.jpg?v=20261111043728"
+     "media/batch-3/TG1/image.jpg?v=20261111062224"
     ],
     "download": {
-     "href": "media/batch-3/TG1/tantra-b3-TG1-2026-11-16-tantra.png?v=20261111043728",
+     "href": "media/batch-3/TG1/tantra-b3-TG1-2026-11-16-tantra.png?v=20261111062224",
      "name": "tantra-b3-TG1-2026-11-16-tantra.png",
      "ext": "png",
      "bytes": 343366,
@@ -1810,9 +1815,10 @@ window.STUDIO = {
     "files": [
      {
       "label": "PDF",
-      "href": "https://adisuja.github.io/tantra-revops/prompt-skeleton/prompt-skeleton.pdf"
+      "href": "resources/prompt-skeleton/prompt-skeleton.pdf"
      }
-    ]
+    ],
+    "preview": "resources/prompt-skeleton/"
    },
    "dm": {
     "message": "Hi {first_name}, thanks for commenting SKELETON. I'm Adi, the founder.\n\nHere's the 8-Part Prompt Skeleton:\nhttps://adisuja.github.io/tantra-revops/prompt-skeleton/\n\nIt's one page: the blank prompt with all eight parts, a note on what goes in each and a worked example for a registration page headline.\n\nCopy the blank skeleton and fill in part 3, the facts, first. That's the part an AI can't guess.\n\nWhat are you going to write with it first?",
@@ -1847,20 +1853,20 @@ window.STUDIO = {
     "src": "batch-3/TG2",
     "title": "The registration page in 9 blocks",
     "files": [
-     "media/batch-3/TG2/poster.jpg?v=20261111043728"
+     "media/batch-3/TG2/poster.jpg?v=20261111062224"
     ],
-    "video": "media/batch-3/TG2/tantra-b3-TG2-2026-11-17-tantra.mp4?v=20261111043728",
+    "video": "media/batch-3/TG2/tantra-b3-TG2-2026-11-17-tantra.mp4?v=20261111062224",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-3/TG2/tantra-b3-TG2-2026-11-17-tantra.mp4?v=20261111043728",
+      "href": "media/batch-3/TG2/tantra-b3-TG2-2026-11-17-tantra.mp4?v=20261111062224",
       "name": "tantra-b3-TG2-2026-11-17-tantra.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 747908
      },
      {
-      "href": "media/batch-3/TG2/tantra-b3-TG2-2026-11-17-tantra.gif?v=20261111043728",
+      "href": "media/batch-3/TG2/tantra-b3-TG2-2026-11-17-tantra.gif?v=20261111062224",
       "name": "tantra-b3-TG2-2026-11-17-tantra.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -1898,9 +1904,10 @@ window.STUDIO = {
     "files": [
      {
       "label": "PDF",
-      "href": "https://adisuja.github.io/tantra-revops/registration-page-blueprint/registration-page-blueprint.pdf"
+      "href": "resources/registration-page-blueprint/registration-page-blueprint.pdf"
      }
-    ]
+    ],
+    "preview": "resources/registration-page-blueprint/"
    },
    "dm": {
     "message": "Hi {first_name}, thanks for commenting PAGE. I'm Adi, the founder.\n\nHere's the 9-Block Registration Page Blueprint:\nhttps://adisuja.github.io/tantra-revops/registration-page-blueprint/\n\nIt's 2 pages: the nine blocks in order, the job of each one, the above-the-fold check and the prompt that drafts your page.\n\nOpen your current page on a laptop and run the check on page 2 before you rewrite anything.\n\nIs your form on the first screen?",
@@ -1935,20 +1942,20 @@ window.STUDIO = {
     "src": "batch-3/TG3",
     "title": "Every outreach limit on one card",
     "files": [
-     "media/batch-3/TG3/poster.jpg?v=20261111043728"
+     "media/batch-3/TG3/poster.jpg?v=20261111062224"
     ],
-    "video": "media/batch-3/TG3/tantra-b3-TG3-2026-11-19-tantra.mp4?v=20261111043728",
+    "video": "media/batch-3/TG3/tantra-b3-TG3-2026-11-19-tantra.mp4?v=20261111062224",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-3/TG3/tantra-b3-TG3-2026-11-19-tantra.mp4?v=20261111043728",
+      "href": "media/batch-3/TG3/tantra-b3-TG3-2026-11-19-tantra.mp4?v=20261111062224",
       "name": "tantra-b3-TG3-2026-11-19-tantra.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 585593
      },
      {
-      "href": "media/batch-3/TG3/tantra-b3-TG3-2026-11-19-tantra.gif?v=20261111043728",
+      "href": "media/batch-3/TG3/tantra-b3-TG3-2026-11-19-tantra.gif?v=20261111062224",
       "name": "tantra-b3-TG3-2026-11-19-tantra.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -1985,9 +1992,10 @@ window.STUDIO = {
     "files": [
      {
       "label": "PDF",
-      "href": "https://adisuja.github.io/tantra-revops/outreach-limits/outreach-limits.pdf"
+      "href": "resources/outreach-limits/outreach-limits.pdf"
      }
-    ]
+    ],
+    "preview": "resources/outreach-limits/"
    },
    "dm": {
     "message": "Hi {first_name}, thanks for commenting LIMITS. I'm Adi, the founder.\n\nHere's the Outreach Limits Cheat Sheet:\nhttps://adisuja.github.io/tantra-revops/outreach-limits/\n\nIt's one page with every limit: WhatsApp, the LinkedIn note, SMS and subject lines, plus the LinkedIn daily range. Paste a message in and it checks it against each limit.\n\nPaste your current LinkedIn note into the counter first.\n\nWhich channel do you send the most on?",
@@ -2022,20 +2030,20 @@ window.STUDIO = {
     "src": "batch-3/TG4",
     "title": "A clock on every pipeline stage",
     "files": [
-     "media/batch-3/TG4/poster.jpg?v=20261111043728"
+     "media/batch-3/TG4/poster.jpg?v=20261111062224"
     ],
-    "video": "media/batch-3/TG4/tantra-b3-TG4-2026-11-20-tantra.mp4?v=20261111043728",
+    "video": "media/batch-3/TG4/tantra-b3-TG4-2026-11-20-tantra.mp4?v=20261111062224",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-3/TG4/tantra-b3-TG4-2026-11-20-tantra.mp4?v=20261111043728",
+      "href": "media/batch-3/TG4/tantra-b3-TG4-2026-11-20-tantra.mp4?v=20261111062224",
       "name": "tantra-b3-TG4-2026-11-20-tantra.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 1165218
      },
      {
-      "href": "media/batch-3/TG4/tantra-b3-TG4-2026-11-20-tantra.gif?v=20261111043728",
+      "href": "media/batch-3/TG4/tantra-b3-TG4-2026-11-20-tantra.gif?v=20261111062224",
       "name": "tantra-b3-TG4-2026-11-20-tantra.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -2072,17 +2080,18 @@ window.STUDIO = {
     "files": [
      {
       "label": "PDF",
-      "href": "https://adisuja.github.io/tantra-revops/pipeline-clock-sheet/pipeline-clock-sheet.pdf"
+      "href": "resources/pipeline-clock-sheet/pipeline-clock-sheet.pdf"
      },
      {
       "label": "Excel",
-      "href": "https://adisuja.github.io/tantra-revops/pipeline-clock-sheet/pipeline-clock-sheet.xlsx"
+      "href": "resources/pipeline-clock-sheet/pipeline-clock-sheet.xlsx"
      },
      {
       "label": "CSV",
-      "href": "https://adisuja.github.io/tantra-revops/pipeline-clock-sheet/pipeline-clock-sheet.csv"
+      "href": "resources/pipeline-clock-sheet/pipeline-clock-sheet.csv"
      }
-    ]
+    ],
+    "preview": "resources/pipeline-clock-sheet/"
    },
    "dm": {
     "message": "Hi {first_name}, thanks for commenting PIPELINE. I'm Adi, the founder.\n\nHere's the 12-Stage Pipeline Clock Sheet:\nhttps://adisuja.github.io/tantra-revops/pipeline-clock-sheet/\n\nIt's the 12 stages in order, each with its time limit and what happens when it runs out. There's an Excel file and a CSV on the page, so you can drop it into your own sheet.\n\nFill in the Owner column first. A stage without one name on it is where deals go quiet.\n\nWhich stage do your deals sit in longest?",
@@ -2117,20 +2126,20 @@ window.STUDIO = {
     "src": "batch-3/TG6",
     "title": "Keep outreach off your main domain",
     "files": [
-     "media/batch-3/TG6/poster.jpg?v=20261111043728"
+     "media/batch-3/TG6/poster.jpg?v=20261111062224"
     ],
-    "video": "media/batch-3/TG6/tantra-b3-TG6-2026-11-23-tantra.mp4?v=20261111043728",
+    "video": "media/batch-3/TG6/tantra-b3-TG6-2026-11-23-tantra.mp4?v=20261111062224",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-3/TG6/tantra-b3-TG6-2026-11-23-tantra.mp4?v=20261111043728",
+      "href": "media/batch-3/TG6/tantra-b3-TG6-2026-11-23-tantra.mp4?v=20261111062224",
       "name": "tantra-b3-TG6-2026-11-23-tantra.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 261330
      },
      {
-      "href": "media/batch-3/TG6/tantra-b3-TG6-2026-11-23-tantra.gif?v=20261111043728",
+      "href": "media/batch-3/TG6/tantra-b3-TG6-2026-11-23-tantra.gif?v=20261111062224",
       "name": "tantra-b3-TG6-2026-11-23-tantra.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -2167,9 +2176,10 @@ window.STUDIO = {
     "files": [
      {
       "label": "PDF",
-      "href": "https://adisuja.github.io/tantra-revops/clean-domain-checklist/clean-domain-checklist.pdf"
+      "href": "resources/clean-domain-checklist/clean-domain-checklist.pdf"
      }
-    ]
+    ],
+    "preview": "resources/clean-domain-checklist/"
    },
    "dm": {
     "message": "Hi {first_name}, thanks for commenting DOMAINS. I'm Adi, the founder.\n\nHere's the Clean Domain Sending Checklist:\nhttps://adisuja.github.io/tantra-revops/clean-domain-checklist/\n\nIt's one page of tick boxes: the look-alike domains, the four DNS records, the two-week warm-up and the sending rules.\n\nDo the domain section today. The warm-up takes two weeks, so that clock should start first.\n\nAre you sending from your main domain right now?",
@@ -2204,20 +2214,20 @@ window.STUDIO = {
     "src": "batch-4/EA1",
     "title": "The 4-Number Revenue Equation Sheet",
     "files": [
-     "media/batch-4/EA1/poster.jpg?v=20261111043728"
+     "media/batch-4/EA1/poster.jpg?v=20261111062224"
     ],
-    "video": "media/batch-4/EA1/tantra-b4-EA1-2026-11-26-ben.mp4?v=20261111043728",
+    "video": "media/batch-4/EA1/tantra-b4-EA1-2026-11-26-ben.mp4?v=20261111062224",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-4/EA1/tantra-b4-EA1-2026-11-26-ben.mp4?v=20261111043728",
+      "href": "media/batch-4/EA1/tantra-b4-EA1-2026-11-26-ben.mp4?v=20261111062224",
       "name": "tantra-b4-EA1-2026-11-26-ben.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 350924
      },
      {
-      "href": "media/batch-4/EA1/tantra-b4-EA1-2026-11-26-ben.gif?v=20261111043728",
+      "href": "media/batch-4/EA1/tantra-b4-EA1-2026-11-26-ben.gif?v=20261111062224",
       "name": "tantra-b4-EA1-2026-11-26-ben.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -2256,9 +2266,10 @@ window.STUDIO = {
     "files": [
      {
       "label": "PDF",
-      "href": "https://adisuja.github.io/tantra-revops/revenue-equation-sheet/revenue-equation-sheet.pdf"
+      "href": "resources/revenue-equation-sheet/revenue-equation-sheet.pdf"
      }
-    ]
+    ],
+    "preview": "resources/revenue-equation-sheet/"
    },
    "dm": {
     "message": "Hi {first_name}, thanks for commenting MATH.\n\nHere's the 4-Number Revenue Equation Sheet:\nhttps://adisuja.github.io/tantra-revops/revenue-equation-sheet/\n\nIt's one page: the equation, the six stage numbers and where to read each one. Type your numbers in and it does the maths.\n\nFill in last month's four numbers first. The weakest one is the only thing to work on this week.\n\nWhich of the four numbers do you think is weakest?",
@@ -2293,20 +2304,20 @@ window.STUDIO = {
     "src": "batch-4/EA2",
     "title": "The 8-Part Prompt Skeleton",
     "files": [
-     "media/batch-4/EA2/poster.jpg?v=20261111043728"
+     "media/batch-4/EA2/poster.jpg?v=20261111062224"
     ],
-    "video": "media/batch-4/EA2/tantra-b4-EA2-2026-12-01-ben.mp4?v=20261111043728",
+    "video": "media/batch-4/EA2/tantra-b4-EA2-2026-12-01-ben.mp4?v=20261111062224",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-4/EA2/tantra-b4-EA2-2026-12-01-ben.mp4?v=20261111043728",
+      "href": "media/batch-4/EA2/tantra-b4-EA2-2026-12-01-ben.mp4?v=20261111062224",
       "name": "tantra-b4-EA2-2026-12-01-ben.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 250027
      },
      {
-      "href": "media/batch-4/EA2/tantra-b4-EA2-2026-12-01-ben.gif?v=20261111043728",
+      "href": "media/batch-4/EA2/tantra-b4-EA2-2026-12-01-ben.gif?v=20261111062224",
       "name": "tantra-b4-EA2-2026-12-01-ben.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -2343,9 +2354,10 @@ window.STUDIO = {
     "files": [
      {
       "label": "PDF",
-      "href": "https://adisuja.github.io/tantra-revops/prompt-skeleton/prompt-skeleton.pdf"
+      "href": "resources/prompt-skeleton/prompt-skeleton.pdf"
      }
-    ]
+    ],
+    "preview": "resources/prompt-skeleton/"
    },
    "dm": {
     "message": "Hi {first_name}, thanks for commenting SKELETON.\n\nHere's the 8-Part Prompt Skeleton:\nhttps://adisuja.github.io/tantra-revops/prompt-skeleton/\n\nIt's one page: the blank prompt with all eight parts, a note on what goes in each and a worked example for a registration page headline.\n\nCopy the blank skeleton and fill in part 3, the facts, first. That's the part an AI can't guess.\n\nWhat's the next thing you're asking an AI to write?",
@@ -2380,20 +2392,20 @@ window.STUDIO = {
     "src": "batch-4/EA3",
     "title": "The AI SDR System",
     "files": [
-     "media/batch-4/EA3/poster.jpg?v=20261111043728"
+     "media/batch-4/EA3/poster.jpg?v=20261111062224"
     ],
-    "video": "media/batch-4/EA3/tantra-b4-EA3-2026-12-03-ben.mp4?v=20261111043728",
+    "video": "media/batch-4/EA3/tantra-b4-EA3-2026-12-03-ben.mp4?v=20261111062224",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-4/EA3/tantra-b4-EA3-2026-12-03-ben.mp4?v=20261111043728",
+      "href": "media/batch-4/EA3/tantra-b4-EA3-2026-12-03-ben.mp4?v=20261111062224",
       "name": "tantra-b4-EA3-2026-12-03-ben.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 381457
      },
      {
-      "href": "media/batch-4/EA3/tantra-b4-EA3-2026-12-03-ben.gif?v=20261111043728",
+      "href": "media/batch-4/EA3/tantra-b4-EA3-2026-12-03-ben.gif?v=20261111062224",
       "name": "tantra-b4-EA3-2026-12-03-ben.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -2433,9 +2445,10 @@ window.STUDIO = {
     "files": [
      {
       "label": "PDF",
-      "href": "https://adisuja.github.io/tantra-revops/ai-sdr-system/ai-sdr-system.pdf"
+      "href": "resources/ai-sdr-system/ai-sdr-system.pdf"
      }
-    ]
+    ],
+    "preview": "resources/ai-sdr-system/"
    },
    "dm": {
     "message": "Hi {first_name}, thanks for commenting SDR.\n\nHere's the AI SDR System:\nhttps://adisuja.github.io/tantra-revops/ai-sdr-system/\n\nIt's 2 pages: who does what, the Claude setup, the timing for each channel and the two prompts that sort your list and write the first message.\n\nWrite your fit rules first. Everything the AI does reads from them.\n\nWhich of the five tasks would save your team the most time?",
@@ -2470,20 +2483,20 @@ window.STUDIO = {
     "src": "batch-4/EA4",
     "title": "The Calendar Invite Blueprint",
     "files": [
-     "media/batch-4/EA4/poster.jpg?v=20261111043728"
+     "media/batch-4/EA4/poster.jpg?v=20261111062224"
     ],
-    "video": "media/batch-4/EA4/tantra-b4-EA4-2026-12-08-ben.mp4?v=20261111043728",
+    "video": "media/batch-4/EA4/tantra-b4-EA4-2026-12-08-ben.mp4?v=20261111062224",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-4/EA4/tantra-b4-EA4-2026-12-08-ben.mp4?v=20261111043728",
+      "href": "media/batch-4/EA4/tantra-b4-EA4-2026-12-08-ben.mp4?v=20261111062224",
       "name": "tantra-b4-EA4-2026-12-08-ben.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 401590
      },
      {
-      "href": "media/batch-4/EA4/tantra-b4-EA4-2026-12-08-ben.gif?v=20261111043728",
+      "href": "media/batch-4/EA4/tantra-b4-EA4-2026-12-08-ben.gif?v=20261111062224",
       "name": "tantra-b4-EA4-2026-12-08-ben.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -2521,9 +2534,10 @@ window.STUDIO = {
     "files": [
      {
       "label": "PDF",
-      "href": "https://adisuja.github.io/tantra-revops/calendar-invite-blueprint/calendar-invite-blueprint.pdf"
+      "href": "resources/calendar-invite-blueprint/calendar-invite-blueprint.pdf"
      }
-    ]
+    ],
+    "preview": "resources/calendar-invite-blueprint/"
    },
    "dm": {
     "message": "Hi {first_name}, thanks for commenting INVITE.\n\nHere's the Calendar Invite Blueprint:\nhttps://adisuja.github.io/tantra-revops/calendar-invite-blueprint/\n\nIt's 3 pages: the invite template, the 4 rules and the AI prompt that writes the invite for your event.\n\nStart with page 2 and check your current invite against the 4 rules before you rewrite anything.\n\nWhat are you inviting people to?",
@@ -2558,20 +2572,20 @@ window.STUDIO = {
     "src": "batch-4/EG3",
     "title": "The Book-a-Call Page (With Case Studies)",
     "files": [
-     "media/batch-4/EG3/poster.jpg?v=20261111043728"
+     "media/batch-4/EG3/poster.jpg?v=20261111062224"
     ],
-    "video": "media/batch-4/EG3/tantra-b4-EG3-2026-11-24-ben.mp4?v=20261111043728",
+    "video": "media/batch-4/EG3/tantra-b4-EG3-2026-11-24-ben.mp4?v=20261111062224",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-4/EG3/tantra-b4-EG3-2026-11-24-ben.mp4?v=20261111043728",
+      "href": "media/batch-4/EG3/tantra-b4-EG3-2026-11-24-ben.mp4?v=20261111062224",
       "name": "tantra-b4-EG3-2026-11-24-ben.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 599423
      },
      {
-      "href": "media/batch-4/EG3/tantra-b4-EG3-2026-11-24-ben.gif?v=20261111043728",
+      "href": "media/batch-4/EG3/tantra-b4-EG3-2026-11-24-ben.gif?v=20261111062224",
       "name": "tantra-b4-EG3-2026-11-24-ben.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -2610,9 +2624,10 @@ window.STUDIO = {
     "files": [
      {
       "label": "PDF",
-      "href": "https://adisuja.github.io/tantra-revops/book-a-call-page/book-a-call-page.pdf"
+      "href": "resources/book-a-call-page/book-a-call-page.pdf"
      }
-    ]
+    ],
+    "preview": "resources/book-a-call-page/"
    },
    "dm": {
     "message": "Hi {first_name}, thanks for commenting CALL.\n\nHere's the Book-a-Call Page (With Case Studies):\nhttps://adisuja.github.io/tantra-revops/book-a-call-page/\n\nIt's 2 pages: the six blocks in order, the six booking questions, a case study table by stage, the proof rules and the prompt that drafts your page.\n\nStart with the case study table. The page is only as strong as the proof you put in it.\n\nWhat does your booking page show today besides the calendar?",
@@ -2647,20 +2662,20 @@ window.STUDIO = {
     "src": "batch-4/HG1",
     "title": "The Event Countdown Content Calendar",
     "files": [
-     "media/batch-4/HG1/poster.jpg?v=20261111043728"
+     "media/batch-4/HG1/poster.jpg?v=20261111062224"
     ],
-    "video": "media/batch-4/HG1/tantra-b4-HG1-2026-11-24-bhaskar.mp4?v=20261111043728",
+    "video": "media/batch-4/HG1/tantra-b4-HG1-2026-11-24-bhaskar.mp4?v=20261111062224",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-4/HG1/tantra-b4-HG1-2026-11-24-bhaskar.mp4?v=20261111043728",
+      "href": "media/batch-4/HG1/tantra-b4-HG1-2026-11-24-bhaskar.mp4?v=20261111062224",
       "name": "tantra-b4-HG1-2026-11-24-bhaskar.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 348753
      },
      {
-      "href": "media/batch-4/HG1/tantra-b4-HG1-2026-11-24-bhaskar.gif?v=20261111043728",
+      "href": "media/batch-4/HG1/tantra-b4-HG1-2026-11-24-bhaskar.gif?v=20261111062224",
       "name": "tantra-b4-HG1-2026-11-24-bhaskar.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -2700,9 +2715,10 @@ window.STUDIO = {
     "files": [
      {
       "label": "PDF",
-      "href": "https://adisuja.github.io/tantra-revops/event-countdown-calendar/event-countdown-calendar.pdf"
+      "href": "resources/event-countdown-calendar/event-countdown-calendar.pdf"
      }
-    ]
+    ],
+    "preview": "resources/event-countdown-calendar/"
    },
    "dm": {
     "message": "Hi {first_name}, thanks for commenting COUNTDOWN.\n\nHere's the Event Countdown Content Calendar:\nhttps://adisuja.github.io/tantra-revops/event-countdown-calendar/\n\nIt's 2 pages: the 4-week calendar with 12 posts, the rules for dating and wording them, and the prompt that plans yours.\n\nPut your session date in first, then date all 12 posts before you write a word.\n\nWhen is your next session?",
@@ -2737,20 +2753,20 @@ window.STUDIO = {
     "src": "batch-4/HG2",
     "title": "The Value Equation Scorecard",
     "files": [
-     "media/batch-4/HG2/poster.jpg?v=20261111043728"
+     "media/batch-4/HG2/poster.jpg?v=20261111062224"
     ],
-    "video": "media/batch-4/HG2/tantra-b4-HG2-2026-11-26-bhaskar.mp4?v=20261111043728",
+    "video": "media/batch-4/HG2/tantra-b4-HG2-2026-11-26-bhaskar.mp4?v=20261111062224",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-4/HG2/tantra-b4-HG2-2026-11-26-bhaskar.mp4?v=20261111043728",
+      "href": "media/batch-4/HG2/tantra-b4-HG2-2026-11-26-bhaskar.mp4?v=20261111062224",
       "name": "tantra-b4-HG2-2026-11-26-bhaskar.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 350230
      },
      {
-      "href": "media/batch-4/HG2/tantra-b4-HG2-2026-11-26-bhaskar.gif?v=20261111043728",
+      "href": "media/batch-4/HG2/tantra-b4-HG2-2026-11-26-bhaskar.gif?v=20261111062224",
       "name": "tantra-b4-HG2-2026-11-26-bhaskar.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -2791,9 +2807,10 @@ window.STUDIO = {
     "files": [
      {
       "label": "PDF",
-      "href": "https://adisuja.github.io/tantra-revops/value-equation-scorecard/value-equation-scorecard.pdf"
+      "href": "resources/value-equation-scorecard/value-equation-scorecard.pdf"
      }
-    ]
+    ],
+    "preview": "resources/value-equation-scorecard/"
    },
    "dm": {
     "message": "Hi {first_name}, thanks for commenting SCORE.\n\nHere's the Value Equation Scorecard:\nhttps://adisuja.github.io/tantra-revops/value-equation-scorecard/\n\nIt's 2 pages: the four levers, a scorecard to fill in, the changes that move each lever and the prompt that scores and rewrites your offer.\n\nScore your offer as a sceptic would, then work only on the two lowest levers.\n\nWhich lever came out lowest?",
@@ -2828,20 +2845,20 @@ window.STUDIO = {
     "src": "batch-4/HG3",
     "title": "The Offer Ladder Worksheet",
     "files": [
-     "media/batch-4/HG3/poster.jpg?v=20261111043728"
+     "media/batch-4/HG3/poster.jpg?v=20261111062224"
     ],
-    "video": "media/batch-4/HG3/tantra-b4-HG3-2026-12-01-bhaskar.mp4?v=20261111043728",
+    "video": "media/batch-4/HG3/tantra-b4-HG3-2026-12-01-bhaskar.mp4?v=20261111062224",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-4/HG3/tantra-b4-HG3-2026-12-01-bhaskar.mp4?v=20261111043728",
+      "href": "media/batch-4/HG3/tantra-b4-HG3-2026-12-01-bhaskar.mp4?v=20261111062224",
       "name": "tantra-b4-HG3-2026-12-01-bhaskar.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 486341
      },
      {
-      "href": "media/batch-4/HG3/tantra-b4-HG3-2026-12-01-bhaskar.gif?v=20261111043728",
+      "href": "media/batch-4/HG3/tantra-b4-HG3-2026-12-01-bhaskar.gif?v=20261111062224",
       "name": "tantra-b4-HG3-2026-12-01-bhaskar.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -2881,9 +2898,10 @@ window.STUDIO = {
     "files": [
      {
       "label": "PDF",
-      "href": "https://adisuja.github.io/tantra-revops/offer-ladder-worksheet/offer-ladder-worksheet.pdf"
+      "href": "resources/offer-ladder-worksheet/offer-ladder-worksheet.pdf"
      }
-    ]
+    ],
+    "preview": "resources/offer-ladder-worksheet/"
    },
    "dm": {
     "message": "Hi {first_name}, thanks for commenting LADDER.\n\nHere's the Offer Ladder Worksheet:\nhttps://adisuja.github.io/tantra-revops/offer-ladder-worksheet/\n\nIt's 2 pages: the five rungs with an example, a worksheet for yours, the entry price check and the prompt that builds your ladder.\n\nRun the entry price check on page 2 first. It decides whether more traffic makes you money.\n\nWhat is your entry offer today?",
@@ -2918,20 +2936,20 @@ window.STUDIO = {
     "src": "batch-4/HG6",
     "title": "The 1-in-5 Post and DM Flow",
     "files": [
-     "media/batch-4/HG6/poster.jpg?v=20261111043728"
+     "media/batch-4/HG6/poster.jpg?v=20261111062224"
     ],
-    "video": "media/batch-4/HG6/tantra-b4-HG6-2026-12-03-bhaskar.mp4?v=20261111043728",
+    "video": "media/batch-4/HG6/tantra-b4-HG6-2026-12-03-bhaskar.mp4?v=20261111062224",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-4/HG6/tantra-b4-HG6-2026-12-03-bhaskar.mp4?v=20261111043728",
+      "href": "media/batch-4/HG6/tantra-b4-HG6-2026-12-03-bhaskar.mp4?v=20261111062224",
       "name": "tantra-b4-HG6-2026-12-03-bhaskar.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 421853
      },
      {
-      "href": "media/batch-4/HG6/tantra-b4-HG6-2026-12-03-bhaskar.gif?v=20261111043728",
+      "href": "media/batch-4/HG6/tantra-b4-HG6-2026-12-03-bhaskar.gif?v=20261111062224",
       "name": "tantra-b4-HG6-2026-12-03-bhaskar.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -2970,9 +2988,10 @@ window.STUDIO = {
     "files": [
      {
       "label": "PDF",
-      "href": "https://adisuja.github.io/tantra-revops/post-and-dm-flow/post-and-dm-flow.pdf"
+      "href": "resources/post-and-dm-flow/post-and-dm-flow.pdf"
      }
-    ]
+    ],
+    "preview": "resources/post-and-dm-flow/"
    },
    "dm": {
     "message": "Hi {first_name}, thanks for commenting REPLY.\n\nHere's the 1-in-5 Post and DM Flow:\nhttps://adisuja.github.io/tantra-revops/post-and-dm-flow/\n\nIt's 2 pages: the 4-to-1 post mix, the DM flow for day 0, day 3 and day 10, a log for every conversation and the prompt that writes them.\n\nWrite post 5, the one that invites a reply, before the other four.\n\nWhat would you ask your buyers to reply to?",
@@ -3007,20 +3026,20 @@ window.STUDIO = {
     "src": "batch-4/NA1",
     "title": "The Calendar Invite Blueprint",
     "files": [
-     "media/batch-4/NA1/poster.jpg?v=20261111043728"
+     "media/batch-4/NA1/poster.jpg?v=20261111062224"
     ],
-    "video": "media/batch-4/NA1/tantra-b4-NA1-2026-11-24-nelbin.mp4?v=20261111043728",
+    "video": "media/batch-4/NA1/tantra-b4-NA1-2026-11-24-nelbin.mp4?v=20261111062224",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-4/NA1/tantra-b4-NA1-2026-11-24-nelbin.mp4?v=20261111043728",
+      "href": "media/batch-4/NA1/tantra-b4-NA1-2026-11-24-nelbin.mp4?v=20261111062224",
       "name": "tantra-b4-NA1-2026-11-24-nelbin.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 426301
      },
      {
-      "href": "media/batch-4/NA1/tantra-b4-NA1-2026-11-24-nelbin.gif?v=20261111043728",
+      "href": "media/batch-4/NA1/tantra-b4-NA1-2026-11-24-nelbin.gif?v=20261111062224",
       "name": "tantra-b4-NA1-2026-11-24-nelbin.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -3060,9 +3079,10 @@ window.STUDIO = {
     "files": [
      {
       "label": "PDF",
-      "href": "https://adisuja.github.io/tantra-revops/calendar-invite-blueprint/calendar-invite-blueprint.pdf"
+      "href": "resources/calendar-invite-blueprint/calendar-invite-blueprint.pdf"
      }
-    ]
+    ],
+    "preview": "resources/calendar-invite-blueprint/"
    },
    "dm": {
     "message": "Hi {first_name}, thanks for commenting INVITE.\n\nHere's the Calendar Invite Blueprint:\nhttps://adisuja.github.io/tantra-revops/calendar-invite-blueprint/\n\nIt's 3 pages: the invite template, the 4 rules and the AI prompt that writes the invite for your event.\n\nStart with page 2 and check your current invite against the 4 rules before you rewrite anything.\n\nWhat are you inviting people to?",
@@ -3097,20 +3117,20 @@ window.STUDIO = {
     "src": "batch-4/NA2",
     "title": "The AI SDR System",
     "files": [
-     "media/batch-4/NA2/poster.jpg?v=20261111043728"
+     "media/batch-4/NA2/poster.jpg?v=20261111062224"
     ],
-    "video": "media/batch-4/NA2/tantra-b4-NA2-2026-11-26-nelbin.mp4?v=20261111043728",
+    "video": "media/batch-4/NA2/tantra-b4-NA2-2026-11-26-nelbin.mp4?v=20261111062224",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-4/NA2/tantra-b4-NA2-2026-11-26-nelbin.mp4?v=20261111043728",
+      "href": "media/batch-4/NA2/tantra-b4-NA2-2026-11-26-nelbin.mp4?v=20261111062224",
       "name": "tantra-b4-NA2-2026-11-26-nelbin.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 204207
      },
      {
-      "href": "media/batch-4/NA2/tantra-b4-NA2-2026-11-26-nelbin.gif?v=20261111043728",
+      "href": "media/batch-4/NA2/tantra-b4-NA2-2026-11-26-nelbin.gif?v=20261111062224",
       "name": "tantra-b4-NA2-2026-11-26-nelbin.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -3150,9 +3170,10 @@ window.STUDIO = {
     "files": [
      {
       "label": "PDF",
-      "href": "https://adisuja.github.io/tantra-revops/ai-sdr-system/ai-sdr-system.pdf"
+      "href": "resources/ai-sdr-system/ai-sdr-system.pdf"
      }
-    ]
+    ],
+    "preview": "resources/ai-sdr-system/"
    },
    "dm": {
     "message": "Hi {first_name}, thanks for commenting SDR.\n\nHere's the AI SDR System:\nhttps://adisuja.github.io/tantra-revops/ai-sdr-system/\n\nIt's 2 pages: who does what, the Claude setup, the timing for each channel and the two prompts that sort your list and write the first message.\n\nWrite your fit rules first. Everything the AI does reads from them.\n\nWhich part of prospecting takes your team longest?",
@@ -3187,20 +3208,20 @@ window.STUDIO = {
     "src": "batch-4/NA3",
     "title": "The Outreach Limits Cheat Sheet",
     "files": [
-     "media/batch-4/NA3/poster.jpg?v=20261111043728"
+     "media/batch-4/NA3/poster.jpg?v=20261111062224"
     ],
-    "video": "media/batch-4/NA3/tantra-b4-NA3-2026-12-01-nelbin.mp4?v=20261111043728",
+    "video": "media/batch-4/NA3/tantra-b4-NA3-2026-12-01-nelbin.mp4?v=20261111062224",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-4/NA3/tantra-b4-NA3-2026-12-01-nelbin.mp4?v=20261111043728",
+      "href": "media/batch-4/NA3/tantra-b4-NA3-2026-12-01-nelbin.mp4?v=20261111062224",
       "name": "tantra-b4-NA3-2026-12-01-nelbin.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 330050
      },
      {
-      "href": "media/batch-4/NA3/tantra-b4-NA3-2026-12-01-nelbin.gif?v=20261111043728",
+      "href": "media/batch-4/NA3/tantra-b4-NA3-2026-12-01-nelbin.gif?v=20261111062224",
       "name": "tantra-b4-NA3-2026-12-01-nelbin.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -3239,9 +3260,10 @@ window.STUDIO = {
     "files": [
      {
       "label": "PDF",
-      "href": "https://adisuja.github.io/tantra-revops/outreach-limits/outreach-limits.pdf"
+      "href": "resources/outreach-limits/outreach-limits.pdf"
      }
-    ]
+    ],
+    "preview": "resources/outreach-limits/"
    },
    "dm": {
     "message": "Hi {first_name}, thanks for commenting LIMITS.\n\nHere's the Outreach Limits Cheat Sheet:\nhttps://adisuja.github.io/tantra-revops/outreach-limits/\n\nIt's one page with every limit: WhatsApp, the LinkedIn note, SMS and subject lines, plus the LinkedIn daily range. Paste a message in and it checks it against each limit.\n\nPaste your current LinkedIn note into the counter first.\n\nWhich channel are you sending on most right now?",
@@ -3276,20 +3298,20 @@ window.STUDIO = {
     "src": "batch-4/NA4",
     "title": "The Omni-Channel Outreach System",
     "files": [
-     "media/batch-4/NA4/poster.jpg?v=20261111043728"
+     "media/batch-4/NA4/poster.jpg?v=20261111062224"
     ],
-    "video": "media/batch-4/NA4/tantra-b4-NA4-2026-12-03-nelbin.mp4?v=20261111043728",
+    "video": "media/batch-4/NA4/tantra-b4-NA4-2026-12-03-nelbin.mp4?v=20261111062224",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-4/NA4/tantra-b4-NA4-2026-12-03-nelbin.mp4?v=20261111043728",
+      "href": "media/batch-4/NA4/tantra-b4-NA4-2026-12-03-nelbin.mp4?v=20261111062224",
       "name": "tantra-b4-NA4-2026-12-03-nelbin.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 196316
      },
      {
-      "href": "media/batch-4/NA4/tantra-b4-NA4-2026-12-03-nelbin.gif?v=20261111043728",
+      "href": "media/batch-4/NA4/tantra-b4-NA4-2026-12-03-nelbin.gif?v=20261111062224",
       "name": "tantra-b4-NA4-2026-12-03-nelbin.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -3328,9 +3350,10 @@ window.STUDIO = {
     "files": [
      {
       "label": "PDF",
-      "href": "https://adisuja.github.io/tantra-revops/omni-channel-outreach-system/omni-channel-outreach-system.pdf"
+      "href": "resources/omni-channel-outreach-system/omni-channel-outreach-system.pdf"
      }
-    ]
+    ],
+    "preview": "resources/omni-channel-outreach-system/"
    },
    "dm": {
     "message": "Hi {first_name}, thanks for commenting OMNI.\n\nHere's the Omni-Channel Outreach System:\nhttps://adisuja.github.io/tantra-revops/omni-channel-outreach-system/\n\nIt's 2 pages: the channel map, the rules that make it one conversation, a sample sequence and the prompt for the email steps.\n\nStart with two channels, cold email and LinkedIn, before you add the rest.\n\nWhich channels are you running today?",
@@ -3365,20 +3388,20 @@ window.STUDIO = {
     "src": "batch-4/QA1",
     "title": "The AI Webinar Funnel System",
     "files": [
-     "media/batch-4/QA1/poster.jpg?v=20261111043728"
+     "media/batch-4/QA1/poster.jpg?v=20261111062224"
     ],
-    "video": "media/batch-4/QA1/tantra-b4-QA1-2026-11-26-aquila.mp4?v=20261111043728",
+    "video": "media/batch-4/QA1/tantra-b4-QA1-2026-11-26-aquila.mp4?v=20261111062224",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-4/QA1/tantra-b4-QA1-2026-11-26-aquila.mp4?v=20261111043728",
+      "href": "media/batch-4/QA1/tantra-b4-QA1-2026-11-26-aquila.mp4?v=20261111062224",
       "name": "tantra-b4-QA1-2026-11-26-aquila.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 394956
      },
      {
-      "href": "media/batch-4/QA1/tantra-b4-QA1-2026-11-26-aquila.gif?v=20261111043728",
+      "href": "media/batch-4/QA1/tantra-b4-QA1-2026-11-26-aquila.gif?v=20261111062224",
       "name": "tantra-b4-QA1-2026-11-26-aquila.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -3418,9 +3441,10 @@ window.STUDIO = {
     "files": [
      {
       "label": "PDF",
-      "href": "https://adisuja.github.io/tantra-revops/ai-webinar-funnel-system/ai-webinar-funnel-system.pdf"
+      "href": "resources/ai-webinar-funnel-system/ai-webinar-funnel-system.pdf"
      }
-    ]
+    ],
+    "preview": "resources/ai-webinar-funnel-system/"
    },
    "dm": {
     "message": "Hi {first_name}, thanks for commenting WEBINAR.\n\nHere's the AI Webinar Funnel System:\nhttps://adisuja.github.io/tantra-revops/ai-webinar-funnel-system/\n\nIt's 2 pages: the six stages with what to build and the number to watch, the reminders, and three prompts to start: the page, the reminders and the follow-ups.\n\nFind your weakest stage on page 1 first, and build that one before anything else.\n\nWhich stage of your funnel feels weakest right now?",
@@ -3455,20 +3479,20 @@ window.STUDIO = {
     "src": "batch-4/QA2",
     "title": "The 13-Day Cold Email Thread",
     "files": [
-     "media/batch-4/QA2/poster.jpg?v=20261111043728"
+     "media/batch-4/QA2/poster.jpg?v=20261111062224"
     ],
-    "video": "media/batch-4/QA2/tantra-b4-QA2-2026-12-01-aquila.mp4?v=20261111043728",
+    "video": "media/batch-4/QA2/tantra-b4-QA2-2026-12-01-aquila.mp4?v=20261111062224",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-4/QA2/tantra-b4-QA2-2026-12-01-aquila.mp4?v=20261111043728",
+      "href": "media/batch-4/QA2/tantra-b4-QA2-2026-12-01-aquila.mp4?v=20261111062224",
       "name": "tantra-b4-QA2-2026-12-01-aquila.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 227655
      },
      {
-      "href": "media/batch-4/QA2/tantra-b4-QA2-2026-12-01-aquila.gif?v=20261111043728",
+      "href": "media/batch-4/QA2/tantra-b4-QA2-2026-12-01-aquila.gif?v=20261111062224",
       "name": "tantra-b4-QA2-2026-12-01-aquila.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -3506,9 +3530,10 @@ window.STUDIO = {
     "files": [
      {
       "label": "PDF",
-      "href": "https://adisuja.github.io/tantra-revops/cold-email-thread/cold-email-thread.pdf"
+      "href": "resources/cold-email-thread/cold-email-thread.pdf"
      }
-    ]
+    ],
+    "preview": "resources/cold-email-thread/"
    },
    "dm": {
     "message": "Hi {first_name}, thanks for commenting THREAD.\n\nHere's the 13-Day Cold Email Thread:\nhttps://adisuja.github.io/tantra-revops/cold-email-thread/\n\nIt's 2 pages: five emails on days 0, 3, 6, 9 and 13, an outcome version and an objection version, and the prompt that fills all five.\n\nWrite email 1 before anything else. The other four are replies to it, so they only work once it does.\n\nWho are you writing the thread for?",
@@ -3543,20 +3568,20 @@ window.STUDIO = {
     "src": "batch-4/QA3",
     "title": "The Sales Call System",
     "files": [
-     "media/batch-4/QA3/poster.jpg?v=20261111043728"
+     "media/batch-4/QA3/poster.jpg?v=20261111062224"
     ],
-    "video": "media/batch-4/QA3/tantra-b4-QA3-2026-12-03-aquila.mp4?v=20261111043728",
+    "video": "media/batch-4/QA3/tantra-b4-QA3-2026-12-03-aquila.mp4?v=20261111062224",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-4/QA3/tantra-b4-QA3-2026-12-03-aquila.mp4?v=20261111043728",
+      "href": "media/batch-4/QA3/tantra-b4-QA3-2026-12-03-aquila.mp4?v=20261111062224",
       "name": "tantra-b4-QA3-2026-12-03-aquila.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 403147
      },
      {
-      "href": "media/batch-4/QA3/tantra-b4-QA3-2026-12-03-aquila.gif?v=20261111043728",
+      "href": "media/batch-4/QA3/tantra-b4-QA3-2026-12-03-aquila.gif?v=20261111062224",
       "name": "tantra-b4-QA3-2026-12-03-aquila.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -3596,9 +3621,10 @@ window.STUDIO = {
     "files": [
      {
       "label": "PDF",
-      "href": "https://adisuja.github.io/tantra-revops/sales-call-system/sales-call-system.pdf"
+      "href": "resources/sales-call-system/sales-call-system.pdf"
      }
-    ]
+    ],
+    "preview": "resources/sales-call-system/"
    },
    "dm": {
     "message": "Hi {first_name}, thanks for commenting CALLS.\n\nHere's the Sales Call System:\nhttps://adisuja.github.io/tantra-revops/sales-call-system/\n\nIt's 2 pages: the path from booking to decision, how to run the first call, the confirmation prompt and the day 7 message.\n\nStart with step 2. Confirming every booked call within 5 minutes is the quickest change to make. If you'd like a walk-through, reply with a time that suits you and we'll go through it on a short call.\n\nWhat happens today in the first hour after someone books?",
@@ -3633,20 +3659,20 @@ window.STUDIO = {
     "src": "batch-4/QA4",
     "title": "The 20-Customer Persona Scorecard",
     "files": [
-     "media/batch-4/QA4/poster.jpg?v=20261111043728"
+     "media/batch-4/QA4/poster.jpg?v=20261111062224"
     ],
-    "video": "media/batch-4/QA4/tantra-b4-QA4-2026-12-08-aquila.mp4?v=20261111043728",
+    "video": "media/batch-4/QA4/tantra-b4-QA4-2026-12-08-aquila.mp4?v=20261111062224",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-4/QA4/tantra-b4-QA4-2026-12-08-aquila.mp4?v=20261111043728",
+      "href": "media/batch-4/QA4/tantra-b4-QA4-2026-12-08-aquila.mp4?v=20261111062224",
       "name": "tantra-b4-QA4-2026-12-08-aquila.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 756872
      },
      {
-      "href": "media/batch-4/QA4/tantra-b4-QA4-2026-12-08-aquila.gif?v=20261111043728",
+      "href": "media/batch-4/QA4/tantra-b4-QA4-2026-12-08-aquila.gif?v=20261111062224",
       "name": "tantra-b4-QA4-2026-12-08-aquila.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -3686,9 +3712,10 @@ window.STUDIO = {
     "files": [
      {
       "label": "PDF",
-      "href": "https://adisuja.github.io/tantra-revops/persona-scorecard/persona-scorecard.pdf"
+      "href": "resources/persona-scorecard/persona-scorecard.pdf"
      }
-    ]
+    ],
+    "preview": "resources/persona-scorecard/"
    },
    "dm": {
     "message": "Hi {first_name}, thanks for commenting BUYER.\n\nHere's the 20-Customer Persona Scorecard:\nhttps://adisuja.github.io/tantra-revops/persona-scorecard/\n\nList your 20 best customers, fill in the traits, keep only what more than half share and write 3 exclusions. The prompt on page 2 turns it into a persona.\n\nStart with the customer list, not the traits. Pick by revenue, retention and how easy they are to serve.\n\nHow many customers do you have to pick from?",
@@ -3723,20 +3750,20 @@ window.STUDIO = {
     "src": "batch-4/QG5",
     "title": "The 7-Day Proposal Follow-Up",
     "files": [
-     "media/batch-4/QG5/poster.jpg?v=20261111043728"
+     "media/batch-4/QG5/poster.jpg?v=20261111062224"
     ],
-    "video": "media/batch-4/QG5/tantra-b4-QG5-2026-11-24-aquila.mp4?v=20261111043728",
+    "video": "media/batch-4/QG5/tantra-b4-QG5-2026-11-24-aquila.mp4?v=20261111062224",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-4/QG5/tantra-b4-QG5-2026-11-24-aquila.mp4?v=20261111043728",
+      "href": "media/batch-4/QG5/tantra-b4-QG5-2026-11-24-aquila.mp4?v=20261111062224",
       "name": "tantra-b4-QG5-2026-11-24-aquila.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 330702
      },
      {
-      "href": "media/batch-4/QG5/tantra-b4-QG5-2026-11-24-aquila.gif?v=20261111043728",
+      "href": "media/batch-4/QG5/tantra-b4-QG5-2026-11-24-aquila.gif?v=20261111062224",
       "name": "tantra-b4-QG5-2026-11-24-aquila.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -3777,9 +3804,10 @@ window.STUDIO = {
     "files": [
      {
       "label": "PDF",
-      "href": "https://adisuja.github.io/tantra-revops/proposal-follow-up/proposal-follow-up.pdf"
+      "href": "resources/proposal-follow-up/proposal-follow-up.pdf"
      }
-    ]
+    ],
+    "preview": "resources/proposal-follow-up/"
    },
    "dm": {
     "message": "Hi {first_name}, thanks for commenting FOLLOWUP.\n\nHere's the 7-Day Proposal Follow-Up:\nhttps://adisuja.github.io/tantra-revops/proposal-follow-up/\n\nIt's 2 pages: the timeline, the three messages ready to copy, the Follow-Up rules and the lost-reason log.\n\nCopy the day 7 message first. It asks for a decision without any pressure.\n\nHow long do your proposals usually sit before a decision?",
@@ -3814,20 +3842,20 @@ window.STUDIO = {
     "src": "batch-4/RA1",
     "title": "The Clean Domain Sending Checklist",
     "files": [
-     "media/batch-4/RA1/poster.jpg?v=20261111043728"
+     "media/batch-4/RA1/poster.jpg?v=20261111062224"
     ],
-    "video": "media/batch-4/RA1/tantra-b4-RA1-2026-11-26-bharath.mp4?v=20261111043728",
+    "video": "media/batch-4/RA1/tantra-b4-RA1-2026-11-26-bharath.mp4?v=20261111062224",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-4/RA1/tantra-b4-RA1-2026-11-26-bharath.mp4?v=20261111043728",
+      "href": "media/batch-4/RA1/tantra-b4-RA1-2026-11-26-bharath.mp4?v=20261111062224",
       "name": "tantra-b4-RA1-2026-11-26-bharath.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 290264
      },
      {
-      "href": "media/batch-4/RA1/tantra-b4-RA1-2026-11-26-bharath.gif?v=20261111043728",
+      "href": "media/batch-4/RA1/tantra-b4-RA1-2026-11-26-bharath.gif?v=20261111062224",
       "name": "tantra-b4-RA1-2026-11-26-bharath.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -3866,9 +3894,10 @@ window.STUDIO = {
     "files": [
      {
       "label": "PDF",
-      "href": "https://adisuja.github.io/tantra-revops/clean-domain-checklist/clean-domain-checklist.pdf"
+      "href": "resources/clean-domain-checklist/clean-domain-checklist.pdf"
      }
-    ]
+    ],
+    "preview": "resources/clean-domain-checklist/"
    },
    "dm": {
     "message": "Hi {first_name}, thanks for commenting DOMAINS.\n\nHere's the Clean Domain Sending Checklist:\nhttps://adisuja.github.io/tantra-revops/clean-domain-checklist/\n\nIt's one page of tick boxes: the look-alike domains, the four DNS records, the two-week warm-up and the sending rules.\n\nDo the domain section today. The warm-up takes two weeks, so that clock should start first.\n\nAre you sending cold email from your main domain today?",
@@ -3903,20 +3932,20 @@ window.STUDIO = {
     "src": "batch-4/RA2",
     "title": "The AI SDR System",
     "files": [
-     "media/batch-4/RA2/poster.jpg?v=20261111043728"
+     "media/batch-4/RA2/poster.jpg?v=20261111062224"
     ],
-    "video": "media/batch-4/RA2/tantra-b4-RA2-2026-12-01-bharath.mp4?v=20261111043728",
+    "video": "media/batch-4/RA2/tantra-b4-RA2-2026-12-01-bharath.mp4?v=20261111062224",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-4/RA2/tantra-b4-RA2-2026-12-01-bharath.mp4?v=20261111043728",
+      "href": "media/batch-4/RA2/tantra-b4-RA2-2026-12-01-bharath.mp4?v=20261111062224",
       "name": "tantra-b4-RA2-2026-12-01-bharath.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 232347
      },
      {
-      "href": "media/batch-4/RA2/tantra-b4-RA2-2026-12-01-bharath.gif?v=20261111043728",
+      "href": "media/batch-4/RA2/tantra-b4-RA2-2026-12-01-bharath.gif?v=20261111062224",
       "name": "tantra-b4-RA2-2026-12-01-bharath.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -3956,9 +3985,10 @@ window.STUDIO = {
     "files": [
      {
       "label": "PDF",
-      "href": "https://adisuja.github.io/tantra-revops/ai-sdr-system/ai-sdr-system.pdf"
+      "href": "resources/ai-sdr-system/ai-sdr-system.pdf"
      }
-    ]
+    ],
+    "preview": "resources/ai-sdr-system/"
    },
    "dm": {
     "message": "Hi {first_name}, thanks for commenting SDR.\n\nHere's the AI SDR System:\nhttps://adisuja.github.io/tantra-revops/ai-sdr-system/\n\nIt's 2 pages: who does what, the Claude setup, the timing for each channel and the two prompts that sort your list and write the first message. It shows you how to set up the six files from the post: brief, fit rules, sort prompt, first message, follow-up timing and approvals.\n\nWrite your fit rules first. Everything the AI does reads from them.\n\nWhat does your SDR team spend the first hours of the day on?",
@@ -3993,20 +4023,20 @@ window.STUDIO = {
     "src": "batch-4/RA3",
     "title": "The Claude Funnel Prompt Pack",
     "files": [
-     "media/batch-4/RA3/poster.jpg?v=20261111043728"
+     "media/batch-4/RA3/poster.jpg?v=20261111062224"
     ],
-    "video": "media/batch-4/RA3/tantra-b4-RA3-2026-12-03-bharath.mp4?v=20261111043728",
+    "video": "media/batch-4/RA3/tantra-b4-RA3-2026-12-03-bharath.mp4?v=20261111062224",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-4/RA3/tantra-b4-RA3-2026-12-03-bharath.mp4?v=20261111043728",
+      "href": "media/batch-4/RA3/tantra-b4-RA3-2026-12-03-bharath.mp4?v=20261111062224",
       "name": "tantra-b4-RA3-2026-12-03-bharath.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 262898
      },
      {
-      "href": "media/batch-4/RA3/tantra-b4-RA3-2026-12-03-bharath.gif?v=20261111043728",
+      "href": "media/batch-4/RA3/tantra-b4-RA3-2026-12-03-bharath.gif?v=20261111062224",
       "name": "tantra-b4-RA3-2026-12-03-bharath.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -4043,9 +4073,10 @@ window.STUDIO = {
     "files": [
      {
       "label": "PDF",
-      "href": "https://adisuja.github.io/tantra-revops/claude-funnel-prompt-pack/claude-funnel-prompt-pack.pdf"
+      "href": "resources/claude-funnel-prompt-pack/claude-funnel-prompt-pack.pdf"
      }
-    ]
+    ],
+    "preview": "resources/claude-funnel-prompt-pack/"
    },
    "dm": {
     "message": "Hi {first_name}, thanks for commenting PROMPTS.\n\nHere's the Claude Funnel Prompt Pack:\nhttps://adisuja.github.io/tantra-revops/claude-funnel-prompt-pack/\n\nSeven prompts to copy and paste: the setup prompt, then one for each funnel stage, from traffic to long-term nurture.\n\nPaste the setup prompt first and fill in your brief. Every other prompt reads from it.\n\nWhich part of your funnel are you building first?",
@@ -4080,20 +4111,20 @@ window.STUDIO = {
     "src": "batch-4/RA4",
     "title": "The 9-Block Registration Page Blueprint",
     "files": [
-     "media/batch-4/RA4/poster.jpg?v=20261111043728"
+     "media/batch-4/RA4/poster.jpg?v=20261111062224"
     ],
-    "video": "media/batch-4/RA4/tantra-b4-RA4-2026-12-08-bharath.mp4?v=20261111043728",
+    "video": "media/batch-4/RA4/tantra-b4-RA4-2026-12-08-bharath.mp4?v=20261111062224",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-4/RA4/tantra-b4-RA4-2026-12-08-bharath.mp4?v=20261111043728",
+      "href": "media/batch-4/RA4/tantra-b4-RA4-2026-12-08-bharath.mp4?v=20261111062224",
       "name": "tantra-b4-RA4-2026-12-08-bharath.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 336335
      },
      {
-      "href": "media/batch-4/RA4/tantra-b4-RA4-2026-12-08-bharath.gif?v=20261111043728",
+      "href": "media/batch-4/RA4/tantra-b4-RA4-2026-12-08-bharath.gif?v=20261111062224",
       "name": "tantra-b4-RA4-2026-12-08-bharath.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -4132,9 +4163,10 @@ window.STUDIO = {
     "files": [
      {
       "label": "PDF",
-      "href": "https://adisuja.github.io/tantra-revops/registration-page-blueprint/registration-page-blueprint.pdf"
+      "href": "resources/registration-page-blueprint/registration-page-blueprint.pdf"
      }
-    ]
+    ],
+    "preview": "resources/registration-page-blueprint/"
    },
    "dm": {
     "message": "Hi {first_name}, thanks for commenting PAGE.\n\nHere's the 9-Block Registration Page Blueprint:\nhttps://adisuja.github.io/tantra-revops/registration-page-blueprint/\n\nIt's 2 pages: the nine blocks in order, the job of each one, the above-the-fold check and the prompt that drafts your page.\n\nOpen your current page on a laptop and run the check on page 2 before you rewrite anything.\n\nWhat are you running the page for?",
@@ -4169,20 +4201,20 @@ window.STUDIO = {
     "src": "batch-4/RG6",
     "title": "The Segment Map",
     "files": [
-     "media/batch-4/RG6/poster.jpg?v=20261111043728"
+     "media/batch-4/RG6/poster.jpg?v=20261111062224"
     ],
-    "video": "media/batch-4/RG6/tantra-b4-RG6-2026-11-24-bharath.mp4?v=20261111043728",
+    "video": "media/batch-4/RG6/tantra-b4-RG6-2026-11-24-bharath.mp4?v=20261111062224",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-4/RG6/tantra-b4-RG6-2026-11-24-bharath.mp4?v=20261111043728",
+      "href": "media/batch-4/RG6/tantra-b4-RG6-2026-11-24-bharath.mp4?v=20261111062224",
       "name": "tantra-b4-RG6-2026-11-24-bharath.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 639220
      },
      {
-      "href": "media/batch-4/RG6/tantra-b4-RG6-2026-11-24-bharath.gif?v=20261111043728",
+      "href": "media/batch-4/RG6/tantra-b4-RG6-2026-11-24-bharath.gif?v=20261111062224",
       "name": "tantra-b4-RG6-2026-11-24-bharath.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -4222,9 +4254,10 @@ window.STUDIO = {
     "files": [
      {
       "label": "PDF",
-      "href": "https://adisuja.github.io/tantra-revops/segment-map/segment-map.pdf"
+      "href": "resources/segment-map/segment-map.pdf"
      }
-    ]
+    ],
+    "preview": "resources/segment-map/"
    },
    "dm": {
     "message": "Hi {first_name}, thanks for commenting SEGMENT.\n\nHere's the Segment Map:\nhttps://adisuja.github.io/tantra-revops/segment-map/\n\nIt's 2 pages: the five steps, a segment map to fill in, the prompt that sorts your list and the prompt that writes one invite per segment.\n\nFill in the segment map on page 1 before you run any prompt. Five or six segments is plenty to start.\n\nHow many segments does your list break into?",
