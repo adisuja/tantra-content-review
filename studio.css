@@ -151,3 +151,21 @@ details.info .vcopy{margin:4px 0 0;padding-left:18px}details.info .vcopy li{marg
 .dl.res .msgh .btn{padding:4px 12px;font-size:11.5px}
 .dl.res .msg pre{margin:0;padding:10px;font:inherit;font-size:12px;line-height:1.5;white-space:pre-wrap;word-break:break-word;max-height:230px;overflow:auto}
 .dl.res .msg .dlm{padding:0 10px 8px}
+
+/* team comments (phone and list) */
+.li-cm+.li-cm{margin-top:8px}
+.li-cm.li-rep{margin-left:40px}
+.li-cm-more{font-size:12.5px;font-weight:600;color:rgba(0,0,0,.6);padding:10px 0 2px}
+.tcm details>summary{cursor:pointer;list-style:none}
+.tcm details>summary::-webkit-details-marker{display:none}
+.tcm details>summary b::after{content:" ▸";color:#8a8a8a}
+.tcm details[open]>summary b::after{content:" ▾"}
+.tc{display:flex;gap:8px;padding:8px 0;border-top:1px solid #efede8}
+.tc.rep{margin-left:28px}
+.tcb{flex:1;min-width:0}
+.tch{display:flex;align-items:center;gap:6px;flex-wrap:wrap;font-size:12.5px}
+.tch .btn{margin-left:auto;padding:3px 10px;font-size:11px}
+.tcr{color:#6b6b6b;font-size:11.5px}
+.tct{font-size:10.5px;font-weight:700;letter-spacing:.02em;padding:2px 7px;border-radius:999px;background:#eef1f6;color:#3b4a63}
+.tct.positive{background:#e7f4ec;color:#1f6b3d}.tct.feedback{background:#fdf1e3;color:#8a4b0f}.tct.question{background:#eef1f6;color:#3b4a63}.tct.differs{background:#f6e9ef;color:#8a2450}
+.tcx{font-size:12.5px;line-height:1.5;margin-top:4px;white-space:normal;word-break:break-word}

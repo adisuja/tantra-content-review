@@ -110,7 +110,10 @@
   function commentHtml(p, pr) {
     if (!p.first_comment) return "";
     const txt = C.rich(p.first_comment, "li-link").replace(/\n/g, "<br>");
-    return `<div class="li-cmts"><div class="li-cm-sort">Most relevant ▾</div><div class="li-cm">${avatar(pr, 32)}<div class="li-cm-b"><div class="li-cm-bubble"><div class="li-cm-n">${esc(pr.name)} <span class="li-auth">Author</span></div><div class="li-cm-h">${esc(pr.headline || "")}</div><div class="li-cm-t">${txt}</div></div><div class="li-cm-a">Like · Reply</div></div></div></div>`;
+    const tc = p.team_comments || [], shown = tc.slice(0, 3);
+    const one = (c) => { const cp = prof(c.by) || { name: c.by }, isA = c.by === p.profile;
+      return `<div class="li-cm${c.reply_to != null ? " li-rep" : ""}">${avatar(cp, c.reply_to != null ? 24 : 32)}<div class="li-cm-b"><div class="li-cm-bubble"><div class="li-cm-n">${esc(cp.name)}${isA ? ' <span class="li-auth">Author</span>' : ' <span class="li-deg">· 1st</span>'}</div><div class="li-cm-h">${esc(cp.headline || "")}</div><div class="li-cm-t">${C.rich(c.text, "li-link").replace(/\n/g, "<br>")}</div></div><div class="li-cm-a">Like · Reply</div></div></div>`; };
+    return `<div class="li-cmts"><div class="li-cm-sort">Most relevant ▾</div><div class="li-cm">${avatar(pr, 32)}<div class="li-cm-b"><div class="li-cm-bubble"><div class="li-cm-n">${esc(pr.name)} <span class="li-auth">Author</span></div><div class="li-cm-h">${esc(pr.headline || "")}</div><div class="li-cm-t">${txt}</div></div><div class="li-cm-a">Like · Reply</div></div></div>${shown.map(one).join("")}${tc.length > shown.length ? `<div class="li-cm-more">Load more comments (${tc.length - shown.length})</div>` : ""}</div>`;
   }
   function screen(p) {
     const pr = prof(p.profile), I = LI_I(), isCo = pr.kind === "company";
@@ -139,7 +142,7 @@
         <div class="crow">${fmt}${cta}${wip}</div><div class="cidea">${esc(p.idea || "")}</div></header>
       ${isX ? C.phone(window.XV.screen(p, prof(p.profile)), "x") : C.phone(screen(p), "linkedin")}
       <section class="rev" data-rev="${esc(p.key)}">${revHtml(p.key)}</section>
-      ${dlHtml(p)}${resHtml(p)}
+      ${dlHtml(p)}${resHtml(p)}${teamHtml(p)}
       <details class="info"><summary>Sample, template, first comment and sources</summary><dl>
         <dt>Sample matched</dt><dd><b>${esc(smp.id || "")}</b> · ${esc(smp.creator || "")}${smp.url ? ` · <a href="${esc(smp.url)}" target="_blank" rel="noopener">view original post</a>` : ""}<br>${esc(smp.what || "")}${smp.thumb ? `<img class="sthumb" src="${esc(smp.thumb)}" data-lb="${esc(smp.thumb)}" data-lb-caption="Sample ${esc(smp.id || "")}">` : ""}</dd>
         <dt>Copy template</dt><dd>${esc(p.copy_basis || "")}</dd>
@@ -178,6 +181,15 @@
   const PLKEY = (p) => "studio-postlink-" + p.key;
   const dmText = (p, k) => { const d = p.dm || {}, link = (localStorage.getItem(PLKEY(p)) || "").trim();
     const t = k === "email" ? `Subject: ${d.email_subject}\n\n${d.email_body}` : d[k] || ""; return link ? t.split("[POST LINK]").join(link) : t; };
+  /* Team comments (Adi, 2026-11-11: cardinal rule): ten per post, from the team, each posted by that person from their own profile. */
+  const TONE = { positive: "Positive", feedback: "Feedback", question: "Question", differs: "Different view" };
+  function teamHtml(p) {
+    const tc = p.team_comments || [];
+    if (!tc.length) return `<section class="dl res tcm"><div class="resh"><b>Team comments</b><span>Not written yet</span></div></section>`;
+    const row = (c, i) => { const cp = prof(c.by) || { name: c.by }, to = c.reply_to != null ? tc[c.reply_to] : null;
+      return `<div class="tc${to ? " rep" : ""}">${avatar(cp, 28)}<div class="tcb"><div class="tch"><b>${esc(cp.name)}</b>${to ? `<span class="tcr">replying to ${esc((prof(to.by) || { name: to.by }).name.split(" ")[0])}</span>` : ""}<span class="tct ${esc(c.tone || "")}">${esc(TONE[c.tone] || "")}</span><button class="btn ghost" data-copyc="${i}">Copy</button></div><div class="tcx">${esc(c.text).replace(/\n/g, "<br>")}</div></div></div>`; };
+    return `<section class="dl res tcm"><details><summary class="resh"><b>Team comments · ${tc.length}</b><span>Each person posts their own from their profile, in the first hour</span></summary>${tc.map(row).join("")}</details></section>`;
+  }
   function resHtml(p) {
     const r = p.resource || {}, d = p.dm;
     if (!r.url) return "";
@@ -293,6 +305,12 @@
       if (!text) { cardEl.querySelector("[data-fb]").focus(); return; }
       add({ post: cardEl.dataset.id, kind: "comment", name, text });
       cardEl.querySelector("[data-fb]").value = ""; saveDraft(cardEl.dataset.id, ""); refreshReviews(); C.toast("Feedback stored, confirming with the shared sheet…"); return;
+    }
+    const cc = e.target.closest("[data-copyc]");
+    if (cc) {
+      const p = S.posts.find((x) => x.key === cc.closest(".pcard").dataset.id);
+      copyText(p.team_comments[+cc.dataset.copyc].text).then(() => { cc.dataset.label = cc.dataset.label || cc.textContent; cc.textContent = "✓ Copied"; cc.classList.add("done"); clearTimeout(cc._t); cc._t = setTimeout(() => { cc.textContent = cc.dataset.label; cc.classList.remove("done"); }, 1800); C.toast("Comment copied"); }, () => C.toast("Copy blocked by the browser. Select the text instead."));
+      return;
     }
     const cm = e.target.closest("[data-copym]");
     if (cm) {
