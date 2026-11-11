@@ -46,7 +46,7 @@ window.STUDIO = {
   {
    "id": "4",
    "title": "Batch 4 · Team giveaways",
-   "dates": "Tue 24 Nov to Thu 3 Dec 2026",
+   "dates": "Tue 24 Nov to Tue 8 Dec 2026",
    "cta_label": "Workshop CTA",
    "cta": {
     "kind": "event",
@@ -72,7 +72,7 @@ window.STUDIO = {
    "time": "08:30",
    "linkedin": "https://www.linkedin.com/in/adisuja/",
    "avatar_ok": true,
-   "avatar": "media/avatars/adi.jpg?v=20261111035950"
+   "avatar": "media/avatars/adi.jpg?v=20261111043728"
   },
   {
    "id": "tantra",
@@ -84,7 +84,7 @@ window.STUDIO = {
    "tz_label": "ET",
    "time": "10:30",
    "avatar_ok": true,
-   "avatar": "media/avatars/tantra.jpg?v=20261111035950"
+   "avatar": "media/avatars/tantra.jpg?v=20261111043728"
   },
   {
    "id": "nelbin",
@@ -182,10 +182,10 @@ window.STUDIO = {
     "title": "Adithya Murali walking alone down an empty street, black and white",
     "tall": false,
     "files": [
-     "media/batch-1/A1/image.jpg?v=20261111035950"
+     "media/batch-1/A1/image.jpg?v=20261111043728"
     ],
     "download": {
-     "href": "media/batch-1/A1/tantra-b1-A1-2026-10-26-adi.png?v=20261111035950",
+     "href": "media/batch-1/A1/tantra-b1-A1-2026-10-26-adi.png?v=20261111043728",
      "name": "tantra-b1-A1-2026-10-26-adi.png",
      "ext": "png",
      "bytes": 934557,
@@ -232,19 +232,19 @@ window.STUDIO = {
     "src": "batch-1/A2",
     "title": "The 8 decisions every page, email and invite depends on",
     "files": [
-     "media/batch-1/A2/p01.jpg?v=20261111035950",
-     "media/batch-1/A2/p02.jpg?v=20261111035950",
-     "media/batch-1/A2/p03.jpg?v=20261111035950",
-     "media/batch-1/A2/p04.jpg?v=20261111035950",
-     "media/batch-1/A2/p05.jpg?v=20261111035950",
-     "media/batch-1/A2/p06.jpg?v=20261111035950",
-     "media/batch-1/A2/p07.jpg?v=20261111035950",
-     "media/batch-1/A2/p08.jpg?v=20261111035950",
-     "media/batch-1/A2/p09.jpg?v=20261111035950",
-     "media/batch-1/A2/p10.jpg?v=20261111035950"
+     "media/batch-1/A2/p01.jpg?v=20261111043728",
+     "media/batch-1/A2/p02.jpg?v=20261111043728",
+     "media/batch-1/A2/p03.jpg?v=20261111043728",
+     "media/batch-1/A2/p04.jpg?v=20261111043728",
+     "media/batch-1/A2/p05.jpg?v=20261111043728",
+     "media/batch-1/A2/p06.jpg?v=20261111043728",
+     "media/batch-1/A2/p07.jpg?v=20261111043728",
+     "media/batch-1/A2/p08.jpg?v=20261111043728",
+     "media/batch-1/A2/p09.jpg?v=20261111043728",
+     "media/batch-1/A2/p10.jpg?v=20261111043728"
     ],
     "download": {
-     "href": "media/batch-1/A2/tantra-b1-A2-2026-10-27-adi.pdf?v=20261111035950",
+     "href": "media/batch-1/A2/tantra-b1-A2-2026-10-27-adi.pdf?v=20261111043728",
      "name": "tantra-b1-A2-2026-10-27-adi.pdf",
      "ext": "pdf",
      "bytes": 1839450,
@@ -290,19 +290,19 @@ window.STUDIO = {
     "src": "batch-1/A3",
     "title": "LinkedIn capped us at 100 invites a week",
     "files": [
-     "media/batch-1/A3/p01.jpg?v=20261111035950",
-     "media/batch-1/A3/p02.jpg?v=20261111035950",
-     "media/batch-1/A3/p03.jpg?v=20261111035950",
-     "media/batch-1/A3/p04.jpg?v=20261111035950",
-     "media/batch-1/A3/p05.jpg?v=20261111035950",
-     "media/batch-1/A3/p06.jpg?v=20261111035950",
-     "media/batch-1/A3/p07.jpg?v=20261111035950",
-     "media/batch-1/A3/p08.jpg?v=20261111035950",
-     "media/batch-1/A3/p09.jpg?v=20261111035950",
-     "media/batch-1/A3/p10.jpg?v=20261111035950"
+     "media/batch-1/A3/p01.jpg?v=20261111043728",
+     "media/batch-1/A3/p02.jpg?v=20261111043728",
+     "media/batch-1/A3/p03.jpg?v=20261111043728",
+     "media/batch-1/A3/p04.jpg?v=20261111043728",
+     "media/batch-1/A3/p05.jpg?v=20261111043728",
+     "media/batch-1/A3/p06.jpg?v=20261111043728",
+     "media/batch-1/A3/p07.jpg?v=20261111043728",
+     "media/batch-1/A3/p08.jpg?v=20261111043728",
+     "media/batch-1/A3/p09.jpg?v=20261111043728",
+     "media/batch-1/A3/p10.jpg?v=20261111043728"
     ],
     "download": {
-     "href": "media/batch-1/A3/tantra-b1-A3-2026-10-28-adi.pdf?v=20261111035950",
+     "href": "media/batch-1/A3/tantra-b1-A3-2026-10-28-adi.pdf?v=20261111043728",
      "name": "tantra-b1-A3-2026-10-28-adi.pdf",
      "ext": "pdf",
      "bytes": 10241254,
@@ -351,17 +351,17 @@ window.STUDIO = {
     "src": "batch-1/A4",
     "title": "One live session, 98,000 calendar invites",
     "files": [
-     "media/batch-1/A4/p01.jpg?v=20261111035950",
-     "media/batch-1/A4/p02.jpg?v=20261111035950",
-     "media/batch-1/A4/p03.jpg?v=20261111035950",
-     "media/batch-1/A4/p04.jpg?v=20261111035950",
-     "media/batch-1/A4/p05.jpg?v=20261111035950",
-     "media/batch-1/A4/p06.jpg?v=20261111035950",
-     "media/batch-1/A4/p07.jpg?v=20261111035950",
-     "media/batch-1/A4/p08.jpg?v=20261111035950"
+     "media/batch-1/A4/p01.jpg?v=20261111043728",
+     "media/batch-1/A4/p02.jpg?v=20261111043728",
+     "media/batch-1/A4/p03.jpg?v=20261111043728",
+     "media/batch-1/A4/p04.jpg?v=20261111043728",
+     "media/batch-1/A4/p05.jpg?v=20261111043728",
+     "media/batch-1/A4/p06.jpg?v=20261111043728",
+     "media/batch-1/A4/p07.jpg?v=20261111043728",
+     "media/batch-1/A4/p08.jpg?v=20261111043728"
     ],
     "download": {
-     "href": "media/batch-1/A4/tantra-b1-A4-2026-10-29-adi.pdf?v=20261111035950",
+     "href": "media/batch-1/A4/tantra-b1-A4-2026-10-29-adi.pdf?v=20261111043728",
      "name": "tantra-b1-A4-2026-10-29-adi.pdf",
      "ext": "pdf",
      "bytes": 4774619,
@@ -414,10 +414,10 @@ window.STUDIO = {
     "title": "Quote: 'Wow, I wouldn't have written them myself.'",
     "tall": false,
     "files": [
-     "media/batch-1/A5/image.jpg?v=20261111035950"
+     "media/batch-1/A5/image.jpg?v=20261111043728"
     ],
     "download": {
-     "href": "media/batch-1/A5/tantra-b1-A5-2026-10-30-adi.png?v=20261111035950",
+     "href": "media/batch-1/A5/tantra-b1-A5-2026-10-30-adi.png?v=20261111043728",
      "name": "tantra-b1-A5-2026-10-30-adi.png",
      "ext": "png",
      "bytes": 411865,
@@ -466,19 +466,19 @@ window.STUDIO = {
     "src": "batch-2/T1",
     "title": "Old way vs new way: the leak between marketing and sales",
     "files": [
-     "media/batch-2/T1/p01.jpg?v=20261111035950",
-     "media/batch-2/T1/p02.jpg?v=20261111035950",
-     "media/batch-2/T1/p03.jpg?v=20261111035950",
-     "media/batch-2/T1/p04.jpg?v=20261111035950",
-     "media/batch-2/T1/p05.jpg?v=20261111035950",
-     "media/batch-2/T1/p06.jpg?v=20261111035950",
-     "media/batch-2/T1/p07.jpg?v=20261111035950",
-     "media/batch-2/T1/p08.jpg?v=20261111035950",
-     "media/batch-2/T1/p09.jpg?v=20261111035950",
-     "media/batch-2/T1/p10.jpg?v=20261111035950"
+     "media/batch-2/T1/p01.jpg?v=20261111043728",
+     "media/batch-2/T1/p02.jpg?v=20261111043728",
+     "media/batch-2/T1/p03.jpg?v=20261111043728",
+     "media/batch-2/T1/p04.jpg?v=20261111043728",
+     "media/batch-2/T1/p05.jpg?v=20261111043728",
+     "media/batch-2/T1/p06.jpg?v=20261111043728",
+     "media/batch-2/T1/p07.jpg?v=20261111043728",
+     "media/batch-2/T1/p08.jpg?v=20261111043728",
+     "media/batch-2/T1/p09.jpg?v=20261111043728",
+     "media/batch-2/T1/p10.jpg?v=20261111043728"
     ],
     "download": {
-     "href": "media/batch-2/T1/tantra-b2-T1-2026-10-27-tantra.pdf?v=20261111035950",
+     "href": "media/batch-2/T1/tantra-b2-T1-2026-10-27-tantra.pdf?v=20261111043728",
      "name": "tantra-b2-T1-2026-10-27-tantra.pdf",
      "ext": "pdf",
      "bytes": 4429940,
@@ -529,10 +529,10 @@ window.STUDIO = {
     "title": "Six stages, four layers: the map of a revenue engine",
     "tall": false,
     "files": [
-     "media/batch-2/T10/image.jpg?v=20261111035950"
+     "media/batch-2/T10/image.jpg?v=20261111043728"
     ],
     "download": {
-     "href": "media/batch-2/T10/tantra-b2-T10-2026-10-26-tantra.png?v=20261111035950",
+     "href": "media/batch-2/T10/tantra-b2-T10-2026-10-26-tantra.png?v=20261111043728",
      "name": "tantra-b2-T10-2026-10-26-tantra.png",
      "ext": "png",
      "bytes": 384713,
@@ -581,17 +581,17 @@ window.STUDIO = {
     "src": "batch-2/T2",
     "title": "Webinar, challenge or reverse squeeze: pick by belief",
     "files": [
-     "media/batch-2/T2/p01.jpg?v=20261111035950",
-     "media/batch-2/T2/p02.jpg?v=20261111035950",
-     "media/batch-2/T2/p03.jpg?v=20261111035950",
-     "media/batch-2/T2/p04.jpg?v=20261111035950",
-     "media/batch-2/T2/p05.jpg?v=20261111035950",
-     "media/batch-2/T2/p06.jpg?v=20261111035950",
-     "media/batch-2/T2/p07.jpg?v=20261111035950",
-     "media/batch-2/T2/p08.jpg?v=20261111035950"
+     "media/batch-2/T2/p01.jpg?v=20261111043728",
+     "media/batch-2/T2/p02.jpg?v=20261111043728",
+     "media/batch-2/T2/p03.jpg?v=20261111043728",
+     "media/batch-2/T2/p04.jpg?v=20261111043728",
+     "media/batch-2/T2/p05.jpg?v=20261111043728",
+     "media/batch-2/T2/p06.jpg?v=20261111043728",
+     "media/batch-2/T2/p07.jpg?v=20261111043728",
+     "media/batch-2/T2/p08.jpg?v=20261111043728"
     ],
     "download": {
-     "href": "media/batch-2/T2/tantra-b2-T2-2026-10-29-tantra.pdf?v=20261111035950",
+     "href": "media/batch-2/T2/tantra-b2-T2-2026-10-29-tantra.pdf?v=20261111043728",
      "name": "tantra-b2-T2-2026-10-29-tantra.pdf",
      "ext": "pdf",
      "bytes": 6189087,
@@ -641,18 +641,18 @@ window.STUDIO = {
     "src": "batch-2/T3",
     "title": "13 messages: 6 get them in the room, 7 follow up",
     "files": [
-     "media/batch-2/T3/p01.jpg?v=20261111035950",
-     "media/batch-2/T3/p02.jpg?v=20261111035950",
-     "media/batch-2/T3/p03.jpg?v=20261111035950",
-     "media/batch-2/T3/p04.jpg?v=20261111035950",
-     "media/batch-2/T3/p05.jpg?v=20261111035950",
-     "media/batch-2/T3/p06.jpg?v=20261111035950",
-     "media/batch-2/T3/p07.jpg?v=20261111035950",
-     "media/batch-2/T3/p08.jpg?v=20261111035950",
-     "media/batch-2/T3/p09.jpg?v=20261111035950"
+     "media/batch-2/T3/p01.jpg?v=20261111043728",
+     "media/batch-2/T3/p02.jpg?v=20261111043728",
+     "media/batch-2/T3/p03.jpg?v=20261111043728",
+     "media/batch-2/T3/p04.jpg?v=20261111043728",
+     "media/batch-2/T3/p05.jpg?v=20261111043728",
+     "media/batch-2/T3/p06.jpg?v=20261111043728",
+     "media/batch-2/T3/p07.jpg?v=20261111043728",
+     "media/batch-2/T3/p08.jpg?v=20261111043728",
+     "media/batch-2/T3/p09.jpg?v=20261111043728"
     ],
     "download": {
-     "href": "media/batch-2/T3/tantra-b2-T3-2026-11-02-tantra.pdf?v=20261111035950",
+     "href": "media/batch-2/T3/tantra-b2-T3-2026-11-02-tantra.pdf?v=20261111043728",
      "name": "tantra-b2-T3-2026-11-02-tantra.pdf",
      "ext": "pdf",
      "bytes": 1719797,
@@ -702,17 +702,17 @@ window.STUDIO = {
     "src": "batch-2/T4",
     "title": "Stop, fix or scale: the weekly channel check",
     "files": [
-     "media/batch-2/T4/p01.jpg?v=20261111035950",
-     "media/batch-2/T4/p02.jpg?v=20261111035950",
-     "media/batch-2/T4/p03.jpg?v=20261111035950",
-     "media/batch-2/T4/p04.jpg?v=20261111035950",
-     "media/batch-2/T4/p05.jpg?v=20261111035950",
-     "media/batch-2/T4/p06.jpg?v=20261111035950",
-     "media/batch-2/T4/p07.jpg?v=20261111035950",
-     "media/batch-2/T4/p08.jpg?v=20261111035950"
+     "media/batch-2/T4/p01.jpg?v=20261111043728",
+     "media/batch-2/T4/p02.jpg?v=20261111043728",
+     "media/batch-2/T4/p03.jpg?v=20261111043728",
+     "media/batch-2/T4/p04.jpg?v=20261111043728",
+     "media/batch-2/T4/p05.jpg?v=20261111043728",
+     "media/batch-2/T4/p06.jpg?v=20261111043728",
+     "media/batch-2/T4/p07.jpg?v=20261111043728",
+     "media/batch-2/T4/p08.jpg?v=20261111043728"
     ],
     "download": {
-     "href": "media/batch-2/T4/tantra-b2-T4-2026-11-04-tantra.pdf?v=20261111035950",
+     "href": "media/batch-2/T4/tantra-b2-T4-2026-11-04-tantra.pdf?v=20261111043728",
      "name": "tantra-b2-T4-2026-11-04-tantra.pdf",
      "ext": "pdf",
      "bytes": 1205777,
@@ -762,17 +762,17 @@ window.STUDIO = {
     "src": "batch-2/T5",
     "title": "Find the one step that leaks your funnel",
     "files": [
-     "media/batch-2/T5/p01.jpg?v=20261111035950",
-     "media/batch-2/T5/p02.jpg?v=20261111035950",
-     "media/batch-2/T5/p03.jpg?v=20261111035950",
-     "media/batch-2/T5/p04.jpg?v=20261111035950",
-     "media/batch-2/T5/p05.jpg?v=20261111035950",
-     "media/batch-2/T5/p06.jpg?v=20261111035950",
-     "media/batch-2/T5/p07.jpg?v=20261111035950",
-     "media/batch-2/T5/p08.jpg?v=20261111035950"
+     "media/batch-2/T5/p01.jpg?v=20261111043728",
+     "media/batch-2/T5/p02.jpg?v=20261111043728",
+     "media/batch-2/T5/p03.jpg?v=20261111043728",
+     "media/batch-2/T5/p04.jpg?v=20261111043728",
+     "media/batch-2/T5/p05.jpg?v=20261111043728",
+     "media/batch-2/T5/p06.jpg?v=20261111043728",
+     "media/batch-2/T5/p07.jpg?v=20261111043728",
+     "media/batch-2/T5/p08.jpg?v=20261111043728"
     ],
     "download": {
-     "href": "media/batch-2/T5/tantra-b2-T5-2026-11-05-tantra.pdf?v=20261111035950",
+     "href": "media/batch-2/T5/tantra-b2-T5-2026-11-05-tantra.pdf?v=20261111043728",
      "name": "tantra-b2-T5-2026-11-05-tantra.pdf",
      "ext": "pdf",
      "bytes": 4172544,
@@ -823,18 +823,18 @@ window.STUDIO = {
     "src": "batch-2/T6",
     "title": "Six guardrails for an AI agent that runs your funnel",
     "files": [
-     "media/batch-2/T6/p01.jpg?v=20261111035950",
-     "media/batch-2/T6/p02.jpg?v=20261111035950",
-     "media/batch-2/T6/p03.jpg?v=20261111035950",
-     "media/batch-2/T6/p04.jpg?v=20261111035950",
-     "media/batch-2/T6/p05.jpg?v=20261111035950",
-     "media/batch-2/T6/p06.jpg?v=20261111035950",
-     "media/batch-2/T6/p07.jpg?v=20261111035950",
-     "media/batch-2/T6/p08.jpg?v=20261111035950",
-     "media/batch-2/T6/p09.jpg?v=20261111035950"
+     "media/batch-2/T6/p01.jpg?v=20261111043728",
+     "media/batch-2/T6/p02.jpg?v=20261111043728",
+     "media/batch-2/T6/p03.jpg?v=20261111043728",
+     "media/batch-2/T6/p04.jpg?v=20261111043728",
+     "media/batch-2/T6/p05.jpg?v=20261111043728",
+     "media/batch-2/T6/p06.jpg?v=20261111043728",
+     "media/batch-2/T6/p07.jpg?v=20261111043728",
+     "media/batch-2/T6/p08.jpg?v=20261111043728",
+     "media/batch-2/T6/p09.jpg?v=20261111043728"
     ],
     "download": {
-     "href": "media/batch-2/T6/tantra-b2-T6-2026-11-06-tantra.pdf?v=20261111035950",
+     "href": "media/batch-2/T6/tantra-b2-T6-2026-11-06-tantra.pdf?v=20261111043728",
      "name": "tantra-b2-T6-2026-11-06-tantra.pdf",
      "ext": "pdf",
      "bytes": 2101753,
@@ -885,10 +885,10 @@ window.STUDIO = {
     "title": "The offer sentence, slot by slot",
     "tall": false,
     "files": [
-     "media/batch-2/T7/image.jpg?v=20261111035950"
+     "media/batch-2/T7/image.jpg?v=20261111043728"
     ],
     "download": {
-     "href": "media/batch-2/T7/tantra-b2-T7-2026-10-28-tantra.png?v=20261111035950",
+     "href": "media/batch-2/T7/tantra-b2-T7-2026-10-28-tantra.png?v=20261111043728",
      "name": "tantra-b2-T7-2026-10-28-tantra.png",
      "ext": "png",
      "bytes": 390264,
@@ -939,10 +939,10 @@ window.STUDIO = {
     "title": "Size your list backwards from revenue",
     "tall": false,
     "files": [
-     "media/batch-2/T8/image.jpg?v=20261111035950"
+     "media/batch-2/T8/image.jpg?v=20261111043728"
     ],
     "download": {
-     "href": "media/batch-2/T8/tantra-b2-T8-2026-10-30-tantra.png?v=20261111035950",
+     "href": "media/batch-2/T8/tantra-b2-T8-2026-10-30-tantra.png?v=20261111043728",
      "name": "tantra-b2-T8-2026-10-30-tantra.png",
      "ext": "png",
      "bytes": 327529,
@@ -992,10 +992,10 @@ window.STUDIO = {
     "title": "Score every application before anyone gets on a call",
     "tall": false,
     "files": [
-     "media/batch-2/T9/image.jpg?v=20261111035950"
+     "media/batch-2/T9/image.jpg?v=20261111043728"
     ],
     "download": {
-     "href": "media/batch-2/T9/tantra-b2-T9-2026-11-03-tantra.png?v=20261111035950",
+     "href": "media/batch-2/T9/tantra-b2-T9-2026-11-03-tantra.png?v=20261111043728",
      "name": "tantra-b2-T9-2026-11-03-tantra.png",
      "ext": "png",
      "bytes": 1168748,
@@ -1045,19 +1045,19 @@ window.STUDIO = {
     "src": "batch-3/AC1",
     "title": "11 webinars in 9 slides",
     "files": [
-     "media/batch-3/AC1/p01.jpg?v=20261111035950",
-     "media/batch-3/AC1/p02.jpg?v=20261111035950",
-     "media/batch-3/AC1/p03.jpg?v=20261111035950",
-     "media/batch-3/AC1/p04.jpg?v=20261111035950",
-     "media/batch-3/AC1/p05.jpg?v=20261111035950",
-     "media/batch-3/AC1/p06.jpg?v=20261111035950",
-     "media/batch-3/AC1/p07.jpg?v=20261111035950",
-     "media/batch-3/AC1/p08.jpg?v=20261111035950",
-     "media/batch-3/AC1/p09.jpg?v=20261111035950",
-     "media/batch-3/AC1/p10.jpg?v=20261111035950"
+     "media/batch-3/AC1/p01.jpg?v=20261111043728",
+     "media/batch-3/AC1/p02.jpg?v=20261111043728",
+     "media/batch-3/AC1/p03.jpg?v=20261111043728",
+     "media/batch-3/AC1/p04.jpg?v=20261111043728",
+     "media/batch-3/AC1/p05.jpg?v=20261111043728",
+     "media/batch-3/AC1/p06.jpg?v=20261111043728",
+     "media/batch-3/AC1/p07.jpg?v=20261111043728",
+     "media/batch-3/AC1/p08.jpg?v=20261111043728",
+     "media/batch-3/AC1/p09.jpg?v=20261111043728",
+     "media/batch-3/AC1/p10.jpg?v=20261111043728"
     ],
     "download": {
-     "href": "media/batch-3/AC1/tantra-b3-AC1-2026-11-17-adi.pdf?v=20261111035950",
+     "href": "media/batch-3/AC1/tantra-b3-AC1-2026-11-17-adi.pdf?v=20261111043728",
      "name": "tantra-b3-AC1-2026-11-17-adi.pdf",
      "ext": "pdf",
      "bytes": 17345036,
@@ -1122,17 +1122,17 @@ window.STUDIO = {
     "src": "batch-3/AC3",
     "title": "The old way vs the new way of filling a pipeline",
     "files": [
-     "media/batch-3/AC3/p01.jpg?v=20261111035950",
-     "media/batch-3/AC3/p02.jpg?v=20261111035950",
-     "media/batch-3/AC3/p03.jpg?v=20261111035950",
-     "media/batch-3/AC3/p04.jpg?v=20261111035950",
-     "media/batch-3/AC3/p05.jpg?v=20261111035950",
-     "media/batch-3/AC3/p06.jpg?v=20261111035950",
-     "media/batch-3/AC3/p07.jpg?v=20261111035950",
-     "media/batch-3/AC3/p08.jpg?v=20261111035950"
+     "media/batch-3/AC3/p01.jpg?v=20261111043728",
+     "media/batch-3/AC3/p02.jpg?v=20261111043728",
+     "media/batch-3/AC3/p03.jpg?v=20261111043728",
+     "media/batch-3/AC3/p04.jpg?v=20261111043728",
+     "media/batch-3/AC3/p05.jpg?v=20261111043728",
+     "media/batch-3/AC3/p06.jpg?v=20261111043728",
+     "media/batch-3/AC3/p07.jpg?v=20261111043728",
+     "media/batch-3/AC3/p08.jpg?v=20261111043728"
     ],
     "download": {
-     "href": "media/batch-3/AC3/tantra-b3-AC3-2026-11-20-adi.pdf?v=20261111035950",
+     "href": "media/batch-3/AC3/tantra-b3-AC3-2026-11-20-adi.pdf?v=20261111043728",
      "name": "tantra-b3-AC3-2026-11-20-adi.pdf",
      "ext": "pdf",
      "bytes": 3040277,
@@ -1188,17 +1188,17 @@ window.STUDIO = {
     "src": "batch-3/AC4",
     "title": "3 jobs your sales call can't do",
     "files": [
-     "media/batch-3/AC4/p01.jpg?v=20261111035950",
-     "media/batch-3/AC4/p02.jpg?v=20261111035950",
-     "media/batch-3/AC4/p03.jpg?v=20261111035950",
-     "media/batch-3/AC4/p04.jpg?v=20261111035950",
-     "media/batch-3/AC4/p05.jpg?v=20261111035950",
-     "media/batch-3/AC4/p06.jpg?v=20261111035950",
-     "media/batch-3/AC4/p07.jpg?v=20261111035950",
-     "media/batch-3/AC4/p08.jpg?v=20261111035950"
+     "media/batch-3/AC4/p01.jpg?v=20261111043728",
+     "media/batch-3/AC4/p02.jpg?v=20261111043728",
+     "media/batch-3/AC4/p03.jpg?v=20261111043728",
+     "media/batch-3/AC4/p04.jpg?v=20261111043728",
+     "media/batch-3/AC4/p05.jpg?v=20261111043728",
+     "media/batch-3/AC4/p06.jpg?v=20261111043728",
+     "media/batch-3/AC4/p07.jpg?v=20261111043728",
+     "media/batch-3/AC4/p08.jpg?v=20261111043728"
     ],
     "download": {
-     "href": "media/batch-3/AC4/tantra-b3-AC4-2026-11-24-adi.pdf?v=20261111035950",
+     "href": "media/batch-3/AC4/tantra-b3-AC4-2026-11-24-adi.pdf?v=20261111043728",
      "name": "tantra-b3-AC4-2026-11-24-adi.pdf",
      "ext": "pdf",
      "bytes": 5097226,
@@ -1258,20 +1258,20 @@ window.STUDIO = {
     "src": "batch-3/AG1",
     "title": "The calendar invite blueprint",
     "files": [
-     "media/batch-3/AG1/poster.jpg?v=20261111035950"
+     "media/batch-3/AG1/poster.jpg?v=20261111043728"
     ],
-    "video": "media/batch-3/AG1/tantra-b3-AG1-2026-11-19-adi.mp4?v=20261111035950",
+    "video": "media/batch-3/AG1/tantra-b3-AG1-2026-11-19-adi.mp4?v=20261111043728",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-3/AG1/tantra-b3-AG1-2026-11-19-adi.mp4?v=20261111035950",
+      "href": "media/batch-3/AG1/tantra-b3-AG1-2026-11-19-adi.mp4?v=20261111043728",
       "name": "tantra-b3-AG1-2026-11-19-adi.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 678022
      },
      {
-      "href": "media/batch-3/AG1/tantra-b3-AG1-2026-11-19-adi.gif?v=20261111035950",
+      "href": "media/batch-3/AG1/tantra-b3-AG1-2026-11-19-adi.gif?v=20261111043728",
       "name": "tantra-b3-AG1-2026-11-19-adi.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -1347,20 +1347,20 @@ window.STUDIO = {
     "src": "batch-3/AG2",
     "title": "Your funnel is one line of maths",
     "files": [
-     "media/batch-3/AG2/poster.jpg?v=20261111035950"
+     "media/batch-3/AG2/poster.jpg?v=20261111043728"
     ],
-    "video": "media/batch-3/AG2/tantra-b3-AG2-2026-11-16-adi.mp4?v=20261111035950",
+    "video": "media/batch-3/AG2/tantra-b3-AG2-2026-11-16-adi.mp4?v=20261111043728",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-3/AG2/tantra-b3-AG2-2026-11-16-adi.mp4?v=20261111035950",
+      "href": "media/batch-3/AG2/tantra-b3-AG2-2026-11-16-adi.mp4?v=20261111043728",
       "name": "tantra-b3-AG2-2026-11-16-adi.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 412017
      },
      {
-      "href": "media/batch-3/AG2/tantra-b3-AG2-2026-11-16-adi.gif?v=20261111035950",
+      "href": "media/batch-3/AG2/tantra-b3-AG2-2026-11-16-adi.gif?v=20261111043728",
       "name": "tantra-b3-AG2-2026-11-16-adi.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -1435,20 +1435,20 @@ window.STUDIO = {
     "src": "batch-3/AG3",
     "title": "250+ real funnel elements, 7 prompts",
     "files": [
-     "media/batch-3/AG3/poster.jpg?v=20261111035950"
+     "media/batch-3/AG3/poster.jpg?v=20261111043728"
     ],
-    "video": "media/batch-3/AG3/tantra-b3-AG3-2026-11-18-adi.mp4?v=20261111035950",
+    "video": "media/batch-3/AG3/tantra-b3-AG3-2026-11-18-adi.mp4?v=20261111043728",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-3/AG3/tantra-b3-AG3-2026-11-18-adi.mp4?v=20261111035950",
+      "href": "media/batch-3/AG3/tantra-b3-AG3-2026-11-18-adi.mp4?v=20261111043728",
       "name": "tantra-b3-AG3-2026-11-18-adi.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 634601
      },
      {
-      "href": "media/batch-3/AG3/tantra-b3-AG3-2026-11-18-adi.gif?v=20261111035950",
+      "href": "media/batch-3/AG3/tantra-b3-AG3-2026-11-18-adi.gif?v=20261111043728",
       "name": "tantra-b3-AG3-2026-11-18-adi.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -1523,20 +1523,20 @@ window.STUDIO = {
     "src": "batch-3/AG5",
     "title": "5 emails, 13 days, 1 subject line",
     "files": [
-     "media/batch-3/AG5/poster.jpg?v=20261111035950"
+     "media/batch-3/AG5/poster.jpg?v=20261111043728"
     ],
-    "video": "media/batch-3/AG5/tantra-b3-AG5-2026-11-23-adi.mp4?v=20261111035950",
+    "video": "media/batch-3/AG5/tantra-b3-AG5-2026-11-23-adi.mp4?v=20261111043728",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-3/AG5/tantra-b3-AG5-2026-11-23-adi.mp4?v=20261111035950",
+      "href": "media/batch-3/AG5/tantra-b3-AG5-2026-11-23-adi.mp4?v=20261111043728",
       "name": "tantra-b3-AG5-2026-11-23-adi.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 821707
      },
      {
-      "href": "media/batch-3/AG5/tantra-b3-AG5-2026-11-23-adi.gif?v=20261111035950",
+      "href": "media/batch-3/AG5/tantra-b3-AG5-2026-11-23-adi.gif?v=20261111043728",
       "name": "tantra-b3-AG5-2026-11-23-adi.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -1611,20 +1611,20 @@ window.STUDIO = {
     "src": "batch-3/AG6",
     "title": "Your persona from 20 customers",
     "files": [
-     "media/batch-3/AG6/poster.jpg?v=20261111035950"
+     "media/batch-3/AG6/poster.jpg?v=20261111043728"
     ],
-    "video": "media/batch-3/AG6/tantra-b3-AG6-2026-11-25-adi.mp4?v=20261111035950",
+    "video": "media/batch-3/AG6/tantra-b3-AG6-2026-11-25-adi.mp4?v=20261111043728",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-3/AG6/tantra-b3-AG6-2026-11-25-adi.mp4?v=20261111035950",
+      "href": "media/batch-3/AG6/tantra-b3-AG6-2026-11-25-adi.mp4?v=20261111043728",
       "name": "tantra-b3-AG6-2026-11-25-adi.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 864397
      },
      {
-      "href": "media/batch-3/AG6/tantra-b3-AG6-2026-11-25-adi.gif?v=20261111035950",
+      "href": "media/batch-3/AG6/tantra-b3-AG6-2026-11-25-adi.gif?v=20261111043728",
       "name": "tantra-b3-AG6-2026-11-25-adi.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -1697,17 +1697,17 @@ window.STUDIO = {
     "src": "batch-3/TC3",
     "title": "Your funnel before AI and after AI",
     "files": [
-     "media/batch-3/TC3/p01.jpg?v=20261111035950",
-     "media/batch-3/TC3/p02.jpg?v=20261111035950",
-     "media/batch-3/TC3/p03.jpg?v=20261111035950",
-     "media/batch-3/TC3/p04.jpg?v=20261111035950",
-     "media/batch-3/TC3/p05.jpg?v=20261111035950",
-     "media/batch-3/TC3/p06.jpg?v=20261111035950",
-     "media/batch-3/TC3/p07.jpg?v=20261111035950",
-     "media/batch-3/TC3/p08.jpg?v=20261111035950"
+     "media/batch-3/TC3/p01.jpg?v=20261111043728",
+     "media/batch-3/TC3/p02.jpg?v=20261111043728",
+     "media/batch-3/TC3/p03.jpg?v=20261111043728",
+     "media/batch-3/TC3/p04.jpg?v=20261111043728",
+     "media/batch-3/TC3/p05.jpg?v=20261111043728",
+     "media/batch-3/TC3/p06.jpg?v=20261111043728",
+     "media/batch-3/TC3/p07.jpg?v=20261111043728",
+     "media/batch-3/TC3/p08.jpg?v=20261111043728"
     ],
     "download": {
-     "href": "media/batch-3/TC3/tantra-b3-TC3-2026-11-18-tantra.pdf?v=20261111035950",
+     "href": "media/batch-3/TC3/tantra-b3-TC3-2026-11-18-tantra.pdf?v=20261111043728",
      "name": "tantra-b3-TC3-2026-11-18-tantra.pdf",
      "ext": "pdf",
      "bytes": 1063394,
@@ -1769,10 +1769,10 @@ window.STUDIO = {
     "title": "The 8-part prompt skeleton",
     "tall": false,
     "files": [
-     "media/batch-3/TG1/image.jpg?v=20261111035950"
+     "media/batch-3/TG1/image.jpg?v=20261111043728"
     ],
     "download": {
-     "href": "media/batch-3/TG1/tantra-b3-TG1-2026-11-16-tantra.png?v=20261111035950",
+     "href": "media/batch-3/TG1/tantra-b3-TG1-2026-11-16-tantra.png?v=20261111043728",
      "name": "tantra-b3-TG1-2026-11-16-tantra.png",
      "ext": "png",
      "bytes": 343366,
@@ -1847,20 +1847,20 @@ window.STUDIO = {
     "src": "batch-3/TG2",
     "title": "The registration page in 9 blocks",
     "files": [
-     "media/batch-3/TG2/poster.jpg?v=20261111035950"
+     "media/batch-3/TG2/poster.jpg?v=20261111043728"
     ],
-    "video": "media/batch-3/TG2/tantra-b3-TG2-2026-11-17-tantra.mp4?v=20261111035950",
+    "video": "media/batch-3/TG2/tantra-b3-TG2-2026-11-17-tantra.mp4?v=20261111043728",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-3/TG2/tantra-b3-TG2-2026-11-17-tantra.mp4?v=20261111035950",
+      "href": "media/batch-3/TG2/tantra-b3-TG2-2026-11-17-tantra.mp4?v=20261111043728",
       "name": "tantra-b3-TG2-2026-11-17-tantra.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 747908
      },
      {
-      "href": "media/batch-3/TG2/tantra-b3-TG2-2026-11-17-tantra.gif?v=20261111035950",
+      "href": "media/batch-3/TG2/tantra-b3-TG2-2026-11-17-tantra.gif?v=20261111043728",
       "name": "tantra-b3-TG2-2026-11-17-tantra.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -1935,20 +1935,20 @@ window.STUDIO = {
     "src": "batch-3/TG3",
     "title": "Every outreach limit on one card",
     "files": [
-     "media/batch-3/TG3/poster.jpg?v=20261111035950"
+     "media/batch-3/TG3/poster.jpg?v=20261111043728"
     ],
-    "video": "media/batch-3/TG3/tantra-b3-TG3-2026-11-19-tantra.mp4?v=20261111035950",
+    "video": "media/batch-3/TG3/tantra-b3-TG3-2026-11-19-tantra.mp4?v=20261111043728",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-3/TG3/tantra-b3-TG3-2026-11-19-tantra.mp4?v=20261111035950",
+      "href": "media/batch-3/TG3/tantra-b3-TG3-2026-11-19-tantra.mp4?v=20261111043728",
       "name": "tantra-b3-TG3-2026-11-19-tantra.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 585593
      },
      {
-      "href": "media/batch-3/TG3/tantra-b3-TG3-2026-11-19-tantra.gif?v=20261111035950",
+      "href": "media/batch-3/TG3/tantra-b3-TG3-2026-11-19-tantra.gif?v=20261111043728",
       "name": "tantra-b3-TG3-2026-11-19-tantra.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -2022,20 +2022,20 @@ window.STUDIO = {
     "src": "batch-3/TG4",
     "title": "A clock on every pipeline stage",
     "files": [
-     "media/batch-3/TG4/poster.jpg?v=20261111035950"
+     "media/batch-3/TG4/poster.jpg?v=20261111043728"
     ],
-    "video": "media/batch-3/TG4/tantra-b3-TG4-2026-11-20-tantra.mp4?v=20261111035950",
+    "video": "media/batch-3/TG4/tantra-b3-TG4-2026-11-20-tantra.mp4?v=20261111043728",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-3/TG4/tantra-b3-TG4-2026-11-20-tantra.mp4?v=20261111035950",
+      "href": "media/batch-3/TG4/tantra-b3-TG4-2026-11-20-tantra.mp4?v=20261111043728",
       "name": "tantra-b3-TG4-2026-11-20-tantra.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 1165218
      },
      {
-      "href": "media/batch-3/TG4/tantra-b3-TG4-2026-11-20-tantra.gif?v=20261111035950",
+      "href": "media/batch-3/TG4/tantra-b3-TG4-2026-11-20-tantra.gif?v=20261111043728",
       "name": "tantra-b3-TG4-2026-11-20-tantra.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -2117,20 +2117,20 @@ window.STUDIO = {
     "src": "batch-3/TG6",
     "title": "Keep outreach off your main domain",
     "files": [
-     "media/batch-3/TG6/poster.jpg?v=20261111035950"
+     "media/batch-3/TG6/poster.jpg?v=20261111043728"
     ],
-    "video": "media/batch-3/TG6/tantra-b3-TG6-2026-11-23-tantra.mp4?v=20261111035950",
+    "video": "media/batch-3/TG6/tantra-b3-TG6-2026-11-23-tantra.mp4?v=20261111043728",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-3/TG6/tantra-b3-TG6-2026-11-23-tantra.mp4?v=20261111035950",
+      "href": "media/batch-3/TG6/tantra-b3-TG6-2026-11-23-tantra.mp4?v=20261111043728",
       "name": "tantra-b3-TG6-2026-11-23-tantra.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 261330
      },
      {
-      "href": "media/batch-3/TG6/tantra-b3-TG6-2026-11-23-tantra.gif?v=20261111035950",
+      "href": "media/batch-3/TG6/tantra-b3-TG6-2026-11-23-tantra.gif?v=20261111043728",
       "name": "tantra-b3-TG6-2026-11-23-tantra.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -2180,6 +2180,360 @@ window.STUDIO = {
    "key": "b3-TG6"
   },
   {
+   "id": "EA1",
+   "batch": "4",
+   "profile": "ben",
+   "platform": "linkedin",
+   "status": "ready",
+   "time": "08:30",
+   "cta": "",
+   "date": "2026-11-26",
+   "short": "One line of maths for your funnel",
+   "pillar": "Earn trust at scale",
+   "idea": "Four numbers decide how many customers you get. Write your funnel as one line of maths and the weak step shows itself.",
+   "format": "Image · animated giveaway",
+   "sample": {
+    "id": "BK18",
+    "creator": "Bharath Krishna Pai",
+    "what": "Animated funnel: dark warm canvas, a glossy peach-to-coral funnel in tiers with gold particles falling through it",
+    "url": "https://www.linkedin.com/posts/bkp31415_i-gave-claude-access-to-my-linkedin-now-activity-7513474878117822464-ppw2"
+   },
+   "copy_basis": "BK18 template: two-line hook, a 'before' line, staccato steps, 'Not anymore.', the new way, 'It shows you:' arrows, two 'No' lines, a thesis pair, CTA",
+   "media": {
+    "type": "video",
+    "src": "batch-4/EA1",
+    "title": "The 4-Number Revenue Equation Sheet",
+    "files": [
+     "media/batch-4/EA1/poster.jpg?v=20261111043728"
+    ],
+    "video": "media/batch-4/EA1/tantra-b4-EA1-2026-11-26-ben.mp4?v=20261111043728",
+    "tall": false,
+    "sets": [
+     {
+      "href": "media/batch-4/EA1/tantra-b4-EA1-2026-11-26-ben.mp4?v=20261111043728",
+      "name": "tantra-b4-EA1-2026-11-26-ben.mp4",
+      "ext": "mp4",
+      "label": "Download MP4",
+      "bytes": 350924
+     },
+     {
+      "href": "media/batch-4/EA1/tantra-b4-EA1-2026-11-26-ben.gif?v=20261111043728",
+      "name": "tantra-b4-EA1-2026-11-26-ben.gif",
+      "ext": "gif",
+      "label": "Download GIF",
+      "bytes": 689540
+     }
+    ]
+   },
+   "text": "Give your funnel one line of maths.\nIt shows you exactly which step is losing customers.\n\nA lot of teams track two numbers.\n\nLeads.\n\nRevenue.\n\nEverything in between is a guess.\n\nNot anymore.\n\nCustomers = sign-ups x show-up rate x booking rate x close rate.\n\nFour numbers. Multiply them and you get your customers.\n\nIt makes you write down:\n\n→ How many people signed up\n\n→ How many of them showed up\n\n→ How many of those booked a call\n\n→ How many of those bought\n\n→ Which of the four is the weakest\n\nAnd it all fits on one page.\n\nNo guessing which stage to fix first.\nNo fixing three things at once and learning nothing.\n\nFind the weakest number.\nChange one thing.\nRun it again.\n\nThe goal isn't more leads.\nIt's knowing which number to work on this week.\n\nTest it on your own numbers for FREE.",
+   "first_comment": "The 4-Number Revenue Equation Sheet: one page that shows which stage of your funnel is costing you customers.",
+   "sources": [
+    "content/corpus/facts.md: EW-16, EW-18",
+    "content/corpus/giveaway-assets.md"
+   ],
+   "numbers_for_signoff": [
+    "the equation (EW-18)",
+    "detect the weakest number, change one thing, re-run (EW-16)"
+   ],
+   "flags": [
+    "The keyword is only on the asset's bottom tile, never in the post copy or the first comment. The resource is built and hosted: preview it under the post, with the three messages that deliver it.",
+    "The resource goes out by manual DM from Ben's own profile (assumed; confirm)."
+   ],
+   "visual_label": "On the asset (animated 4:5)",
+   "visual_copy": [
+    "BEN BASIL TOMY",
+    "Your funnel in one line of maths",
+    "Sign-ups, Show-up rate, Booking rate (WEAKEST), Close rate",
+    "Customers = sign-ups x show-up rate x booking rate x close rate",
+    "Comment MATH and I'll send it over"
+   ],
+   "resource": {
+    "name": "The 4-Number Revenue Equation Sheet",
+    "keyword": "MATH",
+    "what": "A 1-page PDF and page: the equation, the six stage numbers and where to read each one. Type your numbers in and it does the maths.",
+    "url": "https://adisuja.github.io/tantra-revops/revenue-equation-sheet/",
+    "pages": 1,
+    "files": [
+     {
+      "label": "PDF",
+      "href": "https://adisuja.github.io/tantra-revops/revenue-equation-sheet/revenue-equation-sheet.pdf"
+     }
+    ]
+   },
+   "dm": {
+    "message": "Hi {first_name}, thanks for commenting MATH.\n\nHere's the 4-Number Revenue Equation Sheet:\nhttps://adisuja.github.io/tantra-revops/revenue-equation-sheet/\n\nIt's one page: the equation, the six stage numbers and where to read each one. Type your numbers in and it does the maths.\n\nFill in last month's four numbers first. The weakest one is the only thing to work on this week.\n\nWhich of the four numbers do you think is weakest?",
+    "connect": "Hi {first_name}, you commented MATH on my post about the one line of maths behind your funnel. LinkedIn only lets me message connections, so accept this and I'll send it straight over. Ben",
+    "email_subject": "Your 4-Number Revenue Equation Sheet",
+    "email_body": "Hi {first_name},\n\nYou commented MATH on my post about the one line of maths behind your funnel:\n[POST LINK]\n\nHere's the 4-Number Revenue Equation Sheet, as promised:\nhttps://adisuja.github.io/tantra-revops/revenue-equation-sheet/\n\nIt's one page: the equation, the six stage numbers and where to read each one. Type your numbers in and it does the maths. The link opens straight away, with no sign-up.\n\nFill in last month's four numbers first. The weakest one is the only thing to work on this week.\n\nWhich of the four numbers do you think is weakest? Hit reply and tell me.\n\nBen\n\nP.S. You're getting this because you asked for it in the comments. If you'd rather not hear from me again, reply \"no\" and that's final."
+   },
+   "key": "b4-EA1"
+  },
+  {
+   "id": "EA2",
+   "batch": "4",
+   "profile": "ben",
+   "platform": "linkedin",
+   "status": "ready",
+   "time": "08:30",
+   "cta": "",
+   "date": "2026-12-01",
+   "short": "Every prompt, the same 8 parts",
+   "pillar": "Win their attention",
+   "idea": "Bad AI output usually comes from a one-line prompt. A good prompt has the same 8 parts every time.",
+   "format": "Image · animated giveaway",
+   "sample": {
+    "id": "BK16",
+    "creator": "Bharath Krishna Pai",
+    "what": "Animated dark app window: near-black canvas, a bordered window, an orange gradient progress bar, rows with green ticks",
+    "url": "https://www.linkedin.com/posts/bkp31415_what-did-i-just-unleash-i-connected-claude-activity-7514157999712784384-Styk"
+   },
+   "copy_basis": "BK16 template: caps question hook, a setup, a 'before' line, 'Not anymore.', 'Every prompt now has:' with arrows, a sprawl line, a split of work, 'For your team, that means:' less/more arrows, a thesis pair, CTA",
+   "media": {
+    "type": "video",
+    "src": "batch-4/EA2",
+    "title": "The 8-Part Prompt Skeleton",
+    "files": [
+     "media/batch-4/EA2/poster.jpg?v=20261111043728"
+    ],
+    "video": "media/batch-4/EA2/tantra-b4-EA2-2026-12-01-ben.mp4?v=20261111043728",
+    "tall": false,
+    "sets": [
+     {
+      "href": "media/batch-4/EA2/tantra-b4-EA2-2026-12-01-ben.mp4?v=20261111043728",
+      "name": "tantra-b4-EA2-2026-12-01-ben.mp4",
+      "ext": "mp4",
+      "label": "Download MP4",
+      "bytes": 250027
+     },
+     {
+      "href": "media/batch-4/EA2/tantra-b4-EA2-2026-12-01-ben.gif?v=20261111043728",
+      "name": "tantra-b4-EA2-2026-12-01-ben.gif",
+      "ext": "gif",
+      "label": "Download GIF",
+      "bytes": 598489
+     }
+    ]
+   },
+   "text": "WHAT HAPPENS WHEN YOU GIVE CLAUDE A PROPER PROMPT?\n\nWe stopped writing one-line prompts.\nEvery prompt we use now has the same 8 parts.\n\nFor a long time we typed one line and hoped.\n\n\"Write me a landing page.\"\n\nNot anymore.\n\nEvery prompt now has:\n\n→ Your task: one element back, not five\n\n→ Where it sits in your funnel\n\n→ The facts to use, and [FILL] where one is missing\n\n→ The template, block by block\n\n→ The rules: length, tone, no invented numbers\n\n→ A reference example to mirror\n\n→ What to return: version A and version B\n\n→ A check before it answers\n\nYou bring the facts.\nThe skeleton brings the structure.\n\nFor your team, that means:\n\n→ Less time rewriting what the AI made up\n\n→ Less time explaining the same context again\n\n→ Less time on drafts nobody can use\n\n→ More time choosing between two good versions\n\n→ More time on the facts only you know\n\n→ More time on the calls\n\nThe goal wasn't a cleverer prompt.\nIt was the same structure, every time.\n\nTry the skeleton on your next prompt. It's free 👇",
+   "first_comment": "The 8-Part Prompt Skeleton: a blank prompt structure that gets usable funnel copy from any AI assistant.",
+   "sources": [
+    "content/corpus/facts.md: EW-32",
+    "content/corpus/giveaway-assets.md"
+   ],
+   "numbers_for_signoff": [
+    "eight parts, in this order (EW-32)"
+   ],
+   "flags": [
+    "The keyword is only on the asset's bottom tile, never in the post copy or the first comment. The resource is built and hosted: preview it under the post, with the three messages that deliver it.",
+    "The resource goes out by manual DM from Ben's own profile (assumed; confirm)."
+   ],
+   "visual_label": "On the asset (animated 4:5)",
+   "visual_copy": [
+    "BEN BASIL TOMY",
+    "Every prompt. Same 8 parts.",
+    "Prompt builder: Your task, Where it sits, The facts, The template, Rules, Example, What to return, Check",
+    "Comment SKELETON and I'll send it over"
+   ],
+   "resource": {
+    "name": "The 8-Part Prompt Skeleton",
+    "keyword": "SKELETON",
+    "what": "A 1-page PDF and page: the blank prompt with all eight parts, a note on what goes in each and a worked example.",
+    "url": "https://adisuja.github.io/tantra-revops/prompt-skeleton/",
+    "pages": 1,
+    "files": [
+     {
+      "label": "PDF",
+      "href": "https://adisuja.github.io/tantra-revops/prompt-skeleton/prompt-skeleton.pdf"
+     }
+    ]
+   },
+   "dm": {
+    "message": "Hi {first_name}, thanks for commenting SKELETON.\n\nHere's the 8-Part Prompt Skeleton:\nhttps://adisuja.github.io/tantra-revops/prompt-skeleton/\n\nIt's one page: the blank prompt with all eight parts, a note on what goes in each and a worked example for a registration page headline.\n\nCopy the blank skeleton and fill in part 3, the facts, first. That's the part an AI can't guess.\n\nWhat's the next thing you're asking an AI to write?",
+    "connect": "Hi {first_name}, you commented SKELETON on my post about the 8 parts every prompt should have. LinkedIn only lets me message connections, so accept this and I'll send it straight over. Ben",
+    "email_subject": "Your 8-Part Prompt Skeleton",
+    "email_body": "Hi {first_name},\n\nYou commented SKELETON on my post about the 8 parts every prompt should have:\n[POST LINK]\n\nHere's the 8-Part Prompt Skeleton, as promised:\nhttps://adisuja.github.io/tantra-revops/prompt-skeleton/\n\nIt's one page: the blank prompt with all eight parts, a note on what goes in each and a worked example for a registration page headline. The link opens straight away, with no sign-up.\n\nCopy the blank skeleton and fill in part 3, the facts, first. That's the part an AI can't guess.\n\nWhat's the next thing you're asking an AI to write? Hit reply and tell me.\n\nBen\n\nP.S. You're getting this because you asked for it in the comments. If you'd rather not hear from me again, reply \"no\" and that's final."
+   },
+   "key": "b4-EA2"
+  },
+  {
+   "id": "EA3",
+   "batch": "4",
+   "profile": "ben",
+   "platform": "linkedin",
+   "status": "ready",
+   "time": "08:30",
+   "cta": "",
+   "date": "2026-12-03",
+   "short": "The first half of an SDR's job",
+   "pillar": "Reach every buyer",
+   "idea": "Claude can do the first half of an SDR's job: find, check, sort and draft. Five tasks, and where a person steps in.",
+   "format": "Image · animated giveaway",
+   "sample": {
+    "id": "ID08",
+    "creator": "Ipsita Dhar",
+    "what": "Animated connector explainer: peach gradient, a tools card joined by lines to a column of task chips",
+    "url": "https://www.linkedin.com/posts/ipsitadhar14_claude-has-full-linkedin-access-10-tasks-activity-7516007636790841345--J2g"
+   },
+   "copy_basis": "ID08 template: three short hook lines and a pointer, a curiosity line, numbered sections each with a short description and an Output line, a close",
+   "media": {
+    "type": "video",
+    "src": "batch-4/EA3",
+    "title": "The AI SDR System",
+    "files": [
+     "media/batch-4/EA3/poster.jpg?v=20261111043728"
+    ],
+    "video": "media/batch-4/EA3/tantra-b4-EA3-2026-12-03-ben.mp4?v=20261111043728",
+    "tall": false,
+    "sets": [
+     {
+      "href": "media/batch-4/EA3/tantra-b4-EA3-2026-12-03-ben.mp4?v=20261111043728",
+      "name": "tantra-b4-EA3-2026-12-03-ben.mp4",
+      "ext": "mp4",
+      "label": "Download MP4",
+      "bytes": 381457
+     },
+     {
+      "href": "media/batch-4/EA3/tantra-b4-EA3-2026-12-03-ben.gif?v=20261111043728",
+      "name": "tantra-b4-EA3-2026-12-03-ben.gif",
+      "ext": "gif",
+      "label": "Download GIF",
+      "bytes": 703349
+     }
+    ]
+   },
+   "text": "Claude can run the first half of an SDR's job.\n5 tasks it does before your team logs in\nGet it here.\n👇🏾\n\nMost sales teams still do all five by hand. Here's what it takes over:\n\n1/ Find\n\nMerges your CRM, your LinkedIn searches and past sign-ups into one list.\n\n💥 Output: one list, duplicates removed\n\n2/ Check\nReads each company's site and recent posts and cuts the wrong fits.\n\n💥 Output: a list your fit rules agree with\n\n3/ Sort\nPuts each buyer in the segment their message is written for.\n\n💥 Output: segments a person approves\n\n4/ Draft\nWrites one message per segment, with merge fields only, in two versions.\n\n💥 Output: messages waiting for a yes\n\n5/ Follow up\n\nLines up each next step on its channel's timing.\n\n💥 Output: a queue that stops the moment someone replies\n\nThe other half stays with people: approving every message, answering real replies the same day and taking the calls.\n\nGet it here.\n👇🏾",
+   "first_comment": "The AI SDR System: five tasks Claude does before your team logs in, and the ones a person keeps.",
+   "sources": [
+    "content/corpus/facts.md: EW-36, EW-45",
+    "content/corpus/giveaway-assets.md"
+   ],
+   "numbers_for_signoff": [
+    "merge fields only (EW-36)",
+    "people approve, reply the same day, take the calls (EW-45)"
+   ],
+   "flags": [
+    "The keyword is only on the asset's bottom tile, never in the post copy or the first comment. The resource is built and hosted: preview it under the post, with the three messages that deliver it.",
+    "The resource goes out by manual DM from Ben's own profile (assumed; confirm)."
+   ],
+   "visual_label": "On the asset (animated 4:5)",
+   "visual_copy": [
+    "BEN BASIL TOMY",
+    "The first half of an SDR's job",
+    "Connected tools: your list, your outreach tool, your calendar",
+    "01 Find your buyers ... 05 Line up the follow-ups",
+    "A person approves. People take the calls.",
+    "Comment SDR and I'll send it over"
+   ],
+   "resource": {
+    "name": "The AI SDR System",
+    "keyword": "SDR",
+    "what": "A 2-page PDF and page: who does what, the Claude setup, the timing for each channel and the two prompts that sort your list and write the first message.",
+    "url": "https://adisuja.github.io/tantra-revops/ai-sdr-system/",
+    "pages": 2,
+    "files": [
+     {
+      "label": "PDF",
+      "href": "https://adisuja.github.io/tantra-revops/ai-sdr-system/ai-sdr-system.pdf"
+     }
+    ]
+   },
+   "dm": {
+    "message": "Hi {first_name}, thanks for commenting SDR.\n\nHere's the AI SDR System:\nhttps://adisuja.github.io/tantra-revops/ai-sdr-system/\n\nIt's 2 pages: who does what, the Claude setup, the timing for each channel and the two prompts that sort your list and write the first message.\n\nWrite your fit rules first. Everything the AI does reads from them.\n\nWhich of the five tasks would save your team the most time?",
+    "connect": "Hi {first_name}, you commented SDR on my post about the first half of an SDR's job. LinkedIn only lets me message connections, so accept this and I'll send it straight over. Ben",
+    "email_subject": "Your AI SDR System",
+    "email_body": "Hi {first_name},\n\nYou commented SDR on my post about the first half of an SDR's job:\n[POST LINK]\n\nHere's the AI SDR System, as promised:\nhttps://adisuja.github.io/tantra-revops/ai-sdr-system/\n\nIt's 2 pages: who does what, the Claude setup, the timing for each channel and the two prompts that sort your list and write the first message. The link opens straight away, with no sign-up.\n\nWrite your fit rules first. Everything the AI does reads from them.\n\nWhich of the five tasks would save your team the most time? Hit reply and tell me.\n\nBen\n\nP.S. You're getting this because you asked for it in the comments. If you'd rather not hear from me again, reply \"no\" and that's final."
+   },
+   "key": "b4-EA3"
+  },
+  {
+   "id": "EA4",
+   "batch": "4",
+   "profile": "ben",
+   "platform": "linkedin",
+   "status": "ready",
+   "time": "08:30",
+   "cta": "",
+   "date": "2026-12-08",
+   "short": "Is your session in their calendar?",
+   "pillar": "Reach every buyer",
+   "idea": "Your buyers check their calendar every morning. A calendar invite puts your session there, written like a meeting.",
+   "format": "Image · animated giveaway",
+   "sample": {
+    "id": "BK09",
+    "creator": "Bharath Krishna Pai",
+    "what": "Animated calendar booking: dark maroon grid canvas, dark panels, coral gradient accents, rows that resolve to booked",
+    "url": "https://www.linkedin.com/posts/bkp31415_companies-are-checking-out-your-pricing-page-activity-7519269092055302144-W8vI"
+   },
+   "copy_basis": "BK09 template: a pain observation, a direct question, a one-sentence explainer, a twist and payoff, a capability list, a compression pair, a contrast, 'Think about it.', a recap, a curiosity close, CTA",
+   "media": {
+    "type": "video",
+    "src": "batch-4/EA4",
+    "title": "The Calendar Invite Blueprint",
+    "files": [
+     "media/batch-4/EA4/poster.jpg?v=20261111043728"
+    ],
+    "video": "media/batch-4/EA4/tantra-b4-EA4-2026-12-08-ben.mp4?v=20261111043728",
+    "tall": false,
+    "sets": [
+     {
+      "href": "media/batch-4/EA4/tantra-b4-EA4-2026-12-08-ben.mp4?v=20261111043728",
+      "name": "tantra-b4-EA4-2026-12-08-ben.mp4",
+      "ext": "mp4",
+      "label": "Download MP4",
+      "bytes": 401590
+     },
+     {
+      "href": "media/batch-4/EA4/tantra-b4-EA4-2026-12-08-ben.gif?v=20261111043728",
+      "name": "tantra-b4-EA4-2026-12-08-ben.gif",
+      "ext": "gif",
+      "label": "Download GIF",
+      "bytes": 823749
+     }
+    ]
+   },
+   "text": "Your buyers are checking their calendar right now.\nIs your session in it?\n\nA calendar invite puts your live session where they plan their week, written like a meeting instead of an ad.\n\nNow send it at the right time.\n\nAnd your session stops competing with the rest of their inbox.\n\nThe blueprint helps you:\n\n→ Send it 8 to 12 days before the session\n\n→ Keep the title under 60 characters\n\n→ Make the first two lines say who it's for and what they leave with\n\n→ Add one line that makes declining easy\n\n→ Write it with a prompt that fills in your own event\n\nOne invite.\nFrom their inbox to their calendar.\n\nInstead of hoping someone opens a promo email, your session sits next to their real meetings.\n\nThink about it.\n\nYou know when it lands, what the preview says, who it's for and how they say no.\n\nYour next sign-up checks a calendar you're not in yet.\n\nWant the free template? 👇",
+   "first_comment": "The Calendar Invite Blueprint: the template, the 4 rules and the prompt, so your session lands in your buyer's calendar.",
+   "sources": [
+    "content/corpus/facts.md: EW-23",
+    "content/corpus/giveaway-assets.md"
+   ],
+   "numbers_for_signoff": [
+    "8 to 12 days out, under 60 characters, first two lines, one line that makes declining easy (EW-23)"
+   ],
+   "flags": [
+    "The keyword is only on the asset's bottom tile, never in the post copy or the first comment. The resource is built and hosted: preview it under the post, with the three messages that deliver it.",
+    "The resource goes out by manual DM from Ben's own profile (assumed; confirm)."
+   ],
+   "visual_label": "On the asset (animated 4:5)",
+   "visual_copy": [
+    "BEN BASIL TOMY",
+    "Is your session in your buyer's calendar?",
+    "Invite sent → Accepted on three of five rows (fictional example)",
+    "Sent 8 to 12 days out. A title under 60 characters. Written like a meeting.",
+    "Comment INVITE and I'll send it over"
+   ],
+   "resource": {
+    "name": "The Calendar Invite Blueprint",
+    "keyword": "INVITE",
+    "what": "A 3-page PDF and page: the invite template, the 4 rules and the AI prompt that writes the invite for your event.",
+    "url": "https://adisuja.github.io/tantra-revops/calendar-invite-blueprint/",
+    "pages": 3,
+    "files": [
+     {
+      "label": "PDF",
+      "href": "https://adisuja.github.io/tantra-revops/calendar-invite-blueprint/calendar-invite-blueprint.pdf"
+     }
+    ]
+   },
+   "dm": {
+    "message": "Hi {first_name}, thanks for commenting INVITE.\n\nHere's the Calendar Invite Blueprint:\nhttps://adisuja.github.io/tantra-revops/calendar-invite-blueprint/\n\nIt's 3 pages: the invite template, the 4 rules and the AI prompt that writes the invite for your event.\n\nStart with page 2 and check your current invite against the 4 rules before you rewrite anything.\n\nWhat are you inviting people to?",
+    "connect": "Hi {first_name}, you commented INVITE on my post about getting your session into your buyer's calendar. LinkedIn only lets me message connections, so accept this and I'll send it straight over. Ben",
+    "email_subject": "Your Calendar Invite Blueprint",
+    "email_body": "Hi {first_name},\n\nYou commented INVITE on my post about getting your session into your buyer's calendar:\n[POST LINK]\n\nHere's the Calendar Invite Blueprint, as promised:\nhttps://adisuja.github.io/tantra-revops/calendar-invite-blueprint/\n\nIt's 3 pages: the invite template, the 4 rules and the AI prompt that writes the invite for your event. The link opens straight away, with no sign-up.\n\nStart with page 2 and check your current invite against the 4 rules before you rewrite anything.\n\nWhat are you inviting people to? Hit reply and tell me.\n\nBen\n\nP.S. You're getting this because you asked for it in the comments. If you'd rather not hear from me again, reply \"no\" and that's final."
+   },
+   "key": "b4-EA4"
+  },
+  {
    "id": "EG3",
    "batch": "4",
    "profile": "ben",
@@ -2204,20 +2558,20 @@ window.STUDIO = {
     "src": "batch-4/EG3",
     "title": "The Book-a-Call Page (With Case Studies)",
     "files": [
-     "media/batch-4/EG3/poster.jpg?v=20261111035950"
+     "media/batch-4/EG3/poster.jpg?v=20261111043728"
     ],
-    "video": "media/batch-4/EG3/tantra-b4-EG3-2026-11-24-ben.mp4?v=20261111035950",
+    "video": "media/batch-4/EG3/tantra-b4-EG3-2026-11-24-ben.mp4?v=20261111043728",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-4/EG3/tantra-b4-EG3-2026-11-24-ben.mp4?v=20261111035950",
+      "href": "media/batch-4/EG3/tantra-b4-EG3-2026-11-24-ben.mp4?v=20261111043728",
       "name": "tantra-b4-EG3-2026-11-24-ben.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 599423
      },
      {
-      "href": "media/batch-4/EG3/tantra-b4-EG3-2026-11-24-ben.gif?v=20261111035950",
+      "href": "media/batch-4/EG3/tantra-b4-EG3-2026-11-24-ben.gif?v=20261111043728",
       "name": "tantra-b4-EG3-2026-11-24-ben.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -2269,188 +2623,6 @@ window.STUDIO = {
    "key": "b4-EG3"
   },
   {
-   "id": "EG7",
-   "batch": "4",
-   "profile": "ben",
-   "platform": "linkedin",
-   "status": "ready",
-   "time": "08:30",
-   "cta": "",
-   "date": "2026-11-26",
-   "short": "A Claude prompt for every funnel step",
-   "pillar": "Win their attention",
-   "idea": "A complete Claude prompt pack for a B2B funnel: one prompt per page, email and invite, written from your own facts.",
-   "format": "Image · animated giveaway",
-   "sample": {
-    "id": "BK01",
-    "creator": "Bharath Krishna Pai",
-    "what": "Animated product UI mockup: light grey canvas, white macOS window with a sidebar of colour-coded items, a Now building card filling with a green bar, a ranked list, black glowing keyword bar",
-    "url": "https://www.linkedin.com/posts/bkp31415_i-built-a-complete-guide-to-help-sales-teams-activity-7524059614762545152-sH0I"
-   },
-   "copy_basis": "BK01 template: 'built a complete guide... giving it away for FREE 👇' hook, 'The goal?' and its answer, what's inside, the free-access close, a P.S.",
-   "media": {
-    "type": "video",
-    "src": "batch-4/EG7",
-    "title": "The Claude Funnel Prompt Pack",
-    "files": [
-     "media/batch-4/EG7/poster.jpg?v=20261111035950"
-    ],
-    "video": "media/batch-4/EG7/tantra-b4-EG7-2026-11-26-ben.mp4?v=20261111035950",
-    "tall": false,
-    "sets": [
-     {
-      "href": "media/batch-4/EG7/tantra-b4-EG7-2026-11-26-ben.mp4?v=20261111035950",
-      "name": "tantra-b4-EG7-2026-11-26-ben.mp4",
-      "ext": "mp4",
-      "label": "Download MP4",
-      "bytes": 254336
-     },
-     {
-      "href": "media/batch-4/EG7/tantra-b4-EG7-2026-11-26-ben.gif?v=20261111035950",
-      "name": "tantra-b4-EG7-2026-11-26-ben.gif",
-      "ext": "gif",
-      "label": "Download GIF",
-      "bytes": 449755
-     }
-    ]
-   },
-   "text": "We built a complete prompt pack to help B2B teams build their funnel in Claude.\n\nAnd I'm giving the entire pack away for FREE. 👇\n\nThe goal?\n\nStop typing \"write me a landing page\" and getting something nobody would sign up from.\n\nEvery prompt has the same eight parts: the task, where it sits in your funnel, the facts to use, the template, the rules, a reference example, what to return, and a check before it answers.\n\nWhat's inside:\n\n→ The setup prompt, which holds your brief\n→ The cold email thread\n→ The registration page\n→ The reminder sequence\n→ The live session\n→ The follow-ups\n→ The reactivation email\n\nFull access is FREE. 👇\n\nP.S. If a fact is missing, the prompt leaves a [FILL] gap. It never makes a number up.",
-   "first_comment": "The Claude Funnel Prompt Pack: one prompt for each step of your funnel, written from your own facts.",
-   "sources": [
-    "content/corpus/facts.md: EW-12, EW-32",
-    "content/corpus/giveaway-assets.md"
-   ],
-   "numbers_for_signoff": [
-    "eight parts in every prompt (EW-32)",
-    "seven prompts including the setup prompt (batch 3 AG3 pack)"
-   ],
-   "flags": [
-    "The keyword is only on the asset's bottom tile, never in the post copy or the first comment. The resource is built and hosted: preview it under the post, with the three messages that deliver it.",
-    "The resource goes out by manual DM from Ben's own profile (assumed; confirm).",
-    "Filled from the re-pitch on the owner's direction that every profile gets at least 3 giveaways (ranked by simplicity and fit)."
-   ],
-   "visual_label": "On the asset (animated 4:5)",
-   "visual_copy": [
-    "BEN BASIL TOMY",
-    "The Claude Funnel Prompt Pack",
-    "One prompt for every page, email and invite.",
-    "Prompt pack · run #1 · RUNNING",
-    "Drafts: registration page, cold email thread, reminder sequence, READY TO REVIEW",
-    "Comment PROMPTS and I'll send it over"
-   ],
-   "resource": {
-    "name": "The Claude Funnel Prompt Pack",
-    "keyword": "PROMPTS",
-    "what": "Seven Claude prompts in one document: the setup prompt and one for each funnel stage, with [FILL] gaps.",
-    "url": "https://adisuja.github.io/tantra-revops/claude-funnel-prompt-pack/",
-    "pages": 5,
-    "files": [
-     {
-      "label": "PDF",
-      "href": "https://adisuja.github.io/tantra-revops/claude-funnel-prompt-pack/claude-funnel-prompt-pack.pdf"
-     }
-    ]
-   },
-   "dm": {
-    "message": "Hi {first_name}, thanks for commenting PROMPTS.\n\nHere's the Claude Funnel Prompt Pack:\nhttps://adisuja.github.io/tantra-revops/claude-funnel-prompt-pack/\n\nSeven prompts to copy and paste: the setup prompt, then one for each funnel stage, from traffic to long-term nurture.\n\nPaste the setup prompt first and fill in your brief. Every other prompt reads from it.\n\nWhich part of your funnel are you building first?",
-    "connect": "Hi {first_name}, you commented PROMPTS on my post about the Claude prompt pack for a B2B funnel. LinkedIn only lets me message connections, so accept this and I'll send it straight over. Ben",
-    "email_subject": "Your Claude Funnel Prompt Pack",
-    "email_body": "Hi {first_name},\n\nYou commented PROMPTS on my post about the Claude prompt pack for a B2B funnel:\n[POST LINK]\n\nHere's the Claude Funnel Prompt Pack, as promised:\nhttps://adisuja.github.io/tantra-revops/claude-funnel-prompt-pack/\n\nSeven prompts to copy and paste: the setup prompt, then one for each funnel stage, from traffic to long-term nurture. The link opens straight away, with no sign-up.\n\nPaste the setup prompt first and fill in your brief. Every other prompt reads from it.\n\nWhich part of your funnel are you building first? Hit reply and tell me.\n\nBen\n\nP.S. You're getting this because you asked for it in the comments. If you'd rather not hear from me again, reply \"no\" and that's final."
-   },
-   "key": "b4-EG7"
-  },
-  {
-   "id": "EG9",
-   "batch": "4",
-   "profile": "ben",
-   "platform": "linkedin",
-   "status": "ready",
-   "time": "08:30",
-   "cta": "",
-   "date": "2026-12-01",
-   "short": "Claude runs our Content OS",
-   "pillar": "Content and traffic",
-   "idea": "Claude runs a Content OS for the team: ideas, drafts and designs every week, each approved by a person.",
-   "format": "Image · animated giveaway",
-   "sample": {
-    "id": "BK04",
-    "creator": "Bharath Krishna Pai",
-    "what": "Animated agent dashboard: cream canvas, white cards, orange gradient numeral counting up, a gauge card and a list of running agents",
-    "url": "https://www.linkedin.com/posts/bkp31415_claude-now-has-a-linkedin-team-with-full-activity-7523251803132530688-W4DQ"
-   },
-   "copy_basis": "BK04 template: '[AI] now has a TEAM' caps claim, giving-it-away line, get-it line, what it does, closing get-it line",
-   "media": {
-    "type": "video",
-    "src": "batch-4/EG9",
-    "title": "The Content OS",
-    "files": [
-     "media/batch-4/EG9/poster.jpg?v=20261111035950"
-    ],
-    "video": "media/batch-4/EG9/tantra-b4-EG9-2026-12-01-ben.mp4?v=20261111035950",
-    "tall": false,
-    "sets": [
-     {
-      "href": "media/batch-4/EG9/tantra-b4-EG9-2026-12-01-ben.mp4?v=20261111035950",
-      "name": "tantra-b4-EG9-2026-12-01-ben.mp4",
-      "ext": "mp4",
-      "label": "Download MP4",
-      "bytes": 219956
-     },
-     {
-      "href": "media/batch-4/EG9/tantra-b4-EG9-2026-12-01-ben.gif?v=20261111035950",
-      "name": "tantra-b4-EG9-2026-12-01-ben.gif",
-      "ext": "gif",
-      "label": "Download GIF",
-      "bytes": 381217
-     }
-    ]
-   },
-   "text": "Claude now runs our CONTENT OS: ideas, drafts and designs for the whole team.\n\nAnd we're giving it away, free.\n\nGet it here.\n\nHere's what runs every week:\n\n/context: one file the rest reads from\n/ideas: pitched from it, each matched to a post format that works\n/copy: every fact taken from that file, never made up\n/design: built to the matched format\n/review: a person approves every post\n/publish: approved posts only\n\nThe part that doesn't change: a person picks the ideas and approves every post.\n\nPS. Don't DM me asking for it. Everything is in the card 👇",
-   "first_comment": "The Content OS: the weekly loop, the rules every post passes and the prompt that pitches your ideas.",
-   "sources": [
-    "content/corpus/facts.md: EW-46",
-    "content/corpus/giveaway-assets.md"
-   ],
-   "numbers_for_signoff": [
-    "hook inside 140 characters (EW-46)",
-    "10 ideas a run: the pitch prompt asks for 10 (resource)"
-   ],
-   "flags": [
-    "The keyword is only on the asset's bottom tile, never in the post copy or the first comment. The resource is built and hosted: preview it under the post, with the three messages that deliver it.",
-    "The resource goes out by manual DM from Ben's own profile (assumed; confirm).",
-    "Filled from the re-pitch on the owner's direction that every profile gets at least 3 giveaways (ranked by simplicity and fit)."
-   ],
-   "visual_label": "On the asset (animated 4:5)",
-   "visual_copy": [
-    "Claude / content-os · LIVE",
-    "The Content OS",
-    "10 POST IDEAS READY TO PICK",
-    "WHO APPROVES: You. Every post, before it goes out.",
-    "/context /ideas /copy /design /review /publish",
-    "Comment CONTENT and I'll send it over"
-   ],
-   "resource": {
-    "name": "The Content OS",
-    "keyword": "CONTENT",
-    "what": "A 2-page PDF: the weekly loop, the rules every post passes, a context file to fill in and the prompt that pitches your ideas.",
-    "url": "https://adisuja.github.io/tantra-revops/content-os/",
-    "pages": 2,
-    "files": [
-     {
-      "label": "PDF",
-      "href": "https://adisuja.github.io/tantra-revops/content-os/content-os.pdf"
-     }
-    ]
-   },
-   "dm": {
-    "message": "Hi {first_name}, thanks for commenting CONTENT.\n\nHere's the Content OS:\nhttps://adisuja.github.io/tantra-revops/content-os/\n\nIt's 2 pages: the weekly loop, the rules every post passes, a context file to fill in and the prompt that pitches your ideas.\n\nFill in the context file first. Every idea and every post reads from it.\n\nWho writes your team's posts today?",
-    "connect": "Hi {first_name}, you commented CONTENT on my post about Claude running a Content OS for our team. LinkedIn only lets me message connections, so accept this and I'll send it straight over. Ben",
-    "email_subject": "Your Content OS",
-    "email_body": "Hi {first_name},\n\nYou commented CONTENT on my post about Claude running a Content OS for our team:\n[POST LINK]\n\nHere's the Content OS, as promised:\nhttps://adisuja.github.io/tantra-revops/content-os/\n\nIt's 2 pages: the weekly loop, the rules every post passes, a context file to fill in and the prompt that pitches your ideas. The link opens straight away, with no sign-up.\n\nFill in the context file first. Every idea and every post reads from it.\n\nWho writes your team's posts today? Hit reply and tell me.\n\nBen\n\nP.S. You're getting this because you asked for it in the comments. If you'd rather not hear from me again, reply \"no\" and that's final."
-   },
-   "key": "b4-EG9"
-  },
-  {
    "id": "HG1",
    "batch": "4",
    "profile": "bhaskar",
@@ -2475,20 +2647,20 @@ window.STUDIO = {
     "src": "batch-4/HG1",
     "title": "The Event Countdown Content Calendar",
     "files": [
-     "media/batch-4/HG1/poster.jpg?v=20261111035950"
+     "media/batch-4/HG1/poster.jpg?v=20261111043728"
     ],
-    "video": "media/batch-4/HG1/tantra-b4-HG1-2026-11-24-bhaskar.mp4?v=20261111035950",
+    "video": "media/batch-4/HG1/tantra-b4-HG1-2026-11-24-bhaskar.mp4?v=20261111043728",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-4/HG1/tantra-b4-HG1-2026-11-24-bhaskar.mp4?v=20261111035950",
+      "href": "media/batch-4/HG1/tantra-b4-HG1-2026-11-24-bhaskar.mp4?v=20261111043728",
       "name": "tantra-b4-HG1-2026-11-24-bhaskar.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 348753
      },
      {
-      "href": "media/batch-4/HG1/tantra-b4-HG1-2026-11-24-bhaskar.gif?v=20261111035950",
+      "href": "media/batch-4/HG1/tantra-b4-HG1-2026-11-24-bhaskar.gif?v=20261111043728",
       "name": "tantra-b4-HG1-2026-11-24-bhaskar.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -2565,20 +2737,20 @@ window.STUDIO = {
     "src": "batch-4/HG2",
     "title": "The Value Equation Scorecard",
     "files": [
-     "media/batch-4/HG2/poster.jpg?v=20261111035950"
+     "media/batch-4/HG2/poster.jpg?v=20261111043728"
     ],
-    "video": "media/batch-4/HG2/tantra-b4-HG2-2026-11-26-bhaskar.mp4?v=20261111035950",
+    "video": "media/batch-4/HG2/tantra-b4-HG2-2026-11-26-bhaskar.mp4?v=20261111043728",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-4/HG2/tantra-b4-HG2-2026-11-26-bhaskar.mp4?v=20261111035950",
+      "href": "media/batch-4/HG2/tantra-b4-HG2-2026-11-26-bhaskar.mp4?v=20261111043728",
       "name": "tantra-b4-HG2-2026-11-26-bhaskar.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 350230
      },
      {
-      "href": "media/batch-4/HG2/tantra-b4-HG2-2026-11-26-bhaskar.gif?v=20261111035950",
+      "href": "media/batch-4/HG2/tantra-b4-HG2-2026-11-26-bhaskar.gif?v=20261111043728",
       "name": "tantra-b4-HG2-2026-11-26-bhaskar.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -2656,20 +2828,20 @@ window.STUDIO = {
     "src": "batch-4/HG3",
     "title": "The Offer Ladder Worksheet",
     "files": [
-     "media/batch-4/HG3/poster.jpg?v=20261111035950"
+     "media/batch-4/HG3/poster.jpg?v=20261111043728"
     ],
-    "video": "media/batch-4/HG3/tantra-b4-HG3-2026-12-01-bhaskar.mp4?v=20261111035950",
+    "video": "media/batch-4/HG3/tantra-b4-HG3-2026-12-01-bhaskar.mp4?v=20261111043728",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-4/HG3/tantra-b4-HG3-2026-12-01-bhaskar.mp4?v=20261111035950",
+      "href": "media/batch-4/HG3/tantra-b4-HG3-2026-12-01-bhaskar.mp4?v=20261111043728",
       "name": "tantra-b4-HG3-2026-12-01-bhaskar.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 486341
      },
      {
-      "href": "media/batch-4/HG3/tantra-b4-HG3-2026-12-01-bhaskar.gif?v=20261111035950",
+      "href": "media/batch-4/HG3/tantra-b4-HG3-2026-12-01-bhaskar.gif?v=20261111043728",
       "name": "tantra-b4-HG3-2026-12-01-bhaskar.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -2746,20 +2918,20 @@ window.STUDIO = {
     "src": "batch-4/HG6",
     "title": "The 1-in-5 Post and DM Flow",
     "files": [
-     "media/batch-4/HG6/poster.jpg?v=20261111035950"
+     "media/batch-4/HG6/poster.jpg?v=20261111043728"
     ],
-    "video": "media/batch-4/HG6/tantra-b4-HG6-2026-12-03-bhaskar.mp4?v=20261111035950",
+    "video": "media/batch-4/HG6/tantra-b4-HG6-2026-12-03-bhaskar.mp4?v=20261111043728",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-4/HG6/tantra-b4-HG6-2026-12-03-bhaskar.mp4?v=20261111035950",
+      "href": "media/batch-4/HG6/tantra-b4-HG6-2026-12-03-bhaskar.mp4?v=20261111043728",
       "name": "tantra-b4-HG6-2026-12-03-bhaskar.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 421853
      },
      {
-      "href": "media/batch-4/HG6/tantra-b4-HG6-2026-12-03-bhaskar.gif?v=20261111035950",
+      "href": "media/batch-4/HG6/tantra-b4-HG6-2026-12-03-bhaskar.gif?v=20261111043728",
       "name": "tantra-b4-HG6-2026-12-03-bhaskar.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -2811,96 +2983,7 @@ window.STUDIO = {
    "key": "b4-HG6"
   },
   {
-   "id": "NG11",
-   "batch": "4",
-   "profile": "nelbin",
-   "platform": "linkedin",
-   "status": "ready",
-   "time": "08:30",
-   "cta": "",
-   "date": "2026-12-01",
-   "short": "The Content OS behind our posts",
-   "pillar": "Content and traffic",
-   "idea": "The Content OS plans, drafts and designs a team's LinkedIn posts; a person picks and approves.",
-   "format": "Image · animated giveaway",
-   "sample": {
-    "id": "ID13",
-    "creator": "Ipsita Dhar",
-    "what": "Animated feature-card grid reveal: near-white, a JUST IN pill, huge condensed headline with orange highlights, a terminal that types, a 3x2 card grid",
-    "url": "https://www.linkedin.com/posts/ipsitadhar14_ive-built-the-largest-claude-linkedin-growth-activity-7513833250012909568-LcDp"
-   },
-   "copy_basis": "ID13 template: 'We built the X' line, the free-access line with 👇🏾, what it does, a short card list, the closing line",
-   "media": {
-    "type": "video",
-    "src": "batch-4/NG11",
-    "title": "The Content OS",
-    "files": [
-     "media/batch-4/NG11/poster.jpg?v=20261111035950"
-    ],
-    "video": "media/batch-4/NG11/tantra-b4-NG11-2026-12-01-nelbin.mp4?v=20261111035950",
-    "tall": false,
-    "sets": [
-     {
-      "href": "media/batch-4/NG11/tantra-b4-NG11-2026-12-01-nelbin.mp4?v=20261111035950",
-      "name": "tantra-b4-NG11-2026-12-01-nelbin.mp4",
-      "ext": "mp4",
-      "label": "Download MP4",
-      "bytes": 250338
-     },
-     {
-      "href": "media/batch-4/NG11/tantra-b4-NG11-2026-12-01-nelbin.gif?v=20261111035950",
-      "name": "tantra-b4-NG11-2026-12-01-nelbin.gif",
-      "ext": "gif",
-      "label": "Download GIF",
-      "bytes": 471743
-     }
-    ]
-   },
-   "text": "We built the Content OS that plans, drafts and designs our team's LinkedIn posts.\n\nAnd we're giving you the loop, the rules and the prompt that starts it, free.\n\n👇🏾\n\nYou fill in one context file: what you sell, who buys, your proof and the words you never use.\n\nThen the OS runs the week:\n\n► Context: one file the rest reads from\n► Ideas: pitched from it, each with a hook inside 140 characters\n► Copy: every fact taken from your file\n► Design: built to a post format that already works\n► Review: you approve every post\n► Publish: approved posts only\n\nNo post goes out that a person hasn't picked and approved.\n\nThe OS is here. Get it.\n👇🏾",
-   "first_comment": "The Content OS: the system that plans, drafts and designs LinkedIn posts for you to approve.",
-   "sources": [
-    "content/corpus/facts.md: EW-46",
-    "content/corpus/giveaway-assets.md"
-   ],
-   "numbers_for_signoff": [
-    "hook inside the first 140 characters (EW-46)"
-   ],
-   "flags": [
-    "The keyword is only on the asset's bottom tile, never in the post copy or the first comment. The resource is built and hosted: preview it under the post, with the three messages that deliver it.",
-    "The resource goes out by manual DM from Nelbin's own profile (assumed; confirm).",
-    "Filled from the re-pitch on the owner's direction that every profile gets at least 3 giveaways (ranked by simplicity and fit)."
-   ],
-   "visual_label": "On the asset (animated 4:5)",
-   "visual_copy": [
-    "JUST IN",
-    "THE CONTENT OS",
-    "The system that plans, drafts and designs our team's LinkedIn posts. A person approves every one.",
-    "Context · Ideas · Copy · Design · Review · Publish",
-    "Comment CONTENT and I'll send it over"
-   ],
-   "resource": {
-    "name": "The Content OS",
-    "keyword": "CONTENT",
-    "what": "A 2-page PDF: the weekly loop, the rules every post passes, a context file to fill in and the prompt that pitches your ideas.",
-    "url": "https://adisuja.github.io/tantra-revops/content-os/",
-    "pages": 2,
-    "files": [
-     {
-      "label": "PDF",
-      "href": "https://adisuja.github.io/tantra-revops/content-os/content-os.pdf"
-     }
-    ]
-   },
-   "dm": {
-    "message": "Hi {first_name}, thanks for commenting CONTENT.\n\nHere's the Content OS:\nhttps://adisuja.github.io/tantra-revops/content-os/\n\nIt's 2 pages: the weekly loop, the rules every post passes, a context file to fill in and the prompt that pitches your ideas.\n\nFill in the context file first. Every idea and every post reads from it.\n\nHow many posts a week are you aiming for?",
-    "connect": "Hi {first_name}, you commented CONTENT on my post about the Content OS behind our team's posts. LinkedIn only lets me message connections, so accept this and I'll send it straight over. Nelbin",
-    "email_subject": "Your Content OS",
-    "email_body": "Hi {first_name},\n\nYou commented CONTENT on my post about the Content OS behind our team's posts:\n[POST LINK]\n\nHere's the Content OS, as promised:\nhttps://adisuja.github.io/tantra-revops/content-os/\n\nIt's 2 pages: the weekly loop, the rules every post passes, a context file to fill in and the prompt that pitches your ideas. The link opens straight away, with no sign-up.\n\nFill in the context file first. Every idea and every post reads from it.\n\nHow many posts a week are you aiming for? Hit reply and tell me.\n\nNelbin\n\nP.S. You're getting this because you asked for it in the comments. If you'd rather not hear from me again, reply \"no\" and that's final."
-   },
-   "key": "b4-NG11"
-  },
-  {
-   "id": "NG7",
+   "id": "NA1",
    "batch": "4",
    "profile": "nelbin",
    "platform": "linkedin",
@@ -2908,70 +2991,160 @@ window.STUDIO = {
    "time": "08:30",
    "cta": "",
    "date": "2026-11-24",
-   "short": "An AI SDR does the first part of the day",
+   "short": "The invite that lands in their calendar",
    "pillar": "Reach every buyer",
-   "idea": "What an AI SDR in Claude does in a day, and what stays with your team.",
+   "idea": "Buyers skim their inbox but check their calendar every morning. Put your session in their calendar with an invite written like a meeting.",
    "format": "Image · animated giveaway",
    "sample": {
-    "id": "BK14",
+    "id": "BK02",
     "creator": "Bharath Krishna Pai",
-    "what": "Animated pipeline conveyor: near-black aubergine grid, glass cards with orchid borders, pink-to-magenta gradient, an orb feeding a spine, lanes down which cards drift and relabel",
-    "url": "https://www.linkedin.com/posts/bkp31415_wait-claude-can-run-your-entire-outbound-activity-7515641667157348353-BjI5"
+    "what": "Animated calendar fill, 720x900 GIF: cream canvas, calendar filling around fixed grey events, tilted note with a hand-drawn arrow onto a count-up pill, full-width orange keyword bar",
+    "url": "https://www.linkedin.com/posts/bkp31415_i-finally-did-it-claude-is-now-connected-activity-7523976570722488320-GOVE"
    },
-   "copy_basis": "BK14 template: disbelief caps hook with 🤯, a short 'connected the right tools' line, a capability line, a catch, a short arrow list, the closing offer",
+   "copy_basis": "BK02 template: caps hook with a colon, CTA bookend and pointer, 'What's inside:' with arrow lines (numbered ones first), a conditional offer with an ellipsis, CTA bookend repeated",
    "media": {
     "type": "video",
-    "src": "batch-4/NG7",
-    "title": "The AI SDR System",
+    "src": "batch-4/NA1",
+    "title": "The Calendar Invite Blueprint",
     "files": [
-     "media/batch-4/NG7/poster.jpg?v=20261111035950"
+     "media/batch-4/NA1/poster.jpg?v=20261111043728"
     ],
-    "video": "media/batch-4/NG7/tantra-b4-NG7-2026-11-24-nelbin.mp4?v=20261111035950",
+    "video": "media/batch-4/NA1/tantra-b4-NA1-2026-11-24-nelbin.mp4?v=20261111043728",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-4/NG7/tantra-b4-NG7-2026-11-24-nelbin.mp4?v=20261111035950",
-      "name": "tantra-b4-NG7-2026-11-24-nelbin.mp4",
+      "href": "media/batch-4/NA1/tantra-b4-NA1-2026-11-24-nelbin.mp4?v=20261111043728",
+      "name": "tantra-b4-NA1-2026-11-24-nelbin.mp4",
       "ext": "mp4",
       "label": "Download MP4",
-      "bytes": 378607
+      "bytes": 426301
      },
      {
-      "href": "media/batch-4/NG7/tantra-b4-NG7-2026-11-24-nelbin.gif?v=20261111035950",
-      "name": "tantra-b4-NG7-2026-11-24-nelbin.gif",
+      "href": "media/batch-4/NA1/tantra-b4-NA1-2026-11-24-nelbin.gif?v=20261111043728",
+      "name": "tantra-b4-NA1-2026-11-24-nelbin.gif",
       "ext": "gif",
       "label": "Download GIF",
-      "bytes": 867723
+      "bytes": 600769
      }
     ]
    },
-   "text": "WAIT. AN AI SDR CAN FIND YOUR BUYERS AND DRAFT THEIR FIRST MESSAGE BEFORE YOUR TEAM LOGS IN? 🤯\n\nSet it up in Claude with the right files.\n\nIt finds people who fit, checks each company, drafts the first message and lines up the follow-ups.\n\nHere's the catch: it doesn't decide anything that matters.\n\n→ AI finds everyone who fits and puts them in one list\n→ AI reads each company's site and cuts the wrong fits\n→ AI sorts each person into a segment\n→ AI drafts one message per segment, merge fields only\n→ A person approves every message before it goes out\n→ A person answers every real reply the same day\n→ A person takes the call\n\nAI does the volume. People make the calls.\n\nWant the system? I'll share it. 👇",
-   "first_comment": "The AI SDR System: how an AI SDR in Claude finds, checks and messages buyers, and where your team steps in.",
+   "text": "I FINALLY STOPPED FIGHTING THE INBOX. The CALENDAR INVITE is how we fill our live sessions now:\n\nGet the template here.\n👇🏾\n\nWhat's inside:\n\n→ 8 TO 12 DAYS OUT, the window every invite goes in\n\n→ 60 CHARACTERS, the most a title gets, so it reads in a calendar grid\n\n→ 4 RULES every invite passes before it goes out\n\n→ 2 OPENING LINES that say who it's for and what they leave with\n\n→ 1 LINE that makes saying no easy\n\n→ THE TEMPLATE, written like a meeting, not an ad\n\n→ THE PROMPT that writes the invite for your own event\n\n→ THE TEST to run on your own calendar before you send\n\nIf you'd like the template, the rules and the prompt in one place for FREE...\n\nGet the template here.\n👇🏾",
+   "first_comment": "The Calendar Invite Blueprint: the template, the 4 rules and the prompt, so your session lands in your buyer's calendar.",
    "sources": [
-    "content/corpus/facts.md: EW-45, EW-36, EW-23 to EW-25",
+    "content/corpus/facts.md: EW-23",
     "content/corpus/giveaway-assets.md"
    ],
    "numbers_for_signoff": [
-    "the split of work: AI does the volume, people make the calls (EW-45)"
+    "8 to 12 days out, title under 60 characters, first two lines (EW-23)",
+    "4 rules (the resource)"
    ],
    "flags": [
     "The keyword is only on the asset's bottom tile, never in the post copy or the first comment. The resource is built and hosted: preview it under the post, with the three messages that deliver it.",
-    "The resource goes out by manual DM from Nelbin's own profile (assumed; confirm).",
-    "Filled from the re-pitch on the owner's direction that every profile gets at least 3 giveaways (ranked by simplicity and fit)."
+    "The resource goes out by manual DM from Nelbin's own profile (assumed; confirm)."
    ],
    "visual_label": "On the asset (animated 4:5)",
    "visual_copy": [
-    "NELBIN JOSEPH · RUNNING",
-    "THE AI SDR SYSTEM",
-    "AI does the volume. People make the calls.",
-    "FIND · CHECK · SORT · WRITE · FOLLOW UP · YOUR CALL",
-    "Example prospects labelled",
+    "NELBIN JOSEPH",
+    "The Calendar Invite Blueprint",
+    "The template. The 4 rules. The AI prompt.",
+    "1 invite, written like a meeting, lands in their week.",
+    "Sent 8 to 12 days out",
+    "Comment INVITE and I'll send it over"
+   ],
+   "resource": {
+    "name": "The Calendar Invite Blueprint",
+    "keyword": "INVITE",
+    "what": "A 3-page PDF and page: the invite template, the 4 rules and the AI prompt that writes the invite for your event.",
+    "url": "https://adisuja.github.io/tantra-revops/calendar-invite-blueprint/",
+    "pages": 3,
+    "files": [
+     {
+      "label": "PDF",
+      "href": "https://adisuja.github.io/tantra-revops/calendar-invite-blueprint/calendar-invite-blueprint.pdf"
+     }
+    ]
+   },
+   "dm": {
+    "message": "Hi {first_name}, thanks for commenting INVITE.\n\nHere's the Calendar Invite Blueprint:\nhttps://adisuja.github.io/tantra-revops/calendar-invite-blueprint/\n\nIt's 3 pages: the invite template, the 4 rules and the AI prompt that writes the invite for your event.\n\nStart with page 2 and check your current invite against the 4 rules before you rewrite anything.\n\nWhat are you inviting people to?",
+    "connect": "Hi {first_name}, you commented INVITE on my post about putting your session in your buyers' calendars. LinkedIn only lets me message connections, so accept this and I'll send it straight over. Nelbin",
+    "email_subject": "Your Calendar Invite Blueprint",
+    "email_body": "Hi {first_name},\n\nYou commented INVITE on my post about putting your session in your buyers' calendars:\n[POST LINK]\n\nHere's the Calendar Invite Blueprint, as promised:\nhttps://adisuja.github.io/tantra-revops/calendar-invite-blueprint/\n\nIt's 3 pages: the invite template, the 4 rules and the AI prompt that writes the invite for your event. The link opens straight away, with no sign-up.\n\nStart with page 2 and check your current invite against the 4 rules before you rewrite anything.\n\nWhat are you inviting people to? Hit reply and tell me.\n\nNelbin\n\nP.S. You're getting this because you asked for it in the comments. If you'd rather not hear from me again, reply \"no\" and that's final."
+   },
+   "key": "b4-NA1"
+  },
+  {
+   "id": "NA2",
+   "batch": "4",
+   "profile": "nelbin",
+   "platform": "linkedin",
+   "status": "ready",
+   "time": "08:30",
+   "cta": "",
+   "date": "2026-11-26",
+   "short": "An AI SDR that waits for a yes",
+   "pillar": "Reach every buyer",
+   "idea": "Before you hire another SDR, let an AI SDR do the finding, checking and drafting. Your team approves and takes the calls.",
+   "format": "Image · animated giveaway",
+   "sample": {
+    "id": "ID09",
+    "creator": "Ipsita Dhar",
+    "what": "Animated ops dashboard: near-black canvas, teal accent, a LIVE tag, a hero card with giant mono numerals, a gauge and a short list of calls",
+    "url": "https://www.linkedin.com/posts/ipsitadhar14_wait-why-are-we-still-doing-outreach-manually-activity-7515743347815272448-b3ow"
+   },
+   "copy_basis": "ID09 template: caps question hook with 😭, a reveal line, 'Here's what it handles:' with five arrow lines, a summary line, three 'No' lines, a simplicity pair, a POV line, CTA",
+   "media": {
+    "type": "video",
+    "src": "batch-4/NA2",
+    "title": "The AI SDR System",
+    "files": [
+     "media/batch-4/NA2/poster.jpg?v=20261111043728"
+    ],
+    "video": "media/batch-4/NA2/tantra-b4-NA2-2026-11-26-nelbin.mp4?v=20261111043728",
+    "tall": false,
+    "sets": [
+     {
+      "href": "media/batch-4/NA2/tantra-b4-NA2-2026-11-26-nelbin.mp4?v=20261111043728",
+      "name": "tantra-b4-NA2-2026-11-26-nelbin.mp4",
+      "ext": "mp4",
+      "label": "Download MP4",
+      "bytes": 204207
+     },
+     {
+      "href": "media/batch-4/NA2/tantra-b4-NA2-2026-11-26-nelbin.gif?v=20261111043728",
+      "name": "tantra-b4-NA2-2026-11-26-nelbin.gif",
+      "ext": "gif",
+      "label": "Download GIF",
+      "bytes": 373624
+     }
+    ]
+   },
+   "text": "WAIT. WHY ARE WE STILL PAYING PEOPLE TO COPY LEADS INTO SPREADSHEETS? 😭\n\nAn AI SDR in Claude finds, checks and drafts.\nYour team approves and takes the calls.\n\nHere's what it handles:\n→ Merging your CRM, LinkedIn searches and past sign-ups into one list\n→ Checking each company against your fit rules\n→ Sorting every buyer into a segment\n→ Drafting one message per segment, with merge fields only\n→ Lining up the follow-ups on each channel's timing\n\nAll from one Claude project.\n\nNo copying leads by hand.\nNo writing every message from a blank page.\nNo guessing who to contact next.\n\nYour team checks the first 25 rows before trusting the rest.\n\nNothing goes out until a person says yes.\n\nThis is the part of the SDR job worth handing to AI.\n\nGet access for FREE. 👇",
+   "first_comment": "The AI SDR System: what an AI SDR does in Claude, and the parts that stay with your team.",
+   "sources": [
+    "content/corpus/facts.md: EW-36, EW-45",
+    "content/corpus/giveaway-assets.md"
+   ],
+   "numbers_for_signoff": [
+    "first 25 rows checked (EW-36)",
+    "a person approves every message (EW-45)"
+   ],
+   "flags": [
+    "The keyword is only on the asset's bottom tile, never in the post copy or the first comment. The resource is built and hosted: preview it under the post, with the three messages that deliver it.",
+    "The resource goes out by manual DM from Nelbin's own profile (assumed; confirm)."
+   ],
+   "visual_label": "On the asset (animated 4:5)",
+   "visual_copy": [
+    "Claude / ai-sdr · LIVE",
+    "Your AI SDR. You approve.",
+    "1 list merged, 25 rows checked, 0 sent without a yes",
+    "Waiting for your approval",
+    "Your calls (examples)",
     "Comment SDR and I'll send it over"
    ],
    "resource": {
     "name": "The AI SDR System",
     "keyword": "SDR",
-    "what": "A 2-page PDF: who does what, the Claude setup, the timing for each channel and the prompts that sort your list and write the first message.",
+    "what": "A 2-page PDF and page: who does what, the Claude setup, the timing for each channel and the two prompts that sort your list and write the first message.",
     "url": "https://adisuja.github.io/tantra-revops/ai-sdr-system/",
     "pages": 2,
     "files": [
@@ -2983,85 +3156,173 @@ window.STUDIO = {
    },
    "dm": {
     "message": "Hi {first_name}, thanks for commenting SDR.\n\nHere's the AI SDR System:\nhttps://adisuja.github.io/tantra-revops/ai-sdr-system/\n\nIt's 2 pages: who does what, the Claude setup, the timing for each channel and the two prompts that sort your list and write the first message.\n\nWrite your fit rules first. Everything the AI does reads from them.\n\nWhich part of prospecting takes your team longest?",
-    "connect": "Hi {first_name}, you commented SDR on my post about an AI SDR doing the first part of the sales day. LinkedIn only lets me message connections, so accept this and I'll send it straight over. Nelbin",
+    "connect": "Hi {first_name}, you commented SDR on my post about an AI SDR that never sends without a yes. LinkedIn only lets me message connections, so accept this and I'll send it straight over. Nelbin",
     "email_subject": "Your AI SDR System",
-    "email_body": "Hi {first_name},\n\nYou commented SDR on my post about an AI SDR doing the first part of the sales day:\n[POST LINK]\n\nHere's the AI SDR System, as promised:\nhttps://adisuja.github.io/tantra-revops/ai-sdr-system/\n\nIt's 2 pages: who does what, the Claude setup, the timing for each channel and the two prompts that sort your list and write the first message. The link opens straight away, with no sign-up.\n\nWrite your fit rules first. Everything the AI does reads from them.\n\nWhich part of prospecting takes your team longest? Hit reply and tell me.\n\nNelbin\n\nP.S. You're getting this because you asked for it in the comments. If you'd rather not hear from me again, reply \"no\" and that's final."
+    "email_body": "Hi {first_name},\n\nYou commented SDR on my post about an AI SDR that never sends without a yes:\n[POST LINK]\n\nHere's the AI SDR System, as promised:\nhttps://adisuja.github.io/tantra-revops/ai-sdr-system/\n\nIt's 2 pages: who does what, the Claude setup, the timing for each channel and the two prompts that sort your list and write the first message. The link opens straight away, with no sign-up.\n\nWrite your fit rules first. Everything the AI does reads from them.\n\nWhich part of prospecting takes your team longest? Hit reply and tell me.\n\nNelbin\n\nP.S. You're getting this because you asked for it in the comments. If you'd rather not hear from me again, reply \"no\" and that's final."
    },
-   "key": "b4-NG7"
+   "key": "b4-NA2"
   },
   {
-   "id": "NG8",
+   "id": "NA3",
    "batch": "4",
    "profile": "nelbin",
    "platform": "linkedin",
    "status": "ready",
    "time": "08:30",
    "cta": "",
-   "date": "2026-11-26",
-   "short": "One conversation across four channels",
+   "date": "2026-12-01",
+   "short": "Every channel has a speed limit",
    "pillar": "Reach every buyer",
-   "idea": "Run email, LinkedIn, calendar invites and WhatsApp as one conversation per buyer, not four tools.",
+   "idea": "Every outreach channel has a limit. Go over it and LinkedIn restricts you, SMS splits, subject lines get cut. One card with every limit.",
    "format": "Image · animated giveaway",
    "sample": {
-    "id": "BK06",
-    "creator": "Bharath Krishna Pai",
-    "what": "Animated one-page guide grid: engineering drawing sheet on parchment, headline with one blue accent, spec pills, numbered tiles whose tags light up",
-    "url": "https://www.linkedin.com/posts/bkp31415_i-turned-claude-into-a-full-stack-linkedin-activity-7521779610275987456-QFwy"
+    "id": "ID04",
+    "creator": "Ipsita Dhar",
+    "what": "Animated phone notification stack: glossy phone on a peach-to-coral gradient, a lock screen with notification cards stacking one by one",
+    "url": "https://www.linkedin.com/posts/ipsitadhar14_breaking-claude-now-grows-your-linkedin-activity-7520718602677682176-W22g"
    },
-   "copy_basis": "BK06 template: 'I turned X into a full-stack system' line, 'Not another...' line, 'An actual system...' line, what it covers, the closing offer",
+   "copy_basis": "ID04 template: two-line hook, a turn, an insight line, an equation pair, 'Here's what's inside:' arrow inventory, a caps label line, a short close",
    "media": {
     "type": "video",
-    "src": "batch-4/NG8",
-    "title": "The Omni-Channel Outreach System",
+    "src": "batch-4/NA3",
+    "title": "The Outreach Limits Cheat Sheet",
     "files": [
-     "media/batch-4/NG8/poster.jpg?v=20261111035950"
+     "media/batch-4/NA3/poster.jpg?v=20261111043728"
     ],
-    "video": "media/batch-4/NG8/tantra-b4-NG8-2026-11-26-nelbin.mp4?v=20261111035950",
+    "video": "media/batch-4/NA3/tantra-b4-NA3-2026-12-01-nelbin.mp4?v=20261111043728",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-4/NG8/tantra-b4-NG8-2026-11-26-nelbin.mp4?v=20261111035950",
-      "name": "tantra-b4-NG8-2026-11-26-nelbin.mp4",
+      "href": "media/batch-4/NA3/tantra-b4-NA3-2026-12-01-nelbin.mp4?v=20261111043728",
+      "name": "tantra-b4-NA3-2026-12-01-nelbin.mp4",
       "ext": "mp4",
       "label": "Download MP4",
-      "bytes": 462753
+      "bytes": 330050
      },
      {
-      "href": "media/batch-4/NG8/tantra-b4-NG8-2026-11-26-nelbin.gif?v=20261111035950",
-      "name": "tantra-b4-NG8-2026-11-26-nelbin.gif",
+      "href": "media/batch-4/NA3/tantra-b4-NA3-2026-12-01-nelbin.gif?v=20261111043728",
+      "name": "tantra-b4-NA3-2026-12-01-nelbin.gif",
       "ext": "gif",
       "label": "Download GIF",
-      "bytes": 948425
+      "bytes": 406176
      }
     ]
    },
-   "text": "We turned our outreach into one conversation across email, LinkedIn and calendar invites.\n\nNot four tools sending four different messages.\n\nAn actual system where each buyer hears one story, in order.\n\nHere's how it holds together:\n\n1. One sequence holds the email and LinkedIn steps, in your order.\n2. Calendar invites run beside it as their own campaign, 8 to 12 days before the session.\n3. WhatsApp only with consent, never on a cold list.\n4. One owner per prospect, so nobody gets five messages from one brand.\n5. A reply on any channel stops everything, and a person takes over.\n6. Every channel gets its own tagged link, so you know which one earned the sign-up.\n\nStart with two channels: cold email plus LinkedIn. Add the rest once those work.\n\nWant the full system?\nI've shared the details below. 👇",
-   "first_comment": "The Omni-Channel Outreach System: one conversation across email, LinkedIn and calendar invites, with the timing and the email prompt.",
+   "text": "Your LinkedIn account has a speed limit.\nMost people only find out when LinkedIn restricts them.\n\nAnd it's not the only channel with one.\n\nSo we put every limit on one page.\n\nHere's what we keep coming back to:\noutreach works when every message fits the channel it's sent on.\n\nOne message pasted everywhere = cut off, split in two or flagged.\nOne message per channel, inside its limit = read in full.\n\nHere's what's inside:\n\n→ The LinkedIn note: under 300 characters\n→ Connection requests: 15 to 20 a day, per profile\n→ Unanswered requests: withdrawn after 14 days\n→ SMS: under 160 characters, or it splits in two\n→ WhatsApp: under 400 characters, opted-in contacts only\n→ Subject lines: under 8 words\n→ A counter: paste a message in and it checks it against each limit\n\nTHE RULE:\nCheck the limit before you write, not after LinkedIn tells you.\n\nThe cheat sheet's in the card 👇",
+   "first_comment": "The Outreach Limits Cheat Sheet: every character and daily limit on one page, so no message gets cut or flagged.",
    "sources": [
-    "content/corpus/facts.md: EW-44, EW-23 to EW-25, EW-31",
+    "content/corpus/facts.md: EW-25",
     "content/corpus/giveaway-assets.md"
    ],
    "numbers_for_signoff": [
-    "calendar invites 8 to 12 days out (EW-23)",
-    "first pair: cold email plus LinkedIn (EW-44)"
+    "300 characters, 15 to 20 requests a day, 14 days, 160 and 400 characters, under 8 words (EW-25)"
    ],
    "flags": [
     "The keyword is only on the asset's bottom tile, never in the post copy or the first comment. The resource is built and hosted: preview it under the post, with the three messages that deliver it.",
-    "The resource goes out by manual DM from Nelbin's own profile (assumed; confirm).",
-    "Filled from the re-pitch on the owner's direction that every profile gets at least 3 giveaways (ranked by simplicity and fit)."
+    "The resource goes out by manual DM from Nelbin's own profile (assumed; confirm)."
    ],
    "visual_label": "On the asset (animated 4:5)",
    "visual_copy": [
-    "DRAWING NO. OMNI-01",
-    "Omni-channel outreach in one page.",
-    "4 channels · 1 conversation · 1 owner per prospect",
-    "12 numbered steps tagged EMAIL, LINKEDIN, INVITE, WHATSAPP, STOP, TRACKED",
+    "NELBIN JOSEPH",
+    "Every channel has a limit",
+    "LinkedIn note: 300 characters max",
+    "15 to 20 requests a day",
+    "SMS: 160 characters",
+    "Comment LIMITS and I'll send it over"
+   ],
+   "resource": {
+    "name": "The Outreach Limits Cheat Sheet",
+    "keyword": "LIMITS",
+    "what": "A 1-page PDF and page with every limit (WhatsApp, the LinkedIn note, SMS, subject lines, the LinkedIn daily range) and a counter that checks a message against each.",
+    "url": "https://adisuja.github.io/tantra-revops/outreach-limits/",
+    "pages": 1,
+    "files": [
+     {
+      "label": "PDF",
+      "href": "https://adisuja.github.io/tantra-revops/outreach-limits/outreach-limits.pdf"
+     }
+    ]
+   },
+   "dm": {
+    "message": "Hi {first_name}, thanks for commenting LIMITS.\n\nHere's the Outreach Limits Cheat Sheet:\nhttps://adisuja.github.io/tantra-revops/outreach-limits/\n\nIt's one page with every limit: WhatsApp, the LinkedIn note, SMS and subject lines, plus the LinkedIn daily range. Paste a message in and it checks it against each limit.\n\nPaste your current LinkedIn note into the counter first.\n\nWhich channel are you sending on most right now?",
+    "connect": "Hi {first_name}, you commented LIMITS on my post about the limits on every outreach channel. LinkedIn only lets me message connections, so accept this and I'll send it straight over. Nelbin",
+    "email_subject": "Your Outreach Limits Cheat Sheet",
+    "email_body": "Hi {first_name},\n\nYou commented LIMITS on my post about the limits on every outreach channel:\n[POST LINK]\n\nHere's the Outreach Limits Cheat Sheet, as promised:\nhttps://adisuja.github.io/tantra-revops/outreach-limits/\n\nIt's one page with every limit: WhatsApp, the LinkedIn note, SMS and subject lines, plus the LinkedIn daily range. Paste a message in and it checks it against each limit. The link opens straight away, with no sign-up.\n\nPaste your current LinkedIn note into the counter first.\n\nWhich channel are you sending on most right now? Hit reply and tell me.\n\nNelbin\n\nP.S. You're getting this because you asked for it in the comments. If you'd rather not hear from me again, reply \"no\" and that's final."
+   },
+   "key": "b4-NA3"
+  },
+  {
+   "id": "NA4",
+   "batch": "4",
+   "profile": "nelbin",
+   "platform": "linkedin",
+   "status": "ready",
+   "time": "08:30",
+   "cta": "",
+   "date": "2026-12-03",
+   "short": "Follow up where they actually look",
+   "pillar": "Reach every buyer",
+   "idea": "Your buyers are on email, LinkedIn and WhatsApp. Reach them on more than one, as one conversation, not four tools.",
+   "format": "Image · animated giveaway",
+   "sample": {
+    "id": "BK12",
+    "creator": "Bharath Krishna Pai",
+    "what": "Animated vermilion poster: mono status line, giant cream headline, a big numeral stat block, a dark log of rows resolving one by one, a lime keyword pill",
+    "url": "https://www.linkedin.com/posts/bkp31415_your-next-customer-could-be-on-your-website-activity-7516426819823108096-skbV"
+   },
+   "copy_basis": "BK12 template: three caps hook lines (claim, triple question mark, answer with 👀), 'Here's the problem.', pain, insight, sting, solution, 'Now it can:' with four arrows, usage pair, benefit line, caps closer with 🤯, CTA",
+   "media": {
+    "type": "video",
+    "src": "batch-4/NA4",
+    "title": "The Omni-Channel Outreach System",
+    "files": [
+     "media/batch-4/NA4/poster.jpg?v=20261111043728"
+    ],
+    "video": "media/batch-4/NA4/tantra-b4-NA4-2026-12-03-nelbin.mp4?v=20261111043728",
+    "tall": false,
+    "sets": [
+     {
+      "href": "media/batch-4/NA4/tantra-b4-NA4-2026-12-03-nelbin.mp4?v=20261111043728",
+      "name": "tantra-b4-NA4-2026-12-03-nelbin.mp4",
+      "ext": "mp4",
+      "label": "Download MP4",
+      "bytes": 196316
+     },
+     {
+      "href": "media/batch-4/NA4/tantra-b4-NA4-2026-12-03-nelbin.gif?v=20261111043728",
+      "name": "tantra-b4-NA4-2026-12-03-nelbin.gif",
+      "ext": "gif",
+      "label": "Download GIF",
+      "bytes": 312347
+     }
+    ]
+   },
+   "text": "YOUR NEXT BUYER IS IGNORING YOUR EMAILS RIGHT NOW.\n\nSO WHY IS YOUR TEAM STILL ONLY SENDING EMAILS???\n\nBECAUSE THEY HAVEN'T SEEN AN OMNI-CHANNEL OUTREACH SYSTEM YET. 👀\n\nHere's the problem.\n\nYour team writes an email, waits three days and writes another one.\n\nBut the buyer who never opens them might accept a LinkedIn note the same week.\n\nAnd nobody's sending one.\n\nSo we run email, LinkedIn and calendar invites as one system.\n\nOne sequence can:\n\n→ Run cold email and LinkedIn steps in one sequence, in your order\n\n→ Send the calendar invite as its own campaign beside it\n\n→ Stop every channel the moment the buyer replies on any of them\n\n→ Keep WhatsApp for people who opted in, never a cold list\n\nAll as one conversation per buyer.\n\nYour team picks the channels.\nThe sequence keeps the order.\n\nFewer emails into the void. More buyers who actually see you.\n\nTHIS is a much better way to follow up. 🤯\n\nTry it for FREE. 👇",
+   "first_comment": "The Omni-Channel Outreach System: reach the same buyer by email, LinkedIn and calendar invite, as one conversation.",
+   "sources": [
+    "content/corpus/facts.md: EW-44",
+    "content/corpus/giveaway-assets.md"
+   ],
+   "numbers_for_signoff": [
+    "one sequence, invites beside it, WhatsApp only with consent (EW-44)",
+    "a reply stops everything (the resource)"
+   ],
+   "flags": [
+    "The keyword is only on the asset's bottom tile, never in the post copy or the first comment. The resource is built and hosted: preview it under the post, with the three messages that deliver it.",
+    "The resource goes out by manual DM from Nelbin's own profile (assumed; confirm)."
+   ],
+   "visual_label": "On the asset (animated 4:5)",
+   "visual_copy": [
+    "ONE BUYER · FOUR CHANNELS / ONE CONVERSATION",
+    "Ignored your email?",
+    "4 touches, one conversation.",
+    "Day 0 email: no reply; Day 0 LinkedIn: accepted; Day 3 LinkedIn: read; Day 9 calendar: yes (fictional example)",
     "Comment OMNI and I'll send it over"
    ],
    "resource": {
     "name": "The Omni-Channel Outreach System",
     "keyword": "OMNI",
-    "what": "A 2-page PDF: the channel map, the rules that make it one conversation, a sample sequence and the prompt for the email steps.",
+    "what": "A 2-page PDF and page: the channel map, the rules that make it one conversation, a sample sequence and the prompt for the email steps.",
     "url": "https://adisuja.github.io/tantra-revops/omni-channel-outreach-system/",
     "pages": 2,
     "files": [
@@ -3073,11 +3334,369 @@ window.STUDIO = {
    },
    "dm": {
     "message": "Hi {first_name}, thanks for commenting OMNI.\n\nHere's the Omni-Channel Outreach System:\nhttps://adisuja.github.io/tantra-revops/omni-channel-outreach-system/\n\nIt's 2 pages: the channel map, the rules that make it one conversation, a sample sequence and the prompt for the email steps.\n\nStart with two channels, cold email and LinkedIn, before you add the rest.\n\nWhich channels are you running today?",
-    "connect": "Hi {first_name}, you commented OMNI on my post about running outreach as one conversation. LinkedIn only lets me message connections, so accept this and I'll send it straight over. Nelbin",
+    "connect": "Hi {first_name}, you commented OMNI on my post about following up on a channel your buyer actually checks. LinkedIn only lets me message connections, so accept this and I'll send it straight over. Nelbin",
     "email_subject": "Your Omni-Channel Outreach System",
-    "email_body": "Hi {first_name},\n\nYou commented OMNI on my post about running outreach as one conversation:\n[POST LINK]\n\nHere's the Omni-Channel Outreach System, as promised:\nhttps://adisuja.github.io/tantra-revops/omni-channel-outreach-system/\n\nIt's 2 pages: the channel map, the rules that make it one conversation, a sample sequence and the prompt for the email steps. The link opens straight away, with no sign-up.\n\nStart with two channels, cold email and LinkedIn, before you add the rest.\n\nWhich channels are you running today? Hit reply and tell me.\n\nNelbin\n\nP.S. You're getting this because you asked for it in the comments. If you'd rather not hear from me again, reply \"no\" and that's final."
+    "email_body": "Hi {first_name},\n\nYou commented OMNI on my post about following up on a channel your buyer actually checks:\n[POST LINK]\n\nHere's the Omni-Channel Outreach System, as promised:\nhttps://adisuja.github.io/tantra-revops/omni-channel-outreach-system/\n\nIt's 2 pages: the channel map, the rules that make it one conversation, a sample sequence and the prompt for the email steps. The link opens straight away, with no sign-up.\n\nStart with two channels, cold email and LinkedIn, before you add the rest.\n\nWhich channels are you running today? Hit reply and tell me.\n\nNelbin\n\nP.S. You're getting this because you asked for it in the comments. If you'd rather not hear from me again, reply \"no\" and that's final."
    },
-   "key": "b4-NG8"
+   "key": "b4-NA4"
+  },
+  {
+   "id": "QA1",
+   "batch": "4",
+   "profile": "aquila",
+   "platform": "linkedin",
+   "status": "ready",
+   "time": "08:30",
+   "cta": "",
+   "date": "2026-11-26",
+   "short": "One system, not five tools",
+   "pillar": "Earn trust at scale",
+   "idea": "A live session usually runs on five tools and a spreadsheet. Run it as one system instead: page, reminders, session, follow-up.",
+   "format": "Image · animated giveaway",
+   "sample": {
+    "id": "ID06",
+    "creator": "Ipsita Dhar",
+    "what": "Animated org chart: off-white canvas, a lead card branching into colour-coded columns, a footer card",
+    "url": "https://www.linkedin.com/posts/ipsitadhar14_i-stopped-using-one-claude-for-everything-activity-7516732358776250369-dSlt"
+   },
+   "copy_basis": "ID06 template: before/after hook, a frame line, CTA tease and pointer, 'Here's the full team:' roster with scope lines, a why header with two arrow reasons, a close",
+   "media": {
+    "type": "video",
+    "src": "batch-4/QA1",
+    "title": "The AI Webinar Funnel System",
+    "files": [
+     "media/batch-4/QA1/poster.jpg?v=20261111043728"
+    ],
+    "video": "media/batch-4/QA1/tantra-b4-QA1-2026-11-26-aquila.mp4?v=20261111043728",
+    "tall": false,
+    "sets": [
+     {
+      "href": "media/batch-4/QA1/tantra-b4-QA1-2026-11-26-aquila.mp4?v=20261111043728",
+      "name": "tantra-b4-QA1-2026-11-26-aquila.mp4",
+      "ext": "mp4",
+      "label": "Download MP4",
+      "bytes": 394956
+     },
+     {
+      "href": "media/batch-4/QA1/tantra-b4-QA1-2026-11-26-aquila.gif?v=20261111043728",
+      "name": "tantra-b4-QA1-2026-11-26-aquila.gif",
+      "ext": "gif",
+      "label": "Download GIF",
+      "bytes": 672206
+     }
+    ]
+   },
+   "text": "Most teams run a webinar with five tools and a spreadsheet.\nWe run ours as one system: page, reminders, session, follow-up.\n\nEach part owns one piece of the funnel.\n\nGet the system here.\n👇🏾\n\nHere's how it splits:\n\n1→ The page\n\nOwns the sign-up. Nine blocks, with the form above the fold on a laptop.\n\n2→ The reminders\n\nOwns the show-up. Every reminder is timed from the session, in their time zone.\n\n3→ The session\n\nOwns the booking. Promise, problem, method and proof, invitation, then Q&A.\n\n4→ The follow-up\n\nOwns the second chance. One message for people who came, another for people who missed it.\n\n5→ The booking\n\nOwns the decision. A call, then a proposal.\n\n6→ Long-term nurture\n\nOwns everyone who didn't buy. A useful email every week.\n\nThe guide lays these out as six stages, from traffic to long-term nurture, each with one number to watch.\n\nWhy this works better than five tools:\n\n→ No stage left without an owner. Each one has a single number to watch.\n\n→ One brief behind everything. AI drafts each piece from it, and a person approves.\n\nGet the system here.\n👇🏾",
+   "first_comment": "The AI Webinar Funnel System: the six stages and the prompts that set up your own live session funnel.",
+   "sources": [
+    "content/corpus/facts.md: EW-17, EW-27, EW-33",
+    "content/corpus/giveaway-assets.md"
+   ],
+   "numbers_for_signoff": [
+    "six stages, one number each (EW-17)",
+    "nine blocks, form above the fold (EW-27)",
+    "session order (EW-33)"
+   ],
+   "flags": [
+    "The keyword is only on the asset's bottom tile, never in the post copy or the first comment. The resource is built and hosted: preview it under the post, with the three messages that deliver it.",
+    "The resource goes out by manual DM from Aquila's own profile (assumed; confirm)."
+   ],
+   "visual_label": "On the asset (animated 4:5)",
+   "visual_copy": [
+    "AQUILA ELDHO // LIVE SESSION FUNNEL",
+    "The AI Webinar Funnel System",
+    "Your live session: PAGE, REMINDERS, SESSION, FOLLOW-UP, BOOKING, NURTURE",
+    "AI drafts every piece from one brief. A person approves.",
+    "Comment WEBINAR and I'll send it over"
+   ],
+   "resource": {
+    "name": "The AI Webinar Funnel System",
+    "keyword": "WEBINAR",
+    "what": "A 2-page PDF and page: the six stages with what to build and the number to watch, the reminders, and three prompts to start.",
+    "url": "https://adisuja.github.io/tantra-revops/ai-webinar-funnel-system/",
+    "pages": 2,
+    "files": [
+     {
+      "label": "PDF",
+      "href": "https://adisuja.github.io/tantra-revops/ai-webinar-funnel-system/ai-webinar-funnel-system.pdf"
+     }
+    ]
+   },
+   "dm": {
+    "message": "Hi {first_name}, thanks for commenting WEBINAR.\n\nHere's the AI Webinar Funnel System:\nhttps://adisuja.github.io/tantra-revops/ai-webinar-funnel-system/\n\nIt's 2 pages: the six stages with what to build and the number to watch, the reminders, and three prompts to start: the page, the reminders and the follow-ups.\n\nFind your weakest stage on page 1 first, and build that one before anything else.\n\nWhich stage of your funnel feels weakest right now?",
+    "connect": "Hi {first_name}, you commented WEBINAR on my post about running a live session as one system. LinkedIn only lets me message connections, so accept this and I'll send it straight over. Aquila",
+    "email_subject": "Your AI Webinar Funnel System",
+    "email_body": "Hi {first_name},\n\nYou commented WEBINAR on my post about running a live session as one system:\n[POST LINK]\n\nHere's the AI Webinar Funnel System, as promised:\nhttps://adisuja.github.io/tantra-revops/ai-webinar-funnel-system/\n\nIt's 2 pages: the six stages with what to build and the number to watch, the reminders, and three prompts to start: the page, the reminders and the follow-ups. The link opens straight away, with no sign-up.\n\nFind your weakest stage on page 1 first, and build that one before anything else.\n\nWhich stage of your funnel feels weakest right now? Hit reply and tell me.\n\nAquila\n\nP.S. You're getting this because you asked for it in the comments. If you'd rather not hear from me again, reply \"no\" and that's final."
+   },
+   "key": "b4-QA1"
+  },
+  {
+   "id": "QA2",
+   "batch": "4",
+   "profile": "aquila",
+   "platform": "linkedin",
+   "status": "ready",
+   "time": "08:30",
+   "cta": "",
+   "date": "2026-12-01",
+   "short": "The whole thread from one prompt",
+   "pillar": "Reach every buyer",
+   "idea": "A cold email thread is five short emails over 13 days, and AI can write all five from one prompt.",
+   "format": "Image · animated giveaway",
+   "sample": {
+    "id": "JV01",
+    "creator": "Jessie van Breugel",
+    "what": "Animated spreadsheet: a white sheet app with a green Share button, rows filling in with status pills",
+    "url": "https://www.linkedin.com/posts/jessievanbreugel_claude-can-literally-become-your-ai-meeting-booking-activity-7524141845589696512-bFt5"
+   },
+   "copy_basis": "JV01 template: capability hook with 👀, a turn, a mechanism paragraph, 'Look at what happens next:' arrow list, a caps punch line, three '>' No lines, a role split, a summary line, two-line CTA",
+   "media": {
+    "type": "video",
+    "src": "batch-4/QA2",
+    "title": "The 13-Day Cold Email Thread",
+    "files": [
+     "media/batch-4/QA2/poster.jpg?v=20261111043728"
+    ],
+    "video": "media/batch-4/QA2/tantra-b4-QA2-2026-12-01-aquila.mp4?v=20261111043728",
+    "tall": false,
+    "sets": [
+     {
+      "href": "media/batch-4/QA2/tantra-b4-QA2-2026-12-01-aquila.mp4?v=20261111043728",
+      "name": "tantra-b4-QA2-2026-12-01-aquila.mp4",
+      "ext": "mp4",
+      "label": "Download MP4",
+      "bytes": 227655
+     },
+     {
+      "href": "media/batch-4/QA2/tantra-b4-QA2-2026-12-01-aquila.gif?v=20261111043728",
+      "name": "tantra-b4-QA2-2026-12-01-aquila.gif",
+      "ext": "gif",
+      "label": "Download GIF",
+      "bytes": 401343
+     }
+    ]
+   },
+   "text": "Claude can literally write your whole cold email thread from 1 prompt 👀\n5 emails. 13 days. One subject line.\n\nHere's how.\n\nOnce you give Claude your buyer, your offer and the one objection you hear most, it can draft every email in the thread.\n\nLook at what happens next:\n\n→ Day 0: the only email with a subject line, under 120 words\n→ Day 3: a reply in the same thread, with one proof point\n→ Day 6: the one idea they'll learn\n→ Day 9: the date and the link again\n→ Day 13: the last note, with an easy way out\n→ Then a second version of all five, leading with the objection\n\nALL from one prompt.\n\n> No five subject lines that read like five strangers\n> No second link to split the click\n> No email that just repeats the first one\n\nYou tell Claude who you're writing to.\nThe prompt keeps every email to its one job.\nYou read it, fix it and send it.\n\nOne subject line. A thread that gets shorter each time.\n\nAnd you can get it for FREE.\nGrab it below. 👇",
+   "first_comment": "The 13-Day Cold Email Thread: five short emails, the day each goes out and the prompt that writes them.",
+   "sources": [
+    "content/corpus/facts.md: EW-24",
+    "content/corpus/giveaway-assets.md"
+   ],
+   "numbers_for_signoff": [
+    "days 0, 3, 6, 9 and 13; only step 1 has a subject; under 80 words, step 1 under 120 (EW-24)"
+   ],
+   "flags": [
+    "The keyword is only on the asset's bottom tile, never in the post copy or the first comment. The resource is built and hosted: preview it under the post, with the three messages that deliver it.",
+    "The resource goes out by manual DM from Aquila's own profile (assumed; confirm)."
+   ],
+   "visual_label": "On the asset (animated 4:5)",
+   "visual_copy": [
+    "AQUILA ELDHO",
+    "The 13-Day Cold Email Thread",
+    "5 emails. 13 days. One subject line. One prompt writes them.",
+    "cold-email-thread.xlsx: Day 0, 3, 6, 9, 13 READY",
+    "Comment THREAD and I'll send it over"
+   ],
+   "resource": {
+    "name": "The 13-Day Cold Email Thread",
+    "keyword": "THREAD",
+    "what": "A 2-page PDF and page: five emails on days 0, 3, 6, 9 and 13, an outcome version and an objection version, and the prompt that fills all five.",
+    "url": "https://adisuja.github.io/tantra-revops/cold-email-thread/",
+    "pages": 2,
+    "files": [
+     {
+      "label": "PDF",
+      "href": "https://adisuja.github.io/tantra-revops/cold-email-thread/cold-email-thread.pdf"
+     }
+    ]
+   },
+   "dm": {
+    "message": "Hi {first_name}, thanks for commenting THREAD.\n\nHere's the 13-Day Cold Email Thread:\nhttps://adisuja.github.io/tantra-revops/cold-email-thread/\n\nIt's 2 pages: five emails on days 0, 3, 6, 9 and 13, an outcome version and an objection version, and the prompt that fills all five.\n\nWrite email 1 before anything else. The other four are replies to it, so they only work once it does.\n\nWho are you writing the thread for?",
+    "connect": "Hi {first_name}, you commented THREAD on my post about writing a whole cold email thread from one prompt. LinkedIn only lets me message connections, so accept this and I'll send it straight over. Aquila",
+    "email_subject": "Your 13-Day Cold Email Thread",
+    "email_body": "Hi {first_name},\n\nYou commented THREAD on my post about writing a whole cold email thread from one prompt:\n[POST LINK]\n\nHere's the 13-Day Cold Email Thread, as promised:\nhttps://adisuja.github.io/tantra-revops/cold-email-thread/\n\nIt's 2 pages: five emails on days 0, 3, 6, 9 and 13, an outcome version and an objection version, and the prompt that fills all five. The link opens straight away, with no sign-up.\n\nWrite email 1 before anything else. The other four are replies to it, so they only work once it does.\n\nWho are you writing the thread for? Hit reply and tell me.\n\nAquila\n\nP.S. You're getting this because you asked for it in the comments. If you'd rather not hear from me again, reply \"no\" and that's final."
+   },
+   "key": "b4-QA2"
+  },
+  {
+   "id": "QA3",
+   "batch": "4",
+   "profile": "aquila",
+   "platform": "linkedin",
+   "status": "ready",
+   "time": "08:30",
+   "cta": "",
+   "date": "2026-12-03",
+   "short": "From booked call to decision",
+   "pillar": "Close",
+   "idea": "Turn a booked call into a decision: confirm within 5 minutes, send the proposal within a day, follow up three times.",
+   "format": "Image · animated giveaway",
+   "sample": {
+    "id": "BK07",
+    "creator": "Bharath Krishna Pai",
+    "what": "Animated ticket printer: maroon-black canvas, a coral slot printing receipt tickets into a dashed tray, a counter",
+    "url": "https://www.linkedin.com/posts/bkp31415_we-built-a-meeting-os-that-turns-claude-into-activity-7521435965773660160-etSH"
+   },
+   "copy_basis": "BK07 template: 'We built' hook, a short proof stack (here the three rules), 'Here's what makes it different.', learn list, action list, an integration line, three 'No more' lines, an outcome line, qualifying CTA",
+   "media": {
+    "type": "video",
+    "src": "batch-4/QA3",
+    "title": "The Sales Call System",
+    "files": [
+     "media/batch-4/QA3/poster.jpg?v=20261111043728"
+    ],
+    "video": "media/batch-4/QA3/tantra-b4-QA3-2026-12-03-aquila.mp4?v=20261111043728",
+    "tall": false,
+    "sets": [
+     {
+      "href": "media/batch-4/QA3/tantra-b4-QA3-2026-12-03-aquila.mp4?v=20261111043728",
+      "name": "tantra-b4-QA3-2026-12-03-aquila.mp4",
+      "ext": "mp4",
+      "label": "Download MP4",
+      "bytes": 403147
+     },
+     {
+      "href": "media/batch-4/QA3/tantra-b4-QA3-2026-12-03-aquila.gif?v=20261111043728",
+      "name": "tantra-b4-QA3-2026-12-03-aquila.gif",
+      "ext": "gif",
+      "label": "Download GIF",
+      "bytes": 619944
+     }
+    ]
+   },
+   "text": "We built a sales call system that turns a booked call into a decision.\nConfirm in 5 minutes. Proposal in a day. A clear yes or no.\n\nHere's what makes it different.\n\nMost teams treat the booked call as the finish line. It's where the work starts.\n\nIt starts before the call:\n\n→ The page they book from, with your proof on it\n→ The questions that qualify them and prep the call\n→ The person who confirms the booking\n\nThen the steps after it:\n\n→ A first call that finds the stage that leaks\n→ A number on what fixing that stage is worth\n→ A proposal in their words, sent within one business day\n→ A second call with the person who signs\n→ Follow-ups on day 1, day 3 and day 7\n→ A clear answer, and a reason logged for every lost deal\n\nThe steps that usually slip each get a deadline and an owner.\n\nNo more booked calls nobody confirms.\nNo more proposals that sit for a week.\nNo more maybes that drift for a month.\n\nYour team gets a path from the booking to a decision.\n\nRunning sales calls every week?\nI'll walk you through it and give you FREE access.",
+   "first_comment": "The Sales Call System: everything after someone books a call, from the confirmation to the decision.",
+   "sources": [
+    "content/corpus/facts.md: EW-30, EW-41, EW-43",
+    "content/corpus/giveaway-assets.md"
+   ],
+   "numbers_for_signoff": [
+    "confirm within 5 minutes, 08:00 to 20:00 their time (EW-43)",
+    "proposal within one business day; day 1, 3 and 7 (EW-41)"
+   ],
+   "flags": [
+    "The keyword is only on the asset's bottom tile, never in the post copy or the first comment. The resource is built and hosted: preview it under the post, with the three messages that deliver it.",
+    "The resource goes out by manual DM from Aquila's own profile (assumed; confirm)."
+   ],
+   "visual_label": "On the asset (animated 4:5)",
+   "visual_copy": [
+    "AQUILA ELDHO",
+    "The Sales Call System",
+    "From a booked call to a decision.",
+    "01 BOOKED to 06 FOLLOW-UP tickets",
+    "6 steps, one decision",
+    "Comment CALLS and I'll send it over"
+   ],
+   "resource": {
+    "name": "The Sales Call System",
+    "keyword": "CALLS",
+    "what": "A 2-page PDF and page: the path from booking to decision, how to run the first call, the confirmation prompt and the day 7 message.",
+    "url": "https://adisuja.github.io/tantra-revops/sales-call-system/",
+    "pages": 2,
+    "files": [
+     {
+      "label": "PDF",
+      "href": "https://adisuja.github.io/tantra-revops/sales-call-system/sales-call-system.pdf"
+     }
+    ]
+   },
+   "dm": {
+    "message": "Hi {first_name}, thanks for commenting CALLS.\n\nHere's the Sales Call System:\nhttps://adisuja.github.io/tantra-revops/sales-call-system/\n\nIt's 2 pages: the path from booking to decision, how to run the first call, the confirmation prompt and the day 7 message.\n\nStart with step 2. Confirming every booked call within 5 minutes is the quickest change to make. If you'd like a walk-through, reply with a time that suits you and we'll go through it on a short call.\n\nWhat happens today in the first hour after someone books?",
+    "connect": "Hi {first_name}, you commented CALLS on my post about turning a booked call into a decision. LinkedIn only lets me message connections, so accept this and I'll send it straight over. Aquila",
+    "email_subject": "Your Sales Call System",
+    "email_body": "Hi {first_name},\n\nYou commented CALLS on my post about turning a booked call into a decision:\n[POST LINK]\n\nHere's the Sales Call System, as promised:\nhttps://adisuja.github.io/tantra-revops/sales-call-system/\n\nIt's 2 pages: the path from booking to decision, how to run the first call, the confirmation prompt and the day 7 message. The link opens straight away, with no sign-up.\n\nStart with step 2. Confirming every booked call within 5 minutes is the quickest change to make. If you'd like a walk-through, reply with a time that suits you and we'll go through it on a short call.\n\nWhat happens today in the first hour after someone books? Hit reply and tell me.\n\nAquila\n\nP.S. You're getting this because you asked for it in the comments. If you'd rather not hear from me again, reply \"no\" and that's final."
+   },
+   "key": "b4-QA3"
+  },
+  {
+   "id": "QA4",
+   "batch": "4",
+   "profile": "aquila",
+   "platform": "linkedin",
+   "status": "ready",
+   "time": "08:30",
+   "cta": "",
+   "date": "2026-12-08",
+   "short": "Your persona, from 20 real customers",
+   "pillar": "Reach every buyer",
+   "idea": "Stop writing your buyer persona from your own head. Build it from your 20 best customers.",
+   "format": "Image · animated giveaway",
+   "sample": {
+    "id": "BK17",
+    "creator": "Bharath Krishna Pai",
+    "what": "Animated card grid: cream canvas, navy headline with an orange highlight, an italic caps tagline, a grid of bordered cards with orange tags",
+    "url": "https://www.linkedin.com/posts/bkp31415_i-havent-written-a-linkedin-post-by-hand-activity-7513829707214155777-wtDg"
+   },
+   "copy_basis": "BK17 template: two-line hook ending in a free offer with 👇, a thesis, an effort line, 'Here's what's inside:' arrow list, a recap, CTA with a lone pointer",
+   "media": {
+    "type": "video",
+    "src": "batch-4/QA4",
+    "title": "The 20-Customer Persona Scorecard",
+    "files": [
+     "media/batch-4/QA4/poster.jpg?v=20261111043728"
+    ],
+    "video": "media/batch-4/QA4/tantra-b4-QA4-2026-12-08-aquila.mp4?v=20261111043728",
+    "tall": false,
+    "sets": [
+     {
+      "href": "media/batch-4/QA4/tantra-b4-QA4-2026-12-08-aquila.mp4?v=20261111043728",
+      "name": "tantra-b4-QA4-2026-12-08-aquila.mp4",
+      "ext": "mp4",
+      "label": "Download MP4",
+      "bytes": 756872
+     },
+     {
+      "href": "media/batch-4/QA4/tantra-b4-QA4-2026-12-08-aquila.gif?v=20261111043728",
+      "name": "tantra-b4-QA4-2026-12-08-aquila.gif",
+      "ext": "gif",
+      "label": "Download GIF",
+      "bytes": 1267566
+     }
+    ]
+   },
+   "text": "You should never write a buyer persona from your own head again.\nHere's the scorecard that builds it from your 20 best customers, free 👇\n\nA persona gets far more useful when you stop guessing and start counting.\n\nEach trait has to earn its place. If more than half your best customers don't share it, it's out.\n\nHere's what's inside:\n→ 20 rows, one per customer (best by revenue, retention and how easy they are to serve)\n→ 5 traits to fill in, from headcount band to the role that said yes\n→ 1 rule: keep a trait only if more than half share it\n→ 3 exclusions at least: who you never sell to\n→ 1 prompt that turns the scorecard into a persona\n→ Bands, not labels: \"11 to 50 staff\", not \"small\"\n\nThat's the whole method. Customers who paid, counted honestly.\n\nGrab the scorecard here.\n\n👇🏾",
+   "first_comment": "The 20-Customer Persona Scorecard, so your buyer profile comes from people who paid, not from a guess.",
+   "sources": [
+    "content/corpus/facts.md: EW-26",
+    "content/corpus/giveaway-assets.md"
+   ],
+   "numbers_for_signoff": [
+    "20 best customers, more than half, at least 3 exclusions (EW-26)",
+    "5 traits, 11 to 50 staff band (the resource's table)"
+   ],
+   "flags": [
+    "The keyword is only on the asset's bottom tile, never in the post copy or the first comment. The resource is built and hosted: preview it under the post, with the three messages that deliver it.",
+    "The resource goes out by manual DM from Aquila's own profile (assumed; confirm)."
+   ],
+   "visual_label": "On the asset (animated 4:5)",
+   "visual_copy": [
+    "AQUILA ELDHO · THE PERSONA SCORECARD",
+    "Your best 20 customers write your persona",
+    "KEEP A TRAIT ONLY IF MORE THAN HALF SHARE IT",
+    "The persona (fictional example)",
+    "Exclusions: at least 3",
+    "Comment BUYER and I'll send it over"
+   ],
+   "resource": {
+    "name": "The 20-Customer Persona Scorecard",
+    "keyword": "BUYER",
+    "what": "A 2-page PDF and page: list your 20 best customers, fill in the traits, keep what more than half share, write 3 exclusions; the prompt turns it into a persona.",
+    "url": "https://adisuja.github.io/tantra-revops/persona-scorecard/",
+    "pages": 2,
+    "files": [
+     {
+      "label": "PDF",
+      "href": "https://adisuja.github.io/tantra-revops/persona-scorecard/persona-scorecard.pdf"
+     }
+    ]
+   },
+   "dm": {
+    "message": "Hi {first_name}, thanks for commenting BUYER.\n\nHere's the 20-Customer Persona Scorecard:\nhttps://adisuja.github.io/tantra-revops/persona-scorecard/\n\nList your 20 best customers, fill in the traits, keep only what more than half share and write 3 exclusions. The prompt on page 2 turns it into a persona.\n\nStart with the customer list, not the traits. Pick by revenue, retention and how easy they are to serve.\n\nHow many customers do you have to pick from?",
+    "connect": "Hi {first_name}, you commented BUYER on my post about building your persona from your 20 best customers. LinkedIn only lets me message connections, so accept this and I'll send it straight over. Aquila",
+    "email_subject": "Your 20-Customer Persona Scorecard",
+    "email_body": "Hi {first_name},\n\nYou commented BUYER on my post about building your persona from your 20 best customers:\n[POST LINK]\n\nHere's the 20-Customer Persona Scorecard, as promised:\nhttps://adisuja.github.io/tantra-revops/persona-scorecard/\n\nList your 20 best customers, fill in the traits, keep only what more than half share and write 3 exclusions. The prompt on page 2 turns it into a persona. The link opens straight away, with no sign-up.\n\nStart with the customer list, not the traits. Pick by revenue, retention and how easy they are to serve.\n\nHow many customers do you have to pick from? Hit reply and tell me.\n\nAquila\n\nP.S. You're getting this because you asked for it in the comments. If you'd rather not hear from me again, reply \"no\" and that's final."
+   },
+   "key": "b4-QA4"
   },
   {
    "id": "QG5",
@@ -3104,20 +3723,20 @@ window.STUDIO = {
     "src": "batch-4/QG5",
     "title": "The 7-Day Proposal Follow-Up",
     "files": [
-     "media/batch-4/QG5/poster.jpg?v=20261111035950"
+     "media/batch-4/QG5/poster.jpg?v=20261111043728"
     ],
-    "video": "media/batch-4/QG5/tantra-b4-QG5-2026-11-24-aquila.mp4?v=20261111035950",
+    "video": "media/batch-4/QG5/tantra-b4-QG5-2026-11-24-aquila.mp4?v=20261111043728",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-4/QG5/tantra-b4-QG5-2026-11-24-aquila.mp4?v=20261111035950",
+      "href": "media/batch-4/QG5/tantra-b4-QG5-2026-11-24-aquila.mp4?v=20261111043728",
       "name": "tantra-b4-QG5-2026-11-24-aquila.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 330702
      },
      {
-      "href": "media/batch-4/QG5/tantra-b4-QG5-2026-11-24-aquila.gif?v=20261111035950",
+      "href": "media/batch-4/QG5/tantra-b4-QG5-2026-11-24-aquila.gif?v=20261111043728",
       "name": "tantra-b4-QG5-2026-11-24-aquila.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -3171,186 +3790,359 @@ window.STUDIO = {
    "key": "b4-QG5"
   },
   {
-   "id": "QG7",
+   "id": "RA1",
    "batch": "4",
-   "profile": "aquila",
+   "profile": "bharath",
    "platform": "linkedin",
    "status": "ready",
    "time": "08:30",
    "cta": "",
    "date": "2026-11-26",
-   "short": "The webinar funnel, stage by stage",
-   "pillar": "Earn trust at scale",
-   "idea": "The webinar funnel as six stages any B2B team can set up: page, reminders, session, follow-up, booking, nurture.",
+   "short": "Keep cold email off your main domain",
+   "pillar": "Reach every buyer",
+   "idea": "Never send cold email from your main domain. One bad week can put your invoices and client emails in spam.",
    "format": "Image · animated giveaway",
    "sample": {
-    "id": "NJ03",
-    "creator": "Nelbin Joseph",
-    "what": "Animated card-stack deck reveal: deep navy with a plum haze, serif title with an italic orange word, two stat boxes with dotted arcs into a cycling stack of cream cards",
-    "url": "https://www.linkedin.com/posts/nelbin-xav_i-built-a-free-outbound-playbook-generator-activity-7521817355992334336-iYuU"
+    "id": "ID07",
+    "creator": "Ipsita Dhar",
+    "what": "Animated light dashboard: a giant blue-to-teal gradient hero word, a three-stat row, a line chart with a legend",
+    "url": "https://www.linkedin.com/posts/ipsitadhar14_your-next-sales-lead-is-already-on-your-website-activity-7516418908732555264-k5nm"
    },
-   "copy_basis": "NJ03 template: 'We built a FREE X from Y' hook, 'Now you can get...' line, 'No generic advice', what it covers section by section, the founders close",
+   "copy_basis": "ID07 template: two caps hook lines with an ellipsis and 👀, a problem broken over two lines, a contrast, a reaction, the fix, four arrow lines, a benefit pair, an ease line, instruction and punchline, CTA",
    "media": {
     "type": "video",
-    "src": "batch-4/QG7",
-    "title": "The AI Webinar Funnel System",
+    "src": "batch-4/RA1",
+    "title": "The Clean Domain Sending Checklist",
     "files": [
-     "media/batch-4/QG7/poster.jpg?v=20261111035950"
+     "media/batch-4/RA1/poster.jpg?v=20261111043728"
     ],
-    "video": "media/batch-4/QG7/tantra-b4-QG7-2026-11-26-aquila.mp4?v=20261111035950",
+    "video": "media/batch-4/RA1/tantra-b4-RA1-2026-11-26-bharath.mp4?v=20261111043728",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-4/QG7/tantra-b4-QG7-2026-11-26-aquila.mp4?v=20261111035950",
-      "name": "tantra-b4-QG7-2026-11-26-aquila.mp4",
+      "href": "media/batch-4/RA1/tantra-b4-RA1-2026-11-26-bharath.mp4?v=20261111043728",
+      "name": "tantra-b4-RA1-2026-11-26-bharath.mp4",
       "ext": "mp4",
       "label": "Download MP4",
-      "bytes": 495796
+      "bytes": 290264
      },
      {
-      "href": "media/batch-4/QG7/tantra-b4-QG7-2026-11-26-aquila.gif?v=20261111035950",
-      "name": "tantra-b4-QG7-2026-11-26-aquila.gif",
+      "href": "media/batch-4/RA1/tantra-b4-RA1-2026-11-26-bharath.gif?v=20261111043728",
+      "name": "tantra-b4-RA1-2026-11-26-bharath.gif",
       "ext": "gif",
       "label": "Download GIF",
-      "bytes": 956627
+      "bytes": 487599
      }
     ]
    },
-   "text": "We built a FREE AI Webinar Funnel System from the funnel we built for our own live sessions.\n\nNow you can set up the page, reminders, session and follow-up for your own business.\n\nNo generic webinar advice.\n\nSix stages, each with one job and one number to watch:\n\n01 Traffic: one list, reached by email, LinkedIn and calendar invite. Visit rate.\n02 Landing: a page in nine blocks, the form above the fold. Sign-up rate.\n03 Nurture: reminders timed from the session. Show-up rate.\n04 Conversion: the session in order, promise to Q&A. Booking rate.\n05 Revenue: the call and the proposal. Close rate.\n06 Long-term nurture: a teaching email every week. Rebooking rate.\n\nAI drafts every piece from one brief. A person approves.\n\nFounders, want yours?\nGet FREE access below. 👇",
-   "first_comment": "The AI Webinar Funnel System: the six stages, the reminders and the first three prompts, ready to set up for your business.",
+   "text": "ONE BAD WEEK OF COLD EMAIL CAN PUT YOUR WHOLE DOMAIN IN SPAM...\nHERE'S THE SETUP THAT KEEPS IT SAFE 👀\n\nThe problem with most outbound teams is that\nthe cold email goes out from the same domain as the invoices.\n\nMeanwhile, your contracts and your client replies leave from that address too.\n\nThat's a lot to risk on one campaign.\n\nSo cold email never touches the main domain.\n\nThe setup:\n→ Two or three look-alike domains, each pointing at your real site\n→ Four DNS records on every one of them\n→ A two-week warm-up before the first cold send\n→ Sending only from 8am to 8pm in the buyer's time zone\n\nYour main domain keeps the invoices and client mail.\nYour outreach runs where it can't hurt them.\n\nThe best part: it's a checklist. You tick the boxes in order.\n\nStart with the domains today.\nThe warm-up clock only starts once they exist.\n\nGet the checklist for FREE. 👇",
+   "first_comment": "The Clean Domain Sending Checklist: the setup that keeps outreach off your main domain and out of spam.",
    "sources": [
-    "content/corpus/facts.md: EW-17, EW-18, EW-27, EW-33, EW-47",
+    "content/corpus/facts.md: EW-31",
     "content/corpus/giveaway-assets.md"
    ],
    "numbers_for_signoff": [
-    "six stages and six numbers (EW-17)",
-    "nine blocks, form above the fold (EW-27)"
+    "separate look-alike domains, two-week warm-up, 8am to 8pm their time (EW-31)",
+    "four DNS records (the resource)"
    ],
    "flags": [
     "The keyword is only on the asset's bottom tile, never in the post copy or the first comment. The resource is built and hosted: preview it under the post, with the three messages that deliver it.",
-    "The resource goes out by manual DM from Aquila's own profile (assumed; confirm).",
-    "Filled from the re-pitch on the owner's direction that every profile gets at least 3 giveaways (ranked by simplicity and fit)."
+    "The resource goes out by manual DM from Bharath's own profile (assumed; confirm)."
    ],
    "visual_label": "On the asset (animated 4:5)",
    "visual_copy": [
-    "WE BUILT AN",
-    "AI Webinar Funnel System",
-    "FROM THE FUNNEL WE BUILT FOR OUR OWN LIVE SESSIONS · AQUILA ELDHO",
-    "6 STAGES · 1 BRIEF FOR EVERY PROMPT",
-    "Cards 01 to 06: Traffic, Landing, Nurture, Conversion, Revenue, Nurture",
-    "Comment WEBINAR and I'll send it over"
+    "sending / domain health",
+    "Safe: your main domain never sends cold email.",
+    "Separate domains, warm-up, sending hours",
+    "Outreach domains vs main domain (chart)",
+    "Comment DOMAINS and I'll send it over"
    ],
    "resource": {
-    "name": "The AI Webinar Funnel System",
-    "keyword": "WEBINAR",
-    "what": "A 2-page PDF: the six stages with what to build and the number to watch, the reminders, and the prompts for the page, the reminders and the follow-ups.",
-    "url": "https://adisuja.github.io/tantra-revops/ai-webinar-funnel-system/",
-    "pages": 2,
+    "name": "The Clean Domain Sending Checklist",
+    "keyword": "DOMAINS",
+    "what": "A 1-page PDF and page of tick boxes: the look-alike domains, the four DNS records, the two-week warm-up and the sending rules.",
+    "url": "https://adisuja.github.io/tantra-revops/clean-domain-checklist/",
+    "pages": 1,
     "files": [
      {
       "label": "PDF",
-      "href": "https://adisuja.github.io/tantra-revops/ai-webinar-funnel-system/ai-webinar-funnel-system.pdf"
+      "href": "https://adisuja.github.io/tantra-revops/clean-domain-checklist/clean-domain-checklist.pdf"
      }
     ]
    },
    "dm": {
-    "message": "Hi {first_name}, thanks for commenting WEBINAR.\n\nHere's the AI Webinar Funnel System:\nhttps://adisuja.github.io/tantra-revops/ai-webinar-funnel-system/\n\nIt's 2 pages: the six stages with what to build and the number to watch, the reminders, and three prompts to start: the page, the reminders and the follow-ups.\n\nFind your weakest stage on page 1 first, and build that one before anything else.\n\nWhich stage of your funnel feels weakest right now?",
-    "connect": "Hi {first_name}, you commented WEBINAR on my post about the AI webinar funnel, stage by stage. LinkedIn only lets me message connections, so accept this and I'll send it straight over. Aquila",
-    "email_subject": "Your AI Webinar Funnel System",
-    "email_body": "Hi {first_name},\n\nYou commented WEBINAR on my post about the AI webinar funnel, stage by stage:\n[POST LINK]\n\nHere's the AI Webinar Funnel System, as promised:\nhttps://adisuja.github.io/tantra-revops/ai-webinar-funnel-system/\n\nIt's 2 pages: the six stages with what to build and the number to watch, the reminders, and three prompts to start: the page, the reminders and the follow-ups. The link opens straight away, with no sign-up.\n\nFind your weakest stage on page 1 first, and build that one before anything else.\n\nWhich stage of your funnel feels weakest right now? Hit reply and tell me.\n\nAquila\n\nP.S. You're getting this because you asked for it in the comments. If you'd rather not hear from me again, reply \"no\" and that's final."
+    "message": "Hi {first_name}, thanks for commenting DOMAINS.\n\nHere's the Clean Domain Sending Checklist:\nhttps://adisuja.github.io/tantra-revops/clean-domain-checklist/\n\nIt's one page of tick boxes: the look-alike domains, the four DNS records, the two-week warm-up and the sending rules.\n\nDo the domain section today. The warm-up takes two weeks, so that clock should start first.\n\nAre you sending cold email from your main domain today?",
+    "connect": "Hi {first_name}, you commented DOMAINS on my post about keeping your main domain out of cold email. LinkedIn only lets me message connections, so accept this and I'll send it straight over. Bharath",
+    "email_subject": "Your Clean Domain Sending Checklist",
+    "email_body": "Hi {first_name},\n\nYou commented DOMAINS on my post about keeping your main domain out of cold email:\n[POST LINK]\n\nHere's the Clean Domain Sending Checklist, as promised:\nhttps://adisuja.github.io/tantra-revops/clean-domain-checklist/\n\nIt's one page of tick boxes: the look-alike domains, the four DNS records, the two-week warm-up and the sending rules. The link opens straight away, with no sign-up.\n\nDo the domain section today. The warm-up takes two weeks, so that clock should start first.\n\nAre you sending cold email from your main domain today? Hit reply and tell me.\n\nBharath\n\nP.S. You're getting this because you asked for it in the comments. If you'd rather not hear from me again, reply \"no\" and that's final."
    },
-   "key": "b4-QG7"
+   "key": "b4-RA1"
   },
   {
-   "id": "QG8",
+   "id": "RA2",
    "batch": "4",
-   "profile": "aquila",
+   "profile": "bharath",
    "platform": "linkedin",
    "status": "ready",
    "time": "08:30",
    "cta": "",
    "date": "2026-12-01",
-   "short": "Everything after someone books a call",
-   "pillar": "Close",
-   "idea": "One system for everything after a booking: the page, a 5-minute confirmation, the call, a proposal within a day and the follow-up.",
+   "short": "The AI SDR, as six files",
+   "pillar": "Reach every buyer",
+   "idea": "An AI SDR is a set of files and prompts in Claude, not a new tool to buy. Here are the files.",
    "format": "Image · animated giveaway",
    "sample": {
-    "id": "NJ04",
-    "creator": "Nelbin Joseph",
-    "what": "Animated leaked-file dashboard: tan desk, manila folder with a file name and pill, paper-clipped hero card, stacked cards, a rubber stamp",
-    "url": "https://www.linkedin.com/posts/nelbin-xav_okay-i-probably-shouldnt-be-leaking-this-activity-7521088186891292672-dU68"
+    "id": "ID03",
+    "creator": "Ipsita Dhar",
+    "what": "Animated folder library reveal: a macOS window on peach, folders revealing one by one, an orange counter, a note card",
+    "url": "https://www.linkedin.com/posts/ipsitadhar14_guyss-i-finally-finished-the-largest-claude-activity-7521443453281406976-qSuN"
    },
-   "copy_basis": "NJ04 template: 'I probably shouldn't be sharing this… 👀' hook, a line of what's inside, the by-hand contrast, the steps, the try-it close and the 'thank me' line",
+   "copy_basis": "ID03 template: casual two-line hook with ↓, positioning, a humble limit, a reframe, numbered sections with a short spec each, 'Everything connects:' arrow chain, a counted summary, CTA",
    "media": {
     "type": "video",
-    "src": "batch-4/QG8",
-    "title": "The Sales Call System",
+    "src": "batch-4/RA2",
+    "title": "The AI SDR System",
     "files": [
-     "media/batch-4/QG8/poster.jpg?v=20261111035950"
+     "media/batch-4/RA2/poster.jpg?v=20261111043728"
     ],
-    "video": "media/batch-4/QG8/tantra-b4-QG8-2026-12-01-aquila.mp4?v=20261111035950",
+    "video": "media/batch-4/RA2/tantra-b4-RA2-2026-12-01-bharath.mp4?v=20261111043728",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-4/QG8/tantra-b4-QG8-2026-12-01-aquila.mp4?v=20261111035950",
-      "name": "tantra-b4-QG8-2026-12-01-aquila.mp4",
+      "href": "media/batch-4/RA2/tantra-b4-RA2-2026-12-01-bharath.mp4?v=20261111043728",
+      "name": "tantra-b4-RA2-2026-12-01-bharath.mp4",
       "ext": "mp4",
       "label": "Download MP4",
-      "bytes": 465488
+      "bytes": 232347
      },
      {
-      "href": "media/batch-4/QG8/tantra-b4-QG8-2026-12-01-aquila.gif?v=20261111035950",
-      "name": "tantra-b4-QG8-2026-12-01-aquila.gif",
+      "href": "media/batch-4/RA2/tantra-b4-RA2-2026-12-01-bharath.gif?v=20261111043728",
+      "name": "tantra-b4-RA2-2026-12-01-bharath.gif",
       "ext": "gif",
       "label": "Download GIF",
-      "bytes": 773425
+      "bytes": 493842
      }
     ]
    },
-   "text": "Okay, I probably shouldn't be sharing our whole sales call system… 👀\n\nThe booking page, the 5-minute confirmation, the proposal and the follow-up.\n\nMost teams still do all of this by hand.\n\nHere's the path, in six steps:\n\n1. Book: a page with the calendar, case studies and proof together.\n2. Confirm: a person confirms every booked call within 5 minutes, between 8am and 8pm their time.\n3. First call: find the one stage that leaks, and what fixing it is worth.\n4. Proposal: within one business day, with what's not included written down.\n5. Decision call: walk the proposal with the person who signs off.\n6. Follow-up: a short message on day 1, 3 and 7, then a person takes over.\n\nEvery booked call ends in a decision, not a maybe that drifts for weeks.\n\nYou can use the same system for FREE.\nTrust me, your buyers will thank you.",
-   "first_comment": "The Sales Call System: the six steps from booking to decision, how to run the first call and the messages that confirm and follow up.",
+   "text": "I finally finished our AI SDR setup in Claude.\nAnd I'm giving you the files, free ↓\n\nHere's which parts of an SDR's day Claude can take.\n\nIt can't replace the person on the call.\n\nBut it can take the research, the sorting and the first drafts off their plate.\n\nHere's what goes in the folder:\n\n1. Brief\n\nYour offer, your buyer, your proof and your exclusions. Every other file reads it first.\n\n2. Fit rules\n\nWho counts as a buyer and who never does. Claude checks every company against them.\n\n3. Sort prompt\n\nReads each buyer's site and recent posts, then puts them in the segment their message is written for.\n\n4. First message\n\nOne message per segment, with merge fields only: first name, company, role.\n\n5. Follow-up timing\n\nWhen each step goes out on each channel, and when to stop.\n\n6. Approvals\n\nNothing is sent until someone on your team says yes. Real replies get answered by a person, the same day.\n\nEverything connects:\n\nThe brief sets the fit rules → the fit rules shape the sort → the sort picks the message → the timing sets the follow-ups → a person approves before anything goes out.\n\n6 files you set up from one 2-page guide. One Claude project. Your people take the calls.\n\nGet it here 👇",
+   "first_comment": "The AI SDR System: the brief, the fit rules and the prompts that make Claude work like an SDR.",
    "sources": [
-    "content/corpus/facts.md: EW-41, EW-42, EW-43",
+    "content/corpus/facts.md: EW-36, EW-45",
     "content/corpus/giveaway-assets.md"
    ],
    "numbers_for_signoff": [
-    "confirm within 5 minutes, 08:00 to 20:00 their time (EW-43)",
-    "proposal within one business day (EW-41)"
+    "merge fields only (EW-36)",
+    "a person approves every message, real replies the same day (EW-45)",
+    "6 files (the asset's folder view of the resource)"
    ],
    "flags": [
     "The keyword is only on the asset's bottom tile, never in the post copy or the first comment. The resource is built and hosted: preview it under the post, with the three messages that deliver it.",
-    "The resource goes out by manual DM from Aquila's own profile (assumed; confirm).",
-    "Filled from the re-pitch on the owner's direction that every profile gets at least 3 giveaways (ranked by simplicity and fit)."
+    "The resource goes out by manual DM from Bharath's own profile (assumed; confirm)."
    ],
    "visual_label": "On the asset (animated 4:5)",
    "visual_copy": [
-    "sales-call-system.pdf · SHARED",
-    "The Sales Call System",
-    "Everything after someone books a call.",
-    "01 Book · 02 Confirm in 5 minutes · 03 First call · 04 Proposal in a day · 05 Decision call · 06 Follow-up",
-    "DECIDED",
-    "Comment CALLS and I'll send it over"
+    "ai-sdr for Claude",
+    "6 files",
+    "Brief, Fit rules, Sort prompt, First message, Follow-up timing, Approvals",
+    "# Approvals: nothing is sent until a person on your team says yes",
+    "Comment SDR and I'll send it over"
    ],
    "resource": {
-    "name": "The Sales Call System",
-    "keyword": "CALLS",
-    "what": "A 2-page PDF: the path from booking to decision, how to run the first call, the confirmation prompt and the day 7 message.",
-    "url": "https://adisuja.github.io/tantra-revops/sales-call-system/",
+    "name": "The AI SDR System",
+    "keyword": "SDR",
+    "what": "A 2-page PDF and page: who does what, the Claude setup, the timing for each channel and the two prompts that sort your list and write the first message.",
+    "url": "https://adisuja.github.io/tantra-revops/ai-sdr-system/",
     "pages": 2,
     "files": [
      {
       "label": "PDF",
-      "href": "https://adisuja.github.io/tantra-revops/sales-call-system/sales-call-system.pdf"
+      "href": "https://adisuja.github.io/tantra-revops/ai-sdr-system/ai-sdr-system.pdf"
      }
     ]
    },
    "dm": {
-    "message": "Hi {first_name}, thanks for commenting CALLS.\n\nHere's the Sales Call System:\nhttps://adisuja.github.io/tantra-revops/sales-call-system/\n\nIt's 2 pages: the path from booking to decision, how to run the first call, the confirmation prompt and the day 7 message.\n\nStart with step 2. Confirming every booked call within 5 minutes is the quickest change to make.\n\nWhat happens today in the first hour after someone books?",
-    "connect": "Hi {first_name}, you commented CALLS on my post about everything after someone books a call. LinkedIn only lets me message connections, so accept this and I'll send it straight over. Aquila",
-    "email_subject": "Your Sales Call System",
-    "email_body": "Hi {first_name},\n\nYou commented CALLS on my post about everything after someone books a call:\n[POST LINK]\n\nHere's the Sales Call System, as promised:\nhttps://adisuja.github.io/tantra-revops/sales-call-system/\n\nIt's 2 pages: the path from booking to decision, how to run the first call, the confirmation prompt and the day 7 message. The link opens straight away, with no sign-up.\n\nStart with step 2. Confirming every booked call within 5 minutes is the quickest change to make.\n\nWhat happens today in the first hour after someone books? Hit reply and tell me.\n\nAquila\n\nP.S. You're getting this because you asked for it in the comments. If you'd rather not hear from me again, reply \"no\" and that's final."
+    "message": "Hi {first_name}, thanks for commenting SDR.\n\nHere's the AI SDR System:\nhttps://adisuja.github.io/tantra-revops/ai-sdr-system/\n\nIt's 2 pages: who does what, the Claude setup, the timing for each channel and the two prompts that sort your list and write the first message. It shows you how to set up the six files from the post: brief, fit rules, sort prompt, first message, follow-up timing and approvals.\n\nWrite your fit rules first. Everything the AI does reads from them.\n\nWhat does your SDR team spend the first hours of the day on?",
+    "connect": "Hi {first_name}, you commented SDR on my post about the AI SDR system in one folder. LinkedIn only lets me message connections, so accept this and I'll send it straight over. Bharath",
+    "email_subject": "Your AI SDR System",
+    "email_body": "Hi {first_name},\n\nYou commented SDR on my post about the AI SDR system in one folder:\n[POST LINK]\n\nHere's the AI SDR System, as promised:\nhttps://adisuja.github.io/tantra-revops/ai-sdr-system/\n\nIt's 2 pages: who does what, the Claude setup, the timing for each channel and the two prompts that sort your list and write the first message. It shows you how to set up the six files from the post: brief, fit rules, sort prompt, first message, follow-up timing and approvals. The link opens straight away, with no sign-up.\n\nWrite your fit rules first. Everything the AI does reads from them.\n\nWhat does your SDR team spend the first hours of the day on? Hit reply and tell me.\n\nBharath\n\nP.S. You're getting this because you asked for it in the comments. If you'd rather not hear from me again, reply \"no\" and that's final."
    },
-   "key": "b4-QG8"
+   "key": "b4-RA2"
+  },
+  {
+   "id": "RA3",
+   "batch": "4",
+   "profile": "bharath",
+   "platform": "linkedin",
+   "status": "ready",
+   "time": "08:30",
+   "cta": "",
+   "date": "2026-12-03",
+   "short": "A prompt for every funnel step",
+   "pillar": "Win their attention",
+   "idea": "Stop asking AI to \"write me a landing page\". Give it a prompt for each step of the funnel, built on your own facts.",
+   "format": "Image · animated giveaway",
+   "sample": {
+    "id": "ID13",
+    "creator": "Ipsita Dhar",
+    "what": "Animated feature-card grid reveal: near-white, a JUST IN pill, huge condensed headline with orange highlights, a terminal that types, a 3x2 card grid",
+    "url": "https://www.linkedin.com/posts/ipsitadhar14_ive-built-the-largest-claude-linkedin-growth-activity-7513833250012909568-LcDp"
+   },
+   "copy_basis": "ID13 template: build claim, free offer, pointer, thesis, kicker, 'Here's what's inside:' arrow inventory, 'Plus:' with three more arrows, CTA with pointer. Very short",
+   "media": {
+    "type": "video",
+    "src": "batch-4/RA3",
+    "title": "The Claude Funnel Prompt Pack",
+    "files": [
+     "media/batch-4/RA3/poster.jpg?v=20261111043728"
+    ],
+    "video": "media/batch-4/RA3/tantra-b4-RA3-2026-12-03-bharath.mp4?v=20261111043728",
+    "tall": false,
+    "sets": [
+     {
+      "href": "media/batch-4/RA3/tantra-b4-RA3-2026-12-03-bharath.mp4?v=20261111043728",
+      "name": "tantra-b4-RA3-2026-12-03-bharath.mp4",
+      "ext": "mp4",
+      "label": "Download MP4",
+      "bytes": 262898
+     },
+     {
+      "href": "media/batch-4/RA3/tantra-b4-RA3-2026-12-03-bharath.gif?v=20261111043728",
+      "name": "tantra-b4-RA3-2026-12-03-bharath.gif",
+      "ext": "gif",
+      "label": "Download GIF",
+      "bytes": 498131
+     }
+    ]
+   },
+   "text": "I've built the prompt pack our team uses for every funnel page.\nAnd I'm giving it away, free.\n👇🏾\n\nClaude gets far more useful when every prompt starts from your own facts.\n\nSo we wrote one for each step.\n\nHere's what's inside:\n→ 1 setup prompt that holds your brief\n→ 6 stage prompts, one per step of the funnel\n→ A slot in every stage prompt for a real example to mirror\n→ [FILL] gaps wherever a fact is missing\n→ Two versions wherever it's outreach or a headline\n\nPlus:\n→ The cold email thread and the sign-up page\n→ The reminders and the live session outline\n→ The follow-ups and the reactivation email\n\nGet the pack here.\n👇🏾",
+   "first_comment": "The Claude Funnel Prompt Pack: one prompt for each step of your funnel, written from your own facts.",
+   "sources": [
+    "content/corpus/facts.md: EW-12, EW-32",
+    "content/corpus/giveaway-assets.md"
+   ],
+   "numbers_for_signoff": [
+    "1 setup prompt and 6 stage prompts (the pack, batch 3 AG3)"
+   ],
+   "flags": [
+    "The keyword is only on the asset's bottom tile, never in the post copy or the first comment. The resource is built and hosted: preview it under the post, with the three messages that deliver it.",
+    "The resource goes out by manual DM from Bharath's own profile (assumed; confirm)."
+   ],
+   "visual_label": "On the asset (animated 4:5)",
+   "visual_copy": [
+    "The Claude Prompt Pack",
+    "prompt-pack: 7 prompts loaded",
+    "Email, Page, Reminders, Session, Follow-up, Reactivation",
+    "Comment PROMPTS and I'll send it over"
+   ],
+   "resource": {
+    "name": "The Claude Funnel Prompt Pack",
+    "keyword": "PROMPTS",
+    "what": "Seven Claude prompts in one document: the setup prompt and one for each funnel stage, with [FILL] gaps.",
+    "url": "https://adisuja.github.io/tantra-revops/claude-funnel-prompt-pack/",
+    "pages": 5,
+    "files": [
+     {
+      "label": "PDF",
+      "href": "https://adisuja.github.io/tantra-revops/claude-funnel-prompt-pack/claude-funnel-prompt-pack.pdf"
+     }
+    ]
+   },
+   "dm": {
+    "message": "Hi {first_name}, thanks for commenting PROMPTS.\n\nHere's the Claude Funnel Prompt Pack:\nhttps://adisuja.github.io/tantra-revops/claude-funnel-prompt-pack/\n\nSeven prompts to copy and paste: the setup prompt, then one for each funnel stage, from traffic to long-term nurture.\n\nPaste the setup prompt first and fill in your brief. Every other prompt reads from it.\n\nWhich part of your funnel are you building first?",
+    "connect": "Hi {first_name}, you commented PROMPTS on my post about the Claude prompt pack. LinkedIn only lets me message connections, so accept this and I'll send it straight over. Bharath",
+    "email_subject": "Your Claude Funnel Prompt Pack",
+    "email_body": "Hi {first_name},\n\nYou commented PROMPTS on my post about the Claude prompt pack:\n[POST LINK]\n\nHere's the Claude Funnel Prompt Pack, as promised:\nhttps://adisuja.github.io/tantra-revops/claude-funnel-prompt-pack/\n\nSeven prompts to copy and paste: the setup prompt, then one for each funnel stage, from traffic to long-term nurture. The link opens straight away, with no sign-up.\n\nPaste the setup prompt first and fill in your brief. Every other prompt reads from it.\n\nWhich part of your funnel are you building first? Hit reply and tell me.\n\nBharath\n\nP.S. You're getting this because you asked for it in the comments. If you'd rather not hear from me again, reply \"no\" and that's final."
+   },
+   "key": "b4-RA3"
+  },
+  {
+   "id": "RA4",
+   "batch": "4",
+   "profile": "bharath",
+   "platform": "linkedin",
+   "status": "ready",
+   "time": "08:30",
+   "cta": "",
+   "date": "2026-12-08",
+   "short": "Nine blocks, each with one job",
+   "pillar": "Win their attention",
+   "idea": "A sign-up page has nine jobs, in order. Most pages skip half of them. Here are the nine blocks.",
+   "format": "Image · animated giveaway",
+   "sample": {
+    "id": "NJ05",
+    "creator": "Nelbin Joseph",
+    "what": "Animated app window: peach canvas, a white macOS window with a Ready status, an orange KPI numeral, rows ticking in order",
+    "url": "https://www.linkedin.com/posts/nelbin-xav_built-17-claude-skills-system-for-linkedin-activity-7520726462207852545-1sGC"
+   },
+   "copy_basis": "NJ05 template: number-led hook with 'get it free', a lone pointer, two phase headers each with arrow items, a three-step how-to, a caps RESULT line, a short close",
+   "media": {
+    "type": "video",
+    "src": "batch-4/RA4",
+    "title": "The 9-Block Registration Page Blueprint",
+    "files": [
+     "media/batch-4/RA4/poster.jpg?v=20261111043728"
+    ],
+    "video": "media/batch-4/RA4/tantra-b4-RA4-2026-12-08-bharath.mp4?v=20261111043728",
+    "tall": false,
+    "sets": [
+     {
+      "href": "media/batch-4/RA4/tantra-b4-RA4-2026-12-08-bharath.mp4?v=20261111043728",
+      "name": "tantra-b4-RA4-2026-12-08-bharath.mp4",
+      "ext": "mp4",
+      "label": "Download MP4",
+      "bytes": 336335
+     },
+     {
+      "href": "media/batch-4/RA4/tantra-b4-RA4-2026-12-08-bharath.gif?v=20261111043728",
+      "name": "tantra-b4-RA4-2026-12-08-bharath.gif",
+      "ext": "gif",
+      "label": "Download GIF",
+      "bytes": 627671
+     }
+    ]
+   },
+   "text": "Built a 9-block sign-up page for our live sessions. Here's what each block does + get it free.\n👇\n\nAbove the fold:\n\n→ Logo and trust strip, so the reader knows they're in the right place.\n\n→ Headline and subhead: the promise, then how you deliver it, in one line.\n\n→ A short video, muted and captioned, that makes the promise believable.\n\n→ Three proof points. Numbers, not adjectives.\n\n→ The form. First name, last name, work email. Nothing you won't use.\n\nBelow the fold:\n\n→ Your method, named, in 3 to 5 steps.\n\n→ Testimonials, each one answering a single objection.\n\n→ An FAQ built from the objections you hear on calls.\n\n→ A sticky button, so signing up stays one tap away.\n\nHow to use it:\n1/ Open your current page on a laptop.\n2/ Check the form is on the first screen.\n3/ Paste the prompt into Claude and it drafts every block.\n\nRESULT: a page where every block has a job.\n\nWant it?\n\nThe blueprint's here. Get it.\n👇🏾",
+   "first_comment": "The 9-Block Registration Page Blueprint: the order of every block and a prompt that drafts your page.",
+   "sources": [
+    "content/corpus/facts.md: EW-27",
+    "content/corpus/giveaway-assets.md"
+   ],
+   "numbers_for_signoff": [
+    "nine blocks, form above the fold on a laptop (EW-27)",
+    "3 to 5 steps (the resource)"
+   ],
+   "flags": [
+    "The keyword is only on the asset's bottom tile, never in the post copy or the first comment. The resource is built and hosted: preview it under the post, with the three messages that deliver it.",
+    "The resource goes out by manual DM from Bharath's own profile (assumed; confirm)."
+   ],
+   "visual_label": "On the asset (animated 4:5)",
+   "visual_copy": [
+    "Sign-up page · Ready",
+    "9 blocks, each with one job, in order",
+    "Logo and trust strip ... A sticky button",
+    "ABOVE THE FOLD ON A LAPTOP",
+    "Comment PAGE and I'll send it over"
+   ],
+   "resource": {
+    "name": "The 9-Block Registration Page Blueprint",
+    "keyword": "PAGE",
+    "what": "A 2-page PDF and page: the nine blocks in order, the job of each one, the above-the-fold check and the prompt that drafts your page.",
+    "url": "https://adisuja.github.io/tantra-revops/registration-page-blueprint/",
+    "pages": 2,
+    "files": [
+     {
+      "label": "PDF",
+      "href": "https://adisuja.github.io/tantra-revops/registration-page-blueprint/registration-page-blueprint.pdf"
+     }
+    ]
+   },
+   "dm": {
+    "message": "Hi {first_name}, thanks for commenting PAGE.\n\nHere's the 9-Block Registration Page Blueprint:\nhttps://adisuja.github.io/tantra-revops/registration-page-blueprint/\n\nIt's 2 pages: the nine blocks in order, the job of each one, the above-the-fold check and the prompt that drafts your page.\n\nOpen your current page on a laptop and run the check on page 2 before you rewrite anything.\n\nWhat are you running the page for?",
+    "connect": "Hi {first_name}, you commented PAGE on my post about the nine blocks of a sign-up page. LinkedIn only lets me message connections, so accept this and I'll send it straight over. Bharath",
+    "email_subject": "Your 9-Block Registration Page Blueprint",
+    "email_body": "Hi {first_name},\n\nYou commented PAGE on my post about the nine blocks of a sign-up page:\n[POST LINK]\n\nHere's the 9-Block Registration Page Blueprint, as promised:\nhttps://adisuja.github.io/tantra-revops/registration-page-blueprint/\n\nIt's 2 pages: the nine blocks in order, the job of each one, the above-the-fold check and the prompt that drafts your page. The link opens straight away, with no sign-up.\n\nOpen your current page on a laptop and run the check on page 2 before you rewrite anything.\n\nWhat are you running the page for? Hit reply and tell me.\n\nBharath\n\nP.S. You're getting this because you asked for it in the comments. If you'd rather not hear from me again, reply \"no\" and that's final."
+   },
+   "key": "b4-RA4"
   },
   {
    "id": "RG6",
@@ -3377,20 +4169,20 @@ window.STUDIO = {
     "src": "batch-4/RG6",
     "title": "The Segment Map",
     "files": [
-     "media/batch-4/RG6/poster.jpg?v=20261111035950"
+     "media/batch-4/RG6/poster.jpg?v=20261111043728"
     ],
-    "video": "media/batch-4/RG6/tantra-b4-RG6-2026-11-24-bharath.mp4?v=20261111035950",
+    "video": "media/batch-4/RG6/tantra-b4-RG6-2026-11-24-bharath.mp4?v=20261111043728",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-4/RG6/tantra-b4-RG6-2026-11-24-bharath.mp4?v=20261111035950",
+      "href": "media/batch-4/RG6/tantra-b4-RG6-2026-11-24-bharath.mp4?v=20261111043728",
       "name": "tantra-b4-RG6-2026-11-24-bharath.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 639220
      },
      {
-      "href": "media/batch-4/RG6/tantra-b4-RG6-2026-11-24-bharath.gif?v=20261111035950",
+      "href": "media/batch-4/RG6/tantra-b4-RG6-2026-11-24-bharath.gif?v=20261111043728",
       "name": "tantra-b4-RG6-2026-11-24-bharath.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -3441,185 +4233,6 @@ window.STUDIO = {
     "email_body": "Hi {first_name},\n\nYou commented SEGMENT on my post about sending each segment its own invite:\n[POST LINK]\n\nHere's the Segment Map, as promised:\nhttps://adisuja.github.io/tantra-revops/segment-map/\n\nIt's 2 pages: the five steps, a segment map to fill in, the prompt that sorts your list and the prompt that writes one invite per segment. The link opens straight away, with no sign-up.\n\nFill in the segment map on page 1 before you run any prompt. Five or six segments is plenty to start.\n\nHow many segments does your list break into? Hit reply and tell me.\n\nBharath\n\nP.S. You're getting this because you asked for it in the comments. If you'd rather not hear from me again, reply \"no\" and that's final."
    },
    "key": "b4-RG6"
-  },
-  {
-   "id": "RG7",
-   "batch": "4",
-   "profile": "bharath",
-   "platform": "linkedin",
-   "status": "ready",
-   "time": "08:30",
-   "cta": "",
-   "date": "2026-11-26",
-   "short": "The morning work, done by an AI SDR",
-   "pillar": "Reach every buyer",
-   "idea": "An AI SDR set up once in Claude takes the morning work off an SDR: finding, checking, sorting, drafting.",
-   "format": "Image · animated giveaway",
-   "sample": {
-    "id": "ID05",
-    "creator": "Ipsita Dhar",
-    "what": "Animated pipeline machine diagram: black with neon magenta and violet, two-tone headline, a turbine ring with a spinning rotor, inputs in on the left and outputs out on the right",
-    "url": "https://www.linkedin.com/posts/ipsitadhar14_wtf-claude-has-turned-into-a-sales-pipeline-activity-7519269068147838976-OX0H"
-   },
-   "copy_basis": "ID05 template: caps exclamation hook, 'and that's it! 👀' line, 'It handles the work that usually eats up...' with an arrow list, a one-line belief, test-it close",
-   "media": {
-    "type": "video",
-    "src": "batch-4/RG7",
-    "title": "The AI SDR System",
-    "files": [
-     "media/batch-4/RG7/poster.jpg?v=20261111035950"
-    ],
-    "video": "media/batch-4/RG7/tantra-b4-RG7-2026-11-26-bharath.mp4?v=20261111035950",
-    "tall": false,
-    "sets": [
-     {
-      "href": "media/batch-4/RG7/tantra-b4-RG7-2026-11-26-bharath.mp4?v=20261111035950",
-      "name": "tantra-b4-RG7-2026-11-26-bharath.mp4",
-      "ext": "mp4",
-      "label": "Download MP4",
-      "bytes": 430775
-     },
-     {
-      "href": "media/batch-4/RG7/tantra-b4-RG7-2026-11-26-bharath.gif?v=20261111035950",
-      "name": "tantra-b4-RG7-2026-11-26-bharath.gif",
-      "ext": "gif",
-      "label": "Download GIF",
-      "bytes": 989944
-     }
-    ]
-   },
-   "text": "WAIT! AN AI SDR CAN NOW DO THE MORNING WORK OF YOUR SALES TEAM!\n\nSet it up in Claude with the right files, and that's it! 👀\n\nIt handles the work that usually eats up an SDR's whole morning: finding, checking and drafting.\n\nYour team keeps the parts that win deals:\n\n→ Approving every message before it goes out\n→ Answering every real reply the same day, in their own words\n→ Taking every call\n\nA reply nobody answers is the sale you already paid for. That's why the AI drafts and people reply.\n\nAI does the volume. People make the calls.\n\nTest it for FREE. 👇",
-   "first_comment": "The AI SDR System: the Claude setup and the prompts for an AI SDR that does the morning work, and the parts that stay with your team.",
-   "sources": [
-    "content/corpus/facts.md: EW-45, EW-36",
-    "content/corpus/giveaway-assets.md"
-   ],
-   "numbers_for_signoff": [
-    "the split of work (EW-45)"
-   ],
-   "flags": [
-    "The keyword is only on the asset's bottom tile, never in the post copy or the first comment. The resource is built and hosted: preview it under the post, with the three messages that deliver it.",
-    "The resource goes out by manual DM from Bharath's own profile (assumed; confirm).",
-    "Filled from the re-pitch on the owner's direction that every profile gets at least 3 giveaways (ranked by simplicity and fit)."
-   ],
-   "visual_label": "On the asset (animated 4:5)",
-   "visual_copy": [
-    "BHARATH KRISHNA PAI",
-    "THE AI SDR SYSTEM",
-    "THE MORNING WORK, DONE BEFORE YOUR TEAM LOGS IN",
-    "Raw list in · Segment, message and follow-up out",
-    "1 FIND · 2 CHECK · 3 SORT · 4 WRITE · 5 YOU",
-    "Comment SDR and I'll send it over"
-   ],
-   "resource": {
-    "name": "The AI SDR System",
-    "keyword": "SDR",
-    "what": "A 2-page PDF: who does what, the Claude setup, the timing for each channel and the prompts that sort your list and write the first message.",
-    "url": "https://adisuja.github.io/tantra-revops/ai-sdr-system/",
-    "pages": 2,
-    "files": [
-     {
-      "label": "PDF",
-      "href": "https://adisuja.github.io/tantra-revops/ai-sdr-system/ai-sdr-system.pdf"
-     }
-    ]
-   },
-   "dm": {
-    "message": "Hi {first_name}, thanks for commenting SDR.\n\nHere's the AI SDR System:\nhttps://adisuja.github.io/tantra-revops/ai-sdr-system/\n\nIt's 2 pages: who does what, the Claude setup, the timing for each channel and the two prompts that sort your list and write the first message.\n\nWrite your fit rules first. Everything the AI does reads from them.\n\nWhat does your SDR team spend the first hours of the day on?",
-    "connect": "Hi {first_name}, you commented SDR on my post about the morning work an AI SDR takes over. LinkedIn only lets me message connections, so accept this and I'll send it straight over. Bharath",
-    "email_subject": "Your AI SDR System",
-    "email_body": "Hi {first_name},\n\nYou commented SDR on my post about the morning work an AI SDR takes over:\n[POST LINK]\n\nHere's the AI SDR System, as promised:\nhttps://adisuja.github.io/tantra-revops/ai-sdr-system/\n\nIt's 2 pages: who does what, the Claude setup, the timing for each channel and the two prompts that sort your list and write the first message. The link opens straight away, with no sign-up.\n\nWrite your fit rules first. Everything the AI does reads from them.\n\nWhat does your SDR team spend the first hours of the day on? Hit reply and tell me.\n\nBharath\n\nP.S. You're getting this because you asked for it in the comments. If you'd rather not hear from me again, reply \"no\" and that's final."
-   },
-   "key": "b4-RG7"
-  },
-  {
-   "id": "RG8",
-   "batch": "4",
-   "profile": "bharath",
-   "platform": "linkedin",
-   "status": "ready",
-   "time": "08:30",
-   "cta": "",
-   "date": "2026-12-01",
-   "short": "One buyer, one conversation",
-   "pillar": "Reach every buyer",
-   "idea": "Join email, LinkedIn, calendar invites and WhatsApp into one outreach system so each buyer gets one conversation.",
-   "format": "Image · animated giveaway",
-   "sample": {
-    "id": "NJ06",
-    "creator": "Nelbin Joseph",
-    "what": "Animated network graph with counter: near-black with a green glow, mint hub and active edges, grey inactive nodes, a legend row and a counter",
-    "url": "https://www.linkedin.com/posts/nelbin-xav_nah-this-feels-like-cheating-i-turned-activity-7515645647476224001-85hf"
-   },
-   "copy_basis": "NJ06 template: caps 'feels like cheating' hook with 💀, the build line, what it does line by line, a 'we're way past that' turn, access ask",
-   "media": {
-    "type": "video",
-    "src": "batch-4/RG8",
-    "title": "The Omni-Channel Outreach System",
-    "files": [
-     "media/batch-4/RG8/poster.jpg?v=20261111035950"
-    ],
-    "video": "media/batch-4/RG8/tantra-b4-RG8-2026-12-01-bharath.mp4?v=20261111035950",
-    "tall": false,
-    "sets": [
-     {
-      "href": "media/batch-4/RG8/tantra-b4-RG8-2026-12-01-bharath.mp4?v=20261111035950",
-      "name": "tantra-b4-RG8-2026-12-01-bharath.mp4",
-      "ext": "mp4",
-      "label": "Download MP4",
-      "bytes": 250617
-     },
-     {
-      "href": "media/batch-4/RG8/tantra-b4-RG8-2026-12-01-bharath.gif?v=20261111035950",
-      "name": "tantra-b4-RG8-2026-12-01-bharath.gif",
-      "ext": "gif",
-      "label": "Download GIF",
-      "bytes": 440217
-     }
-    ]
-   },
-   "text": "NAH. THIS FEELS LIKE CHEATING. 💀\n\nWe joined email, LinkedIn and calendar invites into one outreach system.\n\nEvery buyer gets one conversation, not four.\n\nIt sends the email steps and the LinkedIn steps in one order.\nIt puts the session in their calendar 8 to 12 days out.\nIt keeps WhatsApp to people who opted in, never a cold list.\nIt gives every prospect one owner.\nAnd the moment anyone replies, on any channel, everything stops and a person takes over.\n\nFour tools that don't talk to each other?\n\nYeah. We're WAY past that.\n\nWant access? 👇",
-   "first_comment": "The Omni-Channel Outreach System: one conversation per buyer across email, LinkedIn and calendar invites.",
-   "sources": [
-    "content/corpus/facts.md: EW-44, EW-23",
-    "content/corpus/giveaway-assets.md"
-   ],
-   "numbers_for_signoff": [
-    "calendar invites 8 to 12 days out (EW-23)"
-   ],
-   "flags": [
-    "The keyword is only on the asset's bottom tile, never in the post copy or the first comment. The resource is built and hosted: preview it under the post, with the three messages that deliver it.",
-    "The resource goes out by manual DM from Bharath's own profile (assumed; confirm).",
-    "Filled from the re-pitch on the owner's direction that every profile gets at least 3 giveaways (ranked by simplicity and fit)."
-   ],
-   "visual_label": "On the asset (animated 4:5)",
-   "visual_copy": [
-    "BHARATH KRISHNA PAI · Outreach graph",
-    "One buyer. One conversation.",
-    "EMAIL · LINKEDIN · INVITE · WHATSAPP",
-    "4 channels, one conversation, one owner. A reply on any of them stops the rest.",
-    "Comment OMNI and I'll send it over"
-   ],
-   "resource": {
-    "name": "The Omni-Channel Outreach System",
-    "keyword": "OMNI",
-    "what": "A 2-page PDF: the channel map, the rules that make it one conversation, a sample sequence and the prompt for the email steps.",
-    "url": "https://adisuja.github.io/tantra-revops/omni-channel-outreach-system/",
-    "pages": 2,
-    "files": [
-     {
-      "label": "PDF",
-      "href": "https://adisuja.github.io/tantra-revops/omni-channel-outreach-system/omni-channel-outreach-system.pdf"
-     }
-    ]
-   },
-   "dm": {
-    "message": "Hi {first_name}, thanks for commenting OMNI.\n\nHere's the Omni-Channel Outreach System:\nhttps://adisuja.github.io/tantra-revops/omni-channel-outreach-system/\n\nIt's 2 pages: the channel map, the rules that make it one conversation, a sample sequence and the prompt for the email steps.\n\nStart with two channels, cold email and LinkedIn, before you add the rest.\n\nDo your email and LinkedIn campaigns talk to each other today?",
-    "connect": "Hi {first_name}, you commented OMNI on my post about one conversation per buyer. LinkedIn only lets me message connections, so accept this and I'll send it straight over. Bharath",
-    "email_subject": "Your Omni-Channel Outreach System",
-    "email_body": "Hi {first_name},\n\nYou commented OMNI on my post about one conversation per buyer:\n[POST LINK]\n\nHere's the Omni-Channel Outreach System, as promised:\nhttps://adisuja.github.io/tantra-revops/omni-channel-outreach-system/\n\nIt's 2 pages: the channel map, the rules that make it one conversation, a sample sequence and the prompt for the email steps. The link opens straight away, with no sign-up.\n\nStart with two channels, cold email and LinkedIn, before you add the rest.\n\nDo your email and LinkedIn campaigns talk to each other today? Hit reply and tell me.\n\nBharath\n\nP.S. You're getting this because you asked for it in the comments. If you'd rather not hear from me again, reply \"no\" and that's final."
-   },
-   "key": "b4-RG8"
   }
  ]
 };
