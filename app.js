@@ -128,6 +128,30 @@
     return `${C.statusBar()}${top}<div class="scroll li-feed">${post}</div>${tabs}${C.home()}`;
   }
 
+  /* ---------- LinkedIn iOS comments screen (Adi, 2026-11-11): the post opened on its comments, with the first comment,
+     every team comment and the publisher's reply threaded under it ---------- */
+  function commentsScreen(p) {
+    const pr = prof(p.profile), I = LI_I(), isCo = pr.kind === "company", tc = p.team_comments || [];
+    const ago = (i) => `${2 + i * 3}m`;
+    const cm = (c, i, author) => {
+      const cp = c ? (prof(c.by) || { name: c.by }) : pr, rep = c && c.reply_to != null, isA = !c || c.by === p.profile;
+      const txt = C.rich(c ? c.text : p.first_comment, "li-link").replace(/\n/g, "<br>");
+      return `<div class="lc-c${rep ? " rep" : ""}">${avatar(cp, rep ? 28 : 36)}<div class="lc-b"><div class="lc-bub"><div class="lc-n"><b>${esc(cp.name)}</b>${isA ? '<span class="li-auth">Author</span>' : cp.kind === "company" ? "" : '<span class="lc-deg">· 1st</span>'}<span class="lc-t">${c ? ago(i) : "Now"}</span><span class="lc-dots">${I.more}</span></div><div class="lc-h">${esc(cp.kind === "company" ? cp.followers_line || cp.headline || "" : cp.headline || "")}</div><div class="lc-x">${txt}</div></div><div class="lc-a"><span>Like</span><i>|</i><span>Reply</span></div></div></div>`;
+    };
+    const n = tc.length + (p.first_comment ? 1 : 0);
+    return `${C.statusBar()}<div class="lc-nav"><span class="lc-back">‹</span><b>Post</b><span class="lc-navr">${I.more}</span></div>
+      <div class="scroll lc">
+        <div class="lc-post">${avatar(pr, 40)}<div class="lc-pw"><div class="lc-pn"><b>${esc(pr.name)}</b>${isCo ? "" : ' <span class="lc-deg">· 1st</span>'}</div><div class="lc-h">${esc(isCo ? pr.followers_line || pr.headline || "" : pr.headline || "")}</div><div class="lc-h">Now · ${I.globe}</div></div></div>
+        <div class="lc-ptxt">${esc((p.text || "").split("\n")[0])}</div>
+        <div class="lc-stats"><span class="lc-rx"><i>👍</i><i>❤️</i><i>💡</i></span><span>${n} comments</span></div>
+        <div class="lc-acts"><span>${I.like}Like</span><span>${I.comment}Comment</span><span>${I.repost}Repost</span><span>${I.send}Send</span></div>
+        <div class="lc-sort">Most relevant <span>▾</span></div>
+        ${p.first_comment ? cm(null, 0) : ""}${tc.map((c, i) => cm(c, i + 1)).join("")}
+        <div class="lc-end">You've seen all ${n} comments</div>
+      </div>
+      <div class="lc-comp">${avatar(me(), 30)}<div class="lc-in">Add a comment…</div><span class="lc-at">@</span></div>${C.home()}`;
+  }
+
   /* ---------- card = header + phone + review + download strip + details ---------- */
   function card(p) {
     const w = when(p), isX = p.platform === "x";
@@ -141,6 +165,7 @@
       <header class="chead"><div class="crow"><span class="pid">${esc(p.id)}</span><span class="when">${esc(w.day)} <span>· ${esc(w.time)}</span></span></div>
         <div class="crow">${fmt}${cta}${wip}</div><div class="cidea">${esc(p.idea || "")}</div></header>
       ${isX ? C.phone(window.XV.screen(p, prof(p.profile)), "x") : C.phone(screen(p), "linkedin")}
+      ${!isX && (p.team_comments || []).length ? `<div class="lc-cap"><b>Comments</b><span>${(p.team_comments || []).filter((c) => c.reply_to == null).length} from the team, each answered by ${esc(prof(p.profile).name.split(" ")[0])}</span></div>${C.phone(commentsScreen(p), "linkedin")}` : ""}
       <section class="rev" data-rev="${esc(p.key)}">${revHtml(p.key)}</section>
       ${dlHtml(p)}${resHtml(p)}${teamHtml(p)}
       <details class="info"><summary>Sample, template, first comment and sources</summary><dl>
@@ -182,13 +207,13 @@
   const dmText = (p, k) => { const d = p.dm || {}, link = (localStorage.getItem(PLKEY(p)) || "").trim();
     const t = k === "email" ? `Subject: ${d.email_subject}\n\n${d.email_body}` : d[k] || ""; return link ? t.split("[POST LINK]").join(link) : t; };
   /* Team comments (Adi, 2026-11-11: cardinal rule): ten per post, from the team, each posted by that person from their own profile. */
-  const TONE = { positive: "Positive", feedback: "Feedback", question: "Question", differs: "Different view" };
+  const TONE = { positive: "Positive", feedback: "Feedback", question: "Question", differs: "Different view", reply: "Publisher reply" };
   function teamHtml(p) {
     const tc = p.team_comments || [];
     if (!tc.length) return `<section class="dl res tcm"><div class="resh"><b>Team comments</b><span>Not written yet</span></div></section>`;
     const row = (c, i) => { const cp = prof(c.by) || { name: c.by }, to = c.reply_to != null ? tc[c.reply_to] : null;
       return `<div class="tc${to ? " rep" : ""}">${avatar(cp, 28)}<div class="tcb"><div class="tch"><b>${esc(cp.name)}</b>${to ? `<span class="tcr">replying to ${esc((prof(to.by) || { name: to.by }).name.split(" ")[0])}</span>` : ""}<span class="tct ${esc(c.tone || "")}">${esc(TONE[c.tone] || "")}</span><button class="btn ghost" data-copyc="${i}">Copy</button></div><div class="tcx">${esc(c.text).replace(/\n/g, "<br>")}</div></div></div>`; };
-    return `<section class="dl res tcm"><details><summary class="resh"><b>Team comments · ${tc.length}</b><span>Each person posts their own from their profile, in the first hour</span></summary>${tc.map(row).join("")}</details></section>`;
+    return `<section class="dl res tcm"><details><summary class="resh"><b>Team comments · ${tc.length}</b><span>Each person posts their own comment from their profile; the publisher replies to each</span></summary>${tc.map(row).join("")}</details></section>`;
   }
   function resHtml(p) {
     const r = p.resource || {}, d = p.dm;

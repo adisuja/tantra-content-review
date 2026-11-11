@@ -35,7 +35,12 @@ window.STUDIO = {
    "cta": {
     "kind": "event",
     "title": "How 400+ Brands Use AI Funnels to Generate $100K to $300K Monthly",
-    "url": "https://webinar.sellwithtantra.com/"
+    "url": "https://webinar.sellwithtantra.com/",
+    "date": "2026-11-19",
+    "time": "11:00",
+    "tz": "Europe/London",
+    "weekly": true,
+    "_note": "Owner, 2026-11-11: assume the next workshop is next Thursday, 19 Nov 2026 (not 12 Nov), then weekly on Thursdays. Each event post points at the next session after its post date (cta_date)."
    },
    "utm": {
     "medium": "social",
@@ -51,7 +56,12 @@ window.STUDIO = {
    "cta": {
     "kind": "event",
     "title": "How 400+ Brands Use AI Funnels to Generate $100K to $300K Monthly",
-    "url": "https://webinar.sellwithtantra.com/"
+    "url": "https://webinar.sellwithtantra.com/",
+    "date": "2026-11-19",
+    "time": "11:00",
+    "tz": "Europe/London",
+    "weekly": true,
+    "_note": "Owner, 2026-11-11: assume the next workshop is next Thursday, 19 Nov 2026 (not 12 Nov), then weekly on Thursdays. Each event post points at the next session after its post date (cta_date)."
    },
    "utm": {
     "medium": "social",
@@ -65,14 +75,14 @@ window.STUDIO = {
    "id": "adi",
    "name": "Adithya Murali",
    "kind": "person",
-   "headline": "Founder, AI RevOps",
+   "headline": "Founder, Tantra | I build AI revenue systems with B2B founders",
    "network": "linkedin",
    "tz": "America/New_York",
    "tz_label": "ET",
    "time": "08:30",
    "linkedin": "https://www.linkedin.com/in/adisuja/",
    "avatar_ok": true,
-   "avatar": "media/avatars/adi.jpg?v=20261111065107"
+   "avatar": "media/avatars/adi.jpg?v=20261111084157"
   },
   {
    "id": "tantra",
@@ -84,7 +94,7 @@ window.STUDIO = {
    "tz_label": "ET",
    "time": "10:30",
    "avatar_ok": true,
-   "avatar": "media/avatars/tantra.jpg?v=20261111065107"
+   "avatar": "media/avatars/tantra.jpg?v=20261111084157"
   },
   {
    "id": "nelbin",
@@ -98,7 +108,8 @@ window.STUDIO = {
    "linkedin": "https://www.linkedin.com/in/nelbin-xav/",
    "_todo": "headline from the LinkedIn profile branding copy (context/sources/enterprise-webinar/digest-E section 7, D/29 copy.json); photo.jpg still to be added from the person's LinkedIn profile",
    "taxonomy_creator": "NJ",
-   "avatar_ok": false
+   "avatar_ok": true,
+   "avatar": "media/avatars/nelbin.jpg?v=20261111084157"
   },
   {
    "id": "bharath",
@@ -126,7 +137,8 @@ window.STUDIO = {
    "linkedin": "https://www.linkedin.com/in/bhaskar-dev/",
    "_todo": "headline from the LinkedIn profile branding copy (context/sources/enterprise-webinar/digest-E section 7, D/29 copy.json); photo.jpg still to be added from the person's LinkedIn profile",
    "taxonomy_creator": "BD",
-   "avatar_ok": false
+   "avatar_ok": true,
+   "avatar": "media/avatars/bhaskar.jpg?v=20261111084157"
   },
   {
    "id": "aquila",
@@ -182,10 +194,10 @@ window.STUDIO = {
     "title": "Adithya Murali walking alone down an empty street, black and white",
     "tall": false,
     "files": [
-     "media/batch-1/A1/image.jpg?v=20261111065107"
+     "media/batch-1/A1/image.jpg?v=20261111084157"
     ],
     "download": {
-     "href": "media/batch-1/A1/tantra-b1-A1-2026-10-26-adi.png?v=20261111065107",
+     "href": "media/batch-1/A1/tantra-b1-A1-2026-10-26-adi.png?v=20261111084157",
      "name": "tantra-b1-A1-2026-10-26-adi.png",
      "ext": "png",
      "bytes": 934557,
@@ -210,8 +222,14 @@ window.STUDIO = {
     {
      "by": "bhaskar",
      "tone": "positive",
-     "text": "10 MQLs a day from 30 minute posts, and you walked away from it. Most marketers would never make that call. Honestly I'd have kept posting and hired, which is probably the exact mistake you're describing 😅",
+     "text": "10 MQLs a day from 30 minute posts, and you walked away from it. Most marketers would never make that call. I'd probably have kept posting and hired, which is pretty much the mistake you're describing 😅",
      "reply_to": null
+    },
+    {
+     "by": "adi",
+     "tone": "reply",
+     "text": "Hiring would've meant more people running the same manual process by hand. The posts were never the problem. What sat under them was.",
+     "reply_to": 0
     },
     {
      "by": "nelbin",
@@ -220,16 +238,22 @@ window.STUDIO = {
      "reply_to": null
     },
     {
+     "by": "adi",
+     "tone": "reply",
+     "text": "That's a better test than mine, Nelbin. Two years away is just the slow version of it 🙂",
+     "reply_to": 2
+    },
+    {
      "by": "aquila",
      "tone": "question",
-     "text": "When the leads kept coming, what broke first? Follow-ups or onboarding?",
+     "text": "If you went back, which would you automate first? Follow-ups or client onboarding 🤔",
      "reply_to": null
     },
     {
      "by": "adi",
-     "tone": "feedback",
-     "text": "Onboarding. Same steps for every client, all by hand.",
-     "reply_to": 2
+     "tone": "reply",
+     "text": "Onboarding. It was the same steps for every new client, run by hand, so it was the easiest to write down and hand over.",
+     "reply_to": 4
     },
     {
      "by": "bharath",
@@ -238,34 +262,22 @@ window.STUDIO = {
      "reply_to": null
     },
     {
+     "by": "adi",
+     "tone": "reply",
+     "text": "Took me that month to see it your way. The parts we'd written down held up fine. The parts in my head didn't.",
+     "reply_to": 6
+    },
+    {
      "by": "ben",
      "tone": "positive",
      "text": "Stepping away as the test. Brutal, but fair 👌",
      "reply_to": null
     },
     {
-     "by": "ben",
-     "tone": "feedback",
-     "text": "Nelbin, I'd add one line to that doc: where the forms and tracking live. That bit always sits in one person's head 🙃",
-     "reply_to": 1
-    },
-    {
-     "by": "bharath",
-     "tone": "question",
-     "text": "Bhaskar, hire people, or buy another tool? 🤔",
-     "reply_to": 0
-    },
-    {
      "by": "adi",
-     "tone": "positive",
-     "text": "Fair, Bharath. Took me a month to see it that way.",
-     "reply_to": 4
-    },
-    {
-     "by": "aquila",
-     "tone": "differs",
-     "text": "not sure I fully buy the skyscraper on sand line. Content is often what pays for the foundation. The sand only shows when the leads outrun the follow-up, which is kind of what happened here.",
-     "reply_to": null
+     "tone": "reply",
+     "text": "Brutal, yes. Cheaper than finding out by accident.",
+     "reply_to": 8
     }
    ]
   },
@@ -294,19 +306,19 @@ window.STUDIO = {
     "src": "batch-1/A2",
     "title": "The 8 decisions every page, email and invite depends on",
     "files": [
-     "media/batch-1/A2/p01.jpg?v=20261111065107",
-     "media/batch-1/A2/p02.jpg?v=20261111065107",
-     "media/batch-1/A2/p03.jpg?v=20261111065107",
-     "media/batch-1/A2/p04.jpg?v=20261111065107",
-     "media/batch-1/A2/p05.jpg?v=20261111065107",
-     "media/batch-1/A2/p06.jpg?v=20261111065107",
-     "media/batch-1/A2/p07.jpg?v=20261111065107",
-     "media/batch-1/A2/p08.jpg?v=20261111065107",
-     "media/batch-1/A2/p09.jpg?v=20261111065107",
-     "media/batch-1/A2/p10.jpg?v=20261111065107"
+     "media/batch-1/A2/p01.jpg?v=20261111084157",
+     "media/batch-1/A2/p02.jpg?v=20261111084157",
+     "media/batch-1/A2/p03.jpg?v=20261111084157",
+     "media/batch-1/A2/p04.jpg?v=20261111084157",
+     "media/batch-1/A2/p05.jpg?v=20261111084157",
+     "media/batch-1/A2/p06.jpg?v=20261111084157",
+     "media/batch-1/A2/p07.jpg?v=20261111084157",
+     "media/batch-1/A2/p08.jpg?v=20261111084157",
+     "media/batch-1/A2/p09.jpg?v=20261111084157",
+     "media/batch-1/A2/p10.jpg?v=20261111084157"
     ],
     "download": {
-     "href": "media/batch-1/A2/tantra-b1-A2-2026-10-27-adi.pdf?v=20261111065107",
+     "href": "media/batch-1/A2/tantra-b1-A2-2026-10-27-adi.pdf?v=20261111084157",
      "name": "tantra-b1-A2-2026-10-27-adi.pdf",
      "ext": "pdf",
      "bytes": 1839450,
@@ -334,6 +346,12 @@ window.STUDIO = {
      "reply_to": null
     },
     {
+     "by": "adi",
+     "tone": "reply",
+     "text": "Fair add. Channels sits last on the list, not last in the order you check things. Connect every account while you're still writing the other seven.",
+     "reply_to": 0
+    },
+    {
      "by": "bhaskar",
      "tone": "question",
      "text": "Which of the 8 do you write first? I'd have guessed Buyer before Offer 🤔",
@@ -341,15 +359,21 @@ window.STUDIO = {
     },
     {
      "by": "adi",
-     "tone": "feedback",
-     "text": "Offer first. The buyer gets clearer once you can say what you sell in one sentence.",
-     "reply_to": 1
+     "tone": "reply",
+     "text": "Offer. The buyer gets a lot clearer once you can say what you sell in one sentence.",
+     "reply_to": 2
     },
     {
      "by": "nelbin",
      "tone": "positive",
-     "text": "\"8 decisions nobody wrote down\" is painfully accurate. One doc, everything written from it ✍️",
+     "text": "\"8 decisions nobody wrote down\" is painfully accurate ✍️",
      "reply_to": null
+    },
+    {
+     "by": "adi",
+     "tone": "reply",
+     "text": "Nobody wrote them down. Everybody assumed them. Differently.",
+     "reply_to": 4
     },
     {
      "by": "bharath",
@@ -358,34 +382,22 @@ window.STUDIO = {
      "reply_to": null
     },
     {
-     "by": "aquila",
-     "tone": "feedback",
-     "text": "Date is underrated in this list. Once the day and time are fixed, every reminder can be scheduled off it and nothing gets timed by hand.",
-     "reply_to": null
-    },
-    {
-     "by": "bhaskar",
-     "tone": "feedback",
-     "text": "Bharath, true, but a narrowly named Buyer makes that data job a lot smaller.",
-     "reply_to": 4
-    },
-    {
-     "by": "ben",
-     "tone": "positive",
-     "text": "Same doc doubles as the spec for the pages 👍",
-     "reply_to": 3
+     "by": "adi",
+     "tone": "reply",
+     "text": "Half agree 👍 The cleaning can run on its own track. But who belongs on the list is a decision, and it goes in the doc, or the data job has nothing to clean against.",
+     "reply_to": 6
     },
     {
      "by": "aquila",
-     "tone": "question",
-     "text": "Ben, before or after copy sign-off?",
-     "reply_to": 0
+     "tone": "feedback",
+     "text": "Date is underrated in this list. Once the day and time are fixed, every reminder can be scheduled off it and nothing gets timed by hand ⏰",
+     "reply_to": null
     },
     {
-     "by": "bharath",
-     "tone": "positive",
-     "text": "Value as \"the one doubt a buyer has, answered\" is the cleanest way I've seen it put 🎯",
-     "reply_to": null
+     "by": "adi",
+     "tone": "reply",
+     "text": "Aquila, that's why Date made the 8 at all. Leave it open and someone ends up setting reminders one at a time.",
+     "reply_to": 8
     }
    ]
   },
@@ -414,19 +426,19 @@ window.STUDIO = {
     "src": "batch-1/A3",
     "title": "LinkedIn capped us at 100 invites a week",
     "files": [
-     "media/batch-1/A3/p01.jpg?v=20261111065107",
-     "media/batch-1/A3/p02.jpg?v=20261111065107",
-     "media/batch-1/A3/p03.jpg?v=20261111065107",
-     "media/batch-1/A3/p04.jpg?v=20261111065107",
-     "media/batch-1/A3/p05.jpg?v=20261111065107",
-     "media/batch-1/A3/p06.jpg?v=20261111065107",
-     "media/batch-1/A3/p07.jpg?v=20261111065107",
-     "media/batch-1/A3/p08.jpg?v=20261111065107",
-     "media/batch-1/A3/p09.jpg?v=20261111065107",
-     "media/batch-1/A3/p10.jpg?v=20261111065107"
+     "media/batch-1/A3/p01.jpg?v=20261111084157",
+     "media/batch-1/A3/p02.jpg?v=20261111084157",
+     "media/batch-1/A3/p03.jpg?v=20261111084157",
+     "media/batch-1/A3/p04.jpg?v=20261111084157",
+     "media/batch-1/A3/p05.jpg?v=20261111084157",
+     "media/batch-1/A3/p06.jpg?v=20261111084157",
+     "media/batch-1/A3/p07.jpg?v=20261111084157",
+     "media/batch-1/A3/p08.jpg?v=20261111084157",
+     "media/batch-1/A3/p09.jpg?v=20261111084157",
+     "media/batch-1/A3/p10.jpg?v=20261111084157"
     ],
     "download": {
-     "href": "media/batch-1/A3/tantra-b1-A3-2026-10-28-adi.pdf?v=20261111065107",
+     "href": "media/batch-1/A3/tantra-b1-A3-2026-10-28-adi.pdf?v=20261111084157",
      "name": "tantra-b1-A3-2026-10-28-adi.pdf",
      "ext": "pdf",
      "bytes": 10241254,
@@ -457,16 +469,10 @@ window.STUDIO = {
      "reply_to": null
     },
     {
-     "by": "bhaskar",
-     "tone": "question",
-     "text": "Where did most of the 72 hours go? Copy for the new channels or setting up the accounts?",
-     "reply_to": null
-    },
-    {
-     "by": "ben",
-     "tone": "feedback",
-     "text": "Bhaskar, my guess is accounts and warm-up. Copy is fast when the offer's already written down.",
-     "reply_to": 1
+     "by": "adi",
+     "tone": "reply",
+     "text": "That's where ours went. The sheets came after the replies, when the inbox should've existed before the first send.",
+     "reply_to": 0
     },
     {
      "by": "bharath",
@@ -475,40 +481,46 @@ window.STUDIO = {
      "reply_to": null
     },
     {
-     "by": "nelbin",
-     "tone": "differs",
-     "text": "Not sure \"simplest tools\" is the lesson here. Sheets for reading replies sound simple too, and that's what cost the extra week. Simple to start, sure, but somebody still has to own the inbox from the first day.",
-     "reply_to": null
+     "by": "adi",
+     "tone": "reply",
+     "text": "Same lesson from the other side, Bharath. Own the list and the inbox, and a cap turns into a scheduling problem instead of a crisis.",
+     "reply_to": 2
     },
     {
-     "by": "ben",
-     "tone": "feedback",
-     "text": "If I were setting it up again I'd tag every channel's links by source from the start. Otherwise you can't tell which one did the work after the switch.",
+     "by": "bhaskar",
+     "tone": "question",
+     "text": "⏱️ Where did most of the 72 hours go? Copy for the new channels or setting up the accounts?",
      "reply_to": null
     },
     {
      "by": "adi",
-     "tone": "positive",
-     "text": "Nelbin, fair. Owning the inbox is what I'd change.",
+     "tone": "reply",
+     "text": "Copy is the quick part when the offer's already written down. Accounts and connections are what eat the hours, every time you add a channel.",
      "reply_to": 4
     },
     {
-     "by": "aquila",
-     "tone": "feedback",
-     "text": "Bharath, and the replies flowing back to one place is the inbox lesson again 🔁",
-     "reply_to": 3
-    },
-    {
-     "by": "bhaskar",
-     "tone": "positive",
-     "text": "Short carousel, full story in the pages, one question to close. Right format for this one 👏",
+     "by": "nelbin",
+     "tone": "differs",
+     "text": "Not sure \"simplest tools\" is the lesson here. Sheets for reading replies sound simple too, and that's what cost the extra week. Simple to start, sure, but somebody still has to own the inbox from day one.",
      "reply_to": null
     },
     {
+     "by": "adi",
+     "tone": "reply",
+     "text": "I'd still pick the simple tool. Just not the one nobody owns. You're right that the owner should come first.",
+     "reply_to": 6
+    },
+    {
      "by": "ben",
-     "tone": "question",
-     "text": "Nelbin, one owner for the inbox or one per channel?",
-     "reply_to": 4
+     "tone": "feedback",
+     "text": "Tag every channel's links by source from the start. Saves arguments later 🏷️",
+     "reply_to": null
+    },
+    {
+     "by": "adi",
+     "tone": "reply",
+     "text": "Yes. Otherwise nobody knows which channel did the work.",
+     "reply_to": 8
     }
    ]
   },
@@ -537,17 +549,17 @@ window.STUDIO = {
     "src": "batch-1/A4",
     "title": "One live session, 98,000 calendar invites",
     "files": [
-     "media/batch-1/A4/p01.jpg?v=20261111065107",
-     "media/batch-1/A4/p02.jpg?v=20261111065107",
-     "media/batch-1/A4/p03.jpg?v=20261111065107",
-     "media/batch-1/A4/p04.jpg?v=20261111065107",
-     "media/batch-1/A4/p05.jpg?v=20261111065107",
-     "media/batch-1/A4/p06.jpg?v=20261111065107",
-     "media/batch-1/A4/p07.jpg?v=20261111065107",
-     "media/batch-1/A4/p08.jpg?v=20261111065107"
+     "media/batch-1/A4/p01.jpg?v=20261111084157",
+     "media/batch-1/A4/p02.jpg?v=20261111084157",
+     "media/batch-1/A4/p03.jpg?v=20261111084157",
+     "media/batch-1/A4/p04.jpg?v=20261111084157",
+     "media/batch-1/A4/p05.jpg?v=20261111084157",
+     "media/batch-1/A4/p06.jpg?v=20261111084157",
+     "media/batch-1/A4/p07.jpg?v=20261111084157",
+     "media/batch-1/A4/p08.jpg?v=20261111084157"
     ],
     "download": {
-     "href": "media/batch-1/A4/tantra-b1-A4-2026-10-29-adi.pdf?v=20261111065107",
+     "href": "media/batch-1/A4/tantra-b1-A4-2026-10-29-adi.pdf?v=20261111084157",
      "name": "tantra-b1-A4-2026-10-29-adi.pdf",
      "ext": "pdf",
      "bytes": 4774619,
@@ -575,22 +587,28 @@ window.STUDIO = {
    "key": "b1-A4",
    "team_comments": [
     {
-     "by": "bhaskar",
-     "tone": "positive",
-     "text": "Calendar as a channel is the line I'm taking from this. Nobody writes proper copy for a calendar invite, and it's the thing that sits in front of people all day 📅",
-     "reply_to": null
-    },
-    {
      "by": "nelbin",
      "tone": "feedback",
      "text": "On point 2, give the reminders an owner too, not just the invite. A reminder sequence tends to get set up once and then nobody looks at it again.",
      "reply_to": null
     },
     {
+     "by": "adi",
+     "tone": "reply",
+     "text": "Right, and that owner should read the show-up number after every session. It's the only way anyone notices the reminders have stopped doing their job.",
+     "reply_to": 0
+    },
+    {
      "by": "ben",
      "tone": "question",
      "text": "Was the booking link a calendar embed inside the session, or a page people opened?",
      "reply_to": null
+    },
+    {
+     "by": "adi",
+     "tone": "reply",
+     "text": "Whichever is fewer clicks from where they're sitting 🙋 What matters is it's in the room, not in next week's email.",
+     "reply_to": 2
     },
     {
      "by": "bharath",
@@ -600,39 +618,33 @@ window.STUDIO = {
     },
     {
      "by": "adi",
-     "tone": "differs",
+     "tone": "reply",
      "text": "Bharath, read the pairs, sure. I'd still change one thing per run, or you can't tell what moved it.",
-     "reply_to": 3
+     "reply_to": 4
     },
     {
      "by": "aquila",
      "tone": "positive",
-     "text": "About 16% showing up live is exactly why reminders deserve the same effort as the invite. Point 2 nails it 👌",
+     "text": "About 16% showing up live is exactly why reminders deserve the same effort as the invite 👌",
      "reply_to": null
+    },
+    {
+     "by": "adi",
+     "tone": "reply",
+     "text": "And reminders are the cheapest stage to improve. Same list, already registered, you're just getting them to turn up.",
+     "reply_to": 6
     },
     {
      "by": "bhaskar",
-     "tone": "feedback",
-     "text": "Nelbin, and the reminder copy should change each time. The same message three times gets ignored 😬",
-     "reply_to": 1
-    },
-    {
-     "by": "aquila",
-     "tone": "feedback",
-     "text": "Ben, either way it has to be one click. A booking link buried in a follow-up a week later is the leak point 3 describes.",
-     "reply_to": 2
-    },
-    {
-     "by": "ben",
      "tone": "positive",
-     "text": "Point 3 gets skipped most. Ask in the room 🙋",
+     "text": "Calendar as a channel. Nobody writes real copy for the invite 📅",
      "reply_to": null
     },
     {
-     "by": "bharath",
-     "tone": "question",
-     "text": "Bhaskar, separate list for calendar invites, or the email list?",
-     "reply_to": 0
+     "by": "adi",
+     "tone": "reply",
+     "text": "Odd, since it sits there all day.",
+     "reply_to": 8
     }
    ]
   },
@@ -662,10 +674,10 @@ window.STUDIO = {
     "title": "Quote: 'Wow, I wouldn't have written them myself.'",
     "tall": false,
     "files": [
-     "media/batch-1/A5/image.jpg?v=20261111065107"
+     "media/batch-1/A5/image.jpg?v=20261111084157"
     ],
     "download": {
-     "href": "media/batch-1/A5/tantra-b1-A5-2026-10-30-adi.png?v=20261111065107",
+     "href": "media/batch-1/A5/tantra-b1-A5-2026-10-30-adi.png?v=20261111084157",
      "name": "tantra-b1-A5-2026-10-30-adi.png",
      "ext": "png",
      "bytes": 411865,
@@ -689,24 +701,6 @@ window.STUDIO = {
    "key": "b1-A5",
    "team_comments": [
     {
-     "by": "nelbin",
-     "tone": "positive",
-     "text": "\"An owner, an input and a test for done\" is the whole job of operations in one line. The test for done is what most procedures are missing ✅",
-     "reply_to": null
-    },
-    {
-     "by": "ben",
-     "tone": "feedback",
-     "text": "For build steps I'd attach a screenshot of what done looks like. A test for done is easier to pass when you can see the finished page next to it.",
-     "reply_to": null
-    },
-    {
-     "by": "bhaskar",
-     "tone": "question",
-     "text": "Did any of the 6-day bootcamp end up in the 3-day workshop?",
-     "reply_to": null
-    },
-    {
      "by": "bharath",
      "tone": "differs",
      "text": "I'd argue with point 3 a bit. A good procedure should bore the expert. When it surprises them, it usually means they were doing steps nobody knew about, and finding those is the real win of writing it down.",
@@ -714,9 +708,9 @@ window.STUDIO = {
     },
     {
      "by": "adi",
-     "tone": "feedback",
-     "text": "Bharath, that's the surprise I mean. The steps they didn't know they were doing.",
-     "reply_to": 3
+     "tone": "reply",
+     "text": "We're closer than it looks. Those hidden steps are the surprise I mean. The expert reads it back and goes, wait, I do that?",
+     "reply_to": 0
     },
     {
      "by": "aquila",
@@ -725,28 +719,46 @@ window.STUDIO = {
      "reply_to": null
     },
     {
-     "by": "bhaskar",
-     "tone": "positive",
-     "text": "Nelbin, put that on a poster 🙌",
-     "reply_to": 0
+     "by": "adi",
+     "tone": "reply",
+     "text": "That's Day 3 in two lines 🤝 The agent runs what's written. The judgement steps stay with a person until they're written well enough to hand over.",
+     "reply_to": 2
     },
     {
      "by": "ben",
+     "tone": "feedback",
+     "text": "Screenshot of what done looks like, next to each build step 📸",
+     "reply_to": null
+    },
+    {
+     "by": "adi",
+     "tone": "reply",
+     "text": "Works until the page changes. Pair it with a check.",
+     "reply_to": 4
+    },
+    {
+     "by": "bhaskar",
      "tone": "question",
-     "text": "Aquila, how do you mark those? A flag in the doc, or a separate list? 🤔",
-     "reply_to": 5
+     "text": "Did any of the 6-day bootcamp end up in the 3-day workshop?",
+     "reply_to": null
+    },
+    {
+     "by": "adi",
+     "tone": "reply",
+     "text": "The biggest lesson did: nothing gets taught until it's written down well enough to run without me.",
+     "reply_to": 6
     },
     {
      "by": "nelbin",
-     "tone": "differs",
-     "text": "Ben, screenshots go stale the moment the page changes. I'd rather the test be a check anyone can run.",
-     "reply_to": 1
+     "tone": "positive",
+     "text": "\"An owner, an input and a test for done\" is the whole job of operations in one line. The test for done is what most procedures are missing ✅",
+     "reply_to": null
     },
     {
-     "by": "bharath",
-     "tone": "positive",
-     "text": "Leaving for a month is a scary question. Good scary 😅",
-     "reply_to": null
+     "by": "adi",
+     "tone": "reply",
+     "text": "Nelbin, the test for done is also what lets you leave. Without it, people check with you instead 😅",
+     "reply_to": 8
     }
    ]
   },
@@ -776,19 +788,19 @@ window.STUDIO = {
     "src": "batch-2/T1",
     "title": "Old way vs new way: the leak between marketing and sales",
     "files": [
-     "media/batch-2/T1/p01.jpg?v=20261111065107",
-     "media/batch-2/T1/p02.jpg?v=20261111065107",
-     "media/batch-2/T1/p03.jpg?v=20261111065107",
-     "media/batch-2/T1/p04.jpg?v=20261111065107",
-     "media/batch-2/T1/p05.jpg?v=20261111065107",
-     "media/batch-2/T1/p06.jpg?v=20261111065107",
-     "media/batch-2/T1/p07.jpg?v=20261111065107",
-     "media/batch-2/T1/p08.jpg?v=20261111065107",
-     "media/batch-2/T1/p09.jpg?v=20261111065107",
-     "media/batch-2/T1/p10.jpg?v=20261111065107"
+     "media/batch-2/T1/p01.jpg?v=20261111084157",
+     "media/batch-2/T1/p02.jpg?v=20261111084157",
+     "media/batch-2/T1/p03.jpg?v=20261111084157",
+     "media/batch-2/T1/p04.jpg?v=20261111084157",
+     "media/batch-2/T1/p05.jpg?v=20261111084157",
+     "media/batch-2/T1/p06.jpg?v=20261111084157",
+     "media/batch-2/T1/p07.jpg?v=20261111084157",
+     "media/batch-2/T1/p08.jpg?v=20261111084157",
+     "media/batch-2/T1/p09.jpg?v=20261111084157",
+     "media/batch-2/T1/p10.jpg?v=20261111084157"
     ],
     "download": {
-     "href": "media/batch-2/T1/tantra-b2-T1-2026-10-27-tantra.pdf?v=20261111065107",
+     "href": "media/batch-2/T1/tantra-b2-T1-2026-10-27-tantra.pdf?v=20261111084157",
      "name": "tantra-b2-T1-2026-10-27-tantra.pdf",
      "ext": "pdf",
      "bytes": 4429940,
@@ -813,27 +825,27 @@ window.STUDIO = {
    "key": "b2-T1",
    "team_comments": [
     {
-     "by": "adi",
-     "tone": "positive",
-     "text": "\"Neither side is lying\" is the line. Most of these fights are really about steps 4 and 5, and nobody's counting them.",
-     "reply_to": null
-    },
-    {
      "by": "bhaskar",
      "tone": "feedback",
      "text": "From the marketing side, step 2 deserves a number too. Attention is where most of the budget goes, and it usually gets measured in likes, which tells you nothing about the lead that comes after 📊",
      "reply_to": null
     },
     {
-     "by": "nelbin",
-     "tone": "question",
-     "text": "Who signs the definition of qualified when the two teams don't agree? Someone has to break the tie.",
-     "reply_to": null
+     "by": "tantra",
+     "tone": "reply",
+     "text": "Agreed, and it's the easiest of the seven to fix. Tag every link by source and step 2 gets a real count instead of a like count.",
+     "reply_to": 0
     },
     {
      "by": "adi",
-     "tone": "feedback",
-     "text": "The owner of the path. That's why there's one 🤝",
+     "tone": "positive",
+     "text": "\"Neither side is lying\" is the line. Most of these fights are really about steps 4 and 5, and nobody's counting them.",
+     "reply_to": null
+    },
+    {
+     "by": "tantra",
+     "tone": "reply",
+     "text": "Which is why the table says one owner. Two teams can't both own the middle.",
      "reply_to": 2
     },
     {
@@ -843,34 +855,46 @@ window.STUDIO = {
      "reply_to": null
     },
     {
+     "by": "tantra",
+     "tone": "reply",
+     "text": "That's how we'd set it up: automated first touch, then a person. The clock is the rule. The automation is how you keep it on a busy day.",
+     "reply_to": 4
+    },
+    {
+     "by": "nelbin",
+     "tone": "question",
+     "text": "Who signs the definition of qualified when the two teams don't agree? 🤔",
+     "reply_to": null
+    },
+    {
+     "by": "tantra",
+     "tone": "reply",
+     "text": "The path owner. That's the tiebreak.",
+     "reply_to": 6
+    },
+    {
+     "by": "ben",
+     "tone": "positive",
+     "text": "Seven steps, one line, a count under each. Doing it today ✏️",
+     "reply_to": null
+    },
+    {
+     "by": "tantra",
+     "tone": "reply",
+     "text": "Nice. If step 4 or 5 comes up blank, that blank is the finding.",
+     "reply_to": 8
+    },
+    {
      "by": "bharath",
      "tone": "differs",
      "text": "I'd soften \"connected once\" a little. Tools get joined once, sure, but APIs change and fields get renamed. Someone has to check the joins regularly or the numbers drift without anyone noticing.",
      "reply_to": null
     },
     {
-     "by": "ben",
-     "tone": "positive",
-     "text": "Seven steps, one line, a count under each. Today ✏️",
-     "reply_to": null
-    },
-    {
-     "by": "ben",
-     "tone": "feedback",
-     "text": "Bhaskar, tag every link by source and step 2 gets a real number instead of likes.",
-     "reply_to": 1
-    },
-    {
-     "by": "nelbin",
-     "tone": "differs",
-     "text": "Aquila, for bigger deals I'd still keep a person on the first touch. An instant automated reply can read cold.",
-     "reply_to": 4
-    },
-    {
-     "by": "bharath",
-     "tone": "positive",
-     "text": "Flagging that one of the authors ran a lead-response company is a nice touch. Strong signal, not gospel 👍",
-     "reply_to": null
+     "by": "tantra",
+     "tone": "reply",
+     "text": "Fair, Bharath. Connected once means joined on purpose, not set and forgotten. The weekly flag on the weakest step should catch a join that's drifted too 🔧",
+     "reply_to": 10
     }
    ]
   },
@@ -901,10 +925,10 @@ window.STUDIO = {
     "title": "Six stages, four layers: the map of a revenue engine",
     "tall": false,
     "files": [
-     "media/batch-2/T10/image.jpg?v=20261111065107"
+     "media/batch-2/T10/image.jpg?v=20261111084157"
     ],
     "download": {
-     "href": "media/batch-2/T10/tantra-b2-T10-2026-10-26-tantra.png?v=20261111065107",
+     "href": "media/batch-2/T10/tantra-b2-T10-2026-10-26-tantra.png?v=20261111084157",
      "name": "tantra-b2-T10-2026-10-26-tantra.png",
      "ext": "png",
      "bytes": 384713,
@@ -928,22 +952,16 @@ window.STUDIO = {
    "key": "b2-T10",
    "team_comments": [
     {
-     "by": "bharath",
-     "tone": "positive",
-     "text": "\"More tools was never the fix. The joins are.\" Someone should print that on every software purchase form 😂",
-     "reply_to": null
-    },
-    {
      "by": "ben",
      "tone": "question",
-     "text": "Where do tracking pixels sit in the grid? 🧩 I'd call them APIs, but they feel like their own layer.",
+     "text": "Where do tracking pixels sit in the grid? I'd call them APIs, but they feel like their own layer 🧩",
      "reply_to": null
     },
     {
-     "by": "bharath",
-     "tone": "feedback",
-     "text": "Ben, I'd put them in APIs. They're a join between the page and the ad platform.",
-     "reply_to": 1
+     "by": "tantra",
+     "tone": "reply",
+     "text": "APIs. A pixel is a join between your page and the ad platform, so it fills the API cell under Traffic and Capture.",
+     "reply_to": 0
     },
     {
      "by": "aquila",
@@ -952,40 +970,58 @@ window.STUDIO = {
      "reply_to": null
     },
     {
+     "by": "tantra",
+     "tone": "reply",
+     "text": "One habit that fixes it: register as a buyer yourself and read the show-up sequence as it arrives. That's the workflow cell, checked ✅",
+     "reply_to": 2
+    },
+    {
+     "by": "adi",
+     "tone": "positive",
+     "text": "Growth is the row most people leave blank. A weekly send for a year is boring work, and it's what keeps replies coming back 📬",
+     "reply_to": null
+    },
+    {
+     "by": "tantra",
+     "tone": "reply",
+     "text": "Boring is the point. It's the stage that keeps feeding the other five.",
+     "reply_to": 4
+    },
+    {
+     "by": "bharath",
+     "tone": "positive",
+     "text": "\"More tools was never the fix.\" Printing that for procurement 😂",
+     "reply_to": null
+    },
+    {
+     "by": "tantra",
+     "tone": "reply",
+     "text": "Ideally before the purchase form. Joins first, then decide whether you still need the app.",
+     "reply_to": 6
+    },
+    {
      "by": "nelbin",
      "tone": "feedback",
-     "text": "Give each cell an owner as well as a tool. An empty cell is obvious. A filled cell nobody checks is the one that quietly hurts.",
+     "text": "Give each cell an owner as well as a tool. A filled cell nobody checks is worse than an empty one.",
      "reply_to": null
+    },
+    {
+     "by": "tantra",
+     "tone": "reply",
+     "text": "Nelbin, yes. We'd add an owner to every cell.",
+     "reply_to": 8
     },
     {
      "by": "bhaskar",
      "tone": "differs",
-     "text": "Slightly different take on where to start. If links aren't tagged by source, I'd fix Traffic first, because until then you can't tell which stage loses the most people in the first place.",
+     "text": "Slightly different take on where to start. If links aren't tagged by source, I'd fix Traffic first, because until then you can't tell which stage loses the most people.",
      "reply_to": null
     },
     {
-     "by": "adi",
-     "tone": "differs",
-     "text": "Bhaskar, untagged traffic is an empty cell too. Same rule, just the first cell.",
-     "reply_to": 5
-    },
-    {
-     "by": "adi",
-     "tone": "feedback",
-     "text": "Growth is the row most people leave blank. A weekly send for a year is boring work, and it's what keeps replies coming back into the pipeline 📬",
-     "reply_to": null
-    },
-    {
-     "by": "ben",
-     "tone": "positive",
-     "text": "Aquila, the show-up sequence example makes that click.",
-     "reply_to": 3
-    },
-    {
-     "by": "nelbin",
-     "tone": "question",
-     "text": "Adi, who owns the weekly send, marketing or ops?",
-     "reply_to": 7
+     "by": "tantra",
+     "tone": "reply",
+     "text": "We'd call untagged links an empty cell too, so it's the same rule. It just happens to be the first cell you fix, because every count after it depends on it.",
+     "reply_to": 10
     }
    ]
   },
@@ -1015,17 +1051,17 @@ window.STUDIO = {
     "src": "batch-2/T2",
     "title": "Webinar, challenge or reverse squeeze: pick by belief",
     "files": [
-     "media/batch-2/T2/p01.jpg?v=20261111065107",
-     "media/batch-2/T2/p02.jpg?v=20261111065107",
-     "media/batch-2/T2/p03.jpg?v=20261111065107",
-     "media/batch-2/T2/p04.jpg?v=20261111065107",
-     "media/batch-2/T2/p05.jpg?v=20261111065107",
-     "media/batch-2/T2/p06.jpg?v=20261111065107",
-     "media/batch-2/T2/p07.jpg?v=20261111065107",
-     "media/batch-2/T2/p08.jpg?v=20261111065107"
+     "media/batch-2/T2/p01.jpg?v=20261111084157",
+     "media/batch-2/T2/p02.jpg?v=20261111084157",
+     "media/batch-2/T2/p03.jpg?v=20261111084157",
+     "media/batch-2/T2/p04.jpg?v=20261111084157",
+     "media/batch-2/T2/p05.jpg?v=20261111084157",
+     "media/batch-2/T2/p06.jpg?v=20261111084157",
+     "media/batch-2/T2/p07.jpg?v=20261111084157",
+     "media/batch-2/T2/p08.jpg?v=20261111084157"
     ],
     "download": {
-     "href": "media/batch-2/T2/tantra-b2-T2-2026-10-29-tantra.pdf?v=20261111065107",
+     "href": "media/batch-2/T2/tantra-b2-T2-2026-10-29-tantra.pdf?v=20261111084157",
      "name": "tantra-b2-T2-2026-10-29-tantra.pdf",
      "ext": "pdf",
      "bytes": 6189087,
@@ -1056,16 +1092,22 @@ window.STUDIO = {
      "reply_to": null
     },
     {
+     "by": "tantra",
+     "tone": "reply",
+     "text": "And it's the number people forget to put in the calendar 📆 Block the hours before the cohort is announced, not after the registrations start coming in.",
+     "reply_to": 0
+    },
+    {
      "by": "bhaskar",
      "tone": "feedback",
-     "text": "On the buyer question, ask a few recent buyers if you can, not just one. A single answer can send you down the wrong funnel. Look for the belief that keeps coming up and build for that one 🧭",
+     "text": "On the buyer question, ask a few recent buyers if you can, not just one. A single answer can send you down the wrong funnel. Look for the belief that keeps coming up 🧭",
      "reply_to": null
     },
     {
-     "by": "adi",
-     "tone": "differs",
-     "text": "Bhaskar, I'd still start with one. One honest answer beats waiting for five. Ask more as you go.",
-     "reply_to": 1
+     "by": "tantra",
+     "tone": "reply",
+     "text": "We'd still start with one, Bhaskar. One honest answer this week beats five you're still chasing. Add more as they come and see whether the belief holds.",
+     "reply_to": 2
     },
     {
      "by": "ben",
@@ -1074,40 +1116,46 @@ window.STUDIO = {
      "reply_to": null
     },
     {
-     "by": "aquila",
-     "tone": "question",
-     "text": "How do the reminders work for a challenge? Three days at the same hour sounds like each day needs its own sequence.",
-     "reply_to": null
-    },
-    {
-     "by": "bharath",
-     "tone": "positive",
-     "text": "Schwartz picking the funnel, not the headline. Neat 👏",
-     "reply_to": null
-    },
-    {
-     "by": "adi",
-     "tone": "feedback",
-     "text": "Don't judge your registration page on day 3. That's the line most people will skim past, and it's the one that saves good pages from getting rewritten.",
-     "reply_to": null
-    },
-    {
-     "by": "nelbin",
-     "tone": "feedback",
-     "text": "Aquila, plus a nudge for whoever missed day 1.",
+     "by": "tantra",
+     "tone": "reply",
+     "text": "Worth adding. Write it down with the funnel choice itself, so the page gets built to it.",
      "reply_to": 4
     },
     {
-     "by": "ben",
-     "tone": "differs",
-     "text": "Adi, agree on the timing, but I'd still check the page's tracking on day 1. If the form isn't firing, waiting a week won't tell you anything useful about the page 🛠️",
+     "by": "aquila",
+     "tone": "question",
+     "text": "Challenge funnel: does each of the three days get its own reminders?",
+     "reply_to": null
+    },
+    {
+     "by": "tantra",
+     "tone": "reply",
+     "text": "Each day, same hour, its own reminders 🙂",
      "reply_to": 6
     },
     {
-     "by": "aquila",
+     "by": "bharath",
+     "tone": "differs",
+     "text": "I'd treat the hours estimates with care. They depend a lot on how much of the follow-up is automated, so the same webinar can be a light week or a heavy one.",
+     "reply_to": null
+    },
+    {
+     "by": "tantra",
+     "tone": "reply",
+     "text": "True, which is why they're ranges from our playbook and not a promise. Automation moves you around inside a range. It won't turn a challenge cohort into a reverse squeeze week.",
+     "reply_to": 8
+    },
+    {
+     "by": "adi",
      "tone": "positive",
-     "text": "Nelbin, the 4 to 8 hours is why the reverse squeeze is so tempting 🙂",
-     "reply_to": 0
+     "text": "Don't judge your registration page on day 3. The line most people will skim past 👀",
+     "reply_to": null
+    },
+    {
+     "by": "tantra",
+     "tone": "reply",
+     "text": "It's the one that saves good pages from a needless rewrite. About half the registrations can arrive in the final week.",
+     "reply_to": 10
     }
    ]
   },
@@ -1137,18 +1185,18 @@ window.STUDIO = {
     "src": "batch-2/T3",
     "title": "13 messages: 6 get them in the room, 7 follow up",
     "files": [
-     "media/batch-2/T3/p01.jpg?v=20261111065107",
-     "media/batch-2/T3/p02.jpg?v=20261111065107",
-     "media/batch-2/T3/p03.jpg?v=20261111065107",
-     "media/batch-2/T3/p04.jpg?v=20261111065107",
-     "media/batch-2/T3/p05.jpg?v=20261111065107",
-     "media/batch-2/T3/p06.jpg?v=20261111065107",
-     "media/batch-2/T3/p07.jpg?v=20261111065107",
-     "media/batch-2/T3/p08.jpg?v=20261111065107",
-     "media/batch-2/T3/p09.jpg?v=20261111065107"
+     "media/batch-2/T3/p01.jpg?v=20261111084157",
+     "media/batch-2/T3/p02.jpg?v=20261111084157",
+     "media/batch-2/T3/p03.jpg?v=20261111084157",
+     "media/batch-2/T3/p04.jpg?v=20261111084157",
+     "media/batch-2/T3/p05.jpg?v=20261111084157",
+     "media/batch-2/T3/p06.jpg?v=20261111084157",
+     "media/batch-2/T3/p07.jpg?v=20261111084157",
+     "media/batch-2/T3/p08.jpg?v=20261111084157",
+     "media/batch-2/T3/p09.jpg?v=20261111084157"
     ],
     "download": {
-     "href": "media/batch-2/T3/tantra-b2-T3-2026-11-02-tantra.pdf?v=20261111065107",
+     "href": "media/batch-2/T3/tantra-b2-T3-2026-11-02-tantra.pdf?v=20261111084157",
      "name": "tantra-b2-T3-2026-11-02-tantra.pdf",
      "ext": "pdf",
      "bytes": 1719797,
@@ -1173,40 +1221,28 @@ window.STUDIO = {
    "key": "b2-T3",
    "team_comments": [
     {
-     "by": "aquila",
-     "tone": "positive",
-     "text": "Dropping a late message instead of sending it late, yes. A reminder that lands after the session started does more damage than no reminder at all ⏰",
-     "reply_to": null
-    },
-    {
-     "by": "ben",
-     "tone": "feedback",
-     "text": "One link per message makes the tracking clean as well. Tag each link with its message and you can see which of the 6 actually got people into the room.",
-     "reply_to": null
-    },
-    {
-     "by": "bhaskar",
-     "tone": "question",
-     "text": "The exercise 7 days before: do late registrants still get it, or do they skip to the next message?",
-     "reply_to": null
-    },
-    {
-     "by": "aquila",
-     "tone": "feedback",
-     "text": "Bhaskar, by rule 2 they'd skip it.",
-     "reply_to": 2
-    },
-    {
-     "by": "nelbin",
-     "tone": "feedback",
-     "text": "Someone has to own the library. Writing 13 messages once is fine, but the dates, links and replay expiry change every session, and that's exactly where the mistakes creep in if nobody checks before each one.",
-     "reply_to": null
-    },
-    {
      "by": "bharath",
      "tone": "differs",
-     "text": "I'd question WhatsApp the day before at 08:00 as a default for every audience. Some buyers will find it pushy. I'd make the channel a choice on the registration form and let them pick.",
+     "text": "I'd question WhatsApp the day before at 08:00 as a default for every audience. Some buyers will find it pushy. I'd make the channel a choice on the registration form.",
      "reply_to": null
+    },
+    {
+     "by": "tantra",
+     "tone": "reply",
+     "text": "We'd keep it on by default and make opting out one tap on the form. That way the people who want the nudge get it without having to ask, and nobody's stuck with it.",
+     "reply_to": 0
+    },
+    {
+     "by": "aquila",
+     "tone": "positive",
+     "text": "Dropping a late message instead of sending it late, yes ⏰",
+     "reply_to": null
+    },
+    {
+     "by": "tantra",
+     "tone": "reply",
+     "text": "A reminder after the start just says you're late.",
+     "reply_to": 2
     },
     {
      "by": "adi",
@@ -1215,22 +1251,46 @@ window.STUDIO = {
      "reply_to": null
     },
     {
-     "by": "ben",
-     "tone": "positive",
-     "text": "Bharath, easy add on the form. I'll build it 👍",
-     "reply_to": 5
+     "by": "tantra",
+     "tone": "reply",
+     "text": "That's why we call it a library 📚 Each registrant gets the messages that still fit the time they have left.",
+     "reply_to": 4
     },
     {
-     "by": "bhaskar",
+     "by": "ben",
      "tone": "feedback",
-     "text": "Adi, and the 3 for people who didn't come are where I'd spend the copy time. The one idea they missed is a strong hook on its own 💬",
+     "text": "One link per message makes the tracking clean too. Tag each link with its message and you can see which of the 6 actually got people into the room 🔗",
+     "reply_to": null
+    },
+    {
+     "by": "tantra",
+     "tone": "reply",
+     "text": "Nice add, Ben. Then the next session drops or rewrites whichever one never gets a click.",
      "reply_to": 6
     },
     {
-     "by": "adi",
-     "tone": "differs",
-     "text": "Bharath, I'd keep WhatsApp on and make opting out one tap. I think more people want the nudge than we assume 📲",
-     "reply_to": 5
+     "by": "nelbin",
+     "tone": "feedback",
+     "text": "Someone has to own the library. Writing 13 messages once is fine, but dates, links and replay expiry change every session, and that's where mistakes creep in if nobody checks before each one.",
+     "reply_to": null
+    },
+    {
+     "by": "tantra",
+     "tone": "reply",
+     "text": "Agreed. We'd give that owner a short check before every session: the date, every link, and the day the replay closes 📋",
+     "reply_to": 8
+    },
+    {
+     "by": "bhaskar",
+     "tone": "question",
+     "text": "The exercise 7 days before: do late registrants still get it, or skip to the next message?",
+     "reply_to": null
+    },
+    {
+     "by": "tantra",
+     "tone": "reply",
+     "text": "Bhaskar, rule 2 covers it. If it would land late, it's dropped, and they pick up at the next message that still fits.",
+     "reply_to": 10
     }
    ]
   },
@@ -1260,17 +1320,17 @@ window.STUDIO = {
     "src": "batch-2/T4",
     "title": "Stop, fix or scale: the weekly channel check",
     "files": [
-     "media/batch-2/T4/p01.jpg?v=20261111065107",
-     "media/batch-2/T4/p02.jpg?v=20261111065107",
-     "media/batch-2/T4/p03.jpg?v=20261111065107",
-     "media/batch-2/T4/p04.jpg?v=20261111065107",
-     "media/batch-2/T4/p05.jpg?v=20261111065107",
-     "media/batch-2/T4/p06.jpg?v=20261111065107",
-     "media/batch-2/T4/p07.jpg?v=20261111065107",
-     "media/batch-2/T4/p08.jpg?v=20261111065107"
+     "media/batch-2/T4/p01.jpg?v=20261111084157",
+     "media/batch-2/T4/p02.jpg?v=20261111084157",
+     "media/batch-2/T4/p03.jpg?v=20261111084157",
+     "media/batch-2/T4/p04.jpg?v=20261111084157",
+     "media/batch-2/T4/p05.jpg?v=20261111084157",
+     "media/batch-2/T4/p06.jpg?v=20261111084157",
+     "media/batch-2/T4/p07.jpg?v=20261111084157",
+     "media/batch-2/T4/p08.jpg?v=20261111084157"
     ],
     "download": {
-     "href": "media/batch-2/T4/tantra-b2-T4-2026-11-04-tantra.pdf?v=20261111065107",
+     "href": "media/batch-2/T4/tantra-b2-T4-2026-11-04-tantra.pdf?v=20261111084157",
      "name": "tantra-b2-T4-2026-11-04-tantra.pdf",
      "ext": "pdf",
      "bytes": 1205777,
@@ -1295,64 +1355,76 @@ window.STUDIO = {
    "key": "b2-T4",
    "team_comments": [
     {
-     "by": "bharath",
-     "tone": "feedback",
-     "text": "Worth adding: check SPF, DKIM and DMARC on every sending domain before the first send, not only after a red week. It's a quick check, and it's a lot cheaper than repairing a burned domain later.",
-     "reply_to": null
-    },
-    {
-     "by": "bhaskar",
-     "tone": "positive",
-     "text": "Reading bounces before replies is the opposite of how most marketers look at a campaign. Good correction 📉",
-     "reply_to": null
-    },
-    {
-     "by": "nelbin",
-     "tone": "positive",
-     "text": "A blank is not a zero. Stealing that for reviews 📝",
-     "reply_to": null
-    },
-    {
      "by": "ben",
      "tone": "question",
      "text": "Tagged visits per person or per click? Big difference.",
      "reply_to": null
     },
     {
-     "by": "bharath",
-     "tone": "feedback",
-     "text": "Ben, per person is my vote. Repeat clicks from one inbox can make a weak campaign look green.",
-     "reply_to": 3
+     "by": "tantra",
+     "tone": "reply",
+     "text": "Per person. Repeat clicks from one inbox can make a weak campaign look green, and green is the band you scale.",
+     "reply_to": 0
     },
     {
-     "by": "aquila",
-     "tone": "differs",
-     "text": "I'd argue with stopping at three numbers. Unsubscribes say something too, especially in the amber band, where the copy is the suspect. A rising unsubscribe count is a pretty loud hint about the offer line.",
+     "by": "nelbin",
+     "tone": "positive",
+     "text": "A blank is not a zero. Stealing that for our weekly reviews 📝",
      "reply_to": null
     },
     {
-     "by": "adi",
+     "by": "tantra",
+     "tone": "reply",
+     "text": "Steal away. A zero says you measured and nothing happened. A blank says nobody measured. Different fix.",
+     "reply_to": 2
+    },
+    {
+     "by": "bhaskar",
      "tone": "positive",
+     "text": "Reading bounces before replies is the opposite of how most marketers read a campaign. Good correction 📉",
+     "reply_to": null
+    },
+    {
+     "by": "tantra",
+     "tone": "reply",
+     "text": "Replies feel like progress, so they get read first. Bounces tell you whether next week's send will even arrive, which matters more.",
+     "reply_to": 4
+    },
+    {
+     "by": "bharath",
+     "tone": "feedback",
+     "text": "Worth adding: check SPF, DKIM and DMARC on every sending domain before the first send, not only after a red week. It's a quick check and a lot cheaper than repairing a burned domain later.",
+     "reply_to": null
+    },
+    {
+     "by": "tantra",
+     "tone": "reply",
+     "text": "Yes, we'd make that the first line of the check for any new domain, before a single send goes out 🔐",
+     "reply_to": 6
+    },
+    {
+     "by": "adi",
+     "tone": "feedback",
      "text": "The definitions at the end matter most. Write down what click-through and conversion mean before anyone argues about them.",
      "reply_to": null
     },
     {
+     "by": "tantra",
+     "tone": "reply",
+     "text": "Once, on the dashboard itself. Saves the argument.",
+     "reply_to": 8
+    },
+    {
      "by": "aquila",
-     "tone": "feedback",
-     "text": "Bharath, and when a campaign goes red, pause its follow-ups too, or they keep hitting the same bad addresses 🚫",
-     "reply_to": 0
+     "tone": "differs",
+     "text": "I'd argue with stopping at three numbers. Unsubscribes say something too, especially in the amber band where the copy is the suspect 🤔",
+     "reply_to": null
     },
     {
-     "by": "bhaskar",
-     "tone": "question",
-     "text": "Aquila, what would unsubscribes change though? You'd still rewrite the offer line.",
-     "reply_to": 5
-    },
-    {
-     "by": "ben",
-     "tone": "positive",
-     "text": "Adi, agreed. Tagged visits divided by sends, written on the dashboard itself.",
-     "reply_to": 6
+     "by": "tantra",
+     "tone": "reply",
+     "text": "We'd hold at three for the decision, Aquila. Unsubscribes are worth a look, but in amber you're rewriting the offer line either way, so they don't change the call.",
+     "reply_to": 10
     }
    ]
   },
@@ -1382,17 +1454,17 @@ window.STUDIO = {
     "src": "batch-2/T5",
     "title": "Find the one step that leaks your funnel",
     "files": [
-     "media/batch-2/T5/p01.jpg?v=20261111065107",
-     "media/batch-2/T5/p02.jpg?v=20261111065107",
-     "media/batch-2/T5/p03.jpg?v=20261111065107",
-     "media/batch-2/T5/p04.jpg?v=20261111065107",
-     "media/batch-2/T5/p05.jpg?v=20261111065107",
-     "media/batch-2/T5/p06.jpg?v=20261111065107",
-     "media/batch-2/T5/p07.jpg?v=20261111065107",
-     "media/batch-2/T5/p08.jpg?v=20261111065107"
+     "media/batch-2/T5/p01.jpg?v=20261111084157",
+     "media/batch-2/T5/p02.jpg?v=20261111084157",
+     "media/batch-2/T5/p03.jpg?v=20261111084157",
+     "media/batch-2/T5/p04.jpg?v=20261111084157",
+     "media/batch-2/T5/p05.jpg?v=20261111084157",
+     "media/batch-2/T5/p06.jpg?v=20261111084157",
+     "media/batch-2/T5/p07.jpg?v=20261111084157",
+     "media/batch-2/T5/p08.jpg?v=20261111084157"
     ],
     "download": {
-     "href": "media/batch-2/T5/tantra-b2-T5-2026-11-05-tantra.pdf?v=20261111065107",
+     "href": "media/batch-2/T5/tantra-b2-T5-2026-11-05-tantra.pdf?v=20261111084157",
      "name": "tantra-b2-T5-2026-11-05-tantra.pdf",
      "ext": "pdf",
      "bytes": 4172544,
@@ -1418,28 +1490,16 @@ window.STUDIO = {
    "key": "b2-T5",
    "team_comments": [
     {
-     "by": "adi",
-     "tone": "positive",
-     "text": "Teams try to fix the whole funnel at once and learn nothing. One step, one change, one run. That's the post.",
+     "by": "aquila",
+     "tone": "question",
+     "text": "When you split the next run in half, can the reminders be the one thing that changes?",
      "reply_to": null
     },
     {
-     "by": "nelbin",
-     "tone": "feedback",
-     "text": "Move 1 is where most teams stall. Writing \"unknown, will measure\" feels like admitting a gap, but it's the only honest way to start the sheet, and it gives someone a clear job for next week 🧮",
-     "reply_to": null
-    },
-    {
-     "by": "bhaskar",
-     "tone": "differs",
-     "text": "On move 4, low registrations aren't always the headline. Sometimes it's the traffic. Wrong audience plus a perfect headline still gives you a low rate. I'd check where the visits came from before rewriting a word.",
-     "reply_to": null
-    },
-    {
-     "by": "ben",
-     "tone": "feedback",
-     "text": "Bhaskar, which is why every link needs a source tag.",
-     "reply_to": 2
+     "by": "tantra",
+     "tone": "reply",
+     "text": "They can, if show-up is the step you circled. Then the reminders are the only change, and both halves get the same everything else.",
+     "reply_to": 0
     },
     {
      "by": "bharath",
@@ -1448,16 +1508,46 @@ window.STUDIO = {
      "reply_to": null
     },
     {
-     "by": "aquila",
-     "tone": "question",
-     "text": "When you split the next run in half, do both halves get the same reminders, or can that be the one thing that changes?",
+     "by": "tantra",
+     "tone": "reply",
+     "text": "Goldratt did the hard part. We just did the division.",
+     "reply_to": 2
+    },
+    {
+     "by": "nelbin",
+     "tone": "feedback",
+     "text": "Move 1 is where most teams stall. Writing \"unknown, will measure\" feels like admitting a gap, but it's the only honest way to start the sheet, and it gives someone a clear job for next week 🧮",
      "reply_to": null
     },
     {
-     "by": "bharath",
-     "tone": "feedback",
-     "text": "Aquila, the reminders can be the change, but then they're the only change. Otherwise you can't read the result.",
-     "reply_to": 5
+     "by": "tantra",
+     "tone": "reply",
+     "text": "Nelbin, put a name next to each unknown and it stops looking like a gap. It's a task with an owner.",
+     "reply_to": 4
+    },
+    {
+     "by": "adi",
+     "tone": "positive",
+     "text": "Teams try to fix the whole funnel at once and learn nothing. One step, one change, one run.",
+     "reply_to": null
+    },
+    {
+     "by": "tantra",
+     "tone": "reply",
+     "text": "Which also means getting used to losing. If only about a third of ideas win, a loss is just the next row in the sheet.",
+     "reply_to": 6
+    },
+    {
+     "by": "bhaskar",
+     "tone": "differs",
+     "text": "On move 4, low registrations aren't always the headline. Sometimes it's the traffic. Wrong audience plus a perfect headline still gives you a low rate.",
+     "reply_to": null
+    },
+    {
+     "by": "tantra",
+     "tone": "reply",
+     "text": "Fair, and we'd check that first 🎯 If the source mix changed between runs, your reference is off and the ratio misleads you. Same mix, then it's the headline.",
+     "reply_to": 8
     },
     {
      "by": "ben",
@@ -1466,16 +1556,10 @@ window.STUDIO = {
      "reply_to": null
     },
     {
-     "by": "aquila",
-     "tone": "differs",
-     "text": "Nelbin, I don't think it's admitting a gap. It's a to-do with a name on it.",
-     "reply_to": 1
-    },
-    {
-     "by": "adi",
-     "tone": "question",
-     "text": "Bhaskar, good catch. Do your counts show the source, or only the ad platform?",
-     "reply_to": 2
+     "by": "tantra",
+     "tone": "reply",
+     "text": "It also kills the early peek. That's the 26.1% problem.",
+     "reply_to": 10
     }
    ]
   },
@@ -1505,18 +1589,18 @@ window.STUDIO = {
     "src": "batch-2/T6",
     "title": "Six guardrails for an AI agent that runs your funnel",
     "files": [
-     "media/batch-2/T6/p01.jpg?v=20261111065107",
-     "media/batch-2/T6/p02.jpg?v=20261111065107",
-     "media/batch-2/T6/p03.jpg?v=20261111065107",
-     "media/batch-2/T6/p04.jpg?v=20261111065107",
-     "media/batch-2/T6/p05.jpg?v=20261111065107",
-     "media/batch-2/T6/p06.jpg?v=20261111065107",
-     "media/batch-2/T6/p07.jpg?v=20261111065107",
-     "media/batch-2/T6/p08.jpg?v=20261111065107",
-     "media/batch-2/T6/p09.jpg?v=20261111065107"
+     "media/batch-2/T6/p01.jpg?v=20261111084157",
+     "media/batch-2/T6/p02.jpg?v=20261111084157",
+     "media/batch-2/T6/p03.jpg?v=20261111084157",
+     "media/batch-2/T6/p04.jpg?v=20261111084157",
+     "media/batch-2/T6/p05.jpg?v=20261111084157",
+     "media/batch-2/T6/p06.jpg?v=20261111084157",
+     "media/batch-2/T6/p07.jpg?v=20261111084157",
+     "media/batch-2/T6/p08.jpg?v=20261111084157",
+     "media/batch-2/T6/p09.jpg?v=20261111084157"
     ],
     "download": {
-     "href": "media/batch-2/T6/tantra-b2-T6-2026-11-06-tantra.pdf?v=20261111065107",
+     "href": "media/batch-2/T6/tantra-b2-T6-2026-11-06-tantra.pdf?v=20261111084157",
      "name": "tantra-b2-T6-2026-11-06-tantra.pdf",
      "ext": "pdf",
      "bytes": 2101753,
@@ -1541,34 +1625,28 @@ window.STUDIO = {
    "key": "b2-T6",
    "team_comments": [
     {
-     "by": "bharath",
-     "tone": "positive",
-     "text": "\"A rule in a prompt is a request.\" Pinning that above my desk. The one door for every API call is the guardrail I'd build first, because everything else hangs off it 🚪",
-     "reply_to": null
-    },
-    {
-     "by": "adi",
-     "tone": "feedback",
-     "text": "The caveat matters. A tripwire with a paper trail is honest, but only if someone reads the log. Otherwise it's just a file.",
-     "reply_to": null
-    },
-    {
-     "by": "ben",
-     "tone": "question",
-     "text": "For the two test contacts, do they go through the real forms, or get added straight to the list?",
-     "reply_to": null
-    },
-    {
-     "by": "aquila",
-     "tone": "feedback",
-     "text": "Ben, real forms. Otherwise you're not testing the real path.",
-     "reply_to": 2
-    },
-    {
      "by": "nelbin",
      "tone": "positive",
      "text": "Approval as a dated line in the owner's own words is basically a change log for decisions. Ops people will love this 📋",
      "reply_to": null
+    },
+    {
+     "by": "tantra",
+     "tone": "reply",
+     "text": "Pretty much. When something goes wrong you can see who said yes, to which tool, and on what day.",
+     "reply_to": 0
+    },
+    {
+     "by": "ben",
+     "tone": "question",
+     "text": "Do the two test contacts go through the real forms, or straight onto the list?",
+     "reply_to": null
+    },
+    {
+     "by": "tantra",
+     "tone": "reply",
+     "text": "Real forms, or you're not testing the real path.",
+     "reply_to": 2
     },
     {
      "by": "bhaskar",
@@ -1577,28 +1655,46 @@ window.STUDIO = {
      "reply_to": null
     },
     {
-     "by": "bharath",
-     "tone": "differs",
-     "text": "Bhaskar, the approval can name the recurring send once. It doesn't need a fresh yes every time.",
-     "reply_to": 5
+     "by": "tantra",
+     "tone": "reply",
+     "text": "The one door stays, Bhaskar, but the approval can name a recurring send once. That yes covers the newsletter, not every new campaign someone dreams up afterwards.",
+     "reply_to": 4
+    },
+    {
+     "by": "adi",
+     "tone": "feedback",
+     "text": "The caveat matters. A tripwire with a paper trail only works if someone reads the log.",
+     "reply_to": null
+    },
+    {
+     "by": "tantra",
+     "tone": "reply",
+     "text": "Right, so reading it goes on someone's weekly list, next to the numbers 👀",
+     "reply_to": 6
     },
     {
      "by": "aquila",
      "tone": "feedback",
-     "text": "Two test contacts, one who shows up and one who doesn't, means both branches of the follow-up get tested before a real person sees either. Wouldn't launch without that.",
+     "text": "Two test contacts means both branches of the follow-up get tested before a real person sees either. Wouldn't launch without it 🧪",
      "reply_to": null
     },
     {
-     "by": "ben",
-     "tone": "positive",
-     "text": "Bharath, 84 lines sounds short until you try writing them 😬",
-     "reply_to": 0
+     "by": "tantra",
+     "tone": "reply",
+     "text": "Same. Most setups only ever test the happy path.",
+     "reply_to": 8
     },
     {
-     "by": "nelbin",
-     "tone": "question",
-     "text": "Adi, who reads the log? Owner or ops?",
-     "reply_to": 1
+     "by": "bharath",
+     "tone": "positive",
+     "text": "\"A rule in a prompt is a request.\" Pinning that 📌",
+     "reply_to": null
+    },
+    {
+     "by": "tantra",
+     "tone": "reply",
+     "text": "And the one door for every API call is what turns that request into a rule. Build it first, and the other five hang off it.",
+     "reply_to": 10
     }
    ]
   },
@@ -1629,10 +1725,10 @@ window.STUDIO = {
     "title": "The offer sentence, slot by slot",
     "tall": false,
     "files": [
-     "media/batch-2/T7/image.jpg?v=20261111065107"
+     "media/batch-2/T7/image.jpg?v=20261111084157"
     ],
     "download": {
-     "href": "media/batch-2/T7/tantra-b2-T7-2026-10-28-tantra.png?v=20261111065107",
+     "href": "media/batch-2/T7/tantra-b2-T7-2026-10-28-tantra.png?v=20261111084157",
      "name": "tantra-b2-T7-2026-10-28-tantra.png",
      "ext": "png",
      "bytes": 390264,
@@ -1657,40 +1753,52 @@ window.STUDIO = {
    "key": "b2-T7",
    "team_comments": [
     {
-     "by": "bhaskar",
-     "tone": "positive",
-     "text": "\"Before\" turning into the first line of the cold email is the part copywriters will like most. Their words, not ours 💡",
-     "reply_to": null
-    },
-    {
-     "by": "ben",
-     "tone": "feedback",
-     "text": "Each slot maps to a page section too. Who and before go in the hero, the mechanism right under it, the guarantee next to the button. One sentence ends up being the page outline.",
-     "reply_to": null
-    },
-    {
-     "by": "nelbin",
-     "tone": "question",
-     "text": "Who signs off the guarantee slot? Sales tends to want it bigger than ops can honour.",
-     "reply_to": null
-    },
-    {
-     "by": "adi",
-     "tone": "feedback",
-     "text": "The owner. If it's not for every buyer, it's out.",
-     "reply_to": 2
-    },
-    {
      "by": "bharath",
      "tone": "feedback",
      "text": "Keeping tools out of the outcome is right. The buyer doesn't care what the stack is, they care about the after. If a tool belongs anywhere, it's inside the mechanism, and even there I'd keep it short.",
      "reply_to": null
     },
     {
+     "by": "tantra",
+     "tone": "reply",
+     "text": "It ages better too. Swap a tool next year and the offer sentence doesn't need to change at all, only the mechanism behind it.",
+     "reply_to": 0
+    },
+    {
+     "by": "nelbin",
+     "tone": "question",
+     "text": "Who signs off the guarantee slot? Sales usually wants it bigger than ops can honour 😬",
+     "reply_to": null
+    },
+    {
+     "by": "tantra",
+     "tone": "reply",
+     "text": "The owner, against one test: can we honour it for every buyer? If not, it's out.",
+     "reply_to": 2
+    },
+    {
      "by": "aquila",
      "tone": "differs",
-     "text": "I'm not sure every offer needs a guarantee slot. For some services a vague guarantee does more harm than none. I'd let \"none\" be an honest answer for that one.",
+     "text": "Not sure every offer needs a guarantee. For some services a vague one does more harm than none. I'd let \"none\" be an honest answer.",
      "reply_to": null
+    },
+    {
+     "by": "tantra",
+     "tone": "reply",
+     "text": "We'd agree with half of that 🙂 A vague guarantee is worse than none, so none is allowed. Just try writing a specific one first.",
+     "reply_to": 4
+    },
+    {
+     "by": "ben",
+     "tone": "feedback",
+     "text": "Each slot maps to a page section too. Who and before in the hero, mechanism under it, guarantee by the button 🧱",
+     "reply_to": null
+    },
+    {
+     "by": "tantra",
+     "tone": "reply",
+     "text": "And that's how the page stops needing five paragraphs.",
+     "reply_to": 6
     },
     {
      "by": "adi",
@@ -1699,22 +1807,22 @@ window.STUDIO = {
      "reply_to": null
     },
     {
+     "by": "tantra",
+     "tone": "reply",
+     "text": "Adi, the honest time is also the one delivery can actually hit.",
+     "reply_to": 8
+    },
+    {
      "by": "bhaskar",
      "tone": "positive",
-     "text": "Aquila, agree. A blank guarantee beats a weak one 👍",
-     "reply_to": 5
+     "text": "\"Before\" in the buyer's own words. Copywriters will love that 💡",
+     "reply_to": null
     },
     {
-     "by": "bharath",
-     "tone": "differs",
-     "text": "Bhaskar, their words are great, but the before still has to be specific enough to filter a list on.",
-     "reply_to": 0
-    },
-    {
-     "by": "nelbin",
-     "tone": "feedback",
-     "text": "Ben, the stranger test from the post works on pages too. If someone has to ask a question, that section is vague 🔍",
-     "reply_to": 1
+     "by": "tantra",
+     "tone": "reply",
+     "text": "Their words make the cold email's first line sound like them, not like us. Ask a recent buyer how they'd describe being stuck and use that.",
+     "reply_to": 10
     }
    ]
   },
@@ -1745,10 +1853,10 @@ window.STUDIO = {
     "title": "Size your list backwards from revenue",
     "tall": false,
     "files": [
-     "media/batch-2/T8/image.jpg?v=20261111065107"
+     "media/batch-2/T8/image.jpg?v=20261111084157"
     ],
     "download": {
-     "href": "media/batch-2/T8/tantra-b2-T8-2026-10-30-tantra.png?v=20261111065107",
+     "href": "media/batch-2/T8/tantra-b2-T8-2026-10-30-tantra.png?v=20261111084157",
      "name": "tantra-b2-T8-2026-10-30-tantra.png",
      "ext": "png",
      "bytes": 327529,
@@ -1772,34 +1880,16 @@ window.STUDIO = {
    "key": "b2-T8",
    "team_comments": [
     {
-     "by": "nelbin",
-     "tone": "positive",
-     "text": "Four lines of division, and the list size becomes a decision instead of a guess. Going straight into the planning doc ➗",
-     "reply_to": null
-    },
-    {
-     "by": "bhaskar",
-     "tone": "feedback",
-     "text": "The registration rate is the one teams most often borrow from someone else's webinar. Run one small send first and you'll have your own number before paying for a big list.",
-     "reply_to": null
-    },
-    {
-     "by": "bharath",
-     "tone": "question",
-     "text": "Where do you keep the rates once you have them? A sheet, or straight in the CRM?",
-     "reply_to": null
-    },
-    {
-     "by": "ben",
-     "tone": "feedback",
-     "text": "Bharath, next to the counts, so they update themselves.",
-     "reply_to": 2
-    },
-    {
      "by": "adi",
      "tone": "feedback",
-     "text": "The weakest rate line is what I'd show a founder first. Halve the show rate and the list doubles. Most people try to fix that by buying more contacts instead of asking why the room was half empty.",
+     "text": "The weakest rate line is what I'd show a founder first. Halve the show rate and the list doubles. Most people fix that by buying more contacts instead of asking why the room was half empty.",
      "reply_to": null
+    },
+    {
+     "by": "tantra",
+     "tone": "reply",
+     "text": "Buying contacts feels like action. Asking why half the room stayed away is the harder question, and the cheaper one to answer.",
+     "reply_to": 0
     },
     {
      "by": "aquila",
@@ -1808,28 +1898,58 @@ window.STUDIO = {
      "reply_to": null
     },
     {
+     "by": "tantra",
+     "tone": "reply",
+     "text": "Aquila, same registrants, better reminders, half the list.",
+     "reply_to": 2
+    },
+    {
+     "by": "bharath",
+     "tone": "question",
+     "text": "Where do you keep the rates once you have them? A sheet, or the CRM?",
+     "reply_to": null
+    },
+    {
+     "by": "tantra",
+     "tone": "reply",
+     "text": "Right next to the counts they come from, so they update when the counts do. Wherever your counts live, the rates live there too.",
+     "reply_to": 4
+    },
+    {
+     "by": "bhaskar",
+     "tone": "feedback",
+     "text": "Run one small send first. Then the registration rate is yours 📨",
+     "reply_to": null
+    },
+    {
+     "by": "tantra",
+     "tone": "reply",
+     "text": "Before you pay for a big list, ideally. A small run gives a rough rate, but rough and yours beats precise and someone else's.",
+     "reply_to": 6
+    },
+    {
      "by": "ben",
      "tone": "differs",
      "text": "I'd go one step past the buyers number even when a rate is unknown. Put in a cautious guess, label it as a guess, and at least the page and form work can be sized.",
      "reply_to": null
     },
     {
+     "by": "tantra",
+     "tone": "reply",
+     "text": "Ben, we'd leave it blank. A labelled guess has a way of turning into a fact by the third meeting 😬",
+     "reply_to": 8
+    },
+    {
      "by": "nelbin",
-     "tone": "differs",
-     "text": "Ben, a labelled guess turns into a fact by the third meeting 😬 I'd keep the blank.",
-     "reply_to": 6
-    },
-    {
-     "by": "bhaskar",
      "tone": "positive",
-     "text": "Adi, yes. More contacts is the default fix and usually the wrong one.",
-     "reply_to": 4
+     "text": "Four lines of division, and the list size becomes a decision instead of a guess ➗",
+     "reply_to": null
     },
     {
-     "by": "aquila",
-     "tone": "question",
-     "text": "Bhaskar, how small is small enough for that first send?",
-     "reply_to": 1
+     "by": "tantra",
+     "tone": "reply",
+     "text": "That's the whole idea. After that you only argue about the rates, and the rates come from your records.",
+     "reply_to": 10
     }
    ]
   },
@@ -1860,10 +1980,10 @@ window.STUDIO = {
     "title": "Score every application before anyone gets on a call",
     "tall": false,
     "files": [
-     "media/batch-2/T9/image.jpg?v=20261111065107"
+     "media/batch-2/T9/image.jpg?v=20261111084157"
     ],
     "download": {
-     "href": "media/batch-2/T9/tantra-b2-T9-2026-11-03-tantra.png?v=20261111065107",
+     "href": "media/batch-2/T9/tantra-b2-T9-2026-11-03-tantra.png?v=20261111084157",
      "name": "tantra-b2-T9-2026-11-03-tantra.png",
      "ext": "png",
      "bytes": 1168748,
@@ -1889,34 +2009,64 @@ window.STUDIO = {
    "key": "b2-T9",
    "team_comments": [
     {
-     "by": "ben",
-     "tone": "feedback",
-     "text": "Three test applications before launch should be mandatory, not a nice-to-have. Each band ends on its own page or message, so each needs its own test 🧪",
-     "reply_to": null
-    },
-    {
-     "by": "bharath",
-     "tone": "positive",
-     "text": "Keeping fit apart from intent is the right call. Mixing them is how a curious student ends up on a sales calendar.",
-     "reply_to": null
-    },
-    {
-     "by": "nelbin",
-     "tone": "question",
-     "text": "Who checks the bands once the first few dozen applications are in? That review needs a date, or it won't happen.",
-     "reply_to": null
-    },
-    {
      "by": "aquila",
      "tone": "feedback",
      "text": "The 40 to 70 band is the one I'd watch. \"We'll reply within a day\" is a promise, so the reply should be triggered automatically with a person finishing it, not left to whoever happens to be free that afternoon.",
      "reply_to": null
     },
     {
+     "by": "tantra",
+     "tone": "reply",
+     "text": "Good catch. We'd have the draft start the moment the score lands, and a named person send it the same day.",
+     "reply_to": 0
+    },
+    {
+     "by": "ben",
+     "tone": "feedback",
+     "text": "Three test applications before launch should be mandatory. Each band ends on its own page, so each needs its own test 🧪",
+     "reply_to": null
+    },
+    {
+     "by": "tantra",
+     "tone": "reply",
+     "text": "Including the poor fit. That's the one people skip.",
+     "reply_to": 2
+    },
+    {
+     "by": "nelbin",
+     "tone": "question",
+     "text": "Who checks the bands once the first few dozen applications are in? That review needs a date.",
+     "reply_to": null
+    },
+    {
+     "by": "tantra",
+     "tone": "reply",
+     "text": "Put it on the calendar the day you launch 📅 Whoever owns the pipeline checks which band the buyers came from and moves the line.",
+     "reply_to": 4
+    },
+    {
+     "by": "bharath",
+     "tone": "positive",
+     "text": "Fit kept apart from intent. Right call 👍",
+     "reply_to": null
+    },
+    {
+     "by": "tantra",
+     "tone": "reply",
+     "text": "It's how HubSpot and Marketo do it, and it keeps a curious visitor off the sales calendar.",
+     "reply_to": 6
+    },
+    {
      "by": "adi",
      "tone": "differs",
-     "text": "One thing I'd push back on: over 70 going straight to booking on a brand new offer. I'd still glance at the top band before the calls. The score is only as good as the questions, and the first version of the questions is rarely right.",
+     "text": "One thing I'd push back on: over 70 going straight to booking on a brand new offer. I'd still glance at the top band before the calls, because the first version of the questions is rarely right.",
      "reply_to": null
+    },
+    {
+     "by": "tantra",
+     "tone": "reply",
+     "text": "Adi, a glance is fine. A queue isn't, given the speed point. We'd rather fix the questions after a few dozen applications than slow down the best fits.",
+     "reply_to": 8
     },
     {
      "by": "bhaskar",
@@ -1925,2065 +2075,10 @@ window.STUDIO = {
      "reply_to": null
     },
     {
-     "by": "nelbin",
-     "tone": "differs",
-     "text": "Adi, a glance is fine. A queue isn't, given the speed point in the post.",
-     "reply_to": 4
-    },
-    {
-     "by": "bharath",
-     "tone": "feedback",
-     "text": "Nelbin, an agent can pull the band for every buyer and flag when the lines look off. A person still decides where to move them.",
-     "reply_to": 2
-    },
-    {
-     "by": "bhaskar",
-     "tone": "question",
-     "text": "Ben, what does the poor-fit test check?",
-     "reply_to": 0
-    },
-    {
-     "by": "aquila",
-     "tone": "positive",
-     "text": "Bharath, and fit barely changes week to week while intent does. Another reason to keep them apart 📌",
-     "reply_to": 1
-    }
-   ]
-  },
-  {
-   "id": "AC1",
-   "batch": "3",
-   "profile": "adi",
-   "platform": "linkedin",
-   "status": "ready",
-   "time": "08:30",
-   "cta": "event",
-   "date": "2026-11-17",
-   "short": "11 webinars in 9 slides",
-   "pillar": "Live events",
-   "idea": "One client's webinars went from 7 people live to 321; nine lessons from the numbers.",
-   "format": "Carousel · 10 pages",
-   "sample": {
-    "id": "HD24",
-    "creator": "Harry Dry",
-    "what": "Founder photo holding a '6 YEARS OF LINKEDIN IN 9 SLIDES' sign, followed by kraft-paper slides listing numbered growth lessons 1 through 9.",
-    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7470373889160921089"
-   },
-   "copy_basis": "HD24 template: one-line 'Lessons from' caption; cover is a held sign, then nine numbered lessons, one per page",
-   "media": {
-    "type": "carousel",
-    "src": "batch-3/AC1",
-    "title": "11 webinars in 9 slides",
-    "files": [
-     "media/batch-3/AC1/p01.jpg?v=20261111065107",
-     "media/batch-3/AC1/p02.jpg?v=20261111065107",
-     "media/batch-3/AC1/p03.jpg?v=20261111065107",
-     "media/batch-3/AC1/p04.jpg?v=20261111065107",
-     "media/batch-3/AC1/p05.jpg?v=20261111065107",
-     "media/batch-3/AC1/p06.jpg?v=20261111065107",
-     "media/batch-3/AC1/p07.jpg?v=20261111065107",
-     "media/batch-3/AC1/p08.jpg?v=20261111065107",
-     "media/batch-3/AC1/p09.jpg?v=20261111065107",
-     "media/batch-3/AC1/p10.jpg?v=20261111065107"
-    ],
-    "download": {
-     "href": "media/batch-3/AC1/tantra-b3-AC1-2026-11-17-adi.pdf?v=20261111065107",
-     "name": "tantra-b3-AC1-2026-11-17-adi.pdf",
-     "ext": "pdf",
-     "bytes": 17345036,
-     "pages": 10,
-     "w": 1080,
-     "h": 1350
-    }
-   },
-   "text": "Lessons from 11 webinars that took one client from 7 people in the room to 321:\n\nI walk through every one of these changes in my free live workshop. Link in the first comment.",
-   "first_comment": "I teach the full system in a free 60-minute live workshop: the list, the invite, the session and the follow-up. Register here:\nhttps://webinar.sellwithtantra.com/?utm_source=linkedin&utm_medium=social&utm_campaign=enterprise-webinar&utm_content=AC1",
-   "sources": [
-    "content/corpus/facts.md: CS-01, CS-08, CS-09, CS-10, CS-11, EW-16, EW-19, EW-23"
-   ],
-   "numbers_for_signoff": [
-    "11 webinars, May 2025 to Feb 2026 (CS-01)",
-    "first: 12,898 reached, 30 registered, 7 live (CS-08)",
-    "best: 99,859 reached, 1,990 registered, 321 live, 25 calls, 18 MQLs, 2 clients (CS-09)",
-    "0.23% to 2.0% (CS-10)",
-    "98,000 of 99,859 by calendar invite (CS-11)",
-    "21% of registrants live; 5.8 sales calls per 100 live, both derived (EW-19)"
-   ],
-   "flags": [
-    "The client is not named. Lessons 5 and 9 are rules we teach (method rows), worded as advice, not as what the client did."
-   ],
-   "visual_label": "Slide copy (10 pages)",
-   "visual_copy": [
-    "Cover (held sign): 11 WEBINARS IN 9 SLIDES",
-    "1. Run the first one small. Ours had 7 people live: 12,898 reached, 30 registered.",
-    "2. Reach comes first. The best session reached 99,859 people.",
-    "3. Put it in the calendar, not the inbox. 98,000 of those 99,859 got a calendar invite.",
-    "4. Registration rate moves. It went from 0.23% to 2.0%.",
-    "5. Send the invite 8 to 12 days out, with a title under 60 characters.",
-    "6. Plan for who shows up. Across the 11, 21% of registrants came live (derived).",
-    "7. Count calls, not attendees. Across the 11: 5.8 sales calls per 100 people live (derived).",
-    "8. Follow the room to revenue. The best session: 321 live, 25 calls, 18 MQLs, 2 clients.",
-    "9. Change one thing a week. Find the weakest number, change one thing, re-run and log."
-   ],
-   "key": "b3-AC1",
-   "team_comments": [
-    {
-     "by": "bhaskar",
-     "tone": "positive",
-     "text": "The calendar, not the inbox, is the lesson I'd put on the cover. Reach got the headline, but how that reach landed is what took the room from 7 to 321.",
-     "reply_to": null
-    },
-    {
-     "by": "nelbin",
-     "tone": "feedback",
-     "text": "Teams skip lesson 9 all the time. Change one thing, re-run, log it. Without the log, eleven sessions blur into one and nobody can say which change did what.",
-     "reply_to": null
-    },
-    {
-     "by": "adi",
-     "tone": "positive",
-     "text": "Yes. The log is the boring bit that works.",
-     "reply_to": 1
-    },
-    {
-     "by": "aquila",
-     "tone": "question",
-     "text": "Did the follow-up after each session change much across the 11, or was most of the work upstream in the invite? 🤔",
-     "reply_to": null
-    },
-    {
-     "by": "bharath",
-     "tone": "differs",
-     "text": "Small disagreement with the framing: people in the room is a vanity number on its own. Lesson 7 says it better, count calls, not attendees. I'd have led the caption with that one.",
-     "reply_to": null
-    },
-    {
-     "by": "ben",
-     "tone": "feedback",
-     "text": "Page side: when reach jumps like that, test the registration form on a phone before every session. It's usually the first thing to break 📱",
-     "reply_to": null
-    },
-    {
-     "by": "bhaskar",
-     "tone": "differs",
-     "text": "Bharath, fair, but nobody books a call from an empty room 😅 Attendees first, calls second.",
-     "reply_to": 4
-    },
-    {
-     "by": "adi",
-     "tone": "feedback",
-     "text": "Aquila, the invite gets two of the nine lessons for a reason. The follow-up I save for the workshop.",
-     "reply_to": 3
-    },
-    {
-     "by": "nelbin",
-     "tone": "feedback",
-     "text": "Ben, put that on the pre-session checklist with a name next to it, or it won't happen.",
-     "reply_to": 5
-    },
-    {
-     "by": "aquila",
-     "tone": "positive",
-     "text": "Starting small takes nerve. Right lesson to open with 👏",
-     "reply_to": null
-    }
-   ]
-  },
-  {
-   "id": "AC3",
-   "batch": "3",
-   "profile": "adi",
-   "platform": "linkedin",
-   "status": "ready",
-   "time": "08:30",
-   "cta": "event",
-   "date": "2026-11-20",
-   "short": "The old way vs the new way",
-   "pillar": "RevOps foundations",
-   "idea": "Five habits that keep a B2B pipeline thin, each with the replacement.",
-   "format": "Carousel · 8 pages",
-   "sample": {
-    "id": "HD13",
-    "creator": "Harry Dry",
-    "what": "Sketchbook-style carousel 'Ultimate LinkedIn Growth Guide in 2026' with sticky-note Old vs 2026 LinkedIn tips, a growth percentage breakdown, and a tool-recommendation table.",
-    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7475061926721548288"
-   },
-   "copy_basis": "HD13 template: one-line 'Everything you need to' caption; cover is a guide title, pages are Old vs New sticky-note pairs",
-   "media": {
-    "type": "carousel",
-    "src": "batch-3/AC3",
-    "title": "The old way vs the new way of filling a pipeline",
-    "files": [
-     "media/batch-3/AC3/p01.jpg?v=20261111065107",
-     "media/batch-3/AC3/p02.jpg?v=20261111065107",
-     "media/batch-3/AC3/p03.jpg?v=20261111065107",
-     "media/batch-3/AC3/p04.jpg?v=20261111065107",
-     "media/batch-3/AC3/p05.jpg?v=20261111065107",
-     "media/batch-3/AC3/p06.jpg?v=20261111065107",
-     "media/batch-3/AC3/p07.jpg?v=20261111065107",
-     "media/batch-3/AC3/p08.jpg?v=20261111065107"
-    ],
-    "download": {
-     "href": "media/batch-3/AC3/tantra-b3-AC3-2026-11-20-adi.pdf?v=20261111065107",
-     "name": "tantra-b3-AC3-2026-11-20-adi.pdf",
-     "ext": "pdf",
-     "bytes": 3040277,
-     "pages": 8,
-     "w": 1080,
-     "h": 1350
-    }
-   },
-   "text": "Everything you need to stop doing if you want a full B2B pipeline in 2026\n\nI walk through the new way, step by step, in my free workshop. Link in the first comment.",
-   "first_comment": "Want the new way, step by step? I teach the full engine in a free 60-minute workshop. Register here:\nhttps://webinar.sellwithtantra.com/?utm_source=linkedin&utm_medium=social&utm_campaign=enterprise-webinar&utm_content=AC3",
-   "sources": [
-    "content/corpus/facts.md: EW-34"
-   ],
-   "numbers_for_signoff": [
-    "five old way and new way pairs (EW-34)"
-   ],
-   "flags": [],
-   "visual_label": "Slide copy (8 pages)",
-   "visual_copy": [
-    "Cover: The Old Way vs The New Way of Filling a Pipeline",
-    "The list. OLD: a bought list. NEW: one list of your whole market.",
-    "The outreach. OLD: a cold blast. NEW: a merge-field invite in the buyer's calendar.",
-    "The trust. OLD: one 30-minute call. NEW: a session that earns trust with a whole room.",
-    "The fix. OLD: guesswork. NEW: one number and one change a week.",
-    "The AI. OLD: a chatbot draft. NEW: an engine that sends, reminds, books and logs.",
-    "All five on one page: Old on the left, New on the right.",
-    "Close: Pick the one you still do the old way. Start there."
-   ],
-   "key": "b3-AC3",
-   "team_comments": [
-    {
-     "by": "bharath",
-     "tone": "positive",
-     "text": "Of the five, the AI pair has the widest gap 🎯 A chatbot draft is where most teams stop, and an engine that sends, reminds, books and logs is a completely different job.",
-     "reply_to": null
-    },
-    {
-     "by": "bhaskar",
-     "tone": "feedback",
-     "text": "Worth saying out loud: the bought list is the hardest habit to quit because it feels fast. One list of your whole market takes longer to build and keeps paying you back on every campaign after.",
-     "reply_to": null
-    },
-    {
-     "by": "ben",
-     "tone": "question",
-     "text": "For the merge-field invite, where do you pull the fields from? The CRM, or a sheet you keep per campaign?",
-     "reply_to": null
-    },
-    {
-     "by": "bharath",
-     "tone": "feedback",
-     "text": "Ben, CRM if it's clean. A sheet if it isn't, and then go fix the CRM 😬",
-     "reply_to": 2
-    },
-    {
-     "by": "nelbin",
-     "tone": "positive",
-     "text": "Last slide works as a Monday standup prompt ✅",
-     "reply_to": null
-    },
-    {
-     "by": "aquila",
-     "tone": "differs",
-     "text": "One worry: the side by side makes it look like you swap all five at once. Most teams can only change one habit at a time, and the fix pair already says as much.",
-     "reply_to": null
-    },
-    {
-     "by": "adi",
-     "tone": "positive",
-     "text": "Fair, Aquila. That's why the close says pick one and start there.",
-     "reply_to": 5
-    },
-    {
-     "by": "nelbin",
-     "tone": "differs",
-     "text": "Bhaskar, I'd say the trust pair is harder to quit. Founders love the one-on-one call because it feels personal 🤷",
-     "reply_to": 1
-    },
-    {
-     "by": "aquila",
-     "tone": "feedback",
-     "text": "Bharath, reminds and logs is where I'd start. Sending is the easy bit.",
-     "reply_to": 0
-    },
-    {
-     "by": "bhaskar",
-     "tone": "positive",
-     "text": "agree with Aquila here. One pair a month is plenty.",
-     "reply_to": 5
-    }
-   ]
-  },
-  {
-   "id": "AC4",
-   "batch": "3",
-   "profile": "adi",
-   "platform": "linkedin",
-   "status": "ready",
-   "time": "08:30",
-   "cta": "event",
-   "date": "2026-11-24",
-   "short": "3 jobs your sales call can't do",
-   "pillar": "Conversion",
-   "idea": "One 30-minute call is asked to earn trust, prove the method and close; two of those jobs belong in a session before the call.",
-   "format": "Carousel · 8 pages",
-   "sample": {
-    "id": "HD08",
-    "creator": "Harry Dry",
-    "what": "Carousel titled '7 psychological tips for CULT-LIKE CONTENT' using tarot-card imagery to explain cognitive biases like 'The Curiosity Gap' and 'Social Currency' with examples and why-it-works notes.",
-    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7477271770765524992"
-   },
-   "copy_basis": "HD08 template: two-line caption ('comes down to A, not B', then 'Here are N'); cover plus one page per item with pill labels (Example, Why this works, The test)",
-   "media": {
-    "type": "carousel",
-    "src": "batch-3/AC4",
-    "title": "3 jobs your sales call can't do",
-    "files": [
-     "media/batch-3/AC4/p01.jpg?v=20261111065107",
-     "media/batch-3/AC4/p02.jpg?v=20261111065107",
-     "media/batch-3/AC4/p03.jpg?v=20261111065107",
-     "media/batch-3/AC4/p04.jpg?v=20261111065107",
-     "media/batch-3/AC4/p05.jpg?v=20261111065107",
-     "media/batch-3/AC4/p06.jpg?v=20261111065107",
-     "media/batch-3/AC4/p07.jpg?v=20261111065107",
-     "media/batch-3/AC4/p08.jpg?v=20261111065107"
-    ],
-    "download": {
-     "href": "media/batch-3/AC4/tantra-b3-AC4-2026-11-24-adi.pdf?v=20261111065107",
-     "name": "tantra-b3-AC4-2026-11-24-adi.pdf",
-     "ext": "pdf",
-     "bytes": 5097226,
-     "pages": 8,
-     "w": 1080,
-     "h": 1350
-    }
-   },
-   "text": "Closing comes down to trust, not technique…\n\nHere are the 3 jobs you're asking one 30-minute call to do, and where each one belongs\n\nI teach the full session structure in my free live workshop. Link in the first comment.",
-   "first_comment": "I break down the session that earns trust with a whole room in a free 60-minute live workshop. Register here:\nhttps://webinar.sellwithtantra.com/?utm_source=linkedin&utm_medium=social&utm_campaign=enterprise-webinar&utm_content=AC4",
-   "sources": [
-    "content/corpus/facts.md: EW-19, EW-28, EW-33, EW-34"
-   ],
-   "numbers_for_signoff": [
-    "5.8 sales calls per 100 people live, derived (EW-19)",
-    "session order: Promise, Problem, Method and proof, Invitation, Q&A (EW-33)",
-    "the offer once, never before section 7 of ten (EW-28)"
-   ],
-   "flags": [
-    "The 5.8 figure is one client's 11 webinars and is labelled derived on the slide."
-   ],
-   "visual_label": "Slide copy (8 pages)",
-   "visual_copy": [
-    "Cover: 3 jobs your SALES CALL can't do",
-    "The problem: one 30-minute call has to earn trust, prove your method and close. That's three jobs for one slot.",
-    "Job 1: Earn trust. Where it belongs: a live session with a whole room. Why this works: the buyer hears the problem named before anyone sells.",
-    "Job 2: Prove it. Where it belongs: the Method and proof part of the session. The test: could they explain your method to a colleague after it?",
-    "Job 3: Close. Where it belongs: the call. Now it has one job.",
-    "The session order: Promise → Problem → Method and proof → Invitation → Q&A. The offer comes once, never before section 7 of ten.",
-    "What the room does: across one client's 11 webinars, 5.8 sales calls per 100 people live (derived).",
-    "Close: Give the call one job. Let the session do the other two."
-   ],
-   "key": "b3-AC4",
-   "team_comments": [
-    {
-     "by": "bhaskar",
-     "tone": "positive",
-     "text": "Trust, not technique. Most sales training I see sells the exact opposite of that line.",
-     "reply_to": null
-    },
-    {
-     "by": "nelbin",
-     "tone": "feedback",
-     "text": "If the call only has one job now, the handover from session to call needs an owner. Someone has to check who was in the room and what they asked before the call starts.",
-     "reply_to": null
-    },
-    {
-     "by": "adi",
-     "tone": "positive",
-     "text": "That's the gap most teams miss, Nelbin.",
-     "reply_to": 1
-    },
-    {
-     "by": "ben",
-     "tone": "question",
-     "text": "The colleague test on Job 2 💡 how would you actually measure it though? A question on the booking form?",
-     "reply_to": null
-    },
-    {
-     "by": "aquila",
-     "tone": "differs",
-     "text": "I'd soften the one-job idea a bit. Some buyers skip the session and book straight from an email, and for them that 30-minute call still has to do all 3.",
-     "reply_to": null
-    },
-    {
-     "by": "bharath",
-     "tone": "feedback",
-     "text": "From the stack side, tag the session recording by section. If someone books right after the Method and proof part, the call can start from there 🎥",
-     "reply_to": null
-    },
-    {
-     "by": "adi",
-     "tone": "feedback",
-     "text": "Ben, I like the form idea. One open question: what did you take from the session?",
-     "reply_to": 3
-    },
-    {
-     "by": "bhaskar",
-     "tone": "differs",
-     "text": "Aquila, true, but those are the exception. Design for the room and handle the rest by hand 🤝",
-     "reply_to": 4
-    },
-    {
-     "by": "ben",
-     "tone": "feedback",
-     "text": "Bharath, if you tag it I'll show the tag on the booking page so whoever takes the call sees it first.",
-     "reply_to": 5
-    },
-    {
-     "by": "aquila",
-     "tone": "positive",
-     "text": "Offer once, after section 7. Hard rule, good rule 👍",
-     "reply_to": null
-    }
-   ]
-  },
-  {
-   "id": "AG1",
-   "batch": "3",
-   "profile": "adi",
-   "platform": "linkedin",
-   "status": "ready",
-   "time": "08:30",
-   "cta": "",
-   "date": "2026-11-19",
-   "short": "The calendar invite blueprint",
-   "pillar": "Calendar invites",
-   "idea": "The calendar invite is the highest-reach touch in a webinar funnel; four rules and one prompt make it repeatable.",
-   "format": "Image · animated giveaway",
-   "sample": {
-    "id": "BK02",
-    "creator": "Bharath Krishna Pai",
-    "what": "720x900 (4:5) GIF on a cream canvas: a 'Claude for LinkedIn + Oiti, your AI clone for content' lockup top-left, a tilted peach note card with an orange outline '30 days planned in 1 prompt' top-right with a hand-drawn arrow, and a Google-Calendar-style week view (Mon 9 to Sat 14 Nov 2026, 08h to 16h). Over 6s the empty week fills with 40 colour-coded content blocks (Carousel, Text post, Poll, Story, Video, Infographic, Hooks x10, Replies, Memory, Lead DMs, Newsjack, Analytics) one per frame while a '0 planned' pill counts up to '40 planned', holds, then rewinds back to empty in half a second. Full-width orange CTA bar at the bottom: 'Comment \"SYSTEM\" and I'll send it over'.",
-    "url": "https://www.linkedin.com/posts/bkp31415_i-finally-did-it-claude-is-now-connected-activity-7523976570722488320-GOVE"
-   },
-   "copy_basis": "BK02 template: caps hook with colon, pointer line, 'What's inside', eight arrow lines (first five led by a number, biggest first), ease line, conditional offer, CTA bookend",
-   "media": {
-    "type": "video",
-    "src": "batch-3/AG1",
-    "title": "The calendar invite blueprint",
-    "files": [
-     "media/batch-3/AG1/poster.jpg?v=20261111065107"
-    ],
-    "video": "media/batch-3/AG1/tantra-b3-AG1-2026-11-19-adi.mp4?v=20261111065107",
-    "tall": false,
-    "sets": [
-     {
-      "href": "media/batch-3/AG1/tantra-b3-AG1-2026-11-19-adi.mp4?v=20261111065107",
-      "name": "tantra-b3-AG1-2026-11-19-adi.mp4",
-      "ext": "mp4",
-      "label": "Download MP4",
-      "bytes": 678022
-     },
-     {
-      "href": "media/batch-3/AG1/tantra-b3-AG1-2026-11-19-adi.gif?v=20261111065107",
-      "name": "tantra-b3-AG1-2026-11-19-adi.gif",
-      "ext": "gif",
-      "label": "Download GIF",
-      "bytes": 1097543
-     }
-    ]
-   },
-   "text": "I FINALLY WROTE IT DOWN. The CALENDAR INVITE that took a client's registration rate from 0.23% to 2.0%:\n\nGet the blueprint here. 👇\n\nTheir best webinar reached 99,859 people. 98,000 of them got a calendar invite, not an email.\n\nWhat's inside:\n\n→ 60 CHARACTERS is the ceiling for the invite title, and it stays under it\n→ 12 DAYS OUT is the earliest it goes, 8 days the latest\n→ 4 RULES every invite follows\n→ 3 PAGES and nothing to wade through\n→ 2 OPENING LINES that say who it's for and what they leave with\n→ THE DECLINE LINE that makes saying no easy\n→ THE MERGE FIELDS so each invite reads like it was written for one person\n→ THE AI PROMPT that writes the invite for your offer\n\nFill in your event once. The prompt writes the invite.\n\nIf you would like the template, the rules and the prompt for FREE...\n\nHow to get it is on the image. 👇",
-   "first_comment": "Comment INVITE and I'll send you the Calendar Invite Blueprint. It's the invite template, the 4 rules every invite follows and the AI prompt that writes yours, so your next event sits in your buyer's calendar instead of their inbox. It comes straight to your DMs, free. Not connected yet? I'll send you a request first.",
-   "sources": [
-    "content/corpus/facts.md: CS-08, CS-09, CS-10, CS-11, EW-23"
-   ],
-   "numbers_for_signoff": [
-    "0.23% to 2.0% registration rate (CS-10)",
-    "99,859 reached, 98,000 by calendar invite (CS-09, CS-11)",
-    "invite rules: 8 to 12 days out, title under 60 characters, two opening lines, decline line (EW-23)"
-   ],
-   "flags": [
-    "The keyword is on the asset's bottom tile and in the first comment (which says what to comment, what's inside and how it's sent), never in the post copy. The resource is built and hosted: preview it under the post, with the three messages that deliver it.",
-    "The resource goes out by manual DM from Adi's profile.",
-    "The client is not named in this post."
-   ],
-   "visual_label": "On the asset (animated 4:5)",
-   "visual_copy": [
-    "THE CALENDAR INVITE BLUEPRINT",
-    "Registration rate: 0.23% to 2.0%",
-    "The template. The 4 rules. The AI prompt.",
-    "Comment INVITE to get it"
-   ],
-   "resource": {
-    "name": "The Calendar Invite Blueprint",
-    "keyword": "INVITE",
-    "what": "A 3-page PDF: the invite template with merge fields, the four rules (sent 8 to 12 days out, title under 60 characters, two opening lines, an easy way to decline) and the AI prompt that writes it for your offer.",
-    "url": "https://adisuja.github.io/tantra-revops/calendar-invite-blueprint/",
-    "pages": 3,
-    "files": [
-     {
-      "label": "PDF",
-      "href": "resources/calendar-invite-blueprint/calendar-invite-blueprint.pdf"
-     }
-    ],
-    "preview": "resources/calendar-invite-blueprint/"
-   },
-   "dm": {
-    "message": "Hi {first_name}, thanks for commenting INVITE.\n\nHere's the Calendar Invite Blueprint:\nhttps://adisuja.github.io/tantra-revops/calendar-invite-blueprint/\n\nIt's 3 pages: the invite template, the 4 rules and the AI prompt that writes the invite for your event.\n\nStart with page 2 and check your current invite against the 4 rules before you rewrite anything.\n\nWhat are you inviting people to?",
-    "connect": "Hi {first_name}, you commented INVITE on my post about the calendar invite blueprint. LinkedIn only lets me message connections, so accept this and I'll send it straight over. Adi",
-    "email_subject": "Your Calendar Invite Blueprint",
-    "email_body": "Hi {first_name},\n\nYou commented INVITE on my post about the calendar invite blueprint:\n[POST LINK]\n\nHere's the Calendar Invite Blueprint, as promised:\nhttps://adisuja.github.io/tantra-revops/calendar-invite-blueprint/\n\nIt's 3 pages: the invite template, the 4 rules and the AI prompt that writes the invite for your event. The link opens straight away, with no sign-up.\n\nStart with page 2 and check your current invite against the 4 rules before you rewrite anything.\n\nWhat are you inviting people to? Hit reply and tell me.\n\nAdi\n\nP.S. You're getting this because you asked for it in the comments. If you'd rather not hear from me again, reply \"no\" and that's final."
-   },
-   "key": "b3-AG1",
-   "team_comments": [
-    {
-     "by": "bhaskar",
-     "tone": "positive",
-     "text": "98,000 of 99,859 by calendar invite. Email was the side channel. That flips how most of us plan event promo 📅",
-     "reply_to": null
-    },
-    {
-     "by": "aquila",
-     "tone": "feedback",
-     "text": "The decline line deserves more credit than it gets. A clean no is data too: it tells you who to stop reminding, which keeps the rest of the sequence relevant for the people still in.",
-     "reply_to": null
-    },
-    {
-     "by": "ben",
-     "tone": "question",
-     "text": "60 characters is tight. Does that include the date, or does the date sit in the description?",
-     "reply_to": null
-    },
-    {
-     "by": "adi",
-     "tone": "feedback",
-     "text": "Ben, keep the date out of the title. The calendar already shows it.",
-     "reply_to": 2
-    },
-    {
-     "by": "bharath",
-     "tone": "differs",
-     "text": "Merge fields are great until the data is wrong. I'd rather send a plain invite than one that opens with the wrong first name, so clean the list before you personalise anything.",
-     "reply_to": null
-    },
-    {
-     "by": "nelbin",
-     "tone": "feedback",
-     "text": "12 days out, 8 latest. Onto the checklist it goes.",
-     "reply_to": null
-    },
-    {
-     "by": "bhaskar",
-     "tone": "differs",
-     "text": "Bharath, agreed on the risk, but a plain invite reads like a mass send. Clean it and keep the fields 🙂",
-     "reply_to": 4
-    },
-    {
-     "by": "aquila",
-     "tone": "feedback",
-     "text": "Nelbin, I'd automate a check on day 8 too ⏰ If it hasn't gone out, someone gets pinged.",
-     "reply_to": 5
-    },
-    {
-     "by": "ben",
-     "tone": "positive",
-     "text": "Aquila, good call. Declines are the cleanest signal an invite gives you.",
-     "reply_to": 1
-    },
-    {
-     "by": "adi",
-     "tone": "positive",
-     "text": "Bhaskar, that's the whole lesson ✌️",
-     "reply_to": 0
-    }
-   ]
-  },
-  {
-   "id": "AG2",
-   "batch": "3",
-   "profile": "adi",
-   "platform": "linkedin",
-   "status": "ready",
-   "time": "08:30",
-   "cta": "",
-   "date": "2026-11-16",
-   "short": "Your funnel is one line of maths",
-   "pillar": "Measure and improve",
-   "idea": "Four numbers decide how many customers you get; the sheet shows which one is the weakest.",
-   "format": "Image · animated giveaway",
-   "sample": {
-    "id": "BK13",
-    "creator": "Bharath Krishna Pai",
-    "what": "720x1080 (2:3) GIF, 71 frames, 4.7s. Top: serif 'Claude Opus' wordmark with Claude starburst beside a giant numeral 5 built from illustrated monarch butterflies and leaves. Middle: an equation row '✳ + [LinkedIn logo with red 99+ badge] = 600k impressions in 90 days' with a blue hand-drawn underline. Below: a blush panel with three blue line-icon columns (Content on autopilot, Right audience every post, More leads, less effort) and a full-width rust CTA button 'Comment 'SYSTEM' for access'. The equation and benefits rebuild piece by piece like an equation being written.",
-    "url": "https://www.linkedin.com/posts/bkp31415_claude-opus-55-just-made-itself-an-official-activity-7516004035385028608-mCCm"
-   },
-   "copy_basis": "BK13 template: news claim hook, count and promise, context line, numbered 1/ to 7/ list, ritual line, one quoted question, staccato fragments, CTA",
-   "media": {
-    "type": "video",
-    "src": "batch-3/AG2",
-    "title": "Your funnel is one line of maths",
-    "files": [
-     "media/batch-3/AG2/poster.jpg?v=20261111065107"
-    ],
-    "video": "media/batch-3/AG2/tantra-b3-AG2-2026-11-16-adi.mp4?v=20261111065107",
-    "tall": false,
-    "sets": [
-     {
-      "href": "media/batch-3/AG2/tantra-b3-AG2-2026-11-16-adi.mp4?v=20261111065107",
-      "name": "tantra-b3-AG2-2026-11-16-adi.mp4",
-      "ext": "mp4",
-      "label": "Download MP4",
-      "bytes": 412017
-     },
-     {
-      "href": "media/batch-3/AG2/tantra-b3-AG2-2026-11-16-adi.gif?v=20261111065107",
-      "name": "tantra-b3-AG2-2026-11-16-adi.gif",
-      "ext": "gif",
-      "label": "Download GIF",
-      "bytes": 742899
-     }
-    ]
-   },
-   "text": "Your whole funnel just became one line of maths.\n\nThe 4 numbers in it decide how many customers you win this quarter 👇\n\nYou probably track leads and revenue. The leak sits in between.\n\nHere's what that line looks like for a B2B founder:\n\n1/ Sign-ups: how many people raised a hand\n2/ Show-up rate: the share who turned up\n3/ Booking rate: the share who booked a call\n4/ Close rate: the share who paid\n5/ Customers: sign-ups x show-up rate x booking rate x close rate\n6/ The weakest number: the one stage costing you the most customers\n7/ One change: the only thing you touch this week\n\nThe question to ask every Monday:\n\n\"Which of my four numbers is the weakest, and what one thing do I change this week?\"\n\nNot five fixes.\n\nNot a new funnel.\n\nOne number. One change. Re-run it and log it.\n\nHow to get the sheet is on the image.\n\n👇",
-   "first_comment": "Want to see which stage is costing you customers? Comment MATH and the 4-Number Revenue Equation Sheet lands in your DMs. One page: type in your four numbers, it does the maths and shows you the weakest one to fix this week.",
-   "sources": [
-    "content/corpus/facts.md: EW-16, EW-17, EW-18"
-   ],
-   "numbers_for_signoff": [
-    "4 numbers and the equation (EW-18)",
-    "weekly loop: weakest number, one change, re-run and log (EW-16)"
-   ],
-   "flags": [
-    "The keyword is on the asset's bottom tile and in the first comment (which says what to comment, what's inside and how it's sent), never in the post copy. The resource is built and hosted: preview it under the post, with the three messages that deliver it.",
-    "The resource goes out by manual DM from Adi's profile.",
-    "No worked example with figures: we have no cleared numbers to put in the equation."
-   ],
-   "visual_label": "On the asset (animated 4:5)",
-   "visual_copy": [
-    "THE 4-NUMBER REVENUE EQUATION SHEET",
-    "Customers = sign-ups x show-up rate x booking rate x close rate",
-    "Find the stage that is costing you customers",
-    "Comment MATH to get it"
-   ],
-   "resource": {
-    "name": "The 4-Number Revenue Equation Sheet",
-    "keyword": "MATH",
-    "what": "A one-page fillable sheet: the equation, the six stage numbers, where to read each one and a box for your weakest stage.",
-    "url": "https://adisuja.github.io/tantra-revops/revenue-equation-sheet/",
-    "pages": 1,
-    "files": [
-     {
-      "label": "PDF",
-      "href": "resources/revenue-equation-sheet/revenue-equation-sheet.pdf"
-     }
-    ],
-    "preview": "resources/revenue-equation-sheet/"
-   },
-   "dm": {
-    "message": "Hi {first_name}, thanks for commenting MATH.\n\nHere's the 4-Number Revenue Equation Sheet:\nhttps://adisuja.github.io/tantra-revops/revenue-equation-sheet/\n\nIt's one page: the equation, the six stage numbers and where to read each one. Type your numbers in and it does the maths.\n\nFill in last month's four numbers first. The weakest one is the only thing to work on this week.\n\nWhich of the four came out weakest?",
-    "connect": "Hi {first_name}, you commented MATH on my post about your funnel as one line of maths. LinkedIn only lets me message connections, so accept this and I'll send it straight over. Adi",
-    "email_subject": "Your 4-Number Revenue Equation Sheet",
-    "email_body": "Hi {first_name},\n\nYou commented MATH on my post about your funnel as one line of maths:\n[POST LINK]\n\nHere's the 4-Number Revenue Equation Sheet, as promised:\nhttps://adisuja.github.io/tantra-revops/revenue-equation-sheet/\n\nIt's one page: the equation, the six stage numbers and where to read each one. Type your numbers in and it does the maths. The link opens straight away, with no sign-up.\n\nFill in last month's four numbers first. The weakest one is the only thing to work on this week.\n\nWhich of the four came out weakest? Hit reply and tell me.\n\nAdi\n\nP.S. You're getting this because you asked for it in the comments. If you'd rather not hear from me again, reply \"no\" and that's final."
-   },
-   "key": "b3-AG2",
-   "team_comments": [
-    {
-     "by": "nelbin",
-     "tone": "positive",
-     "text": "Monday question is going on the whiteboard ✍️ One number, one change, logged. That's an ops meeting I'd actually enjoy running.",
-     "reply_to": null
-    },
-    {
-     "by": "bhaskar",
-     "tone": "differs",
-     "text": "I'd add a fifth number in front of sign-ups: how many people saw the invite at all. Plenty of funnels look weak at sign-up when the real problem is that not enough of the right people ever heard about it.",
-     "reply_to": null
-    },
-    {
-     "by": "adi",
-     "tone": "differs",
-     "text": "Bhaskar, reach matters, but it's an input, not a rate you fix on a Monday. Keep the line to four.",
-     "reply_to": 1
-    },
-    {
-     "by": "bharath",
-     "tone": "feedback",
-     "text": "Because it's multiplication, a small lift on the weakest rate moves customers more than a big lift on the strongest. Worth having the sheet flag the lowest one automatically every Monday, so nobody has to eyeball it 📊",
-     "reply_to": null
-    },
-    {
-     "by": "aquila",
-     "tone": "question",
-     "text": "When two numbers are both weak, which one do you touch first? The earlier stage?",
-     "reply_to": null
-    },
-    {
-     "by": "ben",
-     "tone": "feedback",
-     "text": "Show-up rate is only as good as the tracking. If the attendance export doesn't match the sign-up list, the whole line is off.",
-     "reply_to": null
-    },
-    {
-     "by": "nelbin",
-     "tone": "feedback",
-     "text": "Aquila, whichever costs you the most customers. That's point 6 in the post.",
-     "reply_to": 4
-    },
-    {
-     "by": "bharath",
-     "tone": "positive",
-     "text": "Ben, yes. Same IDs across both or don't bother 👍",
-     "reply_to": 5
-    },
-    {
-     "by": "bhaskar",
-     "tone": "positive",
-     "text": "Not five fixes. Hardest line in the post to follow 😅",
-     "reply_to": 0
-    },
-    {
-     "by": "adi",
-     "tone": "positive",
-     "text": "Bharath, that's the point of the sheet. The weakest number jumps out at you.",
-     "reply_to": 3
-    }
-   ]
-  },
-  {
-   "id": "AG3",
-   "batch": "3",
-   "profile": "adi",
-   "platform": "linkedin",
-   "status": "ready",
-   "time": "08:30",
-   "cta": "",
-   "date": "2026-11-18",
-   "short": "250+ real funnel elements, 7 prompts",
-   "pillar": "AI orchestration",
-   "idea": "A prompt library built on real funnel elements beats a blank chat; the starter pack is one prompt per funnel stage plus setup.",
-   "format": "Image · animated giveaway",
-   "sample": {
-    "id": "ID03",
-    "creator": "Ipsita Dhar",
-    "what": "720x900 (4:5) GIF of a macOS-style window titled 'Oiti · 30+ LinkedIn skills' with traffic-light buttons, a breadcrumb 'Oiti › Skills' plus an orange mono tag 'for LinkedIn' and a big orange '30+ skills' counter. A 5-column grid of 19 peach folders (Voice Clone, Hook Writer, Story Interview, Newsjacking, Carousel Builder, Infographic Studio, Content Calendar, Comment Replies, Repurpose, Analytics Digest, Knowledge Base, Memory, Competitor Watch, Profile Optimizer, Ideation, Post Scheduler, Writing Styles, Trend Radar, DM Assist) plus a dashed '+ 11 more' slot. An orange gradient CTA bar sits at the bottom: 'Comment \"SYSTEM\" and I'll send it over'. Motion: folders pop in while the counter climbs, then the Voice Clone folder is opened into a panel listing its files while SKILL.md types itself out, and a 0.4s reverse ease rewinds everything to the first row.",
-    "url": "https://www.linkedin.com/posts/ipsitadhar14_guyss-i-finally-finished-the-largest-claude-activity-7521443453281406976-qSuN"
-   },
-   "copy_basis": "ID03 template: two hook lines, positioning line, humble limit, reframe, seven numbered titled sections, 'Everything connects' chain, counted summary, CTA",
-   "media": {
-    "type": "video",
-    "src": "batch-3/AG3",
-    "title": "250+ real funnel elements, 7 prompts",
-    "files": [
-     "media/batch-3/AG3/poster.jpg?v=20261111065107"
-    ],
-    "video": "media/batch-3/AG3/tantra-b3-AG3-2026-11-18-adi.mp4?v=20261111065107",
-    "tall": false,
-    "sets": [
-     {
-      "href": "media/batch-3/AG3/tantra-b3-AG3-2026-11-18-adi.mp4?v=20261111065107",
-      "name": "tantra-b3-AG3-2026-11-18-adi.mp4",
-      "ext": "mp4",
-      "label": "Download MP4",
-      "bytes": 634601
-     },
-     {
-      "href": "media/batch-3/AG3/tantra-b3-AG3-2026-11-18-adi.gif?v=20261111065107",
-      "name": "tantra-b3-AG3-2026-11-18-adi.gif",
-      "ext": "gif",
-      "label": "Download GIF",
-      "bytes": 921048
-     }
-    ]
-   },
-   "text": "I finally pulled 250+ real funnel elements into one prompt library.\n\nAnd I'm giving you the 7 prompts I'd start with, free ↓\n\nIt's for founders who are tired of opening a blank chat and hoping.\n\nIt obviously can't replace what you know about your own buyer.\n\nBut it does stop AI from guessing. Every prompt points at a real example and rebuilds it for your brand.\n\nHere's what the starter pack handles:\n\n1. The Setup Prompt\n\nLoads the rules once: one element at a time, mirror the reference example, facts only from your Funnel Brief. A missing fact comes back as [FILL], never a made-up number.\n\n2. Traffic\n\nWrites the outreach that earns the visit. Every line comes in two versions: A leads with the outcome, B answers the objection.\n\n3. Landing\n\nBuilds the page that turns a visit into a sign-up.\n\n4. Nurture\n\nWrites the reminders that turn a sign-up into a show-up.\n\n5. Conversion\n\nDrafts the session that turns a room into booked calls.\n\n6. Revenue\n\nWrites the follow-up that turns a call into a customer.\n\n7. Long-term nurture\n\nBrings back the people who weren't ready, so they rebook.\n\nEverything connects:\n\nTraffic → Landing → Nurture → Conversion → Revenue → Long-term nurture\n\n7 prompts. 6 stages. 0 blank pages.\n\nHow to get it is on the image 👇",
-   "first_comment": "Drop PROMPTS below and I'll DM you the 6-Stage AI Funnel Prompt Starter Pack. Seven prompts you copy and paste, one for every stage from traffic to long-term nurture, each built from real funnel examples. If we aren't connected, accept my request and it's yours.",
-   "sources": [
-    "content/corpus/facts.md: EW-12, EW-17, EW-32"
-   ],
-   "numbers_for_signoff": [
-    "250+ real funnel elements (EW-12)",
-    "six stages (EW-17)",
-    "setup prompt rules: one element at a time, mirror the reference, [FILL], A and B versions (EW-32)"
-   ],
-   "flags": [
-    "The keyword is on the asset's bottom tile and in the first comment (which says what to comment, what's inside and how it's sent), never in the post copy. The resource is built and hosted: preview it under the post, with the three messages that deliver it.",
-    "The resource goes out by manual DM from Adi's profile."
-   ],
-   "visual_label": "On the asset (animated 4:5)",
-   "visual_copy": [
-    "THE 6-STAGE AI FUNNEL PROMPT STARTER PACK",
-    "7 prompts. 6 stages. Built on 250+ real funnel elements",
-    "Traffic → Landing → Nurture → Conversion → Revenue → Long-term nurture",
-    "Comment PROMPTS to get it"
-   ],
-   "resource": {
-    "name": "The 6-Stage AI Funnel Prompt Starter Pack",
-    "keyword": "PROMPTS",
-    "what": "Seven copy-and-paste prompts in one document: the setup prompt and one prompt for each of the six funnel stages, each with its reference example slot and [FILL] gaps.",
-    "url": "https://adisuja.github.io/tantra-revops/funnel-prompt-starter-pack/",
-    "pages": 5,
-    "files": [
-     {
-      "label": "PDF",
-      "href": "resources/funnel-prompt-starter-pack/funnel-prompt-starter-pack.pdf"
-     }
-    ],
-    "preview": "resources/funnel-prompt-starter-pack/"
-   },
-   "dm": {
-    "message": "Hi {first_name}, thanks for commenting PROMPTS.\n\nHere's the 6-Stage AI Funnel Prompt Starter Pack:\nhttps://adisuja.github.io/tantra-revops/funnel-prompt-starter-pack/\n\nSeven prompts to copy and paste: the setup prompt, then one for each funnel stage, from Traffic to Long-term nurture.\n\nPaste the setup prompt first and fill in your Funnel Brief. Every other prompt reads from it.\n\nWhich stage are you building first?",
-    "connect": "Hi {first_name}, you commented PROMPTS on my post about the 7 prompts I'd start with. LinkedIn only lets me message connections, so accept this and I'll send it straight over. Adi",
-    "email_subject": "Your 6-Stage AI Funnel Prompt Starter Pack",
-    "email_body": "Hi {first_name},\n\nYou commented PROMPTS on my post about the 7 prompts I'd start with:\n[POST LINK]\n\nHere's the 6-Stage AI Funnel Prompt Starter Pack, as promised:\nhttps://adisuja.github.io/tantra-revops/funnel-prompt-starter-pack/\n\nSeven prompts to copy and paste: the setup prompt, then one for each funnel stage, from Traffic to Long-term nurture. The link opens straight away, with no sign-up.\n\nPaste the setup prompt first and fill in your Funnel Brief. Every other prompt reads from it.\n\nWhich stage are you building first? Hit reply and tell me.\n\nAdi\n\nP.S. You're getting this because you asked for it in the comments. If you'd rather not hear from me again, reply \"no\" and that's final."
-   },
-   "key": "b3-AG3",
-   "team_comments": [
-    {
-     "by": "bharath",
-     "tone": "positive",
-     "text": "The [FILL] rule is my favourite part 🙌 A model that admits a gap is worth far more than one that invents a number just to keep the sentence flowing. That one rule saves a lot of awkward corrections later.",
-     "reply_to": null
-    },
-    {
-     "by": "bhaskar",
-     "tone": "feedback",
-     "text": "A and B per line is the bit I'd use first. Outcome vs objection gives you a real test, instead of two versions that say the same thing in different words 🎯",
-     "reply_to": null
-    },
-    {
-     "by": "ben",
-     "tone": "question",
-     "text": "Does the Landing prompt cover the form copy too, or only the page around it?",
-     "reply_to": null
-    },
-    {
-     "by": "aquila",
-     "tone": "feedback",
-     "text": "Nurture and Long-term nurture being separate prompts is right. Reminders before a session and bringing people back months later are different jobs with a different tone.",
-     "reply_to": null
-    },
-    {
-     "by": "nelbin",
-     "tone": "differs",
-     "text": "It stops AI guessing facts, sure. It can still guess tone, so I wouldn't say it stops the guessing. Someone who knows the buyer still reads every draft before it goes anywhere.",
-     "reply_to": null
-    },
-    {
-     "by": "bharath",
-     "tone": "feedback",
-     "text": "Nelbin, partly. That's where the reference example earns its place.",
-     "reply_to": 4
-    },
-    {
-     "by": "adi",
-     "tone": "positive",
-     "text": "Agree, Nelbin. That's why the post says it can't replace what you know about your own buyer.",
-     "reply_to": 4
-    },
-    {
-     "by": "ben",
-     "tone": "positive",
-     "text": "Bhaskar, and run the same split on the page headline 👀",
-     "reply_to": 1
-    },
-    {
-     "by": "adi",
-     "tone": "feedback",
-     "text": "Ben, start with the page. The form is short enough to write by hand.",
-     "reply_to": 2
-    },
-    {
-     "by": "bhaskar",
-     "tone": "positive",
-     "text": "0 blank pages. Best closing line this week ✨",
-     "reply_to": null
-    }
-   ]
-  },
-  {
-   "id": "AG5",
-   "batch": "3",
-   "profile": "adi",
-   "platform": "linkedin",
-   "status": "ready",
-   "time": "08:30",
-   "cta": "",
-   "date": "2026-11-23",
-   "short": "5 emails, 13 days, 1 subject line",
-   "pillar": "Multi-channel outreach",
-   "idea": "A cold email thread is one conversation: one subject line, five short emails, set days.",
-   "format": "Image · animated giveaway",
-   "sample": {
-    "id": "ID04",
-    "creator": "Ipsita Dhar",
-    "what": "720x900 (4:5) GIF: a glossy iPhone mockup (Dynamic Island showing an orange burst, lock icon, 'Friday', huge '9:41') on a peach-coral gradient, with iOS notification cards stacking on the lock screen: 'Claude for LinkedIn / Post published · 8:30 / Story post · official API', 'LinkedIn / Your post hit 84K views / Hook #7 · 3x your average', 'LinkedIn / New DM from a lead / Priya S., Founder · Lattice', 'LinkedIn / +212 followers this week / Founders in your ICP', 'Claude for LinkedIn / Memory updated / Learned from your edit'. A floating white card top-left counts 'Views on LinkedIn, last 6 months' from 0K to 600K 'on autopilot' with a 12-dot progress row; a pill bottom-right reads 'Claude + LinkedIn / connected via official API' with the burst and LinkedIn logos joined by a dotted line. Cream CTA strip: 'Comment \"SYSTEM\" and I'll send it over'.",
-    "url": "https://www.linkedin.com/posts/ipsitadhar14_breaking-claude-now-grows-your-linkedin-activity-7520718602677682176-W22g"
-   },
-   "copy_basis": "ID04 template: BREAKING caps hook, two-line setup, turn, tease, insight, equation pair, 'Here's what's inside' with eight arrow lines, proof line, RESULT line, three-beat close",
-   "media": {
-    "type": "video",
-    "src": "batch-3/AG5",
-    "title": "5 emails, 13 days, 1 subject line",
-    "files": [
-     "media/batch-3/AG5/poster.jpg?v=20261111065107"
-    ],
-    "video": "media/batch-3/AG5/tantra-b3-AG5-2026-11-23-adi.mp4?v=20261111065107",
-    "tall": false,
-    "sets": [
-     {
-      "href": "media/batch-3/AG5/tantra-b3-AG5-2026-11-23-adi.mp4?v=20261111065107",
-      "name": "tantra-b3-AG5-2026-11-23-adi.mp4",
-      "ext": "mp4",
-      "label": "Download MP4",
-      "bytes": 821707
-     },
-     {
-      "href": "media/batch-3/AG5/tantra-b3-AG5-2026-11-23-adi.gif?v=20261111065107",
-      "name": "tantra-b3-AG5-2026-11-23-adi.gif",
-      "ext": "gif",
-      "label": "Download GIF",
-      "bytes": 1215489
-     }
-    ]
-   },
-   "text": "BREAKING: AI NOW WRITES YOUR WHOLE COLD EMAIL THREAD FROM ONE PROMPT.\n\n5 emails. 13 days. 1 subject line.\n\nYou've been told every follow-up needs a fresh, clever subject line.\nSo each one lands as a new cold email from a stranger.\n\nThat's the wrong way round.\n\nHere's the thread I'd send instead 👇\n\nHere's what changes when the follow-ups stay in one thread:\n\nYour buyer sees one conversation that gets shorter each time. Not five strangers.\n\nFive subject lines = five cold emails.\nOne subject line = one conversation.\n\nHere's what's inside:\n\n→ 5 Emails On Days 0, 3, 6, 9 And 13\n→ 1 Subject Line, On Email 1 Only\n→ Under 80 Words For Emails 2 To 5\n→ 1 Link, Never Two\n→ An Outcome Version Of Every Email\n→ An Objection Version Of Every Email\n→ The Day Each Email Goes Out\n→ The Prompt That Fills All Five\n\nIt's the thread structure from our playbook, on two pages.\n\nRESULT: a 13-day thread your buyer reads as one conversation.\n\nWant it?\n\nThe image shows how.\n\n👇",
-   "first_comment": "Type THREAD in the comments and I'll message you the 13-Day Cold Email Thread: five short emails on days 0, 3, 6, 9 and 13, an outcome version and an objection version, and the prompt that writes all five for your offer. Free, no sign-up.",
-   "sources": [
-    "content/corpus/facts.md: EW-24, EW-32"
-   ],
-   "numbers_for_signoff": [
-    "5 steps on days 0, 3, 6, 9 and 13; only step 1 has a subject; steps 2 to 5 under 80 words; one link (EW-24)",
-    "A (outcome) and B (objection) versions (EW-32)"
-   ],
-   "flags": [
-    "The keyword is on the asset's bottom tile and in the first comment (which says what to comment, what's inside and how it's sent), never in the post copy. The resource is built and hosted: preview it under the post, with the three messages that deliver it.",
-    "The resource goes out by manual DM from Adi's profile.",
-    "The RESULT line states what the thread is, not a performance number: we have no cleared result for it."
-   ],
-   "visual_label": "On the asset (animated 4:5)",
-   "visual_copy": [
-    "THE 13-DAY COLD EMAIL THREAD",
-    "5 emails. 13 days. 1 subject line.",
-    "Day 0 · Day 3 · Day 6 · Day 9 · Day 13",
-    "Comment THREAD to get it"
-   ],
-   "resource": {
-    "name": "The 13-Day Cold Email Thread",
-    "keyword": "THREAD",
-    "what": "A 2-page PDF: five emails laid out on days 0, 3, 6, 9 and 13 with word limits, the one-link rule, an outcome version and an objection version, plus the prompt that fills them.",
-    "url": "https://adisuja.github.io/tantra-revops/cold-email-thread/",
-    "pages": 2,
-    "files": [
-     {
-      "label": "PDF",
-      "href": "resources/cold-email-thread/cold-email-thread.pdf"
-     }
-    ],
-    "preview": "resources/cold-email-thread/"
-   },
-   "dm": {
-    "message": "Hi {first_name}, thanks for commenting THREAD.\n\nHere's the 13-Day Cold Email Thread:\nhttps://adisuja.github.io/tantra-revops/cold-email-thread/\n\nIt's 2 pages: five emails on days 0, 3, 6, 9 and 13, an outcome version and an objection version, and the prompt that fills all five.\n\nWrite email 1 before anything else. The other four are replies to it, so they only work once it does.\n\nWho is the thread going to?",
-    "connect": "Hi {first_name}, you commented THREAD on my post about writing a whole cold email thread from one prompt. LinkedIn only lets me message connections, so accept this and I'll send it straight over. Adi",
-    "email_subject": "Your 13-Day Cold Email Thread",
-    "email_body": "Hi {first_name},\n\nYou commented THREAD on my post about writing a whole cold email thread from one prompt:\n[POST LINK]\n\nHere's the 13-Day Cold Email Thread, as promised:\nhttps://adisuja.github.io/tantra-revops/cold-email-thread/\n\nIt's 2 pages: five emails on days 0, 3, 6, 9 and 13, an outcome version and an objection version, and the prompt that fills all five. The link opens straight away, with no sign-up.\n\nWrite email 1 before anything else. The other four are replies to it, so they only work once it does.\n\nWho is the thread going to? Hit reply and tell me.\n\nAdi\n\nP.S. You're getting this because you asked for it in the comments. If you'd rather not hear from me again, reply \"no\" and that's final."
-   },
-   "key": "b3-AG5",
-   "team_comments": [
-    {
-     "by": "aquila",
-     "tone": "positive",
-     "text": "Five subject lines = five cold emails 📬 cleanest way I've seen it put.",
-     "reply_to": null
-    },
-    {
-     "by": "bharath",
-     "tone": "feedback",
-     "text": "Worth checking your sending tool threads replies properly. Some tools quietly start a new thread if the subject changes even slightly, which undoes the whole point, so send a test to yourself first.",
-     "reply_to": null
-    },
-    {
-     "by": "bhaskar",
-     "tone": "differs",
-     "text": "I'd still test a fresh subject on email 5. By day 13 the thread has gone cold, and a new subject is a pattern break. Worth an A/B before ruling it out.",
-     "reply_to": null
-    },
-    {
-     "by": "adi",
-     "tone": "differs",
-     "text": "Bhaskar, test it. My bet is the thread wins, because email 5 reads like a nudge and not a pitch.",
-     "reply_to": 2
-    },
-    {
-     "by": "nelbin",
-     "tone": "question",
-     "text": "Who owns the thread if the buyer replies on day 6? The sender, or whoever picks up inbound?",
-     "reply_to": null
-    },
-    {
-     "by": "aquila",
-     "tone": "feedback",
-     "text": "Nelbin, the sender. A reply should stop the sequence the moment it lands, and the same person picks it up ⏸️",
-     "reply_to": 4
-    },
-    {
-     "by": "ben",
-     "tone": "feedback",
-     "text": "1 link, never two. It also means one place to track clicks, so you can see which of the five emails did the work 🔗",
-     "reply_to": null
-    },
-    {
-     "by": "adi",
-     "tone": "positive",
-     "text": "Ben, one link is also kinder to the reader.",
-     "reply_to": 6
-    },
-    {
-     "by": "nelbin",
-     "tone": "feedback",
-     "text": "Bharath, and make that test someone's job before the first send.",
-     "reply_to": 1
-    },
-    {
-     "by": "bharath",
-     "tone": "positive",
-     "text": "Shorter each time too. Under 80 words is plenty 👌",
-     "reply_to": 0
-    }
-   ]
-  },
-  {
-   "id": "AG6",
-   "batch": "3",
-   "profile": "adi",
-   "platform": "linkedin",
-   "status": "ready",
-   "time": "08:30",
-   "cta": "",
-   "date": "2026-11-25",
-   "short": "Your persona from 20 customers",
-   "pillar": "Offer and buyer",
-   "idea": "A buyer persona is a guess until it is built from the 20 best customers; a trait stays only if more than half share it.",
-   "format": "Image · animated giveaway",
-   "sample": {
-    "id": "BK08",
-    "creator": "Bharath Krishna Pai",
-    "what": "800x1000 (4:5) GIF on a lavender dot-grid canvas: kicker 'Judge every lead like you would', headline 'Claude + intent data = Only DMs that land' with 'land' in a highlight box, subline 'Ask 8 tiny questions about each lead and what they just did'. A 'Reading every engager' strip of 12 face avatars gets skip / ✓DM tags; a 'Reviewing' card (Lead 09/132, Founder · Series A SaaS, name redacted with a black bar) runs 8 coloured question rows (role, company, new job, hiring, funding, pain post, competitor, warm path) that resolve to Yes / No (5 Yes, 3 No), then a 9th 'fit' row ('0 to 100 score, 70+ gets a DM') fills a bar to 64, just under the threshold marker, and marks 'skipped'. Two boxes compare 'The DIY version' and 'The done-for-you version'. Purple CTA bar: 'Comment \"INTENT\" for free access 👇'.",
-    "url": "https://www.linkedin.com/posts/bkp31415_i-dont-know-if-i-should-be-sharing-this-activity-7520711265791463424-vjy-"
-   },
-   "copy_basis": "BK08 template: confessional hook, three-clause claim, setup line, four quoted prompts each with a tick result, 'It also' with four arrow lines, a plain-language question, 'Less, More' close",
-   "media": {
-    "type": "video",
-    "src": "batch-3/AG6",
-    "title": "Your persona from 20 customers",
-    "files": [
-     "media/batch-3/AG6/poster.jpg?v=20261111065107"
-    ],
-    "video": "media/batch-3/AG6/tantra-b3-AG6-2026-11-25-adi.mp4?v=20261111065107",
-    "tall": false,
-    "sets": [
-     {
-      "href": "media/batch-3/AG6/tantra-b3-AG6-2026-11-25-adi.mp4?v=20261111065107",
-      "name": "tantra-b3-AG6-2026-11-25-adi.mp4",
-      "ext": "mp4",
-      "label": "Download MP4",
-      "bytes": 864397
-     },
-     {
-      "href": "media/batch-3/AG6/tantra-b3-AG6-2026-11-25-adi.gif?v=20261111065107",
-      "name": "tantra-b3-AG6-2026-11-25-adi.gif",
-      "ext": "gif",
-      "label": "Download GIF",
-      "bytes": 1141335
-     }
-    ]
-   },
-   "text": "I don't know if I should be sharing this...\n\nGive AI your 20 best customers and one prompt. It finds what they share, cuts what they don't, and writes your buyer persona.\n\nMost personas get written in a meeting, from memory.\n\n\"List the traits of each of these 20 customers.\"\n✅ Every customer, trait by trait\n\n\"Keep only the traits more than half of them share.\"\n✅ The guesses drop out\n\n\"Write at least 3 exclusions: who we should not sell to.\"\n✅ A list of who to stop chasing\n\n\"Turn what's left into one buyer persona.\"\n✅ A persona built on people who paid!\n\nIt also:\n\n→ Shows which traits are noise\n→ Tells your team who to skip\n→ Gives every invite and page one buyer to speak to\n→ Changes when your best 20 change\n\n\"Does this lead look like my best customers?\"\n\nLess guessing. More buyers like the ones who already paid!\n\nHow to get the scorecard is on the image 👇",
-   "first_comment": "Comment BUYER and I'll send the 20-Customer Persona Scorecard to your DMs. List your 20 best customers, keep the traits more than half of them share, write 3 exclusions, and the prompt turns it into a persona you can actually target. It's free.",
-   "sources": [
-    "content/corpus/facts.md: EW-26"
-   ],
-   "numbers_for_signoff": [
-    "20 best customers; a trait stays if more than half share it; at least 3 exclusions (EW-26)"
-   ],
-   "flags": [
-    "The keyword is on the asset's bottom tile and in the first comment (which says what to comment, what's inside and how it's sent), never in the post copy. The resource is built and hosted: preview it under the post, with the three messages that deliver it.",
-    "The resource goes out by manual DM from Adi's profile."
-   ],
-   "visual_label": "On the asset (animated 4:5)",
-   "visual_copy": [
-    "THE 20-CUSTOMER PERSONA SCORECARD",
-    "20 customers. Keep what more than half share. 3 exclusions.",
-    "A persona from people who paid",
-    "Comment BUYER to get it"
-   ],
-   "resource": {
-    "name": "The 20-Customer Persona Scorecard",
-    "keyword": "BUYER",
-    "what": "A fillable scorecard: list your 20 best customers, tick each trait, keep only traits more than half share, write 3 exclusions. Comes with the prompt that turns it into a persona.",
-    "url": "https://adisuja.github.io/tantra-revops/persona-scorecard/",
-    "pages": 2,
-    "files": [
-     {
-      "label": "PDF",
-      "href": "resources/persona-scorecard/persona-scorecard.pdf"
-     }
-    ],
-    "preview": "resources/persona-scorecard/"
-   },
-   "dm": {
-    "message": "Hi {first_name}, thanks for commenting BUYER.\n\nHere's the 20-Customer Persona Scorecard:\nhttps://adisuja.github.io/tantra-revops/persona-scorecard/\n\nList your 20 best customers, fill in the traits, keep only what more than half share and write 3 exclusions. The prompt on page 2 turns it into a persona.\n\nStart with the customer list, not the traits. Pick by revenue, retention and how easy they are to serve.\n\nWhat did your best customers turn out to share?",
-    "connect": "Hi {first_name}, you commented BUYER on my post about building a buyer persona from your 20 best customers. LinkedIn only lets me message connections, so accept this and I'll send it straight over. Adi",
-    "email_subject": "Your 20-Customer Persona Scorecard",
-    "email_body": "Hi {first_name},\n\nYou commented BUYER on my post about building a buyer persona from your 20 best customers:\n[POST LINK]\n\nHere's the 20-Customer Persona Scorecard, as promised:\nhttps://adisuja.github.io/tantra-revops/persona-scorecard/\n\nList your 20 best customers, fill in the traits, keep only what more than half share and write 3 exclusions. The prompt on page 2 turns it into a persona. The link opens straight away, with no sign-up.\n\nStart with the customer list, not the traits. Pick by revenue, retention and how easy they are to serve.\n\nWhat did your best customers turn out to share? Hit reply and tell me.\n\nAdi\n\nP.S. You're getting this because you asked for it in the comments. If you'd rather not hear from me again, reply \"no\" and that's final."
-   },
-   "key": "b3-AG6",
-   "team_comments": [
-    {
-     "by": "bhaskar",
-     "tone": "positive",
-     "text": "Every marketing team has that persona deck somewhere. Built in a meeting, never checked against who actually paid.",
-     "reply_to": null
-    },
-    {
-     "by": "nelbin",
-     "tone": "feedback",
-     "text": "Ops teams will thank you for the exclusions step. A clear who-not-to-sell-to list saves more hours than any persona, because the team stops chasing the wrong deals early.",
-     "reply_to": null
-    },
-    {
-     "by": "bharath",
-     "tone": "differs",
-     "text": "More than half is a blunt cutoff with only 20 customers. A trait shared by a third of your best buyers can still matter, so I'd look at what the cut drops before throwing it away.",
-     "reply_to": null
-    },
-    {
-     "by": "adi",
-     "tone": "feedback",
-     "text": "Bharath, that's what the noise list is for. You see what dropped and decide.",
-     "reply_to": 2
-    },
-    {
-     "by": "ben",
-     "tone": "question",
-     "text": "Where does the answer to that last question live once the persona exists? A field in the CRM, so the form can tag new sign-ups?",
-     "reply_to": null
-    },
-    {
-     "by": "aquila",
-     "tone": "feedback",
-     "text": "Ben, a CRM field. Then the follow-up can branch on it 🔀",
-     "reply_to": 4
-    },
-    {
-     "by": "aquila",
-     "tone": "positive",
-     "text": "Changes when your best 20 change. Easy line to skim past, and probably the most useful one. Re-run it every quarter, not once.",
-     "reply_to": null
-    },
-    {
-     "by": "bhaskar",
-     "tone": "feedback",
-     "text": "Nelbin, it makes the ads cheaper too. You stop paying to reach people on the exclusion list 💸",
-     "reply_to": 1
-    },
-    {
-     "by": "adi",
-     "tone": "positive",
-     "text": "Quarterly works, Aquila 👍",
-     "reply_to": 6
-    },
-    {
-     "by": "ben",
-     "tone": "positive",
-     "text": "Built from memory. That's the whole problem in three words 😬",
-     "reply_to": 0
-    }
-   ]
-  },
-  {
-   "id": "TC3",
-   "batch": "3",
-   "profile": "tantra",
-   "platform": "linkedin",
-   "status": "ready",
-   "time": "10:30",
-   "cta": "event",
-   "date": "2026-11-18",
-   "short": "Before AI vs after AI",
-   "pillar": "AI orchestration",
-   "idea": "At each of the six funnel stages AI does the volume and people make the calls.",
-   "format": "Carousel · 8 pages",
-   "sample": {
-    "id": "HD21",
-    "creator": "Harry Dry",
-    "what": "Each slide is split into a 'BEFORE AI' top half and 'AFTER AI' bottom half comparing LinkedIn statements, a clear two-column comparison carousel.",
-    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7471461892859932673"
-   },
-   "copy_basis": "HD21 template: one short either/or question as the caption; every page split BEFORE AI on top, AFTER AI below",
-   "media": {
-    "type": "carousel",
-    "src": "batch-3/TC3",
-    "title": "Your funnel before AI and after AI",
-    "files": [
-     "media/batch-3/TC3/p01.jpg?v=20261111065107",
-     "media/batch-3/TC3/p02.jpg?v=20261111065107",
-     "media/batch-3/TC3/p03.jpg?v=20261111065107",
-     "media/batch-3/TC3/p04.jpg?v=20261111065107",
-     "media/batch-3/TC3/p05.jpg?v=20261111065107",
-     "media/batch-3/TC3/p06.jpg?v=20261111065107",
-     "media/batch-3/TC3/p07.jpg?v=20261111065107",
-     "media/batch-3/TC3/p08.jpg?v=20261111065107"
-    ],
-    "download": {
-     "href": "media/batch-3/TC3/tantra-b3-TC3-2026-11-18-tantra.pdf?v=20261111065107",
-     "name": "tantra-b3-TC3-2026-11-18-tantra.pdf",
-     "ext": "pdf",
-     "bytes": 1063394,
-     "pages": 8,
-     "w": 1080,
-     "h": 1350
-    }
-   },
-   "text": "Which funnel would you rather run: before AI or after?\n\nWe show where AI fits at every stage in our free live workshop. Link in the first comment.",
-   "first_comment": "Our free 60-minute live workshop shows what AI runs at each funnel stage and what stays with your team. Register here:\nhttps://webinar.sellwithtantra.com/?utm_source=linkedin&utm_medium=social&utm_campaign=enterprise-webinar&utm_content=TC3",
-   "sources": [
-    "content/corpus/facts.md: EW-17, EW-21, EW-25, EW-27, EW-30, EW-34"
-   ],
-   "numbers_for_signoff": [
-    "six stages and their numbers (EW-17)",
-    "\"Cut down your Ops time by 75%\", our own page line, word for word (EW-21)",
-    "nine blocks (EW-27)",
-    "12 stages with a clock; no-show SMS within 5 minutes (EW-30)"
-   ],
-   "flags": [
-    "The 75% line is our own page figure (own-marketing), shown once on the last page as a quote."
-   ],
-   "visual_label": "Slide copy (8 pages)",
-   "visual_copy": [
-    "Cover: Your funnel, BEFORE AI and AFTER AI. Six stages.",
-    "1 Traffic (visit rate). BEFORE AI: a cold blast to a bought list. AFTER AI: a merge-field invite in each buyer's calendar. You choose the market.",
-    "2 Landing (sign-up rate). BEFORE AI: a page started from a blank document. AFTER AI: nine blocks drafted from a real example. You approve every line.",
-    "3 Nurture (show-up rate). BEFORE AI: reminders when someone remembers. AFTER AI: every reminder goes out on schedule. You write the promise.",
-    "4 Conversion (booking rate). BEFORE AI: one 30-minute call does everything. AFTER AI: a session earns trust with a room, then the call closes. You run the room.",
-    "5 Revenue (close rate). BEFORE AI: follow-up from memory. AFTER AI: 12 stages with a clock on each, and a no-show SMS within 5 minutes. You take the call.",
-    "6 Long-term nurture (rebooking rate). BEFORE AI: guesswork. AFTER AI: one number and one change a week. You pick the change.",
-    "Close: AI does the volume. People make the calls. \"Cut down your Ops time by 75%\""
-   ],
-   "key": "b3-TC3",
-   "team_comments": [
-    {
-     "by": "adi",
-     "tone": "positive",
-     "text": "AI does the volume. People make the calls 🤖 If you remember one line from the deck, make it that one.",
-     "reply_to": null
-    },
-    {
-     "by": "bharath",
-     "tone": "feedback",
-     "text": "The note on the Landing slide, you approve every line, is the guardrail I'd underline. Drafting from a real example is fast, but nothing should ship without a person reading it first.",
-     "reply_to": null
-    },
-    {
-     "by": "bhaskar",
-     "tone": "question",
-     "text": "Easy answer is after. Which stage would you still run the before way, even with AI sitting right there?",
-     "reply_to": null
-    },
-    {
-     "by": "aquila",
-     "tone": "feedback",
-     "text": "Bhaskar, long-term nurture is the closest. Picking the one change a week stays a judgment call, AI can only put the number in front of you.",
-     "reply_to": 2
-    },
-    {
-     "by": "nelbin",
-     "tone": "feedback",
-     "text": "Reminders when someone remembers. That's every team before the schedule gets written down. The fix there is half process, half automation.",
-     "reply_to": null
-    },
-    {
-     "by": "ben",
-     "tone": "differs",
-     "text": "I'd push back on the either/or. Most teams run a mix for a while, AI on reminders while people still draft pages. The real question is which stage you switch first.",
-     "reply_to": null
-    },
-    {
-     "by": "aquila",
-     "tone": "positive",
-     "text": "The no-show SMS slide 🙌 speed matters most in the minutes right after someone misses.",
-     "reply_to": null
-    },
-    {
-     "by": "bharath",
-     "tone": "feedback",
-     "text": "Ben, true. Start where the volume is highest ⚙️",
-     "reply_to": 5
-    },
-    {
-     "by": "adi",
-     "tone": "feedback",
-     "text": "Ben, a mix is fine. The carousel just shows where each stage ends up.",
-     "reply_to": 5
-    },
-    {
-     "by": "nelbin",
-     "tone": "positive",
-     "text": "Same. Fastest win on the list ⚡",
-     "reply_to": 6
-    }
-   ]
-  },
-  {
-   "id": "TG1",
-   "batch": "3",
-   "profile": "tantra",
-   "platform": "linkedin",
-   "status": "ready",
-   "time": "10:30",
-   "cta": "",
-   "date": "2026-11-16",
-   "short": "The 8-part prompt skeleton",
-   "pillar": "AI orchestration",
-   "idea": "Every prompt in the library has the same eight parts; the blank structure works in any AI assistant.",
-   "format": "Image · static giveaway",
-   "sample": {
-    "id": "ID15",
-    "creator": "Ipsita Dhar",
-    "what": "1024x1536 (2:3) static poster styled as a dark IDE: header '.linkedin-system/' in large orange monospace with an orange asterisk burst, subline '17 SKILLS, 8 AGENTS, ONE LINKEDIN SYSTEM', and a dark terminal badge 'AI-POWERED LINKEDIN SYSTEM _'. Main panel: a cream file-explorer card with a dark icon rail (folder, doc, chart, calendar, people, dots) and 8 rows connected by a vertical timeline: orange folder icon, folder name ('voice-builder/', 'research-agent/', 'hook-agent/', 'writer-agent/', 'editor-agent/', 'infographics-agent/', 'creator-tracker/', 'scheduler-analytics/') with exactly 5 file children each (two columns, 3 left and 2 right), and at right a coloured number tile 01 to 08 plus a pastel outcome note ('builds your 3,000-word AI clone'). Bottom: orange CTA bar 'Comment 'SYSTEM' and I'll send it.'",
-    "url": "https://www.linkedin.com/posts/ipsitadhar14_i-built-a-complete-claude-team-for-linkedin-activity-7506947893812150275-oq8P"
-   },
-   "copy_basis": "ID15 template: build hook and free line, context paragraph, humility beat, numbered list of named parts, 'Everything connects' chain, three-line role split, summary line, CTA",
-   "media": {
-    "type": "image",
-    "src": "batch-3/TG1",
-    "title": "The 8-part prompt skeleton",
-    "tall": false,
-    "files": [
-     "media/batch-3/TG1/image.jpg?v=20261111065107"
-    ],
-    "download": {
-     "href": "media/batch-3/TG1/tantra-b3-TG1-2026-11-16-tantra.png?v=20261111065107",
-     "name": "tantra-b3-TG1-2026-11-16-tantra.png",
-     "ext": "png",
-     "bytes": 343366,
-     "pages": 1,
-     "w": 1080,
-     "h": 1350
-    }
-   },
-   "text": "We built every prompt in our funnel library on the same 8 parts.\n\nAnd we're giving away the blank skeleton for free ↓\n\nThe library holds 250+ real funnel elements. Each one comes with a prompt that rebuilds it for your brand, and every prompt is laid out the same way.\n\nThe skeleton won't know your buyer.\nThat part stays with you.\n\nHere's what each part handles:\n\n1. YOUR TASK\nThe one thing you want back. One element, not five.\n\n2. WHERE THIS SITS IN MY FUNNEL\nThe stage it belongs to, so the copy knows what came before it.\n\n3. THE FACTS TO USE\nYour real numbers and names. A missing fact becomes [FILL], not a guess.\n\n4. THE TEMPLATE\nThe shape of the answer, block by block.\n\n5. RULES\nThe limits: length, tone and what to leave out.\n\n6. REFERENCE EXAMPLE\nA real element to mirror, so the AI follows a real structure and not its own habits.\n\n7. WHAT TO RETURN\nThe exact output: an A version that leads with the outcome, a B version that answers the objection.\n\n8. CHECK BEFORE YOU ANSWER\nThe checks the AI runs on its own draft before you see it.\n\nEverything connects:\n\nTask → Funnel stage → Facts → Template → Rules → Example → Output → Check\n\nYou bring the facts.\nThe skeleton brings the structure.\nThe AI does the typing.\n\n8 parts. 1 page. Any AI assistant.\n\nHow to get it is on the image 👇",
-   "first_comment": "Comment SKELETON and we'll send you the 8-Part Prompt Skeleton in a DM. It's the blank prompt behind every page and email we write: all eight parts, a note on what goes in each and a worked example for a registration page headline. Paste it into any AI assistant and fill in your own facts.",
-   "sources": [
-    "content/corpus/facts.md: EW-12, EW-32"
-   ],
-   "numbers_for_signoff": [
-    "250+ real funnel elements (EW-12)",
-    "eight parts, named in order (EW-32)"
-   ],
-   "flags": [
-    "The keyword is on the asset's bottom tile and in the first comment (which says what to comment, what's inside and how it's sent), never in the post copy. The resource is built and hosted: preview it under the post, with the three messages that deliver it.",
-    "The resource goes out by manual DM from Adi's profile.",
-    "The one-line description under each part is our plain reading of that part's name: check it against the library before this goes out."
-   ],
-   "visual_label": "On the asset (static 4:5)",
-   "visual_copy": [
-    "THE 8-PART PROMPT SKELETON",
-    "YOUR TASK · WHERE THIS SITS IN MY FUNNEL · THE FACTS TO USE · THE TEMPLATE · RULES · REFERENCE EXAMPLE · WHAT TO RETURN · CHECK BEFORE YOU ANSWER",
-    "Comment SKELETON to get it"
-   ],
-   "resource": {
-    "name": "The 8-Part Prompt Skeleton",
-    "keyword": "SKELETON",
-    "what": "A one-page blank prompt with the eight parts in order, a one-line note on what goes in each and one worked example for a registration page headline.",
-    "url": "https://adisuja.github.io/tantra-revops/prompt-skeleton/",
-    "pages": 1,
-    "files": [
-     {
-      "label": "PDF",
-      "href": "resources/prompt-skeleton/prompt-skeleton.pdf"
-     }
-    ],
-    "preview": "resources/prompt-skeleton/"
-   },
-   "dm": {
-    "message": "Hi {first_name}, thanks for commenting SKELETON. I'm Adi, the founder.\n\nHere's the 8-Part Prompt Skeleton:\nhttps://adisuja.github.io/tantra-revops/prompt-skeleton/\n\nIt's one page: the blank prompt with all eight parts, a note on what goes in each and a worked example for a registration page headline.\n\nCopy the blank skeleton and fill in part 3, the facts, first. That's the part an AI can't guess.\n\nWhat are you going to write with it first?",
-    "connect": "Hi {first_name}, you commented SKELETON on the Tantra post about the 8 parts behind every prompt in our funnel library. I'm Adi, the founder. LinkedIn only lets me message connections, so accept this and I'll send it straight over. Adi",
-    "email_subject": "Your 8-Part Prompt Skeleton",
-    "email_body": "Hi {first_name},\n\nYou commented SKELETON on the Tantra post about the 8 parts behind every prompt in our funnel library:\n[POST LINK]\n\nHere's the 8-Part Prompt Skeleton, as promised:\nhttps://adisuja.github.io/tantra-revops/prompt-skeleton/\n\nIt's one page: the blank prompt with all eight parts, a note on what goes in each and a worked example for a registration page headline. The link opens straight away, with no sign-up.\n\nCopy the blank skeleton and fill in part 3, the facts, first. That's the part an AI can't guess.\n\nWhat are you going to write with it first? Hit reply and tell me.\n\nAdi\n\nP.S. You're getting this because you asked for it in the comments. If you'd rather not hear from me again, reply \"no\" and that's final."
-   },
-   "key": "b3-TG1",
-   "team_comments": [
-    {
-     "by": "bharath",
-     "tone": "positive",
-     "text": "Most prompts skip part 8 entirely. Asking the model to check its own draft before you ever see it catches a lot of the silly stuff early, and costs you nothing.",
-     "reply_to": null
-    },
-    {
-     "by": "adi",
-     "tone": "feedback",
-     "text": "Part 2 matters more than it looks 🧩 Copy that knows what came before it reads like one funnel, not six separate drafts.",
-     "reply_to": null
-    },
-    {
-     "by": "ben",
-     "tone": "question",
-     "text": "For part 6, how close should the reference example be? Same industry, or just the same element?",
-     "reply_to": null
-    },
-    {
-     "by": "bhaskar",
-     "tone": "feedback",
-     "text": "Ben, same element first. Industry is a nice to have, the structure does the work.",
-     "reply_to": 2
-    },
-    {
-     "by": "nelbin",
-     "tone": "feedback",
-     "text": "I'd add an owner to part 1. Someone has to decide what the one element is, or the task line slowly turns into a wish list.",
-     "reply_to": null
-    },
-    {
-     "by": "aquila",
-     "tone": "differs",
-     "text": "Not sold on any AI assistant. The skeleton travels, sure, but some assistants ignore the rules section more than others, so test it on yours before you trust the check step 🧪",
-     "reply_to": null
-    },
-    {
-     "by": "bhaskar",
-     "tone": "positive",
-     "text": "Facts from you, typing from the AI. Clean split ✂️",
-     "reply_to": null
-    },
-    {
-     "by": "bharath",
-     "tone": "feedback",
-     "text": "Aquila, good shout. Part 8 helps there, a weaker model at least gets told to look twice.",
-     "reply_to": 5
-    },
-    {
-     "by": "adi",
-     "tone": "positive",
-     "text": "Nelbin, agreed. One element, one owner 👍",
-     "reply_to": 4
-    },
-    {
-     "by": "aquila",
-     "tone": "positive",
-     "text": "Bharath, it's also the easiest part to run as its own automated step.",
-     "reply_to": 0
-    }
-   ]
-  },
-  {
-   "id": "TG2",
-   "batch": "3",
-   "profile": "tantra",
-   "platform": "linkedin",
-   "status": "ready",
-   "time": "10:30",
-   "cta": "",
-   "date": "2026-11-17",
-   "short": "The registration page in 9 blocks",
-   "pillar": "Landing and registration",
-   "idea": "A registration page is nine blocks in a fixed order, with the form on the first screen of a laptop.",
-   "format": "Image · animated giveaway",
-   "sample": {
-    "id": "ID10",
-    "creator": "Ipsita Dhar",
-    "what": "720x790 GIF (63 frames, 4.2s) on a warm off-white dotted-grid canvas. Top: a terracotta-framed 'Before Skill' card holding two real-looking LinkedIn post rows with weak stats (224 and 14 impressions, 'View analytics'). Middle: a terracotta app tile with a white Claude burst, joined by a thin grey connector line. Bottom: a lilac-framed 'After Skill' card showing a Search-Console-style 'Content performance' dashboard (390,022 impressions, +26.6% vs prior 90 days, green 'Cumulative' pill, rising line chart). Full-width terracotta CTA bar 'Comment ‘SYSTEM’ for access'. Motion: after a 0.6s hold every card's contents and the burst fade out together, then rebuild in sequence (two Before post rows, the burst tile, then the After dashboard nav, headline numbers and finally the whole chart fading in), with a sheen sweep and scale bump on the CTA bar.",
-    "url": "https://www.linkedin.com/posts/ipsitadhar14_i-connected-claude-opus-55-to-linkedin-activity-7515282807745728512-TYfh"
-   },
-   "copy_basis": "ID10 template: two-line hook, CTA pointer, curiosity bridge, numbered n/ list with a name line and one short spec each, a two-paragraph proof beat, CTA",
-   "media": {
-    "type": "video",
-    "src": "batch-3/TG2",
-    "title": "The registration page in 9 blocks",
-    "files": [
-     "media/batch-3/TG2/poster.jpg?v=20261111065107"
-    ],
-    "video": "media/batch-3/TG2/tantra-b3-TG2-2026-11-17-tantra.mp4?v=20261111065107",
-    "tall": false,
-    "sets": [
-     {
-      "href": "media/batch-3/TG2/tantra-b3-TG2-2026-11-17-tantra.mp4?v=20261111065107",
-      "name": "tantra-b3-TG2-2026-11-17-tantra.mp4",
-      "ext": "mp4",
-      "label": "Download MP4",
-      "bytes": 747908
-     },
-     {
-      "href": "media/batch-3/TG2/tantra-b3-TG2-2026-11-17-tantra.gif?v=20261111065107",
-      "name": "tantra-b3-TG2-2026-11-17-tantra.gif",
-      "ext": "gif",
-      "label": "Download GIF",
-      "bytes": 1155621
-     }
-    ]
-   },
-   "text": "We broke the registration page into 9 blocks.\n\n9 things your page has to do to earn the sign-up, in order\n\nGet the blueprint here. 👇\n\nOpen your page on a laptop. Is the form on the first screen?\n\n1/ Logo and trust strip\nWho you are and who already trusts you.\n\n2/ Headline and subhead\nThe outcome first, then who it's for.\n\n3/ A 60 to 90 second video\nMuted and captioned, so it works without sound.\n\n4/ Three proof points\nThree. Not ten.\n\n5/ The form\nFirst name, last name, work email. Above the fold on a 1366 x 768 laptop, and again lower down.\n\n6/ Your method, named\nIn 3 to 5 steps.\n\n7/ Testimonials\nIn your customers' own words.\n\n8/ An FAQ\nEvery answer handles one objection.\n\n9/ A sticky button\nThe sign-up stays one tap away.\n\nWe put two tests to every block:\n\nDoes it answer an objection or drive one action?\nDoes it bring the first result earlier?\n\nA block that fails both comes off the page.\n\nHow to get the blueprint is on the image.\n\n👇",
-   "first_comment": "Want the blueprint? Comment PAGE and we'll DM you the 9-Block Registration Page Blueprint: the nine blocks in order, the job of each one, the above-the-fold check for a laptop screen and a prompt that drafts your page. Free to use.",
-   "sources": [
-    "content/corpus/facts.md: EW-27; block names from context/sources/enterprise-webinar/digest-C-bonuses-and-revops-os.md (playbook task 3.01)"
-   ],
-   "numbers_for_signoff": [
-    "nine blocks; form above the fold on a 1366 x 768 laptop; the two tests (EW-27)",
-    "block detail: 60 to 90 second video, three proof points, three form fields, method in 3 to 5 steps (playbook task 3.01)"
-   ],
-   "flags": [
-    "The keyword is on the asset's bottom tile and in the first comment (which says what to comment, what's inside and how it's sent), never in the post copy. The resource is built and hosted: preview it under the post, with the three messages that deliver it.",
-    "The resource goes out by manual DM from Adi's profile.",
-    "The nine block names come from the playbook task (3.01), not from a facts.md row: the row only says 'nine blocks'."
-   ],
-   "visual_label": "On the asset (animated 4:5)",
-   "visual_copy": [
-    "THE 9-BLOCK REGISTRATION PAGE BLUEPRINT",
-    "A wireframe of the nine blocks, numbered 1 to 9",
-    "The form: above the fold on a 1366 x 768 laptop",
-    "Comment PAGE to get it"
-   ],
-   "resource": {
-    "name": "The 9-Block Registration Page Blueprint",
-    "keyword": "PAGE",
-    "what": "A 2-page PDF: a wireframe of the nine blocks in order, the job of each block, the above-the-fold check on a 1366 x 768 laptop and the prompt that drafts the page.",
-    "url": "https://adisuja.github.io/tantra-revops/registration-page-blueprint/",
-    "pages": 2,
-    "files": [
-     {
-      "label": "PDF",
-      "href": "resources/registration-page-blueprint/registration-page-blueprint.pdf"
-     }
-    ],
-    "preview": "resources/registration-page-blueprint/"
-   },
-   "dm": {
-    "message": "Hi {first_name}, thanks for commenting PAGE. I'm Adi, the founder.\n\nHere's the 9-Block Registration Page Blueprint:\nhttps://adisuja.github.io/tantra-revops/registration-page-blueprint/\n\nIt's 2 pages: the nine blocks in order, the job of each one, the above-the-fold check and the prompt that drafts your page.\n\nOpen your current page on a laptop and run the check on page 2 before you rewrite anything.\n\nIs your form on the first screen?",
-    "connect": "Hi {first_name}, you commented PAGE on the Tantra post about the 9 blocks of a registration page. I'm Adi, the founder. LinkedIn only lets me message connections, so accept this and I'll send it straight over. Adi",
-    "email_subject": "Your 9-Block Registration Page Blueprint",
-    "email_body": "Hi {first_name},\n\nYou commented PAGE on the Tantra post about the 9 blocks of a registration page:\n[POST LINK]\n\nHere's the 9-Block Registration Page Blueprint, as promised:\nhttps://adisuja.github.io/tantra-revops/registration-page-blueprint/\n\nIt's 2 pages: the nine blocks in order, the job of each one, the above-the-fold check and the prompt that drafts your page. The link opens straight away, with no sign-up.\n\nOpen your current page on a laptop and run the check on page 2 before you rewrite anything.\n\nIs your form on the first screen? Hit reply and tell me.\n\nAdi\n\nP.S. You're getting this because you asked for it in the comments. If you'd rather not hear from me again, reply \"no\" and that's final."
-   },
-   "key": "b3-TG2",
-   "team_comments": [
-    {
-     "by": "ben",
-     "tone": "positive",
-     "text": "Checking the form on a 1366 x 768 screen is such a specific, useful test. Most people check on their own big monitor and never see the fold their buyers actually see.",
-     "reply_to": null
-    },
-    {
-     "by": "bhaskar",
-     "tone": "feedback",
-     "text": "Three proof points, not ten. I'd add one thing: put the strongest one closest to the form, so the last thing they read before the first field is the reason to fill it in.",
-     "reply_to": null
-    },
-    {
-     "by": "nelbin",
-     "tone": "question",
-     "text": "Who runs the two tests on each block? Feels like it needs one person with the final say.",
-     "reply_to": null
-    },
-    {
-     "by": "adi",
-     "tone": "feedback",
-     "text": "Nelbin, whoever owns the sign-up rate. If that's nobody, start there.",
-     "reply_to": 2
-    },
-    {
-     "by": "bharath",
-     "tone": "differs",
-     "text": "Not sure about the sticky button on mobile. It eats screen space on small phones, so I'd test it against a plain repeat of the form lower down before making it standard.",
-     "reply_to": null
-    },
-    {
-     "by": "aquila",
-     "tone": "feedback",
-     "text": "Asking for a work email is smart for what comes after. Reminders and follow-ups land in the inbox the buyer actually checks during the day.",
-     "reply_to": null
-    },
-    {
-     "by": "ben",
-     "tone": "differs",
-     "text": "Bharath, a slim bar works fine. Hide it while the form is on screen 📱",
-     "reply_to": 4
-    },
-    {
-     "by": "adi",
-     "tone": "positive",
-     "text": "Muted and captioned 🎬 so many pages still autoplay sound and lose people right there.",
-     "reply_to": null
-    },
-    {
-     "by": "bhaskar",
-     "tone": "positive",
-     "text": "Ben, that fold test alone justifies the post 👌",
-     "reply_to": 0
-    },
-    {
-     "by": "nelbin",
-     "tone": "positive",
-     "text": "The FAQ rule too. One answer, one objection.",
-     "reply_to": null
-    }
-   ]
-  },
-  {
-   "id": "TG3",
-   "batch": "3",
-   "profile": "tantra",
-   "platform": "linkedin",
-   "status": "ready",
-   "time": "10:30",
-   "cta": "",
-   "date": "2026-11-19",
-   "short": "Every outreach limit on one card",
-   "pillar": "Multi-channel outreach",
-   "idea": "Each channel has a character or daily limit; one card holds all of them.",
-   "format": "Image · animated giveaway",
-   "sample": {
-    "id": "BK17",
-    "creator": "Bharath Krishna Pai",
-    "what": "720x1080 (2:3) GIF, 127 frames, 8.5s. Cream canvas: eyebrow 'THE CLAUDE LINKEDIN SYSTEM · 17 SKILLS · ONE SESSION', an app-icon tile with orange starburst beside the headline 'CLAUDE OPUS 5' (navy) / 'FOR LINKEDIN' (orange), italic caps tagline '8 AGENTS. 17 SKILLS. ONE CONNECTED SYSTEM.', then 11 trading-card style skill cards in a 3/4/4 grid (number badge, orange category tab such as VOICE or RESEARCH, coloured lightning-bolt icon, 'SKILL NAME', serif title such as 'The Voice Cloner', 2 to 3 line description, 'RUNS ON ONE SESSION' pill). Bottom row: pills ONE SYSTEM, 17 SKILLS, 8 AGENTS and an orange CTA pill 'COMMENT 'SYSTEM' >'. The cycle opens on the full grid, the 11 cards and 3 stat pills dissolve out, then the cards are dealt back in one by one in reading order and the pills return last.",
-    "url": "https://www.linkedin.com/posts/bkp31415_i-havent-written-a-linkedin-post-by-hand-activity-7513829707214155777-wtDg"
-   },
-   "copy_basis": "BK17 template: absence hook and free line, thesis line, effort line, 'Here's what's inside' with eight count-led arrow lines and no blank lines, recap line, CTA",
-   "media": {
-    "type": "video",
-    "src": "batch-3/TG3",
-    "title": "Every outreach limit on one card",
-    "files": [
-     "media/batch-3/TG3/poster.jpg?v=20261111065107"
-    ],
-    "video": "media/batch-3/TG3/tantra-b3-TG3-2026-11-19-tantra.mp4?v=20261111065107",
-    "tall": false,
-    "sets": [
-     {
-      "href": "media/batch-3/TG3/tantra-b3-TG3-2026-11-19-tantra.mp4?v=20261111065107",
-      "name": "tantra-b3-TG3-2026-11-19-tantra.mp4",
-      "ext": "mp4",
-      "label": "Download MP4",
-      "bytes": 585593
-     },
-     {
-      "href": "media/batch-3/TG3/tantra-b3-TG3-2026-11-19-tantra.gif?v=20261111065107",
-      "name": "tantra-b3-TG3-2026-11-19-tantra.gif",
-      "ext": "gif",
-      "label": "Download GIF",
-      "bytes": 1097168
-     }
-    ]
-   },
-   "text": "You should never count characters by hand again.\n\nHere's the one-page card that does it for every channel, and it's free 👇\n\nA message that gets cut off mid-sentence doesn't get a reply.\n\nSo we put every limit from our playbook on one page.\n\nHere's what's inside:\n→ Under 400 Characters: The WhatsApp Message\n→ Under 300 Characters: The LinkedIn Note\n→ Under 160 Characters: The SMS\n→ Under 8 Words: The Subject Line\n→ 15 To 20 Requests A Day Per LinkedIn Profile\n→ 14 Days, Then Withdraw The Request\n→ 1 Tool Per Profile\n→ 1 Page For All Of It\n\n4 channels. 7 limits. 1 card.\n\nHow to get it is on the image.\n\n👇",
-   "first_comment": "Drop LIMITS below and we'll message you the Outreach Limits Cheat Sheet. Every character and daily limit for LinkedIn, SMS, WhatsApp and subject lines on one page, with a counter that checks your message before you send it.",
-   "sources": [
-    "content/corpus/facts.md: EW-25"
-   ],
-   "numbers_for_signoff": [
-    "LinkedIn note under 300; 15 to 20 requests a day per profile; withdraw after 14 days; one tool per profile; SMS under 160; WhatsApp under 400; subject lines under 8 words (EW-25)"
-   ],
-   "flags": [
-    "The keyword is on the asset's bottom tile and in the first comment (which says what to comment, what's inside and how it's sent), never in the post copy. The resource is built and hosted: preview it under the post, with the three messages that deliver it.",
-    "The resource goes out by manual DM from Adi's profile.",
-    "The hook carries no number (Adi approved it as written)."
-   ],
-   "visual_label": "On the asset (animated 4:5)",
-   "visual_copy": [
-    "THE OUTREACH LIMITS CHEAT SHEET",
-    "400 · 300 · 160 · 8",
-    "WhatsApp, LinkedIn, SMS, subject lines: every limit on one page",
-    "Comment LIMITS to get it"
-   ],
-   "resource": {
-    "name": "The Outreach Limits Cheat Sheet",
-    "keyword": "LIMITS",
-    "what": "A one-page card: character limits for LinkedIn notes, SMS, WhatsApp and subject lines, the daily request range per LinkedIn profile and when to withdraw a request.",
-    "url": "https://adisuja.github.io/tantra-revops/outreach-limits/",
-    "pages": 1,
-    "files": [
-     {
-      "label": "PDF",
-      "href": "resources/outreach-limits/outreach-limits.pdf"
-     }
-    ],
-    "preview": "resources/outreach-limits/"
-   },
-   "dm": {
-    "message": "Hi {first_name}, thanks for commenting LIMITS. I'm Adi, the founder.\n\nHere's the Outreach Limits Cheat Sheet:\nhttps://adisuja.github.io/tantra-revops/outreach-limits/\n\nIt's one page with every limit: WhatsApp, the LinkedIn note, SMS and subject lines, plus the LinkedIn daily range. Paste a message in and it checks it against each limit.\n\nPaste your current LinkedIn note into the counter first.\n\nWhich channel do you send the most on?",
-    "connect": "Hi {first_name}, you commented LIMITS on the Tantra post about never counting characters by hand again. I'm Adi, the founder. LinkedIn only lets me message connections, so accept this and I'll send it straight over. Adi",
-    "email_subject": "Your Outreach Limits Cheat Sheet",
-    "email_body": "Hi {first_name},\n\nYou commented LIMITS on the Tantra post about never counting characters by hand again:\n[POST LINK]\n\nHere's the Outreach Limits Cheat Sheet, as promised:\nhttps://adisuja.github.io/tantra-revops/outreach-limits/\n\nIt's one page with every limit: WhatsApp, the LinkedIn note, SMS and subject lines, plus the LinkedIn daily range. Paste a message in and it checks it against each limit. The link opens straight away, with no sign-up.\n\nPaste your current LinkedIn note into the counter first.\n\nWhich channel do you send the most on? Hit reply and tell me.\n\nAdi\n\nP.S. You're getting this because you asked for it in the comments. If you'd rather not hear from me again, reply \"no\" and that's final."
-   },
-   "key": "b3-TG3",
-   "team_comments": [
-    {
-     "by": "aquila",
-     "tone": "positive",
-     "text": "14 days, then withdraw. People forget this one ⚠️ A pile of old pending requests is a quiet way to get a profile flagged.",
-     "reply_to": null
-    },
-    {
-     "by": "bhaskar",
-     "tone": "differs",
-     "text": "Under 8 words is right for a subject, but I'd go shorter still. Three or four words reads like a note from a colleague, while eight starts to look like a newsletter.",
-     "reply_to": null
-    },
-    {
-     "by": "bharath",
-     "tone": "feedback",
-     "text": "1 tool per profile gets missed the most. Two tools on one account means two activity patterns, and that's the bit that starts to look automated. Keep it to one and the account behaves like a person.",
-     "reply_to": null
-    },
-    {
-     "by": "ben",
-     "tone": "question",
-     "text": "Does the 300 for the LinkedIn note count the first name merge field once it's filled?",
-     "reply_to": null
-    },
-    {
-     "by": "aquila",
-     "tone": "feedback",
-     "text": "Ben, count it filled. Test with your longest real name.",
-     "reply_to": 3
-    },
-    {
-     "by": "nelbin",
-     "tone": "feedback",
-     "text": "15 to 20 a day per profile turns into a weekly number really easily. Put it on the board and you can see straight away who's over.",
-     "reply_to": null
-    },
-    {
-     "by": "adi",
-     "tone": "positive",
-     "text": "A message cut off mid-sentence doesn't get a reply. Simple, and true 📏",
-     "reply_to": null
-    },
-    {
-     "by": "adi",
-     "tone": "feedback",
-     "text": "Bhaskar, under 8 is the ceiling, not the target. Shorter is fine.",
-     "reply_to": 1
-    },
-    {
-     "by": "bharath",
-     "tone": "positive",
-     "text": "Nelbin, it's easy to pull from the tool too, no manual count needed 🙂",
-     "reply_to": 5
-    },
-    {
-     "by": "nelbin",
-     "tone": "positive",
-     "text": "Which is why the card exists ✅",
-     "reply_to": 6
-    }
-   ]
-  },
-  {
-   "id": "TG4",
-   "batch": "3",
-   "profile": "tantra",
-   "platform": "linkedin",
-   "status": "ready",
-   "time": "10:30",
-   "cta": "",
-   "date": "2026-11-20",
-   "short": "A clock on every pipeline stage",
-   "pillar": "Revenue engine",
-   "idea": "Deals go quiet when a stage has no time limit; 12 stages, a clock on each.",
-   "format": "Image · animated giveaway",
-   "sample": {
-    "id": "ID02",
-    "creator": "Ipsita Dhar",
-    "what": "720x900 (4:5) GIF of a fake 'Claude / Acquisition engine' app: header with orange burst tile and a 'Running' dot, hero block with a giant navy numeral (41) beside 'qualified meetings / last week' and stats '742 conversations, 14 proposals, 12 min/day', then a 6-column board (ICP, Signals, Research, Outreach, Replies, Meetings, each with a status ring icon and a running total) of 29 prospect cards in the end state (five per column in the first five columns plus four in Meetings, ACQ-312 to ACQ-340, a first name + initial, a company like Northwind, Zephyr, Lattice, and an initial chip). The Meetings column holds orange-bordered cards stamped '✓ Fri 12:30'. CTA strip: 'Comment SALES to test it yourself.' Motion: from the finished state the board crossfades back to zero, then four times the top lane of prospects shifts one column right, each arrival in Meetings counting the hero number up by about 10 until it reads 41, and an underline draws before the hold.",
-    "url": "https://www.linkedin.com/posts/ipsitadhar14_we-gave-claude-a-linkedin-connection-it-activity-7521805781600501760-fI-k"
-   },
-   "copy_basis": "ID02 template: two-line hook, widener line, pain paragraph, instruction line, 'It can help' with six verb-first arrow lines, 'The goal?', answer, triple close, CTA",
-   "media": {
-    "type": "video",
-    "src": "batch-3/TG4",
-    "title": "A clock on every pipeline stage",
-    "files": [
-     "media/batch-3/TG4/poster.jpg?v=20261111065107"
-    ],
-    "video": "media/batch-3/TG4/tantra-b3-TG4-2026-11-20-tantra.mp4?v=20261111065107",
-    "tall": false,
-    "sets": [
-     {
-      "href": "media/batch-3/TG4/tantra-b3-TG4-2026-11-20-tantra.mp4?v=20261111065107",
-      "name": "tantra-b3-TG4-2026-11-20-tantra.mp4",
-      "ext": "mp4",
-      "label": "Download MP4",
-      "bytes": 1165218
-     },
-     {
-      "href": "media/batch-3/TG4/tantra-b3-TG4-2026-11-20-tantra.gif?v=20261111065107",
-      "name": "tantra-b3-TG4-2026-11-20-tantra.gif",
-      "ext": "gif",
-      "label": "Download GIF",
-      "bytes": 3165206
-     }
-    ]
-   },
-   "text": "We gave every pipeline stage a clock.\n\nIt became a pipeline where no deal goes quiet. 🫨\n\nAnd it works for any team that sells on calls.\n\nA deal doesn't need a no to die. It only needs to wait: for a reply, a proposal, a rebooked call. Nobody decides to drop it. Nobody owns the wait.\n\nPut a time limit on each of the 12 stages, and write down what happens when it runs out.\n\nIt can help:\n→ Send the no-show SMS within 5 minutes\n→ Show which deals have sat in a stage too long\n→ Give every stage one owner\n→ Name the message that goes out when a clock runs out\n→ Stop follow-up from living in someone's memory\n→ Spot the stage where deals pile up\n\nThe goal?\n\nNo deal sits without a next step and a deadline.\n\nOne pipeline. One clock per stage. A smarter way to follow up.\n\nThe sheet is FREE. How to get it is on the image 👇",
-   "first_comment": "Comment PIPELINE to get the 12-Stage Pipeline Clock Sheet in your DMs. Every stage has its time limit and what happens when it runs out, and it comes as an Excel file and a CSV you can drop straight into your own sheet.",
-   "sources": [
-    "content/corpus/facts.md: EW-30"
-   ],
-   "numbers_for_signoff": [
-    "12 stages with a clock on each; no-show SMS within 5 minutes (EW-30)"
-   ],
-   "flags": [
-    "The keyword is on the asset's bottom tile and in the first comment (which says what to comment, what's inside and how it's sent), never in the post copy. The resource is built and hosted: preview it under the post, with the three messages that deliver it.",
-    "The resource goes out by manual DM from Adi's profile.",
-    "The post does not list the 12 stage names: they are in the sheet."
-   ],
-   "visual_label": "On the asset (animated 4:5)",
-   "visual_copy": [
-    "THE 12-STAGE PIPELINE CLOCK SHEET",
-    "12 stages. A clock on each.",
-    "No-show SMS within 5 minutes",
-    "Comment PIPELINE to get it"
-   ],
-   "resource": {
-    "name": "The 12-Stage Pipeline Clock Sheet",
-    "keyword": "PIPELINE",
-    "what": "A spreadsheet template: the 12 stages, the time limit on each, the owner and the message that goes out when the clock runs out, including the no-show SMS within 5 minutes.",
-    "url": "https://adisuja.github.io/tantra-revops/pipeline-clock-sheet/",
-    "pages": 2,
-    "files": [
-     {
-      "label": "PDF",
-      "href": "resources/pipeline-clock-sheet/pipeline-clock-sheet.pdf"
-     },
-     {
-      "label": "Excel",
-      "href": "resources/pipeline-clock-sheet/pipeline-clock-sheet.xlsx"
-     },
-     {
-      "label": "CSV",
-      "href": "resources/pipeline-clock-sheet/pipeline-clock-sheet.csv"
-     }
-    ],
-    "preview": "resources/pipeline-clock-sheet/"
-   },
-   "dm": {
-    "message": "Hi {first_name}, thanks for commenting PIPELINE. I'm Adi, the founder.\n\nHere's the 12-Stage Pipeline Clock Sheet:\nhttps://adisuja.github.io/tantra-revops/pipeline-clock-sheet/\n\nIt's the 12 stages in order, each with its time limit and what happens when it runs out. There's an Excel file and a CSV on the page, so you can drop it into your own sheet.\n\nFill in the Owner column first. A stage without one name on it is where deals go quiet.\n\nWhich stage do your deals sit in longest?",
-    "connect": "Hi {first_name}, you commented PIPELINE on the Tantra post about giving every pipeline stage a clock. I'm Adi, the founder. LinkedIn only lets me message connections, so accept this and I'll send it straight over. Adi",
-    "email_subject": "Your 12-Stage Pipeline Clock Sheet",
-    "email_body": "Hi {first_name},\n\nYou commented PIPELINE on the Tantra post about giving every pipeline stage a clock:\n[POST LINK]\n\nHere's the 12-Stage Pipeline Clock Sheet, as promised:\nhttps://adisuja.github.io/tantra-revops/pipeline-clock-sheet/\n\nIt's the 12 stages in order, each with its time limit and what happens when it runs out. There's an Excel file and a CSV on the page, so you can drop it into your own sheet. The link opens straight away, with no sign-up.\n\nFill in the Owner column first. A stage without one name on it is where deals go quiet.\n\nWhich stage do your deals sit in longest? Hit reply and tell me.\n\nAdi\n\nP.S. You're getting this because you asked for it in the comments. If you'd rather not hear from me again, reply \"no\" and that's final."
-   },
-   "key": "b3-TG4",
-   "team_comments": [
-    {
-     "by": "nelbin",
-     "tone": "positive",
-     "text": "Nobody owns the wait. That sentence explains most of the stalled deals sitting in any CRM.",
-     "reply_to": null
-    },
-    {
-     "by": "aquila",
-     "tone": "feedback",
-     "text": "Writing down what happens when a clock runs out is where automation fits. The clock can trigger the message, but a person should still decide anything past a second nudge.",
-     "reply_to": null
-    },
-    {
-     "by": "bhaskar",
-     "tone": "question",
-     "text": "Do all 12 stages need a clock, or can the early ones run looser?",
-     "reply_to": null
-    },
-    {
-     "by": "nelbin",
-     "tone": "feedback",
-     "text": "Bhaskar, all 12. Looser is fine, but loose still needs a number 🕒",
-     "reply_to": 2
-    },
-    {
-     "by": "bharath",
-     "tone": "differs",
-     "text": "I'd be careful with no deal goes quiet as a promise. Clocks show you the quiet deals. They can't stop a buyer going silent, so the sheet needs a closed lost stage as well.",
-     "reply_to": null
-    },
-    {
-     "by": "ben",
-     "tone": "feedback",
-     "text": "The no-show SMS within 5 minutes only works if attendance data lands in time. Test that the no-show flag fires before you trust the SMS 📲",
-     "reply_to": null
-    },
-    {
-     "by": "adi",
-     "tone": "positive",
-     "text": "A deal doesn't need a no to die. Strong line.",
-     "reply_to": null
-    },
-    {
-     "by": "aquila",
-     "tone": "feedback",
-     "text": "Bharath, a closed lost stage with its own clock for a later check-in covers that.",
-     "reply_to": 4
-    },
-    {
-     "by": "adi",
-     "tone": "positive",
-     "text": "Ben, good catch. Test it before every session.",
-     "reply_to": 5
-    },
-    {
-     "by": "bhaskar",
-     "tone": "positive",
-     "text": "Nelbin, and nobody notices until the month's numbers come in 😬",
-     "reply_to": 0
-    }
-   ]
-  },
-  {
-   "id": "TG6",
-   "batch": "3",
-   "profile": "tantra",
-   "platform": "linkedin",
-   "status": "ready",
-   "time": "10:30",
-   "cta": "",
-   "date": "2026-11-23",
-   "short": "Keep outreach off your main domain",
-   "pillar": "Sending infrastructure",
-   "idea": "Cold outreach from the main domain puts every company email at risk; separate domains, a warm-up and sending rules prevent it.",
-   "format": "Image · animated giveaway",
-   "sample": {
-    "id": "ID07",
-    "creator": "Ipsita Dhar",
-    "what": "720x900 (4:5) GIF of a light 'Claude / visitor-intelligence' dashboard with a 'Last 30 days' mono pill: a giant blue-to-teal gradient numeral (27) beside 'qualified demos / last 30 days / ✳ booked by Claude on yoursite.com', a three-stat row (VISITORS 4,812 anonymous by default; IDENTIFIED 1,368 28% of traffic in orange; ICP MATCHES 296 qualified by Claude), and an area chart over Week 1 to Week 4: a blue visitors line with pale blue fill and an orange 'identified by Claude' area beneath, with three tooltips tied by dotted drop lines to orange markers on the identified area ('Sarah R. · Northwind / VP Sales · ICP 81', 'Omar R. · Atlas / COO · ICP 87', 'Ava C. · Solace / VP Sales · ICP 97'). White CTA strip: 'Comment SEND to test it yourself.' with SEND in a blue-to-teal pill. Motion: the dashboard resets to zero and a playhead sweeps the chart, filling the orange area, counting up the stats, and turning anonymous visitor tooltips into named, scored leads.",
-    "url": "https://www.linkedin.com/posts/ipsitadhar14_your-next-sales-lead-is-already-on-your-website-activity-7516418908732555264-k5nm"
-   },
-   "copy_basis": "ID07 template: two caps hook lines, a problem broken mid-sentence, 'Meanwhile' contrast, gap line, fix line, 'Now you can' with four arrow lines, 'All on one', benefit pair, ease line, instruction and punchline, CTA",
-   "media": {
-    "type": "video",
-    "src": "batch-3/TG6",
-    "title": "Keep outreach off your main domain",
-    "files": [
-     "media/batch-3/TG6/poster.jpg?v=20261111065107"
-    ],
-    "video": "media/batch-3/TG6/tantra-b3-TG6-2026-11-23-tantra.mp4?v=20261111065107",
-    "tall": false,
-    "sets": [
-     {
-      "href": "media/batch-3/TG6/tantra-b3-TG6-2026-11-23-tantra.mp4?v=20261111065107",
-      "name": "tantra-b3-TG6-2026-11-23-tantra.mp4",
-      "ext": "mp4",
-      "label": "Download MP4",
-      "bytes": 261330
-     },
-     {
-      "href": "media/batch-3/TG6/tantra-b3-TG6-2026-11-23-tantra.gif?v=20261111065107",
-      "name": "tantra-b3-TG6-2026-11-23-tantra.gif",
-      "ext": "gif",
-      "label": "Download GIF",
-      "bytes": 366551
-     }
-    ]
-   },
-   "text": "YOUR NEXT INVOICE IS ALREADY HEADED FOR SPAM...\n\nAND YOUR COLD OUTREACH IS SENDING IT THERE 👀\n\nCold outreach from your main domain puts\nevery email your company sends at risk.\n\nMeanwhile, your invoices, contracts and customer replies all leave from that same domain.\n\nThat's a pretty risky setup.\n\nSo we wrote down the one we teach instead.\n\nNow you can:\n→ Send outreach from separate look-alike domains, never the main one\n→ Warm each one up for two weeks first\n→ Send between 8am and 8pm their time\n→ Give every email a one-click yes and a one-click no\n\nAll on one page.\n\nYour outreach keeps going.\nYour main domain stays out of it.\n\nAnd a No is final, so nobody hears from you again after saying it.\n\nTick the boxes. Then send.\n\nThe checklist is FREE. How to get it is on the image. 👇",
-   "first_comment": "Type DOMAINS in the comments and we'll send you the Clean Domain Sending Checklist. One page of tick boxes: the look-alike domains, the four DNS records, the two-week warm-up and the sending rules that keep your main domain out of spam.",
-   "sources": [
-    "content/corpus/facts.md: EW-31"
-   ],
-   "numbers_for_signoff": [
-    "separate look-alike domains; two-week warm-up; 8am to 8pm their time; one-click yes and no; a No is final (EW-31)"
-   ],
-   "flags": [
-    "The keyword is on the asset's bottom tile and in the first comment (which says what to comment, what's inside and how it's sent), never in the post copy. The resource is built and hosted: preview it under the post, with the three messages that deliver it.",
-    "The resource goes out by manual DM from Adi's profile.",
-    "The hook is a warning, not a measured fact: it says where outreach from the main domain can send an invoice."
-   ],
-   "visual_label": "On the asset (animated 4:5)",
-   "visual_copy": [
-    "THE CLEAN DOMAIN SENDING CHECKLIST",
-    "Look-alike domains · two-week warm-up · 8am to 8pm their time · one-click yes and no",
-    "Keep outreach off your main domain",
-    "Comment DOMAINS to get it"
-   ],
-   "resource": {
-    "name": "The Clean Domain Sending Checklist",
-    "keyword": "DOMAINS",
-    "what": "A one-page checklist: look-alike sending domains, the two-week warm-up, sending hours (8am to 8pm their time) and the one-click yes and no that keeps a No final.",
-    "url": "https://adisuja.github.io/tantra-revops/clean-domain-checklist/",
-    "pages": 1,
-    "files": [
-     {
-      "label": "PDF",
-      "href": "resources/clean-domain-checklist/clean-domain-checklist.pdf"
-     }
-    ],
-    "preview": "resources/clean-domain-checklist/"
-   },
-   "dm": {
-    "message": "Hi {first_name}, thanks for commenting DOMAINS. I'm Adi, the founder.\n\nHere's the Clean Domain Sending Checklist:\nhttps://adisuja.github.io/tantra-revops/clean-domain-checklist/\n\nIt's one page of tick boxes: the look-alike domains, the four DNS records, the two-week warm-up and the sending rules.\n\nDo the domain section today. The warm-up takes two weeks, so that clock should start first.\n\nAre you sending from your main domain right now?",
-    "connect": "Hi {first_name}, you commented DOMAINS on the Tantra post about cold outreach putting your main domain at risk. I'm Adi, the founder. LinkedIn only lets me message connections, so accept this and I'll send it straight over. Adi",
-    "email_subject": "Your Clean Domain Sending Checklist",
-    "email_body": "Hi {first_name},\n\nYou commented DOMAINS on the Tantra post about cold outreach putting your main domain at risk:\n[POST LINK]\n\nHere's the Clean Domain Sending Checklist, as promised:\nhttps://adisuja.github.io/tantra-revops/clean-domain-checklist/\n\nIt's one page of tick boxes: the look-alike domains, the four DNS records, the two-week warm-up and the sending rules. The link opens straight away, with no sign-up.\n\nDo the domain section today. The warm-up takes two weeks, so that clock should start first.\n\nAre you sending from your main domain right now? Hit reply and tell me.\n\nAdi\n\nP.S. You're getting this because you asked for it in the comments. If you'd rather not hear from me again, reply \"no\" and that's final."
-   },
-   "key": "b3-TG6",
-   "team_comments": [
-    {
-     "by": "bharath",
-     "tone": "positive",
-     "text": "Invoices landing in spam because of cold outreach is the kind of problem nobody connects until finance asks why a client never paid. Separate domains should be the default setup 🛡️",
-     "reply_to": null
-    },
-    {
-     "by": "nelbin",
-     "tone": "feedback",
-     "text": "Add the domain list to someone's monthly checklist. Look-alike domains need renewing, and the one that lapses is always the one doing the most sending.",
-     "reply_to": null
-    },
-    {
-     "by": "aquila",
-     "tone": "question",
-     "text": "For 8am to 8pm their time, where are you getting time zones from? The CRM, or inferred from the company address?",
-     "reply_to": null
-    },
-    {
-     "by": "bharath",
-     "tone": "feedback",
-     "text": "Aquila, company address if there's nothing better. Close enough for a send window.",
-     "reply_to": 2
-    },
-    {
-     "by": "bhaskar",
-     "tone": "differs",
-     "text": "Two weeks of warm-up feels short to me if you're planning real volume. I'd rather ramp slowly for longer than burn a fresh domain in its first month of sending.",
-     "reply_to": null
-    },
-    {
-     "by": "ben",
-     "tone": "positive",
-     "text": "One-click yes, one-click no. Nice and simple ✅",
-     "reply_to": null
-    },
-    {
-     "by": "adi",
-     "tone": "feedback",
-     "text": "A No is final. That's the line I'd want every SDR to read twice. It's what keeps outreach from turning into something buyers resent.",
-     "reply_to": null
-    },
-    {
-     "by": "adi",
-     "tone": "feedback",
-     "text": "Bhaskar, two weeks is the floor. Ramp from there.",
-     "reply_to": 4
-    },
-    {
-     "by": "ben",
-     "tone": "feedback",
-     "text": "Adi, and the no has to update the record, or the next sequence picks them up again 👀",
-     "reply_to": 6
-    },
-    {
-     "by": "nelbin",
-     "tone": "positive",
-     "text": "Finance will thank you. Short checklist, big risk off the table.",
-     "reply_to": 0
+     "by": "tantra",
+     "tone": "reply",
+     "text": "It makes the questions better too. Fit rules should be about the work they do, not who they are.",
+     "reply_to": 10
     }
    ]
   },
@@ -4012,20 +2107,20 @@ window.STUDIO = {
     "src": "batch-4/EA1",
     "title": "The 4-Number Revenue Equation Sheet",
     "files": [
-     "media/batch-4/EA1/poster.jpg?v=20261111065107"
+     "media/batch-4/EA1/poster.jpg?v=20261111084157"
     ],
-    "video": "media/batch-4/EA1/tantra-b4-EA1-2026-11-26-ben.mp4?v=20261111065107",
+    "video": "media/batch-4/EA1/tantra-b4-EA1-2026-11-26-ben.mp4?v=20261111084157",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-4/EA1/tantra-b4-EA1-2026-11-26-ben.mp4?v=20261111065107",
+      "href": "media/batch-4/EA1/tantra-b4-EA1-2026-11-26-ben.mp4?v=20261111084157",
       "name": "tantra-b4-EA1-2026-11-26-ben.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 350924
      },
      {
-      "href": "media/batch-4/EA1/tantra-b4-EA1-2026-11-26-ben.gif?v=20261111065107",
+      "href": "media/batch-4/EA1/tantra-b4-EA1-2026-11-26-ben.gif?v=20261111084157",
       "name": "tantra-b4-EA1-2026-11-26-ben.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -4078,34 +2173,40 @@ window.STUDIO = {
    "key": "b4-EA1",
    "team_comments": [
     {
-     "by": "adi",
-     "tone": "positive",
-     "text": "Change one thing, run it again. That's the discipline most teams skip. They fix the page, the emails and the offer in the same week and then have no idea which one moved the number.",
-     "reply_to": null
-    },
-    {
      "by": "nelbin",
      "tone": "feedback",
      "text": "I'd put this sheet in the weekly review. Four numbers, read out loud, and whoever owns the weakest one says what they're changing 📋",
      "reply_to": null
     },
     {
-     "by": "bhaskar",
-     "tone": "question",
-     "text": "Do you count show-up as live attendance only, or replay views too? It changes which number looks weakest.",
-     "reply_to": null
-    },
-    {
      "by": "ben",
-     "tone": "feedback",
-     "text": "Bhaskar, live only for the equation. Replays get tracked on their own so they don't flatter the show-up rate.",
-     "reply_to": 2
+     "tone": "reply",
+     "text": "Love that. I'd add the date each change went out next to it, so next week's numbers have something to be read against.",
+     "reply_to": 0
     },
     {
      "by": "bharath",
      "tone": "differs",
      "text": "I'd disagree a little with it all fits on one page. The equation does, but clean numbers for each step mean the form, the calendar and the CRM all agreeing on who a person is. That's usually where it breaks.",
      "reply_to": null
+    },
+    {
+     "by": "ben",
+     "tone": "reply",
+     "text": "Bharath, fair on the data side. One email field as the ID across every tool fixes most of it, and the sheet still stays one page.",
+     "reply_to": 2
+    },
+    {
+     "by": "adi",
+     "tone": "positive",
+     "text": "Change one thing, run it again. That's the discipline most teams skip.",
+     "reply_to": null
+    },
+    {
+     "by": "ben",
+     "tone": "reply",
+     "text": "Hardest part too. Three fixes at once feel productive.",
+     "reply_to": 4
     },
     {
      "by": "aquila",
@@ -4115,27 +2216,21 @@ window.STUDIO = {
     },
     {
      "by": "ben",
-     "tone": "feedback",
-     "text": "Bharath, true. One email field as the ID across every tool fixes most of that.",
-     "reply_to": 4
-    },
-    {
-     "by": "adi",
-     "tone": "positive",
-     "text": "Leads and revenue, and a guess in between. Ouch 😬",
-     "reply_to": null
-    },
-    {
-     "by": "aquila",
-     "tone": "positive",
-     "text": "No fixing three things at once. Yes.",
-     "reply_to": null
+     "tone": "reply",
+     "text": "True, and the tracking has to be right before you judge the reminders. If show-up is counted off a bad field, you'll fix the wrong stage.",
+     "reply_to": 6
     },
     {
      "by": "bhaskar",
-     "tone": "positive",
-     "text": "Not more leads. Says the marketing guy 🙃",
+     "tone": "question",
+     "text": "Do you count show-up as live attendance only, or replay views too? 🤔 It changes which number looks weakest.",
      "reply_to": null
+    },
+    {
+     "by": "ben",
+     "tone": "reply",
+     "text": "Live only for the equation. Replays get their own column so they don't flatter show-up 📊",
+     "reply_to": 8
     }
    ]
   },
@@ -4164,20 +2259,20 @@ window.STUDIO = {
     "src": "batch-4/EA2",
     "title": "The 8-Part Prompt Skeleton",
     "files": [
-     "media/batch-4/EA2/poster.jpg?v=20261111065107"
+     "media/batch-4/EA2/poster.jpg?v=20261111084157"
     ],
-    "video": "media/batch-4/EA2/tantra-b4-EA2-2026-12-01-ben.mp4?v=20261111065107",
+    "video": "media/batch-4/EA2/tantra-b4-EA2-2026-12-01-ben.mp4?v=20261111084157",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-4/EA2/tantra-b4-EA2-2026-12-01-ben.mp4?v=20261111065107",
+      "href": "media/batch-4/EA2/tantra-b4-EA2-2026-12-01-ben.mp4?v=20261111084157",
       "name": "tantra-b4-EA2-2026-12-01-ben.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 250027
      },
      {
-      "href": "media/batch-4/EA2/tantra-b4-EA2-2026-12-01-ben.gif?v=20261111065107",
+      "href": "media/batch-4/EA2/tantra-b4-EA2-2026-12-01-ben.gif?v=20261111084157",
       "name": "tantra-b4-EA2-2026-12-01-ben.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -4228,34 +2323,40 @@ window.STUDIO = {
    "key": "b4-EA2",
    "team_comments": [
     {
-     "by": "bharath",
-     "tone": "positive",
-     "text": "Give the model a [FILL] to write and it stops inventing numbers just to finish a sentence. Most bad AI copy starts with a gap the model didn't know it was allowed to leave open.",
-     "reply_to": null
-    },
-    {
      "by": "bhaskar",
      "tone": "feedback",
      "text": "The reference example does more work than people think. Pick one that already performed, not one you just like the look of.",
      "reply_to": null
     },
     {
+     "by": "ben",
+     "tone": "reply",
+     "text": "Good shout. And match the type: a headline to mirror a headline, not a whole page for one block.",
+     "reply_to": 0
+    },
+    {
      "by": "aquila",
      "tone": "question",
-     "text": "Where do the facts live so nobody pastes them fresh every time? A shared doc, or something the prompt pulls in?",
+     "text": "Where do the facts live so nobody pastes them fresh every time? 🧩 A shared doc, or something the prompt pulls in?",
      "reply_to": null
     },
     {
      "by": "ben",
-     "tone": "feedback",
-     "text": "Aquila, one shared facts file per offer. The prompt points at it, nobody retypes it.",
+     "tone": "reply",
+     "text": "One facts file per offer. The prompt points at it 📁",
      "reply_to": 2
     },
     {
-     "by": "adi",
-     "tone": "differs",
-     "text": "Half disagree on one element back, not five. For a first draft of a page I'd rather see the whole thing rough, then go element by element once I can see the shape of it.",
+     "by": "bharath",
+     "tone": "positive",
+     "text": "Give the model a [FILL] to write and it stops inventing numbers just to finish a sentence. Most bad AI copy starts with a gap the model didn't know it was allowed to leave open.",
      "reply_to": null
+    },
+    {
+     "by": "ben",
+     "tone": "reply",
+     "text": "That's why the rules part says no invented numbers and the check looks for any [FILL] still sitting there ✅ Two places catching the same problem.",
+     "reply_to": 4
     },
     {
      "by": "nelbin",
@@ -4264,28 +2365,22 @@ window.STUDIO = {
      "reply_to": null
     },
     {
-     "by": "bharath",
+     "by": "ben",
+     "tone": "reply",
+     "text": "It also means anyone on the team can open someone else's prompt and know where everything is.",
+     "reply_to": 6
+    },
+    {
+     "by": "adi",
      "tone": "differs",
-     "text": "Adi, rough full drafts are where invented numbers sneak in, though. Smaller asks are easier to check.",
-     "reply_to": 4
-    },
-    {
-     "by": "bhaskar",
-     "tone": "positive",
-     "text": "version A and B by default 🙌",
+     "text": "Half disagree on one element back, not five. For a first draft of a page I'd rather see the whole thing rough, then go element by element once I can see the shape.",
      "reply_to": null
     },
     {
-     "by": "aquila",
-     "tone": "feedback",
-     "text": "💡 The check before it answers is worth running as a second pass. A separate prompt that only looks for missing facts and broken rules.",
-     "reply_to": null
-    },
-    {
-     "by": "nelbin",
-     "tone": "question",
-     "text": "Quick one: does the where it sits in your funnel part change per prompt while the rest stays fixed? 🧩",
-     "reply_to": null
+     "by": "ben",
+     "tone": "reply",
+     "text": "Adi, I see the appeal, but rough full drafts are where made-up details slip in. The template block already gives you the shape, so one element at a time still adds up to the page.",
+     "reply_to": 8
     }
    ]
   },
@@ -4314,20 +2409,20 @@ window.STUDIO = {
     "src": "batch-4/EA3",
     "title": "The AI SDR System",
     "files": [
-     "media/batch-4/EA3/poster.jpg?v=20261111065107"
+     "media/batch-4/EA3/poster.jpg?v=20261111084157"
     ],
-    "video": "media/batch-4/EA3/tantra-b4-EA3-2026-12-03-ben.mp4?v=20261111065107",
+    "video": "media/batch-4/EA3/tantra-b4-EA3-2026-12-03-ben.mp4?v=20261111084157",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-4/EA3/tantra-b4-EA3-2026-12-03-ben.mp4?v=20261111065107",
+      "href": "media/batch-4/EA3/tantra-b4-EA3-2026-12-03-ben.mp4?v=20261111084157",
       "name": "tantra-b4-EA3-2026-12-03-ben.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 381457
      },
      {
-      "href": "media/batch-4/EA3/tantra-b4-EA3-2026-12-03-ben.gif?v=20261111065107",
+      "href": "media/batch-4/EA3/tantra-b4-EA3-2026-12-03-ben.gif?v=20261111084157",
       "name": "tantra-b4-EA3-2026-12-03-ben.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -4381,22 +2476,28 @@ window.STUDIO = {
    "key": "b4-EA3",
    "team_comments": [
     {
-     "by": "bharath",
-     "tone": "feedback",
-     "text": "Dedupe is the step that decides whether the rest works. CRM records, LinkedIn searches and old sign-ups rarely share an ID, so I'd match on email and company domain and send anything uncertain to a person instead of merging it.",
+     "by": "aquila",
+     "tone": "positive",
+     "text": "A queue that stops the moment someone replies 🛑 my favourite rule here.",
      "reply_to": null
     },
     {
-     "by": "aquila",
-     "tone": "positive",
-     "text": "A queue that stops the moment someone replies 🛑 if I could only automate one rule in this, it'd be that one.",
-     "reply_to": null
+     "by": "ben",
+     "tone": "reply",
+     "text": "And it stops on every channel at once, not only the one they replied on.",
+     "reply_to": 0
     },
     {
      "by": "adi",
-     "tone": "positive",
-     "text": "The other half stays with people. Good 🫡",
+     "tone": "differs",
+     "text": "I'd be careful calling it half the job. The half Claude does is volume, the half people keep is judgement, and judgement is where deals come from. Worth saying so nobody reads it as the team getting smaller.",
      "reply_to": null
+    },
+    {
+     "by": "ben",
+     "tone": "reply",
+     "text": "Fair, half undersells the people side. I'd still keep the framing though: it's the half that happens before anyone logs in, and approvals, replies and calls all stay with the team.",
+     "reply_to": 2
     },
     {
      "by": "bhaskar",
@@ -4406,15 +2507,21 @@ window.STUDIO = {
     },
     {
      "by": "ben",
-     "tone": "differs",
-     "text": "Bhaskar, I'd keep it to merge fields. A personal line written by AI is the one most likely to be wrong.",
-     "reply_to": 3
+     "tone": "reply",
+     "text": "Merge fields only. A personal line written by AI is the one most likely to be wrong, and a wrong line costs more than a plain one.",
+     "reply_to": 4
     },
     {
-     "by": "nelbin",
+     "by": "bharath",
      "tone": "feedback",
-     "text": "Segments a person approves: I'd name that person. If it's everyone's job it'll be nobody's by week two.",
+     "text": "Dedupe is the step that decides whether the rest works. I'd match on email and company domain and send anything uncertain to a person instead of merging it 🔍",
      "reply_to": null
+    },
+    {
+     "by": "ben",
+     "tone": "reply",
+     "text": "Yes. Uncertain matches get their own tab and a person clears it.",
+     "reply_to": 6
     },
     {
      "by": "nelbin",
@@ -4423,22 +2530,10 @@ window.STUDIO = {
      "reply_to": null
     },
     {
-     "by": "bharath",
-     "tone": "feedback",
-     "text": "Aquila, and it should stop on every channel at once, not only the one they replied on.",
-     "reply_to": 1
-    },
-    {
-     "by": "adi",
-     "tone": "differs",
-     "text": "I'd be careful calling it half the job. The half Claude does is volume, the half people keep is judgement, and judgement is where deals come from. Worth saying so nobody reads it as the team getting smaller.",
-     "reply_to": null
-    },
-    {
-     "by": "bhaskar",
-     "tone": "positive",
-     "text": "Before your team logs in ☕ good framing for a sales leader.",
-     "reply_to": null
+     "by": "ben",
+     "tone": "reply",
+     "text": "Whoever's on the rota, named in the setup 🗓️",
+     "reply_to": 8
     }
    ]
   },
@@ -4467,20 +2562,20 @@ window.STUDIO = {
     "src": "batch-4/EA4",
     "title": "The Calendar Invite Blueprint",
     "files": [
-     "media/batch-4/EA4/poster.jpg?v=20261111065107"
+     "media/batch-4/EA4/poster.jpg?v=20261111084157"
     ],
-    "video": "media/batch-4/EA4/tantra-b4-EA4-2026-12-08-ben.mp4?v=20261111065107",
+    "video": "media/batch-4/EA4/tantra-b4-EA4-2026-12-08-ben.mp4?v=20261111084157",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-4/EA4/tantra-b4-EA4-2026-12-08-ben.mp4?v=20261111065107",
+      "href": "media/batch-4/EA4/tantra-b4-EA4-2026-12-08-ben.mp4?v=20261111084157",
       "name": "tantra-b4-EA4-2026-12-08-ben.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 401590
      },
      {
-      "href": "media/batch-4/EA4/tantra-b4-EA4-2026-12-08-ben.gif?v=20261111065107",
+      "href": "media/batch-4/EA4/tantra-b4-EA4-2026-12-08-ben.gif?v=20261111084157",
       "name": "tantra-b4-EA4-2026-12-08-ben.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -4532,10 +2627,16 @@ window.STUDIO = {
    "key": "b4-EA4",
    "team_comments": [
     {
-     "by": "bhaskar",
-     "tone": "positive",
-     "text": "Written like a meeting instead of an ad is the whole trick. The moment it reads like a promo it gets treated like one, and the calendar is the one place people still check before they plan their day.",
+     "by": "aquila",
+     "tone": "differs",
+     "text": "I'd differ on sending it on its own. Without a confirmation email next to it, a calendar hold from a name they don't recognise can look like spam, so I'd pair the two and have the reminders point to the calendar entry.",
      "reply_to": null
+    },
+    {
+     "by": "ben",
+     "tone": "reply",
+     "text": "Aquila, pairing them makes sense. Confirmation first, calendar entry right after, and the reminders point back to the same event so nothing contradicts.",
+     "reply_to": 0
     },
     {
      "by": "nelbin",
@@ -4545,9 +2646,9 @@ window.STUDIO = {
     },
     {
      "by": "ben",
-     "tone": "feedback",
-     "text": "Nelbin, early enough to land before their week fills up, close enough that they still remember why they said yes.",
-     "reply_to": 1
+     "tone": "reply",
+     "text": "Early enough to land before their week fills up, close enough that they still remember why they said yes.",
+     "reply_to": 2
     },
     {
      "by": "bharath",
@@ -4556,40 +2657,34 @@ window.STUDIO = {
      "reply_to": null
     },
     {
-     "by": "aquila",
-     "tone": "differs",
-     "text": "I'd differ on sending it on its own. Without a confirmation email next to it, a calendar hold from a name they don't recognise can look like spam, so I'd pair the two and have the reminders point to the calendar entry.",
-     "reply_to": null
-    },
-    {
-     "by": "adi",
-     "tone": "positive",
-     "text": "One line that makes declining easy ✨ people trust you more when saying no costs them nothing.",
-     "reply_to": null
-    },
-    {
      "by": "ben",
-     "tone": "feedback",
-     "text": "Aquila, agreed on pairing them. Confirmation first, calendar entry right after.",
+     "tone": "reply",
+     "text": "Worth adding a phone check too 📱 the preview cuts off even sooner there.",
      "reply_to": 4
     },
     {
      "by": "bhaskar",
-     "tone": "feedback",
-     "text": "Test the title under 60 characters on mobile too 📱",
+     "tone": "positive",
+     "text": "Written like a meeting instead of an ad. That's the whole trick ✨",
      "reply_to": null
     },
     {
-     "by": "bharath",
-     "tone": "positive",
-     "text": "A prompt that fills in your own event. Nice touch.",
-     "reply_to": null
+     "by": "ben",
+     "tone": "reply",
+     "text": "The title works the same way. Under 60 characters and it sits in the grid like a real meeting.",
+     "reply_to": 6
     },
     {
      "by": "adi",
      "tone": "question",
      "text": "Does the decline line go in the description or the title? 👀",
      "reply_to": null
+    },
+    {
+     "by": "ben",
+     "tone": "reply",
+     "text": "Description, right under the two opening lines.",
+     "reply_to": 8
     }
    ]
   },
@@ -4618,20 +2713,20 @@ window.STUDIO = {
     "src": "batch-4/EG3",
     "title": "The Book-a-Call Page (With Case Studies)",
     "files": [
-     "media/batch-4/EG3/poster.jpg?v=20261111065107"
+     "media/batch-4/EG3/poster.jpg?v=20261111084157"
     ],
-    "video": "media/batch-4/EG3/tantra-b4-EG3-2026-11-24-ben.mp4?v=20261111065107",
+    "video": "media/batch-4/EG3/tantra-b4-EG3-2026-11-24-ben.mp4?v=20261111084157",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-4/EG3/tantra-b4-EG3-2026-11-24-ben.mp4?v=20261111065107",
+      "href": "media/batch-4/EG3/tantra-b4-EG3-2026-11-24-ben.mp4?v=20261111084157",
       "name": "tantra-b4-EG3-2026-11-24-ben.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 599423
      },
      {
-      "href": "media/batch-4/EG3/tantra-b4-EG3-2026-11-24-ben.gif?v=20261111065107",
+      "href": "media/batch-4/EG3/tantra-b4-EG3-2026-11-24-ben.gif?v=20261111084157",
       "name": "tantra-b4-EG3-2026-11-24-ben.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -4684,40 +2779,16 @@ window.STUDIO = {
    "key": "b4-EG3",
    "team_comments": [
     {
-     "by": "adi",
-     "tone": "positive",
-     "text": "Plenty of good buyers aren't ready on budget on day one. Letting a not yet through to the calendar means you still get the conversation, instead of sending them to someone else who'll take the meeting.",
-     "reply_to": null
-    },
-    {
      "by": "bharath",
      "tone": "feedback",
      "text": "The booking answers should land in the CRM as separate fields, not one long note. Then prep is already sorted by revenue band before anyone opens the record.",
      "reply_to": null
     },
     {
-     "by": "nelbin",
-     "tone": "question",
-     "text": "Who reads the booking answers before the call, the person taking it or someone who preps a brief?",
-     "reply_to": null
-    },
-    {
      "by": "ben",
-     "tone": "feedback",
-     "text": "Nelbin, the person taking it. The answers are short enough to read in a couple of minutes 📝",
-     "reply_to": 2
-    },
-    {
-     "by": "bhaskar",
-     "tone": "differs",
-     "text": "I'd move the case studies above the booking questions. Six questions is a lot to face before you've seen anyone like you get a result, and proof first might lift how many people finish the form.",
-     "reply_to": null
-    },
-    {
-     "by": "ben",
-     "tone": "differs",
-     "text": "Bhaskar, worth testing, but my worry is the calendar ending up further down the page.",
-     "reply_to": 4
+     "tone": "reply",
+     "text": "Yes, and I'd map them one to one with the form so nothing gets renamed between the page and the CRM 🔗 Easier to test that way, too.",
+     "reply_to": 0
     },
     {
      "by": "aquila",
@@ -4726,22 +2797,46 @@ window.STUDIO = {
      "reply_to": null
     },
     {
+     "by": "ben",
+     "tone": "reply",
+     "text": "Copying that block straight across. Then the two can't drift apart.",
+     "reply_to": 2
+    },
+    {
      "by": "adi",
      "tone": "positive",
-     "text": "A straight answer if it isn't a fit. Respect 🫶",
+     "text": "Plenty of good buyers aren't ready on budget on day one. Letting a not yet through to the calendar means you still get the conversation, instead of sending them to someone else who'll take the meeting.",
      "reply_to": null
     },
     {
-     "by": "bharath",
-     "tone": "positive",
-     "text": "Time zone on the first screen. Small, matters.",
-     "reply_to": null
+     "by": "ben",
+     "tone": "reply",
+     "text": "So the budget question is a choice, not a gate. The form takes the answer and the calendar stays open.",
+     "reply_to": 4
     },
     {
      "by": "nelbin",
-     "tone": "positive",
-     "text": "Testimonials word for word, no tidying up. Good rule 👍",
+     "tone": "question",
+     "text": "Who reads the booking answers before the call? 📝",
      "reply_to": null
+    },
+    {
+     "by": "ben",
+     "tone": "reply",
+     "text": "The person taking it. Six short answers, quick read.",
+     "reply_to": 6
+    },
+    {
+     "by": "bhaskar",
+     "tone": "differs",
+     "text": "I'd move the case studies above the booking questions. Six questions is a lot to face before you've seen anyone like you get a result.",
+     "reply_to": null
+    },
+    {
+     "by": "ben",
+     "tone": "reply",
+     "text": "Bhaskar, worth a test, but I'd hold the order. Moving proof up pushes the calendar off the first screen, and that's what a ready buyer came for.",
+     "reply_to": 8
     }
    ]
   },
@@ -4770,20 +2865,20 @@ window.STUDIO = {
     "src": "batch-4/HG1",
     "title": "The Event Countdown Content Calendar",
     "files": [
-     "media/batch-4/HG1/poster.jpg?v=20261111065107"
+     "media/batch-4/HG1/poster.jpg?v=20261111084157"
     ],
-    "video": "media/batch-4/HG1/tantra-b4-HG1-2026-11-24-bhaskar.mp4?v=20261111065107",
+    "video": "media/batch-4/HG1/tantra-b4-HG1-2026-11-24-bhaskar.mp4?v=20261111084157",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-4/HG1/tantra-b4-HG1-2026-11-24-bhaskar.mp4?v=20261111065107",
+      "href": "media/batch-4/HG1/tantra-b4-HG1-2026-11-24-bhaskar.mp4?v=20261111084157",
       "name": "tantra-b4-HG1-2026-11-24-bhaskar.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 348753
      },
      {
-      "href": "media/batch-4/HG1/tantra-b4-HG1-2026-11-24-bhaskar.gif?v=20261111065107",
+      "href": "media/batch-4/HG1/tantra-b4-HG1-2026-11-24-bhaskar.gif?v=20261111084157",
       "name": "tantra-b4-HG1-2026-11-24-bhaskar.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -4837,64 +2932,64 @@ window.STUDIO = {
    "key": "b4-HG1",
    "team_comments": [
     {
-     "by": "nelbin",
-     "tone": "positive",
-     "text": "Date every post before you write it 🗓️ That one rule stops the starts-tomorrow post that goes out on the wrong day.",
+     "by": "aquila",
+     "tone": "differs",
+     "text": "One every 3 days in the last two weeks feels light to me. The final days before a session are when people actually decide, so I'd want more happening there.",
      "reply_to": null
     },
     {
-     "by": "adi",
-     "tone": "positive",
-     "text": "Plan backwards from the session date. Most people plan forwards from whatever they feel like posting this week, and then the invites all bunch up at the end in a panic.",
-     "reply_to": null
+     "by": "bhaskar",
+     "tone": "reply",
+     "text": "That's what the reminders are for, Aquila. The feed stays at 1 post a day at most, and the people who already signed up hear from you in their inbox instead.",
+     "reply_to": 0
     },
     {
      "by": "ben",
      "tone": "question",
-     "text": "Does the registration link in the first comment get its own tracking per post? Would be good to know which of the 12 actually drove sign-ups.",
+     "text": "Does the registration link in the first comment get its own tracking per post? Would love to know which of the 12 actually drove sign-ups 🤔",
      "reply_to": null
     },
     {
      "by": "bhaskar",
-     "tone": "feedback",
-     "text": "Ben, yes, one tagged link per post. Otherwise the calendar can't tell you anything.",
+     "tone": "reply",
+     "text": "One tagged link per post, yes. Without it the calendar can't tell you a thing.",
      "reply_to": 2
     },
     {
-     "by": "aquila",
-     "tone": "differs",
-     "text": "One every 3 days in the last two weeks feels light to me. The final couple of days before a session are when people actually decide, so I'd want more happening there.",
+     "by": "nelbin",
+     "tone": "positive",
+     "text": "Date every post before you write it 🗓️ Stops the wrong-day post.",
      "reply_to": null
     },
     {
      "by": "bhaskar",
-     "tone": "differs",
-     "text": "Aquila, reminders cover those days. The posts stay at one a day max.",
+     "tone": "reply",
+     "text": "Wording too. A dated post can't say the wrong day.",
      "reply_to": 4
-    },
-    {
-     "by": "bharath",
-     "tone": "feedback",
-     "text": "The teaching rotation is easy to hand to Claude: problem, method, worked example, mistake. Give it the session brief and it drafts the 7 with the dates already on them 🤖",
-     "reply_to": null
-    },
-    {
-     "by": "nelbin",
-     "tone": "feedback",
-     "text": "Bharath, and someone still checks every date by hand before anything gets scheduled ✅",
-     "reply_to": 6
     },
     {
      "by": "adi",
      "tone": "positive",
-     "text": "Never two a day. Good line 👏",
+     "text": "Plan backwards from the session date. Most people plan forwards from whatever they feel like posting, then the invites all bunch up at the end.",
      "reply_to": null
     },
     {
-     "by": "ben",
-     "tone": "positive",
-     "text": "No link in the post body. Smart.",
+     "by": "bhaskar",
+     "tone": "reply",
+     "text": "Bunched invites read like panic. Spread across the last two weeks, they read like a plan 📆",
+     "reply_to": 6
+    },
+    {
+     "by": "bharath",
+     "tone": "feedback",
+     "text": "The teaching rotation is easy to hand to Claude: problem, method, worked example, mistake. Give it the session brief and it drafts the 7 with dates already on them 🤖",
      "reply_to": null
+    },
+    {
+     "by": "bhaskar",
+     "tone": "reply",
+     "text": "The planning prompt does exactly that. A person still checks every date by hand before anything's scheduled.",
+     "reply_to": 8
     }
    ]
   },
@@ -4923,20 +3018,20 @@ window.STUDIO = {
     "src": "batch-4/HG2",
     "title": "The Value Equation Scorecard",
     "files": [
-     "media/batch-4/HG2/poster.jpg?v=20261111065107"
+     "media/batch-4/HG2/poster.jpg?v=20261111084157"
     ],
-    "video": "media/batch-4/HG2/tantra-b4-HG2-2026-11-26-bhaskar.mp4?v=20261111065107",
+    "video": "media/batch-4/HG2/tantra-b4-HG2-2026-11-26-bhaskar.mp4?v=20261111084157",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-4/HG2/tantra-b4-HG2-2026-11-26-bhaskar.mp4?v=20261111065107",
+      "href": "media/batch-4/HG2/tantra-b4-HG2-2026-11-26-bhaskar.mp4?v=20261111084157",
       "name": "tantra-b4-HG2-2026-11-26-bhaskar.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 350230
      },
      {
-      "href": "media/batch-4/HG2/tantra-b4-HG2-2026-11-26-bhaskar.gif?v=20261111065107",
+      "href": "media/batch-4/HG2/tantra-b4-HG2-2026-11-26-bhaskar.gif?v=20261111084157",
       "name": "tantra-b4-HG2-2026-11-26-bhaskar.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -4991,64 +3086,64 @@ window.STUDIO = {
    "key": "b4-HG2",
    "team_comments": [
     {
-     "by": "adi",
-     "tone": "positive",
-     "text": "Bigger promises get doubted. Less time and less effort get believed. Wish more founders wrote offers like that 🎯",
-     "reply_to": null
-    },
-    {
-     "by": "bharath",
-     "tone": "feedback",
-     "text": "Proof they can check in ten seconds is the one I'd build for. A public case page or a demo they can click beats a testimonial screenshot, in my view 🔍",
-     "reply_to": null
-    },
-    {
      "by": "nelbin",
      "tone": "question",
-     "text": "Who does the scoring? If it's the founder, likelihood comes out an 8 every time.",
+     "text": "Who does the scoring? If it's the founder, likelihood comes out near 10 every time 😅",
      "reply_to": null
     },
     {
      "by": "bhaskar",
-     "tone": "feedback",
-     "text": "Nelbin, someone who'd happily say no to the offer. Never the person who wrote it.",
-     "reply_to": 2
-    },
-    {
-     "by": "aquila",
-     "tone": "feedback",
-     "text": "Effort is where automation earns its place. Every reminder and follow-up you run for them is a step they don't have to take.",
-     "reply_to": null
-    },
-    {
-     "by": "ben",
-     "tone": "differs",
-     "text": "Time delay deserves more weight than the others, for me. If nothing happens in week one, most buyers never stick around long enough to see the dream outcome you promised them.",
-     "reply_to": null
-    },
-    {
-     "by": "adi",
-     "tone": "differs",
-     "text": "Ben, maybe, but equal weights keep the scorecard simple. Simple gets used 😉",
-     "reply_to": 5
+     "tone": "reply",
+     "text": "Someone who'd happily say no to the offer. Never the person who wrote it.",
+     "reply_to": 0
     },
     {
      "by": "bharath",
      "tone": "feedback",
-     "text": "Aquila, and every step done for them has to actually work. Broken automation adds effort back.",
-     "reply_to": 4
+     "text": "Proof they can check in ten seconds is the one I'd build for. A public case page or a demo they can click beats a screenshot of a testimonial, in my view 🔍",
+     "reply_to": null
+    },
+    {
+     "by": "bhaskar",
+     "tone": "reply",
+     "text": "Same view here. A screenshot asks them to trust you, a page they can click lets them check, and checking is what moves likelihood.",
+     "reply_to": 2
     },
     {
      "by": "ben",
-     "tone": "positive",
-     "text": "10 booked calls a month beats more pipeline. Every time.",
+     "tone": "differs",
+     "text": "Time delay deserves more weight than the other three, for me. If nothing happens in week one, buyers don't stay long enough to see the dream outcome.",
      "reply_to": null
     },
     {
-     "by": "nelbin",
-     "tone": "positive",
-     "text": "Fix the two lowest, not all four. Good discipline 💪",
+     "by": "bhaskar",
+     "tone": "reply",
+     "text": "I'd keep equal weights, Ben. Simple scorecards get used, and a low time score still shows up as one of your two fixes.",
+     "reply_to": 4
+    },
+    {
+     "by": "aquila",
+     "tone": "feedback",
+     "text": "Effort is where automation earns its place. Every follow-up you run for them is a step they skip ⚙️",
      "reply_to": null
+    },
+    {
+     "by": "bhaskar",
+     "tone": "reply",
+     "text": "Only if it works, mind. Broken automation hands the effort straight back to them.",
+     "reply_to": 6
+    },
+    {
+     "by": "adi",
+     "tone": "positive",
+     "text": "Bigger promises get doubted. Less effort gets believed. Nicely put 🎯",
+     "reply_to": null
+    },
+    {
+     "by": "bhaskar",
+     "tone": "reply",
+     "text": "Hardest one for founders. They all lead with size.",
+     "reply_to": 8
     }
    ]
   },
@@ -5077,20 +3172,20 @@ window.STUDIO = {
     "src": "batch-4/HG3",
     "title": "The Offer Ladder Worksheet",
     "files": [
-     "media/batch-4/HG3/poster.jpg?v=20261111065107"
+     "media/batch-4/HG3/poster.jpg?v=20261111084157"
     ],
-    "video": "media/batch-4/HG3/tantra-b4-HG3-2026-12-01-bhaskar.mp4?v=20261111065107",
+    "video": "media/batch-4/HG3/tantra-b4-HG3-2026-12-01-bhaskar.mp4?v=20261111084157",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-4/HG3/tantra-b4-HG3-2026-12-01-bhaskar.mp4?v=20261111065107",
+      "href": "media/batch-4/HG3/tantra-b4-HG3-2026-12-01-bhaskar.mp4?v=20261111084157",
       "name": "tantra-b4-HG3-2026-12-01-bhaskar.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 486341
      },
      {
-      "href": "media/batch-4/HG3/tantra-b4-HG3-2026-12-01-bhaskar.gif?v=20261111065107",
+      "href": "media/batch-4/HG3/tantra-b4-HG3-2026-12-01-bhaskar.gif?v=20261111084157",
       "name": "tantra-b4-HG3-2026-12-01-bhaskar.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -5144,34 +3239,40 @@ window.STUDIO = {
    "key": "b4-HG3",
    "team_comments": [
     {
-     "by": "adi",
-     "tone": "positive",
-     "text": "Your first offer has one job. Pay for the traffic. Plenty of founders need to hear that twice.",
-     "reply_to": null
-    },
-    {
      "by": "bharath",
      "tone": "question",
-     "text": "How do you price the entry offer before you know your real cost per buyer? Guess first, then adjust once the ads have run for a few weeks?",
+     "text": "How do you price the entry offer before you know your real cost per buyer? 🪜 Guess first, then adjust once the ads have run a while?",
      "reply_to": null
     },
     {
      "by": "bhaskar",
-     "tone": "feedback",
-     "text": "Bharath, guess from what a sign-up costs you today, then reprice once you've got real numbers 💸",
-     "reply_to": 1
-    },
-    {
-     "by": "nelbin",
-     "tone": "feedback",
-     "text": "Each rung needs its own owner and its own weekly number. Otherwise the core offer gets all the attention and the entry offer quietly stops covering anything, and nobody notices for months.",
-     "reply_to": null
+     "tone": "reply",
+     "text": "Pretty much. Start from what a sign-up costs you today, price the entry offer to cover it, then reprice once real numbers come in 💸",
+     "reply_to": 0
     },
     {
      "by": "aquila",
      "tone": "differs",
-     "text": "Not sure the flagship belongs on the same ladder. The few who want it built with them often arrive through a referral, not by climbing rung by rung, at least in B2B services.",
+     "text": "Not sure the flagship belongs on the same ladder. In B2B services, the few who want it built with them often come by referral, not rung by rung.",
      "reply_to": null
+    },
+    {
+     "by": "bhaskar",
+     "tone": "reply",
+     "text": "Some do, I'll grant that. The ladder still tells you who's ready to be asked, and a referral buyer can step on at any rung.",
+     "reply_to": 2
+    },
+    {
+     "by": "adi",
+     "tone": "positive",
+     "text": "Your first offer has one job. Plenty of founders need to hear that twice.",
+     "reply_to": null
+    },
+    {
+     "by": "bhaskar",
+     "tone": "reply",
+     "text": "Usually the ones who priced it like a discount 😅",
+     "reply_to": 4
     },
     {
      "by": "ben",
@@ -5180,28 +3281,22 @@ window.STUDIO = {
      "reply_to": null
     },
     {
-     "by": "adi",
-     "tone": "differs",
-     "text": "Aquila, some do. The ladder still tells you who's ready to be asked.",
-     "reply_to": 4
-    },
-    {
-     "by": "ben",
-     "tone": "feedback",
-     "text": "Nelbin, and tag each sale with the rung it came from, or those weekly numbers won't add up.",
-     "reply_to": 3
-    },
-    {
-     "by": "bharath",
-     "tone": "positive",
-     "text": "Nobody buys the expensive thing first. Said plainly, and it's true 🪜",
-     "reply_to": null
+     "by": "bhaskar",
+     "tone": "reply",
+     "text": "Five lines in the post, five rows on the worksheet, same order, so nothing gets skipped.",
+     "reply_to": 6
     },
     {
      "by": "nelbin",
-     "tone": "positive",
-     "text": "Growth costing more every month. Painful line to read 😬",
+     "tone": "feedback",
+     "text": "Each rung needs its own owner and its own weekly number. Otherwise the core offer gets all the attention, the entry offer quietly stops covering anything, and nobody notices for a long time.",
      "reply_to": null
+    },
+    {
+     "by": "bhaskar",
+     "tone": "reply",
+     "text": "Nelbin, the entry price check is that weekly number for the first paid rung: it covers the traffic or it doesn't.",
+     "reply_to": 8
     }
    ]
   },
@@ -5230,20 +3325,20 @@ window.STUDIO = {
     "src": "batch-4/HG6",
     "title": "The 1-in-5 Post and DM Flow",
     "files": [
-     "media/batch-4/HG6/poster.jpg?v=20261111065107"
+     "media/batch-4/HG6/poster.jpg?v=20261111084157"
     ],
-    "video": "media/batch-4/HG6/tantra-b4-HG6-2026-12-03-bhaskar.mp4?v=20261111065107",
+    "video": "media/batch-4/HG6/tantra-b4-HG6-2026-12-03-bhaskar.mp4?v=20261111084157",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-4/HG6/tantra-b4-HG6-2026-12-03-bhaskar.mp4?v=20261111065107",
+      "href": "media/batch-4/HG6/tantra-b4-HG6-2026-12-03-bhaskar.mp4?v=20261111084157",
       "name": "tantra-b4-HG6-2026-12-03-bhaskar.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 421853
      },
      {
-      "href": "media/batch-4/HG6/tantra-b4-HG6-2026-12-03-bhaskar.gif?v=20261111065107",
+      "href": "media/batch-4/HG6/tantra-b4-HG6-2026-12-03-bhaskar.gif?v=20261111084157",
       "name": "tantra-b4-HG6-2026-12-03-bhaskar.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -5296,16 +3391,16 @@ window.STUDIO = {
    "key": "b4-HG6",
    "team_comments": [
     {
-     "by": "aquila",
-     "tone": "positive",
-     "text": "A DM flow that stops on day 10. Most sequences never learn to stop 🛑",
+     "by": "ben",
+     "tone": "differs",
+     "text": "One in five might be too few for a small account. Without many followers yet, I'd ask a bit more often and watch whether the teaching posts still get read.",
      "reply_to": null
     },
     {
-     "by": "adi",
-     "tone": "feedback",
-     "text": "No pitch in the first DM is the hardest one to stick to. Answer them properly, ask one question, and let them be the one who brings up a call.",
-     "reply_to": null
+     "by": "bhaskar",
+     "tone": "reply",
+     "text": "Small accounts are where the ratio matters most, honestly. They need the teaching posts more than anyone, because they're what gives people a reason to follow in the first place.",
+     "reply_to": 0
     },
     {
      "by": "nelbin",
@@ -5314,46 +3409,46 @@ window.STUDIO = {
      "reply_to": null
     },
     {
+     "by": "bhaskar",
+     "tone": "reply",
+     "text": "Nelbin, without it you only know you got DMs, not which post earned them.",
+     "reply_to": 2
+    },
+    {
+     "by": "adi",
+     "tone": "positive",
+     "text": "No pitch in the first DM. Hardest rule to stick to, and the right one.",
+     "reply_to": null
+    },
+    {
+     "by": "bhaskar",
+     "tone": "reply",
+     "text": "Answer, ask one question, let them raise the call 🙌",
+     "reply_to": 4
+    },
+    {
      "by": "bharath",
      "tone": "question",
-     "text": "Is the log a sheet, or does it live in the CRM? Matching a DM back to the post that started it is the fiddly bit.",
+     "text": "Is the log a sheet or does it live in the CRM? Matching a DM back to its post is the fiddly bit.",
      "reply_to": null
     },
     {
      "by": "bhaskar",
-     "tone": "feedback",
-     "text": "Bharath, CRM. Post as a field. Sheets get abandoned.",
-     "reply_to": 3
-    },
-    {
-     "by": "ben",
-     "tone": "differs",
-     "text": "One in five might be too few for a small account. With not many followers yet, I'd ask a bit more often and watch whether the teaching posts still get read.",
-     "reply_to": null
-    },
-    {
-     "by": "bhaskar",
-     "tone": "differs",
-     "text": "Ben, I'd still hold the ratio. Asking more on a small account just wears it out faster.",
-     "reply_to": 5
+     "tone": "reply",
+     "text": "CRM, with the post as a field. Sheets get abandoned.",
+     "reply_to": 6
     },
     {
      "by": "aquila",
      "tone": "feedback",
-     "text": "Adi, same with the day 3 follow-up. One useful thing, not a nudge.",
-     "reply_to": 1
-    },
-    {
-     "by": "bharath",
-     "tone": "positive",
-     "text": "Teach four times. Ask once. Clean closing line 🎓",
+     "text": "Day 10 stop should be automatic, not a memory test 🛑",
      "reply_to": null
     },
     {
-     "by": "nelbin",
-     "tone": "question",
-     "text": "Who writes the question for post 5? It decides how the whole thing goes.",
-     "reply_to": null
+     "by": "bhaskar",
+     "tone": "reply",
+     "text": "And a reply fires the stop as well, so nobody gets the day 3 message after they've already answered.",
+     "reply_to": 8
     }
    ]
   },
@@ -5382,20 +3477,20 @@ window.STUDIO = {
     "src": "batch-4/NA1",
     "title": "The Calendar Invite Blueprint",
     "files": [
-     "media/batch-4/NA1/poster.jpg?v=20261111065107"
+     "media/batch-4/NA1/poster.jpg?v=20261111084157"
     ],
-    "video": "media/batch-4/NA1/tantra-b4-NA1-2026-11-24-nelbin.mp4?v=20261111065107",
+    "video": "media/batch-4/NA1/tantra-b4-NA1-2026-11-24-nelbin.mp4?v=20261111084157",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-4/NA1/tantra-b4-NA1-2026-11-24-nelbin.mp4?v=20261111065107",
+      "href": "media/batch-4/NA1/tantra-b4-NA1-2026-11-24-nelbin.mp4?v=20261111084157",
       "name": "tantra-b4-NA1-2026-11-24-nelbin.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 426301
      },
      {
-      "href": "media/batch-4/NA1/tantra-b4-NA1-2026-11-24-nelbin.gif?v=20261111065107",
+      "href": "media/batch-4/NA1/tantra-b4-NA1-2026-11-24-nelbin.gif?v=20261111084157",
       "name": "tantra-b4-NA1-2026-11-24-nelbin.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -5449,64 +3544,64 @@ window.STUDIO = {
    "key": "b4-NA1",
    "team_comments": [
     {
-     "by": "adi",
-     "tone": "positive",
-     "text": "The line that makes saying no easy is the bit most people skip. It's also why the yeses mean something.",
-     "reply_to": null
-    },
-    {
-     "by": "bhaskar",
+     "by": "ben",
      "tone": "feedback",
-     "text": "Written like a meeting, not an ad. That's the hook, honestly. I'd test the title the way you'd test a subject line, because in a calendar grid it's the only thing they read before deciding 👀",
+     "text": "The test on your own calendar is the step I'd never skip. Google and Outlook cut long titles at different points, and the phone grid is tighter again, so check all three 📱",
      "reply_to": null
     },
     {
      "by": "nelbin",
-     "tone": "feedback",
-     "text": "Agreed. The 60 character cap does most of that work.",
-     "reply_to": 1
+     "tone": "reply",
+     "text": "Cheap to do as well. Send it to yourself, open it on both and on your phone, then fix the title before anyone else sees it.",
+     "reply_to": 0
     },
     {
-     "by": "aquila",
-     "tone": "question",
-     "text": "Nelbin, what happens on the reminder side once it's accepted? Does the invite carry the updates, or is there still a separate nudge the day before?",
+     "by": "adi",
+     "tone": "positive",
+     "text": "The line that makes saying no easy. That's what makes every yes worth something.",
      "reply_to": null
     },
     {
-     "by": "ben",
-     "tone": "feedback",
-     "text": "the test on your own calendar is underrated. Google and Outlook cut titles at different points, so check it on a phone as well 📱",
-     "reply_to": null
+     "by": "nelbin",
+     "tone": "reply",
+     "text": "It keeps the calendar honest too. A clean no beats a tentative who never turns up 👍",
+     "reply_to": 2
     },
     {
      "by": "bharath",
      "tone": "differs",
-     "text": "I'd push back a little on 8 to 12 days out. For a senior buyer whose week fills up early, that can already be too late. Send earlier to that segment and keep the window for everyone else.",
+     "text": "I'd push back a little on 8 to 12 days out for senior buyers. Their weeks fill up early, so for that segment I'd send sooner and keep the window for everyone else.",
      "reply_to": null
-    },
-    {
-     "by": "adi",
-     "tone": "feedback",
-     "text": "Bharath, earlier invites get forgotten though. The reminders would have to carry it then.",
-     "reply_to": 5
     },
     {
      "by": "nelbin",
-     "tone": "feedback",
-     "text": "Aquila, the invite carries the updates. One edit and every calendar changes.",
-     "reply_to": 3
-    },
-    {
-     "by": "bharath",
-     "tone": "positive",
-     "text": "Opening lines that say who it's for. Simple, and rare ✅",
-     "reply_to": null
+     "tone": "reply",
+     "text": "I'll hold the line on this one, Bharath. Send much earlier and the invite gets buried, then the reminders end up doing all the work. Inside the window it's still fresh when they plan the week.",
+     "reply_to": 4
     },
     {
      "by": "bhaskar",
-     "tone": "positive",
-     "text": "A prompt for the invite itself. Nice touch 🙌",
+     "tone": "question",
+     "text": "Does the 60 character title still need the event name, or just the outcome? 🤔",
      "reply_to": null
+    },
+    {
+     "by": "nelbin",
+     "tone": "reply",
+     "text": "Outcome first, name in the opening lines.",
+     "reply_to": 6
+    },
+    {
+     "by": "aquila",
+     "tone": "feedback",
+     "text": "Once it's accepted, edit the invite rather than sending a new one 🔄",
+     "reply_to": null
+    },
+    {
+     "by": "nelbin",
+     "tone": "reply",
+     "text": "Yes, one edit and every calendar updates, so nobody turns up with an old time.",
+     "reply_to": 8
     }
    ]
   },
@@ -5535,20 +3630,20 @@ window.STUDIO = {
     "src": "batch-4/NA2",
     "title": "The AI SDR System",
     "files": [
-     "media/batch-4/NA2/poster.jpg?v=20261111065107"
+     "media/batch-4/NA2/poster.jpg?v=20261111084157"
     ],
-    "video": "media/batch-4/NA2/tantra-b4-NA2-2026-11-26-nelbin.mp4?v=20261111065107",
+    "video": "media/batch-4/NA2/tantra-b4-NA2-2026-11-26-nelbin.mp4?v=20261111084157",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-4/NA2/tantra-b4-NA2-2026-11-26-nelbin.mp4?v=20261111065107",
+      "href": "media/batch-4/NA2/tantra-b4-NA2-2026-11-26-nelbin.mp4?v=20261111084157",
       "name": "tantra-b4-NA2-2026-11-26-nelbin.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 204207
      },
      {
-      "href": "media/batch-4/NA2/tantra-b4-NA2-2026-11-26-nelbin.gif?v=20261111065107",
+      "href": "media/batch-4/NA2/tantra-b4-NA2-2026-11-26-nelbin.gif?v=20261111084157",
       "name": "tantra-b4-NA2-2026-11-26-nelbin.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -5602,64 +3697,64 @@ window.STUDIO = {
    "key": "b4-NA2",
    "team_comments": [
     {
-     "by": "bharath",
-     "tone": "feedback",
-     "text": "Checking the first 25 rows is the guardrail I'd keep forever, not just at setup. Fit rules drift every time the offer changes, so spot check a sample whenever the brief moves.",
-     "reply_to": null
-    },
-    {
-     "by": "adi",
-     "tone": "positive",
-     "text": "Nothing goes out until a person says yes. That's the line 👏",
-     "reply_to": null
-    },
-    {
-     "by": "bhaskar",
-     "tone": "differs",
-     "text": "Small disagreement on merge fields only. For the top accounts I'd still let a person write one custom line, because those are the deals that pay for everything else. For the rest, merge fields are plenty.",
+     "by": "aquila",
+     "tone": "question",
+     "text": "When someone replies on LinkedIn but the email follow-up is already queued, what stops it going out? I'd want to see that before trusting the timing 🤔",
      "reply_to": null
     },
     {
      "by": "nelbin",
-     "tone": "feedback",
-     "text": "Bhaskar, fine for the top accounts, as long as it's the rep writing that line and not the AI guessing.",
-     "reply_to": 2
-    },
-    {
-     "by": "aquila",
-     "tone": "question",
-     "text": "Who owns the follow-up timing when someone answers on LinkedIn but the email step is already queued? 🤔",
-     "reply_to": null
-    },
-    {
-     "by": "ben",
-     "tone": "positive",
-     "text": "that opening line 😭 too real",
-     "reply_to": null
+     "tone": "reply",
+     "text": "A reply on any channel pauses every channel for that buyer. The follow-ups only run while it's quiet, and from there a person picks it up.",
+     "reply_to": 0
     },
     {
      "by": "bharath",
      "tone": "feedback",
-     "text": "Aquila, an answer on any channel pauses every channel for that buyer. The timing only runs while it's quiet.",
-     "reply_to": 4
+     "text": "Checking the first 25 rows is the guardrail I'd keep forever, not only at setup. Fit rules drift whenever the offer changes, so pull a fresh sample every time the brief moves.",
+     "reply_to": null
+    },
+    {
+     "by": "nelbin",
+     "tone": "reply",
+     "text": "Agreed, and it goes on the weekly checklist with a name next to it. Otherwise it's the step everyone assumes someone else already did ✅",
+     "reply_to": 2
     },
     {
      "by": "ben",
      "tone": "feedback",
-     "text": "A source column before the merge would help: CRM, search or sign-up. Makes duplicates far easier to trace later.",
+     "text": "A source column before the merge would help: CRM, search or sign-up. Makes duplicates far easier to trace.",
      "reply_to": null
     },
     {
-     "by": "aquila",
+     "by": "nelbin",
+     "tone": "reply",
+     "text": "Adding it. Cheap now, painful to rebuild later.",
+     "reply_to": 4
+    },
+    {
+     "by": "adi",
      "tone": "positive",
-     "text": "Sorting into segments before drafting is the right order. Most teams do it the other way round.",
+     "text": "That opening line 😭 Too many teams still pay for exactly that.",
      "reply_to": null
+    },
+    {
+     "by": "nelbin",
+     "tone": "reply",
+     "text": "And it's the dullest hour of anyone's day. Hand it to Claude and the team's time goes on approvals and calls.",
+     "reply_to": 6
     },
     {
      "by": "bhaskar",
-     "tone": "question",
-     "text": "Segment drives the channel too, or just the copy?",
+     "tone": "differs",
+     "text": "Small disagreement on merge fields only. For the handful of top accounts I'd let a rep write one custom line. Those deals are worth the extra minute.",
      "reply_to": null
+    },
+    {
+     "by": "nelbin",
+     "tone": "reply",
+     "text": "Fine by me for the top accounts, Bhaskar, as long as it's the rep writing that line and not the AI guessing at one 🙂",
+     "reply_to": 8
     }
    ]
   },
@@ -5688,20 +3783,20 @@ window.STUDIO = {
     "src": "batch-4/NA3",
     "title": "The Outreach Limits Cheat Sheet",
     "files": [
-     "media/batch-4/NA3/poster.jpg?v=20261111065107"
+     "media/batch-4/NA3/poster.jpg?v=20261111084157"
     ],
-    "video": "media/batch-4/NA3/tantra-b4-NA3-2026-12-01-nelbin.mp4?v=20261111065107",
+    "video": "media/batch-4/NA3/tantra-b4-NA3-2026-12-01-nelbin.mp4?v=20261111084157",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-4/NA3/tantra-b4-NA3-2026-12-01-nelbin.mp4?v=20261111065107",
+      "href": "media/batch-4/NA3/tantra-b4-NA3-2026-12-01-nelbin.mp4?v=20261111084157",
       "name": "tantra-b4-NA3-2026-12-01-nelbin.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 330050
      },
      {
-      "href": "media/batch-4/NA3/tantra-b4-NA3-2026-12-01-nelbin.gif?v=20261111065107",
+      "href": "media/batch-4/NA3/tantra-b4-NA3-2026-12-01-nelbin.gif?v=20261111084157",
       "name": "tantra-b4-NA3-2026-12-01-nelbin.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -5754,64 +3849,64 @@ window.STUDIO = {
    "key": "b4-NA3",
    "team_comments": [
     {
-     "by": "aquila",
-     "tone": "feedback",
-     "text": "The 14 day withdraw is the one I'd automate first. Nobody remembers to go back and clean pending requests by hand, and that pile is what gets an account flagged.",
-     "reply_to": null
-    },
-    {
-     "by": "adi",
-     "tone": "positive",
-     "text": "Check the limit before you write. Good rule for most things 😄",
-     "reply_to": null
-    },
-    {
      "by": "bhaskar",
      "tone": "differs",
-     "text": "Under 8 words is still long for a lot of subject lines, I'd argue. Three or four words that read like a note from a colleague tend to get opened before a full sentence does.",
+     "text": "Under 8 words is still long for a lot of subject lines. Three or four words that read like a note from a colleague tend to get opened before a full sentence does.",
      "reply_to": null
     },
     {
      "by": "nelbin",
-     "tone": "feedback",
-     "text": "Bhaskar, fair. Under 8 is the ceiling, not the target.",
-     "reply_to": 2
-    },
-    {
-     "by": "ben",
-     "tone": "positive",
-     "text": "the counter is my favourite part. Paste, check, fix, done ✅",
-     "reply_to": null
-    },
-    {
-     "by": "bharath",
-     "tone": "question",
-     "text": "For WhatsApp, where does the opt-in actually live? If it isn't a field in the CRM, someone will message a cold list by mistake sooner or later.",
-     "reply_to": null
-    },
-    {
-     "by": "aquila",
-     "tone": "feedback",
-     "text": "Bharath, a CRM field the sequence checks before that step fires. No field, no message.",
-     "reply_to": 5
-    },
-    {
-     "by": "adi",
-     "tone": "question",
-     "text": "Aquila, would you withdraw them automatically, or flag them for someone to look at first?",
+     "tone": "reply",
+     "text": "Fair. Under 8 is the ceiling, not the target.",
      "reply_to": 0
     },
     {
      "by": "ben",
      "tone": "feedback",
-     "text": "SMS splitting in two also breaks anything you put at the end of it. Worth sending a test to a real phone before the first batch 📲",
+     "text": "SMS splitting in two also breaks whatever sits at the end, usually the link. Send a test to a real phone before the first batch 📲",
      "reply_to": null
     },
     {
-     "by": "bhaskar",
-     "tone": "positive",
-     "text": "The speed limit hook works 🚦 Everyone's had that restriction scare at some point.",
+     "by": "nelbin",
+     "tone": "reply",
+     "text": "Good shout 🙌 The phone test goes right after the counter, so it's the last thing done before a batch goes.",
+     "reply_to": 2
+    },
+    {
+     "by": "aquila",
+     "tone": "question",
+     "text": "Would you withdraw the 14 day requests automatically, or flag them for a person first?",
      "reply_to": null
+    },
+    {
+     "by": "nelbin",
+     "tone": "reply",
+     "text": "Automatically, Aquila. There's no judgement call in an unanswered request, so a weekly job clears them and nobody has to remember. The time saved goes on replies instead.",
+     "reply_to": 4
+    },
+    {
+     "by": "adi",
+     "tone": "positive",
+     "text": "Check the limit before you write. Good rule well beyond LinkedIn 😄",
+     "reply_to": null
+    },
+    {
+     "by": "nelbin",
+     "tone": "reply",
+     "text": "Saves rewrites too. Writing to 300 characters is easier than cutting down to it.",
+     "reply_to": 6
+    },
+    {
+     "by": "bharath",
+     "tone": "feedback",
+     "text": "For WhatsApp, make opt-in a CRM field the sequence checks before that step fires. No field, no message 🔒",
+     "reply_to": null
+    },
+    {
+     "by": "nelbin",
+     "tone": "reply",
+     "text": "That's going in. Same settings page as the 15 to 20 a day cap, so every limit lives in one place.",
+     "reply_to": 8
     }
    ]
   },
@@ -5840,20 +3935,20 @@ window.STUDIO = {
     "src": "batch-4/NA4",
     "title": "The Omni-Channel Outreach System",
     "files": [
-     "media/batch-4/NA4/poster.jpg?v=20261111065107"
+     "media/batch-4/NA4/poster.jpg?v=20261111084157"
     ],
-    "video": "media/batch-4/NA4/tantra-b4-NA4-2026-12-03-nelbin.mp4?v=20261111065107",
+    "video": "media/batch-4/NA4/tantra-b4-NA4-2026-12-03-nelbin.mp4?v=20261111084157",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-4/NA4/tantra-b4-NA4-2026-12-03-nelbin.mp4?v=20261111065107",
+      "href": "media/batch-4/NA4/tantra-b4-NA4-2026-12-03-nelbin.mp4?v=20261111084157",
       "name": "tantra-b4-NA4-2026-12-03-nelbin.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 196316
      },
      {
-      "href": "media/batch-4/NA4/tantra-b4-NA4-2026-12-03-nelbin.gif?v=20261111065107",
+      "href": "media/batch-4/NA4/tantra-b4-NA4-2026-12-03-nelbin.gif?v=20261111084157",
       "name": "tantra-b4-NA4-2026-12-03-nelbin.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -5906,64 +4001,64 @@ window.STUDIO = {
    "key": "b4-NA4",
    "team_comments": [
     {
-     "by": "aquila",
-     "tone": "positive",
-     "text": "Stop every channel the moment they reply on any of them. That's the step I'd check first, because without it the rest of the list just means the same buyer gets chased in three places at once.",
-     "reply_to": null
-    },
-    {
-     "by": "bhaskar",
-     "tone": "differs",
-     "text": "The caps will stop the scroll, but the line that sells it is one conversation per buyer. I'd have opened with that instead.",
-     "reply_to": null
-    },
-    {
-     "by": "nelbin",
-     "tone": "differs",
-     "text": "Bhaskar, maybe. I still think the problem has to land first.",
-     "reply_to": 1
-    },
-    {
-     "by": "ben",
-     "tone": "question",
-     "text": "Calendar invite as its own campaign: does it still pause when they answer the email? Or is it fully separate?",
-     "reply_to": null
-    },
-    {
-     "by": "nelbin",
-     "tone": "feedback",
-     "text": "Ben, it pauses too. Separate campaign, same stop rule.",
-     "reply_to": 3
-    },
-    {
-     "by": "adi",
-     "tone": "positive",
-     "text": "Your team picks the channels, the sequence keeps the order. Clear split of jobs.",
-     "reply_to": null
-    },
-    {
      "by": "bharath",
      "tone": "feedback",
-     "text": "From the data side, log every touch against the buyer, not the channel. Otherwise you get three tools each thinking they're the first to reach out, and the reporting stops making sense 📊",
+     "text": "From the data side, log every touch against the buyer, not the channel. Otherwise you end up with three tools each thinking they're first in, and the reporting stops making sense 📊",
      "reply_to": null
     },
     {
-     "by": "ben",
-     "tone": "feedback",
-     "text": "Aquila, plus the stop has to work when they answer from a different email address. That case bites.",
+     "by": "nelbin",
+     "tone": "reply",
+     "text": "That's the whole idea behind one conversation per buyer. One record with every channel on it, and the weekly numbers finally agree with each other.",
      "reply_to": 0
     },
     {
      "by": "bhaskar",
-     "tone": "question",
-     "text": "Which goes first for a cold buyer, LinkedIn or email? 👀",
+     "tone": "differs",
+     "text": "The caps stop the scroll, but the line that sells it is one conversation per buyer. I'd have opened with that.",
      "reply_to": null
     },
     {
-     "by": "aquila",
+     "by": "nelbin",
+     "tone": "reply",
+     "text": "Maybe for a warm audience. Cold readers need the problem first, then the fix lands.",
+     "reply_to": 2
+    },
+    {
+     "by": "adi",
      "tone": "positive",
-     "text": "Keeping WhatsApp to opted-in contacts is right. It's the channel where a cold message feels most like an intrusion 🙅",
+     "text": "Your team picks the channels, the sequence keeps the order. Clean split of jobs.",
      "reply_to": null
+    },
+    {
+     "by": "nelbin",
+     "tone": "reply",
+     "text": "Makes handoffs easy as well. Whoever picks a buyer up sees the order, not a pile of tabs 👌",
+     "reply_to": 4
+    },
+    {
+     "by": "ben",
+     "tone": "question",
+     "text": "Does the calendar invite still pause when they answer the email? 🤔",
+     "reply_to": null
+    },
+    {
+     "by": "nelbin",
+     "tone": "reply",
+     "text": "It does ✅ Separate campaign, same stop rule.",
+     "reply_to": 6
+    },
+    {
+     "by": "aquila",
+     "tone": "feedback",
+     "text": "The stop has to work when they reply from a different email address too. I'd match on name and company, not only the address.",
+     "reply_to": null
+    },
+    {
+     "by": "nelbin",
+     "tone": "reply",
+     "text": "Good catch, Aquila. That case slips through easily, so it's on the test list before anything launches.",
+     "reply_to": 8
     }
    ]
   },
@@ -5992,20 +4087,20 @@ window.STUDIO = {
     "src": "batch-4/QA1",
     "title": "The AI Webinar Funnel System",
     "files": [
-     "media/batch-4/QA1/poster.jpg?v=20261111065107"
+     "media/batch-4/QA1/poster.jpg?v=20261111084157"
     ],
-    "video": "media/batch-4/QA1/tantra-b4-QA1-2026-11-26-aquila.mp4?v=20261111065107",
+    "video": "media/batch-4/QA1/tantra-b4-QA1-2026-11-26-aquila.mp4?v=20261111084157",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-4/QA1/tantra-b4-QA1-2026-11-26-aquila.mp4?v=20261111065107",
+      "href": "media/batch-4/QA1/tantra-b4-QA1-2026-11-26-aquila.mp4?v=20261111084157",
       "name": "tantra-b4-QA1-2026-11-26-aquila.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 394956
      },
      {
-      "href": "media/batch-4/QA1/tantra-b4-QA1-2026-11-26-aquila.gif?v=20261111065107",
+      "href": "media/batch-4/QA1/tantra-b4-QA1-2026-11-26-aquila.gif?v=20261111084157",
       "name": "tantra-b4-QA1-2026-11-26-aquila.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -6065,28 +4160,46 @@ window.STUDIO = {
      "reply_to": null
     },
     {
+     "by": "aquila",
+     "tone": "reply",
+     "text": "And the gaps are where I'd point the automation first. A reminder that fires on its own, a follow-up that splits people who came from people who missed it ⚙️ Then the owner just watches the number.",
+     "reply_to": 0
+    },
+    {
      "by": "ben",
      "tone": "feedback",
-     "text": "Form above the fold on a laptop is right, but check the phone view too. A lot of LinkedIn traffic lands on mobile, and nine blocks stack up fast on a small screen.",
+     "text": "Form above the fold on a laptop is right, but check the phone view too. A lot of LinkedIn traffic lands on mobile, and nine blocks stack up fast on a small screen 📱",
      "reply_to": null
     },
     {
      "by": "aquila",
-     "tone": "positive",
-     "text": "Ben, fair. The mobile view should get its own check before anything goes out.",
-     "reply_to": 1
+     "tone": "reply",
+     "text": "Fair. Phone check goes in before anything ships.",
+     "reply_to": 2
     },
     {
      "by": "bhaskar",
      "tone": "question",
-     "text": "Which stage do you look at first when sign-ups look fine but the room is empty? 🤔",
+     "text": "Which stage do you check first when the room's empty? 🤔",
      "reply_to": null
+    },
+    {
+     "by": "aquila",
+     "tone": "reply",
+     "text": "The reminders, every time. They're timed from the session in the buyer's own time zone, so if that field is wrong or missing, people get pinged at the wrong hour and nobody turns up.",
+     "reply_to": 4
     },
     {
      "by": "nelbin",
      "tone": "feedback",
      "text": "One number per stage is the bit I'd print and stick on the wall 📌 then a weekly review where each owner reads theirs out. No slides.",
      "reply_to": null
+    },
+    {
+     "by": "aquila",
+     "tone": "reply",
+     "text": "Nelbin, the no slides part is the best bit. I'd have the numbers drop into that sheet on their own before the review, so nobody spends the morning pulling them.",
+     "reply_to": 6
     },
     {
      "by": "bharath",
@@ -6096,27 +4209,9 @@ window.STUDIO = {
     },
     {
      "by": "aquila",
-     "tone": "feedback",
-     "text": "Bharath, agreed. Update the brief after each session and draft the follow-up from that version, not the original.",
-     "reply_to": 5
-    },
-    {
-     "by": "ben",
-     "tone": "feedback",
-     "text": "Reminders. Every time. Wrong time zone, empty room.",
-     "reply_to": 3
-    },
-    {
-     "by": "adi",
-     "tone": "positive",
-     "text": "Separate follow-up for people who missed it 👀 most teams send one replay email to everyone and wonder why it gets ignored.",
-     "reply_to": null
-    },
-    {
-     "by": "bhaskar",
-     "tone": "positive",
-     "text": "long-term nurture owning everyone who didn't buy 🙌 underrated.",
-     "reply_to": null
+     "tone": "reply",
+     "text": "Half agree. It stays the one source, but yes, it gets a quick update after every session, and the follow-up drafts come from that version.",
+     "reply_to": 8
     }
    ]
   },
@@ -6145,20 +4240,20 @@ window.STUDIO = {
     "src": "batch-4/QA2",
     "title": "The 13-Day Cold Email Thread",
     "files": [
-     "media/batch-4/QA2/poster.jpg?v=20261111065107"
+     "media/batch-4/QA2/poster.jpg?v=20261111084157"
     ],
-    "video": "media/batch-4/QA2/tantra-b4-QA2-2026-12-01-aquila.mp4?v=20261111065107",
+    "video": "media/batch-4/QA2/tantra-b4-QA2-2026-12-01-aquila.mp4?v=20261111084157",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-4/QA2/tantra-b4-QA2-2026-12-01-aquila.mp4?v=20261111065107",
+      "href": "media/batch-4/QA2/tantra-b4-QA2-2026-12-01-aquila.mp4?v=20261111084157",
       "name": "tantra-b4-QA2-2026-12-01-aquila.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 227655
      },
      {
-      "href": "media/batch-4/QA2/tantra-b4-QA2-2026-12-01-aquila.gif?v=20261111065107",
+      "href": "media/batch-4/QA2/tantra-b4-QA2-2026-12-01-aquila.gif?v=20261111084157",
       "name": "tantra-b4-QA2-2026-12-01-aquila.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -6210,27 +4305,27 @@ window.STUDIO = {
    "key": "b4-QA2",
    "team_comments": [
     {
+     "by": "nelbin",
+     "tone": "question",
+     "text": "Who owns stopping the thread when someone replies on day 3?",
+     "reply_to": null
+    },
+    {
+     "by": "aquila",
+     "tone": "reply",
+     "text": "Nobody, on purpose. A reply pauses the rest automatically, so it never depends on someone remembering to pull the plug 🔌",
+     "reply_to": 0
+    },
+    {
      "by": "bhaskar",
      "tone": "positive",
      "text": "Five emails, one subject line 🧵 Change the subject every few days and each one reads like it came from a new stranger. Keep it, and the reader ties every later email back to the first.",
      "reply_to": null
     },
     {
-     "by": "bharath",
-     "tone": "feedback",
-     "text": "Worth saying out loud: the prompt drafts, a person sends. I wouldn't wire this to auto-send until someone has read every version at least once.",
-     "reply_to": null
-    },
-    {
-     "by": "nelbin",
-     "tone": "question",
-     "text": "Who owns stopping the sequence when someone replies on day 3?",
-     "reply_to": null
-    },
-    {
      "by": "aquila",
-     "tone": "feedback",
-     "text": "Nelbin, the moment a reply lands, the rest pause. That one I'd always automate, never leave to memory.",
+     "tone": "reply",
+     "text": "Which is why everything after day 0 goes out as a reply in the same thread. The history sits right under the new note.",
      "reply_to": 2
     },
     {
@@ -6240,34 +4335,34 @@ window.STUDIO = {
      "reply_to": null
     },
     {
-     "by": "adi",
-     "tone": "positive",
-     "text": "An easy way out on the last note. Respectful. 👏",
-     "reply_to": null
-    },
-    {
-     "by": "bhaskar",
-     "tone": "feedback",
-     "text": "Leading the second version with the objection is smart. I'd split the list and run both, then keep whichever gets replies, not opens 📬",
-     "reply_to": null
-    },
-    {
-     "by": "adi",
-     "tone": "differs",
-     "text": "Ben, I'd still keep it to one link. Give people two places to click and they stop to choose, and most choose neither.",
+     "by": "aquila",
+     "tone": "reply",
+     "text": "Ben, I'd still hold that one. Day 6 has one job, teaching the idea, and a link turns it into another ask. Anyone keen can scroll down the thread to the first email.",
      "reply_to": 4
     },
     {
-     "by": "nelbin",
-     "tone": "positive",
-     "text": "Under 120 words on the first one. Hard rule, good.",
+     "by": "bharath",
+     "tone": "feedback",
+     "text": "Worth saying out loud 🤖 the prompt drafts, a person sends. I wouldn't wire this to auto-send until someone has read every version at least once.",
      "reply_to": null
     },
     {
-     "by": "bharath",
-     "tone": "question",
-     "text": "Does the prompt take the objection as one plain sentence, or do you feed it a few real lines from call notes? 🤔",
+     "by": "aquila",
+     "tone": "reply",
+     "text": "Yep. Drafting's automated, sending isn't. That stays.",
+     "reply_to": 6
+    },
+    {
+     "by": "adi",
+     "tone": "positive",
+     "text": "An easy way out on the last note. Respectful 👏",
      "reply_to": null
+    },
+    {
+     "by": "aquila",
+     "tone": "reply",
+     "text": "And a clean exit tends to get an honest answer instead of silence. Either one tells you where you stand.",
+     "reply_to": 8
     }
    ]
   },
@@ -6296,20 +4391,20 @@ window.STUDIO = {
     "src": "batch-4/QA3",
     "title": "The Sales Call System",
     "files": [
-     "media/batch-4/QA3/poster.jpg?v=20261111065107"
+     "media/batch-4/QA3/poster.jpg?v=20261111084157"
     ],
-    "video": "media/batch-4/QA3/tantra-b4-QA3-2026-12-03-aquila.mp4?v=20261111065107",
+    "video": "media/batch-4/QA3/tantra-b4-QA3-2026-12-03-aquila.mp4?v=20261111084157",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-4/QA3/tantra-b4-QA3-2026-12-03-aquila.mp4?v=20261111065107",
+      "href": "media/batch-4/QA3/tantra-b4-QA3-2026-12-03-aquila.mp4?v=20261111084157",
       "name": "tantra-b4-QA3-2026-12-03-aquila.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 403147
      },
      {
-      "href": "media/batch-4/QA3/tantra-b4-QA3-2026-12-03-aquila.gif?v=20261111065107",
+      "href": "media/batch-4/QA3/tantra-b4-QA3-2026-12-03-aquila.gif?v=20261111084157",
       "name": "tantra-b4-QA3-2026-12-03-aquila.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -6363,34 +4458,16 @@ window.STUDIO = {
    "key": "b4-QA3",
    "team_comments": [
     {
-     "by": "nelbin",
-     "tone": "positive",
-     "text": "The steps that usually slip each get a deadline and an owner. That one sentence is most of ops. A proposal without an owner sits for a week because everyone assumes someone else is sending it.",
-     "reply_to": null
-    },
-    {
      "by": "bhaskar",
      "tone": "feedback",
      "text": "The booking page with proof on it does half the selling before anyone talks. I'd test which proof goes first, the numbers or the testimonial.",
      "reply_to": null
     },
     {
-     "by": "ben",
-     "tone": "feedback",
-     "text": "Bhaskar, and keep the qualifying questions short enough that people actually finish them on a phone.",
-     "reply_to": 1
-    },
-    {
-     "by": "bharath",
-     "tone": "question",
-     "text": "Confirm in 5 minutes: is that a person every time, or does an agent send the first touch and a person follows? 🤖",
-     "reply_to": null
-    },
-    {
      "by": "aquila",
-     "tone": "feedback",
-     "text": "A person. The confirmation is the first human contact, so I'd keep that one manual 🤝",
-     "reply_to": 3
+     "tone": "reply",
+     "text": "Worth testing. Whichever wins, I'd reuse it in the confirmation message so the proof shows up twice before the call.",
+     "reply_to": 0
     },
     {
      "by": "adi",
@@ -6399,28 +4476,46 @@ window.STUDIO = {
      "reply_to": null
     },
     {
-     "by": "ben",
-     "tone": "positive",
-     "text": "Proposal in their words. Not ours. Yes 👌",
-     "reply_to": null
-    },
-    {
-     "by": "bharath",
-     "tone": "feedback",
-     "text": "Logging a lost reason only helps if it's a fixed list in the CRM, not a free text box. Free text never gets reported on.",
-     "reply_to": null
+     "by": "aquila",
+     "tone": "reply",
+     "text": "Adi, fair on smaller deals. That's why the first call asks who signs. If it's the same person, the second call becomes the decision call, not an extra meeting.",
+     "reply_to": 2
     },
     {
      "by": "nelbin",
-     "tone": "feedback",
-     "text": "Adi, true, but I'd still ask who signs on the first call so nobody has to guess later.",
-     "reply_to": 5
+     "tone": "positive",
+     "text": "The steps that usually slip each get a deadline and an owner. That's most of ops in one sentence 🗂️",
+     "reply_to": null
     },
     {
-     "by": "bhaskar",
-     "tone": "positive",
-     "text": "No more maybes that drift for a month. Painfully real 😅",
+     "by": "aquila",
+     "tone": "reply",
+     "text": "The deadline is also what lets me automate the nudge. No deadline, nothing to trigger on.",
+     "reply_to": 4
+    },
+    {
+     "by": "ben",
+     "tone": "question",
+     "text": "Does the booking page get tested on a phone first? 📱",
      "reply_to": null
+    },
+    {
+     "by": "aquila",
+     "tone": "reply",
+     "text": "Yes, phone first. Calendar and questions both.",
+     "reply_to": 6
+    },
+    {
+     "by": "bharath",
+     "tone": "question",
+     "text": "Confirm in 5 minutes: is that a person every time, or does an agent send the first touch and a person follows?",
+     "reply_to": null
+    },
+    {
+     "by": "aquila",
+     "tone": "reply",
+     "text": "A person, every time 🤝 It's the first human contact, so I keep it manual and automate the alert that tells the owner a booking just landed.",
+     "reply_to": 8
     }
    ]
   },
@@ -6449,20 +4544,20 @@ window.STUDIO = {
     "src": "batch-4/QA4",
     "title": "The 20-Customer Persona Scorecard",
     "files": [
-     "media/batch-4/QA4/poster.jpg?v=20261111065107"
+     "media/batch-4/QA4/poster.jpg?v=20261111084157"
     ],
-    "video": "media/batch-4/QA4/tantra-b4-QA4-2026-12-08-aquila.mp4?v=20261111065107",
+    "video": "media/batch-4/QA4/tantra-b4-QA4-2026-12-08-aquila.mp4?v=20261111084157",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-4/QA4/tantra-b4-QA4-2026-12-08-aquila.mp4?v=20261111065107",
+      "href": "media/batch-4/QA4/tantra-b4-QA4-2026-12-08-aquila.mp4?v=20261111084157",
       "name": "tantra-b4-QA4-2026-12-08-aquila.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 756872
      },
      {
-      "href": "media/batch-4/QA4/tantra-b4-QA4-2026-12-08-aquila.gif?v=20261111065107",
+      "href": "media/batch-4/QA4/tantra-b4-QA4-2026-12-08-aquila.gif?v=20261111084157",
       "name": "tantra-b4-QA4-2026-12-08-aquila.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -6516,64 +4611,64 @@ window.STUDIO = {
    "key": "b4-QA4",
    "team_comments": [
     {
-     "by": "bharath",
-     "tone": "positive",
-     "text": "Bands, not labels is the detail I'd underline. A model can't do much with small, but it can filter on 11 to 50 staff without anyone arguing about what it means.",
-     "reply_to": null
-    },
-    {
-     "by": "bhaskar",
-     "tone": "question",
-     "text": "How do you pick the 20 when your best by revenue and your easiest to serve are different people?",
-     "reply_to": null
-    },
-    {
-     "by": "aquila",
-     "tone": "feedback",
-     "text": "Bhaskar, rank them on all three and keep the ones near the top on at least two.",
-     "reply_to": 1
-    },
-    {
-     "by": "adi",
-     "tone": "positive",
-     "text": "Exclusions are the part most founders skip. Writing down who you never sell to feels uncomfortable, because some of those buyers will pay, but it stops the team chasing deals that turn into your worst accounts.",
-     "reply_to": null
-    },
-    {
-     "by": "nelbin",
-     "tone": "feedback",
-     "text": "I'd put a date on the sheet and redo it every quarter. Your best customers this year aren't always last year's 📅",
-     "reply_to": null
-    },
-    {
      "by": "ben",
      "tone": "differs",
      "text": "Not fully sold on the more than half rule with only 20 rows. One or two customers can swing a trait in or out, so I'd flag the borderline ones instead of cutting them straight away.",
      "reply_to": null
     },
     {
+     "by": "aquila",
+     "tone": "reply",
+     "text": "I'd keep the rule, but you're right about the edge. Borderline traits go in their own column so the prompt reads them as notes, not rules.",
+     "reply_to": 0
+    },
+    {
      "by": "bharath",
-     "tone": "feedback",
-     "text": "Ben, borderline flags make sense 👍 keep them in a separate column so the prompt doesn't treat them as rules.",
-     "reply_to": 5
-    },
-    {
-     "by": "bhaskar",
      "tone": "positive",
-     "text": "The role that said yes 🎯 so often missing from personas.",
+     "text": "Bands, not labels is the detail I'd underline. A model can't do much with small, but it can filter on 11 to 50 staff.",
      "reply_to": null
     },
     {
-     "by": "nelbin",
-     "tone": "positive",
-     "text": "Customers who paid, counted honestly. Stealing that line ✍️",
-     "reply_to": null
+     "by": "aquila",
+     "tone": "reply",
+     "text": "Same goes for revenue and retention. Clear numbers rank the rows without anyone arguing about who's best.",
+     "reply_to": 2
     },
     {
      "by": "adi",
      "tone": "question",
      "text": "Do you run the prompt once and take the persona, or check it against a couple of real customers first?",
      "reply_to": null
+    },
+    {
+     "by": "aquila",
+     "tone": "reply",
+     "text": "Check it first 🔍 Pick two customers from the scorecard and read the persona against them. If either doesn't fit, there's a trait in there that shouldn't be.",
+     "reply_to": 4
+    },
+    {
+     "by": "bhaskar",
+     "tone": "positive",
+     "text": "The role that said yes 🎯 so often missing from personas, and it's the one that decides who the content actually talks to.",
+     "reply_to": null
+    },
+    {
+     "by": "aquila",
+     "tone": "reply",
+     "text": "Bhaskar, and it's the column outreach needs most. It tells the sequence who to write to.",
+     "reply_to": 6
+    },
+    {
+     "by": "nelbin",
+     "tone": "feedback",
+     "text": "Put a date on it and redo it every quarter 📅",
+     "reply_to": null
+    },
+    {
+     "by": "aquila",
+     "tone": "reply",
+     "text": "Yes, and that reminder runs itself ⏰",
+     "reply_to": 8
     }
    ]
   },
@@ -6602,20 +4697,20 @@ window.STUDIO = {
     "src": "batch-4/QG5",
     "title": "The 7-Day Proposal Follow-Up",
     "files": [
-     "media/batch-4/QG5/poster.jpg?v=20261111065107"
+     "media/batch-4/QG5/poster.jpg?v=20261111084157"
     ],
-    "video": "media/batch-4/QG5/tantra-b4-QG5-2026-11-24-aquila.mp4?v=20261111065107",
+    "video": "media/batch-4/QG5/tantra-b4-QG5-2026-11-24-aquila.mp4?v=20261111084157",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-4/QG5/tantra-b4-QG5-2026-11-24-aquila.mp4?v=20261111065107",
+      "href": "media/batch-4/QG5/tantra-b4-QG5-2026-11-24-aquila.mp4?v=20261111084157",
       "name": "tantra-b4-QG5-2026-11-24-aquila.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 330702
      },
      {
-      "href": "media/batch-4/QG5/tantra-b4-QG5-2026-11-24-aquila.gif?v=20261111065107",
+      "href": "media/batch-4/QG5/tantra-b4-QG5-2026-11-24-aquila.gif?v=20261111084157",
       "name": "tantra-b4-QG5-2026-11-24-aquila.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -6670,34 +4765,40 @@ window.STUDIO = {
    "key": "b4-QG5",
    "team_comments": [
     {
-     "by": "adi",
-     "tone": "positive",
-     "text": "Timing goes to nurture, not the bin. A lot of deals people call lost were just early.",
-     "reply_to": null
-    },
-    {
-     "by": "bhaskar",
-     "tone": "feedback",
-     "text": "The list of what's not included is quietly the strongest part. It answers the objection before the review call, and it stops the scope conversation from starting at the worst possible moment, right before they sign.",
-     "reply_to": null
-    },
-    {
-     "by": "nelbin",
+     "by": "bharath",
      "tone": "question",
-     "text": "Who moves the deal on Day 8, the owner or the CRM?",
+     "text": "Twice a week for two weeks in Follow-Up: does that run as tasks for the owner, or does a voice note get queued and a person just hits send? I'd keep a human on that step either way.",
      "reply_to": null
     },
     {
      "by": "aquila",
+     "tone": "reply",
+     "text": "Tasks for the owner. The system creates them, but the call or the voice note is a person, always. That's the stage where tone matters most.",
+     "reply_to": 0
+    },
+    {
+     "by": "nelbin",
      "tone": "feedback",
-     "text": "Nelbin, the CRM. That's the one step I'd never leave to a person remembering ⏰",
+     "text": "I'd put the lost-reason log on the weekly review. Each reason counted, and the timing pile gets a date to revisit 📋",
+     "reply_to": null
+    },
+    {
+     "by": "aquila",
+     "tone": "reply",
+     "text": "Smart. Timing deals get a nurture date set automatically when they're logged, so they come back without anyone digging for them.",
      "reply_to": 2
     },
     {
-     "by": "bharath",
-     "tone": "feedback",
-     "text": "The 8am to 8pm window should come from their time zone field, not the sender's 🌍 worth checking the form actually captures it.",
+     "by": "adi",
+     "tone": "positive",
+     "text": "Timing goes to nurture, not the bin. A lot of deals called lost were just early.",
      "reply_to": null
+    },
+    {
+     "by": "aquila",
+     "tone": "reply",
+     "text": "So a deal can't close as lost until someone picks the reason 🗃️",
+     "reply_to": 4
     },
     {
      "by": "ben",
@@ -6706,10 +4807,10 @@ window.STUDIO = {
      "reply_to": null
     },
     {
-     "by": "adi",
-     "tone": "differs",
-     "text": "Ben, ask on the call, sure. But if they gave you their number, one short message isn't crossing a line.",
-     "reply_to": 5
+     "by": "aquila",
+     "tone": "reply",
+     "text": "Asking on the call is a good habit 💬 but if they shared their number, one short message inside their hours isn't overstepping. Their preference goes in the CRM either way.",
+     "reply_to": 6
     },
     {
      "by": "bhaskar",
@@ -6718,16 +4819,10 @@ window.STUDIO = {
      "reply_to": null
     },
     {
-     "by": "ben",
-     "tone": "positive",
-     "text": "Should I keep your proposal open. Simple, kind, clear 💬",
-     "reply_to": null
-    },
-    {
-     "by": "bharath",
-     "tone": "question",
-     "text": "Twice a week for two weeks in Follow-Up: does that run as tasks for the owner, or does a voice note get queued and a person just hits send? I'd keep a human on that step either way.",
-     "reply_to": null
+     "by": "aquila",
+     "tone": "reply",
+     "text": "No discount either. Both teach buyers to wait.",
+     "reply_to": 8
     }
    ]
   },
@@ -6756,20 +4851,20 @@ window.STUDIO = {
     "src": "batch-4/RA1",
     "title": "The Clean Domain Sending Checklist",
     "files": [
-     "media/batch-4/RA1/poster.jpg?v=20261111065107"
+     "media/batch-4/RA1/poster.jpg?v=20261111084157"
     ],
-    "video": "media/batch-4/RA1/tantra-b4-RA1-2026-11-26-bharath.mp4?v=20261111065107",
+    "video": "media/batch-4/RA1/tantra-b4-RA1-2026-11-26-bharath.mp4?v=20261111084157",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-4/RA1/tantra-b4-RA1-2026-11-26-bharath.mp4?v=20261111065107",
+      "href": "media/batch-4/RA1/tantra-b4-RA1-2026-11-26-bharath.mp4?v=20261111084157",
       "name": "tantra-b4-RA1-2026-11-26-bharath.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 290264
      },
      {
-      "href": "media/batch-4/RA1/tantra-b4-RA1-2026-11-26-bharath.gif?v=20261111065107",
+      "href": "media/batch-4/RA1/tantra-b4-RA1-2026-11-26-bharath.gif?v=20261111084157",
       "name": "tantra-b4-RA1-2026-11-26-bharath.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -6822,64 +4917,64 @@ window.STUDIO = {
    "key": "b4-RA1",
    "team_comments": [
     {
-     "by": "adi",
-     "tone": "positive",
-     "text": "Cold email from the same domain as the invoices. Said like that, it sounds mad 🙈 Plenty of teams still do it.",
-     "reply_to": null
-    },
-    {
      "by": "nelbin",
      "tone": "feedback",
-     "text": "An owner and a renewal date for each look-alike domain should be on the checklist too. A domain expiring quietly is the kind of thing nobody notices until all the outreach stops at once.",
-     "reply_to": null
-    },
-    {
-     "by": "ben",
-     "tone": "question",
-     "text": "Do the look-alikes redirect to the real site, or does each one get a small page of its own? 🤔",
+     "text": "An owner and a renewal date for each look-alike domain belongs on the checklist too. One quietly expiring is the kind of thing nobody notices until the outreach just stops.",
      "reply_to": null
     },
     {
      "by": "bharath",
-     "tone": "feedback",
-     "text": "Ben, redirect. Less to maintain, and it lands somewhere real.",
-     "reply_to": 2
+     "tone": "reply",
+     "text": "Worth adding. Auto-renew on, and the renewal dates sit on the same sheet as the DNS records.",
+     "reply_to": 0
     },
     {
      "by": "aquila",
-     "tone": "feedback",
-     "text": "8am to 8pm in the buyer's zone means the sending tool needs a time zone on every contact. Worth checking that field is filled before the warm-up ends.",
+     "tone": "question",
+     "text": "8am to 8pm in the buyer's time zone: where does the tool get the zone when the contact has none? 🌍",
      "reply_to": null
+    },
+    {
+     "by": "bharath",
+     "tone": "reply",
+     "text": "From the company's country when the contact's blank, and no send at all when both are. Better a day late than an email landing in the middle of their night.",
+     "reply_to": 2
+    },
+    {
+     "by": "ben",
+     "tone": "positive",
+     "text": "Pointing every look-alike at the real site is the tidy part 👌",
+     "reply_to": null
+    },
+    {
+     "by": "bharath",
+     "tone": "reply",
+     "text": "Less to maintain, and anyone who checks lands somewhere real.",
+     "reply_to": 4
     },
     {
      "by": "bhaskar",
      "tone": "differs",
-     "text": "Ticking the boxes in order isn't the easy part, though. The boxes are easy. Waiting two full weeks without sending a single email is where most people get impatient and cut corners 😅",
+     "text": "The boxes are the easy part, honestly. Waiting two full weeks without sending anything is where people get impatient and cut corners 😅",
      "reply_to": null
     },
     {
      "by": "bharath",
-     "tone": "positive",
-     "text": "Bhaskar, true. Which is why the clock starts the day you buy them.",
-     "reply_to": 5
+     "tone": "reply",
+     "text": "True, Bhaskar, and that's why the post says start today. The warm-up runs while you write the copy, so the wait costs less than it looks.",
+     "reply_to": 6
     },
     {
      "by": "adi",
-     "tone": "feedback",
-     "text": "Nelbin, good add. Same sheet as the DNS records, so it's all in one place.",
-     "reply_to": 1
-    },
-    {
-     "by": "aquila",
      "tone": "positive",
-     "text": "Four DNS records on every one. No shortcuts there 👍",
+     "text": "Cold email from the same domain as the invoices. Put like that, it sounds mad 🙈",
      "reply_to": null
     },
     {
-     "by": "nelbin",
-     "tone": "question",
-     "text": "Two or three domains for how many sending inboxes? At what point does it tip into needing more?",
-     "reply_to": null
+     "by": "bharath",
+     "tone": "reply",
+     "text": "And it's still the default, because nobody separates them on day one. Setting it up right is easier than cleaning up after.",
+     "reply_to": 8
     }
    ]
   },
@@ -6908,20 +5003,20 @@ window.STUDIO = {
     "src": "batch-4/RA2",
     "title": "The AI SDR System",
     "files": [
-     "media/batch-4/RA2/poster.jpg?v=20261111065107"
+     "media/batch-4/RA2/poster.jpg?v=20261111084157"
     ],
-    "video": "media/batch-4/RA2/tantra-b4-RA2-2026-12-01-bharath.mp4?v=20261111065107",
+    "video": "media/batch-4/RA2/tantra-b4-RA2-2026-12-01-bharath.mp4?v=20261111084157",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-4/RA2/tantra-b4-RA2-2026-12-01-bharath.mp4?v=20261111065107",
+      "href": "media/batch-4/RA2/tantra-b4-RA2-2026-12-01-bharath.mp4?v=20261111084157",
       "name": "tantra-b4-RA2-2026-12-01-bharath.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 232347
      },
      {
-      "href": "media/batch-4/RA2/tantra-b4-RA2-2026-12-01-bharath.gif?v=20261111065107",
+      "href": "media/batch-4/RA2/tantra-b4-RA2-2026-12-01-bharath.gif?v=20261111084157",
       "name": "tantra-b4-RA2-2026-12-01-bharath.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -6975,64 +5070,64 @@ window.STUDIO = {
    "key": "b4-RA2",
    "team_comments": [
     {
-     "by": "nelbin",
-     "tone": "positive",
-     "text": "Every other file reads the brief first. That one rule saves a lot of cleanup when the offer changes, because there's one place to edit instead of six files to hunt through.",
-     "reply_to": null
-    },
-    {
      "by": "adi",
      "tone": "question",
-     "text": "Bharath, what goes in exclusions on day one? Most founders don't know who they'd never sell to until it's gone wrong once.",
+     "text": "What goes in the exclusions on day one? 🤔 Most founders don't know who they'd never sell to until it's gone wrong once.",
      "reply_to": null
     },
     {
      "by": "bharath",
-     "tone": "feedback",
-     "text": "Current clients, competitors, anyone already in an open deal. Start there and add as you go.",
-     "reply_to": 1
-    },
-    {
-     "by": "bhaskar",
-     "tone": "feedback",
-     "text": "The sort prompt reading recent posts is the bit I'd watch closely. Someone who posted about hiring is a completely different message from someone who posted about cutting costs 📉",
-     "reply_to": null
-    },
-    {
-     "by": "aquila",
-     "tone": "differs",
-     "text": "Same-day answers from a person, yes. But I wouldn't keep a human approval on every single send forever. Once a segment's message is proven, approve the template once and let the follow-ups run.",
-     "reply_to": null
-    },
-    {
-     "by": "adi",
-     "tone": "differs",
-     "text": "Aquila, I'd keep the human yes longer than that. Cheap insurance.",
-     "reply_to": 4
+     "tone": "reply",
+     "text": "Start with current clients, competitors and anyone already in an open deal. Then add a line every time the sort lets through someone it shouldn't.",
+     "reply_to": 0
     },
     {
      "by": "ben",
      "tone": "feedback",
-     "text": "would add a small log file too: what went out, to whom, which segment. Debugging gets painful without it 🛠️",
-     "reply_to": null
-    },
-    {
-     "by": "bhaskar",
-     "tone": "positive",
-     "text": "6 files, one guide, one project. Tidy 👌",
+     "text": "would add a log file: what went out, to whom, which segment 🛠️",
      "reply_to": null
     },
     {
      "by": "bharath",
+     "tone": "reply",
+     "text": "Noted. That's going in the next version.",
+     "reply_to": 2
+    },
+    {
+     "by": "nelbin",
      "tone": "positive",
-     "text": "Ben, yes. That's going in the next version.",
-     "reply_to": 6
+     "text": "Every other file reads the brief first. That's one place to edit when the offer changes, instead of six files to hunt through.",
+     "reply_to": null
+    },
+    {
+     "by": "bharath",
+     "tone": "reply",
+     "text": "Which is why it's file one. Change the brief, rerun the sort, and the fit rules and messages follow.",
+     "reply_to": 4
     },
     {
      "by": "aquila",
-     "tone": "question",
-     "text": "Is the follow-up timing set once per channel in the file, or does it change by segment? Curious how you'd stop that getting messy.",
+     "tone": "differs",
+     "text": "Same-day answers from a person, yes. But approving every single send forever feels heavy. Once a segment's message is proven, I'd approve the template once and let the follow-ups run on their own.",
      "reply_to": null
+    },
+    {
+     "by": "bharath",
+     "tone": "reply",
+     "text": "I'd keep the approval longer than that, Aquila. A proven template still lands on a new list every week, and a person glancing before it goes is the cheapest check there is 🙂",
+     "reply_to": 6
+    },
+    {
+     "by": "bhaskar",
+     "tone": "feedback",
+     "text": "The sort prompt reading recent posts is where the message gets won. Someone posting about hiring needs a different opener from someone cutting costs 📉",
+     "reply_to": null
+    },
+    {
+     "by": "bharath",
+     "tone": "reply",
+     "text": "That's exactly what the segments carry. Each signal maps to one segment, so the opener changes without anyone writing it per person.",
+     "reply_to": 8
     }
    ]
   },
@@ -7061,20 +5156,20 @@ window.STUDIO = {
     "src": "batch-4/RA3",
     "title": "The Claude Funnel Prompt Pack",
     "files": [
-     "media/batch-4/RA3/poster.jpg?v=20261111065107"
+     "media/batch-4/RA3/poster.jpg?v=20261111084157"
     ],
-    "video": "media/batch-4/RA3/tantra-b4-RA3-2026-12-03-bharath.mp4?v=20261111065107",
+    "video": "media/batch-4/RA3/tantra-b4-RA3-2026-12-03-bharath.mp4?v=20261111084157",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-4/RA3/tantra-b4-RA3-2026-12-03-bharath.mp4?v=20261111065107",
+      "href": "media/batch-4/RA3/tantra-b4-RA3-2026-12-03-bharath.mp4?v=20261111084157",
       "name": "tantra-b4-RA3-2026-12-03-bharath.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 262898
      },
      {
-      "href": "media/batch-4/RA3/tantra-b4-RA3-2026-12-03-bharath.gif?v=20261111065107",
+      "href": "media/batch-4/RA3/tantra-b4-RA3-2026-12-03-bharath.gif?v=20261111084157",
       "name": "tantra-b4-RA3-2026-12-03-bharath.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -7125,64 +5220,64 @@ window.STUDIO = {
    "key": "b4-RA3",
    "team_comments": [
     {
-     "by": "bhaskar",
-     "tone": "positive",
-     "text": "Two versions wherever it's a headline. That's where I'd want them most ✌️",
-     "reply_to": null
-    },
-    {
-     "by": "adi",
-     "tone": "positive",
-     "text": "The [FILL] gaps matter more than the prompts themselves. A prompt that leaves a hole instead of inventing a fact is one you can trust with your name on the output.",
-     "reply_to": null
-    },
-    {
      "by": "ben",
      "tone": "feedback",
      "text": "would keep the sign-up page prompt next to the actual form fields, so the copy and the form never disagree about what you're asking for 🧩",
      "reply_to": null
     },
     {
+     "by": "bharath",
+     "tone": "reply",
+     "text": "Easy fix: put the form fields in the brief and the page prompt reads them instead of guessing.",
+     "reply_to": 0
+    },
+    {
      "by": "nelbin",
      "tone": "question",
-     "text": "Who keeps the setup brief current? If the offer changes and nobody updates it, all six stage prompts drift together.",
+     "text": "Who keeps the setup brief current? If the offer changes and nobody updates it, all 6 stage prompts drift together.",
      "reply_to": null
     },
     {
      "by": "bharath",
-     "tone": "feedback",
-     "text": "Nelbin, whoever owns the offer. One brief, one owner.",
-     "reply_to": 3
-    },
-    {
-     "by": "aquila",
-     "tone": "differs",
-     "text": "I'd split the reminders out of this pack. They're closer to automation than copy, and the timing matters more than the wording.",
-     "reply_to": null
+     "tone": "reply",
+     "text": "Whoever owns the offer. One brief, one owner.",
+     "reply_to": 2
     },
     {
      "by": "bhaskar",
-     "tone": "differs",
-     "text": "Aquila, disagree. A dull reminder is a big part of why people don't turn up, the wording earns its place 🙂",
-     "reply_to": 5
+     "tone": "positive",
+     "text": "Two versions wherever it's a headline ✌️ That's where they count.",
+     "reply_to": null
+    },
+    {
+     "by": "bharath",
+     "tone": "reply",
+     "text": "Run them side by side and keep a note of which one shipped. Next time you start from the winner.",
+     "reply_to": 4
     },
     {
      "by": "adi",
      "tone": "feedback",
-     "text": "The slot for a real example to mirror is the part people will skip. Don't. Without it every output reads like every other AI page out there, and readers can tell within a line 👀",
+     "text": "The [FILL] gaps matter more than the prompts themselves. A prompt that leaves a hole instead of inventing a fact is one you can trust with your name on the output.",
      "reply_to": null
     },
     {
-     "by": "nelbin",
-     "tone": "feedback",
-     "text": "Bhaskar, and keep both versions side by side so you can see which one actually went out.",
-     "reply_to": 0
+     "by": "bharath",
+     "tone": "reply",
+     "text": "It's the rule I'd defend hardest 🙏 Claude fills gaps with confident guesses unless you give it somewhere to say it doesn't know.",
+     "reply_to": 6
+    },
+    {
+     "by": "aquila",
+     "tone": "differs",
+     "text": "I'd split the reminders out of this pack. Their timing matters more than their wording.",
+     "reply_to": null
     },
     {
      "by": "bharath",
-     "tone": "positive",
-     "text": "Adi, agreed. The example does more than the instructions.",
-     "reply_to": 7
+     "tone": "reply",
+     "text": "Partly with you. The timing belongs in your automation, but someone still writes the words, and a dull reminder is an easy one to ignore.",
+     "reply_to": 8
     }
    ]
   },
@@ -7211,20 +5306,20 @@ window.STUDIO = {
     "src": "batch-4/RA4",
     "title": "The 9-Block Registration Page Blueprint",
     "files": [
-     "media/batch-4/RA4/poster.jpg?v=20261111065107"
+     "media/batch-4/RA4/poster.jpg?v=20261111084157"
     ],
-    "video": "media/batch-4/RA4/tantra-b4-RA4-2026-12-08-bharath.mp4?v=20261111065107",
+    "video": "media/batch-4/RA4/tantra-b4-RA4-2026-12-08-bharath.mp4?v=20261111084157",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-4/RA4/tantra-b4-RA4-2026-12-08-bharath.mp4?v=20261111065107",
+      "href": "media/batch-4/RA4/tantra-b4-RA4-2026-12-08-bharath.mp4?v=20261111084157",
       "name": "tantra-b4-RA4-2026-12-08-bharath.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 336335
      },
      {
-      "href": "media/batch-4/RA4/tantra-b4-RA4-2026-12-08-bharath.gif?v=20261111065107",
+      "href": "media/batch-4/RA4/tantra-b4-RA4-2026-12-08-bharath.gif?v=20261111084157",
       "name": "tantra-b4-RA4-2026-12-08-bharath.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -7277,64 +5372,64 @@ window.STUDIO = {
    "key": "b4-RA4",
    "team_comments": [
     {
-     "by": "ben",
+     "by": "aquila",
      "tone": "feedback",
-     "text": "Do the phone check too, not only the laptop. A lot of LinkedIn clicks land on mobile, where the first screen is much shorter, so the form can drop below the fold without anyone noticing.",
+     "text": "Whatever they sign up with should feed the reminders straight away. Nobody should register and then hear nothing until the morning of the session 📅",
      "reply_to": null
     },
     {
      "by": "bharath",
-     "tone": "feedback",
-     "text": "Ben, fair. Phone first, then laptop.",
+     "tone": "reply",
+     "text": "Already covered: the form posts straight into the reminder sequence, and a test sign-up is part of the laptop check.",
      "reply_to": 0
-    },
-    {
-     "by": "bhaskar",
-     "tone": "positive",
-     "text": "Testimonials that each answer one objection. That's the block most pages get wrong 🎯",
-     "reply_to": null
     },
     {
      "by": "adi",
      "tone": "differs",
-     "text": "Last name could go from the form. First name and work email are enough to start the conversation, and every extra field costs you sign-ups.",
+     "text": "Last name could go from the form. First name and work email are enough to start, and every extra field costs sign-ups.",
      "reply_to": null
+    },
+    {
+     "by": "bharath",
+     "tone": "reply",
+     "text": "I'd keep it, just about. Last name is what matches the record in the CRM when the same person signs up twice, and that saves a cleanup later.",
+     "reply_to": 2
+    },
+    {
+     "by": "ben",
+     "tone": "feedback",
+     "text": "Do the phone check too, not only the laptop. A lot of LinkedIn clicks land on mobile, where the first screen is shorter, so the form can drop below the fold without anyone noticing 📱",
+     "reply_to": null
+    },
+    {
+     "by": "bharath",
+     "tone": "reply",
+     "text": "Phone first, then laptop. Fair.",
+     "reply_to": 4
     },
     {
      "by": "nelbin",
      "tone": "question",
-     "text": "Where do the FAQ objections come from in practice? Notes after each call, or does someone go back through recordings every so often?",
+     "text": "Where do the FAQ objections come from in practice? Call notes, or does someone go back through recordings?",
      "reply_to": null
-    },
-    {
-     "by": "aquila",
-     "tone": "feedback",
-     "text": "The sticky button is good. I'd make sure whatever they sign up with feeds the reminders straight away, so nobody registers and then hears nothing until the morning of the session 📅",
-     "reply_to": null
-    },
-    {
-     "by": "ben",
-     "tone": "feedback",
-     "text": "Adi, agree on last name. One more thing to type on a phone 📱",
-     "reply_to": 3
     },
     {
      "by": "bharath",
-     "tone": "differs",
-     "text": "Adi, last name helps match records in the CRM. I'd keep it, but it's close.",
-     "reply_to": 3
-    },
-    {
-     "by": "adi",
-     "tone": "positive",
-     "text": "Numbers, not adjectives. Should be on every page brief.",
-     "reply_to": null
+     "tone": "reply",
+     "text": "Call notes, tagged by objection. Whichever tag shows up most moves to the top of the FAQ, so the page keeps pace with the calls.",
+     "reply_to": 6
     },
     {
      "by": "bhaskar",
      "tone": "positive",
-     "text": "Naming the method is underrated. Gives people something to repeat to their boss.",
+     "text": "Numbers, not adjectives. Should be on every page brief 🎯",
      "reply_to": null
+    },
+    {
+     "by": "bharath",
+     "tone": "reply",
+     "text": "Works for the headline too: a promise with a number in it reads as something they can check.",
+     "reply_to": 8
     }
    ]
   },
@@ -7363,20 +5458,20 @@ window.STUDIO = {
     "src": "batch-4/RG6",
     "title": "The Segment Map",
     "files": [
-     "media/batch-4/RG6/poster.jpg?v=20261111065107"
+     "media/batch-4/RG6/poster.jpg?v=20261111084157"
     ],
-    "video": "media/batch-4/RG6/tantra-b4-RG6-2026-11-24-bharath.mp4?v=20261111065107",
+    "video": "media/batch-4/RG6/tantra-b4-RG6-2026-11-24-bharath.mp4?v=20261111084157",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-4/RG6/tantra-b4-RG6-2026-11-24-bharath.mp4?v=20261111065107",
+      "href": "media/batch-4/RG6/tantra-b4-RG6-2026-11-24-bharath.mp4?v=20261111084157",
       "name": "tantra-b4-RG6-2026-11-24-bharath.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 639220
      },
      {
-      "href": "media/batch-4/RG6/tantra-b4-RG6-2026-11-24-bharath.gif?v=20261111065107",
+      "href": "media/batch-4/RG6/tantra-b4-RG6-2026-11-24-bharath.gif?v=20261111084157",
       "name": "tantra-b4-RG6-2026-11-24-bharath.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -7430,64 +5525,2177 @@ window.STUDIO = {
    "key": "b4-RG6",
    "team_comments": [
     {
-     "by": "bhaskar",
-     "tone": "positive",
-     "text": "The founder getting a different first line from the head of sales, same event, same link. That's segmentation people can actually picture.",
+     "by": "ben",
+     "tone": "feedback",
+     "text": "Tag each record in the CRM with the segment it landed in. Then sign-ups by segment are one filter away after the event, and you can see which invite pulled its weight 📈",
      "reply_to": null
+    },
+    {
+     "by": "bharath",
+     "tone": "reply",
+     "text": "Yes, and since every invite uses the same link, that tag is the only thing telling them apart. Add it before the first send.",
+     "reply_to": 0
     },
     {
      "by": "aquila",
      "tone": "question",
-     "text": "When someone changes role mid-campaign, do they move automatically or stay where they were first sorted? 🔄",
+     "text": "When someone changes role mid-campaign, do they move segments automatically? 🔄",
      "reply_to": null
     },
     {
      "by": "bharath",
-     "tone": "feedback",
-     "text": "Aquila, they get re-read on the next run. Until then they stay put.",
-     "reply_to": 1
+     "tone": "reply",
+     "text": "Not straight away. They get re-read on the next run, and until then they stay where they were first sorted.",
+     "reply_to": 2
+    },
+    {
+     "by": "adi",
+     "tone": "differs",
+     "text": "Not fully with you on personalised lines nobody believes 🙂 A first line built on real research still works. It's the fake ones that don't.",
+     "reply_to": null
+    },
+    {
+     "by": "bharath",
+     "tone": "reply",
+     "text": "I'll give you that one. Research-led lines are fine. An AI-invented compliment about their last post isn't, and that's what step 5 is there to stop.",
+     "reply_to": 4
+    },
+    {
+     "by": "bhaskar",
+     "tone": "positive",
+     "text": "The founder getting a different first line from the head of sales, same event. That's segmentation people can actually picture.",
+     "reply_to": null
+    },
+    {
+     "by": "bharath",
+     "tone": "reply",
+     "text": "Easiest way to explain step 4 to a sales team.",
+     "reply_to": 6
     },
     {
      "by": "nelbin",
      "tone": "feedback",
-     "text": "One owner for the list of segments itself, please. They multiply fast when everyone's allowed to add one, and then step 4 means writing ten invites nobody has time to check.",
-     "reply_to": null
-    },
-    {
-     "by": "adi",
-     "tone": "differs",
-     "text": "Not fully with you on personalised lines nobody believes. A first line built on real research still works. It's the fake ones that don't.",
-     "reply_to": null
-    },
-    {
-     "by": "ben",
-     "tone": "positive",
-     "text": "One link across the board makes tracking much easier 🙏",
+     "text": "One owner for the list of segments, please. They multiply fast when everyone can add one, and step 4 turns into invites nobody has time to check.",
      "reply_to": null
     },
     {
      "by": "bharath",
-     "tone": "differs",
-     "text": "Adi, fair. Research-led lines are fine. AI inventing a compliment about their last post isn't.",
-     "reply_to": 4
+     "tone": "reply",
+     "text": "Fewer segments, better invites. If you keep needing more, the fit rules are probably too loose.",
+     "reply_to": 8
+    }
+   ]
+  },
+  {
+   "id": "AC1",
+   "batch": "3",
+   "profile": "adi",
+   "platform": "linkedin",
+   "status": "ready",
+   "time": "08:30",
+   "cta": "event",
+   "date": "2026-11-17",
+   "short": "11 webinars in 9 slides",
+   "pillar": "Live events",
+   "idea": "One client's webinars went from 7 people live to 321; nine lessons from the numbers.",
+   "format": "Carousel · 10 pages",
+   "sample": {
+    "id": "HD24",
+    "creator": "Harry Dry",
+    "what": "Founder photo holding a '6 YEARS OF LINKEDIN IN 9 SLIDES' sign, followed by kraft-paper slides listing numbered growth lessons 1 through 9.",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7470373889160921089"
+   },
+   "copy_basis": "HD24 template: one-line 'Lessons from' caption; cover is a held sign, then nine numbered lessons, one per page",
+   "media": {
+    "type": "carousel",
+    "src": "batch-3/AC1",
+    "title": "11 webinars in 9 slides",
+    "files": [
+     "media/batch-3/AC1/p01.jpg?v=20261111084157",
+     "media/batch-3/AC1/p02.jpg?v=20261111084157",
+     "media/batch-3/AC1/p03.jpg?v=20261111084157",
+     "media/batch-3/AC1/p04.jpg?v=20261111084157",
+     "media/batch-3/AC1/p05.jpg?v=20261111084157",
+     "media/batch-3/AC1/p06.jpg?v=20261111084157",
+     "media/batch-3/AC1/p07.jpg?v=20261111084157",
+     "media/batch-3/AC1/p08.jpg?v=20261111084157",
+     "media/batch-3/AC1/p09.jpg?v=20261111084157",
+     "media/batch-3/AC1/p10.jpg?v=20261111084157"
+    ],
+    "download": {
+     "href": "media/batch-3/AC1/tantra-b3-AC1-2026-11-17-adi.pdf?v=20261111084157",
+     "name": "tantra-b3-AC1-2026-11-17-adi.pdf",
+     "ext": "pdf",
+     "bytes": 17346136,
+     "pages": 10,
+     "w": 1080,
+     "h": 1350
+    }
+   },
+   "text": "Lessons from 11 webinars that took one client from 7 people in the room to 321:\n\nI walk through every one of these changes in my free live workshop. Link in the first comment.",
+   "first_comment": "I teach the full system in a free 60-minute live workshop: the list, the invite, the session and the follow-up. Register here:\nhttps://webinar.sellwithtantra.com/?utm_source=linkedin&utm_medium=social&utm_campaign=enterprise-webinar&utm_content=AC1",
+   "sources": [
+    "content/corpus/facts.md: CS-01, CS-08, CS-09, CS-10, CS-11, EW-16, EW-19, EW-23"
+   ],
+   "numbers_for_signoff": [
+    "11 webinars, May 2025 to Feb 2026 (CS-01)",
+    "first: 12,898 reached, 30 registered, 7 live (CS-08)",
+    "best: 99,859 reached, 1,990 registered, 321 live, 25 calls, 18 MQLs, 2 clients (CS-09)",
+    "0.23% to 2.0% (CS-10)",
+    "98,000 of 99,859 by calendar invite (CS-11)",
+    "21% of registrants live; 5.8 sales calls per 100 live, both derived (EW-19)"
+   ],
+   "flags": [
+    "The client is not named. Lessons 5 and 9 are rules we teach (method rows), worded as advice, not as what the client did."
+   ],
+   "visual_label": "Slide copy (10 pages)",
+   "visual_copy": [
+    "Cover (held sign): 11 WEBINARS IN 9 SLIDES",
+    "1. Run the first one small. Ours had 7 people live: 12,898 reached, 30 registered.",
+    "2. Reach comes first. The best session reached 99,859 people.",
+    "3. Put it in the calendar, not the inbox. 98,000 of those 99,859 got a calendar invite.",
+    "4. Registration rate moves. It went from 0.23% to 2.0%.",
+    "5. Send the invite 8 to 12 days out, with a title under 60 characters.",
+    "6. Plan for who shows up. Across the 11, 21% of registrants came live (derived).",
+    "7. Count calls, not attendees. Across the 11: 5.8 sales calls per 100 people live (derived).",
+    "8. Follow the room to revenue. The best session: 321 live, 25 calls, 18 MQLs, 2 clients.",
+    "9. Change one thing a week. Find the weakest number, change one thing, re-run and log."
+   ],
+   "cta_date": "2026-11-19",
+   "key": "b3-AC1",
+   "team_comments": [
+    {
+     "by": "ben",
+     "tone": "feedback",
+     "text": "From the page side: once reach jumps, the registration form gets hit from phones far more than from laptops. Test it on a small screen before every invite goes out 📱 It's the first thing to break.",
+     "reply_to": null
     },
     {
      "by": "adi",
+     "tone": "reply",
+     "text": "Fair, and a broken form on a phone fails quietly. Nobody tells you, you just see a flat registration number and blame the invite.",
+     "reply_to": 0
+    },
+    {
+     "by": "bharath",
+     "tone": "differs",
+     "text": "Small pushback on leading with people in the room. Attendance on its own is a vanity number. The lesson about counting calls, not attendees, is the one I'd have put in the caption.",
+     "reply_to": null
+    },
+    {
+     "by": "adi",
+     "tone": "reply",
+     "text": "Bharath, I hear you, but nobody books a call from an empty room. The room is the first number that has to move, so it gets the headline. Calls get their own slide for a reason.",
+     "reply_to": 2
+    },
+    {
+     "by": "nelbin",
+     "tone": "positive",
+     "text": "The last slide is the one ops teams need. Change one thing, re-run, log it. Without the log, 11 sessions blur into one and nobody knows which change did what.",
+     "reply_to": null
+    },
+    {
+     "by": "adi",
+     "tone": "reply",
+     "text": "The log is the boring bit that does the work ✍️",
+     "reply_to": 4
+    },
+    {
+     "by": "bhaskar",
+     "tone": "question",
+     "text": "If a founder's room is still tiny, which of these lessons would you fix first?",
+     "reply_to": null
+    },
+    {
+     "by": "adi",
+     "tone": "reply",
+     "text": "Reach. When the room is small, the problem usually starts before anyone sees the invite 👀",
+     "reply_to": 6
+    },
+    {
+     "by": "aquila",
+     "tone": "positive",
+     "text": "Calendar over inbox. Reminders hang off the event, not a thread 📅",
+     "reply_to": null
+    },
+    {
+     "by": "adi",
+     "tone": "reply",
+     "text": "Yes, and a calendar reminder fires even when nobody on the team remembers to send one. That alone is half the case for the invite.",
+     "reply_to": 8
+    }
+   ]
+  },
+  {
+   "id": "AC3",
+   "batch": "3",
+   "profile": "adi",
+   "platform": "linkedin",
+   "status": "ready",
+   "time": "08:30",
+   "cta": "event",
+   "date": "2026-11-20",
+   "short": "The old way vs the new way",
+   "pillar": "RevOps foundations",
+   "idea": "Five habits that keep a B2B pipeline thin, each with the replacement.",
+   "format": "Carousel · 8 pages",
+   "sample": {
+    "id": "HD13",
+    "creator": "Harry Dry",
+    "what": "Sketchbook-style carousel 'Ultimate LinkedIn Growth Guide in 2026' with sticky-note Old vs 2026 LinkedIn tips, a growth percentage breakdown, and a tool-recommendation table.",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7475061926721548288"
+   },
+   "copy_basis": "HD13 template: one-line 'Everything you need to' caption; cover is a guide title, pages are Old vs New sticky-note pairs",
+   "media": {
+    "type": "carousel",
+    "src": "batch-3/AC3",
+    "title": "The old way vs the new way of filling a pipeline",
+    "files": [
+     "media/batch-3/AC3/p01.jpg?v=20261111084157",
+     "media/batch-3/AC3/p02.jpg?v=20261111084157",
+     "media/batch-3/AC3/p03.jpg?v=20261111084157",
+     "media/batch-3/AC3/p04.jpg?v=20261111084157",
+     "media/batch-3/AC3/p05.jpg?v=20261111084157",
+     "media/batch-3/AC3/p06.jpg?v=20261111084157",
+     "media/batch-3/AC3/p07.jpg?v=20261111084157",
+     "media/batch-3/AC3/p08.jpg?v=20261111084157"
+    ],
+    "download": {
+     "href": "media/batch-3/AC3/tantra-b3-AC3-2026-11-20-adi.pdf?v=20261111084157",
+     "name": "tantra-b3-AC3-2026-11-20-adi.pdf",
+     "ext": "pdf",
+     "bytes": 3038677,
+     "pages": 8,
+     "w": 1080,
+     "h": 1350
+    }
+   },
+   "text": "Everything you need to stop doing if you want a full B2B pipeline in 2026\n\nI walk through the new way, step by step, in my free workshop. Link in the first comment.",
+   "first_comment": "Want the new way, step by step? I teach the full engine in a free 60-minute workshop. Register here:\nhttps://webinar.sellwithtantra.com/?utm_source=linkedin&utm_medium=social&utm_campaign=enterprise-webinar&utm_content=AC3",
+   "sources": [
+    "content/corpus/facts.md: EW-34"
+   ],
+   "numbers_for_signoff": [
+    "five old way and new way pairs (EW-34)"
+   ],
+   "flags": [],
+   "visual_label": "Slide copy (8 pages)",
+   "visual_copy": [
+    "Cover: The Old Way vs The New Way of Filling a Pipeline",
+    "The list. OLD: a bought list. NEW: one list of your whole market.",
+    "The outreach. OLD: a cold blast. NEW: a merge-field invite in the buyer's calendar.",
+    "The trust. OLD: one 30-minute call. NEW: a session that earns trust with a whole room.",
+    "The fix. OLD: guesswork. NEW: one number and one change a week.",
+    "The AI. OLD: a chatbot draft. NEW: an engine that sends, reminds, books and logs.",
+    "All five on one page: Old on the left, New on the right.",
+    "Close: Pick the one you still do the old way. Start there."
+   ],
+   "cta_date": "2026-11-26",
+   "key": "b3-AC3",
+   "team_comments": [
+    {
+     "by": "nelbin",
+     "tone": "positive",
+     "text": "The close works as a standup prompt. Which one are we still doing the old way? ✅",
+     "reply_to": null
+    },
+    {
+     "by": "adi",
+     "tone": "reply",
+     "text": "Ask it out loud with the whole team. The answers rarely match, and that gap is worth a conversation on its own.",
+     "reply_to": 0
+    },
+    {
+     "by": "aquila",
+     "tone": "differs",
+     "text": "One worry 🤔 side by side, it reads like you swap all five at once. Most teams can only change one habit at a time, and they'd stall trying to do the lot.",
+     "reply_to": null
+    },
+    {
+     "by": "adi",
+     "tone": "reply",
+     "text": "Partly agree. That's why the close says pick one. The side by side is the map, not the to-do list.",
+     "reply_to": 2
+    },
+    {
+     "by": "bhaskar",
      "tone": "feedback",
-     "text": "Nelbin, yes. Fewer segments, better invites.",
-     "reply_to": 3
+     "text": "Worth saying: the bought list is the hardest habit to quit because it feels fast. One list of your whole market takes longer to build and pays you back on every campaign after it.",
+     "reply_to": null
+    },
+    {
+     "by": "adi",
+     "tone": "reply",
+     "text": "True, and the whole-market list is also what makes the merge-field invite possible. No list, nothing to merge.",
+     "reply_to": 4
+    },
+    {
+     "by": "ben",
+     "tone": "question",
+     "text": "For the merge-field invite, where do the fields come from? The CRM, or a sheet per campaign?",
+     "reply_to": null
+    },
+    {
+     "by": "adi",
+     "tone": "reply",
+     "text": "CRM if it's clean 🙂 If it isn't, use a sheet for now and fix the CRM in parallel, or you'll be doing it every campaign.",
+     "reply_to": 6
+    },
+    {
+     "by": "bharath",
+     "tone": "positive",
+     "text": "Chatbot draft vs an engine that logs. Big gap 🎯",
+     "reply_to": null
+    },
+    {
+     "by": "adi",
+     "tone": "reply",
+     "text": "Logging is the part nobody demos. It matters most.",
+     "reply_to": 8
+    }
+   ]
+  },
+  {
+   "id": "AC4",
+   "batch": "3",
+   "profile": "adi",
+   "platform": "linkedin",
+   "status": "ready",
+   "time": "08:30",
+   "cta": "event",
+   "date": "2026-11-24",
+   "short": "3 jobs your sales call can't do",
+   "pillar": "Conversion",
+   "idea": "One 30-minute call is asked to earn trust, prove the method and close; two of those jobs belong in a session before the call.",
+   "format": "Carousel · 8 pages",
+   "sample": {
+    "id": "HD08",
+    "creator": "Harry Dry",
+    "what": "Carousel titled '7 psychological tips for CULT-LIKE CONTENT' using tarot-card imagery to explain cognitive biases like 'The Curiosity Gap' and 'Social Currency' with examples and why-it-works notes.",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7477271770765524992"
+   },
+   "copy_basis": "HD08 template: two-line caption ('comes down to A, not B', then 'Here are N'); cover plus one page per item with pill labels (Example, Why this works, The test)",
+   "media": {
+    "type": "carousel",
+    "src": "batch-3/AC4",
+    "title": "3 jobs your sales call can't do",
+    "files": [
+     "media/batch-3/AC4/p01.jpg?v=20261111084157",
+     "media/batch-3/AC4/p02.jpg?v=20261111084157",
+     "media/batch-3/AC4/p03.jpg?v=20261111084157",
+     "media/batch-3/AC4/p04.jpg?v=20261111084157",
+     "media/batch-3/AC4/p05.jpg?v=20261111084157",
+     "media/batch-3/AC4/p06.jpg?v=20261111084157",
+     "media/batch-3/AC4/p07.jpg?v=20261111084157",
+     "media/batch-3/AC4/p08.jpg?v=20261111084157"
+    ],
+    "download": {
+     "href": "media/batch-3/AC4/tantra-b3-AC4-2026-11-24-adi.pdf?v=20261111084157",
+     "name": "tantra-b3-AC4-2026-11-24-adi.pdf",
+     "ext": "pdf",
+     "bytes": 5091456,
+     "pages": 8,
+     "w": 1080,
+     "h": 1350
+    }
+   },
+   "text": "Closing comes down to trust, not technique…\n\nHere are the 3 jobs you're asking one 30-minute call to do, and where each one belongs\n\nI teach the full session structure in my free live workshop. Link in the first comment.",
+   "first_comment": "I break down the session that earns trust with a whole room in a free 60-minute live workshop. Register here:\nhttps://webinar.sellwithtantra.com/?utm_source=linkedin&utm_medium=social&utm_campaign=enterprise-webinar&utm_content=AC4",
+   "sources": [
+    "content/corpus/facts.md: EW-19, EW-28, EW-33, EW-34"
+   ],
+   "numbers_for_signoff": [
+    "5.8 sales calls per 100 people live, derived (EW-19)",
+    "session order: Promise, Problem, Method and proof, Invitation, Q&A (EW-33)",
+    "the offer once, never before section 7 of ten (EW-28)"
+   ],
+   "flags": [
+    "The 5.8 figure is one client's 11 webinars and is labelled derived on the slide."
+   ],
+   "visual_label": "Slide copy (8 pages)",
+   "visual_copy": [
+    "Cover: 3 jobs your SALES CALL can't do",
+    "The problem: one 30-minute call has to earn trust, prove your method and close. That's three jobs for one slot.",
+    "Job 1: Earn trust. Where it belongs: a live session with a whole room. Why this works: the buyer hears the problem named before anyone sells.",
+    "Job 2: Prove it. Where it belongs: the Method and proof part of the session. The test: could they explain your method to a colleague after it?",
+    "Job 3: Close. Where it belongs: the call. Now it has one job.",
+    "The session order: Promise → Problem → Method and proof → Invitation → Q&A. The offer comes once, never before section 7 of ten.",
+    "What the room does: across one client's 11 webinars, 5.8 sales calls per 100 people live (derived).",
+    "Close: Give the call one job. Let the session do the other two."
+   ],
+   "cta_date": "2026-11-26",
+   "key": "b3-AC4",
+   "team_comments": [
+    {
+     "by": "bharath",
+     "tone": "feedback",
+     "text": "Stack side: tag the session recording by section. If someone books right after Method and proof, whoever takes the call knows where to start 🎥",
+     "reply_to": null
+    },
+    {
+     "by": "adi",
+     "tone": "reply",
+     "text": "Smart, and it also shows which part of the session is doing the persuading. Worth knowing before you rewrite anything.",
+     "reply_to": 0
+    },
+    {
+     "by": "ben",
+     "tone": "question",
+     "text": "The colleague test on Job 2 💡 how would you actually measure it? A question on the booking form?",
+     "reply_to": null
+    },
+    {
+     "by": "adi",
+     "tone": "reply",
+     "text": "One open question on the form: what would you tell a colleague about the method? Their own words show you whether it landed.",
+     "reply_to": 2
+    },
+    {
+     "by": "aquila",
+     "tone": "differs",
+     "text": "I'd soften the one-job idea a bit. Some buyers skip the session and book straight from an email, and for them that 30-minute call still has to do all 3.",
+     "reply_to": null
+    },
+    {
+     "by": "adi",
+     "tone": "reply",
+     "text": "True, they exist. I'd still design for the room and send those few a recording of the session before the call, so the call isn't carrying everything again.",
+     "reply_to": 4
+    },
+    {
+     "by": "nelbin",
+     "tone": "feedback",
+     "text": "If the call only has one job now, the handover from session to call needs an owner. Someone checks who was in the room and what they asked before the call starts.",
+     "reply_to": null
+    },
+    {
+     "by": "adi",
+     "tone": "reply",
+     "text": "Yes. That handover is where trust gets dropped 🤝",
+     "reply_to": 6
+    },
+    {
+     "by": "bhaskar",
+     "tone": "positive",
+     "text": "Trust, not technique 👌 Most sales training sells the opposite.",
+     "reply_to": null
+    },
+    {
+     "by": "adi",
+     "tone": "reply",
+     "text": "Technique without trust just sounds like a script, and buyers hear a script within the first minute.",
+     "reply_to": 8
+    }
+   ]
+  },
+  {
+   "id": "AG1",
+   "batch": "3",
+   "profile": "adi",
+   "platform": "linkedin",
+   "status": "ready",
+   "time": "08:30",
+   "cta": "",
+   "date": "2026-11-19",
+   "short": "The calendar invite blueprint",
+   "pillar": "Calendar invites",
+   "idea": "The calendar invite is the highest-reach touch in a webinar funnel; four rules and one prompt make it repeatable.",
+   "format": "Image · animated giveaway",
+   "sample": {
+    "id": "BK02",
+    "creator": "Bharath Krishna Pai",
+    "what": "720x900 (4:5) GIF on a cream canvas: a 'Claude for LinkedIn + Oiti, your AI clone for content' lockup top-left, a tilted peach note card with an orange outline '30 days planned in 1 prompt' top-right with a hand-drawn arrow, and a Google-Calendar-style week view (Mon 9 to Sat 14 Nov 2026, 08h to 16h). Over 6s the empty week fills with 40 colour-coded content blocks (Carousel, Text post, Poll, Story, Video, Infographic, Hooks x10, Replies, Memory, Lead DMs, Newsjack, Analytics) one per frame while a '0 planned' pill counts up to '40 planned', holds, then rewinds back to empty in half a second. Full-width orange CTA bar at the bottom: 'Comment \"SYSTEM\" and I'll send it over'.",
+    "url": "https://www.linkedin.com/posts/bkp31415_i-finally-did-it-claude-is-now-connected-activity-7523976570722488320-GOVE"
+   },
+   "copy_basis": "BK02 template: caps hook with colon, pointer line, 'What's inside', eight arrow lines (first five led by a number, biggest first), ease line, conditional offer, CTA bookend",
+   "media": {
+    "type": "video",
+    "src": "batch-3/AG1",
+    "title": "The calendar invite blueprint",
+    "files": [
+     "media/batch-3/AG1/poster.jpg?v=20261111084157"
+    ],
+    "video": "media/batch-3/AG1/tantra-b3-AG1-2026-11-19-adi.mp4?v=20261111084157",
+    "tall": false,
+    "sets": [
+     {
+      "href": "media/batch-3/AG1/tantra-b3-AG1-2026-11-19-adi.mp4?v=20261111084157",
+      "name": "tantra-b3-AG1-2026-11-19-adi.mp4",
+      "ext": "mp4",
+      "label": "Download MP4",
+      "bytes": 678022
+     },
+     {
+      "href": "media/batch-3/AG1/tantra-b3-AG1-2026-11-19-adi.gif?v=20261111084157",
+      "name": "tantra-b3-AG1-2026-11-19-adi.gif",
+      "ext": "gif",
+      "label": "Download GIF",
+      "bytes": 1097543
+     }
+    ]
+   },
+   "text": "I FINALLY WROTE IT DOWN. The CALENDAR INVITE that took a client's registration rate from 0.23% to 2.0%:\n\nGet the blueprint here. 👇\n\nTheir best webinar reached 99,859 people. 98,000 of them got a calendar invite, not an email.\n\nWhat's inside:\n\n→ 60 CHARACTERS is the ceiling for the invite title, and it stays under it\n→ 12 DAYS OUT is the earliest it goes, 8 days the latest\n→ 4 RULES every invite follows\n→ 3 PAGES and nothing to wade through\n→ 2 OPENING LINES that say who it's for and what they leave with\n→ THE DECLINE LINE that makes saying no easy\n→ THE MERGE FIELDS so each invite reads like it was written for one person\n→ THE AI PROMPT that writes the invite for your offer\n\nFill in your event once. The prompt writes the invite.\n\nIf you would like the template, the rules and the prompt for FREE...\n\nHow to get it is on the image. 👇",
+   "first_comment": "Comment INVITE and I'll send you the Calendar Invite Blueprint. It's the invite template, the 4 rules every invite follows and the AI prompt that writes yours, so your next event sits in your buyer's calendar instead of their inbox. It comes straight to your DMs, free. Not connected yet? I'll send you a request first.",
+   "sources": [
+    "content/corpus/facts.md: CS-08, CS-09, CS-10, CS-11, EW-23"
+   ],
+   "numbers_for_signoff": [
+    "0.23% to 2.0% registration rate (CS-10)",
+    "99,859 reached, 98,000 by calendar invite (CS-09, CS-11)",
+    "invite rules: 8 to 12 days out, title under 60 characters, two opening lines, decline line (EW-23)"
+   ],
+   "flags": [
+    "The keyword is on the asset's bottom tile and in the first comment (which says what to comment, what's inside and how it's sent), never in the post copy. The resource is built and hosted: preview it under the post, with the three messages that deliver it.",
+    "The resource goes out by manual DM from Adi's profile.",
+    "The client is not named in this post."
+   ],
+   "visual_label": "On the asset (animated 4:5)",
+   "visual_copy": [
+    "THE CALENDAR INVITE BLUEPRINT",
+    "Registration rate: 0.23% to 2.0%",
+    "The template. The 4 rules. The AI prompt.",
+    "Comment INVITE to get it"
+   ],
+   "resource": {
+    "name": "The Calendar Invite Blueprint",
+    "keyword": "INVITE",
+    "what": "A 3-page PDF: the invite template with merge fields, the four rules (sent 8 to 12 days out, title under 60 characters, two opening lines, an easy way to decline) and the AI prompt that writes it for your offer.",
+    "url": "https://adisuja.github.io/tantra-revops/calendar-invite-blueprint/",
+    "pages": 3,
+    "files": [
+     {
+      "label": "PDF",
+      "href": "resources/calendar-invite-blueprint/calendar-invite-blueprint.pdf"
+     }
+    ],
+    "preview": "resources/calendar-invite-blueprint/"
+   },
+   "dm": {
+    "message": "Hi {first_name}, thanks for commenting INVITE.\n\nHere's the Calendar Invite Blueprint:\nhttps://adisuja.github.io/tantra-revops/calendar-invite-blueprint/\n\nIt's 3 pages: the invite template, the 4 rules and the AI prompt that writes the invite for your event.\n\nStart with page 2 and check your current invite against the 4 rules before you rewrite anything.\n\nWhat are you inviting people to?",
+    "connect": "Hi {first_name}, you commented INVITE on my post about the calendar invite blueprint. LinkedIn only lets me message connections, so accept this and I'll send it straight over. Adi",
+    "email_subject": "Your Calendar Invite Blueprint",
+    "email_body": "Hi {first_name},\n\nYou commented INVITE on my post about the calendar invite blueprint:\n[POST LINK]\n\nHere's the Calendar Invite Blueprint, as promised:\nhttps://adisuja.github.io/tantra-revops/calendar-invite-blueprint/\n\nIt's 3 pages: the invite template, the 4 rules and the AI prompt that writes the invite for your event. The link opens straight away, with no sign-up.\n\nStart with page 2 and check your current invite against the 4 rules before you rewrite anything.\n\nWhat are you inviting people to? Hit reply and tell me.\n\nAdi\n\nP.S. You're getting this because you asked for it in the comments. If you'd rather not hear from me again, reply \"no\" and that's final."
+   },
+   "key": "b3-AG1",
+   "team_comments": [
+    {
+     "by": "aquila",
+     "tone": "feedback",
+     "text": "The decline line deserves more credit. A clean no tells you who to stop reminding, so the rest of the sequence stays relevant for the people still in. I'd wire every decline straight into a stop rule.",
+     "reply_to": null
+    },
+    {
+     "by": "adi",
+     "tone": "reply",
+     "text": "Love that. A decline is the only honest answer most invites ever get, so treating it as data instead of a loss changes how you write the whole thing.",
+     "reply_to": 0
+    },
+    {
+     "by": "bhaskar",
+     "tone": "positive",
+     "text": "98,000 of 99,859 by calendar invite 📅 Email was the side channel. That flips how most of us plan event promo.",
+     "reply_to": null
+    },
+    {
+     "by": "adi",
+     "tone": "reply",
+     "text": "Then flip it fully. Plan the invite first and write the emails around it, not the other way round.",
+     "reply_to": 2
+    },
+    {
+     "by": "ben",
+     "tone": "question",
+     "text": "60 characters is tight. Does the date go in the title or the description?",
+     "reply_to": null
+    },
+    {
+     "by": "adi",
+     "tone": "reply",
+     "text": "Neither, really. The calendar already shows it, so spend the characters on who it's for.",
+     "reply_to": 4
+    },
+    {
+     "by": "nelbin",
+     "tone": "positive",
+     "text": "12 days out, 8 at the latest. Straight onto the checklist ✍️",
+     "reply_to": null
+    },
+    {
+     "by": "adi",
+     "tone": "reply",
+     "text": "Put a name next to it. Checklists don't send invites.",
+     "reply_to": 6
+    },
+    {
+     "by": "bharath",
+     "tone": "differs",
+     "text": "Merge fields are great until the data's wrong. I'd rather send a plain invite than one that opens with the wrong first name, so clean the list before you personalise anything.",
+     "reply_to": null
+    },
+    {
+     "by": "adi",
+     "tone": "reply",
+     "text": "Clean first, agreed. I'd still keep the fields though: a plain invite reads like a mass send, and that's exactly what the blueprint is built to avoid 🙂",
+     "reply_to": 8
+    }
+   ]
+  },
+  {
+   "id": "AG2",
+   "batch": "3",
+   "profile": "adi",
+   "platform": "linkedin",
+   "status": "ready",
+   "time": "08:30",
+   "cta": "",
+   "date": "2026-11-16",
+   "short": "Your funnel is one line of maths",
+   "pillar": "Measure and improve",
+   "idea": "Four numbers decide how many customers you get; the sheet shows which one is the weakest.",
+   "format": "Image · animated giveaway",
+   "sample": {
+    "id": "BK13",
+    "creator": "Bharath Krishna Pai",
+    "what": "720x1080 (2:3) GIF, 71 frames, 4.7s. Top: serif 'Claude Opus' wordmark with Claude starburst beside a giant numeral 5 built from illustrated monarch butterflies and leaves. Middle: an equation row '✳ + [LinkedIn logo with red 99+ badge] = 600k impressions in 90 days' with a blue hand-drawn underline. Below: a blush panel with three blue line-icon columns (Content on autopilot, Right audience every post, More leads, less effort) and a full-width rust CTA button 'Comment 'SYSTEM' for access'. The equation and benefits rebuild piece by piece like an equation being written.",
+    "url": "https://www.linkedin.com/posts/bkp31415_claude-opus-55-just-made-itself-an-official-activity-7516004035385028608-mCCm"
+   },
+   "copy_basis": "BK13 template: news claim hook, count and promise, context line, numbered 1/ to 7/ list, ritual line, one quoted question, staccato fragments, CTA",
+   "media": {
+    "type": "video",
+    "src": "batch-3/AG2",
+    "title": "Your funnel is one line of maths",
+    "files": [
+     "media/batch-3/AG2/poster.jpg?v=20261111084157"
+    ],
+    "video": "media/batch-3/AG2/tantra-b3-AG2-2026-11-16-adi.mp4?v=20261111084157",
+    "tall": false,
+    "sets": [
+     {
+      "href": "media/batch-3/AG2/tantra-b3-AG2-2026-11-16-adi.mp4?v=20261111084157",
+      "name": "tantra-b3-AG2-2026-11-16-adi.mp4",
+      "ext": "mp4",
+      "label": "Download MP4",
+      "bytes": 412017
+     },
+     {
+      "href": "media/batch-3/AG2/tantra-b3-AG2-2026-11-16-adi.gif?v=20261111084157",
+      "name": "tantra-b3-AG2-2026-11-16-adi.gif",
+      "ext": "gif",
+      "label": "Download GIF",
+      "bytes": 742899
+     }
+    ]
+   },
+   "text": "Your whole funnel just became one line of maths.\n\nThe 4 numbers in it decide how many customers you win this quarter 👇\n\nYou probably track leads and revenue. The leak sits in between.\n\nHere's what that line looks like for a B2B founder:\n\n1/ Sign-ups: how many people raised a hand\n2/ Show-up rate: the share who turned up\n3/ Booking rate: the share who booked a call\n4/ Close rate: the share who paid\n5/ Customers: sign-ups x show-up rate x booking rate x close rate\n6/ The weakest number: the one stage costing you the most customers\n7/ One change: the only thing you touch this week\n\nThe question to ask every Monday:\n\n\"Which of my four numbers is the weakest, and what one thing do I change this week?\"\n\nNot five fixes.\n\nNot a new funnel.\n\nOne number. One change. Re-run it and log it.\n\nHow to get the sheet is on the image.\n\n👇",
+   "first_comment": "Want to see which stage is costing you customers? Comment MATH and the 4-Number Revenue Equation Sheet lands in your DMs. One page: type in your four numbers, it does the maths and shows you the weakest one to fix this week.",
+   "sources": [
+    "content/corpus/facts.md: EW-16, EW-17, EW-18"
+   ],
+   "numbers_for_signoff": [
+    "4 numbers and the equation (EW-18)",
+    "weekly loop: weakest number, one change, re-run and log (EW-16)"
+   ],
+   "flags": [
+    "The keyword is on the asset's bottom tile and in the first comment (which says what to comment, what's inside and how it's sent), never in the post copy. The resource is built and hosted: preview it under the post, with the three messages that deliver it.",
+    "The resource goes out by manual DM from Adi's profile.",
+    "No worked example with figures: we have no cleared numbers to put in the equation."
+   ],
+   "visual_label": "On the asset (animated 4:5)",
+   "visual_copy": [
+    "THE 4-NUMBER REVENUE EQUATION SHEET",
+    "Customers = sign-ups x show-up rate x booking rate x close rate",
+    "Find the stage that is costing you customers",
+    "Comment MATH to get it"
+   ],
+   "resource": {
+    "name": "The 4-Number Revenue Equation Sheet",
+    "keyword": "MATH",
+    "what": "A one-page fillable sheet: the equation, the six stage numbers, where to read each one and a box for your weakest stage.",
+    "url": "https://adisuja.github.io/tantra-revops/revenue-equation-sheet/",
+    "pages": 1,
+    "files": [
+     {
+      "label": "PDF",
+      "href": "resources/revenue-equation-sheet/revenue-equation-sheet.pdf"
+     }
+    ],
+    "preview": "resources/revenue-equation-sheet/"
+   },
+   "dm": {
+    "message": "Hi {first_name}, thanks for commenting MATH.\n\nHere's the 4-Number Revenue Equation Sheet:\nhttps://adisuja.github.io/tantra-revops/revenue-equation-sheet/\n\nIt's one page: the equation, the six stage numbers and where to read each one. Type your numbers in and it does the maths.\n\nFill in last month's four numbers first. The weakest one is the only thing to work on this week.\n\nWhich of the four came out weakest?",
+    "connect": "Hi {first_name}, you commented MATH on my post about your funnel as one line of maths. LinkedIn only lets me message connections, so accept this and I'll send it straight over. Adi",
+    "email_subject": "Your 4-Number Revenue Equation Sheet",
+    "email_body": "Hi {first_name},\n\nYou commented MATH on my post about your funnel as one line of maths:\n[POST LINK]\n\nHere's the 4-Number Revenue Equation Sheet, as promised:\nhttps://adisuja.github.io/tantra-revops/revenue-equation-sheet/\n\nIt's one page: the equation, the six stage numbers and where to read each one. Type your numbers in and it does the maths. The link opens straight away, with no sign-up.\n\nFill in last month's four numbers first. The weakest one is the only thing to work on this week.\n\nWhich of the four came out weakest? Hit reply and tell me.\n\nAdi\n\nP.S. You're getting this because you asked for it in the comments. If you'd rather not hear from me again, reply \"no\" and that's final."
+   },
+   "key": "b3-AG2",
+   "team_comments": [
+    {
+     "by": "bhaskar",
+     "tone": "differs",
+     "text": "I'd add a number in front of sign-ups: how many of the right people saw it at all. Plenty of funnels look weak at sign-up when the real problem is that not enough of the right people ever heard about it.",
+     "reply_to": null
+    },
+    {
+     "by": "adi",
+     "tone": "reply",
+     "text": "Reach matters, but I'd keep it out of the line. It's an input you plan for, not a rate you fix on a Monday, and the line only works because every number in it is a rate.",
+     "reply_to": 0
+    },
+    {
+     "by": "bharath",
+     "tone": "feedback",
+     "text": "Because it's multiplication, a small lift on the weakest rate moves customers more than a big lift on the strongest. I'd have the sheet flag the lowest one on its own 📊",
+     "reply_to": null
+    },
+    {
+     "by": "adi",
+     "tone": "reply",
+     "text": "That's what it does. Type in the four numbers and it shows you the weakest one, so nobody has to eyeball it.",
+     "reply_to": 2
+    },
+    {
+     "by": "nelbin",
+     "tone": "positive",
+     "text": "Monday question is going on the whiteboard ✍️",
+     "reply_to": null
+    },
+    {
+     "by": "adi",
+     "tone": "reply",
+     "text": "Next to it, a log of each change.",
+     "reply_to": 4
     },
     {
      "by": "ben",
      "tone": "feedback",
-     "text": "Worth tagging each record in the CRM with where it landed. Then registrations by group are one filter away when you look back after the event, and you know which invite pulled its weight 📈",
+     "text": "Show-up rate is only as good as the tracking. If the attendance export and the sign-up list don't share IDs, the whole line is off.",
      "reply_to": null
+    },
+    {
+     "by": "adi",
+     "tone": "reply",
+     "text": "Ben, yes. Bad tracking makes the wrong stage look weakest, and then you spend a week fixing something that wasn't broken.",
+     "reply_to": 6
+    },
+    {
+     "by": "aquila",
+     "tone": "question",
+     "text": "When two numbers are both weak, which one do you touch first? The earlier stage? 🤔",
+     "reply_to": null
+    },
+    {
+     "by": "adi",
+     "tone": "reply",
+     "text": "Whichever costs you the most customers. That's point 6: work it out, then touch only that one.",
+     "reply_to": 8
+    }
+   ]
+  },
+  {
+   "id": "AG3",
+   "batch": "3",
+   "profile": "adi",
+   "platform": "linkedin",
+   "status": "ready",
+   "time": "08:30",
+   "cta": "",
+   "date": "2026-11-18",
+   "short": "250+ real funnel elements, 7 prompts",
+   "pillar": "AI orchestration",
+   "idea": "A prompt library built on real funnel elements beats a blank chat; the starter pack is one prompt per funnel stage plus setup.",
+   "format": "Image · animated giveaway",
+   "sample": {
+    "id": "ID03",
+    "creator": "Ipsita Dhar",
+    "what": "720x900 (4:5) GIF of a macOS-style window titled 'Oiti · 30+ LinkedIn skills' with traffic-light buttons, a breadcrumb 'Oiti › Skills' plus an orange mono tag 'for LinkedIn' and a big orange '30+ skills' counter. A 5-column grid of 19 peach folders (Voice Clone, Hook Writer, Story Interview, Newsjacking, Carousel Builder, Infographic Studio, Content Calendar, Comment Replies, Repurpose, Analytics Digest, Knowledge Base, Memory, Competitor Watch, Profile Optimizer, Ideation, Post Scheduler, Writing Styles, Trend Radar, DM Assist) plus a dashed '+ 11 more' slot. An orange gradient CTA bar sits at the bottom: 'Comment \"SYSTEM\" and I'll send it over'. Motion: folders pop in while the counter climbs, then the Voice Clone folder is opened into a panel listing its files while SKILL.md types itself out, and a 0.4s reverse ease rewinds everything to the first row.",
+    "url": "https://www.linkedin.com/posts/ipsitadhar14_guyss-i-finally-finished-the-largest-claude-activity-7521443453281406976-qSuN"
+   },
+   "copy_basis": "ID03 template: two hook lines, positioning line, humble limit, reframe, seven numbered titled sections, 'Everything connects' chain, counted summary, CTA",
+   "media": {
+    "type": "video",
+    "src": "batch-3/AG3",
+    "title": "250+ real funnel elements, 7 prompts",
+    "files": [
+     "media/batch-3/AG3/poster.jpg?v=20261111084157"
+    ],
+    "video": "media/batch-3/AG3/tantra-b3-AG3-2026-11-18-adi.mp4?v=20261111084157",
+    "tall": false,
+    "sets": [
+     {
+      "href": "media/batch-3/AG3/tantra-b3-AG3-2026-11-18-adi.mp4?v=20261111084157",
+      "name": "tantra-b3-AG3-2026-11-18-adi.mp4",
+      "ext": "mp4",
+      "label": "Download MP4",
+      "bytes": 634601
+     },
+     {
+      "href": "media/batch-3/AG3/tantra-b3-AG3-2026-11-18-adi.gif?v=20261111084157",
+      "name": "tantra-b3-AG3-2026-11-18-adi.gif",
+      "ext": "gif",
+      "label": "Download GIF",
+      "bytes": 921048
+     }
+    ]
+   },
+   "text": "I finally pulled 250+ real funnel elements into one prompt library.\n\nAnd I'm giving you the 7 prompts I'd start with, free ↓\n\nIt's for founders who are tired of opening a blank chat and hoping.\n\nIt obviously can't replace what you know about your own buyer.\n\nBut it does stop AI from guessing. Every prompt points at a real example and rebuilds it for your brand.\n\nHere's what the starter pack handles:\n\n1. The Setup Prompt\n\nLoads the rules once: one element at a time, mirror the reference example, facts only from your Funnel Brief. A missing fact comes back as [FILL], never a made-up number.\n\n2. Traffic\n\nWrites the outreach that earns the visit. Every line comes in two versions: A leads with the outcome, B answers the objection.\n\n3. Landing\n\nBuilds the page that turns a visit into a sign-up.\n\n4. Nurture\n\nWrites the reminders that turn a sign-up into a show-up.\n\n5. Conversion\n\nDrafts the session that turns a room into booked calls.\n\n6. Revenue\n\nWrites the follow-up that turns a call into a customer.\n\n7. Long-term nurture\n\nBrings back the people who weren't ready, so they rebook.\n\nEverything connects:\n\nTraffic → Landing → Nurture → Conversion → Revenue → Long-term nurture\n\n7 prompts. 6 stages. 0 blank pages.\n\nHow to get it is on the image 👇",
+   "first_comment": "Drop PROMPTS below and I'll DM you the 6-Stage AI Funnel Prompt Starter Pack. Seven prompts you copy and paste, one for every stage from traffic to long-term nurture, each built from real funnel examples. If we aren't connected, accept my request and it's yours.",
+   "sources": [
+    "content/corpus/facts.md: EW-12, EW-17, EW-32"
+   ],
+   "numbers_for_signoff": [
+    "250+ real funnel elements (EW-12)",
+    "six stages (EW-17)",
+    "setup prompt rules: one element at a time, mirror the reference, [FILL], A and B versions (EW-32)"
+   ],
+   "flags": [
+    "The keyword is on the asset's bottom tile and in the first comment (which says what to comment, what's inside and how it's sent), never in the post copy. The resource is built and hosted: preview it under the post, with the three messages that deliver it.",
+    "The resource goes out by manual DM from Adi's profile."
+   ],
+   "visual_label": "On the asset (animated 4:5)",
+   "visual_copy": [
+    "THE 6-STAGE AI FUNNEL PROMPT STARTER PACK",
+    "7 prompts. 6 stages. Built on 250+ real funnel elements",
+    "Traffic → Landing → Nurture → Conversion → Revenue → Long-term nurture",
+    "Comment PROMPTS to get it"
+   ],
+   "resource": {
+    "name": "The 6-Stage AI Funnel Prompt Starter Pack",
+    "keyword": "PROMPTS",
+    "what": "Seven copy-and-paste prompts in one document: the setup prompt and one prompt for each of the six funnel stages, each with its reference example slot and [FILL] gaps.",
+    "url": "https://adisuja.github.io/tantra-revops/funnel-prompt-starter-pack/",
+    "pages": 5,
+    "files": [
+     {
+      "label": "PDF",
+      "href": "resources/funnel-prompt-starter-pack/funnel-prompt-starter-pack.pdf"
+     }
+    ],
+    "preview": "resources/funnel-prompt-starter-pack/"
+   },
+   "dm": {
+    "message": "Hi {first_name}, thanks for commenting PROMPTS.\n\nHere's the 6-Stage AI Funnel Prompt Starter Pack:\nhttps://adisuja.github.io/tantra-revops/funnel-prompt-starter-pack/\n\nSeven prompts to copy and paste: the setup prompt, then one for each funnel stage, from Traffic to Long-term nurture.\n\nPaste the setup prompt first and fill in your Funnel Brief. Every other prompt reads from it.\n\nWhich stage are you building first?",
+    "connect": "Hi {first_name}, you commented PROMPTS on my post about the 7 prompts I'd start with. LinkedIn only lets me message connections, so accept this and I'll send it straight over. Adi",
+    "email_subject": "Your 6-Stage AI Funnel Prompt Starter Pack",
+    "email_body": "Hi {first_name},\n\nYou commented PROMPTS on my post about the 7 prompts I'd start with:\n[POST LINK]\n\nHere's the 6-Stage AI Funnel Prompt Starter Pack, as promised:\nhttps://adisuja.github.io/tantra-revops/funnel-prompt-starter-pack/\n\nSeven prompts to copy and paste: the setup prompt, then one for each funnel stage, from Traffic to Long-term nurture. The link opens straight away, with no sign-up.\n\nPaste the setup prompt first and fill in your Funnel Brief. Every other prompt reads from it.\n\nWhich stage are you building first? Hit reply and tell me.\n\nAdi\n\nP.S. You're getting this because you asked for it in the comments. If you'd rather not hear from me again, reply \"no\" and that's final."
+   },
+   "key": "b3-AG3",
+   "team_comments": [
+    {
+     "by": "ben",
+     "tone": "question",
+     "text": "Does the Landing prompt cover the form copy too, or only the page around it?",
+     "reply_to": null
+    },
+    {
+     "by": "adi",
+     "tone": "reply",
+     "text": "The page. A form is short enough to write by hand, and the Setup Prompt's rules still hold if you want a draft of it anyway.",
+     "reply_to": 0
+    },
+    {
+     "by": "nelbin",
+     "tone": "differs",
+     "text": "It stops AI guessing facts, sure. It can still guess tone, so someone who knows the buyer still reads every draft before it goes anywhere. I wouldn't sell it as no more guessing.",
+     "reply_to": null
+    },
+    {
+     "by": "adi",
+     "tone": "reply",
+     "text": "Partly fair, Nelbin. That's why the post says it can't replace what you know about your own buyer. The reference example narrows the tone guessing, it just doesn't remove the reader.",
+     "reply_to": 2
+    },
+    {
+     "by": "bharath",
+     "tone": "positive",
+     "text": "The [FILL] rule is my favourite part 🙌 A model that admits a gap beats one that invents a number to keep a sentence flowing. That one rule saves a lot of awkward corrections later.",
+     "reply_to": null
+    },
+    {
+     "by": "adi",
+     "tone": "reply",
+     "text": "And every [FILL] points back at a gap in your Funnel Brief, so you fix the brief once instead of every draft.",
+     "reply_to": 4
+    },
+    {
+     "by": "aquila",
+     "tone": "feedback",
+     "text": "Keeping Nurture and Long-term nurture as separate prompts is right. Reminders before a session and bringing people back much later are different jobs, with a different tone and a different trigger.",
+     "reply_to": null
+    },
+    {
+     "by": "adi",
+     "tone": "reply",
+     "text": "Different promise too ⏰",
+     "reply_to": 6
+    },
+    {
+     "by": "bhaskar",
+     "tone": "positive",
+     "text": "0 blank pages. Best closing line this week ✨",
+     "reply_to": null
+    },
+    {
+     "by": "adi",
+     "tone": "reply",
+     "text": "Blank pages are where most founders give up on AI.",
+     "reply_to": 8
+    }
+   ]
+  },
+  {
+   "id": "AG5",
+   "batch": "3",
+   "profile": "adi",
+   "platform": "linkedin",
+   "status": "ready",
+   "time": "08:30",
+   "cta": "",
+   "date": "2026-11-23",
+   "short": "5 emails, 13 days, 1 subject line",
+   "pillar": "Multi-channel outreach",
+   "idea": "A cold email thread is one conversation: one subject line, five short emails, set days.",
+   "format": "Image · animated giveaway",
+   "sample": {
+    "id": "ID04",
+    "creator": "Ipsita Dhar",
+    "what": "720x900 (4:5) GIF: a glossy iPhone mockup (Dynamic Island showing an orange burst, lock icon, 'Friday', huge '9:41') on a peach-coral gradient, with iOS notification cards stacking on the lock screen: 'Claude for LinkedIn / Post published · 8:30 / Story post · official API', 'LinkedIn / Your post hit 84K views / Hook #7 · 3x your average', 'LinkedIn / New DM from a lead / Priya S., Founder · Lattice', 'LinkedIn / +212 followers this week / Founders in your ICP', 'Claude for LinkedIn / Memory updated / Learned from your edit'. A floating white card top-left counts 'Views on LinkedIn, last 6 months' from 0K to 600K 'on autopilot' with a 12-dot progress row; a pill bottom-right reads 'Claude + LinkedIn / connected via official API' with the burst and LinkedIn logos joined by a dotted line. Cream CTA strip: 'Comment \"SYSTEM\" and I'll send it over'.",
+    "url": "https://www.linkedin.com/posts/ipsitadhar14_breaking-claude-now-grows-your-linkedin-activity-7520718602677682176-W22g"
+   },
+   "copy_basis": "ID04 template: BREAKING caps hook, two-line setup, turn, tease, insight, equation pair, 'Here's what's inside' with eight arrow lines, proof line, RESULT line, three-beat close",
+   "media": {
+    "type": "video",
+    "src": "batch-3/AG5",
+    "title": "5 emails, 13 days, 1 subject line",
+    "files": [
+     "media/batch-3/AG5/poster.jpg?v=20261111084157"
+    ],
+    "video": "media/batch-3/AG5/tantra-b3-AG5-2026-11-23-adi.mp4?v=20261111084157",
+    "tall": false,
+    "sets": [
+     {
+      "href": "media/batch-3/AG5/tantra-b3-AG5-2026-11-23-adi.mp4?v=20261111084157",
+      "name": "tantra-b3-AG5-2026-11-23-adi.mp4",
+      "ext": "mp4",
+      "label": "Download MP4",
+      "bytes": 821707
+     },
+     {
+      "href": "media/batch-3/AG5/tantra-b3-AG5-2026-11-23-adi.gif?v=20261111084157",
+      "name": "tantra-b3-AG5-2026-11-23-adi.gif",
+      "ext": "gif",
+      "label": "Download GIF",
+      "bytes": 1215489
+     }
+    ]
+   },
+   "text": "BREAKING: AI NOW WRITES YOUR WHOLE COLD EMAIL THREAD FROM ONE PROMPT.\n\n5 emails. 13 days. 1 subject line.\n\nYou've been told every follow-up needs a fresh, clever subject line.\nSo each one lands as a new cold email from a stranger.\n\nThat's the wrong way round.\n\nHere's the thread I'd send instead 👇\n\nHere's what changes when the follow-ups stay in one thread:\n\nYour buyer sees one conversation that gets shorter each time. Not five strangers.\n\nFive subject lines = five cold emails.\nOne subject line = one conversation.\n\nHere's what's inside:\n\n→ 5 Emails On Days 0, 3, 6, 9 And 13\n→ 1 Subject Line, On Email 1 Only\n→ Under 80 Words For Emails 2 To 5\n→ 1 Link, Never Two\n→ An Outcome Version Of Every Email\n→ An Objection Version Of Every Email\n→ The Day Each Email Goes Out\n→ The Prompt That Fills All Five\n\nIt's the thread structure from our playbook, on two pages.\n\nRESULT: a 13-day thread your buyer reads as one conversation.\n\nWant it?\n\nThe image shows how.\n\n👇",
+   "first_comment": "Type THREAD in the comments and I'll message you the 13-Day Cold Email Thread: five short emails on days 0, 3, 6, 9 and 13, an outcome version and an objection version, and the prompt that writes all five for your offer. Free, no sign-up.",
+   "sources": [
+    "content/corpus/facts.md: EW-24, EW-32"
+   ],
+   "numbers_for_signoff": [
+    "5 steps on days 0, 3, 6, 9 and 13; only step 1 has a subject; steps 2 to 5 under 80 words; one link (EW-24)",
+    "A (outcome) and B (objection) versions (EW-32)"
+   ],
+   "flags": [
+    "The keyword is on the asset's bottom tile and in the first comment (which says what to comment, what's inside and how it's sent), never in the post copy. The resource is built and hosted: preview it under the post, with the three messages that deliver it.",
+    "The resource goes out by manual DM from Adi's profile.",
+    "The RESULT line states what the thread is, not a performance number: we have no cleared result for it."
+   ],
+   "visual_label": "On the asset (animated 4:5)",
+   "visual_copy": [
+    "THE 13-DAY COLD EMAIL THREAD",
+    "5 emails. 13 days. 1 subject line.",
+    "Day 0 · Day 3 · Day 6 · Day 9 · Day 13",
+    "Comment THREAD to get it"
+   ],
+   "resource": {
+    "name": "The 13-Day Cold Email Thread",
+    "keyword": "THREAD",
+    "what": "A 2-page PDF: five emails laid out on days 0, 3, 6, 9 and 13 with word limits, the one-link rule, an outcome version and an objection version, plus the prompt that fills them.",
+    "url": "https://adisuja.github.io/tantra-revops/cold-email-thread/",
+    "pages": 2,
+    "files": [
+     {
+      "label": "PDF",
+      "href": "resources/cold-email-thread/cold-email-thread.pdf"
+     }
+    ],
+    "preview": "resources/cold-email-thread/"
+   },
+   "dm": {
+    "message": "Hi {first_name}, thanks for commenting THREAD.\n\nHere's the 13-Day Cold Email Thread:\nhttps://adisuja.github.io/tantra-revops/cold-email-thread/\n\nIt's 2 pages: five emails on days 0, 3, 6, 9 and 13, an outcome version and an objection version, and the prompt that fills all five.\n\nWrite email 1 before anything else. The other four are replies to it, so they only work once it does.\n\nWho is the thread going to?",
+    "connect": "Hi {first_name}, you commented THREAD on my post about writing a whole cold email thread from one prompt. LinkedIn only lets me message connections, so accept this and I'll send it straight over. Adi",
+    "email_subject": "Your 13-Day Cold Email Thread",
+    "email_body": "Hi {first_name},\n\nYou commented THREAD on my post about writing a whole cold email thread from one prompt:\n[POST LINK]\n\nHere's the 13-Day Cold Email Thread, as promised:\nhttps://adisuja.github.io/tantra-revops/cold-email-thread/\n\nIt's 2 pages: five emails on days 0, 3, 6, 9 and 13, an outcome version and an objection version, and the prompt that fills all five. The link opens straight away, with no sign-up.\n\nWrite email 1 before anything else. The other four are replies to it, so they only work once it does.\n\nWho is the thread going to? Hit reply and tell me.\n\nAdi\n\nP.S. You're getting this because you asked for it in the comments. If you'd rather not hear from me again, reply \"no\" and that's final."
+   },
+   "key": "b3-AG5",
+   "team_comments": [
+    {
+     "by": "bharath",
+     "tone": "feedback",
+     "text": "Check that your sending tool threads replies properly. Some tools quietly start a new thread if the subject changes even slightly, which undoes the point, so send a test to yourself first.",
+     "reply_to": null
+    },
+    {
+     "by": "adi",
+     "tone": "reply",
+     "text": "Worth doing on the mail apps your buyers actually use too, not only your own inbox.",
+     "reply_to": 0
+    },
+    {
+     "by": "aquila",
+     "tone": "positive",
+     "text": "Five subject lines = five cold emails 📬 Cleanest way I've seen it put.",
+     "reply_to": null
+    },
+    {
+     "by": "adi",
+     "tone": "reply",
+     "text": "Handy test before sending: count the subject lines.",
+     "reply_to": 2
+    },
+    {
+     "by": "ben",
+     "tone": "feedback",
+     "text": "1 link, never two. It also means one place to track clicks, so you can see which of the five emails did the work 🔗",
+     "reply_to": null
+    },
+    {
+     "by": "adi",
+     "tone": "reply",
+     "text": "Exactly. One link with a UTM per email answers that without any guessing.",
+     "reply_to": 4
+    },
+    {
+     "by": "bhaskar",
+     "tone": "differs",
+     "text": "I'd still test a fresh subject on email 5. By day 13 the thread has gone cold, and a new subject is a pattern break. Worth an A/B before ruling it out.",
+     "reply_to": null
+    },
+    {
+     "by": "adi",
+     "tone": "reply",
+     "text": "Test it, by all means. My bet stays with the thread, because email 5 reads like a nudge in an ongoing conversation, not another stranger's pitch.",
+     "reply_to": 6
     },
     {
      "by": "nelbin",
      "tone": "question",
-     "text": "How do you spot what just changed for them: their posts, or news about the company?",
+     "text": "Who owns the thread if the buyer replies on day 6?",
      "reply_to": null
+    },
+    {
+     "by": "adi",
+     "tone": "reply",
+     "text": "The sender ⏸️ A reply stops the sequence the moment it lands, and the same person picks it up, so the buyer never has to repeat themselves.",
+     "reply_to": 8
+    }
+   ]
+  },
+  {
+   "id": "AG6",
+   "batch": "3",
+   "profile": "adi",
+   "platform": "linkedin",
+   "status": "ready",
+   "time": "08:30",
+   "cta": "",
+   "date": "2026-11-25",
+   "short": "Your persona from 20 customers",
+   "pillar": "Offer and buyer",
+   "idea": "A buyer persona is a guess until it is built from the 20 best customers; a trait stays only if more than half share it.",
+   "format": "Image · animated giveaway",
+   "sample": {
+    "id": "BK08",
+    "creator": "Bharath Krishna Pai",
+    "what": "800x1000 (4:5) GIF on a lavender dot-grid canvas: kicker 'Judge every lead like you would', headline 'Claude + intent data = Only DMs that land' with 'land' in a highlight box, subline 'Ask 8 tiny questions about each lead and what they just did'. A 'Reading every engager' strip of 12 face avatars gets skip / ✓DM tags; a 'Reviewing' card (Lead 09/132, Founder · Series A SaaS, name redacted with a black bar) runs 8 coloured question rows (role, company, new job, hiring, funding, pain post, competitor, warm path) that resolve to Yes / No (5 Yes, 3 No), then a 9th 'fit' row ('0 to 100 score, 70+ gets a DM') fills a bar to 64, just under the threshold marker, and marks 'skipped'. Two boxes compare 'The DIY version' and 'The done-for-you version'. Purple CTA bar: 'Comment \"INTENT\" for free access 👇'.",
+    "url": "https://www.linkedin.com/posts/bkp31415_i-dont-know-if-i-should-be-sharing-this-activity-7520711265791463424-vjy-"
+   },
+   "copy_basis": "BK08 template: confessional hook, three-clause claim, setup line, four quoted prompts each with a tick result, 'It also' with four arrow lines, a plain-language question, 'Less, More' close",
+   "media": {
+    "type": "video",
+    "src": "batch-3/AG6",
+    "title": "Your persona from 20 customers",
+    "files": [
+     "media/batch-3/AG6/poster.jpg?v=20261111084157"
+    ],
+    "video": "media/batch-3/AG6/tantra-b3-AG6-2026-11-25-adi.mp4?v=20261111084157",
+    "tall": false,
+    "sets": [
+     {
+      "href": "media/batch-3/AG6/tantra-b3-AG6-2026-11-25-adi.mp4?v=20261111084157",
+      "name": "tantra-b3-AG6-2026-11-25-adi.mp4",
+      "ext": "mp4",
+      "label": "Download MP4",
+      "bytes": 864397
+     },
+     {
+      "href": "media/batch-3/AG6/tantra-b3-AG6-2026-11-25-adi.gif?v=20261111084157",
+      "name": "tantra-b3-AG6-2026-11-25-adi.gif",
+      "ext": "gif",
+      "label": "Download GIF",
+      "bytes": 1141335
+     }
+    ]
+   },
+   "text": "I don't know if I should be sharing this...\n\nGive AI your 20 best customers and one prompt. It finds what they share, cuts what they don't, and writes your buyer persona.\n\nMost personas get written in a meeting, from memory.\n\n\"List the traits of each of these 20 customers.\"\n✅ Every customer, trait by trait\n\n\"Keep only the traits more than half of them share.\"\n✅ The guesses drop out\n\n\"Write at least 3 exclusions: who we should not sell to.\"\n✅ A list of who to stop chasing\n\n\"Turn what's left into one buyer persona.\"\n✅ A persona built on people who paid!\n\nIt also:\n\n→ Shows which traits are noise\n→ Tells your team who to skip\n→ Gives every invite and page one buyer to speak to\n→ Changes when your best 20 change\n\n\"Does this lead look like my best customers?\"\n\nLess guessing. More buyers like the ones who already paid!\n\nHow to get the scorecard is on the image 👇",
+   "first_comment": "Comment BUYER and I'll send the 20-Customer Persona Scorecard to your DMs. List your 20 best customers, keep the traits more than half of them share, write 3 exclusions, and the prompt turns it into a persona you can actually target. It's free.",
+   "sources": [
+    "content/corpus/facts.md: EW-26"
+   ],
+   "numbers_for_signoff": [
+    "20 best customers; a trait stays if more than half share it; at least 3 exclusions (EW-26)"
+   ],
+   "flags": [
+    "The keyword is on the asset's bottom tile and in the first comment (which says what to comment, what's inside and how it's sent), never in the post copy. The resource is built and hosted: preview it under the post, with the three messages that deliver it.",
+    "The resource goes out by manual DM from Adi's profile."
+   ],
+   "visual_label": "On the asset (animated 4:5)",
+   "visual_copy": [
+    "THE 20-CUSTOMER PERSONA SCORECARD",
+    "20 customers. Keep what more than half share. 3 exclusions.",
+    "A persona from people who paid",
+    "Comment BUYER to get it"
+   ],
+   "resource": {
+    "name": "The 20-Customer Persona Scorecard",
+    "keyword": "BUYER",
+    "what": "A fillable scorecard: list your 20 best customers, tick each trait, keep only traits more than half share, write 3 exclusions. Comes with the prompt that turns it into a persona.",
+    "url": "https://adisuja.github.io/tantra-revops/persona-scorecard/",
+    "pages": 2,
+    "files": [
+     {
+      "label": "PDF",
+      "href": "resources/persona-scorecard/persona-scorecard.pdf"
+     }
+    ],
+    "preview": "resources/persona-scorecard/"
+   },
+   "dm": {
+    "message": "Hi {first_name}, thanks for commenting BUYER.\n\nHere's the 20-Customer Persona Scorecard:\nhttps://adisuja.github.io/tantra-revops/persona-scorecard/\n\nList your 20 best customers, fill in the traits, keep only what more than half share and write 3 exclusions. The prompt on page 2 turns it into a persona.\n\nStart with the customer list, not the traits. Pick by revenue, retention and how easy they are to serve.\n\nWhat did your best customers turn out to share?",
+    "connect": "Hi {first_name}, you commented BUYER on my post about building a buyer persona from your 20 best customers. LinkedIn only lets me message connections, so accept this and I'll send it straight over. Adi",
+    "email_subject": "Your 20-Customer Persona Scorecard",
+    "email_body": "Hi {first_name},\n\nYou commented BUYER on my post about building a buyer persona from your 20 best customers:\n[POST LINK]\n\nHere's the 20-Customer Persona Scorecard, as promised:\nhttps://adisuja.github.io/tantra-revops/persona-scorecard/\n\nList your 20 best customers, fill in the traits, keep only what more than half share and write 3 exclusions. The prompt on page 2 turns it into a persona. The link opens straight away, with no sign-up.\n\nStart with the customer list, not the traits. Pick by revenue, retention and how easy they are to serve.\n\nWhat did your best customers turn out to share? Hit reply and tell me.\n\nAdi\n\nP.S. You're getting this because you asked for it in the comments. If you'd rather not hear from me again, reply \"no\" and that's final."
+   },
+   "key": "b3-AG6",
+   "team_comments": [
+    {
+     "by": "nelbin",
+     "tone": "feedback",
+     "text": "The exclusions step saves more hours than the persona does. Once the team has a written who-not-to-sell-to list, they stop chasing the wrong deals early, and someone should own keeping it current.",
+     "reply_to": null
+    },
+    {
+     "by": "adi",
+     "tone": "reply",
+     "text": "Agreed, and the owner matters because exclusions go stale faster than the persona. Every bad-fit deal you lose time on belongs on that list.",
+     "reply_to": 0
+    },
+    {
+     "by": "ben",
+     "tone": "question",
+     "text": "Where does the answer to that last question live once the persona exists? A CRM field, so the form can tag new sign-ups?",
+     "reply_to": null
+    },
+    {
+     "by": "adi",
+     "tone": "reply",
+     "text": "A CRM field, yes 👍 Then every new lead gets the same check.",
+     "reply_to": 2
+    },
+    {
+     "by": "bhaskar",
+     "tone": "positive",
+     "text": "Built in a meeting, from memory. Most persona decks, honestly 😬",
+     "reply_to": null
+    },
+    {
+     "by": "adi",
+     "tone": "reply",
+     "text": "And nobody checks them against who paid.",
+     "reply_to": 4
+    },
+    {
+     "by": "bharath",
+     "tone": "differs",
+     "text": "More than half is a blunt cutoff with only 20 customers. A trait shared by a third of your best buyers can still matter, so I'd look at what the cut drops before throwing it away.",
+     "reply_to": null
+    },
+    {
+     "by": "adi",
+     "tone": "reply",
+     "text": "Bharath, the noise list is there for exactly that. You see exactly what dropped and decide. I'd still keep the cutoff, though, because without one the persona drifts back into a wish list.",
+     "reply_to": 6
+    },
+    {
+     "by": "aquila",
+     "tone": "feedback",
+     "text": "Changes when your best 20 change. Easy line to skim past, and probably the most useful. I'd put a recurring reminder on it so the re-run actually happens 🔁",
+     "reply_to": null
+    },
+    {
+     "by": "adi",
+     "tone": "reply",
+     "text": "Every quarter works. Often enough to catch a shift, not so often that it turns into busywork.",
+     "reply_to": 8
+    }
+   ]
+  },
+  {
+   "id": "TC3",
+   "batch": "3",
+   "profile": "tantra",
+   "platform": "linkedin",
+   "status": "ready",
+   "time": "10:30",
+   "cta": "event",
+   "date": "2026-11-18",
+   "short": "Before AI vs after AI",
+   "pillar": "AI orchestration",
+   "idea": "At each of the six funnel stages AI does the volume and people make the calls.",
+   "format": "Carousel · 8 pages",
+   "sample": {
+    "id": "HD21",
+    "creator": "Harry Dry",
+    "what": "Each slide is split into a 'BEFORE AI' top half and 'AFTER AI' bottom half comparing LinkedIn statements, a clear two-column comparison carousel.",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7471461892859932673"
+   },
+   "copy_basis": "HD21 template: one short either/or question as the caption; every page split BEFORE AI on top, AFTER AI below",
+   "media": {
+    "type": "carousel",
+    "src": "batch-3/TC3",
+    "title": "Your funnel before AI and after AI",
+    "files": [
+     "media/batch-3/TC3/p01.jpg?v=20261111084157",
+     "media/batch-3/TC3/p02.jpg?v=20261111084157",
+     "media/batch-3/TC3/p03.jpg?v=20261111084157",
+     "media/batch-3/TC3/p04.jpg?v=20261111084157",
+     "media/batch-3/TC3/p05.jpg?v=20261111084157",
+     "media/batch-3/TC3/p06.jpg?v=20261111084157",
+     "media/batch-3/TC3/p07.jpg?v=20261111084157",
+     "media/batch-3/TC3/p08.jpg?v=20261111084157"
+    ],
+    "download": {
+     "href": "media/batch-3/TC3/tantra-b3-TC3-2026-11-18-tantra.pdf?v=20261111084157",
+     "name": "tantra-b3-TC3-2026-11-18-tantra.pdf",
+     "ext": "pdf",
+     "bytes": 1062991,
+     "pages": 8,
+     "w": 1080,
+     "h": 1350
+    }
+   },
+   "text": "Which funnel would you rather run: before AI or after?\n\nWe show where AI fits at every stage in our free live workshop. Link in the first comment.",
+   "first_comment": "Our free 60-minute live workshop shows what AI runs at each funnel stage and what stays with your team. Register here:\nhttps://webinar.sellwithtantra.com/?utm_source=linkedin&utm_medium=social&utm_campaign=enterprise-webinar&utm_content=TC3",
+   "sources": [
+    "content/corpus/facts.md: EW-17, EW-21, EW-25, EW-27, EW-30, EW-34"
+   ],
+   "numbers_for_signoff": [
+    "six stages and their numbers (EW-17)",
+    "\"Cut down your Ops time by 75%\", our own page line, word for word (EW-21)",
+    "nine blocks (EW-27)",
+    "12 stages with a clock; no-show SMS within 5 minutes (EW-30)"
+   ],
+   "flags": [
+    "The 75% line is our own page figure (own-marketing), shown once on the last page as a quote."
+   ],
+   "visual_label": "Slide copy (8 pages)",
+   "visual_copy": [
+    "Cover: Your funnel, BEFORE AI and AFTER AI. Six stages.",
+    "1 Traffic (visit rate). BEFORE AI: a cold blast to a bought list. AFTER AI: a merge-field invite in each buyer's calendar. You choose the market.",
+    "2 Landing (sign-up rate). BEFORE AI: a page started from a blank document. AFTER AI: nine blocks drafted from a real example. You approve every line.",
+    "3 Nurture (show-up rate). BEFORE AI: reminders when someone remembers. AFTER AI: every reminder goes out on schedule. You write the promise.",
+    "4 Conversion (booking rate). BEFORE AI: one 30-minute call does everything. AFTER AI: a session earns trust with a room, then the call closes. You run the room.",
+    "5 Revenue (close rate). BEFORE AI: follow-up from memory. AFTER AI: 12 stages with a clock on each, and a no-show SMS within 5 minutes. You take the call.",
+    "6 Long-term nurture (rebooking rate). BEFORE AI: guesswork. AFTER AI: one number and one change a week. You pick the change.",
+    "Close: AI does the volume. People make the calls. \"Cut down your Ops time by 75%\""
+   ],
+   "cta_date": "2026-11-19",
+   "key": "b3-TC3",
+   "team_comments": [
+    {
+     "by": "aquila",
+     "tone": "positive",
+     "text": "No-show SMS 🙌 The minutes right after someone misses matter most.",
+     "reply_to": null
+    },
+    {
+     "by": "tantra",
+     "tone": "reply",
+     "text": "It's also the message people mind least. Most of them meant to be there.",
+     "reply_to": 0
+    },
+    {
+     "by": "adi",
+     "tone": "feedback",
+     "text": "The question in the caption is the easy one. The harder one is which calls you still want people making, and that's where we spend most of the workshop.",
+     "reply_to": null
+    },
+    {
+     "by": "tantra",
+     "tone": "reply",
+     "text": "And that part won't change, whatever the tools do next.",
+     "reply_to": 2
+    },
+    {
+     "by": "ben",
+     "tone": "differs",
+     "text": "I'd push back on the either/or. Most teams run a mix for a while, AI on reminders while people still draft pages. The better question is which stage you switch first.",
+     "reply_to": null
+    },
+    {
+     "by": "tantra",
+     "tone": "reply",
+     "text": "Fair, nobody switches all six stages at once. We'd start where the volume is highest and keep people wherever the judgment sits.",
+     "reply_to": 4
+    },
+    {
+     "by": "bhaskar",
+     "tone": "question",
+     "text": "Easy answer is after. Which stage would you still run the before way?",
+     "reply_to": null
+    },
+    {
+     "by": "tantra",
+     "tone": "reply",
+     "text": "None fully. But choosing the market stays with us 🎯",
+     "reply_to": 6
+    },
+    {
+     "by": "nelbin",
+     "tone": "feedback",
+     "text": "Reminders when someone remembers. That's every team before the schedule gets written down. Half the fix is process, half is automation.",
+     "reply_to": null
+    },
+    {
+     "by": "tantra",
+     "tone": "reply",
+     "text": "Right order too: write the schedule, then automate it ✍️",
+     "reply_to": 8
+    },
+    {
+     "by": "bharath",
+     "tone": "feedback",
+     "text": "The note on the Landing stage, you approve every line, is the guardrail I'd underline. Drafting from a real example is fast, but nothing should ship without a person reading it first 🛡️",
+     "reply_to": null
+    },
+    {
+     "by": "tantra",
+     "tone": "reply",
+     "text": "That rule holds on every stage for us, Bharath. AI drafts, a person signs off, and nothing goes out on the AI's say-so alone.",
+     "reply_to": 10
+    }
+   ]
+  },
+  {
+   "id": "TG1",
+   "batch": "3",
+   "profile": "tantra",
+   "platform": "linkedin",
+   "status": "ready",
+   "time": "10:30",
+   "cta": "",
+   "date": "2026-11-16",
+   "short": "The 8-part prompt skeleton",
+   "pillar": "AI orchestration",
+   "idea": "Every prompt in the library has the same eight parts; the blank structure works in any AI assistant.",
+   "format": "Image · static giveaway",
+   "sample": {
+    "id": "ID15",
+    "creator": "Ipsita Dhar",
+    "what": "1024x1536 (2:3) static poster styled as a dark IDE: header '.linkedin-system/' in large orange monospace with an orange asterisk burst, subline '17 SKILLS, 8 AGENTS, ONE LINKEDIN SYSTEM', and a dark terminal badge 'AI-POWERED LINKEDIN SYSTEM _'. Main panel: a cream file-explorer card with a dark icon rail (folder, doc, chart, calendar, people, dots) and 8 rows connected by a vertical timeline: orange folder icon, folder name ('voice-builder/', 'research-agent/', 'hook-agent/', 'writer-agent/', 'editor-agent/', 'infographics-agent/', 'creator-tracker/', 'scheduler-analytics/') with exactly 5 file children each (two columns, 3 left and 2 right), and at right a coloured number tile 01 to 08 plus a pastel outcome note ('builds your 3,000-word AI clone'). Bottom: orange CTA bar 'Comment 'SYSTEM' and I'll send it.'",
+    "url": "https://www.linkedin.com/posts/ipsitadhar14_i-built-a-complete-claude-team-for-linkedin-activity-7506947893812150275-oq8P"
+   },
+   "copy_basis": "ID15 template: build hook and free line, context paragraph, humility beat, numbered list of named parts, 'Everything connects' chain, three-line role split, summary line, CTA",
+   "media": {
+    "type": "image",
+    "src": "batch-3/TG1",
+    "title": "The 8-part prompt skeleton",
+    "tall": false,
+    "files": [
+     "media/batch-3/TG1/image.jpg?v=20261111084157"
+    ],
+    "download": {
+     "href": "media/batch-3/TG1/tantra-b3-TG1-2026-11-16-tantra.png?v=20261111084157",
+     "name": "tantra-b3-TG1-2026-11-16-tantra.png",
+     "ext": "png",
+     "bytes": 343366,
+     "pages": 1,
+     "w": 1080,
+     "h": 1350
+    }
+   },
+   "text": "We built every prompt in our funnel library on the same 8 parts.\n\nAnd we're giving away the blank skeleton for free ↓\n\nThe library holds 250+ real funnel elements. Each one comes with a prompt that rebuilds it for your brand, and every prompt is laid out the same way.\n\nThe skeleton won't know your buyer.\nThat part stays with you.\n\nHere's what each part handles:\n\n1. YOUR TASK\nThe one thing you want back. One element, not five.\n\n2. WHERE THIS SITS IN MY FUNNEL\nThe stage it belongs to, so the copy knows what came before it.\n\n3. THE FACTS TO USE\nYour real numbers and names. A missing fact becomes [FILL], not a guess.\n\n4. THE TEMPLATE\nThe shape of the answer, block by block.\n\n5. RULES\nThe limits: length, tone and what to leave out.\n\n6. REFERENCE EXAMPLE\nA real element to mirror, so the AI follows a real structure and not its own habits.\n\n7. WHAT TO RETURN\nThe exact output: an A version that leads with the outcome, a B version that answers the objection.\n\n8. CHECK BEFORE YOU ANSWER\nThe checks the AI runs on its own draft before you see it.\n\nEverything connects:\n\nTask → Funnel stage → Facts → Template → Rules → Example → Output → Check\n\nYou bring the facts.\nThe skeleton brings the structure.\nThe AI does the typing.\n\n8 parts. 1 page. Any AI assistant.\n\nHow to get it is on the image 👇",
+   "first_comment": "Comment SKELETON and we'll send you the 8-Part Prompt Skeleton in a DM. It's the blank prompt behind every page and email we write: all eight parts, a note on what goes in each and a worked example for a registration page headline. Paste it into any AI assistant and fill in your own facts.",
+   "sources": [
+    "content/corpus/facts.md: EW-12, EW-32"
+   ],
+   "numbers_for_signoff": [
+    "250+ real funnel elements (EW-12)",
+    "eight parts, named in order (EW-32)"
+   ],
+   "flags": [
+    "The keyword is on the asset's bottom tile and in the first comment (which says what to comment, what's inside and how it's sent), never in the post copy. The resource is built and hosted: preview it under the post, with the three messages that deliver it.",
+    "The resource goes out by manual DM from Adi's profile.",
+    "The one-line description under each part is our plain reading of that part's name: check it against the library before this goes out."
+   ],
+   "visual_label": "On the asset (static 4:5)",
+   "visual_copy": [
+    "THE 8-PART PROMPT SKELETON",
+    "YOUR TASK · WHERE THIS SITS IN MY FUNNEL · THE FACTS TO USE · THE TEMPLATE · RULES · REFERENCE EXAMPLE · WHAT TO RETURN · CHECK BEFORE YOU ANSWER",
+    "Comment SKELETON to get it"
+   ],
+   "resource": {
+    "name": "The 8-Part Prompt Skeleton",
+    "keyword": "SKELETON",
+    "what": "A one-page blank prompt with the eight parts in order, a one-line note on what goes in each and one worked example for a registration page headline.",
+    "url": "https://adisuja.github.io/tantra-revops/prompt-skeleton/",
+    "pages": 1,
+    "files": [
+     {
+      "label": "PDF",
+      "href": "resources/prompt-skeleton/prompt-skeleton.pdf"
+     }
+    ],
+    "preview": "resources/prompt-skeleton/"
+   },
+   "dm": {
+    "message": "Hi {first_name}, thanks for commenting SKELETON. I'm Adi, the founder.\n\nHere's the 8-Part Prompt Skeleton:\nhttps://adisuja.github.io/tantra-revops/prompt-skeleton/\n\nIt's one page: the blank prompt with all eight parts, a note on what goes in each and a worked example for a registration page headline.\n\nCopy the blank skeleton and fill in part 3, the facts, first. That's the part an AI can't guess.\n\nWhat are you going to write with it first?",
+    "connect": "Hi {first_name}, you commented SKELETON on the Tantra post about the 8 parts behind every prompt in our funnel library. I'm Adi, the founder. LinkedIn only lets me message connections, so accept this and I'll send it straight over. Adi",
+    "email_subject": "Your 8-Part Prompt Skeleton",
+    "email_body": "Hi {first_name},\n\nYou commented SKELETON on the Tantra post about the 8 parts behind every prompt in our funnel library:\n[POST LINK]\n\nHere's the 8-Part Prompt Skeleton, as promised:\nhttps://adisuja.github.io/tantra-revops/prompt-skeleton/\n\nIt's one page: the blank prompt with all eight parts, a note on what goes in each and a worked example for a registration page headline. The link opens straight away, with no sign-up.\n\nCopy the blank skeleton and fill in part 3, the facts, first. That's the part an AI can't guess.\n\nWhat are you going to write with it first? Hit reply and tell me.\n\nAdi\n\nP.S. You're getting this because you asked for it in the comments. If you'd rather not hear from me again, reply \"no\" and that's final."
+   },
+   "key": "b3-TG1",
+   "team_comments": [
+    {
+     "by": "bhaskar",
+     "tone": "positive",
+     "text": "You bring the facts, the AI does the typing. Clean split ✂️",
+     "reply_to": null
+    },
+    {
+     "by": "tantra",
+     "tone": "reply",
+     "text": "It keeps the voice in your hands too, since the facts and the reference example both come from you.",
+     "reply_to": 0
+    },
+    {
+     "by": "aquila",
+     "tone": "differs",
+     "text": "Not sold on any AI assistant. Some ignore the rules section more than others, so test it on yours before you trust the check step 🧪",
+     "reply_to": null
+    },
+    {
+     "by": "tantra",
+     "tone": "reply",
+     "text": "Fair point. Same skeleton, different results from one assistant to the next. Part 8 at least makes a weaker one look twice.",
+     "reply_to": 2
+    },
+    {
+     "by": "adi",
+     "tone": "feedback",
+     "text": "Part 2 matters more than it looks 🧩 Copy that knows what came before it reads like one funnel, not six separate drafts.",
+     "reply_to": null
+    },
+    {
+     "by": "tantra",
+     "tone": "reply",
+     "text": "People cut it first when they're rushing, too.",
+     "reply_to": 4
+    },
+    {
+     "by": "bharath",
+     "tone": "positive",
+     "text": "Most prompts skip part 8 entirely. Asking the model to check its own draft before you see it catches the silly stuff early, and it costs nothing. Easy to run as its own step too.",
+     "reply_to": null
+    },
+    {
+     "by": "tantra",
+     "tone": "reply",
+     "text": "Running it as a separate step is a nice touch, Bharath. A fresh pass has no reason to defend the draft it's checking.",
+     "reply_to": 6
+    },
+    {
+     "by": "ben",
+     "tone": "question",
+     "text": "For part 6, how close should the reference example be? Same industry, or just the same element?",
+     "reply_to": null
+    },
+    {
+     "by": "tantra",
+     "tone": "reply",
+     "text": "Same element first 👍 Industry is a bonus.",
+     "reply_to": 8
+    },
+    {
+     "by": "nelbin",
+     "tone": "feedback",
+     "text": "Part 1 needs an owner. Someone has to decide what the one element is, or the task line slowly turns into a wish list.",
+     "reply_to": null
+    },
+    {
+     "by": "tantra",
+     "tone": "reply",
+     "text": "Good addition. One element, one owner, and that owner is also the one who checks the facts in part 3 before anything runs.",
+     "reply_to": 10
+    }
+   ]
+  },
+  {
+   "id": "TG2",
+   "batch": "3",
+   "profile": "tantra",
+   "platform": "linkedin",
+   "status": "ready",
+   "time": "10:30",
+   "cta": "",
+   "date": "2026-11-17",
+   "short": "The registration page in 9 blocks",
+   "pillar": "Landing and registration",
+   "idea": "A registration page is nine blocks in a fixed order, with the form on the first screen of a laptop.",
+   "format": "Image · animated giveaway",
+   "sample": {
+    "id": "ID10",
+    "creator": "Ipsita Dhar",
+    "what": "720x790 GIF (63 frames, 4.2s) on a warm off-white dotted-grid canvas. Top: a terracotta-framed 'Before Skill' card holding two real-looking LinkedIn post rows with weak stats (224 and 14 impressions, 'View analytics'). Middle: a terracotta app tile with a white Claude burst, joined by a thin grey connector line. Bottom: a lilac-framed 'After Skill' card showing a Search-Console-style 'Content performance' dashboard (390,022 impressions, +26.6% vs prior 90 days, green 'Cumulative' pill, rising line chart). Full-width terracotta CTA bar 'Comment ‘SYSTEM’ for access'. Motion: after a 0.6s hold every card's contents and the burst fade out together, then rebuild in sequence (two Before post rows, the burst tile, then the After dashboard nav, headline numbers and finally the whole chart fading in), with a sheen sweep and scale bump on the CTA bar.",
+    "url": "https://www.linkedin.com/posts/ipsitadhar14_i-connected-claude-opus-55-to-linkedin-activity-7515282807745728512-TYfh"
+   },
+   "copy_basis": "ID10 template: two-line hook, CTA pointer, curiosity bridge, numbered n/ list with a name line and one short spec each, a two-paragraph proof beat, CTA",
+   "media": {
+    "type": "video",
+    "src": "batch-3/TG2",
+    "title": "The registration page in 9 blocks",
+    "files": [
+     "media/batch-3/TG2/poster.jpg?v=20261111084157"
+    ],
+    "video": "media/batch-3/TG2/tantra-b3-TG2-2026-11-17-tantra.mp4?v=20261111084157",
+    "tall": false,
+    "sets": [
+     {
+      "href": "media/batch-3/TG2/tantra-b3-TG2-2026-11-17-tantra.mp4?v=20261111084157",
+      "name": "tantra-b3-TG2-2026-11-17-tantra.mp4",
+      "ext": "mp4",
+      "label": "Download MP4",
+      "bytes": 747908
+     },
+     {
+      "href": "media/batch-3/TG2/tantra-b3-TG2-2026-11-17-tantra.gif?v=20261111084157",
+      "name": "tantra-b3-TG2-2026-11-17-tantra.gif",
+      "ext": "gif",
+      "label": "Download GIF",
+      "bytes": 1155621
+     }
+    ]
+   },
+   "text": "We broke the registration page into 9 blocks.\n\n9 things your page has to do to earn the sign-up, in order\n\nGet the blueprint here. 👇\n\nOpen your page on a laptop. Is the form on the first screen?\n\n1/ Logo and trust strip\nWho you are and who already trusts you.\n\n2/ Headline and subhead\nThe outcome first, then who it's for.\n\n3/ A 60 to 90 second video\nMuted and captioned, so it works without sound.\n\n4/ Three proof points\nThree. Not ten.\n\n5/ The form\nFirst name, last name, work email. Above the fold on a 1366 x 768 laptop, and again lower down.\n\n6/ Your method, named\nIn 3 to 5 steps.\n\n7/ Testimonials\nIn your customers' own words.\n\n8/ An FAQ\nEvery answer handles one objection.\n\n9/ A sticky button\nThe sign-up stays one tap away.\n\nWe put two tests to every block:\n\nDoes it answer an objection or drive one action?\nDoes it bring the first result earlier?\n\nA block that fails both comes off the page.\n\nHow to get the blueprint is on the image.\n\n👇",
+   "first_comment": "Want the blueprint? Comment PAGE and we'll DM you the 9-Block Registration Page Blueprint: the nine blocks in order, the job of each one, the above-the-fold check for a laptop screen and a prompt that drafts your page. Free to use.",
+   "sources": [
+    "content/corpus/facts.md: EW-27; block names from context/sources/enterprise-webinar/digest-C-bonuses-and-revops-os.md (playbook task 3.01)"
+   ],
+   "numbers_for_signoff": [
+    "nine blocks; form above the fold on a 1366 x 768 laptop; the two tests (EW-27)",
+    "block detail: 60 to 90 second video, three proof points, three form fields, method in 3 to 5 steps (playbook task 3.01)"
+   ],
+   "flags": [
+    "The keyword is on the asset's bottom tile and in the first comment (which says what to comment, what's inside and how it's sent), never in the post copy. The resource is built and hosted: preview it under the post, with the three messages that deliver it.",
+    "The resource goes out by manual DM from Adi's profile.",
+    "The nine block names come from the playbook task (3.01), not from a facts.md row: the row only says 'nine blocks'."
+   ],
+   "visual_label": "On the asset (animated 4:5)",
+   "visual_copy": [
+    "THE 9-BLOCK REGISTRATION PAGE BLUEPRINT",
+    "A wireframe of the nine blocks, numbered 1 to 9",
+    "The form: above the fold on a 1366 x 768 laptop",
+    "Comment PAGE to get it"
+   ],
+   "resource": {
+    "name": "The 9-Block Registration Page Blueprint",
+    "keyword": "PAGE",
+    "what": "A 2-page PDF: a wireframe of the nine blocks in order, the job of each block, the above-the-fold check on a 1366 x 768 laptop and the prompt that drafts the page.",
+    "url": "https://adisuja.github.io/tantra-revops/registration-page-blueprint/",
+    "pages": 2,
+    "files": [
+     {
+      "label": "PDF",
+      "href": "resources/registration-page-blueprint/registration-page-blueprint.pdf"
+     }
+    ],
+    "preview": "resources/registration-page-blueprint/"
+   },
+   "dm": {
+    "message": "Hi {first_name}, thanks for commenting PAGE. I'm Adi, the founder.\n\nHere's the 9-Block Registration Page Blueprint:\nhttps://adisuja.github.io/tantra-revops/registration-page-blueprint/\n\nIt's 2 pages: the nine blocks in order, the job of each one, the above-the-fold check and the prompt that drafts your page.\n\nOpen your current page on a laptop and run the check on page 2 before you rewrite anything.\n\nIs your form on the first screen?",
+    "connect": "Hi {first_name}, you commented PAGE on the Tantra post about the 9 blocks of a registration page. I'm Adi, the founder. LinkedIn only lets me message connections, so accept this and I'll send it straight over. Adi",
+    "email_subject": "Your 9-Block Registration Page Blueprint",
+    "email_body": "Hi {first_name},\n\nYou commented PAGE on the Tantra post about the 9 blocks of a registration page:\n[POST LINK]\n\nHere's the 9-Block Registration Page Blueprint, as promised:\nhttps://adisuja.github.io/tantra-revops/registration-page-blueprint/\n\nIt's 2 pages: the nine blocks in order, the job of each one, the above-the-fold check and the prompt that drafts your page. The link opens straight away, with no sign-up.\n\nOpen your current page on a laptop and run the check on page 2 before you rewrite anything.\n\nIs your form on the first screen? Hit reply and tell me.\n\nAdi\n\nP.S. You're getting this because you asked for it in the comments. If you'd rather not hear from me again, reply \"no\" and that's final."
+   },
+   "key": "b3-TG2",
+   "team_comments": [
+    {
+     "by": "nelbin",
+     "tone": "question",
+     "text": "Who runs the two tests on each block? Feels like it needs one person with the final say.",
+     "reply_to": null
+    },
+    {
+     "by": "tantra",
+     "tone": "reply",
+     "text": "Whoever owns the sign-up rate. If nobody does, that's the first fix.",
+     "reply_to": 0
+    },
+    {
+     "by": "bharath",
+     "tone": "differs",
+     "text": "Not sure about the sticky button on mobile. It eats screen space on small phones, so I'd test it against a plain repeat of the form lower down before making it standard.",
+     "reply_to": null
+    },
+    {
+     "by": "tantra",
+     "tone": "reply",
+     "text": "We'd keep it, Bharath, but slim, and hidden while the form itself is on screen. That way it only shows up when the form is out of view 📱",
+     "reply_to": 2
+    },
+    {
+     "by": "aquila",
+     "tone": "feedback",
+     "text": "Asking for a work email helps everything after the sign-up. Reminders land in the inbox the buyer actually checks during the day.",
+     "reply_to": null
+    },
+    {
+     "by": "tantra",
+     "tone": "reply",
+     "text": "And it's the same inbox the calendar invite lands in 📅",
+     "reply_to": 4
+    },
+    {
+     "by": "ben",
+     "tone": "positive",
+     "text": "Checking the form on a 1366 x 768 screen is such a specific, useful test. Most people check on their own big monitor and never see the fold their buyers see.",
+     "reply_to": null
+    },
+    {
+     "by": "tantra",
+     "tone": "reply",
+     "text": "That's why it sits in the blueprint as its own check. A big monitor hides the problem completely.",
+     "reply_to": 6
+    },
+    {
+     "by": "adi",
+     "tone": "positive",
+     "text": "Muted and captioned 🎬 Most pages still lose people right there.",
+     "reply_to": null
+    },
+    {
+     "by": "tantra",
+     "tone": "reply",
+     "text": "Captions help anyone watching at a desk with no headphones too.",
+     "reply_to": 8
+    },
+    {
+     "by": "bhaskar",
+     "tone": "feedback",
+     "text": "Three proof points, not ten. I'd put the strongest one closest to the form, so the last thing they read is the reason to sign up.",
+     "reply_to": null
+    },
+    {
+     "by": "tantra",
+     "tone": "reply",
+     "text": "Yes 👌 Strongest proof next to the form.",
+     "reply_to": 10
+    }
+   ]
+  },
+  {
+   "id": "TG3",
+   "batch": "3",
+   "profile": "tantra",
+   "platform": "linkedin",
+   "status": "ready",
+   "time": "10:30",
+   "cta": "",
+   "date": "2026-11-19",
+   "short": "Every outreach limit on one card",
+   "pillar": "Multi-channel outreach",
+   "idea": "Each channel has a character or daily limit; one card holds all of them.",
+   "format": "Image · animated giveaway",
+   "sample": {
+    "id": "BK17",
+    "creator": "Bharath Krishna Pai",
+    "what": "720x1080 (2:3) GIF, 127 frames, 8.5s. Cream canvas: eyebrow 'THE CLAUDE LINKEDIN SYSTEM · 17 SKILLS · ONE SESSION', an app-icon tile with orange starburst beside the headline 'CLAUDE OPUS 5' (navy) / 'FOR LINKEDIN' (orange), italic caps tagline '8 AGENTS. 17 SKILLS. ONE CONNECTED SYSTEM.', then 11 trading-card style skill cards in a 3/4/4 grid (number badge, orange category tab such as VOICE or RESEARCH, coloured lightning-bolt icon, 'SKILL NAME', serif title such as 'The Voice Cloner', 2 to 3 line description, 'RUNS ON ONE SESSION' pill). Bottom row: pills ONE SYSTEM, 17 SKILLS, 8 AGENTS and an orange CTA pill 'COMMENT 'SYSTEM' >'. The cycle opens on the full grid, the 11 cards and 3 stat pills dissolve out, then the cards are dealt back in one by one in reading order and the pills return last.",
+    "url": "https://www.linkedin.com/posts/bkp31415_i-havent-written-a-linkedin-post-by-hand-activity-7513829707214155777-wtDg"
+   },
+   "copy_basis": "BK17 template: absence hook and free line, thesis line, effort line, 'Here's what's inside' with eight count-led arrow lines and no blank lines, recap line, CTA",
+   "media": {
+    "type": "video",
+    "src": "batch-3/TG3",
+    "title": "Every outreach limit on one card",
+    "files": [
+     "media/batch-3/TG3/poster.jpg?v=20261111084157"
+    ],
+    "video": "media/batch-3/TG3/tantra-b3-TG3-2026-11-19-tantra.mp4?v=20261111084157",
+    "tall": false,
+    "sets": [
+     {
+      "href": "media/batch-3/TG3/tantra-b3-TG3-2026-11-19-tantra.mp4?v=20261111084157",
+      "name": "tantra-b3-TG3-2026-11-19-tantra.mp4",
+      "ext": "mp4",
+      "label": "Download MP4",
+      "bytes": 585593
+     },
+     {
+      "href": "media/batch-3/TG3/tantra-b3-TG3-2026-11-19-tantra.gif?v=20261111084157",
+      "name": "tantra-b3-TG3-2026-11-19-tantra.gif",
+      "ext": "gif",
+      "label": "Download GIF",
+      "bytes": 1097168
+     }
+    ]
+   },
+   "text": "You should never count characters by hand again.\n\nHere's the one-page card that does it for every channel, and it's free 👇\n\nA message that gets cut off mid-sentence doesn't get a reply.\n\nSo we put every limit from our playbook on one page.\n\nHere's what's inside:\n→ Under 400 Characters: The WhatsApp Message\n→ Under 300 Characters: The LinkedIn Note\n→ Under 160 Characters: The SMS\n→ Under 8 Words: The Subject Line\n→ 15 To 20 Requests A Day Per LinkedIn Profile\n→ 14 Days, Then Withdraw The Request\n→ 1 Tool Per Profile\n→ 1 Page For All Of It\n\n4 channels. 7 limits. 1 card.\n\nHow to get it is on the image.\n\n👇",
+   "first_comment": "Drop LIMITS below and we'll message you the Outreach Limits Cheat Sheet. Every character and daily limit for LinkedIn, SMS, WhatsApp and subject lines on one page, with a counter that checks your message before you send it.",
+   "sources": [
+    "content/corpus/facts.md: EW-25"
+   ],
+   "numbers_for_signoff": [
+    "LinkedIn note under 300; 15 to 20 requests a day per profile; withdraw after 14 days; one tool per profile; SMS under 160; WhatsApp under 400; subject lines under 8 words (EW-25)"
+   ],
+   "flags": [
+    "The keyword is on the asset's bottom tile and in the first comment (which says what to comment, what's inside and how it's sent), never in the post copy. The resource is built and hosted: preview it under the post, with the three messages that deliver it.",
+    "The resource goes out by manual DM from Adi's profile.",
+    "The hook carries no number (Adi approved it as written)."
+   ],
+   "visual_label": "On the asset (animated 4:5)",
+   "visual_copy": [
+    "THE OUTREACH LIMITS CHEAT SHEET",
+    "400 · 300 · 160 · 8",
+    "WhatsApp, LinkedIn, SMS, subject lines: every limit on one page",
+    "Comment LIMITS to get it"
+   ],
+   "resource": {
+    "name": "The Outreach Limits Cheat Sheet",
+    "keyword": "LIMITS",
+    "what": "A one-page card: character limits for LinkedIn notes, SMS, WhatsApp and subject lines, the daily request range per LinkedIn profile and when to withdraw a request.",
+    "url": "https://adisuja.github.io/tantra-revops/outreach-limits/",
+    "pages": 1,
+    "files": [
+     {
+      "label": "PDF",
+      "href": "resources/outreach-limits/outreach-limits.pdf"
+     }
+    ],
+    "preview": "resources/outreach-limits/"
+   },
+   "dm": {
+    "message": "Hi {first_name}, thanks for commenting LIMITS. I'm Adi, the founder.\n\nHere's the Outreach Limits Cheat Sheet:\nhttps://adisuja.github.io/tantra-revops/outreach-limits/\n\nIt's one page with every limit: WhatsApp, the LinkedIn note, SMS and subject lines, plus the LinkedIn daily range. Paste a message in and it checks it against each limit.\n\nPaste your current LinkedIn note into the counter first.\n\nWhich channel do you send the most on?",
+    "connect": "Hi {first_name}, you commented LIMITS on the Tantra post about never counting characters by hand again. I'm Adi, the founder. LinkedIn only lets me message connections, so accept this and I'll send it straight over. Adi",
+    "email_subject": "Your Outreach Limits Cheat Sheet",
+    "email_body": "Hi {first_name},\n\nYou commented LIMITS on the Tantra post about never counting characters by hand again:\n[POST LINK]\n\nHere's the Outreach Limits Cheat Sheet, as promised:\nhttps://adisuja.github.io/tantra-revops/outreach-limits/\n\nIt's one page with every limit: WhatsApp, the LinkedIn note, SMS and subject lines, plus the LinkedIn daily range. Paste a message in and it checks it against each limit. The link opens straight away, with no sign-up.\n\nPaste your current LinkedIn note into the counter first.\n\nWhich channel do you send the most on? Hit reply and tell me.\n\nAdi\n\nP.S. You're getting this because you asked for it in the comments. If you'd rather not hear from me again, reply \"no\" and that's final."
+   },
+   "key": "b3-TG3",
+   "team_comments": [
+    {
+     "by": "ben",
+     "tone": "question",
+     "text": "Quick one: does the 300 for the LinkedIn note count the first-name merge field once it's filled?",
+     "reply_to": null
+    },
+    {
+     "by": "tantra",
+     "tone": "reply",
+     "text": "Count it filled, and test with the longest real name on your list.",
+     "reply_to": 0
+    },
+    {
+     "by": "adi",
+     "tone": "positive",
+     "text": "A cut-off message doesn't get a reply. Simple and true 📏",
+     "reply_to": null
+    },
+    {
+     "by": "tantra",
+     "tone": "reply",
+     "text": "And the cut tends to land right where the ask was.",
+     "reply_to": 2
+    },
+    {
+     "by": "bhaskar",
+     "tone": "differs",
+     "text": "Under 8 words is right for a subject, but I'd go shorter still. Three or four words reads like a note from a colleague, while eight starts to look like a newsletter.",
+     "reply_to": null
+    },
+    {
+     "by": "tantra",
+     "tone": "reply",
+     "text": "Under 8 is the ceiling, not the target. Shorter is fine by us, as long as it still says what the email is about.",
+     "reply_to": 4
+    },
+    {
+     "by": "aquila",
+     "tone": "positive",
+     "text": "14 days, then withdraw ⚠️ A pile of old pending requests is a quiet way to get a profile flagged.",
+     "reply_to": null
+    },
+    {
+     "by": "tantra",
+     "tone": "reply",
+     "text": "Easiest one on the card to automate, too, so nobody has to remember it.",
+     "reply_to": 6
+    },
+    {
+     "by": "nelbin",
+     "tone": "feedback",
+     "text": "15 to 20 a day per profile turns into a weekly number easily. Put it on the board and you see straight away who's over.",
+     "reply_to": null
+    },
+    {
+     "by": "tantra",
+     "tone": "reply",
+     "text": "Nelbin, nice. A weekly view shows who's under too, which matters just as much for the pipeline 📊",
+     "reply_to": 8
+    },
+    {
+     "by": "bharath",
+     "tone": "feedback",
+     "text": "1 tool per profile gets missed the most. Two tools on one account means two activity patterns, and that's what starts to look automated.",
+     "reply_to": null
+    },
+    {
+     "by": "tantra",
+     "tone": "reply",
+     "text": "One tool, one pattern. Agreed.",
+     "reply_to": 10
+    }
+   ]
+  },
+  {
+   "id": "TG4",
+   "batch": "3",
+   "profile": "tantra",
+   "platform": "linkedin",
+   "status": "ready",
+   "time": "10:30",
+   "cta": "",
+   "date": "2026-11-20",
+   "short": "A clock on every pipeline stage",
+   "pillar": "Revenue engine",
+   "idea": "Deals go quiet when a stage has no time limit; 12 stages, a clock on each.",
+   "format": "Image · animated giveaway",
+   "sample": {
+    "id": "ID02",
+    "creator": "Ipsita Dhar",
+    "what": "720x900 (4:5) GIF of a fake 'Claude / Acquisition engine' app: header with orange burst tile and a 'Running' dot, hero block with a giant navy numeral (41) beside 'qualified meetings / last week' and stats '742 conversations, 14 proposals, 12 min/day', then a 6-column board (ICP, Signals, Research, Outreach, Replies, Meetings, each with a status ring icon and a running total) of 29 prospect cards in the end state (five per column in the first five columns plus four in Meetings, ACQ-312 to ACQ-340, a first name + initial, a company like Northwind, Zephyr, Lattice, and an initial chip). The Meetings column holds orange-bordered cards stamped '✓ Fri 12:30'. CTA strip: 'Comment SALES to test it yourself.' Motion: from the finished state the board crossfades back to zero, then four times the top lane of prospects shifts one column right, each arrival in Meetings counting the hero number up by about 10 until it reads 41, and an underline draws before the hold.",
+    "url": "https://www.linkedin.com/posts/ipsitadhar14_we-gave-claude-a-linkedin-connection-it-activity-7521805781600501760-fI-k"
+   },
+   "copy_basis": "ID02 template: two-line hook, widener line, pain paragraph, instruction line, 'It can help' with six verb-first arrow lines, 'The goal?', answer, triple close, CTA",
+   "media": {
+    "type": "video",
+    "src": "batch-3/TG4",
+    "title": "A clock on every pipeline stage",
+    "files": [
+     "media/batch-3/TG4/poster.jpg?v=20261111084157"
+    ],
+    "video": "media/batch-3/TG4/tantra-b3-TG4-2026-11-20-tantra.mp4?v=20261111084157",
+    "tall": false,
+    "sets": [
+     {
+      "href": "media/batch-3/TG4/tantra-b3-TG4-2026-11-20-tantra.mp4?v=20261111084157",
+      "name": "tantra-b3-TG4-2026-11-20-tantra.mp4",
+      "ext": "mp4",
+      "label": "Download MP4",
+      "bytes": 1009604
+     },
+     {
+      "href": "media/batch-3/TG4/tantra-b3-TG4-2026-11-20-tantra.gif?v=20261111084157",
+      "name": "tantra-b3-TG4-2026-11-20-tantra.gif",
+      "ext": "gif",
+      "label": "Download GIF",
+      "bytes": 3473758
+     }
+    ]
+   },
+   "text": "We gave every pipeline stage a clock.\n\nIt became a pipeline where no deal goes quiet. 🫨\n\nAnd it works for any team that sells on calls.\n\nA deal doesn't need a no to die. It only needs to wait: for a reply, a proposal, a rebooked call. Nobody decides to drop it. Nobody owns the wait.\n\nPut a time limit on each of the 12 stages, and write down what happens when it runs out.\n\nIt can help:\n→ Send the no-show SMS within 5 minutes\n→ Show which deals have sat in a stage too long\n→ Give every stage one owner\n→ Name the message that goes out when a clock runs out\n→ Stop follow-up from living in someone's memory\n→ Spot the stage where deals pile up\n\nThe goal?\n\nNo deal sits without a next step and a deadline.\n\nOne pipeline. One clock per stage. A smarter way to follow up.\n\nThe sheet is FREE. How to get it is on the image 👇",
+   "first_comment": "Comment PIPELINE to get the 12-Stage Pipeline Clock Sheet in your DMs. Every stage has its time limit and what happens when it runs out, and it comes as an Excel file and a CSV you can drop straight into your own sheet.",
+   "sources": [
+    "content/corpus/facts.md: EW-30"
+   ],
+   "numbers_for_signoff": [
+    "12 stages with a clock on each; no-show SMS within 5 minutes (EW-30)"
+   ],
+   "flags": [
+    "The keyword is on the asset's bottom tile and in the first comment (which says what to comment, what's inside and how it's sent), never in the post copy. The resource is built and hosted: preview it under the post, with the three messages that deliver it.",
+    "The resource goes out by manual DM from Adi's profile.",
+    "The post does not list the 12 stage names: they are in the sheet."
+   ],
+   "visual_label": "On the asset (animated 4:5)",
+   "visual_copy": [
+    "THE 12-STAGE PIPELINE CLOCK SHEET",
+    "12 stages. A clock on each.",
+    "No-show SMS within 5 minutes",
+    "Comment PIPELINE to get it"
+   ],
+   "resource": {
+    "name": "The 12-Stage Pipeline Clock Sheet",
+    "keyword": "PIPELINE",
+    "what": "A spreadsheet template: the 12 stages, the time limit on each, the owner and the message that goes out when the clock runs out, including the no-show SMS within 5 minutes.",
+    "url": "https://adisuja.github.io/tantra-revops/pipeline-clock-sheet/",
+    "pages": 2,
+    "files": [
+     {
+      "label": "PDF",
+      "href": "resources/pipeline-clock-sheet/pipeline-clock-sheet.pdf"
+     },
+     {
+      "label": "Excel",
+      "href": "resources/pipeline-clock-sheet/pipeline-clock-sheet.xlsx"
+     },
+     {
+      "label": "CSV",
+      "href": "resources/pipeline-clock-sheet/pipeline-clock-sheet.csv"
+     }
+    ],
+    "preview": "resources/pipeline-clock-sheet/"
+   },
+   "dm": {
+    "message": "Hi {first_name}, thanks for commenting PIPELINE. I'm Adi, the founder.\n\nHere's the 12-Stage Pipeline Clock Sheet:\nhttps://adisuja.github.io/tantra-revops/pipeline-clock-sheet/\n\nIt's the 12 stages in order, each with its time limit and what happens when it runs out. There's an Excel file and a CSV on the page, so you can drop it into your own sheet.\n\nFill in the Owner column first. A stage without one name on it is where deals go quiet.\n\nWhich stage do your deals sit in longest?",
+    "connect": "Hi {first_name}, you commented PIPELINE on the Tantra post about giving every pipeline stage a clock. I'm Adi, the founder. LinkedIn only lets me message connections, so accept this and I'll send it straight over. Adi",
+    "email_subject": "Your 12-Stage Pipeline Clock Sheet",
+    "email_body": "Hi {first_name},\n\nYou commented PIPELINE on the Tantra post about giving every pipeline stage a clock:\n[POST LINK]\n\nHere's the 12-Stage Pipeline Clock Sheet, as promised:\nhttps://adisuja.github.io/tantra-revops/pipeline-clock-sheet/\n\nIt's the 12 stages in order, each with its time limit and what happens when it runs out. There's an Excel file and a CSV on the page, so you can drop it into your own sheet. The link opens straight away, with no sign-up.\n\nFill in the Owner column first. A stage without one name on it is where deals go quiet.\n\nWhich stage do your deals sit in longest? Hit reply and tell me.\n\nAdi\n\nP.S. You're getting this because you asked for it in the comments. If you'd rather not hear from me again, reply \"no\" and that's final."
+   },
+   "key": "b3-TG4",
+   "team_comments": [
+    {
+     "by": "bharath",
+     "tone": "differs",
+     "text": "I'd be careful promising no deal goes quiet. Clocks show you the quiet deals, they can't stop a buyer going silent, so the sheet needs a closed-lost stage as well.",
+     "reply_to": null
+    },
+    {
+     "by": "tantra",
+     "tone": "reply",
+     "text": "Clocks can't make a buyer reply, true. What they stop is the deal going quiet on our side, and a lost stage with its own clock for a later check-in covers the rest.",
+     "reply_to": 0
+    },
+    {
+     "by": "nelbin",
+     "tone": "positive",
+     "text": "Nobody owns the wait. That line explains most stalled deals.",
+     "reply_to": null
+    },
+    {
+     "by": "tantra",
+     "tone": "reply",
+     "text": "Which is why every stage on the sheet gets one owner.",
+     "reply_to": 2
+    },
+    {
+     "by": "adi",
+     "tone": "feedback",
+     "text": "The part I'd underline is writing down what happens when the clock runs out. A clock with no action attached is just a timer, and teams end up staring at it.",
+     "reply_to": null
+    },
+    {
+     "by": "tantra",
+     "tone": "reply",
+     "text": "The sheet puts that action right next to every limit 👀",
+     "reply_to": 4
+    },
+    {
+     "by": "aquila",
+     "tone": "feedback",
+     "text": "This is where automation fits. The clock triggers the message, but a person should decide anything past a second nudge 🤖",
+     "reply_to": null
+    },
+    {
+     "by": "tantra",
+     "tone": "reply",
+     "text": "Agreed. Machines send the nudge, people decide the next move.",
+     "reply_to": 6
+    },
+    {
+     "by": "bhaskar",
+     "tone": "question",
+     "text": "Do all 12 stages need a clock, or can the early ones run looser?",
+     "reply_to": null
+    },
+    {
+     "by": "tantra",
+     "tone": "reply",
+     "text": "All 12 🕒 Looser is fine, but loose still needs a number, or the follow-up goes back to living in someone's memory.",
+     "reply_to": 8
+    },
+    {
+     "by": "ben",
+     "tone": "feedback",
+     "text": "The no-show SMS within 5 minutes only works if the attendance data lands in time. Test that the no-show flag fires before you trust the SMS 📲",
+     "reply_to": null
+    },
+    {
+     "by": "tantra",
+     "tone": "reply",
+     "text": "Good catch, Ben. Test it before every session, not just once.",
+     "reply_to": 10
+    }
+   ]
+  },
+  {
+   "id": "TG6",
+   "batch": "3",
+   "profile": "tantra",
+   "platform": "linkedin",
+   "status": "ready",
+   "time": "10:30",
+   "cta": "",
+   "date": "2026-11-23",
+   "short": "Keep outreach off your main domain",
+   "pillar": "Sending infrastructure",
+   "idea": "Cold outreach from the main domain puts every company email at risk; separate domains, a warm-up and sending rules prevent it.",
+   "format": "Image · animated giveaway",
+   "sample": {
+    "id": "ID07",
+    "creator": "Ipsita Dhar",
+    "what": "720x900 (4:5) GIF of a light 'Claude / visitor-intelligence' dashboard with a 'Last 30 days' mono pill: a giant blue-to-teal gradient numeral (27) beside 'qualified demos / last 30 days / ✳ booked by Claude on yoursite.com', a three-stat row (VISITORS 4,812 anonymous by default; IDENTIFIED 1,368 28% of traffic in orange; ICP MATCHES 296 qualified by Claude), and an area chart over Week 1 to Week 4: a blue visitors line with pale blue fill and an orange 'identified by Claude' area beneath, with three tooltips tied by dotted drop lines to orange markers on the identified area ('Sarah R. · Northwind / VP Sales · ICP 81', 'Omar R. · Atlas / COO · ICP 87', 'Ava C. · Solace / VP Sales · ICP 97'). White CTA strip: 'Comment SEND to test it yourself.' with SEND in a blue-to-teal pill. Motion: the dashboard resets to zero and a playhead sweeps the chart, filling the orange area, counting up the stats, and turning anonymous visitor tooltips into named, scored leads.",
+    "url": "https://www.linkedin.com/posts/ipsitadhar14_your-next-sales-lead-is-already-on-your-website-activity-7516418908732555264-k5nm"
+   },
+   "copy_basis": "ID07 template: two caps hook lines, a problem broken mid-sentence, 'Meanwhile' contrast, gap line, fix line, 'Now you can' with four arrow lines, 'All on one', benefit pair, ease line, instruction and punchline, CTA",
+   "media": {
+    "type": "video",
+    "src": "batch-3/TG6",
+    "title": "Keep outreach off your main domain",
+    "files": [
+     "media/batch-3/TG6/poster.jpg?v=20261111084157"
+    ],
+    "video": "media/batch-3/TG6/tantra-b3-TG6-2026-11-23-tantra.mp4?v=20261111084157",
+    "tall": false,
+    "sets": [
+     {
+      "href": "media/batch-3/TG6/tantra-b3-TG6-2026-11-23-tantra.mp4?v=20261111084157",
+      "name": "tantra-b3-TG6-2026-11-23-tantra.mp4",
+      "ext": "mp4",
+      "label": "Download MP4",
+      "bytes": 261330
+     },
+     {
+      "href": "media/batch-3/TG6/tantra-b3-TG6-2026-11-23-tantra.gif?v=20261111084157",
+      "name": "tantra-b3-TG6-2026-11-23-tantra.gif",
+      "ext": "gif",
+      "label": "Download GIF",
+      "bytes": 366551
+     }
+    ]
+   },
+   "text": "YOUR NEXT INVOICE IS ALREADY HEADED FOR SPAM...\n\nAND YOUR COLD OUTREACH IS SENDING IT THERE 👀\n\nCold outreach from your main domain puts\nevery email your company sends at risk.\n\nMeanwhile, your invoices, contracts and customer replies all leave from that same domain.\n\nThat's a pretty risky setup.\n\nSo we wrote down the one we teach instead.\n\nNow you can:\n→ Send outreach from separate look-alike domains, never the main one\n→ Warm each one up for two weeks first\n→ Send between 8am and 8pm their time\n→ Give every email a one-click yes and a one-click no\n\nAll on one page.\n\nYour outreach keeps going.\nYour main domain stays out of it.\n\nAnd a No is final, so nobody hears from you again after saying it.\n\nTick the boxes. Then send.\n\nThe checklist is FREE. How to get it is on the image. 👇",
+   "first_comment": "Type DOMAINS in the comments and we'll send you the Clean Domain Sending Checklist. One page of tick boxes: the look-alike domains, the four DNS records, the two-week warm-up and the sending rules that keep your main domain out of spam.",
+   "sources": [
+    "content/corpus/facts.md: EW-31"
+   ],
+   "numbers_for_signoff": [
+    "separate look-alike domains; two-week warm-up; 8am to 8pm their time; one-click yes and no; a No is final (EW-31)"
+   ],
+   "flags": [
+    "The keyword is on the asset's bottom tile and in the first comment (which says what to comment, what's inside and how it's sent), never in the post copy. The resource is built and hosted: preview it under the post, with the three messages that deliver it.",
+    "The resource goes out by manual DM from Adi's profile.",
+    "The hook is a warning, not a measured fact: it says where outreach from the main domain can send an invoice."
+   ],
+   "visual_label": "On the asset (animated 4:5)",
+   "visual_copy": [
+    "THE CLEAN DOMAIN SENDING CHECKLIST",
+    "Look-alike domains · two-week warm-up · 8am to 8pm their time · one-click yes and no",
+    "Keep outreach off your main domain",
+    "Comment DOMAINS to get it"
+   ],
+   "resource": {
+    "name": "The Clean Domain Sending Checklist",
+    "keyword": "DOMAINS",
+    "what": "A one-page checklist: look-alike sending domains, the two-week warm-up, sending hours (8am to 8pm their time) and the one-click yes and no that keeps a No final.",
+    "url": "https://adisuja.github.io/tantra-revops/clean-domain-checklist/",
+    "pages": 1,
+    "files": [
+     {
+      "label": "PDF",
+      "href": "resources/clean-domain-checklist/clean-domain-checklist.pdf"
+     }
+    ],
+    "preview": "resources/clean-domain-checklist/"
+   },
+   "dm": {
+    "message": "Hi {first_name}, thanks for commenting DOMAINS. I'm Adi, the founder.\n\nHere's the Clean Domain Sending Checklist:\nhttps://adisuja.github.io/tantra-revops/clean-domain-checklist/\n\nIt's one page of tick boxes: the look-alike domains, the four DNS records, the two-week warm-up and the sending rules.\n\nDo the domain section today. The warm-up takes two weeks, so that clock should start first.\n\nAre you sending from your main domain right now?",
+    "connect": "Hi {first_name}, you commented DOMAINS on the Tantra post about cold outreach putting your main domain at risk. I'm Adi, the founder. LinkedIn only lets me message connections, so accept this and I'll send it straight over. Adi",
+    "email_subject": "Your Clean Domain Sending Checklist",
+    "email_body": "Hi {first_name},\n\nYou commented DOMAINS on the Tantra post about cold outreach putting your main domain at risk:\n[POST LINK]\n\nHere's the Clean Domain Sending Checklist, as promised:\nhttps://adisuja.github.io/tantra-revops/clean-domain-checklist/\n\nIt's one page of tick boxes: the look-alike domains, the four DNS records, the two-week warm-up and the sending rules. The link opens straight away, with no sign-up.\n\nDo the domain section today. The warm-up takes two weeks, so that clock should start first.\n\nAre you sending from your main domain right now? Hit reply and tell me.\n\nAdi\n\nP.S. You're getting this because you asked for it in the comments. If you'd rather not hear from me again, reply \"no\" and that's final."
+   },
+   "key": "b3-TG6",
+   "team_comments": [
+    {
+     "by": "adi",
+     "tone": "positive",
+     "text": "A No is final. That's the line I'd want every SDR to read twice. It's what keeps outreach from turning into something buyers resent.",
+     "reply_to": null
+    },
+    {
+     "by": "tantra",
+     "tone": "reply",
+     "text": "It's also one of the cheapest ways to keep the domain out of spam 🙂",
+     "reply_to": 0
+    },
+    {
+     "by": "ben",
+     "tone": "feedback",
+     "text": "And the no has to update the record, or the next sequence picks them up again 👀",
+     "reply_to": null
+    },
+    {
+     "by": "tantra",
+     "tone": "reply",
+     "text": "Yes. A one-click no that never reaches the CRM is just a nicer-looking unsubscribe, and the buyer only finds out when you email them again.",
+     "reply_to": 2
+    },
+    {
+     "by": "nelbin",
+     "tone": "feedback",
+     "text": "Put the domain list on someone's monthly checklist. Look-alike domains need renewing, and the one that lapses is usually the one doing the most sending.",
+     "reply_to": null
+    },
+    {
+     "by": "tantra",
+     "tone": "reply",
+     "text": "Worth adding renewals to the checklist itself, right next to the four DNS records.",
+     "reply_to": 4
+    },
+    {
+     "by": "bhaskar",
+     "tone": "differs",
+     "text": "Two weeks of warm-up feels short to me if you're planning real volume. I'd rather ramp slowly for longer than burn a fresh domain in its first month of sending.",
+     "reply_to": null
+    },
+    {
+     "by": "tantra",
+     "tone": "reply",
+     "text": "Two weeks is the floor, not the finish line. Ramp the volume from there 📈",
+     "reply_to": 6
+    },
+    {
+     "by": "bharath",
+     "tone": "positive",
+     "text": "Separate domains should be the default setup. Easy call 🛡️",
+     "reply_to": null
+    },
+    {
+     "by": "tantra",
+     "tone": "reply",
+     "text": "Default, yes. Main domain for customers only.",
+     "reply_to": 8
+    },
+    {
+     "by": "aquila",
+     "tone": "question",
+     "text": "For 8am to 8pm their time, where are you getting time zones from? The CRM, or inferred from the company address?",
+     "reply_to": null
+    },
+    {
+     "by": "tantra",
+     "tone": "reply",
+     "text": "The CRM when the contact has one. Otherwise the company address, which is close enough for a send window.",
+     "reply_to": 10
     }
    ]
   }
