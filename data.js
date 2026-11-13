@@ -68,6 +68,28 @@ window.STUDIO = {
     "campaign": "enterprise-webinar",
     "content": "id"
    }
+  },
+  {
+   "id": "5",
+   "title": "Batch 5 · New samples",
+   "dates": "Tue 1 Dec 2026",
+   "cta_label": "Workshop CTA",
+   "cta": {
+    "kind": "event",
+    "title": "How 400+ Brands Use AI Funnels to Generate $100K to $300K Monthly",
+    "url": "https://webinar.sellwithtantra.com/",
+    "date": "2026-11-19",
+    "time": "11:00",
+    "tz": "Europe/London",
+    "weekly": true,
+    "_note": "Owner, 2026-11-11: assume the next workshop is next Thursday, 19 Nov 2026 (not 12 Nov), then weekly on Thursdays. Each event post points at the next session after its post date (cta_date)."
+   },
+   "utm": {
+    "medium": "social",
+    "campaign": "enterprise-webinar",
+    "content": "id"
+   },
+   "_note_sample": "Adi 2026-11-13: one content piece per new sample he sends, built to check the sample workflow. AG7 = sample AH01."
   }
  ],
  "profiles": [
@@ -83,7 +105,7 @@ window.STUDIO = {
    "linkedin": "https://www.linkedin.com/in/adisuja/",
    "_todo": "headline from LinkedIn profile spec v2 (card 29, adisuja/tantra-enterprise-webinar-pages linkedin-profiles/v2/PROFILE_SPEC.md, Adi 2026-11-13)",
    "avatar_ok": true,
-   "avatar": "media/avatars/adi.jpg?v=20261113212421"
+   "avatar": "media/avatars/adi.jpg?v=20261113212930"
   },
   {
    "id": "tantra",
@@ -95,7 +117,7 @@ window.STUDIO = {
    "tz_label": "ET",
    "time": "10:30",
    "avatar_ok": true,
-   "avatar": "media/avatars/tantra.jpg?v=20261113212421"
+   "avatar": "media/avatars/tantra.jpg?v=20261113212930"
   },
   {
    "id": "nelbin",
@@ -110,7 +132,7 @@ window.STUDIO = {
    "_todo": "headline from LinkedIn profile spec v2 (card 29, adisuja/tantra-enterprise-webinar-pages linkedin-profiles/v2/PROFILE_SPEC.md, Adi 2026-11-13)",
    "taxonomy_creator": "NJ",
    "avatar_ok": true,
-   "avatar": "media/avatars/nelbin.jpg?v=20261113212421"
+   "avatar": "media/avatars/nelbin.jpg?v=20261113212930"
   },
   {
    "id": "bharath",
@@ -125,7 +147,7 @@ window.STUDIO = {
    "_todo": "headline from LinkedIn profile spec v2 (card 29, adisuja/tantra-enterprise-webinar-pages linkedin-profiles/v2/PROFILE_SPEC.md, Adi 2026-11-13)",
    "taxonomy_creator": "BK",
    "avatar_ok": true,
-   "avatar": "media/avatars/bharath.jpg?v=20261113212421"
+   "avatar": "media/avatars/bharath.jpg?v=20261113212930"
   },
   {
    "id": "bhaskar",
@@ -140,7 +162,7 @@ window.STUDIO = {
    "_todo": "headline from LinkedIn profile spec v2 (card 29, adisuja/tantra-enterprise-webinar-pages linkedin-profiles/v2/PROFILE_SPEC.md, Adi 2026-11-13)",
    "taxonomy_creator": "BD",
    "avatar_ok": true,
-   "avatar": "media/avatars/bhaskar.jpg?v=20261113212421"
+   "avatar": "media/avatars/bhaskar.jpg?v=20261113212930"
   },
   {
    "id": "aquila",
@@ -154,7 +176,7 @@ window.STUDIO = {
    "linkedin": "https://www.linkedin.com/in/aquilaeldho/",
    "_todo": "headline from LinkedIn profile spec v2 (card 29, adisuja/tantra-enterprise-webinar-pages linkedin-profiles/v2/PROFILE_SPEC.md, Adi 2026-11-13)",
    "avatar_ok": true,
-   "avatar": "media/avatars/aquila.jpg?v=20261113212421"
+   "avatar": "media/avatars/aquila.jpg?v=20261113212930"
   },
   {
    "id": "ben",
@@ -168,7 +190,7 @@ window.STUDIO = {
    "linkedin": "https://www.linkedin.com/in/ben-basil-tomy-5533b9218/",
    "_todo": "headline from LinkedIn profile spec v2 (card 29, adisuja/tantra-enterprise-webinar-pages linkedin-profiles/v2/PROFILE_SPEC.md, Adi 2026-11-13)",
    "avatar_ok": true,
-   "avatar": "media/avatars/ben.jpg?v=20261113212421"
+   "avatar": "media/avatars/ben.jpg?v=20261113212930"
   }
  ],
  "posts": [
@@ -198,10 +220,10 @@ window.STUDIO = {
     "title": "Adithya Murali walking alone down an empty street, black and white",
     "tall": false,
     "files": [
-     "media/batch-1/A1/image.jpg?v=20261113212421"
+     "media/batch-1/A1/image.jpg?v=20261113212930"
     ],
     "download": {
-     "href": "media/batch-1/A1/tantra-b1-A1-2026-10-26-adi.png?v=20261113212421",
+     "href": "media/batch-1/A1/tantra-b1-A1-2026-10-26-adi.png?v=20261113212930",
      "name": "tantra-b1-A1-2026-10-26-adi.png",
      "ext": "png",
      "bytes": 934557,
@@ -310,19 +332,19 @@ window.STUDIO = {
     "src": "batch-1/A2",
     "title": "The 8 decisions every page, email and invite depends on",
     "files": [
-     "media/batch-1/A2/p01.jpg?v=20261113212421",
-     "media/batch-1/A2/p02.jpg?v=20261113212421",
-     "media/batch-1/A2/p03.jpg?v=20261113212421",
-     "media/batch-1/A2/p04.jpg?v=20261113212421",
-     "media/batch-1/A2/p05.jpg?v=20261113212421",
-     "media/batch-1/A2/p06.jpg?v=20261113212421",
-     "media/batch-1/A2/p07.jpg?v=20261113212421",
-     "media/batch-1/A2/p08.jpg?v=20261113212421",
-     "media/batch-1/A2/p09.jpg?v=20261113212421",
-     "media/batch-1/A2/p10.jpg?v=20261113212421"
+     "media/batch-1/A2/p01.jpg?v=20261113212930",
+     "media/batch-1/A2/p02.jpg?v=20261113212930",
+     "media/batch-1/A2/p03.jpg?v=20261113212930",
+     "media/batch-1/A2/p04.jpg?v=20261113212930",
+     "media/batch-1/A2/p05.jpg?v=20261113212930",
+     "media/batch-1/A2/p06.jpg?v=20261113212930",
+     "media/batch-1/A2/p07.jpg?v=20261113212930",
+     "media/batch-1/A2/p08.jpg?v=20261113212930",
+     "media/batch-1/A2/p09.jpg?v=20261113212930",
+     "media/batch-1/A2/p10.jpg?v=20261113212930"
     ],
     "download": {
-     "href": "media/batch-1/A2/tantra-b1-A2-2026-10-27-adi.pdf?v=20261113212421",
+     "href": "media/batch-1/A2/tantra-b1-A2-2026-10-27-adi.pdf?v=20261113212930",
      "name": "tantra-b1-A2-2026-10-27-adi.pdf",
      "ext": "pdf",
      "bytes": 1839450,
@@ -430,19 +452,19 @@ window.STUDIO = {
     "src": "batch-1/A3",
     "title": "LinkedIn capped us at 100 invites a week",
     "files": [
-     "media/batch-1/A3/p01.jpg?v=20261113212421",
-     "media/batch-1/A3/p02.jpg?v=20261113212421",
-     "media/batch-1/A3/p03.jpg?v=20261113212421",
-     "media/batch-1/A3/p04.jpg?v=20261113212421",
-     "media/batch-1/A3/p05.jpg?v=20261113212421",
-     "media/batch-1/A3/p06.jpg?v=20261113212421",
-     "media/batch-1/A3/p07.jpg?v=20261113212421",
-     "media/batch-1/A3/p08.jpg?v=20261113212421",
-     "media/batch-1/A3/p09.jpg?v=20261113212421",
-     "media/batch-1/A3/p10.jpg?v=20261113212421"
+     "media/batch-1/A3/p01.jpg?v=20261113212930",
+     "media/batch-1/A3/p02.jpg?v=20261113212930",
+     "media/batch-1/A3/p03.jpg?v=20261113212930",
+     "media/batch-1/A3/p04.jpg?v=20261113212930",
+     "media/batch-1/A3/p05.jpg?v=20261113212930",
+     "media/batch-1/A3/p06.jpg?v=20261113212930",
+     "media/batch-1/A3/p07.jpg?v=20261113212930",
+     "media/batch-1/A3/p08.jpg?v=20261113212930",
+     "media/batch-1/A3/p09.jpg?v=20261113212930",
+     "media/batch-1/A3/p10.jpg?v=20261113212930"
     ],
     "download": {
-     "href": "media/batch-1/A3/tantra-b1-A3-2026-10-28-adi.pdf?v=20261113212421",
+     "href": "media/batch-1/A3/tantra-b1-A3-2026-10-28-adi.pdf?v=20261113212930",
      "name": "tantra-b1-A3-2026-10-28-adi.pdf",
      "ext": "pdf",
      "bytes": 10241254,
@@ -553,17 +575,17 @@ window.STUDIO = {
     "src": "batch-1/A4",
     "title": "One live session, 98,000 calendar invites",
     "files": [
-     "media/batch-1/A4/p01.jpg?v=20261113212421",
-     "media/batch-1/A4/p02.jpg?v=20261113212421",
-     "media/batch-1/A4/p03.jpg?v=20261113212421",
-     "media/batch-1/A4/p04.jpg?v=20261113212421",
-     "media/batch-1/A4/p05.jpg?v=20261113212421",
-     "media/batch-1/A4/p06.jpg?v=20261113212421",
-     "media/batch-1/A4/p07.jpg?v=20261113212421",
-     "media/batch-1/A4/p08.jpg?v=20261113212421"
+     "media/batch-1/A4/p01.jpg?v=20261113212930",
+     "media/batch-1/A4/p02.jpg?v=20261113212930",
+     "media/batch-1/A4/p03.jpg?v=20261113212930",
+     "media/batch-1/A4/p04.jpg?v=20261113212930",
+     "media/batch-1/A4/p05.jpg?v=20261113212930",
+     "media/batch-1/A4/p06.jpg?v=20261113212930",
+     "media/batch-1/A4/p07.jpg?v=20261113212930",
+     "media/batch-1/A4/p08.jpg?v=20261113212930"
     ],
     "download": {
-     "href": "media/batch-1/A4/tantra-b1-A4-2026-10-29-adi.pdf?v=20261113212421",
+     "href": "media/batch-1/A4/tantra-b1-A4-2026-10-29-adi.pdf?v=20261113212930",
      "name": "tantra-b1-A4-2026-10-29-adi.pdf",
      "ext": "pdf",
      "bytes": 4774619,
@@ -678,10 +700,10 @@ window.STUDIO = {
     "title": "Quote: 'Wow, I wouldn't have written them myself.'",
     "tall": false,
     "files": [
-     "media/batch-1/A5/image.jpg?v=20261113212421"
+     "media/batch-1/A5/image.jpg?v=20261113212930"
     ],
     "download": {
-     "href": "media/batch-1/A5/tantra-b1-A5-2026-10-30-adi.png?v=20261113212421",
+     "href": "media/batch-1/A5/tantra-b1-A5-2026-10-30-adi.png?v=20261113212930",
      "name": "tantra-b1-A5-2026-10-30-adi.png",
      "ext": "png",
      "bytes": 411865,
@@ -792,19 +814,19 @@ window.STUDIO = {
     "src": "batch-2/T1",
     "title": "Old way vs new way: the leak between marketing and sales",
     "files": [
-     "media/batch-2/T1/p01.jpg?v=20261113212421",
-     "media/batch-2/T1/p02.jpg?v=20261113212421",
-     "media/batch-2/T1/p03.jpg?v=20261113212421",
-     "media/batch-2/T1/p04.jpg?v=20261113212421",
-     "media/batch-2/T1/p05.jpg?v=20261113212421",
-     "media/batch-2/T1/p06.jpg?v=20261113212421",
-     "media/batch-2/T1/p07.jpg?v=20261113212421",
-     "media/batch-2/T1/p08.jpg?v=20261113212421",
-     "media/batch-2/T1/p09.jpg?v=20261113212421",
-     "media/batch-2/T1/p10.jpg?v=20261113212421"
+     "media/batch-2/T1/p01.jpg?v=20261113212930",
+     "media/batch-2/T1/p02.jpg?v=20261113212930",
+     "media/batch-2/T1/p03.jpg?v=20261113212930",
+     "media/batch-2/T1/p04.jpg?v=20261113212930",
+     "media/batch-2/T1/p05.jpg?v=20261113212930",
+     "media/batch-2/T1/p06.jpg?v=20261113212930",
+     "media/batch-2/T1/p07.jpg?v=20261113212930",
+     "media/batch-2/T1/p08.jpg?v=20261113212930",
+     "media/batch-2/T1/p09.jpg?v=20261113212930",
+     "media/batch-2/T1/p10.jpg?v=20261113212930"
     ],
     "download": {
-     "href": "media/batch-2/T1/tantra-b2-T1-2026-10-27-tantra.pdf?v=20261113212421",
+     "href": "media/batch-2/T1/tantra-b2-T1-2026-10-27-tantra.pdf?v=20261113212930",
      "name": "tantra-b2-T1-2026-10-27-tantra.pdf",
      "ext": "pdf",
      "bytes": 4429940,
@@ -929,10 +951,10 @@ window.STUDIO = {
     "title": "Six stages, four layers: the map of a revenue engine",
     "tall": false,
     "files": [
-     "media/batch-2/T10/image.jpg?v=20261113212421"
+     "media/batch-2/T10/image.jpg?v=20261113212930"
     ],
     "download": {
-     "href": "media/batch-2/T10/tantra-b2-T10-2026-10-26-tantra.png?v=20261113212421",
+     "href": "media/batch-2/T10/tantra-b2-T10-2026-10-26-tantra.png?v=20261113212930",
      "name": "tantra-b2-T10-2026-10-26-tantra.png",
      "ext": "png",
      "bytes": 384713,
@@ -1055,17 +1077,17 @@ window.STUDIO = {
     "src": "batch-2/T2",
     "title": "Webinar, challenge or reverse squeeze: pick by belief",
     "files": [
-     "media/batch-2/T2/p01.jpg?v=20261113212421",
-     "media/batch-2/T2/p02.jpg?v=20261113212421",
-     "media/batch-2/T2/p03.jpg?v=20261113212421",
-     "media/batch-2/T2/p04.jpg?v=20261113212421",
-     "media/batch-2/T2/p05.jpg?v=20261113212421",
-     "media/batch-2/T2/p06.jpg?v=20261113212421",
-     "media/batch-2/T2/p07.jpg?v=20261113212421",
-     "media/batch-2/T2/p08.jpg?v=20261113212421"
+     "media/batch-2/T2/p01.jpg?v=20261113212930",
+     "media/batch-2/T2/p02.jpg?v=20261113212930",
+     "media/batch-2/T2/p03.jpg?v=20261113212930",
+     "media/batch-2/T2/p04.jpg?v=20261113212930",
+     "media/batch-2/T2/p05.jpg?v=20261113212930",
+     "media/batch-2/T2/p06.jpg?v=20261113212930",
+     "media/batch-2/T2/p07.jpg?v=20261113212930",
+     "media/batch-2/T2/p08.jpg?v=20261113212930"
     ],
     "download": {
-     "href": "media/batch-2/T2/tantra-b2-T2-2026-10-29-tantra.pdf?v=20261113212421",
+     "href": "media/batch-2/T2/tantra-b2-T2-2026-10-29-tantra.pdf?v=20261113212930",
      "name": "tantra-b2-T2-2026-10-29-tantra.pdf",
      "ext": "pdf",
      "bytes": 6189087,
@@ -1189,18 +1211,18 @@ window.STUDIO = {
     "src": "batch-2/T3",
     "title": "13 messages: 6 get them in the room, 7 follow up",
     "files": [
-     "media/batch-2/T3/p01.jpg?v=20261113212421",
-     "media/batch-2/T3/p02.jpg?v=20261113212421",
-     "media/batch-2/T3/p03.jpg?v=20261113212421",
-     "media/batch-2/T3/p04.jpg?v=20261113212421",
-     "media/batch-2/T3/p05.jpg?v=20261113212421",
-     "media/batch-2/T3/p06.jpg?v=20261113212421",
-     "media/batch-2/T3/p07.jpg?v=20261113212421",
-     "media/batch-2/T3/p08.jpg?v=20261113212421",
-     "media/batch-2/T3/p09.jpg?v=20261113212421"
+     "media/batch-2/T3/p01.jpg?v=20261113212930",
+     "media/batch-2/T3/p02.jpg?v=20261113212930",
+     "media/batch-2/T3/p03.jpg?v=20261113212930",
+     "media/batch-2/T3/p04.jpg?v=20261113212930",
+     "media/batch-2/T3/p05.jpg?v=20261113212930",
+     "media/batch-2/T3/p06.jpg?v=20261113212930",
+     "media/batch-2/T3/p07.jpg?v=20261113212930",
+     "media/batch-2/T3/p08.jpg?v=20261113212930",
+     "media/batch-2/T3/p09.jpg?v=20261113212930"
     ],
     "download": {
-     "href": "media/batch-2/T3/tantra-b2-T3-2026-11-02-tantra.pdf?v=20261113212421",
+     "href": "media/batch-2/T3/tantra-b2-T3-2026-11-02-tantra.pdf?v=20261113212930",
      "name": "tantra-b2-T3-2026-11-02-tantra.pdf",
      "ext": "pdf",
      "bytes": 1719797,
@@ -1324,17 +1346,17 @@ window.STUDIO = {
     "src": "batch-2/T4",
     "title": "Stop, fix or scale: the weekly channel check",
     "files": [
-     "media/batch-2/T4/p01.jpg?v=20261113212421",
-     "media/batch-2/T4/p02.jpg?v=20261113212421",
-     "media/batch-2/T4/p03.jpg?v=20261113212421",
-     "media/batch-2/T4/p04.jpg?v=20261113212421",
-     "media/batch-2/T4/p05.jpg?v=20261113212421",
-     "media/batch-2/T4/p06.jpg?v=20261113212421",
-     "media/batch-2/T4/p07.jpg?v=20261113212421",
-     "media/batch-2/T4/p08.jpg?v=20261113212421"
+     "media/batch-2/T4/p01.jpg?v=20261113212930",
+     "media/batch-2/T4/p02.jpg?v=20261113212930",
+     "media/batch-2/T4/p03.jpg?v=20261113212930",
+     "media/batch-2/T4/p04.jpg?v=20261113212930",
+     "media/batch-2/T4/p05.jpg?v=20261113212930",
+     "media/batch-2/T4/p06.jpg?v=20261113212930",
+     "media/batch-2/T4/p07.jpg?v=20261113212930",
+     "media/batch-2/T4/p08.jpg?v=20261113212930"
     ],
     "download": {
-     "href": "media/batch-2/T4/tantra-b2-T4-2026-11-04-tantra.pdf?v=20261113212421",
+     "href": "media/batch-2/T4/tantra-b2-T4-2026-11-04-tantra.pdf?v=20261113212930",
      "name": "tantra-b2-T4-2026-11-04-tantra.pdf",
      "ext": "pdf",
      "bytes": 1205777,
@@ -1458,17 +1480,17 @@ window.STUDIO = {
     "src": "batch-2/T5",
     "title": "Find the one step that leaks your funnel",
     "files": [
-     "media/batch-2/T5/p01.jpg?v=20261113212421",
-     "media/batch-2/T5/p02.jpg?v=20261113212421",
-     "media/batch-2/T5/p03.jpg?v=20261113212421",
-     "media/batch-2/T5/p04.jpg?v=20261113212421",
-     "media/batch-2/T5/p05.jpg?v=20261113212421",
-     "media/batch-2/T5/p06.jpg?v=20261113212421",
-     "media/batch-2/T5/p07.jpg?v=20261113212421",
-     "media/batch-2/T5/p08.jpg?v=20261113212421"
+     "media/batch-2/T5/p01.jpg?v=20261113212930",
+     "media/batch-2/T5/p02.jpg?v=20261113212930",
+     "media/batch-2/T5/p03.jpg?v=20261113212930",
+     "media/batch-2/T5/p04.jpg?v=20261113212930",
+     "media/batch-2/T5/p05.jpg?v=20261113212930",
+     "media/batch-2/T5/p06.jpg?v=20261113212930",
+     "media/batch-2/T5/p07.jpg?v=20261113212930",
+     "media/batch-2/T5/p08.jpg?v=20261113212930"
     ],
     "download": {
-     "href": "media/batch-2/T5/tantra-b2-T5-2026-11-05-tantra.pdf?v=20261113212421",
+     "href": "media/batch-2/T5/tantra-b2-T5-2026-11-05-tantra.pdf?v=20261113212930",
      "name": "tantra-b2-T5-2026-11-05-tantra.pdf",
      "ext": "pdf",
      "bytes": 4172544,
@@ -1593,18 +1615,18 @@ window.STUDIO = {
     "src": "batch-2/T6",
     "title": "Six guardrails for an AI agent that runs your funnel",
     "files": [
-     "media/batch-2/T6/p01.jpg?v=20261113212421",
-     "media/batch-2/T6/p02.jpg?v=20261113212421",
-     "media/batch-2/T6/p03.jpg?v=20261113212421",
-     "media/batch-2/T6/p04.jpg?v=20261113212421",
-     "media/batch-2/T6/p05.jpg?v=20261113212421",
-     "media/batch-2/T6/p06.jpg?v=20261113212421",
-     "media/batch-2/T6/p07.jpg?v=20261113212421",
-     "media/batch-2/T6/p08.jpg?v=20261113212421",
-     "media/batch-2/T6/p09.jpg?v=20261113212421"
+     "media/batch-2/T6/p01.jpg?v=20261113212930",
+     "media/batch-2/T6/p02.jpg?v=20261113212930",
+     "media/batch-2/T6/p03.jpg?v=20261113212930",
+     "media/batch-2/T6/p04.jpg?v=20261113212930",
+     "media/batch-2/T6/p05.jpg?v=20261113212930",
+     "media/batch-2/T6/p06.jpg?v=20261113212930",
+     "media/batch-2/T6/p07.jpg?v=20261113212930",
+     "media/batch-2/T6/p08.jpg?v=20261113212930",
+     "media/batch-2/T6/p09.jpg?v=20261113212930"
     ],
     "download": {
-     "href": "media/batch-2/T6/tantra-b2-T6-2026-11-06-tantra.pdf?v=20261113212421",
+     "href": "media/batch-2/T6/tantra-b2-T6-2026-11-06-tantra.pdf?v=20261113212930",
      "name": "tantra-b2-T6-2026-11-06-tantra.pdf",
      "ext": "pdf",
      "bytes": 2101753,
@@ -1729,10 +1751,10 @@ window.STUDIO = {
     "title": "The offer sentence, slot by slot",
     "tall": false,
     "files": [
-     "media/batch-2/T7/image.jpg?v=20261113212421"
+     "media/batch-2/T7/image.jpg?v=20261113212930"
     ],
     "download": {
-     "href": "media/batch-2/T7/tantra-b2-T7-2026-10-28-tantra.png?v=20261113212421",
+     "href": "media/batch-2/T7/tantra-b2-T7-2026-10-28-tantra.png?v=20261113212930",
      "name": "tantra-b2-T7-2026-10-28-tantra.png",
      "ext": "png",
      "bytes": 390264,
@@ -1857,10 +1879,10 @@ window.STUDIO = {
     "title": "Size your list backwards from revenue",
     "tall": false,
     "files": [
-     "media/batch-2/T8/image.jpg?v=20261113212421"
+     "media/batch-2/T8/image.jpg?v=20261113212930"
     ],
     "download": {
-     "href": "media/batch-2/T8/tantra-b2-T8-2026-10-30-tantra.png?v=20261113212421",
+     "href": "media/batch-2/T8/tantra-b2-T8-2026-10-30-tantra.png?v=20261113212930",
      "name": "tantra-b2-T8-2026-10-30-tantra.png",
      "ext": "png",
      "bytes": 327529,
@@ -1984,10 +2006,10 @@ window.STUDIO = {
     "title": "Score every application before anyone gets on a call",
     "tall": false,
     "files": [
-     "media/batch-2/T9/image.jpg?v=20261113212421"
+     "media/batch-2/T9/image.jpg?v=20261113212930"
     ],
     "download": {
-     "href": "media/batch-2/T9/tantra-b2-T9-2026-11-03-tantra.png?v=20261113212421",
+     "href": "media/batch-2/T9/tantra-b2-T9-2026-11-03-tantra.png?v=20261113212930",
      "name": "tantra-b2-T9-2026-11-03-tantra.png",
      "ext": "png",
      "bytes": 1168748,
@@ -2111,19 +2133,19 @@ window.STUDIO = {
     "src": "batch-3/AC1",
     "title": "11 webinars in 9 slides",
     "files": [
-     "media/batch-3/AC1/p01.jpg?v=20261113212421",
-     "media/batch-3/AC1/p02.jpg?v=20261113212421",
-     "media/batch-3/AC1/p03.jpg?v=20261113212421",
-     "media/batch-3/AC1/p04.jpg?v=20261113212421",
-     "media/batch-3/AC1/p05.jpg?v=20261113212421",
-     "media/batch-3/AC1/p06.jpg?v=20261113212421",
-     "media/batch-3/AC1/p07.jpg?v=20261113212421",
-     "media/batch-3/AC1/p08.jpg?v=20261113212421",
-     "media/batch-3/AC1/p09.jpg?v=20261113212421",
-     "media/batch-3/AC1/p10.jpg?v=20261113212421"
+     "media/batch-3/AC1/p01.jpg?v=20261113212930",
+     "media/batch-3/AC1/p02.jpg?v=20261113212930",
+     "media/batch-3/AC1/p03.jpg?v=20261113212930",
+     "media/batch-3/AC1/p04.jpg?v=20261113212930",
+     "media/batch-3/AC1/p05.jpg?v=20261113212930",
+     "media/batch-3/AC1/p06.jpg?v=20261113212930",
+     "media/batch-3/AC1/p07.jpg?v=20261113212930",
+     "media/batch-3/AC1/p08.jpg?v=20261113212930",
+     "media/batch-3/AC1/p09.jpg?v=20261113212930",
+     "media/batch-3/AC1/p10.jpg?v=20261113212930"
     ],
     "download": {
-     "href": "media/batch-3/AC1/tantra-b3-AC1-2026-11-17-adi.pdf?v=20261113212421",
+     "href": "media/batch-3/AC1/tantra-b3-AC1-2026-11-17-adi.pdf?v=20261113212930",
      "name": "tantra-b3-AC1-2026-11-17-adi.pdf",
      "ext": "pdf",
      "bytes": 17346136,
@@ -2251,17 +2273,17 @@ window.STUDIO = {
     "src": "batch-3/AC3",
     "title": "The old way vs the new way of filling a pipeline",
     "files": [
-     "media/batch-3/AC3/p01.jpg?v=20261113212421",
-     "media/batch-3/AC3/p02.jpg?v=20261113212421",
-     "media/batch-3/AC3/p03.jpg?v=20261113212421",
-     "media/batch-3/AC3/p04.jpg?v=20261113212421",
-     "media/batch-3/AC3/p05.jpg?v=20261113212421",
-     "media/batch-3/AC3/p06.jpg?v=20261113212421",
-     "media/batch-3/AC3/p07.jpg?v=20261113212421",
-     "media/batch-3/AC3/p08.jpg?v=20261113212421"
+     "media/batch-3/AC3/p01.jpg?v=20261113212930",
+     "media/batch-3/AC3/p02.jpg?v=20261113212930",
+     "media/batch-3/AC3/p03.jpg?v=20261113212930",
+     "media/batch-3/AC3/p04.jpg?v=20261113212930",
+     "media/batch-3/AC3/p05.jpg?v=20261113212930",
+     "media/batch-3/AC3/p06.jpg?v=20261113212930",
+     "media/batch-3/AC3/p07.jpg?v=20261113212930",
+     "media/batch-3/AC3/p08.jpg?v=20261113212930"
     ],
     "download": {
-     "href": "media/batch-3/AC3/tantra-b3-AC3-2026-11-20-adi.pdf?v=20261113212421",
+     "href": "media/batch-3/AC3/tantra-b3-AC3-2026-11-20-adi.pdf?v=20261113212930",
      "name": "tantra-b3-AC3-2026-11-20-adi.pdf",
      "ext": "pdf",
      "bytes": 3038677,
@@ -2380,17 +2402,17 @@ window.STUDIO = {
     "src": "batch-3/AC4",
     "title": "3 jobs your sales call can't do",
     "files": [
-     "media/batch-3/AC4/p01.jpg?v=20261113212421",
-     "media/batch-3/AC4/p02.jpg?v=20261113212421",
-     "media/batch-3/AC4/p03.jpg?v=20261113212421",
-     "media/batch-3/AC4/p04.jpg?v=20261113212421",
-     "media/batch-3/AC4/p05.jpg?v=20261113212421",
-     "media/batch-3/AC4/p06.jpg?v=20261113212421",
-     "media/batch-3/AC4/p07.jpg?v=20261113212421",
-     "media/batch-3/AC4/p08.jpg?v=20261113212421"
+     "media/batch-3/AC4/p01.jpg?v=20261113212930",
+     "media/batch-3/AC4/p02.jpg?v=20261113212930",
+     "media/batch-3/AC4/p03.jpg?v=20261113212930",
+     "media/batch-3/AC4/p04.jpg?v=20261113212930",
+     "media/batch-3/AC4/p05.jpg?v=20261113212930",
+     "media/batch-3/AC4/p06.jpg?v=20261113212930",
+     "media/batch-3/AC4/p07.jpg?v=20261113212930",
+     "media/batch-3/AC4/p08.jpg?v=20261113212930"
     ],
     "download": {
-     "href": "media/batch-3/AC4/tantra-b3-AC4-2026-11-24-adi.pdf?v=20261113212421",
+     "href": "media/batch-3/AC4/tantra-b3-AC4-2026-11-24-adi.pdf?v=20261113212930",
      "name": "tantra-b3-AC4-2026-11-24-adi.pdf",
      "ext": "pdf",
      "bytes": 5091456,
@@ -2513,20 +2535,20 @@ window.STUDIO = {
     "src": "batch-3/AG1",
     "title": "The calendar invite blueprint",
     "files": [
-     "media/batch-3/AG1/poster.jpg?v=20261113212421"
+     "media/batch-3/AG1/poster.jpg?v=20261113212930"
     ],
-    "video": "media/batch-3/AG1/tantra-b3-AG1-2026-11-19-adi.mp4?v=20261113212421",
+    "video": "media/batch-3/AG1/tantra-b3-AG1-2026-11-19-adi.mp4?v=20261113212930",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-3/AG1/tantra-b3-AG1-2026-11-19-adi.mp4?v=20261113212421",
+      "href": "media/batch-3/AG1/tantra-b3-AG1-2026-11-19-adi.mp4?v=20261113212930",
       "name": "tantra-b3-AG1-2026-11-19-adi.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 678022
      },
      {
-      "href": "media/batch-3/AG1/tantra-b3-AG1-2026-11-19-adi.gif?v=20261113212421",
+      "href": "media/batch-3/AG1/tantra-b3-AG1-2026-11-19-adi.gif?v=20261113212930",
       "name": "tantra-b3-AG1-2026-11-19-adi.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -2665,20 +2687,20 @@ window.STUDIO = {
     "src": "batch-3/AG2",
     "title": "Your funnel is one line of maths",
     "files": [
-     "media/batch-3/AG2/poster.jpg?v=20261113212421"
+     "media/batch-3/AG2/poster.jpg?v=20261113212930"
     ],
-    "video": "media/batch-3/AG2/tantra-b3-AG2-2026-11-16-adi.mp4?v=20261113212421",
+    "video": "media/batch-3/AG2/tantra-b3-AG2-2026-11-16-adi.mp4?v=20261113212930",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-3/AG2/tantra-b3-AG2-2026-11-16-adi.mp4?v=20261113212421",
+      "href": "media/batch-3/AG2/tantra-b3-AG2-2026-11-16-adi.mp4?v=20261113212930",
       "name": "tantra-b3-AG2-2026-11-16-adi.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 412017
      },
      {
-      "href": "media/batch-3/AG2/tantra-b3-AG2-2026-11-16-adi.gif?v=20261113212421",
+      "href": "media/batch-3/AG2/tantra-b3-AG2-2026-11-16-adi.gif?v=20261113212930",
       "name": "tantra-b3-AG2-2026-11-16-adi.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -2816,20 +2838,20 @@ window.STUDIO = {
     "src": "batch-3/AG3",
     "title": "250+ real funnel elements, 7 prompts",
     "files": [
-     "media/batch-3/AG3/poster.jpg?v=20261113212421"
+     "media/batch-3/AG3/poster.jpg?v=20261113212930"
     ],
-    "video": "media/batch-3/AG3/tantra-b3-AG3-2026-11-18-adi.mp4?v=20261113212421",
+    "video": "media/batch-3/AG3/tantra-b3-AG3-2026-11-18-adi.mp4?v=20261113212930",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-3/AG3/tantra-b3-AG3-2026-11-18-adi.mp4?v=20261113212421",
+      "href": "media/batch-3/AG3/tantra-b3-AG3-2026-11-18-adi.mp4?v=20261113212930",
       "name": "tantra-b3-AG3-2026-11-18-adi.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 634601
      },
      {
-      "href": "media/batch-3/AG3/tantra-b3-AG3-2026-11-18-adi.gif?v=20261113212421",
+      "href": "media/batch-3/AG3/tantra-b3-AG3-2026-11-18-adi.gif?v=20261113212930",
       "name": "tantra-b3-AG3-2026-11-18-adi.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -2972,20 +2994,20 @@ window.STUDIO = {
     "src": "batch-3/AG5",
     "title": "5 emails, 13 days, 1 subject line",
     "files": [
-     "media/batch-3/AG5/poster.jpg?v=20261113212421"
+     "media/batch-3/AG5/poster.jpg?v=20261113212930"
     ],
-    "video": "media/batch-3/AG5/tantra-b3-AG5-2026-11-23-adi.mp4?v=20261113212421",
+    "video": "media/batch-3/AG5/tantra-b3-AG5-2026-11-23-adi.mp4?v=20261113212930",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-3/AG5/tantra-b3-AG5-2026-11-23-adi.mp4?v=20261113212421",
+      "href": "media/batch-3/AG5/tantra-b3-AG5-2026-11-23-adi.mp4?v=20261113212930",
       "name": "tantra-b3-AG5-2026-11-23-adi.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 821707
      },
      {
-      "href": "media/batch-3/AG5/tantra-b3-AG5-2026-11-23-adi.gif?v=20261113212421",
+      "href": "media/batch-3/AG5/tantra-b3-AG5-2026-11-23-adi.gif?v=20261113212930",
       "name": "tantra-b3-AG5-2026-11-23-adi.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -3123,20 +3145,20 @@ window.STUDIO = {
     "src": "batch-3/AG6",
     "title": "Your persona from 20 customers",
     "files": [
-     "media/batch-3/AG6/poster.jpg?v=20261113212421"
+     "media/batch-3/AG6/poster.jpg?v=20261113212930"
     ],
-    "video": "media/batch-3/AG6/tantra-b3-AG6-2026-11-25-adi.mp4?v=20261113212421",
+    "video": "media/batch-3/AG6/tantra-b3-AG6-2026-11-25-adi.mp4?v=20261113212930",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-3/AG6/tantra-b3-AG6-2026-11-25-adi.mp4?v=20261113212421",
+      "href": "media/batch-3/AG6/tantra-b3-AG6-2026-11-25-adi.mp4?v=20261113212930",
       "name": "tantra-b3-AG6-2026-11-25-adi.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 864397
      },
      {
-      "href": "media/batch-3/AG6/tantra-b3-AG6-2026-11-25-adi.gif?v=20261113212421",
+      "href": "media/batch-3/AG6/tantra-b3-AG6-2026-11-25-adi.gif?v=20261113212930",
       "name": "tantra-b3-AG6-2026-11-25-adi.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -3272,17 +3294,17 @@ window.STUDIO = {
     "src": "batch-3/TC3",
     "title": "Your funnel before AI and after AI",
     "files": [
-     "media/batch-3/TC3/p01.jpg?v=20261113212421",
-     "media/batch-3/TC3/p02.jpg?v=20261113212421",
-     "media/batch-3/TC3/p03.jpg?v=20261113212421",
-     "media/batch-3/TC3/p04.jpg?v=20261113212421",
-     "media/batch-3/TC3/p05.jpg?v=20261113212421",
-     "media/batch-3/TC3/p06.jpg?v=20261113212421",
-     "media/batch-3/TC3/p07.jpg?v=20261113212421",
-     "media/batch-3/TC3/p08.jpg?v=20261113212421"
+     "media/batch-3/TC3/p01.jpg?v=20261113212930",
+     "media/batch-3/TC3/p02.jpg?v=20261113212930",
+     "media/batch-3/TC3/p03.jpg?v=20261113212930",
+     "media/batch-3/TC3/p04.jpg?v=20261113212930",
+     "media/batch-3/TC3/p05.jpg?v=20261113212930",
+     "media/batch-3/TC3/p06.jpg?v=20261113212930",
+     "media/batch-3/TC3/p07.jpg?v=20261113212930",
+     "media/batch-3/TC3/p08.jpg?v=20261113212930"
     ],
     "download": {
-     "href": "media/batch-3/TC3/tantra-b3-TC3-2026-11-18-tantra.pdf?v=20261113212421",
+     "href": "media/batch-3/TC3/tantra-b3-TC3-2026-11-18-tantra.pdf?v=20261113212930",
      "name": "tantra-b3-TC3-2026-11-18-tantra.pdf",
      "ext": "pdf",
      "bytes": 1062991,
@@ -3424,10 +3446,10 @@ window.STUDIO = {
     "title": "The 8-part prompt skeleton",
     "tall": false,
     "files": [
-     "media/batch-3/TG1/image.jpg?v=20261113212421"
+     "media/batch-3/TG1/image.jpg?v=20261113212930"
     ],
     "download": {
-     "href": "media/batch-3/TG1/tantra-b3-TG1-2026-11-16-tantra.png?v=20261113212421",
+     "href": "media/batch-3/TG1/tantra-b3-TG1-2026-11-16-tantra.png?v=20261113212930",
      "name": "tantra-b3-TG1-2026-11-16-tantra.png",
      "ext": "png",
      "bytes": 343366,
@@ -3577,20 +3599,20 @@ window.STUDIO = {
     "src": "batch-3/TG2",
     "title": "The registration page in 9 blocks",
     "files": [
-     "media/batch-3/TG2/poster.jpg?v=20261113212421"
+     "media/batch-3/TG2/poster.jpg?v=20261113212930"
     ],
-    "video": "media/batch-3/TG2/tantra-b3-TG2-2026-11-17-tantra.mp4?v=20261113212421",
+    "video": "media/batch-3/TG2/tantra-b3-TG2-2026-11-17-tantra.mp4?v=20261113212930",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-3/TG2/tantra-b3-TG2-2026-11-17-tantra.mp4?v=20261113212421",
+      "href": "media/batch-3/TG2/tantra-b3-TG2-2026-11-17-tantra.mp4?v=20261113212930",
       "name": "tantra-b3-TG2-2026-11-17-tantra.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 747908
      },
      {
-      "href": "media/batch-3/TG2/tantra-b3-TG2-2026-11-17-tantra.gif?v=20261113212421",
+      "href": "media/batch-3/TG2/tantra-b3-TG2-2026-11-17-tantra.gif?v=20261113212930",
       "name": "tantra-b3-TG2-2026-11-17-tantra.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -3740,20 +3762,20 @@ window.STUDIO = {
     "src": "batch-3/TG3",
     "title": "Every outreach limit on one card",
     "files": [
-     "media/batch-3/TG3/poster.jpg?v=20261113212421"
+     "media/batch-3/TG3/poster.jpg?v=20261113212930"
     ],
-    "video": "media/batch-3/TG3/tantra-b3-TG3-2026-11-19-tantra.mp4?v=20261113212421",
+    "video": "media/batch-3/TG3/tantra-b3-TG3-2026-11-19-tantra.mp4?v=20261113212930",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-3/TG3/tantra-b3-TG3-2026-11-19-tantra.mp4?v=20261113212421",
+      "href": "media/batch-3/TG3/tantra-b3-TG3-2026-11-19-tantra.mp4?v=20261113212930",
       "name": "tantra-b3-TG3-2026-11-19-tantra.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 585593
      },
      {
-      "href": "media/batch-3/TG3/tantra-b3-TG3-2026-11-19-tantra.gif?v=20261113212421",
+      "href": "media/batch-3/TG3/tantra-b3-TG3-2026-11-19-tantra.gif?v=20261113212930",
       "name": "tantra-b3-TG3-2026-11-19-tantra.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -3902,20 +3924,20 @@ window.STUDIO = {
     "src": "batch-3/TG4",
     "title": "A clock on every pipeline stage",
     "files": [
-     "media/batch-3/TG4/poster.jpg?v=20261113212421"
+     "media/batch-3/TG4/poster.jpg?v=20261113212930"
     ],
-    "video": "media/batch-3/TG4/tantra-b3-TG4-2026-11-20-tantra.mp4?v=20261113212421",
+    "video": "media/batch-3/TG4/tantra-b3-TG4-2026-11-20-tantra.mp4?v=20261113212930",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-3/TG4/tantra-b3-TG4-2026-11-20-tantra.mp4?v=20261113212421",
+      "href": "media/batch-3/TG4/tantra-b3-TG4-2026-11-20-tantra.mp4?v=20261113212930",
       "name": "tantra-b3-TG4-2026-11-20-tantra.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 1009604
      },
      {
-      "href": "media/batch-3/TG4/tantra-b3-TG4-2026-11-20-tantra.gif?v=20261113212421",
+      "href": "media/batch-3/TG4/tantra-b3-TG4-2026-11-20-tantra.gif?v=20261113212930",
       "name": "tantra-b3-TG4-2026-11-20-tantra.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -4072,20 +4094,20 @@ window.STUDIO = {
     "src": "batch-3/TG6",
     "title": "Keep outreach off your main domain",
     "files": [
-     "media/batch-3/TG6/poster.jpg?v=20261113212421"
+     "media/batch-3/TG6/poster.jpg?v=20261113212930"
     ],
-    "video": "media/batch-3/TG6/tantra-b3-TG6-2026-11-23-tantra.mp4?v=20261113212421",
+    "video": "media/batch-3/TG6/tantra-b3-TG6-2026-11-23-tantra.mp4?v=20261113212930",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-3/TG6/tantra-b3-TG6-2026-11-23-tantra.mp4?v=20261113212421",
+      "href": "media/batch-3/TG6/tantra-b3-TG6-2026-11-23-tantra.mp4?v=20261113212930",
       "name": "tantra-b3-TG6-2026-11-23-tantra.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 261330
      },
      {
-      "href": "media/batch-3/TG6/tantra-b3-TG6-2026-11-23-tantra.gif?v=20261113212421",
+      "href": "media/batch-3/TG6/tantra-b3-TG6-2026-11-23-tantra.gif?v=20261113212930",
       "name": "tantra-b3-TG6-2026-11-23-tantra.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -4234,20 +4256,20 @@ window.STUDIO = {
     "src": "batch-4/EA1",
     "title": "The 4-Number Revenue Equation Sheet",
     "files": [
-     "media/batch-4/EA1/poster.jpg?v=20261113212421"
+     "media/batch-4/EA1/poster.jpg?v=20261113212930"
     ],
-    "video": "media/batch-4/EA1/tantra-b4-EA1-2026-11-26-ben.mp4?v=20261113212421",
+    "video": "media/batch-4/EA1/tantra-b4-EA1-2026-11-26-ben.mp4?v=20261113212930",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-4/EA1/tantra-b4-EA1-2026-11-26-ben.mp4?v=20261113212421",
+      "href": "media/batch-4/EA1/tantra-b4-EA1-2026-11-26-ben.mp4?v=20261113212930",
       "name": "tantra-b4-EA1-2026-11-26-ben.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 350924
      },
      {
-      "href": "media/batch-4/EA1/tantra-b4-EA1-2026-11-26-ben.gif?v=20261113212421",
+      "href": "media/batch-4/EA1/tantra-b4-EA1-2026-11-26-ben.gif?v=20261113212930",
       "name": "tantra-b4-EA1-2026-11-26-ben.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -4386,20 +4408,20 @@ window.STUDIO = {
     "src": "batch-4/EA2",
     "title": "The 8-Part Prompt Skeleton",
     "files": [
-     "media/batch-4/EA2/poster.jpg?v=20261113212421"
+     "media/batch-4/EA2/poster.jpg?v=20261113212930"
     ],
-    "video": "media/batch-4/EA2/tantra-b4-EA2-2026-12-01-ben.mp4?v=20261113212421",
+    "video": "media/batch-4/EA2/tantra-b4-EA2-2026-12-01-ben.mp4?v=20261113212930",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-4/EA2/tantra-b4-EA2-2026-12-01-ben.mp4?v=20261113212421",
+      "href": "media/batch-4/EA2/tantra-b4-EA2-2026-12-01-ben.mp4?v=20261113212930",
       "name": "tantra-b4-EA2-2026-12-01-ben.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 250027
      },
      {
-      "href": "media/batch-4/EA2/tantra-b4-EA2-2026-12-01-ben.gif?v=20261113212421",
+      "href": "media/batch-4/EA2/tantra-b4-EA2-2026-12-01-ben.gif?v=20261113212930",
       "name": "tantra-b4-EA2-2026-12-01-ben.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -4536,20 +4558,20 @@ window.STUDIO = {
     "src": "batch-4/EA3",
     "title": "The AI SDR System",
     "files": [
-     "media/batch-4/EA3/poster.jpg?v=20261113212421"
+     "media/batch-4/EA3/poster.jpg?v=20261113212930"
     ],
-    "video": "media/batch-4/EA3/tantra-b4-EA3-2026-12-03-ben.mp4?v=20261113212421",
+    "video": "media/batch-4/EA3/tantra-b4-EA3-2026-12-03-ben.mp4?v=20261113212930",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-4/EA3/tantra-b4-EA3-2026-12-03-ben.mp4?v=20261113212421",
+      "href": "media/batch-4/EA3/tantra-b4-EA3-2026-12-03-ben.mp4?v=20261113212930",
       "name": "tantra-b4-EA3-2026-12-03-ben.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 381457
      },
      {
-      "href": "media/batch-4/EA3/tantra-b4-EA3-2026-12-03-ben.gif?v=20261113212421",
+      "href": "media/batch-4/EA3/tantra-b4-EA3-2026-12-03-ben.gif?v=20261113212930",
       "name": "tantra-b4-EA3-2026-12-03-ben.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -4558,7 +4580,7 @@ window.STUDIO = {
     ]
    },
    "text": "Claude can run the first half of an SDR's job.\n5 tasks it does before your team logs in\nGet it here.\n👇🏾\n\nMost sales teams still do all five by hand. Here's what it takes over:\n\n1/ Find\n\nMerges your CRM, your LinkedIn searches and past sign-ups into one list.\n\n💥 Output: one list, duplicates removed\n\n2/ Check\nReads each company's site and recent posts and cuts the wrong fits.\n\n💥 Output: a list your fit rules agree with\n\n3/ Sort\nPuts each buyer in the segment their message is written for.\n\n💥 Output: segments a person approves\n\n4/ Draft\nWrites one message per segment, with merge fields only, in two versions.\n\n💥 Output: messages waiting for a yes\n\n5/ Follow up\n\nLines up each next step on its channel's timing.\n\n💥 Output: a queue that stops the moment someone replies\n\nThe other half stays with people: approving every message, answering real replies the same day and taking the calls.\n\nGet it here.\n👇🏾",
-   "first_comment": "Drop SDR below and I'll send you the AI SDR System. Two pages: who does what, the Claude setup, the timing for each channel and the two prompts that sort your list and write the first message. A person still approves everything it drafts.",
+   "first_comment": "Drop SDR below and I'll send you the AI SDR System. Three pages: who does what, the Claude setup, the timing for each channel and the two prompts that sort your list and write the first message. A person still approves everything it drafts.",
    "sources": [
     "content/corpus/facts.md: EW-36, EW-45",
     "content/corpus/giveaway-assets.md"
@@ -4583,9 +4605,9 @@ window.STUDIO = {
    "resource": {
     "name": "The AI SDR System",
     "keyword": "SDR",
-    "what": "A 2-page PDF and page: who does what, the Claude setup, the timing for each channel and the two prompts that sort your list and write the first message.",
+    "what": "A 3-page PDF and page: who does what, the Claude setup, the timing for each channel and the two prompts that sort your list and write the first message.",
     "url": "https://adisuja.github.io/tantra-revops/ai-sdr-system/",
-    "pages": 2,
+    "pages": 3,
     "files": [
      {
       "label": "PDF",
@@ -4595,10 +4617,10 @@ window.STUDIO = {
     "preview": "resources/ai-sdr-system/"
    },
    "dm": {
-    "message": "Hi {first_name}, thanks for commenting SDR.\n\nHere's the AI SDR System:\nhttps://adisuja.github.io/tantra-revops/ai-sdr-system/\n\nIt's 2 pages: who does what, the Claude setup, the timing for each channel and the two prompts that sort your list and write the first message.\n\nWrite your fit rules first. Everything the AI does reads from them.\n\nWhich of the five tasks would save your team the most time?",
+    "message": "Hi {first_name}, thanks for commenting SDR.\n\nHere's the AI SDR System:\nhttps://adisuja.github.io/tantra-revops/ai-sdr-system/\n\nIt's 3 pages: who does what, the Claude setup, the timing for each channel, the two prompts that sort your list and write the first message, and the four messages that run it in one chat.\n\nWrite your fit rules first. Everything the AI does reads from them.\n\nWhich of the five tasks would save your team the most time?",
     "connect": "Hi {first_name}, you commented SDR on my post about the first half of an SDR's job. LinkedIn only lets me message connections, so accept this and I'll send it straight over. Ben",
     "email_subject": "Your AI SDR System",
-    "email_body": "Hi {first_name},\n\nYou commented SDR on my post about the first half of an SDR's job:\n[POST LINK]\n\nHere's the AI SDR System, as promised:\nhttps://adisuja.github.io/tantra-revops/ai-sdr-system/\n\nIt's 2 pages: who does what, the Claude setup, the timing for each channel and the two prompts that sort your list and write the first message. The link opens straight away, with no sign-up.\n\nWrite your fit rules first. Everything the AI does reads from them.\n\nWhich of the five tasks would save your team the most time? Hit reply and tell me.\n\nBen\n\nP.S. You're getting this because you asked for it in the comments. If you'd rather not hear from me again, reply \"no\" and that's final."
+    "email_body": "Hi {first_name},\n\nYou commented SDR on my post about the first half of an SDR's job:\n[POST LINK]\n\nHere's the AI SDR System, as promised:\nhttps://adisuja.github.io/tantra-revops/ai-sdr-system/\n\nIt's 3 pages: who does what, the Claude setup, the timing for each channel, the two prompts that sort your list and write the first message, and the four messages that run it in one chat. The link opens straight away, with no sign-up.\n\nWrite your fit rules first. Everything the AI does reads from them.\n\nWhich of the five tasks would save your team the most time? Hit reply and tell me.\n\nBen\n\nP.S. You're getting this because you asked for it in the comments. If you'd rather not hear from me again, reply \"no\" and that's final."
    },
    "key": "b4-EA3",
    "team_comments": [
@@ -4689,20 +4711,20 @@ window.STUDIO = {
     "src": "batch-4/EA4",
     "title": "The Calendar Invite Blueprint",
     "files": [
-     "media/batch-4/EA4/poster.jpg?v=20261113212421"
+     "media/batch-4/EA4/poster.jpg?v=20261113212930"
     ],
-    "video": "media/batch-4/EA4/tantra-b4-EA4-2026-12-08-ben.mp4?v=20261113212421",
+    "video": "media/batch-4/EA4/tantra-b4-EA4-2026-12-08-ben.mp4?v=20261113212930",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-4/EA4/tantra-b4-EA4-2026-12-08-ben.mp4?v=20261113212421",
+      "href": "media/batch-4/EA4/tantra-b4-EA4-2026-12-08-ben.mp4?v=20261113212930",
       "name": "tantra-b4-EA4-2026-12-08-ben.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 401590
      },
      {
-      "href": "media/batch-4/EA4/tantra-b4-EA4-2026-12-08-ben.gif?v=20261113212421",
+      "href": "media/batch-4/EA4/tantra-b4-EA4-2026-12-08-ben.gif?v=20261113212930",
       "name": "tantra-b4-EA4-2026-12-08-ben.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -4841,18 +4863,18 @@ window.STUDIO = {
     "src": "batch-4/EC1",
     "title": "Draft a Whole Funnel From One Brief",
     "files": [
-     "media/batch-4/EC1/p01.jpg?v=20261113212421",
-     "media/batch-4/EC1/p02.jpg?v=20261113212421",
-     "media/batch-4/EC1/p03.jpg?v=20261113212421",
-     "media/batch-4/EC1/p04.jpg?v=20261113212421",
-     "media/batch-4/EC1/p05.jpg?v=20261113212421",
-     "media/batch-4/EC1/p06.jpg?v=20261113212421",
-     "media/batch-4/EC1/p07.jpg?v=20261113212421",
-     "media/batch-4/EC1/p08.jpg?v=20261113212421",
-     "media/batch-4/EC1/p09.jpg?v=20261113212421"
+     "media/batch-4/EC1/p01.jpg?v=20261113212930",
+     "media/batch-4/EC1/p02.jpg?v=20261113212930",
+     "media/batch-4/EC1/p03.jpg?v=20261113212930",
+     "media/batch-4/EC1/p04.jpg?v=20261113212930",
+     "media/batch-4/EC1/p05.jpg?v=20261113212930",
+     "media/batch-4/EC1/p06.jpg?v=20261113212930",
+     "media/batch-4/EC1/p07.jpg?v=20261113212930",
+     "media/batch-4/EC1/p08.jpg?v=20261113212930",
+     "media/batch-4/EC1/p09.jpg?v=20261113212930"
     ],
     "download": {
-     "href": "media/batch-4/EC1/tantra-b4-EC1-2026-11-25-ben.pdf?v=20261113212421",
+     "href": "media/batch-4/EC1/tantra-b4-EC1-2026-11-25-ben.pdf?v=20261113212930",
      "name": "tantra-b4-EC1-2026-11-25-ben.pdf",
      "ext": "pdf",
      "bytes": 5292298,
@@ -4977,17 +4999,17 @@ window.STUDIO = {
     "src": "batch-4/EC2",
     "title": "Count Every Sign-Up Once",
     "files": [
-     "media/batch-4/EC2/p01.jpg?v=20261113212421",
-     "media/batch-4/EC2/p02.jpg?v=20261113212421",
-     "media/batch-4/EC2/p03.jpg?v=20261113212421",
-     "media/batch-4/EC2/p04.jpg?v=20261113212421",
-     "media/batch-4/EC2/p05.jpg?v=20261113212421",
-     "media/batch-4/EC2/p06.jpg?v=20261113212421",
-     "media/batch-4/EC2/p07.jpg?v=20261113212421",
-     "media/batch-4/EC2/p08.jpg?v=20261113212421"
+     "media/batch-4/EC2/p01.jpg?v=20261113212930",
+     "media/batch-4/EC2/p02.jpg?v=20261113212930",
+     "media/batch-4/EC2/p03.jpg?v=20261113212930",
+     "media/batch-4/EC2/p04.jpg?v=20261113212930",
+     "media/batch-4/EC2/p05.jpg?v=20261113212930",
+     "media/batch-4/EC2/p06.jpg?v=20261113212930",
+     "media/batch-4/EC2/p07.jpg?v=20261113212930",
+     "media/batch-4/EC2/p08.jpg?v=20261113212930"
     ],
     "download": {
-     "href": "media/batch-4/EC2/tantra-b4-EC2-2026-12-02-ben.pdf?v=20261113212421",
+     "href": "media/batch-4/EC2/tantra-b4-EC2-2026-12-02-ben.pdf?v=20261113212930",
      "name": "tantra-b4-EC2-2026-12-02-ben.pdf",
      "ext": "pdf",
      "bytes": 2411302,
@@ -5113,17 +5135,17 @@ window.STUDIO = {
     "src": "batch-4/EC3",
     "title": "Pro AI Prompts for Funnel Pages",
     "files": [
-     "media/batch-4/EC3/p01.jpg?v=20261113212421",
-     "media/batch-4/EC3/p02.jpg?v=20261113212421",
-     "media/batch-4/EC3/p03.jpg?v=20261113212421",
-     "media/batch-4/EC3/p04.jpg?v=20261113212421",
-     "media/batch-4/EC3/p05.jpg?v=20261113212421",
-     "media/batch-4/EC3/p06.jpg?v=20261113212421",
-     "media/batch-4/EC3/p07.jpg?v=20261113212421",
-     "media/batch-4/EC3/p08.jpg?v=20261113212421"
+     "media/batch-4/EC3/p01.jpg?v=20261113212930",
+     "media/batch-4/EC3/p02.jpg?v=20261113212930",
+     "media/batch-4/EC3/p03.jpg?v=20261113212930",
+     "media/batch-4/EC3/p04.jpg?v=20261113212930",
+     "media/batch-4/EC3/p05.jpg?v=20261113212930",
+     "media/batch-4/EC3/p06.jpg?v=20261113212930",
+     "media/batch-4/EC3/p07.jpg?v=20261113212930",
+     "media/batch-4/EC3/p08.jpg?v=20261113212930"
     ],
     "download": {
-     "href": "media/batch-4/EC3/tantra-b4-EC3-2026-12-09-ben.pdf?v=20261113212421",
+     "href": "media/batch-4/EC3/tantra-b4-EC3-2026-12-09-ben.pdf?v=20261113212930",
      "name": "tantra-b4-EC3-2026-12-09-ben.pdf",
      "ext": "pdf",
      "bytes": 3304547,
@@ -5251,17 +5273,17 @@ window.STUDIO = {
     "src": "batch-4/EC4",
     "title": "Four Automations Behind a Flat Sign-up Rate",
     "files": [
-     "media/batch-4/EC4/p01.jpg?v=20261113212421",
-     "media/batch-4/EC4/p02.jpg?v=20261113212421",
-     "media/batch-4/EC4/p03.jpg?v=20261113212421",
-     "media/batch-4/EC4/p04.jpg?v=20261113212421",
-     "media/batch-4/EC4/p05.jpg?v=20261113212421",
-     "media/batch-4/EC4/p06.jpg?v=20261113212421",
-     "media/batch-4/EC4/p07.jpg?v=20261113212421",
-     "media/batch-4/EC4/p08.jpg?v=20261113212421"
+     "media/batch-4/EC4/p01.jpg?v=20261113212930",
+     "media/batch-4/EC4/p02.jpg?v=20261113212930",
+     "media/batch-4/EC4/p03.jpg?v=20261113212930",
+     "media/batch-4/EC4/p04.jpg?v=20261113212930",
+     "media/batch-4/EC4/p05.jpg?v=20261113212930",
+     "media/batch-4/EC4/p06.jpg?v=20261113212930",
+     "media/batch-4/EC4/p07.jpg?v=20261113212930",
+     "media/batch-4/EC4/p08.jpg?v=20261113212930"
     ],
     "download": {
-     "href": "media/batch-4/EC4/tantra-b4-EC4-2026-12-10-ben.pdf?v=20261113212421",
+     "href": "media/batch-4/EC4/tantra-b4-EC4-2026-12-10-ben.pdf?v=20261113212930",
      "name": "tantra-b4-EC4-2026-12-10-ben.pdf",
      "ext": "pdf",
      "bytes": 3779382,
@@ -5387,20 +5409,20 @@ window.STUDIO = {
     "src": "batch-4/EG3",
     "title": "The Book-a-Call Page (With Case Studies)",
     "files": [
-     "media/batch-4/EG3/poster.jpg?v=20261113212421"
+     "media/batch-4/EG3/poster.jpg?v=20261113212930"
     ],
-    "video": "media/batch-4/EG3/tantra-b4-EG3-2026-11-24-ben.mp4?v=20261113212421",
+    "video": "media/batch-4/EG3/tantra-b4-EG3-2026-11-24-ben.mp4?v=20261113212930",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-4/EG3/tantra-b4-EG3-2026-11-24-ben.mp4?v=20261113212421",
+      "href": "media/batch-4/EG3/tantra-b4-EG3-2026-11-24-ben.mp4?v=20261113212930",
       "name": "tantra-b4-EG3-2026-11-24-ben.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 599423
      },
      {
-      "href": "media/batch-4/EG3/tantra-b4-EG3-2026-11-24-ben.gif?v=20261113212421",
+      "href": "media/batch-4/EG3/tantra-b4-EG3-2026-11-24-ben.gif?v=20261113212930",
       "name": "tantra-b4-EG3-2026-11-24-ben.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -5540,18 +5562,18 @@ window.STUDIO = {
     "src": "batch-4/HC1",
     "title": "5 Traffic Channels You Can Switch On",
     "files": [
-     "media/batch-4/HC1/p01.jpg?v=20261113212421",
-     "media/batch-4/HC1/p02.jpg?v=20261113212421",
-     "media/batch-4/HC1/p03.jpg?v=20261113212421",
-     "media/batch-4/HC1/p04.jpg?v=20261113212421",
-     "media/batch-4/HC1/p05.jpg?v=20261113212421",
-     "media/batch-4/HC1/p06.jpg?v=20261113212421",
-     "media/batch-4/HC1/p07.jpg?v=20261113212421",
-     "media/batch-4/HC1/p08.jpg?v=20261113212421",
-     "media/batch-4/HC1/p09.jpg?v=20261113212421"
+     "media/batch-4/HC1/p01.jpg?v=20261113212930",
+     "media/batch-4/HC1/p02.jpg?v=20261113212930",
+     "media/batch-4/HC1/p03.jpg?v=20261113212930",
+     "media/batch-4/HC1/p04.jpg?v=20261113212930",
+     "media/batch-4/HC1/p05.jpg?v=20261113212930",
+     "media/batch-4/HC1/p06.jpg?v=20261113212930",
+     "media/batch-4/HC1/p07.jpg?v=20261113212930",
+     "media/batch-4/HC1/p08.jpg?v=20261113212930",
+     "media/batch-4/HC1/p09.jpg?v=20261113212930"
     ],
     "download": {
-     "href": "media/batch-4/HC1/tantra-b4-HC1-2026-11-25-bhaskar.pdf?v=20261113212421",
+     "href": "media/batch-4/HC1/tantra-b4-HC1-2026-11-25-bhaskar.pdf?v=20261113212930",
      "name": "tantra-b4-HC1-2026-11-25-bhaskar.pdf",
      "ext": "pdf",
      "bytes": 1788365,
@@ -5679,17 +5701,17 @@ window.STUDIO = {
     "src": "batch-4/HC3",
     "title": "The Old vs the New Way to Fill a Sales Calendar",
     "files": [
-     "media/batch-4/HC3/p01.jpg?v=20261113212421",
-     "media/batch-4/HC3/p02.jpg?v=20261113212421",
-     "media/batch-4/HC3/p03.jpg?v=20261113212421",
-     "media/batch-4/HC3/p04.jpg?v=20261113212421",
-     "media/batch-4/HC3/p05.jpg?v=20261113212421",
-     "media/batch-4/HC3/p06.jpg?v=20261113212421",
-     "media/batch-4/HC3/p07.jpg?v=20261113212421",
-     "media/batch-4/HC3/p08.jpg?v=20261113212421"
+     "media/batch-4/HC3/p01.jpg?v=20261113212930",
+     "media/batch-4/HC3/p02.jpg?v=20261113212930",
+     "media/batch-4/HC3/p03.jpg?v=20261113212930",
+     "media/batch-4/HC3/p04.jpg?v=20261113212930",
+     "media/batch-4/HC3/p05.jpg?v=20261113212930",
+     "media/batch-4/HC3/p06.jpg?v=20261113212930",
+     "media/batch-4/HC3/p07.jpg?v=20261113212930",
+     "media/batch-4/HC3/p08.jpg?v=20261113212930"
     ],
     "download": {
-     "href": "media/batch-4/HC3/tantra-b4-HC3-2026-12-02-bhaskar.pdf?v=20261113212421",
+     "href": "media/batch-4/HC3/tantra-b4-HC3-2026-12-02-bhaskar.pdf?v=20261113212930",
      "name": "tantra-b4-HC3-2026-12-02-bhaskar.pdf",
      "ext": "pdf",
      "bytes": 1357408,
@@ -5810,20 +5832,20 @@ window.STUDIO = {
     "src": "batch-4/HG1",
     "title": "The Event Countdown Content Calendar",
     "files": [
-     "media/batch-4/HG1/poster.jpg?v=20261113212421"
+     "media/batch-4/HG1/poster.jpg?v=20261113212930"
     ],
-    "video": "media/batch-4/HG1/tantra-b4-HG1-2026-11-24-bhaskar.mp4?v=20261113212421",
+    "video": "media/batch-4/HG1/tantra-b4-HG1-2026-11-24-bhaskar.mp4?v=20261113212930",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-4/HG1/tantra-b4-HG1-2026-11-24-bhaskar.mp4?v=20261113212421",
+      "href": "media/batch-4/HG1/tantra-b4-HG1-2026-11-24-bhaskar.mp4?v=20261113212930",
       "name": "tantra-b4-HG1-2026-11-24-bhaskar.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 349482
      },
      {
-      "href": "media/batch-4/HG1/tantra-b4-HG1-2026-11-24-bhaskar.gif?v=20261113212421",
+      "href": "media/batch-4/HG1/tantra-b4-HG1-2026-11-24-bhaskar.gif?v=20261113212930",
       "name": "tantra-b4-HG1-2026-11-24-bhaskar.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -5963,20 +5985,20 @@ window.STUDIO = {
     "src": "batch-4/HG2",
     "title": "The Value Equation Scorecard",
     "files": [
-     "media/batch-4/HG2/poster.jpg?v=20261113212421"
+     "media/batch-4/HG2/poster.jpg?v=20261113212930"
     ],
-    "video": "media/batch-4/HG2/tantra-b4-HG2-2026-11-26-bhaskar.mp4?v=20261113212421",
+    "video": "media/batch-4/HG2/tantra-b4-HG2-2026-11-26-bhaskar.mp4?v=20261113212930",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-4/HG2/tantra-b4-HG2-2026-11-26-bhaskar.mp4?v=20261113212421",
+      "href": "media/batch-4/HG2/tantra-b4-HG2-2026-11-26-bhaskar.mp4?v=20261113212930",
       "name": "tantra-b4-HG2-2026-11-26-bhaskar.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 350158
      },
      {
-      "href": "media/batch-4/HG2/tantra-b4-HG2-2026-11-26-bhaskar.gif?v=20261113212421",
+      "href": "media/batch-4/HG2/tantra-b4-HG2-2026-11-26-bhaskar.gif?v=20261113212930",
       "name": "tantra-b4-HG2-2026-11-26-bhaskar.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -6117,20 +6139,20 @@ window.STUDIO = {
     "src": "batch-4/HG3",
     "title": "The Offer Ladder Worksheet",
     "files": [
-     "media/batch-4/HG3/poster.jpg?v=20261113212421"
+     "media/batch-4/HG3/poster.jpg?v=20261113212930"
     ],
-    "video": "media/batch-4/HG3/tantra-b4-HG3-2026-12-01-bhaskar.mp4?v=20261113212421",
+    "video": "media/batch-4/HG3/tantra-b4-HG3-2026-12-01-bhaskar.mp4?v=20261113212930",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-4/HG3/tantra-b4-HG3-2026-12-01-bhaskar.mp4?v=20261113212421",
+      "href": "media/batch-4/HG3/tantra-b4-HG3-2026-12-01-bhaskar.mp4?v=20261113212930",
       "name": "tantra-b4-HG3-2026-12-01-bhaskar.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 488400
      },
      {
-      "href": "media/batch-4/HG3/tantra-b4-HG3-2026-12-01-bhaskar.gif?v=20261113212421",
+      "href": "media/batch-4/HG3/tantra-b4-HG3-2026-12-01-bhaskar.gif?v=20261113212930",
       "name": "tantra-b4-HG3-2026-12-01-bhaskar.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -6270,20 +6292,20 @@ window.STUDIO = {
     "src": "batch-4/HG6",
     "title": "The 1-in-5 Post and DM Flow",
     "files": [
-     "media/batch-4/HG6/poster.jpg?v=20261113212421"
+     "media/batch-4/HG6/poster.jpg?v=20261113212930"
     ],
-    "video": "media/batch-4/HG6/tantra-b4-HG6-2026-12-03-bhaskar.mp4?v=20261113212421",
+    "video": "media/batch-4/HG6/tantra-b4-HG6-2026-12-03-bhaskar.mp4?v=20261113212930",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-4/HG6/tantra-b4-HG6-2026-12-03-bhaskar.mp4?v=20261113212421",
+      "href": "media/batch-4/HG6/tantra-b4-HG6-2026-12-03-bhaskar.mp4?v=20261113212930",
       "name": "tantra-b4-HG6-2026-12-03-bhaskar.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 421321
      },
      {
-      "href": "media/batch-4/HG6/tantra-b4-HG6-2026-12-03-bhaskar.gif?v=20261113212421",
+      "href": "media/batch-4/HG6/tantra-b4-HG6-2026-12-03-bhaskar.gif?v=20261113212930",
       "name": "tantra-b4-HG6-2026-12-03-bhaskar.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -6422,20 +6444,20 @@ window.STUDIO = {
     "src": "batch-4/NA1",
     "title": "The Calendar Invite Blueprint",
     "files": [
-     "media/batch-4/NA1/poster.jpg?v=20261113212421"
+     "media/batch-4/NA1/poster.jpg?v=20261113212930"
     ],
-    "video": "media/batch-4/NA1/tantra-b4-NA1-2026-11-24-nelbin.mp4?v=20261113212421",
+    "video": "media/batch-4/NA1/tantra-b4-NA1-2026-11-24-nelbin.mp4?v=20261113212930",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-4/NA1/tantra-b4-NA1-2026-11-24-nelbin.mp4?v=20261113212421",
+      "href": "media/batch-4/NA1/tantra-b4-NA1-2026-11-24-nelbin.mp4?v=20261113212930",
       "name": "tantra-b4-NA1-2026-11-24-nelbin.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 426301
      },
      {
-      "href": "media/batch-4/NA1/tantra-b4-NA1-2026-11-24-nelbin.gif?v=20261113212421",
+      "href": "media/batch-4/NA1/tantra-b4-NA1-2026-11-24-nelbin.gif?v=20261113212930",
       "name": "tantra-b4-NA1-2026-11-24-nelbin.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -6575,20 +6597,20 @@ window.STUDIO = {
     "src": "batch-4/NA2",
     "title": "The AI SDR System",
     "files": [
-     "media/batch-4/NA2/poster.jpg?v=20261113212421"
+     "media/batch-4/NA2/poster.jpg?v=20261113212930"
     ],
-    "video": "media/batch-4/NA2/tantra-b4-NA2-2026-11-26-nelbin.mp4?v=20261113212421",
+    "video": "media/batch-4/NA2/tantra-b4-NA2-2026-11-26-nelbin.mp4?v=20261113212930",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-4/NA2/tantra-b4-NA2-2026-11-26-nelbin.mp4?v=20261113212421",
+      "href": "media/batch-4/NA2/tantra-b4-NA2-2026-11-26-nelbin.mp4?v=20261113212930",
       "name": "tantra-b4-NA2-2026-11-26-nelbin.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 204207
      },
      {
-      "href": "media/batch-4/NA2/tantra-b4-NA2-2026-11-26-nelbin.gif?v=20261113212421",
+      "href": "media/batch-4/NA2/tantra-b4-NA2-2026-11-26-nelbin.gif?v=20261113212930",
       "name": "tantra-b4-NA2-2026-11-26-nelbin.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -6622,9 +6644,9 @@ window.STUDIO = {
    "resource": {
     "name": "The AI SDR System",
     "keyword": "SDR",
-    "what": "A 2-page PDF and page: who does what, the Claude setup, the timing for each channel and the two prompts that sort your list and write the first message.",
+    "what": "A 3-page PDF and page: who does what, the Claude setup, the timing for each channel and the two prompts that sort your list and write the first message.",
     "url": "https://adisuja.github.io/tantra-revops/ai-sdr-system/",
-    "pages": 2,
+    "pages": 3,
     "files": [
      {
       "label": "PDF",
@@ -6634,10 +6656,10 @@ window.STUDIO = {
     "preview": "resources/ai-sdr-system/"
    },
    "dm": {
-    "message": "Hi {first_name}, thanks for commenting SDR.\n\nHere's the AI SDR System:\nhttps://adisuja.github.io/tantra-revops/ai-sdr-system/\n\nIt's 2 pages: who does what, the Claude setup, the timing for each channel and the two prompts that sort your list and write the first message.\n\nWrite your fit rules first. Everything the AI does reads from them.\n\nWhich part of prospecting takes your team longest?",
+    "message": "Hi {first_name}, thanks for commenting SDR.\n\nHere's the AI SDR System:\nhttps://adisuja.github.io/tantra-revops/ai-sdr-system/\n\nIt's 3 pages: who does what, the Claude setup, the timing for each channel, the two prompts that sort your list and write the first message, and the four messages that run it in one chat.\n\nWrite your fit rules first. Everything the AI does reads from them.\n\nWhich part of prospecting takes your team longest?",
     "connect": "Hi {first_name}, you commented SDR on my post about an AI SDR that never sends without a yes. LinkedIn only lets me message connections, so accept this and I'll send it straight over. Nelbin",
     "email_subject": "Your AI SDR System",
-    "email_body": "Hi {first_name},\n\nYou commented SDR on my post about an AI SDR that never sends without a yes:\n[POST LINK]\n\nHere's the AI SDR System, as promised:\nhttps://adisuja.github.io/tantra-revops/ai-sdr-system/\n\nIt's 2 pages: who does what, the Claude setup, the timing for each channel and the two prompts that sort your list and write the first message. The link opens straight away, with no sign-up.\n\nWrite your fit rules first. Everything the AI does reads from them.\n\nWhich part of prospecting takes your team longest? Hit reply and tell me.\n\nNelbin\n\nP.S. You're getting this because you asked for it in the comments. If you'd rather not hear from me again, reply \"no\" and that's final."
+    "email_body": "Hi {first_name},\n\nYou commented SDR on my post about an AI SDR that never sends without a yes:\n[POST LINK]\n\nHere's the AI SDR System, as promised:\nhttps://adisuja.github.io/tantra-revops/ai-sdr-system/\n\nIt's 3 pages: who does what, the Claude setup, the timing for each channel, the two prompts that sort your list and write the first message, and the four messages that run it in one chat. The link opens straight away, with no sign-up.\n\nWrite your fit rules first. Everything the AI does reads from them.\n\nWhich part of prospecting takes your team longest? Hit reply and tell me.\n\nNelbin\n\nP.S. You're getting this because you asked for it in the comments. If you'd rather not hear from me again, reply \"no\" and that's final."
    },
    "key": "b4-NA2",
    "team_comments": [
@@ -6728,20 +6750,20 @@ window.STUDIO = {
     "src": "batch-4/NA3",
     "title": "The Outreach Limits Cheat Sheet",
     "files": [
-     "media/batch-4/NA3/poster.jpg?v=20261113212421"
+     "media/batch-4/NA3/poster.jpg?v=20261113212930"
     ],
-    "video": "media/batch-4/NA3/tantra-b4-NA3-2026-12-01-nelbin.mp4?v=20261113212421",
+    "video": "media/batch-4/NA3/tantra-b4-NA3-2026-12-01-nelbin.mp4?v=20261113212930",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-4/NA3/tantra-b4-NA3-2026-12-01-nelbin.mp4?v=20261113212421",
+      "href": "media/batch-4/NA3/tantra-b4-NA3-2026-12-01-nelbin.mp4?v=20261113212930",
       "name": "tantra-b4-NA3-2026-12-01-nelbin.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 330050
      },
      {
-      "href": "media/batch-4/NA3/tantra-b4-NA3-2026-12-01-nelbin.gif?v=20261113212421",
+      "href": "media/batch-4/NA3/tantra-b4-NA3-2026-12-01-nelbin.gif?v=20261113212930",
       "name": "tantra-b4-NA3-2026-12-01-nelbin.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -6880,20 +6902,20 @@ window.STUDIO = {
     "src": "batch-4/NA4",
     "title": "The Omni-Channel Outreach System",
     "files": [
-     "media/batch-4/NA4/poster.jpg?v=20261113212421"
+     "media/batch-4/NA4/poster.jpg?v=20261113212930"
     ],
-    "video": "media/batch-4/NA4/tantra-b4-NA4-2026-12-03-nelbin.mp4?v=20261113212421",
+    "video": "media/batch-4/NA4/tantra-b4-NA4-2026-12-03-nelbin.mp4?v=20261113212930",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-4/NA4/tantra-b4-NA4-2026-12-03-nelbin.mp4?v=20261113212421",
+      "href": "media/batch-4/NA4/tantra-b4-NA4-2026-12-03-nelbin.mp4?v=20261113212930",
       "name": "tantra-b4-NA4-2026-12-03-nelbin.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 196316
      },
      {
-      "href": "media/batch-4/NA4/tantra-b4-NA4-2026-12-03-nelbin.gif?v=20261113212421",
+      "href": "media/batch-4/NA4/tantra-b4-NA4-2026-12-03-nelbin.gif?v=20261113212930",
       "name": "tantra-b4-NA4-2026-12-03-nelbin.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -7032,20 +7054,20 @@ window.STUDIO = {
     "src": "batch-4/QA1",
     "title": "The AI Webinar Funnel System",
     "files": [
-     "media/batch-4/QA1/poster.jpg?v=20261113212421"
+     "media/batch-4/QA1/poster.jpg?v=20261113212930"
     ],
-    "video": "media/batch-4/QA1/tantra-b4-QA1-2026-11-26-aquila.mp4?v=20261113212421",
+    "video": "media/batch-4/QA1/tantra-b4-QA1-2026-11-26-aquila.mp4?v=20261113212930",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-4/QA1/tantra-b4-QA1-2026-11-26-aquila.mp4?v=20261113212421",
+      "href": "media/batch-4/QA1/tantra-b4-QA1-2026-11-26-aquila.mp4?v=20261113212930",
       "name": "tantra-b4-QA1-2026-11-26-aquila.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 394956
      },
      {
-      "href": "media/batch-4/QA1/tantra-b4-QA1-2026-11-26-aquila.gif?v=20261113212421",
+      "href": "media/batch-4/QA1/tantra-b4-QA1-2026-11-26-aquila.gif?v=20261113212930",
       "name": "tantra-b4-QA1-2026-11-26-aquila.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -7185,20 +7207,20 @@ window.STUDIO = {
     "src": "batch-4/QA2",
     "title": "The 13-Day Cold Email Thread",
     "files": [
-     "media/batch-4/QA2/poster.jpg?v=20261113212421"
+     "media/batch-4/QA2/poster.jpg?v=20261113212930"
     ],
-    "video": "media/batch-4/QA2/tantra-b4-QA2-2026-12-01-aquila.mp4?v=20261113212421",
+    "video": "media/batch-4/QA2/tantra-b4-QA2-2026-12-01-aquila.mp4?v=20261113212930",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-4/QA2/tantra-b4-QA2-2026-12-01-aquila.mp4?v=20261113212421",
+      "href": "media/batch-4/QA2/tantra-b4-QA2-2026-12-01-aquila.mp4?v=20261113212930",
       "name": "tantra-b4-QA2-2026-12-01-aquila.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 227655
      },
      {
-      "href": "media/batch-4/QA2/tantra-b4-QA2-2026-12-01-aquila.gif?v=20261113212421",
+      "href": "media/batch-4/QA2/tantra-b4-QA2-2026-12-01-aquila.gif?v=20261113212930",
       "name": "tantra-b4-QA2-2026-12-01-aquila.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -7336,20 +7358,20 @@ window.STUDIO = {
     "src": "batch-4/QA3",
     "title": "The Sales Call System",
     "files": [
-     "media/batch-4/QA3/poster.jpg?v=20261113212421"
+     "media/batch-4/QA3/poster.jpg?v=20261113212930"
     ],
-    "video": "media/batch-4/QA3/tantra-b4-QA3-2026-12-03-aquila.mp4?v=20261113212421",
+    "video": "media/batch-4/QA3/tantra-b4-QA3-2026-12-03-aquila.mp4?v=20261113212930",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-4/QA3/tantra-b4-QA3-2026-12-03-aquila.mp4?v=20261113212421",
+      "href": "media/batch-4/QA3/tantra-b4-QA3-2026-12-03-aquila.mp4?v=20261113212930",
       "name": "tantra-b4-QA3-2026-12-03-aquila.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 403147
      },
      {
-      "href": "media/batch-4/QA3/tantra-b4-QA3-2026-12-03-aquila.gif?v=20261113212421",
+      "href": "media/batch-4/QA3/tantra-b4-QA3-2026-12-03-aquila.gif?v=20261113212930",
       "name": "tantra-b4-QA3-2026-12-03-aquila.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -7489,20 +7511,20 @@ window.STUDIO = {
     "src": "batch-4/QA4",
     "title": "The 20-Customer Persona Scorecard",
     "files": [
-     "media/batch-4/QA4/poster.jpg?v=20261113212421"
+     "media/batch-4/QA4/poster.jpg?v=20261113212930"
     ],
-    "video": "media/batch-4/QA4/tantra-b4-QA4-2026-12-08-aquila.mp4?v=20261113212421",
+    "video": "media/batch-4/QA4/tantra-b4-QA4-2026-12-08-aquila.mp4?v=20261113212930",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-4/QA4/tantra-b4-QA4-2026-12-08-aquila.mp4?v=20261113212421",
+      "href": "media/batch-4/QA4/tantra-b4-QA4-2026-12-08-aquila.mp4?v=20261113212930",
       "name": "tantra-b4-QA4-2026-12-08-aquila.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 756872
      },
      {
-      "href": "media/batch-4/QA4/tantra-b4-QA4-2026-12-08-aquila.gif?v=20261113212421",
+      "href": "media/batch-4/QA4/tantra-b4-QA4-2026-12-08-aquila.gif?v=20261113212930",
       "name": "tantra-b4-QA4-2026-12-08-aquila.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -7643,18 +7665,18 @@ window.STUDIO = {
     "src": "batch-4/QC1",
     "title": "6 Pipeline Rules To Stop Deals Going Quiet",
     "files": [
-     "media/batch-4/QC1/p01.jpg?v=20261113212421",
-     "media/batch-4/QC1/p02.jpg?v=20261113212421",
-     "media/batch-4/QC1/p03.jpg?v=20261113212421",
-     "media/batch-4/QC1/p04.jpg?v=20261113212421",
-     "media/batch-4/QC1/p05.jpg?v=20261113212421",
-     "media/batch-4/QC1/p06.jpg?v=20261113212421",
-     "media/batch-4/QC1/p07.jpg?v=20261113212421",
-     "media/batch-4/QC1/p08.jpg?v=20261113212421",
-     "media/batch-4/QC1/p09.jpg?v=20261113212421"
+     "media/batch-4/QC1/p01.jpg?v=20261113212930",
+     "media/batch-4/QC1/p02.jpg?v=20261113212930",
+     "media/batch-4/QC1/p03.jpg?v=20261113212930",
+     "media/batch-4/QC1/p04.jpg?v=20261113212930",
+     "media/batch-4/QC1/p05.jpg?v=20261113212930",
+     "media/batch-4/QC1/p06.jpg?v=20261113212930",
+     "media/batch-4/QC1/p07.jpg?v=20261113212930",
+     "media/batch-4/QC1/p08.jpg?v=20261113212930",
+     "media/batch-4/QC1/p09.jpg?v=20261113212930"
     ],
     "download": {
-     "href": "media/batch-4/QC1/tantra-b4-QC1-2026-11-25-aquila.pdf?v=20261113212421",
+     "href": "media/batch-4/QC1/tantra-b4-QC1-2026-11-25-aquila.pdf?v=20261113212930",
      "name": "tantra-b4-QC1-2026-11-25-aquila.pdf",
      "ext": "pdf",
      "bytes": 1754700,
@@ -7781,18 +7803,18 @@ window.STUDIO = {
     "src": "batch-4/QC3",
     "title": "7 Things To Do In The First 48 Hours After A Client Pays",
     "files": [
-     "media/batch-4/QC3/p01.jpg?v=20261113212421",
-     "media/batch-4/QC3/p02.jpg?v=20261113212421",
-     "media/batch-4/QC3/p03.jpg?v=20261113212421",
-     "media/batch-4/QC3/p04.jpg?v=20261113212421",
-     "media/batch-4/QC3/p05.jpg?v=20261113212421",
-     "media/batch-4/QC3/p06.jpg?v=20261113212421",
-     "media/batch-4/QC3/p07.jpg?v=20261113212421",
-     "media/batch-4/QC3/p08.jpg?v=20261113212421",
-     "media/batch-4/QC3/p09.jpg?v=20261113212421"
+     "media/batch-4/QC3/p01.jpg?v=20261113212930",
+     "media/batch-4/QC3/p02.jpg?v=20261113212930",
+     "media/batch-4/QC3/p03.jpg?v=20261113212930",
+     "media/batch-4/QC3/p04.jpg?v=20261113212930",
+     "media/batch-4/QC3/p05.jpg?v=20261113212930",
+     "media/batch-4/QC3/p06.jpg?v=20261113212930",
+     "media/batch-4/QC3/p07.jpg?v=20261113212930",
+     "media/batch-4/QC3/p08.jpg?v=20261113212930",
+     "media/batch-4/QC3/p09.jpg?v=20261113212930"
     ],
     "download": {
-     "href": "media/batch-4/QC3/tantra-b4-QC3-2026-12-02-aquila.pdf?v=20261113212421",
+     "href": "media/batch-4/QC3/tantra-b4-QC3-2026-12-02-aquila.pdf?v=20261113212930",
      "name": "tantra-b4-QC3-2026-12-02-aquila.pdf",
      "ext": "pdf",
      "bytes": 1825386,
@@ -7916,18 +7938,18 @@ window.STUDIO = {
     "src": "batch-4/QC4",
     "title": "Two Types Of Automated Funnels: Autopilot And Assisted",
     "files": [
-     "media/batch-4/QC4/p01.jpg?v=20261113212421",
-     "media/batch-4/QC4/p02.jpg?v=20261113212421",
-     "media/batch-4/QC4/p03.jpg?v=20261113212421",
-     "media/batch-4/QC4/p04.jpg?v=20261113212421",
-     "media/batch-4/QC4/p05.jpg?v=20261113212421",
-     "media/batch-4/QC4/p06.jpg?v=20261113212421",
-     "media/batch-4/QC4/p07.jpg?v=20261113212421",
-     "media/batch-4/QC4/p08.jpg?v=20261113212421",
-     "media/batch-4/QC4/p09.jpg?v=20261113212421"
+     "media/batch-4/QC4/p01.jpg?v=20261113212930",
+     "media/batch-4/QC4/p02.jpg?v=20261113212930",
+     "media/batch-4/QC4/p03.jpg?v=20261113212930",
+     "media/batch-4/QC4/p04.jpg?v=20261113212930",
+     "media/batch-4/QC4/p05.jpg?v=20261113212930",
+     "media/batch-4/QC4/p06.jpg?v=20261113212930",
+     "media/batch-4/QC4/p07.jpg?v=20261113212930",
+     "media/batch-4/QC4/p08.jpg?v=20261113212930",
+     "media/batch-4/QC4/p09.jpg?v=20261113212930"
     ],
     "download": {
-     "href": "media/batch-4/QC4/tantra-b4-QC4-2026-12-09-aquila.pdf?v=20261113212421",
+     "href": "media/batch-4/QC4/tantra-b4-QC4-2026-12-09-aquila.pdf?v=20261113212930",
      "name": "tantra-b4-QC4-2026-12-09-aquila.pdf",
      "ext": "pdf",
      "bytes": 1949334,
@@ -8051,20 +8073,20 @@ window.STUDIO = {
     "src": "batch-4/QG5",
     "title": "The 7-Day Proposal Follow-Up",
     "files": [
-     "media/batch-4/QG5/poster.jpg?v=20261113212421"
+     "media/batch-4/QG5/poster.jpg?v=20261113212930"
     ],
-    "video": "media/batch-4/QG5/tantra-b4-QG5-2026-11-24-aquila.mp4?v=20261113212421",
+    "video": "media/batch-4/QG5/tantra-b4-QG5-2026-11-24-aquila.mp4?v=20261113212930",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-4/QG5/tantra-b4-QG5-2026-11-24-aquila.mp4?v=20261113212421",
+      "href": "media/batch-4/QG5/tantra-b4-QG5-2026-11-24-aquila.mp4?v=20261113212930",
       "name": "tantra-b4-QG5-2026-11-24-aquila.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 330702
      },
      {
-      "href": "media/batch-4/QG5/tantra-b4-QG5-2026-11-24-aquila.gif?v=20261113212421",
+      "href": "media/batch-4/QG5/tantra-b4-QG5-2026-11-24-aquila.gif?v=20261113212930",
       "name": "tantra-b4-QG5-2026-11-24-aquila.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -8205,20 +8227,20 @@ window.STUDIO = {
     "src": "batch-4/RA1",
     "title": "The Clean Domain Sending Checklist",
     "files": [
-     "media/batch-4/RA1/poster.jpg?v=20261113212421"
+     "media/batch-4/RA1/poster.jpg?v=20261113212930"
     ],
-    "video": "media/batch-4/RA1/tantra-b4-RA1-2026-11-26-bharath.mp4?v=20261113212421",
+    "video": "media/batch-4/RA1/tantra-b4-RA1-2026-11-26-bharath.mp4?v=20261113212930",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-4/RA1/tantra-b4-RA1-2026-11-26-bharath.mp4?v=20261113212421",
+      "href": "media/batch-4/RA1/tantra-b4-RA1-2026-11-26-bharath.mp4?v=20261113212930",
       "name": "tantra-b4-RA1-2026-11-26-bharath.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 290264
      },
      {
-      "href": "media/batch-4/RA1/tantra-b4-RA1-2026-11-26-bharath.gif?v=20261113212421",
+      "href": "media/batch-4/RA1/tantra-b4-RA1-2026-11-26-bharath.gif?v=20261113212930",
       "name": "tantra-b4-RA1-2026-11-26-bharath.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -8357,20 +8379,20 @@ window.STUDIO = {
     "src": "batch-4/RA2",
     "title": "The AI SDR System",
     "files": [
-     "media/batch-4/RA2/poster.jpg?v=20261113212421"
+     "media/batch-4/RA2/poster.jpg?v=20261113212930"
     ],
-    "video": "media/batch-4/RA2/tantra-b4-RA2-2026-12-01-bharath.mp4?v=20261113212421",
+    "video": "media/batch-4/RA2/tantra-b4-RA2-2026-12-01-bharath.mp4?v=20261113212930",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-4/RA2/tantra-b4-RA2-2026-12-01-bharath.mp4?v=20261113212421",
+      "href": "media/batch-4/RA2/tantra-b4-RA2-2026-12-01-bharath.mp4?v=20261113212930",
       "name": "tantra-b4-RA2-2026-12-01-bharath.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 232347
      },
      {
-      "href": "media/batch-4/RA2/tantra-b4-RA2-2026-12-01-bharath.gif?v=20261113212421",
+      "href": "media/batch-4/RA2/tantra-b4-RA2-2026-12-01-bharath.gif?v=20261113212930",
       "name": "tantra-b4-RA2-2026-12-01-bharath.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -8404,9 +8426,9 @@ window.STUDIO = {
    "resource": {
     "name": "The AI SDR System",
     "keyword": "SDR",
-    "what": "A 2-page PDF and page: who does what, the Claude setup, the timing for each channel and the two prompts that sort your list and write the first message.",
+    "what": "A 3-page PDF and page: who does what, the Claude setup, the timing for each channel and the two prompts that sort your list and write the first message.",
     "url": "https://adisuja.github.io/tantra-revops/ai-sdr-system/",
-    "pages": 2,
+    "pages": 3,
     "files": [
      {
       "label": "PDF",
@@ -8416,10 +8438,10 @@ window.STUDIO = {
     "preview": "resources/ai-sdr-system/"
    },
    "dm": {
-    "message": "Hi {first_name}, thanks for commenting SDR.\n\nHere's the AI SDR System:\nhttps://adisuja.github.io/tantra-revops/ai-sdr-system/\n\nIt's 2 pages: who does what, the Claude setup, the timing for each channel and the two prompts that sort your list and write the first message. It shows you how to set up the six files from the post: brief, fit rules, sort prompt, first message, follow-up timing and approvals.\n\nWrite your fit rules first. Everything the AI does reads from them.\n\nWhat does your SDR team spend the first hours of the day on?",
+    "message": "Hi {first_name}, thanks for commenting SDR.\n\nHere's the AI SDR System:\nhttps://adisuja.github.io/tantra-revops/ai-sdr-system/\n\nIt's 3 pages: who does what, the Claude setup, the timing for each channel, the two prompts that sort your list and write the first message, and the four messages that run it in one chat. It shows you how to set up the six files from the post: brief, fit rules, sort prompt, first message, follow-up timing and approvals.\n\nWrite your fit rules first. Everything the AI does reads from them.\n\nWhat does your SDR team spend the first hours of the day on?",
     "connect": "Hi {first_name}, you commented SDR on my post about the AI SDR system in one folder. LinkedIn only lets me message connections, so accept this and I'll send it straight over. Bharath",
     "email_subject": "Your AI SDR System",
-    "email_body": "Hi {first_name},\n\nYou commented SDR on my post about the AI SDR system in one folder:\n[POST LINK]\n\nHere's the AI SDR System, as promised:\nhttps://adisuja.github.io/tantra-revops/ai-sdr-system/\n\nIt's 2 pages: who does what, the Claude setup, the timing for each channel and the two prompts that sort your list and write the first message. It shows you how to set up the six files from the post: brief, fit rules, sort prompt, first message, follow-up timing and approvals. The link opens straight away, with no sign-up.\n\nWrite your fit rules first. Everything the AI does reads from them.\n\nWhat does your SDR team spend the first hours of the day on? Hit reply and tell me.\n\nBharath\n\nP.S. You're getting this because you asked for it in the comments. If you'd rather not hear from me again, reply \"no\" and that's final."
+    "email_body": "Hi {first_name},\n\nYou commented SDR on my post about the AI SDR system in one folder:\n[POST LINK]\n\nHere's the AI SDR System, as promised:\nhttps://adisuja.github.io/tantra-revops/ai-sdr-system/\n\nIt's 3 pages: who does what, the Claude setup, the timing for each channel, the two prompts that sort your list and write the first message, and the four messages that run it in one chat. It shows you how to set up the six files from the post: brief, fit rules, sort prompt, first message, follow-up timing and approvals. The link opens straight away, with no sign-up.\n\nWrite your fit rules first. Everything the AI does reads from them.\n\nWhat does your SDR team spend the first hours of the day on? Hit reply and tell me.\n\nBharath\n\nP.S. You're getting this because you asked for it in the comments. If you'd rather not hear from me again, reply \"no\" and that's final."
    },
    "key": "b4-RA2",
    "team_comments": [
@@ -8510,20 +8532,20 @@ window.STUDIO = {
     "src": "batch-4/RA3",
     "title": "The Claude Funnel Prompt Pack",
     "files": [
-     "media/batch-4/RA3/poster.jpg?v=20261113212421"
+     "media/batch-4/RA3/poster.jpg?v=20261113212930"
     ],
-    "video": "media/batch-4/RA3/tantra-b4-RA3-2026-12-03-bharath.mp4?v=20261113212421",
+    "video": "media/batch-4/RA3/tantra-b4-RA3-2026-12-03-bharath.mp4?v=20261113212930",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-4/RA3/tantra-b4-RA3-2026-12-03-bharath.mp4?v=20261113212421",
+      "href": "media/batch-4/RA3/tantra-b4-RA3-2026-12-03-bharath.mp4?v=20261113212930",
       "name": "tantra-b4-RA3-2026-12-03-bharath.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 262898
      },
      {
-      "href": "media/batch-4/RA3/tantra-b4-RA3-2026-12-03-bharath.gif?v=20261113212421",
+      "href": "media/batch-4/RA3/tantra-b4-RA3-2026-12-03-bharath.gif?v=20261113212930",
       "name": "tantra-b4-RA3-2026-12-03-bharath.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -8660,20 +8682,20 @@ window.STUDIO = {
     "src": "batch-4/RA4",
     "title": "The 9-Block Registration Page Blueprint",
     "files": [
-     "media/batch-4/RA4/poster.jpg?v=20261113212421"
+     "media/batch-4/RA4/poster.jpg?v=20261113212930"
     ],
-    "video": "media/batch-4/RA4/tantra-b4-RA4-2026-12-08-bharath.mp4?v=20261113212421",
+    "video": "media/batch-4/RA4/tantra-b4-RA4-2026-12-08-bharath.mp4?v=20261113212930",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-4/RA4/tantra-b4-RA4-2026-12-08-bharath.mp4?v=20261113212421",
+      "href": "media/batch-4/RA4/tantra-b4-RA4-2026-12-08-bharath.mp4?v=20261113212930",
       "name": "tantra-b4-RA4-2026-12-08-bharath.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 336335
      },
      {
-      "href": "media/batch-4/RA4/tantra-b4-RA4-2026-12-08-bharath.gif?v=20261113212421",
+      "href": "media/batch-4/RA4/tantra-b4-RA4-2026-12-08-bharath.gif?v=20261113212930",
       "name": "tantra-b4-RA4-2026-12-08-bharath.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -8812,20 +8834,20 @@ window.STUDIO = {
     "src": "batch-4/RG6",
     "title": "The Segment Map",
     "files": [
-     "media/batch-4/RG6/poster.jpg?v=20261113212421"
+     "media/batch-4/RG6/poster.jpg?v=20261113212930"
     ],
-    "video": "media/batch-4/RG6/tantra-b4-RG6-2026-11-24-bharath.mp4?v=20261113212421",
+    "video": "media/batch-4/RG6/tantra-b4-RG6-2026-11-24-bharath.mp4?v=20261113212930",
     "tall": false,
     "sets": [
      {
-      "href": "media/batch-4/RG6/tantra-b4-RG6-2026-11-24-bharath.mp4?v=20261113212421",
+      "href": "media/batch-4/RG6/tantra-b4-RG6-2026-11-24-bharath.mp4?v=20261113212930",
       "name": "tantra-b4-RG6-2026-11-24-bharath.mp4",
       "ext": "mp4",
       "label": "Download MP4",
       "bytes": 639220
      },
      {
-      "href": "media/batch-4/RG6/tantra-b4-RG6-2026-11-24-bharath.gif?v=20261113212421",
+      "href": "media/batch-4/RG6/tantra-b4-RG6-2026-11-24-bharath.gif?v=20261113212930",
       "name": "tantra-b4-RG6-2026-11-24-bharath.gif",
       "ext": "gif",
       "label": "Download GIF",
@@ -8936,6 +8958,168 @@ window.STUDIO = {
      "by": "bharath",
      "tone": "reply",
      "text": "Fewer segments, better invites. If you keep needing more, the fit rules are probably too loose.",
+     "reply_to": 8
+    }
+   ]
+  },
+  {
+   "id": "AG7",
+   "batch": "5",
+   "profile": "adi",
+   "platform": "linkedin",
+   "status": "ready",
+   "time": "08:30",
+   "cta": "",
+   "date": "2026-12-01",
+   "short": "An entire SDR agency inside one Claude chat",
+   "pillar": "Reach every buyer",
+   "idea": "Replace the SDR agency with one Claude chat that runs the six jobs of the AI SDR System (find, check, sort, write, follow up) while a person approves every message and takes every call.",
+   "format": "Image · animated giveaway",
+   "sample": {
+    "id": "AH01",
+    "creator": "Ahad Shams",
+    "what": "Animated six-job chat agent run: fixed shell, typed prompts that jump into bubbles, six chips that tick in order, one result card per job, dark CTA pill with a terracotta keyword pill; in the sample's cream, ink, terracotta and green; copy on its agency-replacement template with six 'Job | qualifier' blocks"
+   },
+   "copy_basis": "AH01 template: all-caps GOODBYE / HELLO hook, a one-line claim with a count triple, six 'Job | qualifier' blocks broken into short lines with U+2800 spacers, a three-line rhythm close, the free-access line and a PS that jabs the old option (the sample's closing beat in our own words; no pointer line, since AG6 already ended on one)",
+   "media": {
+    "type": "video",
+    "src": "batch-5/AG7",
+    "title": "The AI SDR System",
+    "files": [
+     "media/batch-5/AG7/poster.jpg?v=20261113212930"
+    ],
+    "video": "media/batch-5/AG7/tantra-b5-AG7-2026-12-01-adi.mp4?v=20261113212930",
+    "tall": false,
+    "sets": [
+     {
+      "href": "media/batch-5/AG7/tantra-b5-AG7-2026-12-01-adi.mp4?v=20261113212930",
+      "name": "tantra-b5-AG7-2026-12-01-adi.mp4",
+      "ext": "mp4",
+      "label": "Download MP4",
+      "bytes": 742058
+     },
+     {
+      "href": "media/batch-5/AG7/tantra-b5-AG7-2026-12-01-adi.gif?v=20261113212930",
+      "name": "tantra-b5-AG7-2026-12-01-adi.gif",
+      "ext": "gif",
+      "label": "Download GIF",
+      "bytes": 2682765
+     }
+    ]
+   },
+   "text": "GOODBYE SDR AGENCIES. HELLO CLAUDE.\n⠀\nI turned an entire SDR agency into one Claude chat. 4 prompts, 6 jobs, and nothing goes out without your yes.\n⠀\nFind | one list\nMerges your CRM, LinkedIn searches\nand past sign-ups into one list.\nDuplicates out by email.\n⠀\nCheck | every company\nReads each site and recent posts.\nCuts the wrong fits before\nanyone writes to them.\n⠀\nSort | by segment\nPuts each buyer in the segment\ntheir message is written for.\n⠀\nWrite | A and B versions\nOne message per segment.\nMerge fields only. No fake\npersonal lines.\n⠀\nFollow up | on each channel's clock\nEmails on days 0, 3, 6, 9 and 13.\n15 to 20 LinkedIn requests a day.\nA reply stops everything.\n⠀\nCalls | yours\nThe one job it never does.\nYou take every call.\n⠀\nFour prompts.\nOne chat.\nYou approve every message.\n⠀\nFree access to the whole system.\n⠀\nPS. It also never bills you per meeting booked.",
+   "first_comment": "Comment SDR and I'll DM you the AI SDR System. Three pages: who does each of the six jobs (AI or you), the Claude project setup, the timing for every channel, the two prompts that sort your list and write the first message, and the four messages that run it in one chat. Not connected yet? I'll send a request first.",
+   "sources": [
+    "content/corpus/facts.md: EW-24, EW-25, EW-31, EW-36",
+    "content/corpus/giveaway-assets.md (A1)",
+    "content/corpus/taxonomy-samples/AH01.md"
+   ],
+   "numbers_for_signoff": [
+    "emails on days 0, 3, 6, 9 and 13 (EW-24)",
+    "15 to 20 LinkedIn requests a day per profile, withdraw after 14 days, note under 300 characters (EW-25)",
+    "the first 25 sorted rows checked by a person (EW-36)",
+    "8am to 8pm their time, separate warmed domains (EW-31)",
+    "first email under 80 words with one link (the resource's Prompt 2, inside EW-24)",
+    "'Claude Fable 5.2' on the asset (capsule and model pill), as the sample names its model: confirm on the publish date",
+    "the rows on the source, fit-check and segment cards are marked as examples on the card"
+   ],
+   "flags": [
+    "The keyword is on the asset's bottom pill and in the first comment, never in the post copy.",
+    "The resource is the existing AI SDR System (giveaway-assets.md A1), also offered by Nelbin, Bharath and Ben in batch 4: allowed across profiles (RULES.md 0a, 0b); new for Adi. Its page 3 (the four chat messages and the pre-send checks) was added for this post, so it is now 3 pages; the three batch 4 DMs were updated to say so.",
+    "The six chips on the asset, the six copy blocks and the six steps on page 1 of the resource are the same six jobs; the four typed messages on the asset are on page 3.",
+    "Voice: the post follows its sample's copy template, as every batch 3 and 4 giveaway did, so it hits 2 of the 4 signature moves (named specifics, a list with a short close). Say if you want one candid line of your own added after the claim.",
+    "Closes on a PS, not a pointer line: your previous giveaway (AG6, 25 Nov) ended on one.",
+    "Second-model review (Fable) run on 13 Nov: every media and copy fix applied (log in outputs/content/batch-5/BUILD_STATE_B5.md)."
+   ],
+   "visual_label": "On the asset (animated 4:5, 9s)",
+   "visual_copy": [
+    "Claude Fable 5.2 · one project · one brief · one list",
+    "An ENTIRE SDR Agency inside one Claude chat.",
+    "Six chips: Find, Check, Sort, Write, Follow up (tick green), Calls (ends as 'yours')",
+    "Prompts: Find the buyers who fit. Check every company. / Sort them into segments. / Write the first messages. Line up the follow-ups. / Send what I approve. Hand me every reply.",
+    "Cards: One list from 3 sources (example rows, duplicates struck); Fit check on every company (example rows); Segments, one message each; First messages, A and B per segment; Follow-ups on each channel's timing; Before anything sends, with who does each job",
+    "Comment SDR and I'll send you the full setup, free"
+   ],
+   "resource": {
+    "name": "The AI SDR System",
+    "keyword": "SDR",
+    "what": "A 3-page PDF and page: who does what, the Claude setup, the timing for each channel and the two prompts that sort your list and write the first message.",
+    "url": "https://adisuja.github.io/tantra-revops/ai-sdr-system/",
+    "pages": 3,
+    "files": [
+     {
+      "label": "PDF",
+      "href": "resources/ai-sdr-system/ai-sdr-system.pdf"
+     }
+    ],
+    "preview": "resources/ai-sdr-system/"
+   },
+   "dm": {
+    "message": "Hi {first_name}, thanks for commenting SDR.\n\nHere's the AI SDR System:\nhttps://adisuja.github.io/tantra-revops/ai-sdr-system/\n\nIt's 3 pages: who does each of the six jobs from the post, the Claude setup, the timing for each channel, the two prompts that sort your list and write the first message, and the four messages that run it in one chat.\n\nWrite your fit rules first. Everything the AI does reads from them.\n\nWhich of the six jobs eats most of your team's week?",
+    "connect": "Hi {first_name}, you commented SDR on my post about an entire SDR agency inside one Claude chat. LinkedIn only lets me message connections, so accept this and I'll send it straight over. Adi",
+    "email_subject": "Your AI SDR System",
+    "email_body": "Hi {first_name},\n\nYou commented SDR on my post about an entire SDR agency inside one Claude chat:\n[POST LINK]\n\nHere's the AI SDR System, as promised:\nhttps://adisuja.github.io/tantra-revops/ai-sdr-system/\n\nIt's 3 pages: who does each of the six jobs from the post, the Claude setup, the timing for each channel, the two prompts that sort your list and write the first message, and the four messages that run it in one chat. The link opens straight away, with no sign-up.\n\nWrite your fit rules first. Everything the AI does reads from them.\n\nWhich of the six jobs eats most of your team's week? Hit reply and tell me.\n\nAdi\n\nP.S. You're getting this because you asked for it in the comments. If you'd rather not hear from me again, reply \"no\" and that's final."
+   },
+   "key": "b5-AG7",
+   "team_comments": [
+    {
+     "by": "bharath",
+     "tone": "positive",
+     "text": "The part I like most is the merge before anything else. Three sources, one list, duplicates out by email. Skip that step and the same founder can get three different first messages from your team in one week 😅",
+     "reply_to": null
+    },
+    {
+     "by": "adi",
+     "tone": "reply",
+     "text": "Exactly why Find comes first and not Write. A clean list makes every later job cheaper, and nobody hears from us twice.",
+     "reply_to": 0
+    },
+    {
+     "by": "aquila",
+     "tone": "question",
+     "text": "Does a LinkedIn reply stop the email steps too?",
+     "reply_to": null
+    },
+    {
+     "by": "adi",
+     "tone": "reply",
+     "text": "Everything stops, on every channel. A reply anywhere ends the sequence for that person and someone on the team answers it in their own words.",
+     "reply_to": 2
+    },
+    {
+     "by": "bhaskar",
+     "tone": "differs",
+     "text": "I'd push back a little on \"Calls | yours\". Booking is where most SDR time goes, not the call itself. Why not let it book too?",
+     "reply_to": null
+    },
+    {
+     "by": "adi",
+     "tone": "reply",
+     "text": "Fair point, Bhaskar, and the booking link can go out in an approved message. But the moment a real person says yes, I want a person on the other end. That handover is where trust is won or lost 🤝",
+     "reply_to": 4
+    },
+    {
+     "by": "ben",
+     "tone": "feedback",
+     "text": "Would add one line to Write: test A against B on the same segment in the same week. Otherwise you're comparing two different lists, not two messages.",
+     "reply_to": null
+    },
+    {
+     "by": "adi",
+     "tone": "reply",
+     "text": "Good call. Adding it to the setup notes.",
+     "reply_to": 6
+    },
+    {
+     "by": "nelbin",
+     "tone": "positive",
+     "text": "\"Nothing goes out without your yes\" is the line that matters for most founders I talk to. They don't fear the AI writing. They fear it sending.",
+     "reply_to": null
+    },
+    {
+     "by": "adi",
+     "tone": "reply",
+     "text": "That's the whole design. It drafts, sorts and queues all day. Sending waits for a person, every time.",
      "reply_to": 8
     }
    ]
